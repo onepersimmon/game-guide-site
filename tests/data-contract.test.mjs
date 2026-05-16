@@ -11,6 +11,9 @@ const builds = JSON.parse(
 const ascendancies = JSON.parse(
   readFileSync("/Users/persimmon/project/game-guide-site/data/ascendancies.json", "utf8"),
 );
+const gggNews = JSON.parse(
+  readFileSync("/Users/persimmon/project/game-guide-site/data/ggg-news.json", "utf8"),
+);
 
 test("maps data follows expected contract", () => {
   assert.equal(Array.isArray(maps), true);
@@ -91,6 +94,24 @@ test("ascendancy data follows expected contract", () => {
         assert.ok(ascendancy[key] !== undefined, `missing ascendancy key: ${key}`);
       });
       assert.ok(ascendancy.localized.en.name);
+    });
+  });
+});
+
+test("GGG news data follows expected contract", () => {
+  assert.ok(gggNews.updatedAt);
+  assert.equal(gggNews.source.name, "Path of Exile 2 Official News");
+  assert.ok(Array.isArray(gggNews.items));
+  assert.ok(gggNews.items.length > 0);
+
+  gggNews.items.forEach((item) => {
+    ["id", "title", "date", "summary", "href", "category", "localized"].forEach((key) => {
+      assert.ok(item[key] !== undefined, `missing GGG news key: ${key}`);
+    });
+    assert.match(item.href, /^https:\/\/(www\.)?pathofexile/);
+    ["title", "summary", "category"].forEach((key) => {
+      assert.ok(item.localized.zh[key], `missing zh GGG news field: ${key}`);
+      assert.ok(item.localized.en[key], `missing en GGG news field: ${key}`);
     });
   });
 });

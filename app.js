@@ -2,6 +2,7 @@ const MAPS_URL = "./data/maps.json";
 const BUILDS_URL = "./data/builds.json";
 const WORLD_MAPS_URL = "./data/world-maps.json";
 const ASCENDANCIES_URL = "./data/ascendancies.json";
+const GGG_NEWS_URL = "./data/ggg-news.json";
 const DEFAULT_LANGUAGE = "zh";
 const SUPPORTED_LANGUAGES = ["zh", "en"];
 
@@ -9,12 +10,18 @@ const UI_COPY = {
   zh: {
     documentTitle: "POE2 开荒攻略站",
     documentDescription: "流放之路 2 开荒地图、升华职业预览与 poe.ninja 热门 BD 本地缓存。",
-    hero: {
-      eyebrow: "POE2 Guide",
-      title: "开荒攻略 + 职业预览 + 最新 BD",
-      copy: "适合开荒时顺手查章节地图、奖励掉落、升华差异和忍者网热门职业排行。核心数据由爬虫同步后本地缓存。",
-      mapsLoading: "0 张地图",
-      buildsLoading: "BD 数据加载中",
+    site: {
+      kicker: "POE2 Guide",
+      title: "POE2 开荒攻略站",
+      copy: "章节地图、升华职业和忍者网 BD 都走本地缓存；顶部直接看 GGG 官方蓝贴。",
+    },
+    news: {
+      kicker: "GGG 蓝贴",
+      title: "官方公告",
+      openAll: "打开官网新闻",
+      open: "查看原帖",
+      empty: "GGG 公告还没同步到本地。",
+      source: "官方源",
     },
     tabs: {
       label: "内容切换",
@@ -81,12 +88,18 @@ const UI_COPY = {
   en: {
     documentTitle: "POE2 Campaign Guide",
     documentDescription: "Path of Exile 2 campaign maps, ascendancy previews, and cached poe.ninja build trends.",
-    hero: {
-      eyebrow: "POE2 Guide",
-      title: "Campaign Guide + Classes + Current Builds",
-      copy: "A campaign companion for checking chapter maps, rewards, ascendancy differences, and poe.ninja class rankings from locally cached crawler data.",
-      mapsLoading: "0 maps",
-      buildsLoading: "Build data loading",
+    site: {
+      kicker: "POE2 Guide",
+      title: "POE2 Campaign Guide",
+      copy: "Campaign maps, ascendancies, and poe.ninja builds are cached locally, with official GGG blue posts up top.",
+    },
+    news: {
+      kicker: "GGG Blue Posts",
+      title: "Official Announcements",
+      openAll: "Open official news",
+      open: "Read source",
+      empty: "GGG announcements have not been synced locally yet.",
+      source: "Official source",
     },
     tabs: {
       label: "Content switcher",
@@ -196,6 +209,10 @@ function getLocalizedBuild(build, language = DEFAULT_LANGUAGE) {
   ]);
 }
 
+function getLocalizedNewsItem(item, language = DEFAULT_LANGUAGE) {
+  return localizeObject(item, language, ["title", "summary", "category"]);
+}
+
 function getLocalizedAscendancyClass(ascendancyClass, language = DEFAULT_LANGUAGE) {
   return localizeObject(ascendancyClass, language, ["name"]);
 }
@@ -243,6 +260,18 @@ function formatUpdatedLabel(updatedAt, language = DEFAULT_LANGUAGE) {
   })}`;
 }
 
+function formatShortDate(value, language = DEFAULT_LANGUAGE) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return "";
+  }
+
+  return date.toLocaleDateString(normalizeLanguage(language) === "en" ? "en-US" : "zh-CN", {
+    month: "short",
+    day: "numeric",
+  });
+}
+
 function createFilterButton(tag, activeTag) {
   return `
     <button
@@ -253,6 +282,33 @@ function createFilterButton(tag, activeTag) {
       ${tag.label}
     </button>
   `;
+}
+
+function renderGggNewsItem(item, language = DEFAULT_LANGUAGE) {
+  const copy = getUiCopy(language).news;
+  const localizedItem = getLocalizedNewsItem(item, language);
+
+  return `
+    <a class="ggg-news-item" href="${item.href}" target="_blank" rel="noopener">
+      <span class="ggg-news-item__date">${formatShortDate(item.date, language)}</span>
+      <span class="ggg-news-item__body">
+        <strong>${localizedItem.title}</strong>
+        <small>${localizedItem.category} · ${copy.open}</small>
+      </span>
+    </a>
+  `;
+}
+
+function renderGggNews(newsPayload, language = DEFAULT_LANGUAGE) {
+  const newsRoot = document.querySelector("#ggg-news-list");
+  if (!newsRoot) {
+    return;
+  }
+
+  const copy = getUiCopy(language).news;
+  newsRoot.innerHTML = newsPayload.items?.length
+    ? newsPayload.items.map((item) => renderGggNewsItem(item, language)).join("")
+    : `<div class="empty-state empty-state--compact">${copy.empty}</div>`;
 }
 
 function renderMapCard(map, language = DEFAULT_LANGUAGE) {
@@ -541,18 +597,10 @@ function translateShell(language) {
 
 function renderApp(state) {
   translateShell(state.language);
+  renderGggNews(state.gggNews, state.language);
   renderWorldMaps(state);
   renderClasses(state);
   renderBuilds(state.buildsPayload, state.language);
-
-  document.querySelector("#maps-count").textContent = getUiCopy(state.language).world.count(
-    state.worldMaps.maps.length,
-    countAscendancies(state.ascendancies),
-  );
-  document.querySelector("#builds-updated").textContent = formatUpdatedLabel(
-    state.buildsPayload.updatedAt,
-    state.language,
-  );
 }
 
 function setupTabs() {
@@ -631,16 +679,18 @@ async function loadAppData() {
       worldMaps: readEmbeddedJson("world-maps-data"),
       ascendancies: readEmbeddedJson("ascendancies-data"),
       buildsPayload: readEmbeddedJson("builds-data"),
+      gggNews: readEmbeddedJson("ggg-news-data"),
     };
   }
 
-  const [worldMaps, ascendancies, buildsPayload] = await Promise.all([
+  const [worldMaps, ascendancies, buildsPayload, gggNews] = await Promise.all([
     loadJson(WORLD_MAPS_URL),
     loadJson(ASCENDANCIES_URL),
     loadJson(BUILDS_URL),
+    loadJson(GGG_NEWS_URL),
   ]);
 
-  return { worldMaps, ascendancies, buildsPayload };
+  return { worldMaps, ascendancies, buildsPayload, gggNews };
 }
 
 async function initApp() {
@@ -653,15 +703,17 @@ async function initApp() {
     worldMaps: { source: { name: "" }, maps: [] },
     ascendancies: { source: { name: "" }, classes: [] },
     buildsPayload: { updatedAt: null, builds: [] },
+    gggNews: { source: { name: "" }, items: [] },
   };
 
   setupLanguageSwitcher(state);
 
   try {
-    const { worldMaps, ascendancies, buildsPayload } = await loadAppData();
+    const { worldMaps, ascendancies, buildsPayload, gggNews } = await loadAppData();
     state.worldMaps = worldMaps;
     state.ascendancies = ascendancies;
     state.buildsPayload = buildsPayload;
+    state.gggNews = gggNews;
     renderApp(state);
 
     document.querySelector("#world-map-tabs").addEventListener("click", (event) => {
@@ -677,6 +729,7 @@ async function initApp() {
   } catch (error) {
     const message = `<div class="empty-state">${getUiCopy(state.language).error}</div>`;
     document.querySelector("#world-map-view").innerHTML = message;
+    document.querySelector("#ggg-news-list").innerHTML = message;
     document.querySelector("#classes-grid").innerHTML = message;
     document.querySelector("#builds-grid").innerHTML = message;
     document.querySelector("#builds-summary").innerHTML = message;

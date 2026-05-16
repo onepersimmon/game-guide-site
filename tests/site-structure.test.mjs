@@ -9,6 +9,7 @@ const requiredFiles = [
   "/Users/persimmon/project/game-guide-site/data/maps.json",
   "/Users/persimmon/project/game-guide-site/data/builds.json",
   "/Users/persimmon/project/game-guide-site/data/ascendancies.json",
+  "/Users/persimmon/project/game-guide-site/data/ggg-news.json",
 ];
 
 test("site scaffold files exist", () => {

@@ -13,12 +13,15 @@ test("page includes segmented tabs and content panels", () => {
   assert.match(html, /id="builds-panel"/);
   assert.match(html, /id="world-map-tabs"/);
   assert.match(html, /id="world-map-view"/);
+  assert.match(html, /id="ggg-news-list"/);
   assert.match(html, /id="classes-grid"/);
   assert.match(html, /id="builds-grid"/);
 });
 
 test("page exposes a language switcher", () => {
   assert.match(html, /data-language-switcher/);
+  assert.match(html, /data-i18n="site\.title"/);
+  assert.match(html, /data-i18n="news\.title"/);
   assert.match(html, /data-i18n="tabs\.world"/);
   assert.match(html, /data-i18n="tabs\.classes"/);
   assert.match(html, /data-i18n="tabs\.builds"/);
@@ -29,6 +32,14 @@ test("page embeds local data for file protocol rendering", () => {
   assert.match(html, /<script id="ascendancies-data" type="application\/json">/);
   assert.match(html, /<script id="maps-data" type="application\/json">/);
   assert.match(html, /<script id="builds-data" type="application\/json">/);
+  assert.match(html, /<script id="ggg-news-data" type="application\/json">/);
+});
+
+test("page replaces the large hero with a compact GGG news list", () => {
+  assert.doesNotMatch(html, /class="hero"/);
+  assert.doesNotMatch(html, /hero__glass/);
+  assert.match(html, /class="site-top"/);
+  assert.match(html, /class="ggg-news"/);
 });
 
 test("page includes inline fallback renderer for local file mode", () => {

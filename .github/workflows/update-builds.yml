@@ -27,6 +27,9 @@ jobs:
       - name: Crawl map guide sources
         run: node ./scripts/fetch-map-guides.mjs
 
+      - name: Crawl GGG official news
+        run: node ./scripts/fetch-ggg-news.mjs
+
       - name: Refresh embedded HTML data
         run: node ./scripts/embed-local-data.mjs
 
@@ -34,6 +37,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html data/builds.json data/ascendancies.json data/map-guide-cache.json data/crawled assets/images/builds assets/images/hero
+          git add index.html data/builds.json data/ascendancies.json data/ggg-news.json data/map-guide-cache.json data/crawled assets/images/builds assets/images/hero
           git diff --cached --quiet || git commit -m "chore: refresh poe2 build data"
           git push

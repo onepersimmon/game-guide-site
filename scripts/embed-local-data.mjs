@@ -10,6 +10,7 @@ const targets = [
   ["ascendancies-data", "data/ascendancies.json"],
   ["maps-data", "data/maps.json"],
   ["builds-data", "data/builds.json"],
+  ["ggg-news-data", "data/ggg-news.json"],
 ];
 
 function replaceEmbeddedJson(html, scriptId, json) {
