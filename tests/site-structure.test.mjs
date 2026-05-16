@@ -22,7 +22,7 @@ test("site scaffold files exist", () => {
 });
 
 test("crawl discovery files point to the GitHub Pages project site", () => {
-  const baseUrl = "https://poe2.ve-city.com";
+  const baseUrl = "https://aristpersimmon.top";
   const robots = readFileSync("/Users/persimmon/project/game-guide-site/robots.txt", "utf8");
   const sitemap = readFileSync("/Users/persimmon/project/game-guide-site/sitemap.xml", "utf8");
   const llms = readFileSync("/Users/persimmon/project/game-guide-site/llms.txt", "utf8");

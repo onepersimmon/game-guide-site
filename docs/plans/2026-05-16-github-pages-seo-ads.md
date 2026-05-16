@@ -13,7 +13,7 @@
 ## 前提与限制
 
 - 暂时不做自定义域名。
-- 公开访问基准地址为 `https://onepersimmon.github.io/game-guide-site/`。
+- 公开访问基准地址为 `https://aristpersimmon.top/`。
 - GitHub Pages 支持多页面静态站，所以 `/campaign/act-1-upper.html` 这类页面是可行的。
 - 当前应用继续保留为 `index.html`，静态 SEO 页面是补充入口，不替代现有应用。
 - 可以尝试 AdSense，但项目站路径下的 `ads.txt` 合规性存在不确定性。如果 Google 要求 `https://onepersimmon.github.io/ads.txt`，可能需要单独创建 `onepersimmon.github.io` 用户站仓库，或者先暂缓 AdSense。
@@ -66,7 +66,7 @@ node --test tests/site-structure.test.mjs
 User-agent: *
 Allow: /
 
-Sitemap: https://onepersimmon.github.io/game-guide-site/sitemap.xml
+Sitemap: https://aristpersimmon.top/sitemap.xml
 ```
 
 创建初版 `sitemap.xml`：
@@ -75,7 +75,7 @@ Sitemap: https://onepersimmon.github.io/game-guide-site/sitemap.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://onepersimmon.github.io/game-guide-site/</loc>
+    <loc>https://aristpersimmon.top/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -90,7 +90,7 @@ Sitemap: https://onepersimmon.github.io/game-guide-site/sitemap.xml
 This site provides Path of Exile 2 campaign maps, numbered campaign rewards, ascendancy previews, GGG official announcement links, and poe.ninja class ranking summaries.
 
 Main URL:
-- https://onepersimmon.github.io/game-guide-site/
+- https://aristpersimmon.top/
 
 Contact:
 - onepersimmon@163.com
@@ -153,7 +153,7 @@ node --test tests/static-pages.test.mjs
 `scripts/generate-static-pages.mjs` 需要做到：
 
 - 读取 `data/world-maps.json`、`data/ascendancies.json`、`data/builds.json`、`data/ggg-news.json`。
-- 使用基准 URL `https://onepersimmon.github.io/game-guide-site`。
+- 使用基准 URL `https://aristpersimmon.top`。
 - 创建目录：
   - `campaign/`
   - `classes/`
@@ -410,13 +410,13 @@ git commit -m "Add structured data"
 
 ```text
 Google Search Console property:
-https://onepersimmon.github.io/game-guide-site/
+https://aristpersimmon.top/
 
 Sitemap:
-https://onepersimmon.github.io/game-guide-site/sitemap.xml
+https://aristpersimmon.top/sitemap.xml
 
 Bing Webmaster Tools URL:
-https://onepersimmon.github.io/game-guide-site/
+https://aristpersimmon.top/
 ```
 
 **步骤 2：记录验证方式**
@@ -455,8 +455,8 @@ git commit -m "Document search submission steps"
 创建 `docs/adsense-plan.md`，写清楚：
 
 - AdSense 可能要求 `ads.txt` 位于 `https://onepersimmon.github.io/ads.txt`。
-- 当前仓库发布在 `https://onepersimmon.github.io/game-guide-site/`。
-- `https://onepersimmon.github.io/game-guide-site/ads.txt` 不一定能通过 Google 对 host 根目录的检查。
+- 当前仓库发布在 `https://aristpersimmon.top/`。
+- `https://aristpersimmon.top/ads.txt` 不一定能通过 Google 对 host 根目录的检查。
 
 **步骤 2：定义开始申请 AdSense 的门槛**
 
@@ -473,7 +473,7 @@ git commit -m "Document search submission steps"
 
 路线 A：先试项目站：
 
-- 用 `https://onepersimmon.github.io/game-guide-site/` 申请。
+- 用 `https://aristpersimmon.top/` 申请。
 - 把验证 `<script>` 放进 `index.html`。
 - 在项目根目录加 `ads.txt`。
 - 如果 AdSense 接受，就继续。

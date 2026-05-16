@@ -12,7 +12,7 @@ import {
 } from "../app-lib.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const BASE_URL = "https://poe2.ve-city.com";
+const BASE_URL = "https://aristpersimmon.top";
 const CONTACT_EMAIL = "onepersimmon@163.com";
 const DATA_PATHS = {
   worldMaps: path.join(ROOT, "data", "world-maps.json"),
@@ -729,11 +729,11 @@ function buildPages({ worldMaps, ascendancies, buildsPayload }) {
     descriptionZh: "站点用途、数据来源和更新方式说明。",
     descriptionEn: "Site purpose, data sources, and update workflow notes.",
     bodyZh: renderInfoBody("zh", "关于本站", "About This Site", "关于本站", "站点用途、数据来源和更新方式说明。", aboutParagraphsZh, [
-      "项目站地址：https://poe2.ve-city.com/",
+      "项目站地址：https://aristpersimmon.top/",
       "数据来源包括 GGG 官方新闻、PoE2DB、poe.ninja 与已抓取的开荒地图素材。",
     ]),
     bodyEn: renderInfoBody("en", "关于本站", "About This Site", "About This Site", "Site purpose, data sources, and update workflow notes.", aboutParagraphsEn, [
-      "Project site: https://poe2.ve-city.com/",
+      "Project site: https://aristpersimmon.top/",
       "Sources include official GGG news, PoE2DB, poe.ninja, and cached campaign map material.",
     ]),
     jsonLdZh: renderJsonLd({
