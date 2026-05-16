@@ -1,0 +1,33 @@
+name: Update POE2 Builds
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+jobs:
+  sync-builds:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Sync poe.ninja build data
+        run: node ./scripts/fetch-poe2-ninja.mjs
+
+      - name: Crawl map guide sources
+        run: node ./scripts/fetch-map-guides.mjs
+
+      - name: Commit updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/builds.json data/map-guide-cache.json data/crawled assets/images/builds assets/images/hero
+          git diff --cached --quiet || git commit -m "chore: refresh poe2 build data"
+          git push

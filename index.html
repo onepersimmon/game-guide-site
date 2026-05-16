@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>POE2 开荒攻略站</title>
+    <meta
+      name="description"
+      content="流放之路 2 地图攻略与 poe.ninja 热门 BD 本地缓存。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero" style="background-image: var(--hero-image)">
+        <div class="language-switcher" data-language-switcher aria-label="Language">
+          <button class="is-active" type="button" data-language="zh" aria-pressed="true">
+            中
+          </button>
+          <button type="button" data-language="en" aria-pressed="false">
+            EN
+          </button>
+        </div>
+        <div class="hero__glass">
+          <p class="eyebrow" data-i18n="hero.eyebrow">POE2 Guide</p>
+          <h1 data-i18n="hero.title">地图攻略 + 最新 BD</h1>
+          <p class="hero__copy" data-i18n="hero.copy">
+            适合开荒时顺手查图、看奖励、盯热门流派。地图与 BD
+            都在站内展示，来源由爬虫同步后本地缓存。
+          </p>
+          <div class="hero__meta">
+            <span id="maps-count" data-i18n="hero.mapsLoading">0 张地图</span>
+            <span id="builds-updated" data-i18n="hero.buildsLoading">BD 数据加载中</span>
+          </div>
+        </div>
+      </header>
+
+      <main class="content">
+        <nav class="tabbar" aria-label="内容切换">
+          <button
+            class="tabbar__button is-active"
+            type="button"
+            data-tab-button="world"
+            aria-pressed="true"
+          >
+            <span data-i18n="tabs.world">世界地图</span>
+          </button>
+          <button
+            class="tabbar__button"
+            type="button"
+            data-tab-button="maps"
+            aria-pressed="false"
+          >
+            <span data-i18n="tabs.maps">地图攻略</span>
+          </button>
+          <button
+            class="tabbar__button"
+            type="button"
+            data-tab-button="builds"
+            aria-pressed="false"
+          >
+            <span data-i18n="tabs.builds">最新 BD</span>
+          </button>
+        </nav>
+
+        <section
+          id="world-panel"
+          class="panel is-active"
+          data-tab-panel="world"
+          aria-labelledby="世界地图"
+        >
+          <div class="panel__header">
+            <div>
+              <p class="section-kicker" data-i18n="world.kicker">章节总览</p>
+              <h2 data-i18n="world.title">世界地图与编号掉落</h2>
+            </div>
+            <p class="section-copy" data-i18n="world.copy">
+              按章节/上下层查看完整世界地图，右侧对应图中编号列出奖励、掉落和永久能力。
+            </p>
+          </div>
+
+          <div class="world-map-tabs" id="world-map-tabs"></div>
+          <div class="world-map-shell" id="world-map-view"></div>
+        </section>
+
+        <section
+          id="maps-panel"
+          class="panel"
+          data-tab-panel="maps"
+          aria-labelledby="地图攻略"
+          hidden
+        >
+          <div class="panel__header">
+            <div>
+              <p class="section-kicker" data-i18n="maps.kicker">精选地图</p>
+              <h2 data-i18n="maps.title">地图攻略与掉落标注</h2>
+            </div>
+            <p class="section-copy" data-i18n="maps.copy">
+              收录公开可验证的地图、路线和奖励信息，方便开荒时按掉落类型筛选。
+            </p>
+          </div>
+
+          <div class="filters" id="map-filters"></div>
+          <div class="card-grid" id="maps-grid"></div>
+        </section>
+
+        <section
+          id="builds-panel"
+          class="panel"
+          data-tab-panel="builds"
+          aria-labelledby="最新 BD"
+          hidden
+        >
+          <div class="panel__header">
+            <div>
+              <p class="section-kicker" data-i18n="builds.kicker">Poe Ninja</p>
+              <h2 data-i18n="builds.title">当前热门 BD 趋势</h2>
+            </div>
+            <p class="section-copy" data-i18n="builds.copy">
+              展示当前联赛最热升华与占比趋势，数据由爬虫同步到本地后直接展示。
+            </p>
+          </div>
+
+          <div class="builds-summary" id="builds-summary"></div>
+          <div class="build-grid" id="builds-grid"></div>
+        </section>
+      </main>
+    </div>
+
+    <script id="world-maps-data" type="application/json">{"source":{"name":"游民星空 / 巴哈姆特 seeso001","articleUrl":"https://www.gamersky.com/handbook/202512/2056109.shtml","originalSource":"巴哈姆特","originalAuthor":"seeso001","capturedAt":"2026-05-16"},"maps":[{"id":"act1-upper","chapter":"第一章","layer":"上层","title":"第一章 世界地图上层","nodeRange":"1-9","image":"./assets/images/world-maps/act1-upper.jpg","sourceImageUrl":"https://img1.gamersky.com/image2025/12/20251209_syj_380_11/1941.jpg","sourcePageUrl":"https://www.gamersky.com/handbook/202512/2056109.shtml","rewards":[{"node":2,"area":"皆伐","reward":"LV.1 技能宝石","detail":"神秘营区宝箱"},{"node":2,"area":"皆伐","reward":"永久能力 +10% 冰冷抗性","detail":"腐败兽群·伊贝拉"},{"node":3,"area":"泥沼陋居","reward":"LV.1 辅助宝石","detail":"吞噬兽支线奖励"},{"node":7,"area":"不朽帝国之墓","reward":"普通戒指","detail":"古老遗迹墓穴"},{"node":8,"area":"政务官陵墓","reward":"金币房间","detail":"被隐藏的钱财"},{"node":9,"area":"配偶的墓室","reward":"1 金怪 + 1 金箱","detail":"战争的宝库"}]},{"id":"act1-lower","chapter":"第一章","layer":"下层","title":"第一章 世界地图下层","nodeRange":"10-15","image":"./assets/images/world-maps/act1-lower.jpg","sourceImageUrl":"https://img1.gamersky.com/image2025/12/20251209_syj_380_11/11179.jpg","sourcePageUrl":"https://www.gamersky.com/handbook/202512/2056109.shtml","rewards":[{"node":10,"area":"猎场","reward":"LV.1 辅助宝石","detail":"树灵祭祀掉落"},{"node":10,"area":"猎场","reward":"武器套装天赋 2 点","detail":"鸦铃"},{"node":10,"area":"猎场","reward":"LV.4 技能宝石","detail":"祭祀神坛"},{"node":11,"area":"弗雷索恩","reward":"精魂 +30、LV.4 精魂宝石、三色护符三选一","detail":"迷雾之王，回村领奖励"},{"node":12,"area":"奥格姆农地","reward":"LV.4 技能宝石","detail":"麦田圈金怪"},{"node":12,"area":"奥格姆农地","reward":"武器套装天赋 2 点","detail":"乌娜的小屋，回村交任务"},{"node":13,"area":"奥格姆村","reward":"LV.5 技能宝石、低阶符文四选一","detail":"铁匠箱子任务道具回村兑换"},{"node":13,"area":"奥格姆村","reward":"解锁回收台","detail":"伦利的工作坊"},{"node":14,"area":"宅第堡垒","reward":"LV.1 辅助宝石","detail":"绞刑架"},{"node":15,"area":"奥格姆宅第","reward":"最大生命 +20","detail":"存活仪式·烛光掉落道具"}]},{"id":"act2-upper","chapter":"第二章","layer":"上层","title":"第二章 世界地图上层","nodeRange":"1-9","image":"./assets/images/world-maps/act2-upper.jpg","sourceImageUrl":"https://img1.gamersky.com/image2025/12/20251209_syj_380_11/12219.jpg","sourcePageUrl":"https://www.gamersky.com/handbook/202512/2056109_2.shtml","rewards":[{"node":2,"area":"莫顿挖石场","reward":"魔法箱子掉落","detail":"法里登战争秘盒"},{"node":4,"area":"叛徒之路","reward":"丝克玛试炼门票","detail":"叛徒芭芭拉，升华前置任务"},{"node":4,"area":"叛徒之路","reward":"金币 + 1 金箱 + LV.6 技能宝石","detail":"鸣钟宝箱"},{"node":5,"area":"丝克玛试炼","reward":"升华试炼","detail":"升华途径之一"},{"node":6,"area":"哈拉妮关口","reward":"1 金怪 + 多个尸体箱","detail":"前线指挥营帐"},{"node":7,"area":"乳齿象恶地","reward":"1 金箱","detail":"骸骨神殿"},{"node":8,"area":"骨坑","reward":"太阳部落圣物","detail":"主线相关圣物"}]},{"id":"act2-lower","chapter":"第二章","layer":"下层","title":"第二章 世界地图下层","nodeRange":"10-19","image":"./assets/images/world-maps/act2-lower.jpg","sourceImageUrl":"https://img1.gamersky.com/image2025/12/20251209_syj_380_11/12457.jpg","sourcePageUrl":"https://www.gamersky.com/handbook/202512/2056109_2.shtml","rewards":[{"node":10,"area":"凯斯城","reward":"武器套装天赋 2 点","detail":"异界·干扰女王·卡巴拉"},{"node":10,"area":"凯斯城","reward":"罐子掉落","detail":"废弃神殿 2 个罐子"},{"node":11,"area":"失落之城","reward":"1 金怪","detail":"画廊"},{"node":11,"area":"失落之城","reward":"LV.7 精魂宝石","detail":"耀金墓室"},{"node":12,"area":"掩埋神殿","reward":"火/电/冰抗魔法戒指三选一","detail":"元素奉献"},{"node":12,"area":"掩埋神殿","reward":"LV.2 辅助宝石","detail":"受保护的石棺"},{"node":13,"area":"泰坦之谷","reward":"+1 护符栏位，护符充能获取 +30% 或护符效果持续 +30%","detail":"奖章永久效果二选一，可更改"},{"node":14,"area":"泰坦石窟","reward":"低阶符文","detail":"泰坦之殒，泰坦之剑"},{"node":14,"area":"泰坦石窟","reward":"LV.2 辅助宝石","detail":"巨像·札尔马拉斯任务道具回村兑换"},{"node":15,"area":"戴哈斯","reward":"武器套装天赋 2 点","detail":"遗书交给夏布林"},{"node":16,"area":"悼念之路","reward":"金币 + LV.2 辅助宝石","detail":"变换的花瓶"},{"node":17,"area":"戴哈斯尖塔","reward":"可能为 +10% 闪电抗性","detail":"卡洛翰的姊妹，原文注明可能有 BUG"}]},{"id":"act3-upper","chapter":"第三章","layer":"上层","title":"第三章 世界地图上层","nodeRange":"1-5","image":"./assets/images/world-maps/act3-upper.jpg","sourceImageUrl":"https://img1.gamersky.com/image2025/12/20251209_syj_380_11/13541.jpg","sourcePageUrl":"https://www.gamersky.com/handbook/202512/2056109_3.shtml","rewards":[{"node":1,"area":"风沙沼泽","reward":"LV.9 技能宝石","detail":"根淤掉落"},{"node":1,"area":"风沙沼泽","reward":"魔法戒指","detail":"吊树尸体"},{"node":1,"area":"风沙沼泽","reward":"2 金怪 + 1 金箱","detail":"欧洛克营火"},{"node":2,"area":"丛林遗迹","reward":"武器套装天赋 2 点","detail":"神威银拳"},{"node":2,"area":"丛林遗迹","reward":"金腰带二选一","detail":"丛林墓园"},{"node":3,"area":"剧毒墓穴","reward":"能力三选一：25% 晕眩门槛、30% 元素异常门槛、25% 魔力恢复率","detail":"欧洛克毒药，不可更改"},{"node":5,"area":"龙蜥湿地","reward":"混沌试炼门票","detail":"龙蜥·钦路锡安"},{"node":5,"area":"龙蜥湿地","reward":"金怪掉落 + 3 箱子","detail":"剧毒之花、残催营地"}]},{"id":"act3-mid-1","chapter":"第三章","layer":"中层一","title":"第三章 世界地图中层一","nodeRange":"6-9","image":"./assets/images/world-maps/act3-mid-1.jpg","sourceImageUrl":"https://img1.gamersky.com/image2025/12/20251209_syj_380_11/13779.jpg","sourcePageUrl":"https://www.gamersky.com/handbook/202512/2056109_3.shtml","rewards":[{"node":6,"area":"混沌神殿","reward":"升华试炼","detail":"最后通牒，升华途径之一"},{"node":7,"area":"吉卡尼的机械迷城","reward":"永久能力 +10% 火焰抗性","detail":"遗忘的黑颚"},{"node":8,"area":"吉卡尼的圣域","reward":"瓦尔宝珠","detail":"帕柯特的机关"},{"node":9,"area":"阿札克泥沼","reward":"精魂 +30、护符五选一","detail":"沼泽女巫·尹娜杜克，回村领奖励"}]},{"id":"act3-mid-2","chapter":"第三章","layer":"中层二","title":"第三章 世界地图中层二","nodeRange":"10-14","image":"./assets/images/world-maps/act3-mid-2.jpg","sourceImageUrl":"https://img1.gamersky.com/image2025/12/20251209_syj_380_11/14022.jpg","sourcePageUrl":"https://www.gamersky.com/handbook/202512/2056109_3.shtml","rewards":[{"node":10,"area":"玛特兰水道","reward":"1 金怪掉落","detail":"纳瑞格的小屋"},{"node":12,"area":"熔岩宝库","reward":"LV.10 技能宝石、解锁重铸台","detail":"冶炼师范·梅克图，回村领奖励"},{"node":13,"area":"污垢顶峰","reward":"有质量的红/蓝药水","detail":"三色蘑菇丢进锅炉兑换"},{"node":14,"area":"科佩克神殿","reward":"LV.11 技能宝石","detail":"艳阳神圣主教·凯亚祖利"}]},{"id":"act3-lower","chapter":"第三章","layer":"下层","title":"第三章 世界地图下层","nodeRange":"15-17","image":"./assets/images/world-maps/act3-lower.jpg","sourceImageUrl":"https://img1.gamersky.com/image2025/12/20251209_syj_380_11/14260.jpg","sourcePageUrl":"https://www.gamersky.com/handbook/202512/2056109_3.shtml","rewards":[{"node":15,"area":"奥札尔","reward":"魔偶卖金币、通牒 4 层门票","detail":"古怪的财宝、混沌雕像"},{"node":16,"area":"阿戈拉","reward":"魔偶卖金币","detail":"古怪的财宝"},{"node":16,"area":"阿戈拉","reward":"武器套装天赋 2 点","detail":"牺牲之心献祭"}]},{"id":"act4","chapter":"第四章","layer":"世界地图","title":"第四章 世界地图","nodeRange":"1-17","image":"./assets/images/world-maps/act4.jpg","sourceImageUrl":"https://img1.gamersky.com/image2025/12/20251209_syj_380_11/15373.jpg","sourcePageUrl":"https://www.gamersky.com/handbook/202512/2056109_4.shtml","rewards":[{"node":1,"area":"凯吉湾","reward":"撕裂的地图碎片","detail":"亡者之箱"},{"node":2,"area":"旅程结束","reward":"LV.13 技能宝石","detail":"哈特林船长，回村领奖励"},{"node":3,"area":"金氏岛","reward":"撕碎的地图碎片、LV.4 辅助宝石、LV.12 技能宝石","detail":"剥皮的水手、兽栏"},{"node":3,"area":"金氏岛","reward":"武器套装天赋 2 点、低阶工匠石","detail":"眼盲巨兽、厄命矿坑"},{"node":5,"area":"伯劳鸟之岛","reward":"撕碎的地图碎片","detail":"尸巢"},{"node":6,"area":"瓦卡帕努岛","reward":"撕碎的地图碎片、恐螯蟹掉落","detail":"石化海盗、金怪"},{"node":6,"area":"瓦卡帕努岛","reward":"LV.11 技能宝石 / LV.11 精魂宝石 / LV.4 辅助宝石三选一","detail":"大白鲨鱼鳍与 NPC 凯玛交换"},{"node":7,"area":"吟谣洞窟","reward":"稀有全抗项链","detail":"呼唤之蚌任务道具回村兑换"},{"node":8,"area":"掠夺者之角","reward":"探险玩法入口","detail":"四张地图碎片确认后前往"},{"node":9,"area":"废弃监狱","reward":"药剂魔力恢复 +30% 或生命恢复 +30%","detail":"正义女神，永久能力二选一，可更改"},{"node":9,"area":"废弃监狱","reward":"6 个武器架","detail":"装备库"},{"node":11,"area":"阿拉塔斯","reward":"3 崇高石或 3 富豪石","detail":"黄金之钟，两钟只能拿一次"},{"node":15,"area":"希妮蔻拉之眼","reward":"永久能力 5% 最大魔力","detail":"完成 3 个小试炼后点祭坛"},{"node":16,"area":"亡者之殿","reward":"先祖刺青永久能力二选一 x3","detail":"5% 闪电/火焰/冰冷抗性或敏捷/力量/智慧 +5，不可更改"},{"node":16,"area":"亡者之殿","reward":"银币","detail":"白之亚玛掉落"},{"node":17,"area":"祖灵的试炼","reward":"武器套装天赋 2 点","detail":"与娜瓦莉对话领取"},{"node":17,"area":"祖灵的试炼","reward":"武器套装天赋 2 点","detail":"解完 3 间章主线后回第四章领取最后一本"}]},{"id":"interlude","chapter":"间章","layer":"左/中/右","title":"间章世界地图","nodeRange":"1-19","image":"./assets/images/world-maps/interlude.jpg","sourceImageUrl":"https://img1.gamersky.com/image2025/12/20251209_syj_380_11/16633.jpg","sourcePageUrl":"https://www.gamersky.com/handbook/202512/2056109_5.shtml","rewards":[{"node":6,"area":"狼之要塞","reward":"武器套装天赋 2 点","detail":"恐惧典狱长·欧斯温"},{"node":7,"area":"卡里交汇道","reward":"永久能力 5% 最大生命","detail":"熔岩神殿"},{"node":7,"area":"卡里交汇道","reward":"武器套装天赋 2 点","detail":"艾克提与艾能德，回村交任务"},{"node":9,"area":"塞尔卡里庇护所","reward":"丝克玛 3 层门票","detail":"眼镜蛇领主·艾尔札拉"},{"node":9,"area":"塞尔卡里庇护所","reward":"已鉴定稀有戒指 / 项链 / 珠宝其中两种三选一","detail":"两个愿望"},{"node":11,"area":"奇玛","reward":"能力七选一，可更改","detail":"5% 全抗、5 全能力、3% 移速、15% 全域防御、20% 存在范围、12% 冷却恢复、失去前述所有能力 +5% 经验"},{"node":12,"area":"奇玛水源地","reward":"随机通货","detail":"神圣之井 x2，只能解一次"},{"node":13,"area":"灰烬森林","reward":"LV.14 技能宝石","detail":"远古纪念碑"},{"node":14,"area":"库莱亚村","reward":"永久能力 +40 精魂","detail":"迷失长矛·莱塔拉"},{"node":16,"area":"狂唪洞穴","reward":"武器套装天赋 2 点","detail":"怪异雪狮，回村交任务"},{"node":17,"area":"库莱亚山巅","reward":"免费传奇三选一","detail":"长老马朵克斯 / 无名先知，只能拿一次"},{"node":19,"area":"库阿希克宝库","reward":"古老的宝藏","detail":"两个古老宝库，用小型灵魂核心开启"}]}]}</script>
+    <script id="maps-data" type="application/json">[{"id":"luo-mao-wan","name":"落锚湾","act":"第四章","region":"群岛海岸","summary":"从外海登陆后的第一张关键地图，优先顺路清理任务点，能把开荒节奏重新拉直。","route":"沿海岸线推进，先清入口附近的支线角落，再贴着主路找出口，避免在外圈来回折返。","checkpoints":["入口海滩补给点","中段任务物","出口前奖励房"],"image":"./assets/images/maps/luo-mao-wan.png","mapImageUrl":"https://cdn.mobalytics.gg/uploads/images/poe-2/A4-03-Kedge%20Bay.png","drops":["低级工匠石","技能宝石","基础通货"],"tags":["通货","技能宝石"],"sourceName":"Mobalytics Act 4 Layout Guide","sourceUrl":"https://mobalytics.gg/poe-2/guides/campaign-layout-act-4","localized":{"zh":{"name":"落锚湾","act":"第四章","region":"群岛海岸","summary":"从外海登陆后的第一张关键地图，优先顺路清理任务点，能把开荒节奏重新拉直。","route":"沿海岸线推进，先清入口附近的支线角落，再贴着主路找出口，避免在外圈来回折返。","checkpoints":["入口海滩补给点","中段任务物","出口前奖励房"],"drops":["低级工匠石","技能宝石","基础通货"],"tags":["通货","技能宝石"]},"en":{"name":"Kedge Bay","act":"Act Four","region":"Archipelago Coast","summary":"The first key landing map after reaching the outer coast. Clear nearby objectives while moving forward to keep campaign tempo clean.","route":"Follow the coastline, sweep the small side pockets near the entrance, then stay on the main path toward the exit to avoid outer-loop backtracking.","checkpoints":["Beach entrance supply point","Mid-map quest item","Reward room before the exit"],"drops":["Low-tier artificer currency","Skill Gem","Basic Currency"],"tags":["Currency","Skill Gem"]}}},{"id":"wa-ka-pa-nu","name":"瓦卡帕努岛","act":"第四章","region":"群岛海岸","summary":"这张图的价值在于任务推进和奖励回报，边找任务物边收基础资源最划算。","route":"先确认岛心地标，再按顺时针清外围营地；任务物通常和小型战斗房绑定。","checkpoints":["岛心地标","外围营地","药剂奖励事件"],"image":"./assets/images/maps/wa-ka-pa-nu.png","mapImageUrl":"https://cdn.mobalytics.gg/uploads/images/poe-2/A4-06-Whakapanu_Island.png","drops":["破碎的地图碎片","药剂奖励","任务物"],"tags":["任务物","永久奖励"],"sourceName":"Mobalytics Act 4 Layout Guide","sourceUrl":"https://mobalytics.gg/poe-2/guides/campaign-layout-act-4","localized":{"zh":{"name":"瓦卡帕努岛","act":"第四章","region":"群岛海岸","summary":"这张图的价值在于任务推进和奖励回报，边找任务物边收基础资源最划算。","route":"先确认岛心地标，再按顺时针清外围营地；任务物通常和小型战斗房绑定。","checkpoints":["岛心地标","外围营地","药剂奖励事件"],"drops":["破碎的地图碎片","药剂奖励","任务物"],"tags":["任务物","永久奖励"]},"en":{"name":"Whakapanu Island","act":"Act Four","region":"Archipelago Coast","summary":"This map is mainly valuable for quest progress and reward pickup. Collect basic resources while hunting the quest item.","route":"Identify the central island landmark first, then clear outer camps clockwise. Quest items are usually tied to compact combat rooms.","checkpoints":["Central island landmark","Outer camps","Flask reward event"],"drops":["Broken map fragment","Flask reward","Quest Item"],"tags":["Quest Item","Permanent Reward"]}}},{"id":"qin-juan-dao","name":"亲眷岛","act":"第四章","region":"群岛海岸","summary":"兼顾战斗密度和奖励效率，适合顺着主线时补几件关键掉落。","route":"从主路推进到岛内高地，遇到分叉先看小地图边界；奖励点多在死路尽头。","checkpoints":["高地入口","鱼鳍任务物","死路奖励点"],"image":"./assets/images/maps/qin-juan-dao.png","mapImageUrl":"https://cdn.mobalytics.gg/uploads/images/poe-2/A4-01-Isle_of_Kin.png","drops":["巨型鱼鳍","富豪石","技能宝石"],"tags":["任务物","通货","技能宝石"],"sourceName":"Mobalytics Act 4 Layout Guide","sourceUrl":"https://mobalytics.gg/poe-2/guides/campaign-layout-act-4","localized":{"zh":{"name":"亲眷岛","act":"第四章","region":"群岛海岸","summary":"兼顾战斗密度和奖励效率，适合顺着主线时补几件关键掉落。","route":"从主路推进到岛内高地，遇到分叉先看小地图边界；奖励点多在死路尽头。","checkpoints":["高地入口","鱼鳍任务物","死路奖励点"],"drops":["巨型鱼鳍","富豪石","技能宝石"],"tags":["任务物","通货","技能宝石"]},"en":{"name":"Isle of Kin","act":"Act Four","region":"Archipelago Coast","summary":"A good balance of combat density and reward efficiency, useful for picking up key drops while staying on the main route.","route":"Push from the main road into the island highland. When paths split, read the minimap border first; reward nodes often sit at dead ends.","checkpoints":["Highland entrance","Fish fin quest item","Dead-end reward node"],"drops":["Giant Fish Fin","Regal Orb","Skill Gem"],"tags":["Quest Item","Currency","Skill Gem"]}}},{"id":"fei-qi-jian-lao","name":"废弃监牢","act":"第四章","region":"岛屿腹地","summary":"路线稍绕，但奖励质量高，尤其适合补通货和确认支线奖励是否漏拿。","route":"先清牢区主走廊，再折回两侧牢房；看到封闭门厅时优先检查奖励和永久增益。","checkpoints":["主走廊","侧翼牢房","封闭门厅奖励"],"image":"./assets/images/maps/fei-qi-jian-lao.png","mapImageUrl":"https://cdn.mobalytics.gg/uploads/images/poe-2/A4-09-Solitary-Confinement.png","drops":["崇高石","富豪石","永久奖励"],"tags":["通货","永久奖励"],"sourceName":"Mobalytics Act 4 Layout Guide","sourceUrl":"https://mobalytics.gg/poe-2/guides/campaign-layout-act-4","localized":{"zh":{"name":"废弃监牢","act":"第四章","region":"岛屿腹地","summary":"路线稍绕，但奖励质量高，尤其适合补通货和确认支线奖励是否漏拿。","route":"先清牢区主走廊，再折回两侧牢房；看到封闭门厅时优先检查奖励和永久增益。","checkpoints":["主走廊","侧翼牢房","封闭门厅奖励"],"drops":["崇高石","富豪石","永久奖励"],"tags":["通货","永久奖励"]},"en":{"name":"Solitary Confinement","act":"Act Four","region":"Island Interior","summary":"The path bends around more than the coast maps, but the reward quality is higher for currency and permanent side rewards.","route":"Clear the main prison corridor first, then double back through side cells. Closed halls are priority checks for rewards and permanent bonuses.","checkpoints":["Main corridor","Side cells","Closed hall reward"],"drops":["Exalted Orb","Regal Orb","Permanent Reward"],"tags":["Currency","Permanent Reward"]}}}]</script>
+    <script id="builds-data" type="application/json">{"updatedAt":"2026-05-14T09:43:04.149Z","source":"poe.ninja","leagueName":"Fate of the Vaal","builds":[{"id":"vaal-blood-mage","className":"Blood Mage","leagueName":"Fate of the Vaal","summary":"Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。","popularity":17.2,"trend":1,"image":"./assets/images/builds/blood-mage.webp","tags":["主联赛头部","热度上升"],"href":"https://poe.ninja/poe2/builds/vaal?class=Blood%20Mage","localized":{"zh":{"className":"Blood Mage","leagueName":"Fate of the Vaal","summary":"Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。","tags":["主联赛头部","热度上升"]},"en":{"className":"Blood Mage","leagueName":"Fate of the Vaal","summary":"A high-share ascendancy in Fate of the Vaal, worth watching as the league meta keeps shifting.","tags":["Main league leader","Rising"]}}},{"id":"vaal-oracle","className":"Oracle","leagueName":"Fate of the Vaal","summary":"Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。","popularity":16,"trend":-1,"image":"./assets/images/builds/oracle.webp","tags":["主联赛头部","热度回落"],"href":"https://poe.ninja/poe2/builds/vaal?class=Oracle","localized":{"zh":{"className":"Oracle","leagueName":"Fate of the Vaal","summary":"Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。","tags":["主联赛头部","热度回落"]},"en":{"className":"Oracle","leagueName":"Fate of the Vaal","summary":"A high-share ascendancy in Fate of the Vaal, useful for comparing against the current top meta.","tags":["Main league leader","Falling"]}}},{"id":"vaal-pathfinder","className":"Pathfinder","leagueName":"Fate of the Vaal","summary":"Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。","popularity":12.3,"trend":-1,"image":"./assets/images/builds/pathfinder.webp","tags":["主联赛头部","热度回落"],"href":"https://poe.ninja/poe2/builds/vaal?class=Pathfinder","localized":{"zh":{"className":"Pathfinder","leagueName":"Fate of the Vaal","summary":"Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。","tags":["主联赛头部","热度回落"]},"en":{"className":"Pathfinder","leagueName":"Fate of the Vaal","summary":"A high-share ascendancy in Fate of the Vaal that remains a strong reference point for league starters.","tags":["Main league leader","Falling"]}}},{"id":"vaal-shaman","className":"Shaman","leagueName":"Fate of the Vaal","summary":"Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。","popularity":7.9,"trend":-1,"image":"./assets/images/builds/shaman.webp","tags":["热门升华","热度回落"],"href":"https://poe.ninja/poe2/builds/vaal?class=Shaman","localized":{"zh":{"className":"Shaman","leagueName":"Fate of the Vaal","summary":"Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。","tags":["热门升华","热度回落"]},"en":{"className":"Shaman","leagueName":"Fate of the Vaal","summary":"A popular ascendancy in Fate of the Vaal, included for quick local trend comparison.","tags":["Popular ascendancy","Falling"]}}},{"id":"vaal-titan","className":"Titan","leagueName":"Fate of the Vaal","summary":"Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。","popularity":5.8,"trend":-1,"image":"./assets/images/builds/titan.webp","tags":["热门升华","热度回落"],"href":"https://poe.ninja/poe2/builds/vaal?class=Titan","localized":{"zh":{"className":"Titan","leagueName":"Fate of the Vaal","summary":"Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。","tags":["热门升华","热度回落"]},"en":{"className":"Titan","leagueName":"Fate of the Vaal","summary":"A popular ascendancy in Fate of the Vaal, useful when checking durable starter options.","tags":["Popular ascendancy","Falling"]}}},{"id":"vaal-invoker","className":"Invoker","leagueName":"Fate of the Vaal","summary":"Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。","popularity":5.1,"trend":1,"image":"./assets/images/builds/invoker.webp","tags":["热门升华","热度上升"],"href":"https://poe.ninja/poe2/builds/vaal?class=Invoker","localized":{"zh":{"className":"Invoker","leagueName":"Fate of the Vaal","summary":"Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。","tags":["热门升华","热度上升"]},"en":{"className":"Invoker","leagueName":"Fate of the Vaal","summary":"A popular ascendancy in Fate of the Vaal with upward movement in the tracked snapshot.","tags":["Popular ascendancy","Rising"]}}},{"id":"vaal-stormweaver","className":"Stormweaver","leagueName":"Fate of the Vaal","summary":"Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。","popularity":5.1,"trend":1,"image":"./assets/images/builds/stormweaver.webp","tags":["热门升华","热度上升"],"href":"https://poe.ninja/poe2/builds/vaal?class=Stormweaver","localized":{"zh":{"className":"Stormweaver","leagueName":"Fate of the Vaal","summary":"Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。","tags":["热门升华","热度上升"]},"en":{"className":"Stormweaver","leagueName":"Fate of the Vaal","summary":"A popular ascendancy in Fate of the Vaal with upward movement in the tracked snapshot.","tags":["Popular ascendancy","Rising"]}}},{"id":"vaal-disciple-of-varashta","className":"Disciple of Varashta","leagueName":"Fate of the Vaal","summary":"Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。","popularity":4.8,"trend":-1,"image":"./assets/images/builds/disciple-of-varashta.webp","tags":["热门升华","热度回落"],"href":"https://poe.ninja/poe2/builds/vaal?class=Disciple%20of%20Varashta","localized":{"zh":{"className":"Disciple of Varashta","leagueName":"Fate of the Vaal","summary":"Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。","tags":["热门升华","热度回落"]},"en":{"className":"Disciple of Varashta","leagueName":"Fate of the Vaal","summary":"A popular ascendancy in Fate of the Vaal, kept locally for quick trend scanning.","tags":["Popular ascendancy","Falling"]}}}]}</script>
+    <script src="./app.js"></script>
+    <script>
+      (() => {
+        const copy = {
+          zh: {
+            maps: "地图攻略",
+            builds: "最新 BD",
+            mapCount: (count) => `${count} 张地图`,
+            source: "爬取来源",
+            cached: "本地缓存",
+            route: "路线",
+            checkpoints: "关键点",
+            updated: "BD 更新于 ",
+            filters: [
+              ["all", "全部"],
+              ["任务物", "任务物"],
+              ["通货", "通货"],
+              ["技能宝石", "技能宝石"],
+              ["永久奖励", "永久奖励"],
+            ],
+          },
+          en: {
+            maps: "Maps",
+            builds: "Builds",
+            mapCount: (count) => `${count} maps`,
+            source: "Crawled source",
+            cached: "Local cache",
+            route: "Route",
+            checkpoints: "Checkpoints",
+            updated: "Builds updated ",
+            filters: [
+              ["all", "All"],
+              ["任务物", "Quest Item"],
+              ["通货", "Currency"],
+              ["技能宝石", "Skill Gem"],
+              ["永久奖励", "Permanent Reward"],
+            ],
+          },
+        };
+
+        const readJson = (id) => JSON.parse(document.getElementById(id).textContent);
+        const localize = (entity, language) => ({
+          ...entity,
+          ...(entity.localized?.[language] || entity.localized?.zh || {}),
+        });
+        const state = {
+          language: localStorage.getItem("poe2-guide-language") === "en" ? "en" : "zh",
+          activeTag: "all",
+          maps: readJson("maps-data"),
+          builds: readJson("builds-data"),
+        };
+
+        const renderMap = (map) => {
+          const item = localize(map, state.language);
+          const labels = copy[state.language];
+          return `<article class="map-card">
+            <div class="map-card__image"><img src="${map.image}" alt="${item.name}" loading="lazy"></div>
+            <div class="map-card__header"><div><h3>${item.name}</h3><p>${item.act} · ${item.region}</p></div><div class="badge-stack">${item.tags.map((tag) => `<span class="badge">${tag}</span>`).join("")}</div></div>
+            <p>${item.summary}</p>
+            <div class="drop-list">${item.drops.map((drop) => `<span class="drop-pill">${drop}</span>`).join("")}</div>
+            <div class="detail-block"><strong>${labels.route}</strong><p>${item.route}</p></div>
+            <div class="detail-block"><strong>${labels.checkpoints}</strong><ul class="checkpoint-list">${item.checkpoints.map((checkpoint) => `<li>${checkpoint}</li>`).join("")}</ul></div>
+            <div class="source-note">${labels.source}: ${map.sourceName} · ${labels.cached}</div>
+          </article>`;
+        };
+
+        const renderBuild = (build) => {
+          const item = localize(build, state.language);
+          return `<article class="build-card">
+            <div class="build-card__image"><img src="${build.image}" alt="${item.className}" loading="lazy"></div>
+            <div class="build-card__header"><div><h3>${item.className}</h3><p>${item.leagueName}</p></div><div class="build-tag">${build.popularity}%</div></div>
+            <p>${item.summary}</p>
+            <div class="build-meta">${item.tags.map((tag) => `<span class="build-tag">${tag}</span>`).join("")}</div>
+            <div class="source-note">${copy[state.language].cached}: poe.ninja</div>
+          </article>`;
+        };
+
+        const renderFallbackApp = () => {
+          const labels = copy[state.language];
+          const maps = state.activeTag === "all"
+            ? state.maps
+            : state.maps.filter((map) => map.tags.includes(state.activeTag));
+          document.documentElement.lang = state.language === "en" ? "en" : "zh-CN";
+          document.querySelector('[data-tab-button="maps"] span').textContent = labels.maps;
+          document.querySelector('[data-tab-button="builds"] span').textContent = labels.builds;
+          document.getElementById("maps-count").textContent = labels.mapCount(state.maps.length);
+          document.getElementById("builds-updated").textContent = `${labels.updated}${new Date(state.builds.updatedAt).toLocaleString(state.language === "en" ? "en-US" : "zh-CN", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" })}`;
+          document.getElementById("map-filters").innerHTML = labels.filters.map(([value, label]) => `<button type="button" class="filter-chip ${value === state.activeTag ? "is-active" : ""}" data-filter-tag="${value}">${label}</button>`).join("");
+          document.getElementById("maps-grid").innerHTML = maps.map(renderMap).join("");
+          document.getElementById("builds-summary").innerHTML = `<article class="summary-card"><p>${state.builds.leagueName}</p><h3>${state.builds.builds[0].className}</h3><strong>${state.builds.builds[0].popularity}%</strong></article><article class="summary-card"><p>${labels.cached}</p><h3>${labels.builds}</h3><strong>${state.builds.builds.length}</strong></article>`;
+          document.getElementById("builds-grid").innerHTML = state.builds.builds.map(renderBuild).join("");
+        };
+
+        const setupFallbackEvents = () => {
+          document.querySelector("[data-language-switcher]").addEventListener("click", (event) => {
+            const button = event.target.closest("[data-language]");
+            if (!button) return;
+            state.language = button.dataset.language === "en" ? "en" : "zh";
+            localStorage.setItem("poe2-guide-language", state.language);
+            document.querySelectorAll("[data-language]").forEach((item) => {
+              const active = item.dataset.language === state.language;
+              item.classList.toggle("is-active", active);
+              item.setAttribute("aria-pressed", String(active));
+            });
+            renderFallbackApp();
+          });
+          document.getElementById("map-filters").addEventListener("click", (event) => {
+            const button = event.target.closest("[data-filter-tag]");
+            if (!button) return;
+            state.activeTag = button.dataset.filterTag;
+            renderFallbackApp();
+          });
+          document.querySelectorAll("[data-tab-button]").forEach((button) => {
+            button.addEventListener("click", () => {
+              document.querySelectorAll("[data-tab-button]").forEach((item) => item.classList.toggle("is-active", item === button));
+              document.querySelectorAll("[data-tab-panel]").forEach((panel) => {
+                const active = panel.dataset.tabPanel === button.dataset.tabButton;
+                panel.classList.toggle("is-active", active);
+                panel.hidden = !active;
+              });
+            });
+          });
+        };
+
+        window.addEventListener("DOMContentLoaded", () => {
+          setTimeout(() => {
+            if (document.querySelectorAll(".map-card").length > 0) return;
+            renderFallbackApp();
+            setupFallbackEvents();
+          }, 100);
+        });
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+[
+  {
+    "id": "luo-mao-wan",
+    "name": "落锚湾",
+    "act": "第四章",
+    "region": "群岛海岸",
+    "summary": "从外海登陆后的第一张关键地图，优先顺路清理任务点，能把开荒节奏重新拉直。",
+    "route": "沿海岸线推进，先清入口附近的支线角落，再贴着主路找出口，避免在外圈来回折返。",
+    "checkpoints": ["入口海滩补给点", "中段任务物", "出口前奖励房"],
+    "image": "./assets/images/maps/luo-mao-wan.png",
+    "mapImageUrl": "https://cdn.mobalytics.gg/uploads/images/poe-2/A4-03-Kedge%20Bay.png",
+    "drops": ["低级工匠石", "技能宝石", "基础通货"],
+    "tags": ["通货", "技能宝石"],
+    "sourceName": "Mobalytics Act 4 Layout Guide",
+    "sourceUrl": "https://mobalytics.gg/poe-2/guides/campaign-layout-act-4",
+    "localized": {
+      "zh": {
+        "name": "落锚湾",
+        "act": "第四章",
+        "region": "群岛海岸",
+        "summary": "从外海登陆后的第一张关键地图，优先顺路清理任务点，能把开荒节奏重新拉直。",
+        "route": "沿海岸线推进，先清入口附近的支线角落，再贴着主路找出口，避免在外圈来回折返。",
+        "checkpoints": ["入口海滩补给点", "中段任务物", "出口前奖励房"],
+        "drops": ["低级工匠石", "技能宝石", "基础通货"],
+        "tags": ["通货", "技能宝石"]
+      },
+      "en": {
+        "name": "Kedge Bay",
+        "act": "Act Four",
+        "region": "Archipelago Coast",
+        "summary": "The first key landing map after reaching the outer coast. Clear nearby objectives while moving forward to keep campaign tempo clean.",
+        "route": "Follow the coastline, sweep the small side pockets near the entrance, then stay on the main path toward the exit to avoid outer-loop backtracking.",
+        "checkpoints": ["Beach entrance supply point", "Mid-map quest item", "Reward room before the exit"],
+        "drops": ["Low-tier artificer currency", "Skill Gem", "Basic Currency"],
+        "tags": ["Currency", "Skill Gem"]
+      }
+    }
+  },
+  {
+    "id": "wa-ka-pa-nu",
+    "name": "瓦卡帕努岛",
+    "act": "第四章",
+    "region": "群岛海岸",
+    "summary": "这张图的价值在于任务推进和奖励回报，边找任务物边收基础资源最划算。",
+    "route": "先确认岛心地标，再按顺时针清外围营地；任务物通常和小型战斗房绑定。",
+    "checkpoints": ["岛心地标", "外围营地", "药剂奖励事件"],
+    "image": "./assets/images/maps/wa-ka-pa-nu.png",
+    "mapImageUrl": "https://cdn.mobalytics.gg/uploads/images/poe-2/A4-06-Whakapanu_Island.png",
+    "drops": ["破碎的地图碎片", "药剂奖励", "任务物"],
+    "tags": ["任务物", "永久奖励"],
+    "sourceName": "Mobalytics Act 4 Layout Guide",
+    "sourceUrl": "https://mobalytics.gg/poe-2/guides/campaign-layout-act-4",
+    "localized": {
+      "zh": {
+        "name": "瓦卡帕努岛",
+        "act": "第四章",
+        "region": "群岛海岸",
+        "summary": "这张图的价值在于任务推进和奖励回报，边找任务物边收基础资源最划算。",
+        "route": "先确认岛心地标，再按顺时针清外围营地；任务物通常和小型战斗房绑定。",
+        "checkpoints": ["岛心地标", "外围营地", "药剂奖励事件"],
+        "drops": ["破碎的地图碎片", "药剂奖励", "任务物"],
+        "tags": ["任务物", "永久奖励"]
+      },
+      "en": {
+        "name": "Whakapanu Island",
+        "act": "Act Four",
+        "region": "Archipelago Coast",
+        "summary": "This map is mainly valuable for quest progress and reward pickup. Collect basic resources while hunting the quest item.",
+        "route": "Identify the central island landmark first, then clear outer camps clockwise. Quest items are usually tied to compact combat rooms.",
+        "checkpoints": ["Central island landmark", "Outer camps", "Flask reward event"],
+        "drops": ["Broken map fragment", "Flask reward", "Quest Item"],
+        "tags": ["Quest Item", "Permanent Reward"]
+      }
+    }
+  },
+  {
+    "id": "qin-juan-dao",
+    "name": "亲眷岛",
+    "act": "第四章",
+    "region": "群岛海岸",
+    "summary": "兼顾战斗密度和奖励效率，适合顺着主线时补几件关键掉落。",
+    "route": "从主路推进到岛内高地，遇到分叉先看小地图边界；奖励点多在死路尽头。",
+    "checkpoints": ["高地入口", "鱼鳍任务物", "死路奖励点"],
+    "image": "./assets/images/maps/qin-juan-dao.png",
+    "mapImageUrl": "https://cdn.mobalytics.gg/uploads/images/poe-2/A4-01-Isle_of_Kin.png",
+    "drops": ["巨型鱼鳍", "富豪石", "技能宝石"],
+    "tags": ["任务物", "通货", "技能宝石"],
+    "sourceName": "Mobalytics Act 4 Layout Guide",
+    "sourceUrl": "https://mobalytics.gg/poe-2/guides/campaign-layout-act-4",
+    "localized": {
+      "zh": {
+        "name": "亲眷岛",
+        "act": "第四章",
+        "region": "群岛海岸",
+        "summary": "兼顾战斗密度和奖励效率，适合顺着主线时补几件关键掉落。",
+        "route": "从主路推进到岛内高地，遇到分叉先看小地图边界；奖励点多在死路尽头。",
+        "checkpoints": ["高地入口", "鱼鳍任务物", "死路奖励点"],
+        "drops": ["巨型鱼鳍", "富豪石", "技能宝石"],
+        "tags": ["任务物", "通货", "技能宝石"]
+      },
+      "en": {
+        "name": "Isle of Kin",
+        "act": "Act Four",
+        "region": "Archipelago Coast",
+        "summary": "A good balance of combat density and reward efficiency, useful for picking up key drops while staying on the main route.",
+        "route": "Push from the main road into the island highland. When paths split, read the minimap border first; reward nodes often sit at dead ends.",
+        "checkpoints": ["Highland entrance", "Fish fin quest item", "Dead-end reward node"],
+        "drops": ["Giant Fish Fin", "Regal Orb", "Skill Gem"],
+        "tags": ["Quest Item", "Currency", "Skill Gem"]
+      }
+    }
+  },
+  {
+    "id": "fei-qi-jian-lao",
+    "name": "废弃监牢",
+    "act": "第四章",
+    "region": "岛屿腹地",
+    "summary": "路线稍绕，但奖励质量高，尤其适合补通货和确认支线奖励是否漏拿。",
+    "route": "先清牢区主走廊，再折回两侧牢房；看到封闭门厅时优先检查奖励和永久增益。",
+    "checkpoints": ["主走廊", "侧翼牢房", "封闭门厅奖励"],
+    "image": "./assets/images/maps/fei-qi-jian-lao.png",
+    "mapImageUrl": "https://cdn.mobalytics.gg/uploads/images/poe-2/A4-09-Solitary-Confinement.png",
+    "drops": ["崇高石", "富豪石", "永久奖励"],
+    "tags": ["通货", "永久奖励"],
+    "sourceName": "Mobalytics Act 4 Layout Guide",
+    "sourceUrl": "https://mobalytics.gg/poe-2/guides/campaign-layout-act-4",
+    "localized": {
+      "zh": {
+        "name": "废弃监牢",
+        "act": "第四章",
+        "region": "岛屿腹地",
+        "summary": "路线稍绕，但奖励质量高，尤其适合补通货和确认支线奖励是否漏拿。",
+        "route": "先清牢区主走廊，再折回两侧牢房；看到封闭门厅时优先检查奖励和永久增益。",
+        "checkpoints": ["主走廊", "侧翼牢房", "封闭门厅奖励"],
+        "drops": ["崇高石", "富豪石", "永久奖励"],
+        "tags": ["通货", "永久奖励"]
+      },
+      "en": {
+        "name": "Solitary Confinement",
+        "act": "Act Four",
+        "region": "Island Interior",
+        "summary": "The path bends around more than the coast maps, but the reward quality is higher for currency and permanent side rewards.",
+        "route": "Clear the main prison corridor first, then double back through side cells. Closed halls are priority checks for rewards and permanent bonuses.",
+        "checkpoints": ["Main corridor", "Side cells", "Closed hall reward"],
+        "drops": ["Exalted Orb", "Regal Orb", "Permanent Reward"],
+        "tags": ["Currency", "Permanent Reward"]
+      }
+    }
+  }
+]

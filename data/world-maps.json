@@ -1,0 +1,214 @@
+{
+  "source": {
+    "name": "游民星空 / 巴哈姆特 seeso001",
+    "articleUrl": "https://www.gamersky.com/handbook/202512/2056109.shtml",
+    "originalSource": "巴哈姆特",
+    "originalAuthor": "seeso001",
+    "capturedAt": "2026-05-16"
+  },
+  "maps": [
+    {
+      "id": "act1-upper",
+      "chapter": "第一章",
+      "layer": "上层",
+      "title": "第一章 世界地图上层",
+      "nodeRange": "1-9",
+      "image": "./assets/images/world-maps/act1-upper.jpg",
+      "sourceImageUrl": "https://img1.gamersky.com/image2025/12/20251209_syj_380_11/1941.jpg",
+      "sourcePageUrl": "https://www.gamersky.com/handbook/202512/2056109.shtml",
+      "rewards": [
+        { "node": 2, "area": "皆伐", "reward": "LV.1 技能宝石", "detail": "神秘营区宝箱" },
+        { "node": 2, "area": "皆伐", "reward": "永久能力 +10% 冰冷抗性", "detail": "腐败兽群·伊贝拉" },
+        { "node": 3, "area": "泥沼陋居", "reward": "LV.1 辅助宝石", "detail": "吞噬兽支线奖励" },
+        { "node": 7, "area": "不朽帝国之墓", "reward": "普通戒指", "detail": "古老遗迹墓穴" },
+        { "node": 8, "area": "政务官陵墓", "reward": "金币房间", "detail": "被隐藏的钱财" },
+        { "node": 9, "area": "配偶的墓室", "reward": "1 金怪 + 1 金箱", "detail": "战争的宝库" }
+      ]
+    },
+    {
+      "id": "act1-lower",
+      "chapter": "第一章",
+      "layer": "下层",
+      "title": "第一章 世界地图下层",
+      "nodeRange": "10-15",
+      "image": "./assets/images/world-maps/act1-lower.jpg",
+      "sourceImageUrl": "https://img1.gamersky.com/image2025/12/20251209_syj_380_11/11179.jpg",
+      "sourcePageUrl": "https://www.gamersky.com/handbook/202512/2056109.shtml",
+      "rewards": [
+        { "node": 10, "area": "猎场", "reward": "LV.1 辅助宝石", "detail": "树灵祭祀掉落" },
+        { "node": 10, "area": "猎场", "reward": "武器套装天赋 2 点", "detail": "鸦铃" },
+        { "node": 10, "area": "猎场", "reward": "LV.4 技能宝石", "detail": "祭祀神坛" },
+        { "node": 11, "area": "弗雷索恩", "reward": "精魂 +30、LV.4 精魂宝石、三色护符三选一", "detail": "迷雾之王，回村领奖励" },
+        { "node": 12, "area": "奥格姆农地", "reward": "LV.4 技能宝石", "detail": "麦田圈金怪" },
+        { "node": 12, "area": "奥格姆农地", "reward": "武器套装天赋 2 点", "detail": "乌娜的小屋，回村交任务" },
+        { "node": 13, "area": "奥格姆村", "reward": "LV.5 技能宝石、低阶符文四选一", "detail": "铁匠箱子任务道具回村兑换" },
+        { "node": 13, "area": "奥格姆村", "reward": "解锁回收台", "detail": "伦利的工作坊" },
+        { "node": 14, "area": "宅第堡垒", "reward": "LV.1 辅助宝石", "detail": "绞刑架" },
+        { "node": 15, "area": "奥格姆宅第", "reward": "最大生命 +20", "detail": "存活仪式·烛光掉落道具" }
+      ]
+    },
+    {
+      "id": "act2-upper",
+      "chapter": "第二章",
+      "layer": "上层",
+      "title": "第二章 世界地图上层",
+      "nodeRange": "1-9",
+      "image": "./assets/images/world-maps/act2-upper.jpg",
+      "sourceImageUrl": "https://img1.gamersky.com/image2025/12/20251209_syj_380_11/12219.jpg",
+      "sourcePageUrl": "https://www.gamersky.com/handbook/202512/2056109_2.shtml",
+      "rewards": [
+        { "node": 2, "area": "莫顿挖石场", "reward": "魔法箱子掉落", "detail": "法里登战争秘盒" },
+        { "node": 4, "area": "叛徒之路", "reward": "丝克玛试炼门票", "detail": "叛徒芭芭拉，升华前置任务" },
+        { "node": 4, "area": "叛徒之路", "reward": "金币 + 1 金箱 + LV.6 技能宝石", "detail": "鸣钟宝箱" },
+        { "node": 5, "area": "丝克玛试炼", "reward": "升华试炼", "detail": "升华途径之一" },
+        { "node": 6, "area": "哈拉妮关口", "reward": "1 金怪 + 多个尸体箱", "detail": "前线指挥营帐" },
+        { "node": 7, "area": "乳齿象恶地", "reward": "1 金箱", "detail": "骸骨神殿" },
+        { "node": 8, "area": "骨坑", "reward": "太阳部落圣物", "detail": "主线相关圣物" }
+      ]
+    },
+    {
+      "id": "act2-lower",
+      "chapter": "第二章",
+      "layer": "下层",
+      "title": "第二章 世界地图下层",
+      "nodeRange": "10-19",
+      "image": "./assets/images/world-maps/act2-lower.jpg",
+      "sourceImageUrl": "https://img1.gamersky.com/image2025/12/20251209_syj_380_11/12457.jpg",
+      "sourcePageUrl": "https://www.gamersky.com/handbook/202512/2056109_2.shtml",
+      "rewards": [
+        { "node": 10, "area": "凯斯城", "reward": "武器套装天赋 2 点", "detail": "异界·干扰女王·卡巴拉" },
+        { "node": 10, "area": "凯斯城", "reward": "罐子掉落", "detail": "废弃神殿 2 个罐子" },
+        { "node": 11, "area": "失落之城", "reward": "1 金怪", "detail": "画廊" },
+        { "node": 11, "area": "失落之城", "reward": "LV.7 精魂宝石", "detail": "耀金墓室" },
+        { "node": 12, "area": "掩埋神殿", "reward": "火/电/冰抗魔法戒指三选一", "detail": "元素奉献" },
+        { "node": 12, "area": "掩埋神殿", "reward": "LV.2 辅助宝石", "detail": "受保护的石棺" },
+        { "node": 13, "area": "泰坦之谷", "reward": "+1 护符栏位，护符充能获取 +30% 或护符效果持续 +30%", "detail": "奖章永久效果二选一，可更改" },
+        { "node": 14, "area": "泰坦石窟", "reward": "低阶符文", "detail": "泰坦之殒，泰坦之剑" },
+        { "node": 14, "area": "泰坦石窟", "reward": "LV.2 辅助宝石", "detail": "巨像·札尔马拉斯任务道具回村兑换" },
+        { "node": 15, "area": "戴哈斯", "reward": "武器套装天赋 2 点", "detail": "遗书交给夏布林" },
+        { "node": 16, "area": "悼念之路", "reward": "金币 + LV.2 辅助宝石", "detail": "变换的花瓶" },
+        { "node": 17, "area": "戴哈斯尖塔", "reward": "可能为 +10% 闪电抗性", "detail": "卡洛翰的姊妹，原文注明可能有 BUG" }
+      ]
+    },
+    {
+      "id": "act3-upper",
+      "chapter": "第三章",
+      "layer": "上层",
+      "title": "第三章 世界地图上层",
+      "nodeRange": "1-5",
+      "image": "./assets/images/world-maps/act3-upper.jpg",
+      "sourceImageUrl": "https://img1.gamersky.com/image2025/12/20251209_syj_380_11/13541.jpg",
+      "sourcePageUrl": "https://www.gamersky.com/handbook/202512/2056109_3.shtml",
+      "rewards": [
+        { "node": 1, "area": "风沙沼泽", "reward": "LV.9 技能宝石", "detail": "根淤掉落" },
+        { "node": 1, "area": "风沙沼泽", "reward": "魔法戒指", "detail": "吊树尸体" },
+        { "node": 1, "area": "风沙沼泽", "reward": "2 金怪 + 1 金箱", "detail": "欧洛克营火" },
+        { "node": 2, "area": "丛林遗迹", "reward": "武器套装天赋 2 点", "detail": "神威银拳" },
+        { "node": 2, "area": "丛林遗迹", "reward": "金腰带二选一", "detail": "丛林墓园" },
+        { "node": 3, "area": "剧毒墓穴", "reward": "能力三选一：25% 晕眩门槛、30% 元素异常门槛、25% 魔力恢复率", "detail": "欧洛克毒药，不可更改" },
+        { "node": 5, "area": "龙蜥湿地", "reward": "混沌试炼门票", "detail": "龙蜥·钦路锡安" },
+        { "node": 5, "area": "龙蜥湿地", "reward": "金怪掉落 + 3 箱子", "detail": "剧毒之花、残催营地" }
+      ]
+    },
+    {
+      "id": "act3-mid-1",
+      "chapter": "第三章",
+      "layer": "中层一",
+      "title": "第三章 世界地图中层一",
+      "nodeRange": "6-9",
+      "image": "./assets/images/world-maps/act3-mid-1.jpg",
+      "sourceImageUrl": "https://img1.gamersky.com/image2025/12/20251209_syj_380_11/13779.jpg",
+      "sourcePageUrl": "https://www.gamersky.com/handbook/202512/2056109_3.shtml",
+      "rewards": [
+        { "node": 6, "area": "混沌神殿", "reward": "升华试炼", "detail": "最后通牒，升华途径之一" },
+        { "node": 7, "area": "吉卡尼的机械迷城", "reward": "永久能力 +10% 火焰抗性", "detail": "遗忘的黑颚" },
+        { "node": 8, "area": "吉卡尼的圣域", "reward": "瓦尔宝珠", "detail": "帕柯特的机关" },
+        { "node": 9, "area": "阿札克泥沼", "reward": "精魂 +30、护符五选一", "detail": "沼泽女巫·尹娜杜克，回村领奖励" }
+      ]
+    },
+    {
+      "id": "act3-mid-2",
+      "chapter": "第三章",
+      "layer": "中层二",
+      "title": "第三章 世界地图中层二",
+      "nodeRange": "10-14",
+      "image": "./assets/images/world-maps/act3-mid-2.jpg",
+      "sourceImageUrl": "https://img1.gamersky.com/image2025/12/20251209_syj_380_11/14022.jpg",
+      "sourcePageUrl": "https://www.gamersky.com/handbook/202512/2056109_3.shtml",
+      "rewards": [
+        { "node": 10, "area": "玛特兰水道", "reward": "1 金怪掉落", "detail": "纳瑞格的小屋" },
+        { "node": 12, "area": "熔岩宝库", "reward": "LV.10 技能宝石、解锁重铸台", "detail": "冶炼师范·梅克图，回村领奖励" },
+        { "node": 13, "area": "污垢顶峰", "reward": "有质量的红/蓝药水", "detail": "三色蘑菇丢进锅炉兑换" },
+        { "node": 14, "area": "科佩克神殿", "reward": "LV.11 技能宝石", "detail": "艳阳神圣主教·凯亚祖利" }
+      ]
+    },
+    {
+      "id": "act3-lower",
+      "chapter": "第三章",
+      "layer": "下层",
+      "title": "第三章 世界地图下层",
+      "nodeRange": "15-17",
+      "image": "./assets/images/world-maps/act3-lower.jpg",
+      "sourceImageUrl": "https://img1.gamersky.com/image2025/12/20251209_syj_380_11/14260.jpg",
+      "sourcePageUrl": "https://www.gamersky.com/handbook/202512/2056109_3.shtml",
+      "rewards": [
+        { "node": 15, "area": "奥札尔", "reward": "魔偶卖金币、通牒 4 层门票", "detail": "古怪的财宝、混沌雕像" },
+        { "node": 16, "area": "阿戈拉", "reward": "魔偶卖金币", "detail": "古怪的财宝" },
+        { "node": 16, "area": "阿戈拉", "reward": "武器套装天赋 2 点", "detail": "牺牲之心献祭" }
+      ]
+    },
+    {
+      "id": "act4",
+      "chapter": "第四章",
+      "layer": "世界地图",
+      "title": "第四章 世界地图",
+      "nodeRange": "1-17",
+      "image": "./assets/images/world-maps/act4.jpg",
+      "sourceImageUrl": "https://img1.gamersky.com/image2025/12/20251209_syj_380_11/15373.jpg",
+      "sourcePageUrl": "https://www.gamersky.com/handbook/202512/2056109_4.shtml",
+      "rewards": [
+        { "node": 1, "area": "凯吉湾", "reward": "撕裂的地图碎片", "detail": "亡者之箱" },
+        { "node": 2, "area": "旅程结束", "reward": "LV.13 技能宝石", "detail": "哈特林船长，回村领奖励" },
+        { "node": 3, "area": "金氏岛", "reward": "撕碎的地图碎片、LV.4 辅助宝石、LV.12 技能宝石", "detail": "剥皮的水手、兽栏" },
+        { "node": 3, "area": "金氏岛", "reward": "武器套装天赋 2 点、低阶工匠石", "detail": "眼盲巨兽、厄命矿坑" },
+        { "node": 5, "area": "伯劳鸟之岛", "reward": "撕碎的地图碎片", "detail": "尸巢" },
+        { "node": 6, "area": "瓦卡帕努岛", "reward": "撕碎的地图碎片、恐螯蟹掉落", "detail": "石化海盗、金怪" },
+        { "node": 6, "area": "瓦卡帕努岛", "reward": "LV.11 技能宝石 / LV.11 精魂宝石 / LV.4 辅助宝石三选一", "detail": "大白鲨鱼鳍与 NPC 凯玛交换" },
+        { "node": 7, "area": "吟谣洞窟", "reward": "稀有全抗项链", "detail": "呼唤之蚌任务道具回村兑换" },
+        { "node": 8, "area": "掠夺者之角", "reward": "探险玩法入口", "detail": "四张地图碎片确认后前往" },
+        { "node": 9, "area": "废弃监狱", "reward": "药剂魔力恢复 +30% 或生命恢复 +30%", "detail": "正义女神，永久能力二选一，可更改" },
+        { "node": 9, "area": "废弃监狱", "reward": "6 个武器架", "detail": "装备库" },
+        { "node": 11, "area": "阿拉塔斯", "reward": "3 崇高石或 3 富豪石", "detail": "黄金之钟，两钟只能拿一次" },
+        { "node": 15, "area": "希妮蔻拉之眼", "reward": "永久能力 5% 最大魔力", "detail": "完成 3 个小试炼后点祭坛" },
+        { "node": 16, "area": "亡者之殿", "reward": "先祖刺青永久能力二选一 x3", "detail": "5% 闪电/火焰/冰冷抗性或敏捷/力量/智慧 +5，不可更改" },
+        { "node": 16, "area": "亡者之殿", "reward": "银币", "detail": "白之亚玛掉落" },
+        { "node": 17, "area": "祖灵的试炼", "reward": "武器套装天赋 2 点", "detail": "与娜瓦莉对话领取" },
+        { "node": 17, "area": "祖灵的试炼", "reward": "武器套装天赋 2 点", "detail": "解完 3 间章主线后回第四章领取最后一本" }
+      ]
+    },
+    {
+      "id": "interlude",
+      "chapter": "间章",
+      "layer": "左/中/右",
+      "title": "间章世界地图",
+      "nodeRange": "1-19",
+      "image": "./assets/images/world-maps/interlude.jpg",
+      "sourceImageUrl": "https://img1.gamersky.com/image2025/12/20251209_syj_380_11/16633.jpg",
+      "sourcePageUrl": "https://www.gamersky.com/handbook/202512/2056109_5.shtml",
+      "rewards": [
+        { "node": 6, "area": "狼之要塞", "reward": "武器套装天赋 2 点", "detail": "恐惧典狱长·欧斯温" },
+        { "node": 7, "area": "卡里交汇道", "reward": "永久能力 5% 最大生命", "detail": "熔岩神殿" },
+        { "node": 7, "area": "卡里交汇道", "reward": "武器套装天赋 2 点", "detail": "艾克提与艾能德，回村交任务" },
+        { "node": 9, "area": "塞尔卡里庇护所", "reward": "丝克玛 3 层门票", "detail": "眼镜蛇领主·艾尔札拉" },
+        { "node": 9, "area": "塞尔卡里庇护所", "reward": "已鉴定稀有戒指 / 项链 / 珠宝其中两种三选一", "detail": "两个愿望" },
+        { "node": 11, "area": "奇玛", "reward": "能力七选一，可更改", "detail": "5% 全抗、5 全能力、3% 移速、15% 全域防御、20% 存在范围、12% 冷却恢复、失去前述所有能力 +5% 经验" },
+        { "node": 12, "area": "奇玛水源地", "reward": "随机通货", "detail": "神圣之井 x2，只能解一次" },
+        { "node": 13, "area": "灰烬森林", "reward": "LV.14 技能宝石", "detail": "远古纪念碑" },
+        { "node": 14, "area": "库莱亚村", "reward": "永久能力 +40 精魂", "detail": "迷失长矛·莱塔拉" },
+        { "node": 16, "area": "狂唪洞穴", "reward": "武器套装天赋 2 点", "detail": "怪异雪狮，回村交任务" },
+        { "node": 17, "area": "库莱亚山巅", "reward": "免费传奇三选一", "detail": "长老马朵克斯 / 无名先知，只能拿一次" },
+        { "node": 19, "area": "库阿希克宝库", "reward": "古老的宝藏", "detail": "两个古老宝库，用小型灵魂核心开启" }
+      ]
+    }
+  ]
+}

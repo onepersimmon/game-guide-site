@@ -1,0 +1,66 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+
+const maps = JSON.parse(
+  readFileSync("/Users/persimmon/project/game-guide-site/data/maps.json", "utf8"),
+);
+const builds = JSON.parse(
+  readFileSync("/Users/persimmon/project/game-guide-site/data/builds.json", "utf8"),
+);
+
+test("maps data follows expected contract", () => {
+  assert.equal(Array.isArray(maps), true);
+  assert.ok(maps.length > 0);
+
+  maps.forEach((map) => {
+    [
+      "id",
+      "name",
+      "act",
+      "region",
+      "summary",
+      "image",
+      "mapImageUrl",
+      "drops",
+      "tags",
+      "sourceName",
+      "sourceUrl",
+      "route",
+      "checkpoints",
+      "localized",
+    ].forEach((key) => assert.ok(map[key], `missing map key: ${key}`));
+
+    assert.ok(Array.isArray(map.checkpoints), "map checkpoints should be an array");
+    assert.ok(map.checkpoints.length > 0, "map should include local checkpoints");
+    ["name", "act", "region", "summary", "drops", "tags", "route", "checkpoints"].forEach((key) => {
+      assert.ok(map.localized.zh[key], `missing zh map field: ${key}`);
+      assert.ok(map.localized.en[key], `missing en map field: ${key}`);
+    });
+  });
+});
+
+test("builds data follows expected contract", () => {
+  assert.ok(builds.updatedAt);
+  assert.ok(Array.isArray(builds.builds));
+  assert.ok(builds.builds.length > 0);
+
+  builds.builds.forEach((build) => {
+    [
+      "id",
+      "className",
+      "leagueName",
+      "summary",
+      "popularity",
+      "image",
+      "tags",
+      "href",
+      "localized",
+    ].forEach((key) => assert.ok(build[key] !== undefined, `missing build key: ${key}`));
+
+    ["className", "leagueName", "summary", "tags"].forEach((key) => {
+      assert.ok(build.localized.zh[key], `missing zh build field: ${key}`);
+      assert.ok(build.localized.en[key], `missing en build field: ${key}`);
+    });
+  });
+});
