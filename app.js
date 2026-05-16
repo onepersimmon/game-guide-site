@@ -213,6 +213,21 @@ function getLocalizedNewsItem(item, language = DEFAULT_LANGUAGE) {
   return localizeObject(item, language, ["title", "summary", "category"]);
 }
 
+function getLocalizedWorldMap(map, language = DEFAULT_LANGUAGE) {
+  const localizedMap = localizeObject(map, language, ["chapter", "layer", "title"]);
+  const normalizedLanguage = normalizeLanguage(language);
+  const localizedRewards = map.localized?.[normalizedLanguage]?.rewards ?? [];
+  localizedMap.rewards = map.rewards.map((reward, index) => ({
+    ...reward,
+    ...(localizedRewards[index] ?? {}),
+  }));
+  return localizedMap;
+}
+
+function getLocalizedWorldMapSource(source, language = DEFAULT_LANGUAGE) {
+  return localizeObject(source, language, ["name", "originalSource", "originalAuthor"]);
+}
+
 function getLocalizedAscendancyClass(ascendancyClass, language = DEFAULT_LANGUAGE) {
   return localizeObject(ascendancyClass, language, ["name"]);
 }
@@ -518,29 +533,34 @@ function renderBuilds(buildsPayload, language) {
 function renderWorldMapTabs(state) {
   const tabsRoot = document.querySelector("#world-map-tabs");
   tabsRoot.innerHTML = state.worldMaps.maps
-    .map((map, index) => `
+    .map((map, index) => {
+      const localizedMap = getLocalizedWorldMap(map, state.language);
+      return `
       <button
         type="button"
         class="world-map-tab ${index === state.activeWorldMapIndex ? "is-active" : ""}"
         data-world-map-index="${index}"
       >
-        <strong>${map.chapter}</strong>
-        <span>${map.layer}</span>
+        <strong>${localizedMap.chapter}</strong>
+        <span>${localizedMap.layer}</span>
       </button>
-    `)
+    `;
+    })
     .join("");
 }
 
 function renderWorldMapView(state) {
   const viewRoot = document.querySelector("#world-map-view");
   const copy = getUiCopy(state.language).world;
+  const localizedSource = getLocalizedWorldMapSource(state.worldMaps.source, state.language);
   const map = state.worldMaps.maps[state.activeWorldMapIndex] ?? state.worldMaps.maps[0];
   if (!map) {
     viewRoot.innerHTML = `<div class="empty-state">${getUiCopy(state.language).error}</div>`;
     return;
   }
+  const localizedMap = getLocalizedWorldMap(map, state.language);
 
-  const rewards = map.rewards
+  const rewards = localizedMap.rewards
     .map((reward) => `
       <li class="world-reward">
         <span class="world-reward__node">${reward.node}</span>
@@ -556,16 +576,16 @@ function renderWorldMapView(state) {
   viewRoot.innerHTML = `
     <div class="world-map-viewer">
       <figure class="world-map-figure">
-        <img src="${map.image}" alt="${map.title}" loading="eager" />
-        <figcaption>${map.title} · ${copy.nodes} ${map.nodeRange}</figcaption>
+        <img src="${map.image}" alt="${localizedMap.title}" loading="eager" />
+        <figcaption>${localizedMap.title} · ${copy.nodes} ${map.nodeRange}</figcaption>
       </figure>
       <aside class="world-rewards-panel">
         <div class="world-rewards-panel__header">
           <p>${copy.rewards}</p>
-          <h3>${map.chapter} · ${map.layer}</h3>
+          <h3>${localizedMap.chapter} · ${localizedMap.layer}</h3>
         </div>
         <ol class="world-reward-list">${rewards}</ol>
-        <div class="source-note">${copy.source}: ${state.worldMaps.source.name}</div>
+        <div class="source-note">${copy.source}: ${localizedSource.name}</div>
       </aside>
     </div>
   `;
