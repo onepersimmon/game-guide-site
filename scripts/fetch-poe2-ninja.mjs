@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const DATA_DIR = path.join(ROOT, "data");
+const ASCENDANCIES_PATH = path.join(DATA_DIR, "ascendancies.json");
 const ASSET_DIR = path.join(ROOT, "assets", "images");
 const BUILD_ICON_DIR = path.join(ASSET_DIR, "builds");
 const HERO_DIR = path.join(ASSET_DIR, "hero");
@@ -37,16 +38,34 @@ function trendLabel(trend) {
   return { zh: "热度持平", en: "Stable" };
 }
 
-function buildSummary(leagueName, index) {
+function buildSummary(leagueName, index, className) {
   return {
-    zh: `${leagueName} 当前高热度升华趋势，适合继续追踪其后续占比变化。`,
+    zh: `${className} 在 ${leagueName} 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。`,
     en: index < 3
       ? `A high-share ascendancy in ${leagueName}, worth watching as the league meta keeps shifting.`
       : `A popular ascendancy in ${leagueName}, kept locally for quick trend scanning.`,
   };
 }
 
-export function normalizeBuildIndexState(indexState, buildIndexState) {
+async function readAscendancyNameMap() {
+  if (!existsSync(ASCENDANCIES_PATH)) {
+    return new Map();
+  }
+
+  const payload = JSON.parse(await readFile(ASCENDANCIES_PATH, "utf8"));
+  const names = new Map();
+
+  payload.classes?.forEach((baseClass) => {
+    names.set(baseClass.englishName, baseClass.name);
+    baseClass.ascendancies?.forEach((ascendancy) => {
+      names.set(ascendancy.englishName, ascendancy.name);
+    });
+  });
+
+  return names;
+}
+
+export function normalizeBuildIndexState(indexState, buildIndexState, localizedClassNames = new Map()) {
   const mainLeague = indexState.buildLeagues.find((league) => league.url === "vaal")
     ?? indexState.buildLeagues.find((league) => league.indexed)
     ?? indexState.buildLeagues[0];
@@ -64,9 +83,10 @@ export function normalizeBuildIndexState(indexState, buildIndexState) {
     };
   }
 
-  const builds = leagueSummary.statistics.slice(0, 8).map((entry, index) => {
+  const builds = leagueSummary.statistics.slice(0, 10).map((entry, index) => {
     const slug = slugify(entry.class);
-    const summary = buildSummary(leagueSummary.leagueName, index);
+    const localizedClassName = localizedClassNames.get(entry.class) ?? entry.class;
+    const summary = buildSummary(leagueSummary.leagueName, index, localizedClassName);
     const rankLabel = index < 3
       ? { zh: "主联赛头部", en: "Main league leader" }
       : { zh: "热门升华", en: "Popular ascendancy" };
@@ -79,12 +99,13 @@ export function normalizeBuildIndexState(indexState, buildIndexState) {
       summary: summary.zh,
       popularity: Number(entry.percentage.toFixed(1)),
       trend: entry.trend,
+      rank: index + 1,
       image: `./assets/images/builds/${slug}.webp`,
       tags: [rankLabel.zh, movementLabel.zh],
       href: `https://poe.ninja/poe2/builds/${leagueSummary.leagueUrl}?class=${encodeURIComponent(entry.class)}`,
       localized: {
         zh: {
-          className: entry.class,
+          className: localizedClassName,
           leagueName: leagueSummary.leagueName,
           summary: summary.zh,
           tags: [rankLabel.zh, movementLabel.zh],
@@ -178,8 +199,9 @@ export async function syncPoe2Builds() {
     fetchJson(INDEX_STATE_URL),
     fetchJson(BUILD_INDEX_URL),
   ]);
+  const localizedClassNames = await readAscendancyNameMap();
 
-  const payload = normalizeBuildIndexState(indexState, buildIndexState);
+  const payload = normalizeBuildIndexState(indexState, buildIndexState, localizedClassNames);
 
   await Promise.all([
     ...payload.builds.map((build) => {

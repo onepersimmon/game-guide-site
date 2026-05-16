@@ -1,34 +1,44 @@
 const MAPS_URL = "./data/maps.json";
 const BUILDS_URL = "./data/builds.json";
 const WORLD_MAPS_URL = "./data/world-maps.json";
+const ASCENDANCIES_URL = "./data/ascendancies.json";
 const DEFAULT_LANGUAGE = "zh";
 const SUPPORTED_LANGUAGES = ["zh", "en"];
 
 const UI_COPY = {
   zh: {
     documentTitle: "POE2 开荒攻略站",
-    documentDescription: "流放之路 2 地图攻略与 poe.ninja 热门 BD 本地缓存。",
+    documentDescription: "流放之路 2 开荒地图、升华职业预览与 poe.ninja 热门 BD 本地缓存。",
     hero: {
       eyebrow: "POE2 Guide",
-      title: "地图攻略 + 最新 BD",
-      copy: "适合开荒时顺手查图、看奖励、盯热门流派。地图与 BD 都在站内展示，来源由爬虫同步后本地缓存。",
+      title: "开荒攻略 + 职业预览 + 最新 BD",
+      copy: "适合开荒时顺手查章节地图、奖励掉落、升华差异和忍者网热门职业排行。核心数据由爬虫同步后本地缓存。",
       mapsLoading: "0 张地图",
       buildsLoading: "BD 数据加载中",
     },
     tabs: {
       label: "内容切换",
-      world: "世界地图",
-      maps: "地图攻略",
+      world: "开荒攻略",
+      classes: "职业预览",
       builds: "最新 BD",
     },
     world: {
       kicker: "章节总览",
-      title: "世界地图与编号掉落",
+      title: "开荒地图与编号掉落",
       copy: "按章节/上下层查看完整世界地图，右侧对应图中编号列出奖励、掉落和永久能力。",
-      count: (worldCount, mapCount) => `${worldCount} 张世界图 / ${mapCount} 张区域图`,
+      count: (worldCount, classCount) => `${worldCount} 张世界图 / ${classCount} 个升华`,
       rewards: "对应掉落",
       source: "来源",
       nodes: "编号",
+    },
+    classes: {
+      kicker: "PoE2DB 编年史",
+      title: "职业升华差异预览",
+      copy: "按基础职业查看已开放升华，卡片内列出编年史爬取到的关键升华天赋效果。",
+      empty: "这个职业暂时没有开放升华。",
+      source: "爬取来源",
+      notables: "关键升华天赋",
+      open: "打开编年史",
     },
     maps: {
       kicker: "精选地图",
@@ -43,15 +53,16 @@ const UI_COPY = {
     },
     builds: {
       kicker: "Poe Ninja",
-      title: "当前热门 BD 趋势",
-      copy: "展示当前联赛最热升华与占比趋势，数据由爬虫同步到本地后直接展示。",
+      title: "当前职业热度排行",
+      copy: "展示当前联赛 poe.ninja 职业占比排行，卡片可直接跳转到忍者网对应职业筛选。",
       top: "主联赛最热",
       tracked: "当前收录",
-      trackedTitle: "热门 BD 卡片",
+      trackedTitle: "职业排行",
       updated: "最后同步",
       autoRefresh: "自动刷新",
       empty: "BD 数据还没同步到本地。",
       cached: "本地缓存",
+      open: "查看忍者网",
     },
     filters: {
       all: "全部",
@@ -68,28 +79,37 @@ const UI_COPY = {
   },
   en: {
     documentTitle: "POE2 Campaign Guide",
-    documentDescription: "Path of Exile 2 map notes and cached poe.ninja build trends.",
+    documentDescription: "Path of Exile 2 campaign maps, ascendancy previews, and cached poe.ninja build trends.",
     hero: {
       eyebrow: "POE2 Guide",
-      title: "Maps + Current Builds",
-      copy: "A campaign companion for checking routes, rewards, and popular builds. Maps and build trends are crawled into local data instead of sending you away.",
+      title: "Campaign Guide + Classes + Current Builds",
+      copy: "A campaign companion for checking chapter maps, rewards, ascendancy differences, and poe.ninja class rankings from locally cached crawler data.",
       mapsLoading: "0 maps",
       buildsLoading: "Build data loading",
     },
     tabs: {
       label: "Content switcher",
-      world: "World Maps",
-      maps: "Maps",
+      world: "Campaign Guide",
+      classes: "Class Preview",
       builds: "Builds",
     },
     world: {
       kicker: "Campaign Atlas",
       title: "World Maps and Numbered Rewards",
       copy: "Switch by chapter and layer. The reward list mirrors the numbered markers on each overview map.",
-      count: (worldCount, mapCount) => `${worldCount} world maps / ${mapCount} area maps`,
+      count: (worldCount, classCount) => `${worldCount} world maps / ${classCount} ascendancies`,
       rewards: "Rewards",
       source: "Source",
       nodes: "Nodes",
+    },
+    classes: {
+      kicker: "PoE2DB Chronicle",
+      title: "Ascendancy Class Preview",
+      copy: "Browse each base class and its unlocked ascendancies. Key notable effects are crawled from PoE2DB.",
+      empty: "No ascendancy is currently listed for this class.",
+      source: "Crawled source",
+      notables: "Key ascendancy notables",
+      open: "Open PoE2DB",
     },
     maps: {
       kicker: "Selected Maps",
@@ -104,15 +124,16 @@ const UI_COPY = {
     },
     builds: {
       kicker: "Poe Ninja",
-      title: "Current Build Trends",
-      copy: "The site shows league ascendancy trends after the crawler syncs them into local data.",
+      title: "Current Class Ranking",
+      copy: "Current poe.ninja class share ranking, with each card linking to that class filter on poe.ninja.",
       top: "Top league build",
       tracked: "Tracked cards",
-      trackedTitle: "Popular build cards",
+      trackedTitle: "Class ranking",
       updated: "Last sync",
       autoRefresh: "Auto refresh",
       empty: "Build data has not been synced locally yet.",
       cached: "Local cache",
+      open: "Open poe.ninja",
     },
     filters: {
       all: "All",
@@ -171,6 +192,25 @@ function getLocalizedBuild(build, language = DEFAULT_LANGUAGE) {
     "summary",
     "tags",
   ]);
+}
+
+function getLocalizedAscendancyClass(ascendancyClass, language = DEFAULT_LANGUAGE) {
+  return localizeObject(ascendancyClass, language, ["name"]);
+}
+
+function getLocalizedAscendancy(ascendancy, language = DEFAULT_LANGUAGE) {
+  return localizeObject(ascendancy, language, ["name"]);
+}
+
+function getLocalizedNotable(notable, language = DEFAULT_LANGUAGE) {
+  return localizeObject(notable, language, ["name", "effect"]);
+}
+
+function countAscendancies(payload) {
+  return payload.classes.reduce(
+    (total, ascendancyClass) => total + ascendancyClass.ascendancies.length,
+    0,
+  );
 }
 
 function filterMapsByTag(maps, tag) {
@@ -261,21 +301,80 @@ function renderBuildCard(build, language = DEFAULT_LANGUAGE) {
     .join("");
 
   return `
-    <article class="build-card">
+    <a class="build-card build-card--link" href="${build.href}" target="_blank" rel="noopener">
       <div class="build-card__image">
         <img src="${build.image}" alt="${localizedBuild.className}" loading="lazy" />
       </div>
       <div class="build-card__header">
         <div>
+          <span class="rank-label">#${build.rank ?? "-"}</span>
           <h3>${localizedBuild.className}</h3>
-          <p>${localizedBuild.leagueName}</p>
+          <p>${localizedBuild.leagueName} · ${build.className}</p>
         </div>
         <div class="build-tag">${build.popularity}%</div>
       </div>
       <p>${localizedBuild.summary}</p>
       <div class="build-meta">${meta}</div>
-      <div class="source-note">${copy.cached}: poe.ninja</div>
+      <div class="source-note">${copy.open}: poe.ninja</div>
+    </a>
+  `;
+}
+
+function renderAscendancyCard(ascendancy, language) {
+  const copy = getUiCopy(language).classes;
+  const localizedAscendancy = getLocalizedAscendancy(ascendancy, language);
+  const notables = ascendancy.notables.length
+    ? ascendancy.notables
+      .map((notable) => {
+        const localizedNotable = getLocalizedNotable(notable, language);
+        return `
+          <li>
+            <strong>${localizedNotable.name}</strong>
+            <span>${localizedNotable.effect}</span>
+          </li>
+        `;
+      })
+      .join("")
+    : `<li><span>${copy.empty}</span></li>`;
+
+  return `
+    <article class="ascendancy-card">
+      <div class="ascendancy-card__head">
+        <img src="${ascendancy.image}" alt="${localizedAscendancy.name}" loading="lazy" />
+        <div>
+          <h3>${localizedAscendancy.name}</h3>
+          <p>${ascendancy.englishName}</p>
+        </div>
+      </div>
+      <div class="detail-block">
+        <strong>${copy.notables}</strong>
+        <ul class="ascendancy-notables">${notables}</ul>
+      </div>
+      <a class="source-note source-note--link" href="${ascendancy.sourceUrl}" target="_blank" rel="noopener">${copy.open}</a>
     </article>
+  `;
+}
+
+function renderAscendancyClassCard(ascendancyClass, language) {
+  const copy = getUiCopy(language).classes;
+  const localizedClass = getLocalizedAscendancyClass(ascendancyClass, language);
+  const ascendancies = ascendancyClass.ascendancies.length
+    ? ascendancyClass.ascendancies
+      .map((ascendancy) => renderAscendancyCard(ascendancy, language))
+      .join("")
+    : `<div class="empty-state">${copy.empty}</div>`;
+
+  return `
+    <section class="class-preview-card">
+      <div class="class-preview-card__header">
+        <img src="${ascendancyClass.image}" alt="${localizedClass.name}" loading="lazy" />
+        <div>
+          <p>${ascendancyClass.englishName}</p>
+          <h3>${localizedClass.name}</h3>
+        </div>
+      </div>
+      <div class="ascendancy-grid">${ascendancies}</div>
+    </section>
   `;
 }
 
@@ -332,6 +431,17 @@ function renderMaps(state) {
   mapsGrid.innerHTML = filteredMaps.length
     ? filteredMaps.map((map) => renderMapCard(map, state.language)).join("")
     : `<div class="empty-state">${copy.empty}</div>`;
+}
+
+function renderClasses(state) {
+  const classesGrid = document.querySelector("#classes-grid");
+  if (!classesGrid) {
+    return;
+  }
+
+  classesGrid.innerHTML = state.ascendancies.classes
+    .map((ascendancyClass) => renderAscendancyClassCard(ascendancyClass, state.language))
+    .join("");
 }
 
 function renderBuilds(buildsPayload, language) {
@@ -430,12 +540,12 @@ function translateShell(language) {
 function renderApp(state) {
   translateShell(state.language);
   renderWorldMaps(state);
-  renderMaps(state);
+  renderClasses(state);
   renderBuilds(state.buildsPayload, state.language);
 
   document.querySelector("#maps-count").textContent = getUiCopy(state.language).world.count(
     state.worldMaps.maps.length,
-    state.maps.length,
+    countAscendancies(state.ascendancies),
   );
   document.querySelector("#builds-updated").textContent = formatUpdatedLabel(
     state.buildsPayload.updatedAt,
@@ -517,18 +627,18 @@ async function loadAppData() {
   if (window.location.protocol === "file:") {
     return {
       worldMaps: readEmbeddedJson("world-maps-data"),
-      maps: readEmbeddedJson("maps-data"),
+      ascendancies: readEmbeddedJson("ascendancies-data"),
       buildsPayload: readEmbeddedJson("builds-data"),
     };
   }
 
-  const [worldMaps, maps, buildsPayload] = await Promise.all([
+  const [worldMaps, ascendancies, buildsPayload] = await Promise.all([
     loadJson(WORLD_MAPS_URL),
-    loadJson(MAPS_URL),
+    loadJson(ASCENDANCIES_URL),
     loadJson(BUILDS_URL),
   ]);
 
-  return { worldMaps, maps, buildsPayload };
+  return { worldMaps, ascendancies, buildsPayload };
 }
 
 async function initApp() {
@@ -539,16 +649,16 @@ async function initApp() {
     activeWorldMapIndex: 0,
     language: normalizeLanguage(localStorage.getItem("poe2-guide-language") ?? DEFAULT_LANGUAGE),
     worldMaps: { source: { name: "" }, maps: [] },
-    maps: [],
+    ascendancies: { source: { name: "" }, classes: [] },
     buildsPayload: { updatedAt: null, builds: [] },
   };
 
   setupLanguageSwitcher(state);
 
   try {
-    const { worldMaps, maps, buildsPayload } = await loadAppData();
+    const { worldMaps, ascendancies, buildsPayload } = await loadAppData();
     state.worldMaps = worldMaps;
-    state.maps = maps;
+    state.ascendancies = ascendancies;
     state.buildsPayload = buildsPayload;
     renderApp(state);
 
@@ -562,19 +672,10 @@ async function initApp() {
       renderWorldMaps(state);
     });
 
-    document.querySelector("#map-filters").addEventListener("click", (event) => {
-      const button = event.target.closest("[data-filter-tag]");
-      if (!button) {
-        return;
-      }
-
-      state.activeTag = button.dataset.filterTag;
-      renderMaps(state);
-    });
   } catch (error) {
     const message = `<div class="empty-state">${getUiCopy(state.language).error}</div>`;
     document.querySelector("#world-map-view").innerHTML = message;
-    document.querySelector("#maps-grid").innerHTML = message;
+    document.querySelector("#classes-grid").innerHTML = message;
     document.querySelector("#builds-grid").innerHTML = message;
     document.querySelector("#builds-summary").innerHTML = message;
     console.error(error);

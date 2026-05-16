@@ -18,16 +18,22 @@ jobs:
         with:
           node-version: "22"
 
+      - name: Crawl PoE2DB ascendancy data
+        run: node ./scripts/fetch-poe2-ascendancies.mjs
+
       - name: Sync poe.ninja build data
         run: node ./scripts/fetch-poe2-ninja.mjs
 
       - name: Crawl map guide sources
         run: node ./scripts/fetch-map-guides.mjs
 
+      - name: Refresh embedded HTML data
+        run: node ./scripts/embed-local-data.mjs
+
       - name: Commit updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/builds.json data/map-guide-cache.json data/crawled assets/images/builds assets/images/hero
+          git add index.html data/builds.json data/ascendancies.json data/map-guide-cache.json data/crawled assets/images/builds assets/images/hero
           git diff --cached --quiet || git commit -m "chore: refresh poe2 build data"
           git push

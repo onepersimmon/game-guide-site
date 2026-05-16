@@ -1,0 +1,1372 @@
+{
+  "updatedAt": "2026-05-16T02:17:26.107Z",
+  "source": {
+    "name": "流亡2编年史 / PoE2DB",
+    "url": "https://poe2db.tw/cn/Ascendancy_class"
+  },
+  "classes": [
+    {
+      "id": "ranger",
+      "name": "游侠",
+      "englishName": "Ranger",
+      "sourceUrl": "https://poe2db.tw/cn/Ranger",
+      "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexFour.webp",
+      "ascendancies": [
+        {
+          "id": "deadeye",
+          "name": "锐眼",
+          "englishName": "Deadeye",
+          "sourceUrl": "https://poe2db.tw/cn/Deadeye",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexFour_Ranger1.webp",
+          "notables": [
+            {
+              "name": "无限弹药",
+              "effect": "技能会发射一枚额外投射物",
+              "sourceUrl": "https://poe2db.tw/cn/Endless_Munitions",
+              "localized": {
+                "en": {
+                  "name": "Endless Munitions",
+                  "effect": "Skills fire an additional Projectile"
+                }
+              }
+            },
+            {
+              "name": "投射物近距离专精",
+              "effect": "",
+              "sourceUrl": "https://poe2db.tw/cn/Projectile_Proximity_Specialisation",
+              "localized": {
+                "en": {
+                  "name": "Projectile Proximity Specialisation",
+                  "effect": ""
+                }
+              }
+            },
+            {
+              "name": "聚风",
+              "effect": "使用技能时获得提速尾流 / 被击中时失去所有提速尾流",
+              "sourceUrl": "https://poe2db.tw/cn/Gathering_Winds",
+              "localized": {
+                "en": {
+                  "name": "Gathering Winds",
+                  "effect": "Gain Tailwind on Skill use / Lose all Tailwind when Hit"
+                }
+              }
+            },
+            {
+              "name": "蜃影神射",
+              "effect": "获得技能: 蜃影神射",
+              "sourceUrl": "https://poe2db.tw/cn/Mirage_Deadeye",
+              "localized": {
+                "en": {
+                  "name": "Mirage Deadeye",
+                  "effect": "Grants Skill: Mirage Deadeye"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Deadeye"
+            }
+          }
+        },
+        {
+          "id": "pathfinder",
+          "name": "追猎者",
+          "englishName": "Pathfinder",
+          "sourceUrl": "https://poe2db.tw/cn/Pathfinder",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexFour_Ranger3.webp",
+          "notables": [
+            {
+              "name": "奔波袭击",
+              "effect": "奔跑时无法被重度晕眩 / 移动时使用技能的移动速度惩罚总降 50%",
+              "sourceUrl": "https://poe2db.tw/cn/Running_Assault",
+              "localized": {
+                "en": {
+                  "name": "Running Assault",
+                  "effect": "Cannot be Heavy Stunned while Sprinting / 50% less Movement Speed Penalty from using Skills while moving"
+                }
+              }
+            },
+            {
+              "name": "无尽追踪",
+              "effect": "你的速度不受减速效果影响",
+              "sourceUrl": "https://poe2db.tw/cn/Relentless_Pursuit",
+              "localized": {
+                "en": {
+                  "name": "Relentless Pursuit",
+                  "effect": "Your speed is unaffected by Slows"
+                }
+              }
+            },
+            {
+              "name": "倾压剧毒",
+              "effect": "目标同时可以受到你的中毒效果数量翻倍 / 中毒持续时间总降 35%",
+              "sourceUrl": "https://poe2db.tw/cn/Overwhelming_Toxicity",
+              "localized": {
+                "en": {
+                  "name": "Overwhelming Toxicity",
+                  "effect": "Double the number of your Poisons that targets can be affected by at the same time / 35% less Poison Duration"
+                }
+              }
+            },
+            {
+              "name": "可持续操作",
+              "effect": "50% 的闪避值也会提供元素伤害减免",
+              "sourceUrl": "https://poe2db.tw/cn/Sustainable_Practices",
+              "localized": {
+                "en": {
+                  "name": "Sustainable Practices",
+                  "effect": "50% of Evasion Rating also grants Elemental Damage reduction"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Pathfinder"
+            }
+          }
+        }
+      ],
+      "localized": {
+        "en": {
+          "name": "Ranger"
+        }
+      }
+    },
+    {
+      "id": "huntress",
+      "name": "女猎手",
+      "englishName": "Huntress",
+      "sourceUrl": "https://poe2db.tw/cn/Huntress",
+      "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexFourb.webp",
+      "ascendancies": [
+        {
+          "id": "amazon",
+          "name": "亚马逊",
+          "englishName": "Amazon",
+          "sourceUrl": "https://poe2db.tw/cn/Amazon",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexFourb_Huntress1.webp",
+          "notables": [
+            {
+              "name": "暴击",
+              "effect": "攻击时的击中几率能[[ExceedChance|溢出 100%] / 获得等同于攻击击中溢出几率 25% 的额外暴击几率",
+              "sourceUrl": "https://poe2db.tw/cn/Critical_Strike",
+              "localized": {
+                "en": {
+                  "name": "Critical Strike",
+                  "effect": "Chance to Hit with Attacks can exceed 100% / Gain additional Critical Hit Chance equal to 25% of excess chance to Hit with Attacks"
+                }
+              }
+            },
+            {
+              "name": "穿透",
+              "effect": "使用你的武器的攻击附加相当于武器 / 命中值 25% 的物理伤害",
+              "sourceUrl": "https://poe2db.tw/cn/Penetrate",
+              "localized": {
+                "en": {
+                  "name": "Penetrate",
+                  "effect": "Attacks using your Weapons have Added Physical Damage equal / to 25% of the Accuracy Rating on the Weapon"
+                }
+              }
+            },
+            {
+              "name": "掠食本能",
+              "effect": "对稀有和传奇敌人揭示弱点 / 对弱点暴露的敌人伤害总增 50%",
+              "sourceUrl": "https://poe2db.tw/cn/Predatory_Instinct",
+              "localized": {
+                "en": {
+                  "name": "Predatory Instinct",
+                  "effect": "Reveal Weaknesses against Rare and Unique enemies / 50% more damage against enemies with an Open Weakness"
+                }
+              }
+            },
+            {
+              "name": "直击要害",
+              "effect": "当在场的敌人具有弱点暴露时，移动速度加快 20% / 当在场的敌人具有弱点暴露时，技能速度加快 40%",
+              "sourceUrl": "https://poe2db.tw/cn/In_for_the_Kill",
+              "localized": {
+                "en": {
+                  "name": "In for the Kill",
+                  "effect": "20% increased Movement Speed while an enemy with an Open Weakness is in your Presence / 40% increased Skill Speed while an enemy with an Open Weakness is in your Presence"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Amazon"
+            }
+          }
+        },
+        {
+          "id": "spirit-walker",
+          "name": "灵魂行者",
+          "englishName": "Spirit Walker",
+          "sourceUrl": "https://poe2db.tw/cn/Spirit_Walker",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexFourb_Huntress2.webp",
+          "notables": [],
+          "localized": {
+            "en": {
+              "name": "Spirit Walker"
+            }
+          }
+        },
+        {
+          "id": "ritualist",
+          "name": "仪祭师",
+          "englishName": "Ritualist",
+          "sourceUrl": "https://poe2db.tw/cn/Ritualist",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexFourb_Huntress3.webp",
+          "notables": [
+            {
+              "name": "神秘协调",
+              "effect": "装备戒指和项链获得的加成提高 25%",
+              "sourceUrl": "https://poe2db.tw/cn/Mystic_Attunement",
+              "localized": {
+                "en": {
+                  "name": "Mystic Attunement",
+                  "effect": "25% increased bonuses gained from Equipped Rings and Amulets"
+                }
+              }
+            },
+            {
+              "name": "伸展的手指",
+              "effect": "+1 戒指栏位",
+              "sourceUrl": "https://poe2db.tw/cn/Unfurled_Finger",
+              "localized": {
+                "en": {
+                  "name": "Unfurled Finger",
+                  "effect": "+1 Ring Slot"
+                }
+              }
+            },
+            {
+              "name": "精巧法印",
+              "effect": "咒符栏 +1 / 获得的咒符充能总增 20%",
+              "sourceUrl": "https://poe2db.tw/cn/Intricate_Sigils",
+              "localized": {
+                "en": {
+                  "name": "Intricate Sigils",
+                  "effect": "+1 Charm Slot / 20% more Charm Charges gained"
+                }
+              }
+            },
+            {
+              "name": "心灵护命",
+              "effect": "充能不足时可以改为消耗 25% 的最大魔力触发咒符",
+              "sourceUrl": "https://poe2db.tw/cn/Mind_Phylacteries",
+              "localized": {
+                "en": {
+                  "name": "Mind Phylacteries",
+                  "effect": "Can instead consume 25% of maximum Mana to trigger Charms with insufficient charges"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Ritualist"
+            }
+          }
+        }
+      ],
+      "localized": {
+        "en": {
+          "name": "Huntress"
+        }
+      }
+    },
+    {
+      "id": "shadow",
+      "name": "暗影",
+      "englishName": "Shadow",
+      "sourceUrl": "https://poe2db.tw/cn/Shadow",
+      "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconUnknownCharacter.webp",
+      "ascendancies": [],
+      "localized": {
+        "en": {
+          "name": "Shadow"
+        }
+      }
+    },
+    {
+      "id": "monk",
+      "name": "行者",
+      "englishName": "Monk",
+      "sourceUrl": "https://poe2db.tw/cn/Monk",
+      "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexIntFourb.webp",
+      "ascendancies": [
+        {
+          "id": "martial-artist",
+          "name": "武圣",
+          "englishName": "Martial Artist",
+          "sourceUrl": "https://poe2db.tw/cn/Martial_Artist",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexIntFourb_Monk1.webp",
+          "notables": [],
+          "localized": {
+            "en": {
+              "name": "Martial Artist"
+            }
+          }
+        },
+        {
+          "id": "invoker",
+          "name": "祈求者",
+          "englishName": "Invoker",
+          "sourceUrl": "https://poe2db.tw/cn/Invoker",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexIntFourb_Monk2.webp",
+          "notables": [
+            {
+              "name": "降恩的指引",
+              "effect": "装备的胸甲每有 8 点物品能量护盾，+1 精魂 / 装备的胸甲每有 20 闪避值，+1 精魂",
+              "sourceUrl": "https://poe2db.tw/cn/Lead_me_through_Grace...",
+              "localized": {
+                "en": {
+                  "name": "Lead me through Grace...",
+                  "effect": "+1 to Spirit for every 8 Item Energy Shield on Equipped Body Armour / +1 to Spirit for every 20 Evasion Rating on Equipped Body Armour"
+                }
+              }
+            },
+            {
+              "name": "消灾的庇护",
+              "effect": "护甲的物理伤害减免由护甲和闪避值共同决定 / 闪避值总降 35%",
+              "sourceUrl": "https://poe2db.tw/cn/...and_Protect_me_from_Harm",
+              "localized": {
+                "en": {
+                  "name": "...and Protect me from Harm",
+                  "effect": "Physical Damage Reduction from Armour is based on your combined Armour and Evasion Rating / 35% less Evasion Rating"
+                }
+              }
+            },
+            {
+              "name": "我即雷霆",
+              "effect": "获得相当于伤害 10% 的额外闪电伤害 / 使敌人感电时有 25% 的几率产生感电地面",
+              "sourceUrl": "https://poe2db.tw/cn/I_am_the_Thunder...",
+              "localized": {
+                "en": {
+                  "name": "I am the Thunder...",
+                  "effect": "Gain 10% of Damage as Extra Lightning Damage / 25% chance on Shocking Enemies to created Shocked Ground"
+                }
+              }
+            },
+            {
+              "name": "我即暴雪",
+              "effect": "获得相当于伤害 10% 的额外冰霜伤害 / 冻结敌人时产生冰缓地面",
+              "sourceUrl": "https://poe2db.tw/cn/I_am_the_Blizzard...",
+              "localized": {
+                "en": {
+                  "name": "I am the Blizzard...",
+                  "effect": "Gain 10% of Damage as Extra Cold Damage / On Freezing Enemies create Chilled Ground"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Invoker"
+            }
+          }
+        },
+        {
+          "id": "acolyte-of-chayula",
+          "name": "夏乌拉追随者",
+          "englishName": "Acolyte of Chayula",
+          "sourceUrl": "https://poe2db.tw/cn/Acolyte_of_Chayula",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexIntFourb_Monk3.webp",
+          "notables": [
+            {
+              "name": "内在动荡",
+              "effect": "施加元素异常状态时获得 1 点无常 / 不受无常伤害",
+              "sourceUrl": "https://poe2db.tw/cn/Inner_Turmoil",
+              "localized": {
+                "en": {
+                  "name": "Inner Turmoil",
+                  "effect": "Gain 1 Volatility on inflicting an Elemental Ailment / Take no Damage from Volatility"
+                }
+              }
+            },
+            {
+              "name": "解析",
+              "effect": "获得解析",
+              "sourceUrl": "https://poe2db.tw/cn/Unravelling",
+              "localized": {
+                "en": {
+                  "name": "Unravelling",
+                  "effect": "Grants Unravelling"
+                }
+              }
+            },
+            {
+              "name": "梦魇之液",
+              "effect": "偷取回复量基于混沌伤害以及物理伤害",
+              "sourceUrl": "https://poe2db.tw/cn/Sap_of_Nightmares",
+              "localized": {
+                "en": {
+                  "name": "Sap of Nightmares",
+                  "effect": "Leech recovers based on Chaos Damage as well as Physical Damage"
+                }
+              }
+            },
+            {
+              "name": "夏乌拉之赐",
+              "effect": "+10% 混沌抗性上限 / 混沌抗性翻倍",
+              "sourceUrl": "https://poe2db.tw/cn/Chayulas_Gift",
+              "localized": {
+                "en": {
+                  "name": "Chayula's Gift",
+                  "effect": "+10% to Maximum Chaos Resistance / Chaos Resistance is doubled"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Acolyte of Chayula"
+            }
+          }
+        }
+      ],
+      "localized": {
+        "en": {
+          "name": "Monk"
+        }
+      }
+    },
+    {
+      "id": "witch",
+      "name": "女巫",
+      "englishName": "Witch",
+      "sourceUrl": "https://poe2db.tw/cn/Witch",
+      "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFour.webp",
+      "ascendancies": [
+        {
+          "id": "infernalist",
+          "name": "驱炎使",
+          "englishName": "Infernalist",
+          "sourceUrl": "https://poe2db.tw/cn/Infernalist",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFour_Witch1.webp",
+          "notables": [
+            {
+              "name": "贝达特的凝视",
+              "effect": "保留 25% 生命 / 每 6 生命上限 +1 魔力上限",
+              "sourceUrl": "https://poe2db.tw/cn/Beidats_Gaze",
+              "localized": {
+                "en": {
+                  "name": "Beidat's Gaze",
+                  "effect": "Reserves 25% of Life / +1 to Maximum Mana per 6 Maximum Life"
+                }
+              }
+            },
+            {
+              "name": "贝达特之手",
+              "effect": "保留 25% 生命 / 每 8 生命上限 +1 能量护盾上限",
+              "sourceUrl": "https://poe2db.tw/cn/Beidats_Hand",
+              "localized": {
+                "en": {
+                  "name": "Beidat's Hand",
+                  "effect": "Reserves 25% of Life / +1 to Maximum Energy Shield per 8 Maximum Life"
+                }
+              }
+            },
+            {
+              "name": "贝达特的意志",
+              "effect": "保留 25% 生命 / 每 25 生命上限使精魂上限 +1",
+              "sourceUrl": "https://poe2db.tw/cn/Beidats_Will",
+              "localized": {
+                "en": {
+                  "name": "Beidat's Will",
+                  "effect": "Reserves 25% of Life / +1 to Maximum Spirit per 25 Maximum Life"
+                }
+              }
+            },
+            {
+              "name": "重塑身躯",
+              "effect": "受到的冰霜伤害的 20% 转为火焰伤害 / 承受的闪电伤害有 20% 视为火焰伤害",
+              "sourceUrl": "https://poe2db.tw/cn/Altered_Flesh",
+              "localized": {
+                "en": {
+                  "name": "Altered Flesh",
+                  "effect": "20% of Cold Damage taken as Fire Damage / 20% of Lightning Damage taken as Fire Damage"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Infernalist"
+            }
+          }
+        },
+        {
+          "id": "blood-mage",
+          "name": "命源法师",
+          "englishName": "Blood Mage",
+          "sourceUrl": "https://poe2db.tw/cn/Blood_Mage",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFour_Witch2.webp",
+          "notables": [
+            {
+              "name": "创伤尖刺",
+              "effect": "每 50 点当前生命使暴击伤害加成总增 1%",
+              "sourceUrl": "https://poe2db.tw/cn/Gore_Spike",
+              "localized": {
+                "en": {
+                  "name": "Gore Spike",
+                  "effect": "1% increased Critical Damage Bonus per 50 current Life"
+                }
+              }
+            },
+            {
+              "name": "皮开肉绽",
+              "effect": "法术的基础暴击几率为 15%",
+              "sourceUrl": "https://poe2db.tw/cn/Sunder_the_Flesh",
+              "localized": {
+                "en": {
+                  "name": "Sunder the Flesh",
+                  "effect": "Base Critical Hit Chance for Spells is 15%"
+                }
+              }
+            },
+            {
+              "name": "滴血为咒",
+              "effect": "获得技能: 生命残片 / 技能获得等于基础魔力消耗的基础生命消耗",
+              "sourceUrl": "https://poe2db.tw/cn/Sanguimancy",
+              "localized": {
+                "en": {
+                  "name": "Sanguimancy",
+                  "effect": "Grants Skill: Life Remnants / Skills gain a Base Life Cost equal to Base Mana Cost"
+                }
+              }
+            },
+            {
+              "name": "赤红刀锋",
+              "effect": "你对被诅咒目标施加的流血效果为恶性 / 元素伤害也作用于流血强度",
+              "sourceUrl": "https://poe2db.tw/cn/Blood_Barbs",
+              "localized": {
+                "en": {
+                  "name": "Blood Barbs",
+                  "effect": "Bleeding you inflict on Cursed targets is Aggravated / Elemental Damage also Contributes to Bleeding Magnitude"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Blood Mage"
+            }
+          }
+        },
+        {
+          "id": "lich",
+          "name": "巫妖",
+          "englishName": "Lich",
+          "sourceUrl": "https://poe2db.tw/cn/Lich",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFour_Witch3.webp",
+          "notables": [
+            {
+              "name": "结晶护命匣",
+              "effect": "可以在命匣中镶嵌一个非传奇基本珠宝 / 镶嵌珠宝的效果提高 100%",
+              "sourceUrl": "https://poe2db.tw/cn/Crystalline_Phylactery",
+              "localized": {
+                "en": {
+                  "name": "Crystalline Phylactery",
+                  "effect": "Can Socket a non-Unique Basic Jewel into the Phylactery / 100% increased Effect of the Socketed Jewel"
+                }
+              }
+            },
+            {
+              "name": "灵魂破裂",
+              "effect": "被你或在场的友军击败的被诅咒的敌人有 33% 的几率爆炸，造成其生命上限四分之一的混沌伤害",
+              "sourceUrl": "https://poe2db.tw/cn/Rupture_the_Soul",
+              "localized": {
+                "en": {
+                  "name": "Rupture the Soul",
+                  "effect": "Cursed Enemies killed by you, or by Allies in your Presence, have a 33% chance to explode, dealing a quarter of their maximum Life as Chaos damage"
+                }
+              }
+            },
+            {
+              "name": "通灵导体",
+              "effect": "你不处于低魔时，你和在场的友军具有不洁之力 / 每秒失去 5% 魔力",
+              "sourceUrl": "https://poe2db.tw/cn/Necromantic_Conduit",
+              "localized": {
+                "en": {
+                  "name": "Necromantic Conduit",
+                  "effect": "While you are not on Low Mana, you and Allies in your Presence have Unholy Might / Lose 5% of maximum Mana per Second"
+                }
+              }
+            },
+            {
+              "name": "黑化之心",
+              "effect": "每 100 魔力上限使你提供的不洁之力增益状态的强度提高 4%",
+              "sourceUrl": "https://poe2db.tw/cn/Blackened_Heart",
+              "localized": {
+                "en": {
+                  "name": "Blackened Heart",
+                  "effect": "4% increased Magnitude of Unholy Might Buffs you grant per 100 maximum Mana"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Lich"
+            }
+          }
+        },
+        {
+          "id": "abyssal-lich",
+          "name": "深渊巫妖",
+          "englishName": "Abyssal Lich",
+          "sourceUrl": "https://poe2db.tw/cn/Abyssal_Lich",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFour_Witch3b.webp",
+          "notables": [],
+          "localized": {
+            "en": {
+              "name": "Abyssal Lich"
+            }
+          }
+        }
+      ],
+      "localized": {
+        "en": {
+          "name": "Witch"
+        }
+      }
+    },
+    {
+      "id": "sorceress",
+      "name": "魔巫",
+      "englishName": "Sorceress",
+      "sourceUrl": "https://poe2db.tw/cn/Sorceress",
+      "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFourb.webp",
+      "ascendancies": [
+        {
+          "id": "stormweaver",
+          "name": "风暴编织者",
+          "englishName": "Stormweaver",
+          "sourceUrl": "https://poe2db.tw/cn/Stormweaver",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFourb_Sorceress1.webp",
+          "notables": [
+            {
+              "name": "不息强风",
+              "effect": "你具有秘术增强",
+              "sourceUrl": "https://poe2db.tw/cn/Constant_Gale",
+              "localized": {
+                "en": {
+                  "name": "Constant Gale",
+                  "effect": "You have Arcane Surge"
+                }
+              }
+            },
+            {
+              "name": "意志的力量",
+              "effect": "20% 的伤害优先从魔力扣除 / 每缺少 10% 魔力，你受到的秘术增强效果提高 20%",
+              "sourceUrl": "https://poe2db.tw/cn/Force_of_Will",
+              "localized": {
+                "en": {
+                  "name": "Force of Will",
+                  "effect": "20% of Damage is taken from Mana before Life / 20% increased Effect of Arcane Surge on you per ten percent missing Mana"
+                }
+              }
+            },
+            {
+              "name": "风暴呼唤者",
+              "effect": "获得技能: 元素风暴 / 法术暴击时触发元素风暴",
+              "sourceUrl": "https://poe2db.tw/cn/Tempest_Caller",
+              "localized": {
+                "en": {
+                  "name": "Tempest Caller",
+                  "effect": "Grants Skill: Elemental Storm / Trigger Elemental Storm on Critical Hit with Spells"
+                }
+              }
+            },
+            {
+              "name": "倍增飑风",
+              "effect": "元素技能上限 +2",
+              "sourceUrl": "https://poe2db.tw/cn/Multiplying_Squalls",
+              "localized": {
+                "en": {
+                  "name": "Multiplying Squalls",
+                  "effect": "+2 to Limit for Elemental Skills"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Stormweaver"
+            }
+          }
+        },
+        {
+          "id": "chronomancer",
+          "name": "塑时术师",
+          "englishName": "Chronomancer",
+          "sourceUrl": "https://poe2db.tw/cn/Chronomancer",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFourb_Sorceress2.webp",
+          "notables": [
+            {
+              "name": "涉沙留痕",
+              "effect": "获得技能: 时空裂隙",
+              "sourceUrl": "https://poe2db.tw/cn/Footprints_in_the_Sand",
+              "localized": {
+                "en": {
+                  "name": "Footprints in the Sand",
+                  "effect": "Grants Skill: Temporal Rift"
+                }
+              }
+            },
+            {
+              "name": "极限掌控",
+              "effect": "获得技能: 时间冻结",
+              "sourceUrl": "https://poe2db.tw/cn/Ultimate_Command",
+              "localized": {
+                "en": {
+                  "name": "Ultimate Command",
+                  "effect": "Grants Skill: Time Freeze"
+                }
+              }
+            },
+            {
+              "name": "无可违逆",
+              "effect": "获得技能: 命定苦痛",
+              "sourceUrl": "https://poe2db.tw/cn/Inevitability",
+              "localized": {
+                "en": {
+                  "name": "Inevitability",
+                  "effect": "Grants Skill: Inevitable Agony"
+                }
+              }
+            },
+            {
+              "name": "急浪奔流",
+              "effect": "吸纳效果改为在 4 秒内生效",
+              "sourceUrl": "https://poe2db.tw/cn/The_Rapid_River",
+              "localized": {
+                "en": {
+                  "name": "The Rapid River",
+                  "effect": "Recoup Effects instead occur over 4 seconds"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Chronomancer"
+            }
+          }
+        },
+        {
+          "id": "disciple-of-varashta",
+          "name": "瓦拉煞的门徒",
+          "englishName": "Disciple of Varashta",
+          "sourceUrl": "https://poe2db.tw/cn/Disciple_of_Varashta",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFourb_Sorceress3.webp",
+          "notables": [
+            {
+              "name": "神圣仪式",
+              "effect": "你当前能量护盾的 60% 会计入你的护甲，用于 / 计算护甲提供的物理伤害减免",
+              "sourceUrl": "https://poe2db.tw/cn/Sacred_Rituals",
+              "localized": {
+                "en": {
+                  "name": "Sacred Rituals",
+                  "effect": "60% of your current Energy Shield is added to your Armour for / determining your Physical Damage Reduction from Armour"
+                }
+              }
+            },
+            {
+              "name": "第四教义",
+              "effect": "基础能量护盾充能延迟 -1 秒 / 处于低能量护盾状态时，能量护盾充能率总增 40%",
+              "sourceUrl": "https://poe2db.tw/cn/The_Fourth_Teaching",
+              "localized": {
+                "en": {
+                  "name": "The Fourth Teaching",
+                  "effect": "-1 second to base Energy Shield Recharge delay / 40% more Energy Shield Recharge Rate while on Low Energy Shield"
+                }
+              }
+            },
+            {
+              "name": "瓦拉煞的直觉",
+              "effect": "有 100% 的元素伤害伤害优先从魔力扣除",
+              "sourceUrl": "https://poe2db.tw/cn/Varashtas_Intuition",
+              "localized": {
+                "en": {
+                  "name": "Varashta's Intuition",
+                  "effect": "100% of Elemental Damage is taken from Mana before Life"
+                }
+              }
+            },
+            {
+              "name": "力量法器",
+              "effect": "持有长杖时可装备法器 / 从已装备的法器获得的加成总降 50%",
+              "sourceUrl": "https://poe2db.tw/cn/Instruments_of_Power",
+              "localized": {
+                "en": {
+                  "name": "Instruments of Power",
+                  "effect": "You can equip a Focus while wielding a Staff / 50% reduced bonuses gained from Equipped Focus"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Disciple of Varashta"
+            }
+          }
+        }
+      ],
+      "localized": {
+        "en": {
+          "name": "Sorceress"
+        }
+      }
+    },
+    {
+      "id": "marauder",
+      "name": "野蛮人",
+      "englishName": "Marauder",
+      "sourceUrl": "https://poe2db.tw/cn/Marauder",
+      "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconUnknownCharacter.webp",
+      "ascendancies": [],
+      "localized": {
+        "en": {
+          "name": "Marauder"
+        }
+      }
+    },
+    {
+      "id": "warrior",
+      "name": "战士",
+      "englishName": "Warrior",
+      "sourceUrl": "https://poe2db.tw/cn/Warrior",
+      "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrFourb.webp",
+      "ascendancies": [
+        {
+          "id": "titan",
+          "name": "泰坦",
+          "englishName": "Titan",
+          "sourceUrl": "https://poe2db.tw/cn/Titan",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrFourb_Warrior1.webp",
+          "notables": [
+            {
+              "name": "裂地之灵",
+              "effect": "你对自己使用的猛击技能有 25% 的几率造成一次额外余震",
+              "sourceUrl": "https://poe2db.tw/cn/Earthbreaker",
+              "localized": {
+                "en": {
+                  "name": "Earthbreaker",
+                  "effect": "25% chance for Slam Skills you use yourself to cause an additional Aftershock"
+                }
+              }
+            },
+            {
+              "name": "先祖神威",
+              "effect": "你使用的第二个猛击技能获得先祖加持",
+              "sourceUrl": "https://poe2db.tw/cn/Ancestral_Empowerment",
+              "localized": {
+                "en": {
+                  "name": "Ancestral Empowerment",
+                  "effect": "Every second Slam Skill you use yourself is Ancestrally Boosted"
+                }
+              }
+            },
+            {
+              "name": "开山裂地",
+              "effect": "你对自己使用猛击技能时，每个第三次不产生裂缝的技能，会在原始范围前方及两侧额外产生 3 次余震",
+              "sourceUrl": "https://poe2db.tw/cn/Mountain_Splitter",
+              "localized": {
+                "en": {
+                  "name": "Mountain Splitter",
+                  "effect": "Every Third Slam skill that doesn't create Fissures which you use yourself causes 3 additional Aftershocks ahead and to each side of the initial area"
+                }
+              }
+            },
+            {
+              "name": "粉碎冲击",
+              "effect": "对重度晕眩的敌人的伤害总增 25% / 你的击中为粉碎打击",
+              "sourceUrl": "https://poe2db.tw/cn/Crushing_Impacts",
+              "localized": {
+                "en": {
+                  "name": "Crushing Impacts",
+                  "effect": "25% more Damage against Heavy Stunned Enemies / Your Hits are Crushing Blows"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Titan"
+            }
+          }
+        },
+        {
+          "id": "warbringer",
+          "name": "战争使者",
+          "englishName": "Warbringer",
+          "sourceUrl": "https://poe2db.tw/cn/Warbringer",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrFourb_Warrior2.webp",
+          "notables": [
+            {
+              "name": "铁砧的重量",
+              "effect": "粉碎护甲，相当于造成击中伤害的 10%",
+              "sourceUrl": "https://poe2db.tw/cn/Anvils_Weight",
+              "localized": {
+                "en": {
+                  "name": "Anvil's Weight",
+                  "effect": "Break Armour equal to 10% of Hit Damage dealt"
+                }
+              }
+            },
+            {
+              "name": "内爆冲击",
+              "effect": "你造成护甲完全破损时，改为提高击中时承受的所有伤害 / 你可以将敌人的护甲粉碎至 0 以下",
+              "sourceUrl": "https://poe2db.tw/cn/Imploding_Impacts",
+              "localized": {
+                "en": {
+                  "name": "Imploding Impacts",
+                  "effect": "Fully Broken Armour you inflict increases all Damage Taken from Hits instead / You can Break Enemy Armour to below 0"
+                }
+              }
+            },
+            {
+              "name": "青玉传承",
+              "effect": "获得技能: 青玉囚笼 / 每秒获得一层青玉护身",
+              "sourceUrl": "https://poe2db.tw/cn/Jade_Heritage",
+              "localized": {
+                "en": {
+                  "name": "Jade Heritage",
+                  "effect": "Grants Skill: Encase in Jade / Gain a stack of Jade every second"
+                }
+              }
+            },
+            {
+              "name": "战争司号的呐喊",
+              "effect": "战吼引爆灵柩，造成其生命 25% 的物理伤害 / 忽略战吼的冷却时间",
+              "sourceUrl": "https://poe2db.tw/cn/Warcallers_Bellow",
+              "localized": {
+                "en": {
+                  "name": "Warcaller's Bellow",
+                  "effect": "Warcries Explode Corpses dealing 25% of their Life as Physical Damage / Ignore Warcry Cooldowns"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Warbringer"
+            }
+          }
+        },
+        {
+          "id": "smith-of-kitava",
+          "name": "奇塔弗匠师",
+          "englishName": "Smith of Kitava",
+          "sourceUrl": "https://poe2db.tw/cn/Smith_of_Kitava",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrFourb_Warrior3.webp",
+          "notables": [
+            {
+              "name": "锻炉的热浪",
+              "effect": "获得技能: 击中时火焰法术",
+              "sourceUrl": "https://poe2db.tw/cn/Heat_of_the_Forge",
+              "localized": {
+                "en": {
+                  "name": "Heat of the Forge",
+                  "effect": "Grants Skill: Fire Spell on Hit"
+                }
+              }
+            },
+            {
+              "name": "活体武器",
+              "effect": "获得技能: 显化武器",
+              "sourceUrl": "https://poe2db.tw/cn/Living_Weapon",
+              "localized": {
+                "en": {
+                  "name": "Living Weapon",
+                  "effect": "Grants Skill: Manifest Weapon"
+                }
+              }
+            },
+            {
+              "name": "迎砧击打",
+              "effect": "获得技能: 淬炼武器",
+              "sourceUrl": "https://poe2db.tw/cn/Against_the_Anvil",
+              "localized": {
+                "en": {
+                  "name": "Against the Anvil",
+                  "effect": "Grants Skill: Temper Weapon"
+                }
+              }
+            },
+            {
+              "name": "司炉的炭火",
+              "effect": "火焰抗性修正的 50% 也作用于冰霜和闪电抗性",
+              "sourceUrl": "https://poe2db.tw/cn/Coal_Stoker",
+              "localized": {
+                "en": {
+                  "name": "Coal Stoker",
+                  "effect": "Modifiers to Fire Resistance also grant Cold and Lightning Resistance at 50% of their value"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Smith of Kitava"
+            }
+          }
+        }
+      ],
+      "localized": {
+        "en": {
+          "name": "Warrior"
+        }
+      }
+    },
+    {
+      "id": "duelist",
+      "name": "决斗者",
+      "englishName": "Duelist",
+      "sourceUrl": "https://poe2db.tw/cn/Duelist",
+      "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconUnknownCharacter.webp",
+      "ascendancies": [],
+      "localized": {
+        "en": {
+          "name": "Duelist"
+        }
+      }
+    },
+    {
+      "id": "mercenary",
+      "name": "佣兵",
+      "englishName": "Mercenary",
+      "sourceUrl": "https://poe2db.tw/cn/Mercenary",
+      "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrDexFourb.webp",
+      "ascendancies": [
+        {
+          "id": "tactician",
+          "name": "战术家",
+          "englishName": "Tactician",
+          "sourceUrl": "https://poe2db.tw/cn/Tactician",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrDexFourb_Mercenary1.webp",
+          "notables": [
+            {
+              "name": "可靠的计划",
+              "effect": "永久性增益状态的保留总降 50%",
+              "sourceUrl": "https://poe2db.tw/cn/A_Solid_Plan",
+              "localized": {
+                "en": {
+                  "name": "A Solid Plan",
+                  "effect": "Persistent Buffs have 50% less Reservation"
+                }
+              }
+            },
+            {
+              "name": "给我学着点",
+              "effect": "在场的友军的攻击附加相当于 / 你的主手武器伤害 25% 的伤害",
+              "sourceUrl": "https://poe2db.tw/cn/Watch_How_I_Do_It",
+              "localized": {
+                "en": {
+                  "name": "Watch How I Do It",
+                  "effect": "Allies in your Presence gain added Attack Damage equal / to 25% of your main hand Weapon's Damage"
+                }
+              }
+            },
+            {
+              "name": "价高者得",
+              "effect": "旗帜每秒获得 5 点荣耀 / 你可以放置的旗帜数量没有上限",
+              "sourceUrl": "https://poe2db.tw/cn/Whoever_Pays_Best",
+              "localized": {
+                "en": {
+                  "name": "Whoever Pays Best",
+                  "effect": "Banners gain 5 Glory per second / There is no Limit on the number of Banners you can place"
+                }
+              }
+            },
+            {
+              "name": "火力抑制",
+              "effect": "不可移动积蓄总增 40%",
+              "sourceUrl": "https://poe2db.tw/cn/Suppressing_Fire",
+              "localized": {
+                "en": {
+                  "name": "Suppressing Fire",
+                  "effect": "40% more Immobilisation buildup"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Tactician"
+            }
+          }
+        },
+        {
+          "id": "witchhunter",
+          "name": "猎巫人",
+          "englishName": "Witchhunter",
+          "sourceUrl": "https://poe2db.tw/cn/Witchhunter",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrDexFourb_Mercenary2.webp",
+          "notables": [
+            {
+              "name": "冷血执行者",
+              "effect": "终结",
+              "sourceUrl": "https://poe2db.tw/cn/Pitiless_Killer",
+              "localized": {
+                "en": {
+                  "name": "Pitiless Killer",
+                  "effect": "Culling Strike"
+                }
+              }
+            },
+            {
+              "name": "判罪惩恶人",
+              "effect": "破灭打击",
+              "sourceUrl": "https://poe2db.tw/cn/Judge%2C_Jury%2C_and_Executioner",
+              "localized": {
+                "en": {
+                  "name": "Judge, Jury, and Executioner",
+                  "effect": "Decimating Strike"
+                }
+              }
+            },
+            {
+              "name": "女巫克星",
+              "effect": "敌人具有相当于生命上限 30% 的专注 / 击中会粉碎敌人相当于造成伤害 100% 的专注",
+              "sourceUrl": "https://poe2db.tw/cn/Witchbane",
+              "localized": {
+                "en": {
+                  "name": "Witchbane",
+                  "effect": "Enemies have Maximum Concentration equal to 30% of their Maximum Life / Break enemy Concentration on Hit equal to 100% of Damage Dealt"
+                }
+              }
+            },
+            {
+              "name": "绝无慈悲",
+              "effect": "对敌人造成的伤害总增最多 40%，根据其损失的专注决定",
+              "sourceUrl": "https://poe2db.tw/cn/No_Mercy",
+              "localized": {
+                "en": {
+                  "name": "No Mercy",
+                  "effect": "Deal up to 40% more Damage to Enemies based on their missing Concentration"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Witchhunter"
+            }
+          }
+        },
+        {
+          "id": "gemling-legionnaire",
+          "name": "古灵使徒斗士",
+          "englishName": "Gemling Legionnaire",
+          "sourceUrl": "https://poe2db.tw/cn/Gemling_Legionnaire",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrDexFourb_Mercenary3.webp",
+          "notables": [
+            {
+              "name": "结晶潜力",
+              "effect": "所有技能品质 +10%",
+              "sourceUrl": "https://poe2db.tw/cn/Crystalline_Potential",
+              "localized": {
+                "en": {
+                  "name": "Crystalline Potential",
+                  "effect": "+10% to Quality of all Skills"
+                }
+              }
+            },
+            {
+              "name": "植入宝石",
+              "effect": "",
+              "sourceUrl": "https://poe2db.tw/cn/Implanted_Gems",
+              "localized": {
+                "en": {
+                  "name": "Implanted Gems",
+                  "effect": ""
+                }
+              }
+            },
+            {
+              "name": "嵌宝美玉",
+              "effect": "根据数量最多的镶嵌辅助宝石颜色，获得： / •红色：对你的击中没有暴击伤害加成 / •蓝色：技能消耗总降 30% / •绿色：移动中使用技能的移动速度惩罚总降 40%",
+              "sourceUrl": "https://poe2db.tw/cn/Gem_Studded",
+              "localized": {
+                "en": {
+                  "name": "Gem Studded",
+                  "effect": "For each colour of Socketed Support Gem that is most numerous, gain: / •Red: Hits against you have no Critical Damage Bonus / •Blue: Skills have 30% less cost / •Green: 40% less Movement Speed Penalty from using Skills while Moving"
+                }
+              }
+            },
+            {
+              "name": "奇术深造",
+              "effect": "赋予奇术活力 / gain random charge every X ms from total socketed gem attribute requirements [5000]",
+              "sourceUrl": "https://poe2db.tw/cn/Advanced_Thaumaturgy",
+              "localized": {
+                "en": {
+                  "name": "Advanced Thaumaturgy",
+                  "effect": "Grants Thaumaturgical Dynamism / gain random charge every X ms from total socketed gem attribute requirements [5000]"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Gemling Legionnaire"
+            }
+          }
+        }
+      ],
+      "localized": {
+        "en": {
+          "name": "Mercenary"
+        }
+      }
+    },
+    {
+      "id": "templar",
+      "name": "圣堂武僧",
+      "englishName": "Templar",
+      "sourceUrl": "https://poe2db.tw/cn/Templar",
+      "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconUnknownCharacter.webp",
+      "ascendancies": [],
+      "localized": {
+        "en": {
+          "name": "Templar"
+        }
+      }
+    },
+    {
+      "id": "druid",
+      "name": "德鲁伊",
+      "englishName": "Druid",
+      "sourceUrl": "https://poe2db.tw/cn/Druid",
+      "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrIntFourb.webp",
+      "ascendancies": [
+        {
+          "id": "oracle",
+          "name": "神谕者",
+          "englishName": "Oracle",
+          "sourceUrl": "https://poe2db.tw/cn/Oracle",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrIntFourb_Druid1.webp",
+          "notables": [
+            {
+              "name": "纠缠实相",
+              "effect": "已配置的钥石天赋的中等范围内的非钥石天赋无需连接到你的天赋树即可配置",
+              "sourceUrl": "https://poe2db.tw/cn/Entwined_Realities",
+              "localized": {
+                "en": {
+                  "name": "Entwined Realities",
+                  "effect": "Non-Keystone Passive Skills in Medium Radius of allocated Keystone Passive Skills can be allocated without being connected to your tree"
+                }
+              }
+            },
+            {
+              "name": "无踪之道",
+              "effect": "探索未行之路",
+              "sourceUrl": "https://poe2db.tw/cn/The_Unseen_Path",
+              "localized": {
+                "en": {
+                  "name": "The Unseen Path",
+                  "effect": "Walk the Paths Not Taken"
+                }
+              }
+            },
+            {
+              "name": "内境和谐",
+              "effect": "当你当前的魔力高于当前生命时，击中伤害会优先从魔力中扣除，而非生命 / 生命上限总降 15%",
+              "sourceUrl": "https://poe2db.tw/cn/Harmony_Within",
+              "localized": {
+                "en": {
+                  "name": "Harmony Within",
+                  "effect": "Hit damage is taken from Mana before Life if your current Mana is higher than your current Life / 15% less maximum Life"
+                }
+              }
+            },
+            {
+              "name": "万径归流",
+              "effect": "获得技能: 脆弱瞬间",
+              "sourceUrl": "https://poe2db.tw/cn/Converging_Paths",
+              "localized": {
+                "en": {
+                  "name": "Converging Paths",
+                  "effect": "Grants Skill: Moment of Vulnerability"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Oracle"
+            }
+          }
+        },
+        {
+          "id": "shaman",
+          "name": "萨满",
+          "englishName": "Shaman",
+          "sourceUrl": "https://poe2db.tw/cn/Shaman",
+          "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrIntFourb_Druid2.webp",
+          "notables": [
+            {
+              "name": "四季流转",
+              "effect": "当你在场时，敌人受到曝露效果 / 获得等同 10% 伤害的 1 个随机元素伤害",
+              "sourceUrl": "https://poe2db.tw/cn/Turning_of_the_Seasons",
+              "localized": {
+                "en": {
+                  "name": "Turning of the Seasons",
+                  "effect": "Enemies in your Presence have Exposure / Gain 10% of Damage as Extra Damage of a random Element"
+                }
+              }
+            },
+            {
+              "name": "天启使者",
+              "effect": "获得技能: 天灾",
+              "sourceUrl": "https://poe2db.tw/cn/Bringer_of_the_Apocalypse",
+              "localized": {
+                "en": {
+                  "name": "Bringer of the Apocalypse",
+                  "effect": "Grants Skill: Apocalypse"
+                }
+              }
+            },
+            {
+              "name": "德鲁伊英杰",
+              "effect": "每 2 点怒火还会使法术伤害总增 1%",
+              "sourceUrl": "https://poe2db.tw/cn/Druidic_Champion",
+              "localized": {
+                "en": {
+                  "name": "Druidic Champion",
+                  "effect": "Every 2 Rage also grants 1% more Spell damage"
+                }
+              }
+            },
+            {
+              "name": "应激生长",
+              "effect": "受到的元素伤害总降 10% / 每次受到击中时，你会适应击中伤害最高的元素伤害类型",
+              "sourceUrl": "https://poe2db.tw/cn/Reactive_Growth",
+              "localized": {
+                "en": {
+                  "name": "Reactive Growth",
+                  "effect": "10% less Elemental Damage taken / Adapt to the highest Elemental Damage Type of each Hit you take"
+                }
+              }
+            }
+          ],
+          "localized": {
+            "en": {
+              "name": "Shaman"
+            }
+          }
+        }
+      ],
+      "localized": {
+        "en": {
+          "name": "Druid"
+        }
+      }
+    }
+  ]
+}

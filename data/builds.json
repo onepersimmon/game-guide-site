@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-14T09:43:04.149Z",
+  "updatedAt": "2026-05-16T02:17:56.068Z",
   "source": "poe.ninja",
   "leagueName": "Fate of the Vaal",
   "builds": [
@@ -7,24 +7,34 @@
       "id": "vaal-blood-mage",
       "className": "Blood Mage",
       "leagueName": "Fate of the Vaal",
-      "summary": "Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。",
+      "summary": "命源法师 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 17.2,
-      "trend": 1,
+      "trend": -1,
+      "rank": 1,
       "image": "./assets/images/builds/blood-mage.webp",
-      "tags": ["主联赛头部", "热度上升"],
+      "tags": [
+        "主联赛头部",
+        "热度回落"
+      ],
       "href": "https://poe.ninja/poe2/builds/vaal?class=Blood%20Mage",
       "localized": {
         "zh": {
-          "className": "Blood Mage",
+          "className": "命源法师",
           "leagueName": "Fate of the Vaal",
-          "summary": "Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。",
-          "tags": ["主联赛头部", "热度上升"]
+          "summary": "命源法师 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "tags": [
+            "主联赛头部",
+            "热度回落"
+          ]
         },
         "en": {
           "className": "Blood Mage",
           "leagueName": "Fate of the Vaal",
           "summary": "A high-share ascendancy in Fate of the Vaal, worth watching as the league meta keeps shifting.",
-          "tags": ["Main league leader", "Rising"]
+          "tags": [
+            "Main league leader",
+            "Falling"
+          ]
         }
       }
     },
@@ -32,24 +42,34 @@
       "id": "vaal-oracle",
       "className": "Oracle",
       "leagueName": "Fate of the Vaal",
-      "summary": "Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。",
+      "summary": "神谕者 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 16,
       "trend": -1,
+      "rank": 2,
       "image": "./assets/images/builds/oracle.webp",
-      "tags": ["主联赛头部", "热度回落"],
+      "tags": [
+        "主联赛头部",
+        "热度回落"
+      ],
       "href": "https://poe.ninja/poe2/builds/vaal?class=Oracle",
       "localized": {
         "zh": {
-          "className": "Oracle",
+          "className": "神谕者",
           "leagueName": "Fate of the Vaal",
-          "summary": "Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。",
-          "tags": ["主联赛头部", "热度回落"]
+          "summary": "神谕者 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "tags": [
+            "主联赛头部",
+            "热度回落"
+          ]
         },
         "en": {
           "className": "Oracle",
           "leagueName": "Fate of the Vaal",
-          "summary": "A high-share ascendancy in Fate of the Vaal, useful for comparing against the current top meta.",
-          "tags": ["Main league leader", "Falling"]
+          "summary": "A high-share ascendancy in Fate of the Vaal, worth watching as the league meta keeps shifting.",
+          "tags": [
+            "Main league leader",
+            "Falling"
+          ]
         }
       }
     },
@@ -57,24 +77,34 @@
       "id": "vaal-pathfinder",
       "className": "Pathfinder",
       "leagueName": "Fate of the Vaal",
-      "summary": "Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。",
+      "summary": "追猎者 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 12.3,
       "trend": -1,
+      "rank": 3,
       "image": "./assets/images/builds/pathfinder.webp",
-      "tags": ["主联赛头部", "热度回落"],
+      "tags": [
+        "主联赛头部",
+        "热度回落"
+      ],
       "href": "https://poe.ninja/poe2/builds/vaal?class=Pathfinder",
       "localized": {
         "zh": {
-          "className": "Pathfinder",
+          "className": "追猎者",
           "leagueName": "Fate of the Vaal",
-          "summary": "Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。",
-          "tags": ["主联赛头部", "热度回落"]
+          "summary": "追猎者 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "tags": [
+            "主联赛头部",
+            "热度回落"
+          ]
         },
         "en": {
           "className": "Pathfinder",
           "leagueName": "Fate of the Vaal",
-          "summary": "A high-share ascendancy in Fate of the Vaal that remains a strong reference point for league starters.",
-          "tags": ["Main league leader", "Falling"]
+          "summary": "A high-share ascendancy in Fate of the Vaal, worth watching as the league meta keeps shifting.",
+          "tags": [
+            "Main league leader",
+            "Falling"
+          ]
         }
       }
     },
@@ -82,24 +112,34 @@
       "id": "vaal-shaman",
       "className": "Shaman",
       "leagueName": "Fate of the Vaal",
-      "summary": "Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。",
+      "summary": "萨满 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 7.9,
       "trend": -1,
+      "rank": 4,
       "image": "./assets/images/builds/shaman.webp",
-      "tags": ["热门升华", "热度回落"],
+      "tags": [
+        "热门升华",
+        "热度回落"
+      ],
       "href": "https://poe.ninja/poe2/builds/vaal?class=Shaman",
       "localized": {
         "zh": {
-          "className": "Shaman",
+          "className": "萨满",
           "leagueName": "Fate of the Vaal",
-          "summary": "Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。",
-          "tags": ["热门升华", "热度回落"]
+          "summary": "萨满 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "tags": [
+            "热门升华",
+            "热度回落"
+          ]
         },
         "en": {
           "className": "Shaman",
           "leagueName": "Fate of the Vaal",
-          "summary": "A popular ascendancy in Fate of the Vaal, included for quick local trend comparison.",
-          "tags": ["Popular ascendancy", "Falling"]
+          "summary": "A popular ascendancy in Fate of the Vaal, kept locally for quick trend scanning.",
+          "tags": [
+            "Popular ascendancy",
+            "Falling"
+          ]
         }
       }
     },
@@ -107,24 +147,34 @@
       "id": "vaal-titan",
       "className": "Titan",
       "leagueName": "Fate of the Vaal",
-      "summary": "Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。",
+      "summary": "泰坦 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 5.8,
-      "trend": -1,
+      "trend": 1,
+      "rank": 5,
       "image": "./assets/images/builds/titan.webp",
-      "tags": ["热门升华", "热度回落"],
+      "tags": [
+        "热门升华",
+        "热度上升"
+      ],
       "href": "https://poe.ninja/poe2/builds/vaal?class=Titan",
       "localized": {
         "zh": {
-          "className": "Titan",
+          "className": "泰坦",
           "leagueName": "Fate of the Vaal",
-          "summary": "Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。",
-          "tags": ["热门升华", "热度回落"]
+          "summary": "泰坦 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "tags": [
+            "热门升华",
+            "热度上升"
+          ]
         },
         "en": {
           "className": "Titan",
           "leagueName": "Fate of the Vaal",
-          "summary": "A popular ascendancy in Fate of the Vaal, useful when checking durable starter options.",
-          "tags": ["Popular ascendancy", "Falling"]
+          "summary": "A popular ascendancy in Fate of the Vaal, kept locally for quick trend scanning.",
+          "tags": [
+            "Popular ascendancy",
+            "Rising"
+          ]
         }
       }
     },
@@ -132,24 +182,34 @@
       "id": "vaal-invoker",
       "className": "Invoker",
       "leagueName": "Fate of the Vaal",
-      "summary": "Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。",
-      "popularity": 5.1,
+      "summary": "祈求者 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "popularity": 5.2,
       "trend": 1,
+      "rank": 6,
       "image": "./assets/images/builds/invoker.webp",
-      "tags": ["热门升华", "热度上升"],
+      "tags": [
+        "热门升华",
+        "热度上升"
+      ],
       "href": "https://poe.ninja/poe2/builds/vaal?class=Invoker",
       "localized": {
         "zh": {
-          "className": "Invoker",
+          "className": "祈求者",
           "leagueName": "Fate of the Vaal",
-          "summary": "Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。",
-          "tags": ["热门升华", "热度上升"]
+          "summary": "祈求者 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "tags": [
+            "热门升华",
+            "热度上升"
+          ]
         },
         "en": {
           "className": "Invoker",
           "leagueName": "Fate of the Vaal",
-          "summary": "A popular ascendancy in Fate of the Vaal with upward movement in the tracked snapshot.",
-          "tags": ["Popular ascendancy", "Rising"]
+          "summary": "A popular ascendancy in Fate of the Vaal, kept locally for quick trend scanning.",
+          "tags": [
+            "Popular ascendancy",
+            "Rising"
+          ]
         }
       }
     },
@@ -157,24 +217,34 @@
       "id": "vaal-stormweaver",
       "className": "Stormweaver",
       "leagueName": "Fate of the Vaal",
-      "summary": "Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。",
+      "summary": "风暴编织者 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 5.1,
-      "trend": 1,
+      "trend": -1,
+      "rank": 7,
       "image": "./assets/images/builds/stormweaver.webp",
-      "tags": ["热门升华", "热度上升"],
+      "tags": [
+        "热门升华",
+        "热度回落"
+      ],
       "href": "https://poe.ninja/poe2/builds/vaal?class=Stormweaver",
       "localized": {
         "zh": {
-          "className": "Stormweaver",
+          "className": "风暴编织者",
           "leagueName": "Fate of the Vaal",
-          "summary": "Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。",
-          "tags": ["热门升华", "热度上升"]
+          "summary": "风暴编织者 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "tags": [
+            "热门升华",
+            "热度回落"
+          ]
         },
         "en": {
           "className": "Stormweaver",
           "leagueName": "Fate of the Vaal",
-          "summary": "A popular ascendancy in Fate of the Vaal with upward movement in the tracked snapshot.",
-          "tags": ["Popular ascendancy", "Rising"]
+          "summary": "A popular ascendancy in Fate of the Vaal, kept locally for quick trend scanning.",
+          "tags": [
+            "Popular ascendancy",
+            "Falling"
+          ]
         }
       }
     },
@@ -182,24 +252,104 @@
       "id": "vaal-disciple-of-varashta",
       "className": "Disciple of Varashta",
       "leagueName": "Fate of the Vaal",
-      "summary": "Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。",
+      "summary": "瓦拉煞的门徒 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 4.8,
       "trend": -1,
+      "rank": 8,
       "image": "./assets/images/builds/disciple-of-varashta.webp",
-      "tags": ["热门升华", "热度回落"],
+      "tags": [
+        "热门升华",
+        "热度回落"
+      ],
       "href": "https://poe.ninja/poe2/builds/vaal?class=Disciple%20of%20Varashta",
       "localized": {
         "zh": {
-          "className": "Disciple of Varashta",
+          "className": "瓦拉煞的门徒",
           "leagueName": "Fate of the Vaal",
-          "summary": "Fate of the Vaal 当前高热度升华趋势，适合继续追踪其后续占比变化。",
-          "tags": ["热门升华", "热度回落"]
+          "summary": "瓦拉煞的门徒 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "tags": [
+            "热门升华",
+            "热度回落"
+          ]
         },
         "en": {
           "className": "Disciple of Varashta",
           "leagueName": "Fate of the Vaal",
           "summary": "A popular ascendancy in Fate of the Vaal, kept locally for quick trend scanning.",
-          "tags": ["Popular ascendancy", "Falling"]
+          "tags": [
+            "Popular ascendancy",
+            "Falling"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vaal-amazon",
+      "className": "Amazon",
+      "leagueName": "Fate of the Vaal",
+      "summary": "亚马逊 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "popularity": 4.1,
+      "trend": 1,
+      "rank": 9,
+      "image": "./assets/images/builds/amazon.webp",
+      "tags": [
+        "热门升华",
+        "热度上升"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Amazon",
+      "localized": {
+        "zh": {
+          "className": "亚马逊",
+          "leagueName": "Fate of the Vaal",
+          "summary": "亚马逊 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "tags": [
+            "热门升华",
+            "热度上升"
+          ]
+        },
+        "en": {
+          "className": "Amazon",
+          "leagueName": "Fate of the Vaal",
+          "summary": "A popular ascendancy in Fate of the Vaal, kept locally for quick trend scanning.",
+          "tags": [
+            "Popular ascendancy",
+            "Rising"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vaal-ritualist",
+      "className": "Ritualist",
+      "leagueName": "Fate of the Vaal",
+      "summary": "仪祭师 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "popularity": 4.1,
+      "trend": -1,
+      "rank": 10,
+      "image": "./assets/images/builds/ritualist.webp",
+      "tags": [
+        "热门升华",
+        "热度回落"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Ritualist",
+      "localized": {
+        "zh": {
+          "className": "仪祭师",
+          "leagueName": "Fate of the Vaal",
+          "summary": "仪祭师 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "tags": [
+            "热门升华",
+            "热度回落"
+          ]
+        },
+        "en": {
+          "className": "Ritualist",
+          "leagueName": "Fate of the Vaal",
+          "summary": "A popular ascendancy in Fate of the Vaal, kept locally for quick trend scanning.",
+          "tags": [
+            "Popular ascendancy",
+            "Falling"
+          ]
         }
       }
     }

@@ -31,8 +31,8 @@ test("filter returns empty list for missing tag", () => {
 });
 
 test("ui copy switches between Chinese and English", () => {
-  assert.equal(getUiCopy("zh").tabs.maps, "地图攻略");
-  assert.equal(getUiCopy("en").tabs.maps, "Maps");
+  assert.equal(getUiCopy("zh").tabs.classes, "职业预览");
+  assert.equal(getUiCopy("en").tabs.classes, "Class Preview");
 });
 
 test("localized map content uses selected language", () => {
@@ -100,7 +100,7 @@ test("localized build content uses selected language", () => {
   assert.equal(getLocalizedBuild(build, "zh").leagueName, "瓦尔命运");
 });
 
-test("cards render local cached detail instead of third-party transfer links", () => {
+test("map cards stay local and build cards link to poe.ninja class filters", () => {
   const mapHtml = renderMapCard({
     id: "test-map",
     name: "落锚湾",
@@ -165,7 +165,8 @@ test("cards render local cached detail instead of third-party transfer links", (
   }, "zh");
 
   assert.doesNotMatch(mapHtml, /target="_blank"|https:\/\/www\.caimogu\.cc/);
-  assert.doesNotMatch(buildHtml, /target="_blank"|https:\/\/poe\.ninja/);
+  assert.match(buildHtml, /target="_blank"/);
+  assert.match(buildHtml, /https:\/\/poe\.ninja\/poe2\/builds\/vaal\?class=Blood%20Mage/);
   assert.match(mapHtml, /沿海岸推进。/);
-  assert.match(buildHtml, /本地缓存/);
+  assert.match(buildHtml, /查看忍者网/);
 });

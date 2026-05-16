@@ -8,6 +8,9 @@ const maps = JSON.parse(
 const builds = JSON.parse(
   readFileSync("/Users/persimmon/project/game-guide-site/data/builds.json", "utf8"),
 );
+const ascendancies = JSON.parse(
+  readFileSync("/Users/persimmon/project/game-guide-site/data/ascendancies.json", "utf8"),
+);
 
 test("maps data follows expected contract", () => {
   assert.equal(Array.isArray(maps), true);
@@ -61,6 +64,29 @@ test("builds data follows expected contract", () => {
     ["className", "leagueName", "summary", "tags"].forEach((key) => {
       assert.ok(build.localized.zh[key], `missing zh build field: ${key}`);
       assert.ok(build.localized.en[key], `missing en build field: ${key}`);
+    });
+  });
+});
+
+test("ascendancy data follows expected contract", () => {
+  assert.ok(ascendancies.updatedAt);
+  assert.ok(Array.isArray(ascendancies.classes));
+  assert.equal(ascendancies.classes.length, 12);
+
+  const openedAscendancies = ascendancies.classes.flatMap((item) => item.ascendancies);
+  assert.ok(openedAscendancies.length > 20);
+
+  ascendancies.classes.forEach((ascendancyClass) => {
+    ["id", "name", "englishName", "sourceUrl", "image", "localized"].forEach((key) => {
+      assert.ok(ascendancyClass[key] !== undefined, `missing ascendancy class key: ${key}`);
+    });
+    assert.ok(ascendancyClass.localized.en.name);
+
+    ascendancyClass.ascendancies.forEach((ascendancy) => {
+      ["id", "name", "englishName", "sourceUrl", "image", "notables", "localized"].forEach((key) => {
+        assert.ok(ascendancy[key] !== undefined, `missing ascendancy key: ${key}`);
+      });
+      assert.ok(ascendancy.localized.en.name);
     });
   });
 });
