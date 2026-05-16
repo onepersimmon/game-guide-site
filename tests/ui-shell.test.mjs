@@ -35,6 +35,12 @@ test("page embeds local data for file protocol rendering", () => {
   assert.match(html, /<script id="ggg-news-data" type="application\/json">/);
 });
 
+test("page links to static seo pages", () => {
+  assert.match(html, /href="\.\/campaign\/act1-upper\.html"/);
+  assert.match(html, /href="\.\/classes\/index\.html"/);
+  assert.match(html, /href="\.\/builds\/poe-ninja-ranking\.html"/);
+});
+
 test("page replaces the large hero with a compact GGG news list", () => {
   assert.doesNotMatch(html, /class="hero"/);
   assert.doesNotMatch(html, /hero__glass/);

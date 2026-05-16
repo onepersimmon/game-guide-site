@@ -13,4 +13,6 @@ test("workflow calls the build sync script", () => {
   assert.match(workflow, /node .*scripts\/fetch-poe2-ninja\.mjs/);
   assert.match(workflow, /node .*scripts\/fetch-map-guides\.mjs/);
   assert.match(workflow, /node .*scripts\/fetch-ggg-news\.mjs/);
+  assert.match(workflow, /node .*scripts\/generate-static-pages\.mjs/);
+  assert.match(workflow, /git add .*sitemap\.xml .*campaign .*classes .*builds/s);
 });

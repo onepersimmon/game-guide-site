@@ -117,6 +117,13 @@ a {
   color: var(--muted);
 }
 
+.site-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
 .ggg-news {
   display: grid;
   gap: 10px;

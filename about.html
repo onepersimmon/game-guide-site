@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="zh-CN" data-page-language="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>关于本站 | POE2 开荒攻略站</title>
+    <meta name="description" content="站点用途、数据来源和更新方式说明。" />
+    <link rel="canonical" href="https://onepersimmon.github.io/game-guide-site/about.html" />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .static-page {
+        display: grid;
+        gap: 22px;
+      }
+      .static-top {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: center;
+      }
+      .static-top__meta {
+        display: grid;
+        gap: 8px;
+      }
+      .static-top__meta p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+      .static-page-main {
+        display: grid;
+        gap: 22px;
+      }
+      .static-lang-block {
+        display: grid;
+        gap: 18px;
+      }
+      .static-lang-block[hidden] {
+        display: none;
+      }
+      .static-lang-head {
+        display: grid;
+        gap: 8px;
+      }
+      .static-lang-head h1 {
+        margin: 0;
+        line-height: 1.05;
+        font-size: clamp(28px, 3vw, 42px);
+      }
+      .static-lang-head p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+      .static-breadcrumbs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .static-breadcrumbs a {
+        color: var(--blue);
+        text-decoration: none;
+      }
+      .static-breadcrumbs span {
+        color: var(--muted);
+      }
+      .static-section {
+        display: grid;
+        gap: 16px;
+      }
+      .static-section__title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: baseline;
+      }
+      .static-section__title h2 {
+        margin: 0;
+      }
+      .static-section__title p {
+        margin: 0;
+        color: var(--muted);
+      }
+      .static-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .static-footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app-shell static-page">
+      <header class="static-top">
+        <div class="static-top__meta">
+          <p class="eyebrow">POE2 Guide</p>
+          <div class="static-links">
+            <a class="source-note source-note--link" href="./index.html">返回首页 / Home</a>
+          </div>
+        </div>
+        
+    <div class="language-switcher" data-page-language-switcher aria-label="Language">
+      <button class="is-active" type="button" data-page-language="zh" aria-pressed="true">中</button>
+      <button type="button" data-page-language="en" aria-pressed="false">EN</button>
+    </div>
+  
+      </header>
+
+      <main class="static-page-main">
+        <section class="static-lang-block" data-lang-block="zh">
+          
+    
+    <nav class="static-breadcrumbs" aria-label="面包屑">
+      <a href="./index.html">首页</a><span>/</span><span>关于本站</span>
+    </nav>
+  
+    <article class="static-section">
+      <div class="static-lang-head">
+        <p class="section-kicker">关于本站</p>
+        <h1>关于本站</h1>
+        <p>站点用途、数据来源和更新方式说明。</p>
+      </div>
+      <div class="detail-block">
+        <p>这是一个为 Path of Exile 2 玩家整理的静态攻略站，首页保留交互式单页体验，另外生成可抓取的独立页面，方便搜索引擎和 AI 索引。</p><p>内容覆盖开荒世界地图、职业升华预览、poe.ninja 职业排行与 GGG 官方公告，所有静态页面都可以中英文切换。</p>
+        <ul class="checkpoint-list"><li>项目站地址：https://onepersimmon.github.io/game-guide-site/</li><li>数据来源包括 GGG 官方新闻、PoE2DB、poe.ninja 与已抓取的开荒地图素材。</li></ul>
+      </div>
+    </article>
+  
+        </section>
+        <section class="static-lang-block" data-lang-block="en" hidden>
+          
+    
+    <nav class="static-breadcrumbs" aria-label="Breadcrumbs">
+      <a href="./index.html">Home</a><span>/</span><span>About This Site</span>
+    </nav>
+  
+    <article class="static-section">
+      <div class="static-lang-head">
+        <p class="section-kicker">About This Site</p>
+        <h1>About This Site</h1>
+        <p>Site purpose, data sources, and update workflow notes.</p>
+      </div>
+      <div class="detail-block">
+        <p>This is a static companion site for Path of Exile 2 players. The homepage keeps the interactive single-page experience, while separate crawlable pages are generated for search and AI discovery.</p><p>Coverage includes campaign world maps, ascendancy previews, poe.ninja rankings, and official GGG announcements. All static pages support Chinese and English toggling.</p>
+        <ul class="checkpoint-list"><li>Project site: https://onepersimmon.github.io/game-guide-site/</li><li>Sources include official GGG news, PoE2DB, poe.ninja, and cached campaign map material.</li></ul>
+      </div>
+    </article>
+  
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>声明：纠错或优化建议请联系 <a href="mailto:onepersimmon@163.com">onepersimmon@163.com</a></p>
+        <div class="static-footer-links">
+          <a href="./about.html">关于 / About</a><a href="./contact.html">联系 / Contact</a><a href="./privacy.html">隐私 / Privacy</a><a href="./disclaimer.html">声明 / Disclaimer</a>
+        </div>
+      </footer>
+    </div>
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"Article","headline":"关于本站 | POE2 开荒攻略站","description":"站点用途、数据来源和更新方式说明。","mainEntityOfPage":"https://onepersimmon.github.io/game-guide-site/about.html","url":"https://onepersimmon.github.io/game-guide-site/about.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://onepersimmon.github.io/game-guide-site/"},{"@type":"ListItem","position":2,"name":"关于本站","item":"https://onepersimmon.github.io/game-guide-site/about.html"}]}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"Article","headline":"About This Site | POE2 Campaign Guide","description":"Site purpose, data sources, and update workflow notes.","mainEntityOfPage":"https://onepersimmon.github.io/game-guide-site/about.html","url":"https://onepersimmon.github.io/game-guide-site/about.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://onepersimmon.github.io/game-guide-site/"},{"@type":"ListItem","position":2,"name":"About This Site","item":"https://onepersimmon.github.io/game-guide-site/about.html"}]}]}</script>
+    <script>
+      (() => {
+        const key = "poe2-guide-language";
+        const buttons = document.querySelectorAll("[data-page-language]");
+        const blocks = document.querySelectorAll("[data-lang-block]");
+
+        const applyLanguage = (language) => {
+          const active = language === "en" ? "en" : "zh";
+          document.documentElement.lang = active === "en" ? "en" : "zh-CN";
+          localStorage.setItem(key, active);
+          buttons.forEach((button) => {
+            const selected = button.dataset.pageLanguage === active;
+            button.classList.toggle("is-active", selected);
+            button.setAttribute("aria-pressed", String(selected));
+          });
+          blocks.forEach((block) => {
+            block.hidden = block.dataset.langBlock !== active;
+          });
+        };
+
+        applyLanguage(localStorage.getItem(key) === "en" ? "en" : "zh");
+
+        document.querySelector("[data-page-language-switcher]")?.addEventListener("click", (event) => {
+          const button = event.target.closest("[data-page-language]");
+          if (!button) {
+            return;
+          }
+
+          applyLanguage(button.dataset.pageLanguage);
+        });
+      })();
+    </script>
+  </body>
+</html>

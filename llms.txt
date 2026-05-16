@@ -1,0 +1,18 @@
+# POE2 开荒攻略站
+
+本项目站收录 Path of Exile 2 的开荒地图、职业升华预览、poe.ninja 职业排行和 GGG 官方公告。
+
+主要入口:
+- https://onepersimmon.github.io/game-guide-site/
+- https://onepersimmon.github.io/game-guide-site/campaign/act1-upper.html
+- https://onepersimmon.github.io/game-guide-site/classes/index.html
+- https://onepersimmon.github.io/game-guide-site/builds/poe-ninja-ranking.html
+
+说明页:
+- https://onepersimmon.github.io/game-guide-site/about.html
+- https://onepersimmon.github.io/game-guide-site/contact.html
+- https://onepersimmon.github.io/game-guide-site/privacy.html
+- https://onepersimmon.github.io/game-guide-site/disclaimer.html
+
+联系:
+- onepersimmon@163.com
