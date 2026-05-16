@@ -46,3 +46,9 @@ test("page includes inline fallback renderer for local file mode", () => {
   assert.match(html, /renderFallbackApp/);
   assert.match(html, /document\.querySelectorAll\("\.world-map-viewer, \.class-preview-card, \.build-card"\)\.length > 0/);
 });
+
+test("page includes a correction contact statement in the footer", () => {
+  assert.match(html, /class="site-footer"/);
+  assert.match(html, /纠错或优化建议请联系/);
+  assert.match(html, /mailto:onepersimmon@163\.com/);
+});
