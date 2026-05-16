@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-16T02:17:56.068Z",
+  "updatedAt": "2026-05-16T02:39:51.146Z",
   "source": "poe.ninja",
   "leagueName": "Fate of the Vaal",
   "builds": [
@@ -36,7 +36,8 @@
             "Falling"
           ]
         }
-      }
+      },
+      "displayOrder": 1
     },
     {
       "id": "vaal-oracle",
@@ -71,7 +72,8 @@
             "Falling"
           ]
         }
-      }
+      },
+      "displayOrder": 2
     },
     {
       "id": "vaal-pathfinder",
@@ -106,7 +108,8 @@
             "Falling"
           ]
         }
-      }
+      },
+      "displayOrder": 3
     },
     {
       "id": "vaal-shaman",
@@ -118,7 +121,7 @@
       "rank": 4,
       "image": "./assets/images/builds/shaman.webp",
       "tags": [
-        "热门升华",
+        "热门职业",
         "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/vaal?class=Shaman",
@@ -128,7 +131,7 @@
           "leagueName": "Fate of the Vaal",
           "summary": "萨满 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
-            "热门升华",
+            "热门职业",
             "热度回落"
           ]
         },
@@ -137,11 +140,12 @@
           "leagueName": "Fate of the Vaal",
           "summary": "A popular ascendancy in Fate of the Vaal, kept locally for quick trend scanning.",
           "tags": [
-            "Popular ascendancy",
+            "Popular class",
             "Falling"
           ]
         }
-      }
+      },
+      "displayOrder": 4
     },
     {
       "id": "vaal-titan",
@@ -153,7 +157,7 @@
       "rank": 5,
       "image": "./assets/images/builds/titan.webp",
       "tags": [
-        "热门升华",
+        "热门职业",
         "热度上升"
       ],
       "href": "https://poe.ninja/poe2/builds/vaal?class=Titan",
@@ -163,7 +167,7 @@
           "leagueName": "Fate of the Vaal",
           "summary": "泰坦 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
-            "热门升华",
+            "热门职业",
             "热度上升"
           ]
         },
@@ -172,11 +176,12 @@
           "leagueName": "Fate of the Vaal",
           "summary": "A popular ascendancy in Fate of the Vaal, kept locally for quick trend scanning.",
           "tags": [
-            "Popular ascendancy",
+            "Popular class",
             "Rising"
           ]
         }
-      }
+      },
+      "displayOrder": 5
     },
     {
       "id": "vaal-invoker",
@@ -188,7 +193,7 @@
       "rank": 6,
       "image": "./assets/images/builds/invoker.webp",
       "tags": [
-        "热门升华",
+        "热门职业",
         "热度上升"
       ],
       "href": "https://poe.ninja/poe2/builds/vaal?class=Invoker",
@@ -198,7 +203,7 @@
           "leagueName": "Fate of the Vaal",
           "summary": "祈求者 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
-            "热门升华",
+            "热门职业",
             "热度上升"
           ]
         },
@@ -207,11 +212,12 @@
           "leagueName": "Fate of the Vaal",
           "summary": "A popular ascendancy in Fate of the Vaal, kept locally for quick trend scanning.",
           "tags": [
-            "Popular ascendancy",
+            "Popular class",
             "Rising"
           ]
         }
-      }
+      },
+      "displayOrder": 6
     },
     {
       "id": "vaal-stormweaver",
@@ -223,7 +229,7 @@
       "rank": 7,
       "image": "./assets/images/builds/stormweaver.webp",
       "tags": [
-        "热门升华",
+        "热门职业",
         "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/vaal?class=Stormweaver",
@@ -233,7 +239,7 @@
           "leagueName": "Fate of the Vaal",
           "summary": "风暴编织者 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
-            "热门升华",
+            "热门职业",
             "热度回落"
           ]
         },
@@ -242,11 +248,12 @@
           "leagueName": "Fate of the Vaal",
           "summary": "A popular ascendancy in Fate of the Vaal, kept locally for quick trend scanning.",
           "tags": [
-            "Popular ascendancy",
+            "Popular class",
             "Falling"
           ]
         }
-      }
+      },
+      "displayOrder": 7
     },
     {
       "id": "vaal-disciple-of-varashta",
@@ -258,7 +265,7 @@
       "rank": 8,
       "image": "./assets/images/builds/disciple-of-varashta.webp",
       "tags": [
-        "热门升华",
+        "热门职业",
         "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/vaal?class=Disciple%20of%20Varashta",
@@ -268,7 +275,7 @@
           "leagueName": "Fate of the Vaal",
           "summary": "瓦拉煞的门徒 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
-            "热门升华",
+            "热门职业",
             "热度回落"
           ]
         },
@@ -277,11 +284,12 @@
           "leagueName": "Fate of the Vaal",
           "summary": "A popular ascendancy in Fate of the Vaal, kept locally for quick trend scanning.",
           "tags": [
-            "Popular ascendancy",
+            "Popular class",
             "Falling"
           ]
         }
-      }
+      },
+      "displayOrder": 8
     },
     {
       "id": "vaal-amazon",
@@ -293,7 +301,7 @@
       "rank": 9,
       "image": "./assets/images/builds/amazon.webp",
       "tags": [
-        "热门升华",
+        "热门职业",
         "热度上升"
       ],
       "href": "https://poe.ninja/poe2/builds/vaal?class=Amazon",
@@ -303,7 +311,7 @@
           "leagueName": "Fate of the Vaal",
           "summary": "亚马逊 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
-            "热门升华",
+            "热门职业",
             "热度上升"
           ]
         },
@@ -312,11 +320,12 @@
           "leagueName": "Fate of the Vaal",
           "summary": "A popular ascendancy in Fate of the Vaal, kept locally for quick trend scanning.",
           "tags": [
-            "Popular ascendancy",
+            "Popular class",
             "Rising"
           ]
         }
-      }
+      },
+      "displayOrder": 9
     },
     {
       "id": "vaal-ritualist",
@@ -328,7 +337,7 @@
       "rank": 10,
       "image": "./assets/images/builds/ritualist.webp",
       "tags": [
-        "热门升华",
+        "热门职业",
         "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/vaal?class=Ritualist",
@@ -338,7 +347,7 @@
           "leagueName": "Fate of the Vaal",
           "summary": "仪祭师 在 Fate of the Vaal 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
-            "热门升华",
+            "热门职业",
             "热度回落"
           ]
         },
@@ -347,11 +356,696 @@
           "leagueName": "Fate of the Vaal",
           "summary": "A popular ascendancy in Fate of the Vaal, kept locally for quick trend scanning.",
           "tags": [
-            "Popular ascendancy",
+            "Popular class",
             "Falling"
           ]
         }
-      }
+      },
+      "displayOrder": 10
+    },
+    {
+      "id": "vaal-abyssal-lich",
+      "className": "Abyssal Lich",
+      "leagueName": "Fate of the Vaal",
+      "summary": "深渊巫妖 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/abyssal-lich.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Abyssal%20Lich",
+      "localized": {
+        "zh": {
+          "className": "深渊巫妖",
+          "leagueName": "Fate of the Vaal",
+          "summary": "深渊巫妖 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Abyssal Lich",
+          "leagueName": "Fate of the Vaal",
+          "summary": "深渊巫妖 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 11
+    },
+    {
+      "id": "vaal-acolyte-of-chayula",
+      "className": "Acolyte of Chayula",
+      "leagueName": "Fate of the Vaal",
+      "summary": "夏乌拉追随者 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/acolyte-of-chayula.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Acolyte%20of%20Chayula",
+      "localized": {
+        "zh": {
+          "className": "夏乌拉追随者",
+          "leagueName": "Fate of the Vaal",
+          "summary": "夏乌拉追随者 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Acolyte of Chayula",
+          "leagueName": "Fate of the Vaal",
+          "summary": "夏乌拉追随者 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 12
+    },
+    {
+      "id": "vaal-chronomancer",
+      "className": "Chronomancer",
+      "leagueName": "Fate of the Vaal",
+      "summary": "塑时术师 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/chronomancer.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Chronomancer",
+      "localized": {
+        "zh": {
+          "className": "塑时术师",
+          "leagueName": "Fate of the Vaal",
+          "summary": "塑时术师 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Chronomancer",
+          "leagueName": "Fate of the Vaal",
+          "summary": "塑时术师 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 13
+    },
+    {
+      "id": "vaal-deadeye",
+      "className": "Deadeye",
+      "leagueName": "Fate of the Vaal",
+      "summary": "锐眼 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/deadeye.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Deadeye",
+      "localized": {
+        "zh": {
+          "className": "锐眼",
+          "leagueName": "Fate of the Vaal",
+          "summary": "锐眼 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Deadeye",
+          "leagueName": "Fate of the Vaal",
+          "summary": "锐眼 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 14
+    },
+    {
+      "id": "vaal-gemling-legionnaire",
+      "className": "Gemling Legionnaire",
+      "leagueName": "Fate of the Vaal",
+      "summary": "古灵使徒斗士 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/gemling-legionnaire.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Gemling%20Legionnaire",
+      "localized": {
+        "zh": {
+          "className": "古灵使徒斗士",
+          "leagueName": "Fate of the Vaal",
+          "summary": "古灵使徒斗士 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Gemling Legionnaire",
+          "leagueName": "Fate of the Vaal",
+          "summary": "古灵使徒斗士 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 15
+    },
+    {
+      "id": "vaal-infernalist",
+      "className": "Infernalist",
+      "leagueName": "Fate of the Vaal",
+      "summary": "驱炎使 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/infernalist.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Infernalist",
+      "localized": {
+        "zh": {
+          "className": "驱炎使",
+          "leagueName": "Fate of the Vaal",
+          "summary": "驱炎使 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Infernalist",
+          "leagueName": "Fate of the Vaal",
+          "summary": "驱炎使 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 16
+    },
+    {
+      "id": "vaal-lich",
+      "className": "Lich",
+      "leagueName": "Fate of the Vaal",
+      "summary": "巫妖 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/lich.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Lich",
+      "localized": {
+        "zh": {
+          "className": "巫妖",
+          "leagueName": "Fate of the Vaal",
+          "summary": "巫妖 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Lich",
+          "leagueName": "Fate of the Vaal",
+          "summary": "巫妖 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 17
+    },
+    {
+      "id": "vaal-smith-of-kitava",
+      "className": "Smith of Kitava",
+      "leagueName": "Fate of the Vaal",
+      "summary": "奇塔弗匠师 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/smith-of-kitava.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Smith%20of%20Kitava",
+      "localized": {
+        "zh": {
+          "className": "奇塔弗匠师",
+          "leagueName": "Fate of the Vaal",
+          "summary": "奇塔弗匠师 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Smith of Kitava",
+          "leagueName": "Fate of the Vaal",
+          "summary": "奇塔弗匠师 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 18
+    },
+    {
+      "id": "vaal-tactician",
+      "className": "Tactician",
+      "leagueName": "Fate of the Vaal",
+      "summary": "战术家 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/tactician.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Tactician",
+      "localized": {
+        "zh": {
+          "className": "战术家",
+          "leagueName": "Fate of the Vaal",
+          "summary": "战术家 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Tactician",
+          "leagueName": "Fate of the Vaal",
+          "summary": "战术家 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 19
+    },
+    {
+      "id": "vaal-warbringer",
+      "className": "Warbringer",
+      "leagueName": "Fate of the Vaal",
+      "summary": "战争使者 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/warbringer.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Warbringer",
+      "localized": {
+        "zh": {
+          "className": "战争使者",
+          "leagueName": "Fate of the Vaal",
+          "summary": "战争使者 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Warbringer",
+          "leagueName": "Fate of the Vaal",
+          "summary": "战争使者 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 20
+    },
+    {
+      "id": "vaal-witchhunter",
+      "className": "Witchhunter",
+      "leagueName": "Fate of the Vaal",
+      "summary": "猎巫人 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/witchhunter.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Witchhunter",
+      "localized": {
+        "zh": {
+          "className": "猎巫人",
+          "leagueName": "Fate of the Vaal",
+          "summary": "猎巫人 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Witchhunter",
+          "leagueName": "Fate of the Vaal",
+          "summary": "猎巫人 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 21
+    },
+    {
+      "id": "vaal-druid",
+      "className": "Druid",
+      "leagueName": "Fate of the Vaal",
+      "summary": "德鲁伊 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/druid.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Druid",
+      "localized": {
+        "zh": {
+          "className": "德鲁伊",
+          "leagueName": "Fate of the Vaal",
+          "summary": "德鲁伊 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Druid",
+          "leagueName": "Fate of the Vaal",
+          "summary": "德鲁伊 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 22
+    },
+    {
+      "id": "vaal-huntress",
+      "className": "Huntress",
+      "leagueName": "Fate of the Vaal",
+      "summary": "女猎手 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/huntress.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Huntress",
+      "localized": {
+        "zh": {
+          "className": "女猎手",
+          "leagueName": "Fate of the Vaal",
+          "summary": "女猎手 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Huntress",
+          "leagueName": "Fate of the Vaal",
+          "summary": "女猎手 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 23
+    },
+    {
+      "id": "vaal-mercenary",
+      "className": "Mercenary",
+      "leagueName": "Fate of the Vaal",
+      "summary": "佣兵 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/mercenary.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Mercenary",
+      "localized": {
+        "zh": {
+          "className": "佣兵",
+          "leagueName": "Fate of the Vaal",
+          "summary": "佣兵 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Mercenary",
+          "leagueName": "Fate of the Vaal",
+          "summary": "佣兵 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 24
+    },
+    {
+      "id": "vaal-monk",
+      "className": "Monk",
+      "leagueName": "Fate of the Vaal",
+      "summary": "行者 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/monk.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Monk",
+      "localized": {
+        "zh": {
+          "className": "行者",
+          "leagueName": "Fate of the Vaal",
+          "summary": "行者 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Monk",
+          "leagueName": "Fate of the Vaal",
+          "summary": "行者 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 25
+    },
+    {
+      "id": "vaal-ranger",
+      "className": "Ranger",
+      "leagueName": "Fate of the Vaal",
+      "summary": "游侠 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/ranger.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Ranger",
+      "localized": {
+        "zh": {
+          "className": "游侠",
+          "leagueName": "Fate of the Vaal",
+          "summary": "游侠 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Ranger",
+          "leagueName": "Fate of the Vaal",
+          "summary": "游侠 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 26
+    },
+    {
+      "id": "vaal-sorceress",
+      "className": "Sorceress",
+      "leagueName": "Fate of the Vaal",
+      "summary": "魔巫 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/sorceress.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Sorceress",
+      "localized": {
+        "zh": {
+          "className": "魔巫",
+          "leagueName": "Fate of the Vaal",
+          "summary": "魔巫 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Sorceress",
+          "leagueName": "Fate of the Vaal",
+          "summary": "魔巫 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 27
+    },
+    {
+      "id": "vaal-warrior",
+      "className": "Warrior",
+      "leagueName": "Fate of the Vaal",
+      "summary": "战士 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/warrior.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Warrior",
+      "localized": {
+        "zh": {
+          "className": "战士",
+          "leagueName": "Fate of the Vaal",
+          "summary": "战士 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Warrior",
+          "leagueName": "Fate of the Vaal",
+          "summary": "战士 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 28
+    },
+    {
+      "id": "vaal-witch",
+      "className": "Witch",
+      "leagueName": "Fate of the Vaal",
+      "summary": "女巫 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/witch.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/vaal?class=Witch",
+      "localized": {
+        "zh": {
+          "className": "女巫",
+          "leagueName": "Fate of the Vaal",
+          "summary": "女巫 是 poe.ninja 可筛选职业，目前未进入 Fate of the Vaal 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Witch",
+          "leagueName": "Fate of the Vaal",
+          "summary": "女巫 is available in poe.ninja filters but is outside the top 10 share snapshot for Fate of the Vaal.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 29
     }
   ]
 }

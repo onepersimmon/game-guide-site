@@ -199,7 +199,7 @@ export async function syncPoe2Ascendancies() {
     parseClassSection(usHtml, "us"),
     parsePassiveSection(cnHtml, "cn"),
     parsePassiveSection(usHtml, "us"),
-  );
+  ).filter((ascendancyClass) => ascendancyClass.ascendancies.length > 0);
 
   const payload = {
     updatedAt: new Date().toISOString(),

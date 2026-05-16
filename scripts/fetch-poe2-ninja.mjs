@@ -39,6 +39,13 @@ function trendLabel(trend) {
 }
 
 function buildSummary(leagueName, index, className) {
+  if (index === null) {
+    return {
+      zh: `${className} 是 poe.ninja 可筛选职业，目前未进入 ${leagueName} 占比前 10，适合点进忍者网继续看具体角色。`,
+      en: `${className} is available in poe.ninja filters but is outside the top 10 share snapshot for ${leagueName}.`,
+    };
+  }
+
   return {
     zh: `${className} 在 ${leagueName} 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。`,
     en: index < 3
@@ -65,6 +72,26 @@ async function readAscendancyNameMap() {
   return names;
 }
 
+async function readPoe2ClassCatalog() {
+  if (!existsSync(ASCENDANCIES_PATH)) {
+    return [];
+  }
+
+  const payload = JSON.parse(await readFile(ASCENDANCIES_PATH, "utf8"));
+  return payload.classes.flatMap((baseClass) => [
+    {
+      className: baseClass.englishName,
+      localizedClassName: baseClass.name,
+      kind: "base",
+    },
+    ...(baseClass.ascendancies ?? []).map((ascendancy) => ({
+      className: ascendancy.englishName,
+      localizedClassName: ascendancy.name,
+      kind: "ascendancy",
+    })),
+  ]);
+}
+
 export function normalizeBuildIndexState(indexState, buildIndexState, localizedClassNames = new Map()) {
   const mainLeague = indexState.buildLeagues.find((league) => league.url === "vaal")
     ?? indexState.buildLeagues.find((league) => league.indexed)
@@ -83,13 +110,52 @@ export function normalizeBuildIndexState(indexState, buildIndexState, localizedC
     };
   }
 
-  const builds = leagueSummary.statistics.slice(0, 10).map((entry, index) => {
+  const statisticsByClass = new Map(leagueSummary.statistics.map((entry) => [entry.class, entry]));
+  const catalog = Array.isArray(localizedClassNames.catalog) ? localizedClassNames.catalog : [];
+  const visibleClasses = catalog.length
+    ? catalog
+    : leagueSummary.statistics.map((entry) => ({
+      className: entry.class,
+      localizedClassName: localizedClassNames.get(entry.class) ?? entry.class,
+      kind: "ascendancy",
+    }));
+
+  const builds = visibleClasses
+    .map((item) => {
+      const entry = statisticsByClass.get(item.className);
+      const rank = entry
+        ? leagueSummary.statistics.findIndex((candidate) => candidate.class === item.className) + 1
+        : null;
+      const popularity = entry ? Number(entry.percentage.toFixed(1)) : null;
+      const trend = entry?.trend ?? 0;
+      return {
+        ...item,
+        popularity,
+        trend,
+        rank,
+      };
+    })
+    .sort((a, b) => {
+      if (a.rank && b.rank) return a.rank - b.rank;
+      if (a.rank) return -1;
+      if (b.rank) return 1;
+      if (a.kind !== b.kind) return a.kind === "ascendancy" ? -1 : 1;
+      return a.className.localeCompare(b.className);
+    })
+    .map((item, index) => {
+    const entry = {
+      class: item.className,
+      percentage: item.popularity,
+      trend: item.trend,
+    };
     const slug = slugify(entry.class);
-    const localizedClassName = localizedClassNames.get(entry.class) ?? entry.class;
-    const summary = buildSummary(leagueSummary.leagueName, index, localizedClassName);
-    const rankLabel = index < 3
+    const localizedClassName = item.localizedClassName ?? localizedClassNames.get(entry.class) ?? entry.class;
+    const summary = buildSummary(leagueSummary.leagueName, item.rank ? index : null, localizedClassName);
+    const rankLabel = item.rank && index < 3
       ? { zh: "主联赛头部", en: "Main league leader" }
-      : { zh: "热门升华", en: "Popular ascendancy" };
+      : item.rank
+        ? { zh: "热门职业", en: "Popular class" }
+        : { zh: "忍者网筛选项", en: "poe.ninja filter" };
     const movementLabel = trendLabel(entry.trend);
 
     return {
@@ -97,9 +163,9 @@ export function normalizeBuildIndexState(indexState, buildIndexState, localizedC
       className: entry.class,
       leagueName: leagueSummary.leagueName,
       summary: summary.zh,
-      popularity: Number(entry.percentage.toFixed(1)),
+      popularity: item.popularity,
       trend: entry.trend,
-      rank: index + 1,
+      rank: item.rank,
       image: `./assets/images/builds/${slug}.webp`,
       tags: [rankLabel.zh, movementLabel.zh],
       href: `https://poe.ninja/poe2/builds/${leagueSummary.leagueUrl}?class=${encodeURIComponent(entry.class)}`,
@@ -158,6 +224,16 @@ async function downloadBinary(url, destination) {
   await writeFile(destination, Buffer.from(arrayBuffer));
 }
 
+async function tryDownloadBinary(url, destination) {
+  try {
+    await downloadBinary(url, destination);
+    return true;
+  } catch (error) {
+    console.warn(`Skipped unavailable icon: ${url}`);
+    return false;
+  }
+}
+
 async function ensureDirs() {
   await mkdir(BUILD_ICON_DIR, { recursive: true });
   await mkdir(HERO_DIR, { recursive: true });
@@ -200,16 +276,26 @@ export async function syncPoe2Builds() {
     fetchJson(BUILD_INDEX_URL),
   ]);
   const localizedClassNames = await readAscendancyNameMap();
+  localizedClassNames.catalog = await readPoe2ClassCatalog();
 
   const payload = normalizeBuildIndexState(indexState, buildIndexState, localizedClassNames);
 
-  await Promise.all([
-    ...payload.builds.map((build) => {
+  const iconResults = await Promise.all(
+    payload.builds.map(async (build) => {
       const filename = path.basename(build.image);
-      return downloadBinary(build.sourceIcon, path.join(BUILD_ICON_DIR, filename));
+      const downloaded = await tryDownloadBinary(build.sourceIcon, path.join(BUILD_ICON_DIR, filename));
+      return { build, downloaded };
     }),
-    downloadBinary(HERO_IMAGE_URL, path.join(HERO_DIR, "poe2-bg.webp")),
-  ]);
+  );
+
+  payload.builds = iconResults
+    .filter((result) => result.downloaded)
+    .map((result, index) => ({
+      ...result.build,
+      displayOrder: index + 1,
+    }));
+
+  await downloadBinary(HERO_IMAGE_URL, path.join(HERO_DIR, "poe2-bg.webp"));
 
   await writeBuildsJson(payload);
 }

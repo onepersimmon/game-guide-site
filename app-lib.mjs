@@ -63,6 +63,7 @@ const UI_COPY = {
       empty: "BD 数据还没同步到本地。",
       cached: "本地缓存",
       open: "查看忍者网",
+      unranked: "未进前 10",
     },
     filters: {
       all: "全部",
@@ -134,6 +135,7 @@ const UI_COPY = {
       empty: "Build data has not been synced locally yet.",
       cached: "Local cache",
       open: "Open poe.ninja",
+      unranked: "Outside top 10",
     },
     filters: {
       all: "All",
@@ -307,11 +309,11 @@ export function renderBuildCard(build, language = DEFAULT_LANGUAGE) {
       </div>
       <div class="build-card__header">
         <div>
-          <span class="rank-label">#${build.rank ?? "-"}</span>
+          <span class="rank-label">${build.rank ? `#${build.rank}` : copy.unranked}</span>
           <h3>${localizedBuild.className}</h3>
           <p>${localizedBuild.leagueName} · ${build.className}</p>
         </div>
-        <div class="build-tag">${build.popularity}%</div>
+        <div class="build-tag">${build.popularity === null ? copy.unranked : `${build.popularity}%`}</div>
       </div>
       <p>${localizedBuild.summary}</p>
       <div class="build-meta">${meta}</div>

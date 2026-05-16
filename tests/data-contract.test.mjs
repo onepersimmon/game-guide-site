@@ -71,7 +71,11 @@ test("builds data follows expected contract", () => {
 test("ascendancy data follows expected contract", () => {
   assert.ok(ascendancies.updatedAt);
   assert.ok(Array.isArray(ascendancies.classes));
-  assert.equal(ascendancies.classes.length, 12);
+  assert.equal(ascendancies.classes.length, 8);
+  assert.deepEqual(
+    ascendancies.classes.map((item) => item.name),
+    ["游侠", "女猎手", "行者", "女巫", "魔巫", "战士", "佣兵", "德鲁伊"],
+  );
 
   const openedAscendancies = ascendancies.classes.flatMap((item) => item.ascendancies);
   assert.ok(openedAscendancies.length > 20);

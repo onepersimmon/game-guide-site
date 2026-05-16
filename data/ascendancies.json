@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-16T02:17:26.107Z",
+  "updatedAt": "2026-05-16T02:38:21.111Z",
   "source": {
     "name": "流亡2编年史 / PoE2DB",
     "url": "https://poe2db.tw/cn/Ascendancy_class"
@@ -275,19 +275,6 @@
       "localized": {
         "en": {
           "name": "Huntress"
-        }
-      }
-    },
-    {
-      "id": "shadow",
-      "name": "暗影",
-      "englishName": "Shadow",
-      "sourceUrl": "https://poe2db.tw/cn/Shadow",
-      "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconUnknownCharacter.webp",
-      "ascendancies": [],
-      "localized": {
-        "en": {
-          "name": "Shadow"
         }
       }
     },
@@ -824,19 +811,6 @@
       }
     },
     {
-      "id": "marauder",
-      "name": "野蛮人",
-      "englishName": "Marauder",
-      "sourceUrl": "https://poe2db.tw/cn/Marauder",
-      "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconUnknownCharacter.webp",
-      "ascendancies": [],
-      "localized": {
-        "en": {
-          "name": "Marauder"
-        }
-      }
-    },
-    {
       "id": "warrior",
       "name": "战士",
       "englishName": "Warrior",
@@ -1025,19 +999,6 @@
       }
     },
     {
-      "id": "duelist",
-      "name": "决斗者",
-      "englishName": "Duelist",
-      "sourceUrl": "https://poe2db.tw/cn/Duelist",
-      "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconUnknownCharacter.webp",
-      "ascendancies": [],
-      "localized": {
-        "en": {
-          "name": "Duelist"
-        }
-      }
-    },
-    {
       "id": "mercenary",
       "name": "佣兵",
       "englishName": "Mercenary",
@@ -1222,19 +1183,6 @@
       "localized": {
         "en": {
           "name": "Mercenary"
-        }
-      }
-    },
-    {
-      "id": "templar",
-      "name": "圣堂武僧",
-      "englishName": "Templar",
-      "sourceUrl": "https://poe2db.tw/cn/Templar",
-      "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconUnknownCharacter.webp",
-      "ascendancies": [],
-      "localized": {
-        "en": {
-          "name": "Templar"
         }
       }
     },
