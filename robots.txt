@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://onepersimmon.github.io/game-guide-site/sitemap.xml
+Sitemap: https://poe2.ve-city.com/sitemap.xml
