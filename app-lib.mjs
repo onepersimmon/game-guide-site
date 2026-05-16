@@ -306,8 +306,12 @@ function renderGggNews(newsPayload, language = DEFAULT_LANGUAGE) {
   }
 
   const copy = getUiCopy(language).news;
-  newsRoot.innerHTML = newsPayload.items?.length
-    ? newsPayload.items.map((item) => renderGggNewsItem(item, language)).join("")
+  const latestItems = [...(newsPayload.items ?? [])]
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, 3);
+
+  newsRoot.innerHTML = latestItems.length
+    ? latestItems.map((item) => renderGggNewsItem(item, language)).join("")
     : `<div class="empty-state empty-state--compact">${copy.empty}</div>`;
 }
 
