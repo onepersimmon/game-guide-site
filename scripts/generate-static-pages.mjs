@@ -13,6 +13,7 @@ import {
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const BASE_URL = "https://aristpersimmon.top";
+const ADSENSE_SNIPPET = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2796426183102013" crossorigin="anonymous"></script>`;
 const CONTACT_EMAIL = "onepersimmon@163.com";
 const DATA_PATHS = {
   worldMaps: path.join(ROOT, "data", "world-maps.json"),
@@ -145,6 +146,7 @@ function renderPageShell({
     <meta name="description" content="${headDescription}" />
     <link rel="canonical" href="${canonicalUrl}" />
     <link rel="stylesheet" href="${stylesheetHref}" />
+    ${ADSENSE_SNIPPET}
     <style>
       .static-page {
         display: grid;

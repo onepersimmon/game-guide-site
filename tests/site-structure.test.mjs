@@ -15,6 +15,8 @@ const requiredFiles = [
   "/Users/persimmon/project/game-guide-site/data/ggg-news.json",
 ];
 
+const adsenseSnippet = "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2796426183102013";
+
 test("site scaffold files exist", () => {
   requiredFiles.forEach((file) => {
     assert.equal(existsSync(file), true, `${file} should exist`);
@@ -30,4 +32,12 @@ test("crawl discovery files point to the GitHub Pages project site", () => {
   assert.match(robots, new RegExp(`${baseUrl}/sitemap\\.xml`));
   assert.match(sitemap, new RegExp(`${baseUrl}/`));
   assert.match(llms, new RegExp(`${baseUrl}/`));
+});
+
+test("site includes the AdSense verification snippet", () => {
+  const index = readFileSync("/Users/persimmon/project/game-guide-site/index.html", "utf8");
+  const about = readFileSync("/Users/persimmon/project/game-guide-site/about.html", "utf8");
+
+  assert.equal(index.includes(adsenseSnippet), true);
+  assert.equal(about.includes(adsenseSnippet), true);
 });
