@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PoE2 Build Planner | POE2 开荒攻略站</title>
+    <meta
+      name="description"
+      content="Path of Exile 2 Build Planner：技能、辅助宝石、装备基底、词缀和天赋节点联动计算伤害，并跳转国际服官方交易。"
+    />
+    <link rel="canonical" href="https://aristpersimmon.top/tools/build-planner.html" />
+    <link rel="stylesheet" href="../styles.css" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2796426183102013" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="app-shell planner-page">
+      <header class="tool-header">
+        <div>
+          <p class="eyebrow">PoE2 Tool</p>
+          <h1>PoE2 Build Planner</h1>
+          <p>
+            从国际服官方集市缓存中加载技能、辅助宝石、装备基底和词缀筛选项；每次改技能、装备或点天赋节点，伤害结果都会重新计算。
+          </p>
+          <p id="planner-status" class="source-note">正在加载官方交易缓存...</p>
+        </div>
+        <nav class="site-links" aria-label="工具导航">
+          <a class="source-note source-note--link" href="../index.html">返回首页</a>
+          <a class="source-note source-note--link" href="../builds/poe-ninja-ranking.html">查看 BD 热度</a>
+        </nav>
+      </header>
+
+      <main>
+        <form class="planner-layout" data-build-planner>
+          <section class="planner-panel planner-panel--setup" aria-labelledby="planner-skill-title">
+            <div class="panel__header">
+              <div>
+                <p class="section-kicker">Skills</p>
+                <h2 id="planner-skill-title">技能组与辅助宝石</h2>
+              </div>
+              <p class="section-copy">技能和辅助宝石下拉来自国际服官方 trade2 缓存；数值先手动输入，后续再接 PoE2DB 等级成长。</p>
+            </div>
+            <div class="field-grid">
+              <label class="calc-field" for="planner-league">
+                <span>国际服联赛</span>
+                <input id="planner-league" type="text" value="Fate of the Vaal" />
+              </label>
+              <label class="calc-field" for="skill-gem">
+                <span>主动技能宝石</span>
+                <select id="skill-gem"></select>
+              </label>
+              <label class="calc-field" for="skill-level">
+                <span>技能等级</span>
+                <input id="skill-level" type="number" min="1" step="1" value="20" />
+              </label>
+              <label class="calc-field" for="support-gem">
+                <span>辅助宝石</span>
+                <select id="support-gem"></select>
+              </label>
+            </div>
+            <div class="field-grid">
+              <label class="calc-field" for="planner-base-hit">
+                <span>技能基础 hit</span>
+                <input id="planner-base-hit" type="number" min="0" step="1" value="1000" />
+              </label>
+              <label class="calc-field" for="planner-hits-per-second">
+                <span>每秒命中次数</span>
+                <input id="planner-hits-per-second" type="number" min="0" step="0.05" value="2" />
+              </label>
+              <label class="calc-field" for="planner-support-increased">
+                <span>辅助 increased %</span>
+                <input id="planner-support-increased" type="number" step="1" value="0" />
+              </label>
+              <label class="calc-field" for="support-more">
+                <span>辅助 more %</span>
+                <input id="support-more" type="number" step="1" value="30" />
+              </label>
+            </div>
+          </section>
+
+          <section class="planner-panel planner-panel--setup" aria-labelledby="planner-gear-title">
+            <div class="panel__header">
+              <div>
+                <p class="section-kicker">Gear</p>
+                <h2 id="planner-gear-title">装备与词缀</h2>
+              </div>
+              <p class="section-copy">装备基底和词缀筛选项来自官方集市；下方数值进入伤害 bucket。</p>
+            </div>
+            <div class="field-grid">
+              <label class="calc-field" for="equipment-base">
+                <span>装备基底</span>
+                <select id="equipment-base"></select>
+              </label>
+              <label class="calc-field" for="equipment-stat">
+                <span>集市词缀筛选</span>
+                <select id="equipment-stat"></select>
+              </label>
+              <label class="calc-field" for="planner-gear-increased">
+                <span>装备 increased %</span>
+                <input id="planner-gear-increased" type="number" step="1" value="80" />
+              </label>
+              <label class="calc-field" for="planner-more">
+                <span>其他 more %</span>
+                <input id="planner-more" type="number" step="1" value="0" />
+              </label>
+            </div>
+          </section>
+
+          <section class="planner-panel planner-panel--setup" aria-labelledby="planner-tree-title">
+            <div class="panel__header">
+              <div>
+                <p class="section-kicker">Passive Tree</p>
+                <h2 id="planner-tree-title">可点击天赋节点</h2>
+              </div>
+              <p class="section-copy">节点来自 poe.ninja 当前 PoE2 天赋树缓存；点击节点或列表项会立刻进入计算。</p>
+            </div>
+            <div class="passive-toolbar">
+              <label class="calc-field" for="passive-search">
+                <span>搜索天赋节点</span>
+                <input id="passive-search" type="search" placeholder="critical, spell damage, quarterstaff..." />
+              </label>
+              <p id="passive-tree-source" class="source-note">正在加载天赋树缓存...</p>
+            </div>
+            <div class="passive-workspace">
+              <div class="passive-tree-surface" aria-label="PoE2 天赋树节点图">
+                <svg id="passive-tree-svg" role="img" aria-label="可点击 PoE2 天赋树"></svg>
+              </div>
+              <aside class="passive-sidebar" aria-label="天赋节点列表与详情">
+                <div id="passive-node-list" class="passive-node-list"></div>
+                <div id="passive-details" class="passive-details">选择一个节点查看词缀。</div>
+              </aside>
+            </div>
+            <div class="field-grid">
+              <label class="calc-field" for="planner-tree-increased">
+                <span>手动天赋 increased %</span>
+                <input id="planner-tree-increased" type="number" step="1" value="120" />
+              </label>
+              <label class="calc-field" for="planner-skill-increased">
+                <span>技能自身 increased %</span>
+                <input id="planner-skill-increased" type="number" step="1" value="0" />
+              </label>
+            </div>
+          </section>
+
+          <section class="planner-panel planner-panel--result" aria-labelledby="planner-result-title">
+            <div class="panel__header">
+              <div>
+                <p class="section-kicker">Damage</p>
+                <h2 id="planner-result-title">最终技能伤害</h2>
+              </div>
+            </div>
+            <div class="result-grid">
+              <article class="result-card result-card--primary">
+                <span>平均单次伤害</span>
+                <strong id="planner-average-hit">0</strong>
+              </article>
+              <article class="result-card">
+                <span>DPS</span>
+                <strong id="planner-dps">0</strong>
+              </article>
+              <article class="result-card">
+                <span>非暴击 hit</span>
+                <strong id="planner-non-crit">0</strong>
+              </article>
+              <article class="result-card">
+                <span>暴击 hit</span>
+                <strong id="planner-crit-hit">0</strong>
+              </article>
+            </div>
+            <div class="formula-strip">
+              <span>increased <strong id="planner-increased-multiplier">1x</strong></span>
+              <span>more <strong id="planner-more-multiplier">1x</strong></span>
+              <span>已点天赋 <strong id="planner-passives">0</strong></span>
+            </div>
+            <div class="field-grid">
+              <label class="calc-field" for="planner-crit-chance">
+                <span>暴击几率 %</span>
+                <input id="planner-crit-chance" type="number" min="0" max="100" step="0.1" value="20" />
+              </label>
+              <label class="calc-field" for="planner-crit-damage">
+                <span>暴击伤害 %</span>
+                <input id="planner-crit-damage" type="number" min="100" step="1" value="250" />
+              </label>
+            </div>
+          </section>
+
+          <section class="planner-panel planner-panel--trade" aria-labelledby="planner-trade-title">
+            <div class="panel__header">
+              <div>
+                <p class="section-kicker">Trade</p>
+                <h2 id="planner-trade-title">国际服集市跳转</h2>
+              </div>
+              <p class="section-copy">会把当前装备基底、选中词缀和关键词拼进官方 PoE2 Trade 搜索。</p>
+            </div>
+            <label class="calc-field calc-field--wide" for="planner-trade-keywords">
+              <span>额外关键词</span>
+              <textarea id="planner-trade-keywords" rows="3">critical hit chance, spell damage</textarea>
+            </label>
+            <a
+              id="planner-trade-link"
+              class="source-note source-note--link trade-link"
+              href="https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal"
+              target="_blank"
+              rel="noopener"
+            >
+              打开国际服官方集市
+            </a>
+            <p class="trade-query" id="planner-trade-query"></p>
+          </section>
+        </form>
+      </main>
+    </div>
+
+    <script type="module" src="./build-planner.mjs"></script>
+  </body>
+</html>

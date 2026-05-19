@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-16T03:15:36.355Z",
+  "updatedAt": "2026-05-19T06:57:33.883Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
@@ -7,43 +7,43 @@
   },
   "items": [
     {
-      "id": "fate-of-the-vaal-as-core-path-of-exile-2-mechanic",
-      "title": "Fate of the Vaal as Core Path of Exile 2 Mechanic",
-      "date": "2026-05-15T21:00:00+00:00",
-      "summary": "As you may know, Atziri’s Temple is staying in Path of Exile 2 as a core mechanic when Return of the Ancients launches on May 29th. Find out the details in this news post.",
-      "href": "https://www.pathofexile.com/forum/view-thread/3931686",
-      "thumb": "https://web.poecdn.com/public/news/2026-05-16/FotV_CoreTwitter.jpg",
+      "id": "new-unique-items-the-auspex-and-facebreaker",
+      "title": "New Unique Items - the Auspex and Facebreaker",
+      "date": "2026-05-18T21:03:50+00:00",
+      "summary": "In Path of Exile 2: Return of the Ancients, we are introducing two new Unique Items: the Auspex and a beloved Path of Exile classic, Facebreaker. Unleash a relentless barrage of punches to crush your enemies… and shatter their minds.",
+      "href": "https://www.pathofexile.com/forum/view-thread/3932150",
+      "thumb": "https://web.poecdn.com/public/news/2026-05-19/AuspexandFacebreakerUniqueTwitter.jpg",
       "category": "Blue Post",
       "localized": {
         "zh": {
-          "title": "瓦尔命运将成为流放之路 2 核心机制",
-          "summary": "阿兹里的神殿会在 5 月 29 日先人回归上线后保留为核心机制，公告说明了具体改动。",
+          "title": "New Unique Items - the Auspex and Facebreaker",
+          "summary": "In Path of Exile 2: Return of the Ancients, we are introducing two new Unique Items: the Auspex and a beloved Path of Exile classic, Facebreaker. Unleash a relentless barrage of punches to crush your enemies… and shatter their minds.",
           "category": "GGG 蓝贴"
         },
         "en": {
-          "title": "Fate of the Vaal as Core Path of Exile 2 Mechanic",
-          "summary": "As you may know, Atziri’s Temple is staying in Path of Exile 2 as a core mechanic when Return of the Ancients launches on May 29th. Find out the details in this news post.",
+          "title": "New Unique Items - the Auspex and Facebreaker",
+          "summary": "In Path of Exile 2: Return of the Ancients, we are introducing two new Unique Items: the Auspex and a beloved Path of Exile classic, Facebreaker. Unleash a relentless barrage of punches to crush your enemies… and shatter their minds.",
           "category": "Blue Post"
         }
       }
     },
     {
-      "id": "reworked-uniques-reverie-and-hollow-mask",
-      "title": "Reworked Uniques - Reverie and Hollow Mask",
-      "date": "2026-05-14T22:40:33+00:00",
-      "summary": "In Return of the Ancients, embrace your botanist side and equip the Hollow Mask which gives you a direct connection to the Goddess Viridi, or give yourself to the woods to gain the Rite of Restoration with the Reverie mantle.",
-      "href": "https://www.pathofexile.com/forum/view-thread/3931658",
-      "thumb": "https://web.poecdn.com/public/news/2026-05-15/ReworkedUniquesTwitter.jpg",
+      "id": "tavern-talk-podcast-with-jonathan-rogers-and-mark-roberts",
+      "title": "Tavern Talk Podcast with Jonathan Rogers and Mark Roberts",
+      "date": "2026-05-18T01:30:00+00:00",
+      "summary": "Watch Game Directors Jonathan Rogers and Mark Roberts join Darthmicrotransaction and GhazzyTV for a special Tavern Talk interview on May 23 at 2PM PDT to discuss Path of Exile 2: Return of the Ancients.",
+      "href": "https://www.pathofexile.com/forum/view-thread/3932051",
+      "thumb": "https://web.poecdn.com/public/news/2026-05-18/TavernTalkTwitter.jpg",
       "category": "Blue Post",
       "localized": {
         "zh": {
-          "title": "重做传奇：Reverie 与 Hollow Mask",
-          "summary": "先人回归中，Reverie 与 Hollow Mask 两件传奇会被重做，围绕 Viridi 与恢复仪式提供新玩法。",
+          "title": "Tavern Talk Podcast with Jonathan Rogers and Mark Roberts",
+          "summary": "Watch Game Directors Jonathan Rogers and Mark Roberts join Darthmicrotransaction and GhazzyTV for a special Tavern Talk interview on May 23 at 2PM PDT to discuss Path of Exile 2: Return of the Ancients.",
           "category": "GGG 蓝贴"
         },
         "en": {
-          "title": "Reworked Uniques - Reverie and Hollow Mask",
-          "summary": "In Return of the Ancients, embrace your botanist side and equip the Hollow Mask which gives you a direct connection to the Goddess Viridi, or give yourself to the woods to gain the Rite of Restoration with the Reverie mantle.",
+          "title": "Tavern Talk Podcast with Jonathan Rogers and Mark Roberts",
+          "summary": "Watch Game Directors Jonathan Rogers and Mark Roberts join Darthmicrotransaction and GhazzyTV for a special Tavern Talk interview on May 23 at 2PM PDT to discuss Path of Exile 2: Return of the Ancients.",
           "category": "Blue Post"
         }
       }

@@ -9,6 +9,11 @@ const requiredFiles = [
   "/Users/persimmon/project/game-guide-site/robots.txt",
   "/Users/persimmon/project/game-guide-site/sitemap.xml",
   "/Users/persimmon/project/game-guide-site/llms.txt",
+  "/Users/persimmon/project/game-guide-site/tools/build-planner.html",
+  "/Users/persimmon/project/game-guide-site/tools/build-planner.mjs",
+  "/Users/persimmon/project/game-guide-site/data/trade2-items.json",
+  "/Users/persimmon/project/game-guide-site/data/trade2-static.json",
+  "/Users/persimmon/project/game-guide-site/data/trade2-stats.json",
   "/Users/persimmon/project/game-guide-site/data/maps.json",
   "/Users/persimmon/project/game-guide-site/data/builds.json",
   "/Users/persimmon/project/game-guide-site/data/ascendancies.json",
@@ -31,7 +36,9 @@ test("crawl discovery files point to the GitHub Pages project site", () => {
 
   assert.match(robots, new RegExp(`${baseUrl}/sitemap\\.xml`));
   assert.match(sitemap, new RegExp(`${baseUrl}/`));
+  assert.match(sitemap, new RegExp(`${baseUrl}/tools/build-planner\\.html`));
   assert.match(llms, new RegExp(`${baseUrl}/`));
+  assert.match(llms, new RegExp(`${baseUrl}/tools/build-planner\\.html`));
 });
 
 test("site includes the AdSense verification snippet", () => {

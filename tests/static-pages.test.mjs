@@ -9,6 +9,7 @@ const act1Upper = `${root}/campaign/act1-upper.html`;
 const act1Lower = `${root}/campaign/act1-lower.html`;
 const classesIndex = `${root}/classes/index.html`;
 const buildsPage = `${root}/builds/poe-ninja-ranking.html`;
+const buildPlanner = `${root}/tools/build-planner.html`;
 
 test("static page generator exists", () => {
   assert.equal(existsSync(generator), true, "generator script should exist");
@@ -22,9 +23,17 @@ test("static page generator runs", () => {
 });
 
 test("generated seo pages exist", () => {
-  [act1Upper, act1Lower, classesIndex, buildsPage].forEach((file) => {
+  [act1Upper, act1Lower, classesIndex, buildsPage, buildPlanner].forEach((file) => {
     assert.equal(existsSync(file), true, `${file} should exist`);
   });
+});
+
+test("generated support files include the build planner", () => {
+  const sitemap = readFileSync(`${root}/sitemap.xml`, "utf8");
+  const llms = readFileSync(`${root}/llms.txt`, "utf8");
+
+  assert.match(sitemap, /https:\/\/aristpersimmon\.top\/tools\/build-planner\.html/);
+  assert.match(llms, /https:\/\/aristpersimmon\.top\/tools\/build-planner\.html/);
 });
 
 test("act1 upper page contains seo essentials", () => {

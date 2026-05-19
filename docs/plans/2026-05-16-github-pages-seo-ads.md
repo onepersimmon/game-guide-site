@@ -2,9 +2,9 @@
 
 > **给 Claude：** 必须使用 superpowers:executing-plans，按任务逐步执行这份计划。
 
-**目标：** 在不使用自定义域名的前提下，让现有 GitHub Pages 项目站更容易被 Google、Bing 和 AI 搜索工具发现、理解、引用，并为后续接入 Google AdSense 做准备。
+**目标：** 让现有 GitHub Pages 站点更容易被 Google、Bing 和 AI 搜索工具发现、理解、引用，并为后续接入 Google AdSense 做准备。
 
-**架构：** 保留当前 `index.html` 单页体验作为首页，同时生成一批可被搜索引擎直接抓取的静态内容页，覆盖开荒地图、职业预览、BD 排行和政策说明页。所有公开 URL 都使用 GitHub Pages 项目站路径 `/game-guide-site/`；同时补齐 sitemap、robots、metadata、JSON-LD。AdSense 放到后置阶段处理，因为 GitHub Pages 项目站的 `ads.txt` 不一定满足 Google 对根域名位置的要求。
+**架构：** 保留当前 `index.html` 单页体验作为首页，同时生成一批可被搜索引擎直接抓取的静态内容页，覆盖开荒地图、职业预览、BD 排行和政策说明页。当前公开 URL 使用 `https://aristpersimmon.top/`；同时补齐 sitemap、robots、metadata、JSON-LD。长期域名结构应支持一个根域承载多个项目子域名。
 
 **技术栈：** 静态 HTML/CSS/JS、Node.js 脚本、JSON 数据文件、GitHub Pages、Google Search Console、Bing Webmaster Tools、Google AdSense。
 
@@ -12,11 +12,19 @@
 
 ## 前提与限制
 
-- 暂时不做自定义域名。
 - 公开访问基准地址为 `https://aristpersimmon.top/`。
 - GitHub Pages 支持多页面静态站，所以 `/campaign/act-1-upper.html` 这类页面是可行的。
 - 当前应用继续保留为 `index.html`，静态 SEO 页面是补充入口，不替代现有应用。
-- 可以尝试 AdSense，但项目站路径下的 `ads.txt` 合规性存在不确定性。如果 Google 要求 `https://onepersimmon.github.io/ads.txt`，可能需要单独创建 `onepersimmon.github.io` 用户站仓库，或者先暂缓 AdSense。
+- AdSense 已用根域 `aristpersimmon.top` 发起站点审核。普通子域名不再作为独立站点单独添加到 AdSense Sites，应先让根域过审，再把具体项目迁移到子域名。
+
+## 当前域名与广告决策（2026-05-19）
+
+- 短期：保持 `aristpersimmon.top` 指向当前 POE2 项目，直到 AdSense 审核完成，避免审核期间频繁变更站点结构。
+- 中期：AdSense 通过后，把当前 POE2 项目迁移到 `poe2.aristpersimmon.top`。
+- 长期：`aristpersimmon.top` 保留为个人/项目导航主站，承载多个项目入口；每个具体网站使用独立子域名，例如 `poe2.aristpersimmon.top`、`tools.aristpersimmon.top`、`ai.aristpersimmon.top`。
+- AdSense 侧：继续以 `aristpersimmon.top` 作为主站点审核对象。根域过审后，各子域名页面仍需放置同一个发布商账号的 AdSense 脚本和必要广告位，但不把普通子域名当成新的 AdSense Site 单独申请。
+- GitHub Pages 侧：每个仓库可以绑定一个不同的自定义域名或子域名。迁移 POE2 时，应把本仓库的 `CNAME` 从 `aristpersimmon.top` 改为 `poe2.aristpersimmon.top`，并在 DNS 中为 `poe2` 配置到 GitHub Pages 的记录。
+- 根域主站：迁移后需要新建或指定一个仓库承载 `aristpersimmon.top`，至少包含项目导航、关于、联系、隐私、声明、sitemap、robots、ads.txt。
 
 ## 成功标准
 

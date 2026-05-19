@@ -3,6 +3,10 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 
 const html = readFileSync("/Users/persimmon/project/game-guide-site/index.html", "utf8");
+const buildPlanner = readFileSync(
+  "/Users/persimmon/project/game-guide-site/tools/build-planner.html",
+  "utf8",
+);
 
 test("page includes segmented tabs and content panels", () => {
   assert.match(html, /data-tab-button="world"/);
@@ -39,6 +43,19 @@ test("page links to static seo pages", () => {
   assert.match(html, /href="\.\/campaign\/act1-upper\.html"/);
   assert.match(html, /href="\.\/classes\/index\.html"/);
   assert.match(html, /href="\.\/builds\/poe-ninja-ranking\.html"/);
+  assert.match(html, /href="\.\/tools\/build-planner\.html"/);
+});
+
+test("build planner page exposes PoE2 planner controls and results", () => {
+  assert.match(buildPlanner, /PoE2 Build Planner/);
+  assert.match(buildPlanner, /id="skill-gem"/);
+  assert.match(buildPlanner, /id="support-gem"/);
+  assert.match(buildPlanner, /id="equipment-base"/);
+  assert.match(buildPlanner, /id="passive-search"/);
+  assert.match(buildPlanner, /id="passive-tree-svg"/);
+  assert.match(buildPlanner, /id="planner-average-hit"/);
+  assert.match(buildPlanner, /id="planner-trade-link"/);
+  assert.match(buildPlanner, /type="module" src="\.\/build-planner\.mjs"/);
 });
 
 test("page replaces the large hero with a compact GGG news list", () => {

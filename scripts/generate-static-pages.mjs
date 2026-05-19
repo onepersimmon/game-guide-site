@@ -15,6 +15,9 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const BASE_URL = "https://aristpersimmon.top";
 const ADSENSE_SNIPPET = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2796426183102013" crossorigin="anonymous"></script>`;
 const CONTACT_EMAIL = "onepersimmon@163.com";
+const EXTRA_STATIC_PATHS = [
+  "/tools/build-planner.html",
+];
 const DATA_PATHS = {
   worldMaps: path.join(ROOT, "data", "world-maps.json"),
   ascendancies: path.join(ROOT, "data", "ascendancies.json"),
@@ -883,6 +886,7 @@ async function writeSupportFiles({ pages }) {
   const urls = [
     `${BASE_URL}/`,
     ...pages.map((page) => `${BASE_URL}${page.urlPath}`),
+    ...EXTRA_STATIC_PATHS.map((urlPath) => `${BASE_URL}${urlPath}`),
   ];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
@@ -906,6 +910,7 @@ Sitemap: ${BASE_URL}/sitemap.xml
 - ${BASE_URL}/campaign/act1-upper.html
 - ${BASE_URL}/classes/index.html
 - ${BASE_URL}/builds/poe-ninja-ranking.html
+- ${BASE_URL}/tools/build-planner.html
 
 说明页:
 - ${BASE_URL}/about.html
