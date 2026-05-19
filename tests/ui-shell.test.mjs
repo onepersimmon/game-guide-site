@@ -47,7 +47,7 @@ test("page links to static seo pages", () => {
 });
 
 test("build planner page exposes PoE2 planner controls and results", () => {
-  assert.match(buildPlanner, /PoE2 Build Planner/);
+  assert.match(buildPlanner, /构筑伤害计算器/);
   assert.match(buildPlanner, /id="skill-search-layer"/);
   assert.match(buildPlanner, /id="support-search-layer"/);
   assert.match(buildPlanner, /id="skill-list"/);
@@ -59,7 +59,7 @@ test("build planner page exposes PoE2 planner controls and results", () => {
   assert.match(buildPlanner, /id="passive-tree-svg"/);
   assert.match(buildPlanner, /id="planner-average-hit"/);
   assert.match(buildPlanner, /id="equipment-slots"/);
-  assert.match(buildPlanner, /type="module" src="\.\/build-planner\.mjs\?v=3"/);
+  assert.match(buildPlanner, /type="module" src="\.\/build-planner\.mjs\?v=5"/);
 });
 
 test("page replaces the large hero with a compact GGG news list", () => {

@@ -71,6 +71,36 @@ test("catalog entries can be localized and searched with poe2db Chinese names", 
   assert.equal(entry.tradeText, "Lightning Arrow");
 });
 
+test("equipment base entries keep trade text while displaying PoE2DB Chinese names", () => {
+  const entry = localizeCatalogEntry(
+    { text: "Shortbow", type: "Shortbow" },
+    {
+      entries: [
+        {
+          type: "item_base",
+          slug: "Shortbow",
+          english: "Shortbow",
+          chinese: "短弓",
+        },
+      ],
+    },
+  );
+
+  assert.equal(entry.label, "短弓");
+  assert.equal(entry.tradeText, "Shortbow");
+  assert.equal(entry.searchText.includes("短弓"), true);
+  assert.equal(entry.searchText.includes("shortbow"), true);
+});
+
+test("build planner localizes equipment base dropdowns from PoE2DB cache", () => {
+  const script = readFileSync("/Users/persimmon/project/game-guide-site/tools/build-planner.mjs", "utf8");
+
+  assert.match(script, /catalog\.weaponBases = localizeCatalogList\(catalog\.weaponBases, localizationIndex\)/);
+  assert.match(script, /catalog\.armourBases = localizeCatalogList\(catalog\.armourBases, localizationIndex\)/);
+  assert.match(script, /catalog\.accessoryBases = localizeCatalogList\(catalog\.accessoryBases, localizationIndex\)/);
+  assert.match(script, /catalog\.jewelBases = localizeCatalogList\(catalog\.jewelBases, localizationIndex\)/);
+});
+
 test("build damage updates when skill and passive state changes", () => {
   const catalog = normalizeTradeCatalog({
     items: tradePayload,
@@ -253,6 +283,7 @@ test("build planner page exposes searchable clickable passive tree controls", ()
   assert.match(html, /id="passive-tree-svg"/);
   assert.match(html, /id="passive-node-list"/);
   assert.match(html, /id="passive-details"/);
+  assert.match(html, /流放之路 2 编年史/);
   assert.doesNotMatch(html, /<datalist id="skill-options"/);
   assert.doesNotMatch(html, /<datalist id="support-options"/);
 });

@@ -1188,42 +1188,45 @@ a {
 
 .passive-tree-surface {
   min-width: 0;
-  min-height: 720px;
+  min-height: 820px;
   overflow: hidden;
-  border: 1px solid rgba(87, 98, 120, 0.42);
+  border: 1px solid rgba(58, 65, 76, 0.86);
   border-radius: 8px;
   background:
-    radial-gradient(circle at 50% 50%, rgba(242, 169, 59, 0.11), transparent 36%),
-    linear-gradient(180deg, #101827 0%, #151f31 48%, #111826 100%);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+    radial-gradient(circle at 50% 50%, rgba(40, 52, 64, 0.52), transparent 13%),
+    #05080a;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.035),
+    inset 0 0 70px rgba(0, 0, 0, 0.72);
 }
 
 #passive-tree-svg {
   display: block;
   width: 100%;
-  height: 720px;
+  height: 820px;
 }
 
 .passive-tree-edges line {
-  stroke: rgba(170, 185, 212, 0.16);
-  stroke-width: 14;
+  stroke: rgba(138, 146, 154, 0.34);
+  stroke-width: 1.05;
   vector-effect: non-scaling-stroke;
 }
 
 .passive-tree-edges line.is-active {
-  stroke: rgba(242, 169, 59, 0.82);
-  stroke-width: 22;
+  stroke: #ffdf44;
+  stroke-width: 2.2;
 }
 
 .passive-tree-node {
-  opacity: 0.46;
-  stroke: rgba(220, 230, 247, 0.55);
-  stroke-width: 14;
+  opacity: 0.92;
+  stroke: rgba(0, 0, 0, 0.48);
+  stroke-width: 1.1;
   cursor: pointer;
   transition:
     fill 160ms ease,
     stroke 160ms ease,
     opacity 160ms ease;
+  vector-effect: non-scaling-stroke;
 }
 
 .passive-tree-hit-target {
@@ -1234,19 +1237,19 @@ a {
 }
 
 .passive-tree-node.is-supported {
-  opacity: 0.86;
+  opacity: 0.98;
 }
 
 .passive-tree-node.is-notable {
-  stroke: rgba(255, 255, 255, 0.86);
-  stroke-width: 22;
+  stroke: rgba(255, 255, 255, 0.58);
+  stroke-width: 1.6;
 }
 
 .passive-tree-node.is-active {
-  fill: #f2a93b;
+  fill: #ffdf44;
   opacity: 1;
-  stroke: #fff6dc;
-  stroke-width: 28;
+  stroke: #fff9c4;
+  stroke-width: 2.4;
 }
 
 .passive-sidebar {
@@ -1511,11 +1514,11 @@ a {
   }
 
   .passive-tree-surface {
-    min-height: 360px;
+    min-height: 520px;
   }
 
   #passive-tree-svg {
-    height: 360px;
+    height: 520px;
   }
 
   .calculator-panel--input,

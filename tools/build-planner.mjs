@@ -56,30 +56,6 @@ function createLocalizationLookup(localizationIndex = {}) {
   );
 }
 
-function translateKnownTerms(text = "") {
-  return stripMarkup(text)
-    .replaceAll("Critical Hit Chance", "暴击几率")
-    .replaceAll("Critical Damage Bonus", "暴击伤害加成")
-    .replaceAll("Spell Damage", "法术伤害")
-    .replaceAll("Attack Damage", "攻击伤害")
-    .replaceAll("Projectile Damage", "投射物伤害")
-    .replaceAll("Physical Damage", "物理伤害")
-    .replaceAll("Elemental Damage", "元素伤害")
-    .replaceAll("Lightning Damage", "闪电伤害")
-    .replaceAll("Fire Damage", "火焰伤害")
-    .replaceAll("Cold Damage", "冰霜伤害")
-    .replaceAll("Chaos Damage", "混沌伤害")
-    .replaceAll("Damage", "伤害")
-    .replaceAll("increased", "提高")
-    .replaceAll("more", "更多")
-    .replaceAll("reduced", "降低")
-    .replaceAll("with", "使用")
-    .replaceAll("for", "对")
-    .replaceAll("against", "对抗")
-    .replaceAll("Attacks", "攻击")
-    .replaceAll("Spells", "法术");
-}
-
 export function localizeCatalogEntry(entry = {}, localizationIndex = {}) {
   const lookup = createLocalizationLookup(localizationIndex);
   const english = entry.text ?? entry.type ?? entry.name ?? "";
@@ -99,6 +75,30 @@ export function localizeCatalogEntry(entry = {}, localizationIndex = {}) {
 
 function localizeCatalogList(entries = [], localizationIndex = {}) {
   return entries.map((entry) => localizeCatalogEntry(entry, localizationIndex));
+}
+
+function createPoe2dbLocalizationMaps(localizationIndex = {}) {
+  const maps = {
+    passiveBySkill: new Map(),
+    classByEnglish: new Map(),
+    ascendancyByEnglish: new Map(),
+  };
+
+  for (const entry of localizationIndex.entries ?? []) {
+    if (entry.type === "passive" && entry.skill) {
+      maps.passiveBySkill.set(String(entry.skill), entry);
+    }
+
+    if (entry.type === "class") {
+      maps.classByEnglish.set(entry.english, entry);
+    }
+
+    if (entry.type === "ascendancy") {
+      maps.ascendancyByEnglish.set(entry.english, entry);
+    }
+  }
+
+  return maps;
 }
 
 export function inferPassiveNodeModifiers(node = {}) {
@@ -166,7 +166,7 @@ export function normalizePassiveTree(rawTree = {}) {
       isNotable: Boolean(node.isNotable),
       ascendancyName: node.ascendancyName ?? "",
       statsText: (node.stats ?? []).map((stat) => stripMarkup(stat.t ?? stat.text ?? "")).filter(Boolean).join(" | "),
-      statsTextCn: (node.stats ?? []).map((stat) => translateKnownTerms(stat.t ?? stat.text ?? "")).filter(Boolean).join(" | "),
+      statsTextCn: "",
       out: (node.out ?? []).map(String),
       ...modifiers,
     };
@@ -411,7 +411,13 @@ async function loadJson(path) {
   return response.json();
 }
 
-function populateSelect(select, entries, placeholder, valueGetter = (entry) => entry.name ?? entry.text ?? "") {
+function populateSelect(
+  select,
+  entries,
+  placeholder,
+  valueGetter = (entry) => entry.name ?? entry.text ?? "",
+  labelGetter = (entry) => entry.name ?? entry.text ?? valueGetter(entry),
+) {
   if (!select) {
     return;
   }
@@ -425,7 +431,7 @@ function populateSelect(select, entries, placeholder, valueGetter = (entry) => e
   entries.forEach((entry) => {
     const option = document.createElement("option");
     option.value = valueGetter(entry);
-    option.textContent = entry.name ?? entry.text ?? valueGetter(entry);
+    option.textContent = labelGetter(entry);
     select.append(option);
   });
 }
@@ -508,7 +514,7 @@ function attachDynamicSearch(input, entries, layerId, onSelect, { emptyText = "�
         button.className = "search-layer__item";
         button.innerHTML = `
           <strong>${escapeHtml(getEntryLabel(entry))}</strong>
-          <span>${escapeHtml(entry.chinese && entry.english ? entry.english : getEntryTradeText(entry))}</span>
+          <span>${escapeHtml(entry.chinese ? "来自流放之路 2 编年史" : "来自国际服集市缓存")}</span>
         `;
         button.addEventListener("mousedown", (event) => {
           event.preventDefault();
@@ -554,11 +560,11 @@ function formatPassiveModifiers(node) {
   const parts = [];
 
   if (toNumber(node.increased) !== 0) {
-    parts.push(`increased +${formatValue(toNumber(node.increased))}%`);
+    parts.push(`提高 +${formatValue(toNumber(node.increased))}%`);
   }
 
   if ((node.more ?? []).length > 0) {
-    parts.push(`more ${node.more.map((value) => `+${formatValue(toNumber(value))}%`).join(", ")}`);
+    parts.push(`更多 ${node.more.map((value) => `+${formatValue(toNumber(value))}%`).join(", ")}`);
   }
 
   if (toNumber(node.critChance) !== 0) {
@@ -572,12 +578,28 @@ function formatPassiveModifiers(node) {
   return parts.length > 0 ? parts.join(" / ") : "暂未纳入伤害公式";
 }
 
-function getPassiveTreePayload(payload = {}) {
-  if (Array.isArray(payload.nodes)) {
-    return payload;
-  }
+function getPassiveTreePayload(payload = {}, localizationIndex = {}) {
+  const tree = Array.isArray(payload.nodes) ? payload : normalizePassiveTree(payload);
+  const localizationMaps = createPoe2dbLocalizationMaps(localizationIndex);
 
-  return normalizePassiveTree(payload);
+  return {
+    ...tree,
+    nodes: tree.nodes.map((node) => {
+      const passiveEntry = localizationMaps.passiveBySkill.get(String(node.skill ?? node.id));
+      const ascendancyEntry = localizationMaps.ascendancyByEnglish.get(node.ascendancyName ?? "");
+      const label = passiveEntry?.chinese ?? node.name ?? node.label ?? "";
+      const ascendancyNameCn = ascendancyEntry?.chinese ?? node.ascendancyName ?? "";
+      const statsTextCn = (passiveEntry?.chineseStats ?? []).join(" | ");
+      return {
+        ...node,
+        label,
+        ascendancyNameCn,
+        statsTextCn,
+        poe2dbChineseSource: passiveEntry?.poe2db ?? "",
+        searchText: normalizeKey(`${label} ${node.name ?? ""} ${node.statsText ?? ""} ${statsTextCn} ${node.ascendancyName ?? ""} ${ascendancyNameCn}`),
+      };
+    }),
+  };
 }
 
 function updatePassiveActiveState(passiveNodes) {
@@ -844,7 +866,7 @@ function createSkillCard(id, catalog, values = {}) {
           <input class="support-gem" type="search" value="${escapeHtml(values.support ?? "")}" placeholder="输入中文或英文搜索辅助" autocomplete="off" />
         </label>
         <label class="calc-field">
-          <span>辅助 more %</span>
+          <span>辅助更多 %</span>
           <input class="support-more" type="number" step="1" value="${values.supportMore ?? 30}" />
         </label>
       </div>
@@ -858,11 +880,11 @@ function createSkillCard(id, catalog, values = {}) {
           <input class="skill-hps" type="number" min="0" step="0.05" value="${values.hitsPerSecond ?? 2}" />
         </label>
         <label class="calc-field">
-          <span>技能 increased %</span>
+          <span>技能提高 %</span>
           <input class="skill-increased" type="number" step="1" value="${values.skillIncreased ?? 0}" />
         </label>
         <label class="calc-field">
-          <span>技能 more %</span>
+          <span>技能更多 %</span>
           <input class="skill-more" type="number" step="1" value="${values.skillMore ?? 0}" />
         </label>
       </div>
@@ -879,7 +901,7 @@ function createSkillCard(id, catalog, values = {}) {
     </div>
     <aside class="skill-card__damage">
       <strong data-skill-dps>0</strong>
-      <span>DPS</span>
+      <span>每秒伤害</span>
       <p>平均 hit <b data-skill-average>0</b></p>
       <p>非暴击 <b data-skill-noncrit>0</b></p>
       <p>暴击 <b data-skill-crit>0</b></p>
@@ -1084,7 +1106,7 @@ function renderPassiveDetails(node, isActive) {
   const title = document.createElement("strong");
   title.textContent = node.label ?? node.name;
   const meta = document.createElement("span");
-  meta.textContent = [node.ascendancyName, isActive ? "已点亮" : "未点亮"].filter(Boolean).join(" / ");
+  meta.textContent = [node.ascendancyNameCn || node.ascendancyName, isActive ? "已点亮" : "未点亮"].filter(Boolean).join(" / ");
   const modifiers = document.createElement("p");
   modifiers.textContent = formatPassiveModifiers(node);
   const stats = document.createElement("small");
@@ -1107,6 +1129,11 @@ async function initBuildPlanner() {
   ]);
   const catalog = normalizeTradeCatalog({ items, staticData, stats });
   catalog.skillGems = localizeCatalogList(catalog.skillGems, localizationIndex);
+  catalog.weaponBases = localizeCatalogList(catalog.weaponBases, localizationIndex);
+  catalog.armourBases = localizeCatalogList(catalog.armourBases, localizationIndex);
+  catalog.accessoryBases = localizeCatalogList(catalog.accessoryBases, localizationIndex);
+  catalog.jewelBases = localizeCatalogList(catalog.jewelBases, localizationIndex);
+  catalog.flaskBases = localizeCatalogList(catalog.flaskBases, localizationIndex);
   catalog.supportGems = [
     ...localizeCatalogList(catalog.supportGems, localizationIndex),
     ...(localizationIndex.entries ?? [])
@@ -1117,12 +1144,13 @@ async function initBuildPlanner() {
   });
   catalog.itemStats = catalog.itemStats.map((entry) => ({
     ...entry,
-    label: translateKnownTerms(entry.text),
+    label: entry.text,
     english: entry.text,
     tradeText: entry.text,
-    searchText: normalizeKey(`${entry.text} ${translateKnownTerms(entry.text)}`),
+    searchText: normalizeKey(entry.text),
   }));
-  const passiveTree = getPassiveTreePayload(passiveTreePayload);
+  const passiveTree = getPassiveTreePayload(passiveTreePayload, localizationIndex);
+  const localizationMaps = createPoe2dbLocalizationMaps(localizationIndex);
   const equipmentBases = [
     ...catalog.weaponBases,
     ...catalog.armourBases,
@@ -1149,17 +1177,23 @@ async function initBuildPlanner() {
 
   const status = document.getElementById("planner-status");
   if (status) {
-    status.textContent = `已加载官方 trade2 缓存：${catalog.skillGems.length} 个技能/宝石项、${catalog.supportGems.length} 个辅助项、${equipmentBases.length} 个装备基底；天赋树 ${passiveTree.nodes.length} 个节点。`;
+    status.textContent = `已加载国际服集市缓存：${catalog.skillGems.length} 个技能/宝石项、${catalog.supportGems.length} 个辅助项、${equipmentBases.length} 个装备基底；编年史中文缓存：${localizationIndex.entries?.length ?? 0} 条；天赋树 ${passiveTree.nodes.length} 个节点。`;
   }
 
   const treeSource = document.getElementById("passive-tree-source");
   if (treeSource) {
-    treeSource.textContent = `${passiveTreePayload.version ?? "PassiveTree"} / ${passiveTreePayload.league ?? DEFAULT_LEAGUE} / ${passiveTree.nodes.length} nodes`;
+    treeSource.textContent = `${passiveTreePayload.version ?? "天赋树"} / ${passiveTreePayload.league ?? DEFAULT_LEAGUE} / ${passiveTree.nodes.length} 个节点 / 中文来自流放之路 2 编年史`;
   }
 
   const classSelect = document.getElementById("passive-class");
   const ascendancySelect = document.getElementById("passive-ascendancy");
-  populateSelect(classSelect, passiveTree.classes ?? [], "选择职业", (entry) => entry.name);
+  populateSelect(
+    classSelect,
+    passiveTree.classes ?? [],
+    "选择职业",
+    (entry) => entry.name,
+    (entry) => localizationMaps.classByEnglish.get(entry.name)?.chinese ?? entry.name,
+  );
 
   const refreshAscendancies = () => {
     populateSelect(
@@ -1167,6 +1201,7 @@ async function initBuildPlanner() {
       getAscendancyNames(passiveTree, classSelect?.value ?? "").map((name) => ({ name })),
       "选择升华",
       (entry) => entry.name,
+      (entry) => localizationMaps.ascendancyByEnglish.get(entry.name)?.chinese ?? entry.name,
     );
   };
   refreshAscendancies();
@@ -1314,13 +1349,7 @@ async function initBuildPlanner() {
     wireSkillCardSearch(card, catalog);
     update();
   });
-  attachDynamicSearch(document.getElementById("equipment-base-search"), equipmentBases.map((entry) => ({
-    ...entry,
-    label: entry.text,
-    english: entry.text,
-    tradeText: entry.text,
-    searchText: normalizeKey(entry.text),
-  })), "equipment-search-layer", () => {
+  attachDynamicSearch(document.getElementById("equipment-base-search"), equipmentBases, "equipment-search-layer", () => {
     const slot = equipmentState.find((item) => item.id === editingEquipmentSlot);
     updateEquipmentModalTrade(slot, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE);
   });
