@@ -898,12 +898,12 @@ a {
 }
 
 .planner-page {
-  max-width: 1320px;
+  max-width: 1560px;
 }
 
 .planner-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(360px, 0.72fr);
+  grid-template-columns: minmax(0, 1fr) minmax(340px, 0.42fr);
   gap: 18px;
   margin-top: 22px;
   align-items: start;
@@ -929,6 +929,10 @@ a {
 
 .planner-panel--result {
   grid-row: 1;
+}
+
+.planner-panel--tree {
+  grid-column: 1 / -1;
 }
 
 .calc-field select {
@@ -957,6 +961,20 @@ a {
   color: var(--blue);
   font: inherit;
   font-weight: 800;
+  cursor: pointer;
+}
+
+.planner-icon-button {
+  display: inline-grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(108, 126, 157, 0.24);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--text);
+  font: inherit;
+  font-weight: 900;
   cursor: pointer;
 }
 
@@ -1020,11 +1038,21 @@ a {
 
 .equipment-card {
   display: grid;
-  gap: 12px;
-  padding: 14px;
-  border: 1px solid rgba(108, 126, 157, 0.2);
+  gap: 8px;
+  min-height: 116px;
+  padding: 8px;
+  border: 1px solid rgba(108, 126, 157, 0.22);
   border-radius: 8px;
-  background: rgba(247, 250, 255, 0.72);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(235, 241, 250, 0.78)),
+    #f6f9fd;
+}
+
+.equipment-card.is-filled {
+  border-color: rgba(242, 169, 59, 0.64);
+  background:
+    linear-gradient(180deg, rgba(255, 251, 240, 0.94), rgba(245, 236, 216, 0.84)),
+    #fff7e5;
 }
 
 .equipment-card__header {
@@ -1034,8 +1062,98 @@ a {
   align-items: center;
 }
 
+.character-equipment {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-areas:
+    ". helmet amulet ."
+    "weapon body ring1 offhand"
+    ". gloves ring2 ."
+    ". boots belt jewel";
+  gap: 10px;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.character-equipment [data-equipment-slot="weapon"] {
+  grid-area: weapon;
+}
+
+.character-equipment [data-equipment-slot="offhand"] {
+  grid-area: offhand;
+}
+
+.character-equipment [data-equipment-slot="helmet"] {
+  grid-area: helmet;
+}
+
+.character-equipment [data-equipment-slot="body"] {
+  grid-area: body;
+}
+
+.character-equipment [data-equipment-slot="gloves"] {
+  grid-area: gloves;
+}
+
+.character-equipment [data-equipment-slot="boots"] {
+  grid-area: boots;
+}
+
+.character-equipment [data-equipment-slot="amulet"] {
+  grid-area: amulet;
+}
+
+.character-equipment [data-equipment-slot="ring-1"] {
+  grid-area: ring1;
+}
+
+.character-equipment [data-equipment-slot="ring-2"] {
+  grid-area: ring2;
+}
+
+.character-equipment [data-equipment-slot="belt"] {
+  grid-area: belt;
+}
+
+.character-equipment [data-equipment-slot="jewel"] {
+  grid-area: jewel;
+}
+
+.equipment-slot-button {
+  display: grid;
+  gap: 4px;
+  width: 100%;
+  min-height: 72px;
+  padding: 8px;
+  border: 0;
+  border-radius: 6px;
+  background: rgba(24, 35, 56, 0.05);
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+}
+
+.equipment-slot-button span,
+.equipment-slot-button small {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.equipment-slot-button strong {
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .equipment-trade-link {
   display: inline-flex;
+  justify-content: center;
   align-items: center;
   min-height: 34px;
   padding: 7px 11px;
@@ -1044,11 +1162,12 @@ a {
   color: #fff;
   font-size: 13px;
   font-weight: 800;
+  text-decoration: none;
 }
 
 .passive-toolbar {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: 180px 180px minmax(260px, 1fr) auto;
   gap: 14px;
   align-items: end;
 }
@@ -1062,38 +1181,43 @@ a {
 
 .passive-workspace {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 280px;
+  grid-template-columns: minmax(0, 1fr) 320px;
   gap: 14px;
-  min-height: 520px;
+  min-height: 720px;
 }
 
 .passive-tree-surface {
   min-width: 0;
-  min-height: 520px;
+  min-height: 720px;
   overflow: hidden;
-  border: 1px solid rgba(108, 126, 157, 0.2);
+  border: 1px solid rgba(87, 98, 120, 0.42);
   border-radius: 8px;
   background:
-    linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)),
-    radial-gradient(circle at 25% 30%, rgba(52, 120, 246, 0.18), transparent 28%),
-    radial-gradient(circle at 75% 70%, rgba(194, 63, 17, 0.13), transparent 30%),
-    #eef3fa;
+    radial-gradient(circle at 50% 50%, rgba(242, 169, 59, 0.11), transparent 36%),
+    linear-gradient(180deg, #101827 0%, #151f31 48%, #111826 100%);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
 }
 
 #passive-tree-svg {
   display: block;
   width: 100%;
-  height: 520px;
+  height: 720px;
 }
 
 .passive-tree-edges line {
-  stroke: rgba(79, 98, 132, 0.18);
+  stroke: rgba(170, 185, 212, 0.16);
   stroke-width: 14;
   vector-effect: non-scaling-stroke;
 }
 
+.passive-tree-edges line.is-active {
+  stroke: rgba(242, 169, 59, 0.82);
+  stroke-width: 22;
+}
+
 .passive-tree-node {
-  stroke: rgba(255, 255, 255, 0.82);
+  opacity: 0.46;
+  stroke: rgba(220, 230, 247, 0.55);
   stroke-width: 14;
   cursor: pointer;
   transition:
@@ -1106,19 +1230,23 @@ a {
   fill: transparent;
   stroke: transparent;
   cursor: pointer;
+  pointer-events: all;
 }
 
 .passive-tree-node.is-supported {
-  opacity: 0.82;
+  opacity: 0.86;
 }
 
 .passive-tree-node.is-notable {
-  stroke: rgba(21, 31, 48, 0.65);
+  stroke: rgba(255, 255, 255, 0.86);
+  stroke-width: 22;
 }
 
 .passive-tree-node.is-active {
   fill: #f2a93b;
-  stroke: #182338;
+  opacity: 1;
+  stroke: #fff6dc;
+  stroke-width: 28;
 }
 
 .passive-sidebar {
@@ -1195,6 +1323,130 @@ a {
   font-size: 12px;
 }
 
+.search-layer {
+  position: fixed;
+  z-index: 80;
+  display: grid;
+  gap: 4px;
+  max-height: 340px;
+  overflow: auto;
+  padding: 6px;
+  border: 1px solid rgba(108, 126, 157, 0.22);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 18px 48px rgba(24, 35, 56, 0.2);
+}
+
+.search-layer[hidden] {
+  display: none;
+}
+
+.search-layer__item {
+  display: grid;
+  gap: 3px;
+  width: 100%;
+  min-height: 48px;
+  padding: 8px 10px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+}
+
+.search-layer__item:hover,
+.search-layer__item:focus {
+  background: rgba(52, 120, 246, 0.1);
+}
+
+.search-layer__item strong,
+.search-layer__item span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.search-layer__item strong {
+  font-size: 13px;
+}
+
+.search-layer__item span,
+.search-layer__empty {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.search-layer__empty {
+  padding: 10px;
+}
+
+.equipment-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+}
+
+.equipment-modal[hidden] {
+  display: none;
+}
+
+.equipment-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 16, 28, 0.48);
+  backdrop-filter: blur(8px);
+}
+
+.equipment-modal__panel {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 16px;
+  width: min(680px, 100%);
+  max-height: min(760px, calc(100vh - 36px));
+  overflow: auto;
+  padding: 20px;
+  border: 1px solid rgba(220, 226, 239, 0.94);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 30px 80px rgba(10, 16, 28, 0.34);
+}
+
+.equipment-modal__header,
+.equipment-modal__footer,
+.equipment-affix-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.equipment-modal__body,
+.equipment-affix-list {
+  display: grid;
+  gap: 12px;
+}
+
+.equipment-affix-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+}
+
+.equipment-affix-row input {
+  min-height: 42px;
+  padding: 10px 12px;
+  border: 1px solid rgba(108, 126, 157, 0.22);
+  border-radius: 8px;
+  background: rgba(247, 250, 255, 0.92);
+  color: var(--text);
+  font: inherit;
+}
+
 @media (max-width: 820px) {
   body {
     padding: 16px;
@@ -1241,8 +1493,17 @@ a {
   .result-grid,
   .skill-card,
   .passive-toolbar,
-  .passive-workspace {
+  .passive-workspace,
+  .character-equipment {
     grid-template-columns: 1fr;
+  }
+
+  .character-equipment {
+    grid-template-areas: none;
+  }
+
+  .character-equipment [data-equipment-slot] {
+    grid-area: auto;
   }
 
   .passive-workspace {

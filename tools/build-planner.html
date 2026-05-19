@@ -44,8 +44,6 @@
               <span>国际服联赛</span>
               <input id="planner-league" type="text" value="Fate of the Vaal" />
             </label>
-            <datalist id="skill-options"></datalist>
-            <datalist id="support-options"></datalist>
             <div id="skill-list" class="skill-list" aria-label="技能配置列表"></div>
           </section>
 
@@ -57,12 +55,12 @@
               </div>
               <p class="section-copy">每个装备槽都能选基底、词缀和手动数值；右侧按钮会把该装备参数带入国际服官方集市。</p>
             </div>
-            <datalist id="equipment-options"></datalist>
-            <datalist id="stat-options"></datalist>
-            <div id="equipment-slots" class="equipment-slots" aria-label="装备槽位"></div>
+            <div id="equipment-slots" class="equipment-slots equipment-slots--compact">
+              <div id="character-equipment" class="character-equipment" aria-label="人物装备槽位"></div>
+            </div>
           </section>
 
-          <section class="planner-panel planner-panel--setup" aria-labelledby="planner-tree-title">
+          <section class="planner-panel planner-panel--tree" aria-labelledby="planner-tree-title">
             <div class="panel__header">
               <div>
                 <p class="section-kicker">Passive Tree</p>
@@ -71,6 +69,14 @@
               <p class="section-copy">节点来自 poe.ninja 当前 PoE2 天赋树缓存；点击节点或列表项会立刻进入计算。</p>
             </div>
             <div class="passive-toolbar">
+              <label class="calc-field" for="passive-class">
+                <span>职业</span>
+                <select id="passive-class"></select>
+              </label>
+              <label class="calc-field" for="passive-ascendancy">
+                <span>升华</span>
+                <select id="passive-ascendancy"></select>
+              </label>
               <label class="calc-field" for="passive-search">
                 <span>搜索天赋节点</span>
                 <input id="passive-search" type="search" placeholder="暴击、法术、critical、spell damage..." />
@@ -138,6 +144,49 @@
       </main>
     </div>
 
-    <script type="module" src="./build-planner.mjs?v=2"></script>
+    <div id="skill-search-layer" class="search-layer" hidden></div>
+    <div id="support-search-layer" class="search-layer" hidden></div>
+    <div id="equipment-search-layer" class="search-layer" hidden></div>
+    <div id="affix-search-layer" class="search-layer" hidden></div>
+
+    <div id="equipment-modal" class="equipment-modal" role="dialog" aria-modal="true" aria-labelledby="equipment-modal-title" hidden>
+      <div class="equipment-modal__backdrop" data-close-equipment></div>
+      <section class="equipment-modal__panel">
+        <div class="equipment-modal__header">
+          <div>
+            <p class="section-kicker">Gear Edit</p>
+            <h2 id="equipment-modal-title">编辑装备</h2>
+          </div>
+          <button id="equipment-modal-close" class="planner-icon-button" type="button" aria-label="关闭">×</button>
+        </div>
+        <div class="equipment-modal__body">
+          <label class="calc-field" for="equipment-base-search">
+            <span>装备基底</span>
+            <input id="equipment-base-search" type="search" placeholder="输入中文或英文搜索基底" autocomplete="off" />
+          </label>
+          <div class="field-grid">
+            <label class="calc-field" for="equipment-increased-input">
+              <span>装备 increased %</span>
+              <input id="equipment-increased-input" type="number" step="1" value="0" />
+            </label>
+            <label class="calc-field" for="equipment-more-input">
+              <span>装备 more %</span>
+              <input id="equipment-more-input" type="number" step="1" value="0" />
+            </label>
+          </div>
+          <div class="equipment-affix-header">
+            <strong>词缀筛选</strong>
+            <button id="add-equipment-affix" class="planner-action" type="button">添加词缀</button>
+          </div>
+          <div id="equipment-affix-list" class="equipment-affix-list"></div>
+        </div>
+        <div class="equipment-modal__footer">
+          <a id="equipment-modal-trade" class="equipment-trade-link" href="https://www.pathofexile.com/trade2/search/poe2/Fate%20of%20the%20Vaal?q=" target="_blank" rel="noopener">打开国际服集市</a>
+          <button id="equipment-modal-save" class="planner-action" type="button">保存</button>
+        </div>
+      </section>
+    </div>
+
+    <script type="module" src="./build-planner.mjs?v=3"></script>
   </body>
 </html>

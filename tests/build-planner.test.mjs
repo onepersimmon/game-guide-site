@@ -243,11 +243,16 @@ test("build planner page exposes searchable clickable passive tree controls", ()
 
   assert.match(html, /id="skill-list"/);
   assert.match(html, /id="add-skill"/);
-  assert.match(html, /id="equipment-slots"/);
-  assert.match(html, /id="skill-options"/);
-  assert.match(html, /id="support-options"/);
+  assert.match(html, /id="character-equipment"/);
+  assert.match(html, /id="equipment-modal"/);
+  assert.match(html, /id="skill-search-layer"/);
+  assert.match(html, /id="support-search-layer"/);
+  assert.match(html, /id="passive-class"/);
+  assert.match(html, /id="passive-ascendancy"/);
   assert.match(html, /id="passive-search"/);
   assert.match(html, /id="passive-tree-svg"/);
   assert.match(html, /id="passive-node-list"/);
   assert.match(html, /id="passive-details"/);
+  assert.doesNotMatch(html, /<datalist id="skill-options"/);
+  assert.doesNotMatch(html, /<datalist id="support-options"/);
 });

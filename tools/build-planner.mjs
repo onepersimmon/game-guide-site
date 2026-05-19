@@ -386,6 +386,22 @@ function formatValue(value) {
   return Number.isFinite(value) ? value.toLocaleString("zh-CN", { maximumFractionDigits: 2 }) : "0";
 }
 
+function escapeHtml(value = "") {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+function getEntryLabel(entry = {}) {
+  return entry.label ?? entry.text ?? entry.type ?? entry.english ?? "";
+}
+
+function getEntryTradeText(entry = {}) {
+  return entry.tradeText ?? entry.english ?? entry.text ?? entry.type ?? getEntryLabel(entry);
+}
+
 async function loadJson(path) {
   const response = await fetch(path);
   if (!response.ok) {
@@ -395,7 +411,7 @@ async function loadJson(path) {
   return response.json();
 }
 
-function populateSelect(select, entries, placeholder) {
+function populateSelect(select, entries, placeholder, valueGetter = (entry) => entry.name ?? entry.text ?? "") {
   if (!select) {
     return;
   }
@@ -408,9 +424,117 @@ function populateSelect(select, entries, placeholder) {
 
   entries.forEach((entry) => {
     const option = document.createElement("option");
-    option.value = entry.text;
-    option.textContent = entry.text;
+    option.value = valueGetter(entry);
+    option.textContent = entry.name ?? entry.text ?? valueGetter(entry);
     select.append(option);
+  });
+}
+
+function matchSearchEntries(entries = [], query = "", limit = 32) {
+  const normalizedQuery = normalizeKey(query);
+  const normalizedEntries = entries.map((entry) => ({
+    entry,
+    label: getEntryLabel(entry),
+    haystack: entry.searchText || normalizeKey(`${getEntryLabel(entry)} ${entry.english ?? ""} ${entry.text ?? ""}`),
+  }));
+
+  return normalizedEntries
+    .filter(({ haystack }) => !normalizedQuery || haystack.includes(normalizedQuery))
+    .sort((a, b) => {
+      if (!normalizedQuery) {
+        return a.label.localeCompare(b.label, "zh-Hans-CN");
+      }
+
+      const aStarts = a.haystack.startsWith(normalizedQuery);
+      const bStarts = b.haystack.startsWith(normalizedQuery);
+      if (aStarts !== bStarts) {
+        return Number(bStarts) - Number(aStarts);
+      }
+
+      return a.label.length - b.label.length;
+    })
+    .slice(0, limit)
+    .map(({ entry }) => entry);
+}
+
+function setInputEntry(input, entry) {
+  input.value = getEntryLabel(entry);
+  input.dataset.tradeText = getEntryTradeText(entry);
+  input.dataset.entryId = entry.id ?? entry.type ?? entry.text ?? "";
+}
+
+function positionSearchLayer(layer, input) {
+  const rect = input.getBoundingClientRect();
+  layer.style.left = `${rect.left}px`;
+  layer.style.top = `${rect.bottom + 6}px`;
+  layer.style.width = `${Math.max(rect.width, 280)}px`;
+}
+
+function hideSearchLayer(layer) {
+  if (!layer) {
+    return;
+  }
+
+  layer.hidden = true;
+  layer.innerHTML = "";
+}
+
+function attachDynamicSearch(input, entries, layerId, onSelect, { emptyText = "没有匹配项" } = {}) {
+  const layer = document.getElementById(layerId);
+  if (!input || !layer) {
+    return;
+  }
+
+  let frame = 0;
+  const render = () => {
+    cancelAnimationFrame(frame);
+    frame = requestAnimationFrame(() => {
+      const matches = matchSearchEntries(entries, input.value, 36);
+      positionSearchLayer(layer, input);
+      layer.innerHTML = "";
+      layer.hidden = false;
+
+      if (matches.length === 0) {
+        const empty = document.createElement("div");
+        empty.className = "search-layer__empty";
+        empty.textContent = emptyText;
+        layer.append(empty);
+        return;
+      }
+
+      matches.forEach((entry) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "search-layer__item";
+        button.innerHTML = `
+          <strong>${escapeHtml(getEntryLabel(entry))}</strong>
+          <span>${escapeHtml(entry.chinese && entry.english ? entry.english : getEntryTradeText(entry))}</span>
+        `;
+        button.addEventListener("mousedown", (event) => {
+          event.preventDefault();
+          setInputEntry(input, entry);
+          hideSearchLayer(layer);
+          onSelect?.(entry);
+          input.dispatchEvent(new Event("input", { bubbles: true }));
+          input.dispatchEvent(new Event("change", { bubbles: true }));
+        });
+        layer.append(button);
+      });
+    });
+  };
+
+  input.addEventListener("input", render);
+  input.addEventListener("focus", render);
+  input.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      hideSearchLayer(layer);
+    }
+  });
+  window.addEventListener("resize", () => hideSearchLayer(layer));
+  document.addEventListener("mousedown", (event) => {
+    if (event.target !== input && !layer.contains(event.target)) {
+      hideSearchLayer(layer);
+    }
   });
 }
 
@@ -461,6 +585,10 @@ function updatePassiveActiveState(passiveNodes) {
 
   document.querySelectorAll("[data-passive-id]").forEach((element) => {
     element.classList.toggle("is-active", activeIds.has(element.dataset.passiveId));
+  });
+  document.querySelectorAll("[data-passive-edge]").forEach((element) => {
+    const [from, to] = element.dataset.passiveEdge.split(":");
+    element.classList.toggle("is-active", activeIds.has(from) && activeIds.has(to));
   });
 }
 
@@ -552,6 +680,8 @@ function renderPassiveTreeSvg(tree, passiveNodes, onToggle) {
           y1: node.y,
           x2: target.x,
           y2: target.y,
+          "data-passive-edge": `${node.id}:${target.id}`,
+          class: activeIds.has(node.id) && activeIds.has(target.id) ? "is-active" : "",
         }),
       );
     });
@@ -559,6 +689,14 @@ function renderPassiveTreeSvg(tree, passiveNodes, onToggle) {
 
   tree.nodes.forEach((node) => {
     const supported = hasSupportedPassiveModifiers(node);
+    const handleNodePick = () => onToggle(node);
+    const handleNodeKeydown = (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        onToggle(node);
+      }
+    };
+    const handleNodeHover = () => renderPassiveDetails(node, activeIds.has(node.id));
     const hitTarget = createSvgElement("circle", {
       cx: node.x,
       cy: node.y,
@@ -591,19 +729,17 @@ function renderPassiveTreeSvg(tree, passiveNodes, onToggle) {
     const title = createSvgElement("title");
     title.textContent = `${node.label ?? node.name} - ${node.statsTextCn || node.statsText}`;
     hitTarget.append(title);
-    hitTarget.addEventListener("click", () => onToggle(node));
-    hitTarget.addEventListener("keydown", (event) => {
-      if (event.key === "Enter" || event.key === " ") {
-        event.preventDefault();
-        onToggle(node);
-      }
-    });
-    hitTarget.addEventListener("mouseenter", () => renderPassiveDetails(node, activeIds.has(node.id)));
+    hitTarget.addEventListener("click", handleNodePick);
+    hitTarget.addEventListener("keydown", handleNodeKeydown);
+    hitTarget.addEventListener("mouseenter", handleNodeHover);
     circle.setAttribute("fill", node.color ?? "#6c7e9d");
     circle.append(createSvgElement("title"));
     circle.querySelector("title").textContent = title.textContent;
-    nodes.append(hitTarget);
+    circle.addEventListener("click", handleNodePick);
+    circle.addEventListener("keydown", handleNodeKeydown);
+    circle.addEventListener("mouseenter", handleNodeHover);
     nodes.append(circle);
+    nodes.append(hitTarget);
   });
 
   fragment.append(edges, nodes);
@@ -644,34 +780,44 @@ function resetPassiveTreeView() {
   setPassiveViewBox(svg, svg.__currentViewBox);
 }
 
-const EQUIPMENT_SLOTS = [
-  { id: "weapon", label: "武器" },
-  { id: "offhand", label: "副手" },
-  { id: "helmet", label: "头盔" },
-  { id: "body", label: "胸甲" },
-  { id: "gloves", label: "手套" },
-  { id: "boots", label: "鞋子" },
-  { id: "amulet", label: "项链" },
-  { id: "ring-1", label: "戒指 1" },
-  { id: "ring-2", label: "戒指 2" },
-  { id: "belt", label: "腰带" },
-  { id: "jewel", label: "天赋珠宝" },
-];
-
-function renderDatalist(id, entries = []) {
-  const datalist = document.getElementById(id);
-  if (!datalist) {
+function focusPassiveTreeNode(node, scale = 0.34) {
+  const svg = document.getElementById("passive-tree-svg");
+  if (!svg?.__baseViewBox || !node) {
     return;
   }
 
-  datalist.innerHTML = "";
-  entries.forEach((entry) => {
-    const option = document.createElement("option");
-    option.value = entry.label ?? entry.text;
-    option.label = entry.chinese && entry.english ? entry.english : "";
-    datalist.append(option);
-  });
+  const base = svg.__baseViewBox;
+  const width = Math.max(1400, base.width * scale);
+  const height = Math.max(900, base.height * scale);
+  svg.__currentViewBox = {
+    x: node.x - width / 2,
+    y: node.y - height / 2,
+    width,
+    height,
+  };
+  setPassiveViewBox(svg, svg.__currentViewBox);
 }
+
+function getAscendancyNames(tree, selectedClassName = "") {
+  const classEntry = (tree.classes ?? []).find((entry) => entry.name === selectedClassName);
+  const fromClass = (classEntry?.ascendancies ?? []).map((entry) => entry.name).filter(Boolean);
+  const fromNodes = [...new Set(tree.nodes.map((node) => node.ascendancyName).filter(Boolean))];
+  return fromClass.length > 0 ? fromClass : fromNodes;
+}
+
+const EQUIPMENT_SLOTS = [
+  { id: "weapon", label: "武器", area: "weapon" },
+  { id: "offhand", label: "副手", area: "weapon" },
+  { id: "helmet", label: "头盔", area: "armour" },
+  { id: "body", label: "胸甲", area: "armour" },
+  { id: "gloves", label: "手套", area: "armour" },
+  { id: "boots", label: "鞋子", area: "armour" },
+  { id: "amulet", label: "项链", area: "accessory" },
+  { id: "ring-1", label: "戒指 1", area: "accessory" },
+  { id: "ring-2", label: "戒指 2", area: "accessory" },
+  { id: "belt", label: "腰带", area: "accessory" },
+  { id: "jewel", label: "天赋珠宝", area: "jewel" },
+];
 
 function findEntryByInput(entries = [], value = "") {
   const query = normalizeKey(value);
@@ -687,7 +833,7 @@ function createSkillCard(id, catalog, values = {}) {
       <div class="field-grid">
         <label class="calc-field">
           <span>主动技能宝石</span>
-          <input class="skill-name" list="skill-options" value="${values.name ?? ""}" placeholder="输入中文或英文搜索技能" />
+          <input class="skill-name" type="search" value="${escapeHtml(values.name ?? "")}" placeholder="输入中文或英文搜索技能" autocomplete="off" />
         </label>
         <label class="calc-field">
           <span>技能等级</span>
@@ -695,7 +841,7 @@ function createSkillCard(id, catalog, values = {}) {
         </label>
         <label class="calc-field">
           <span>辅助宝石</span>
-          <input class="support-gem" list="support-options" value="${values.support ?? ""}" placeholder="输入中文或英文搜索辅助" />
+          <input class="support-gem" type="search" value="${escapeHtml(values.support ?? "")}" placeholder="输入中文或英文搜索辅助" autocomplete="off" />
         </label>
         <label class="calc-field">
           <span>辅助 more %</span>
@@ -753,74 +899,111 @@ function createSkillCard(id, catalog, values = {}) {
   return card;
 }
 
-function renderEquipmentSlots(equipmentBases = []) {
-  const target = document.getElementById("equipment-slots");
+function wireSkillCardSearch(card, catalog) {
+  attachDynamicSearch(card.querySelector(".skill-name"), catalog.skillGems, "skill-search-layer");
+  attachDynamicSearch(card.querySelector(".support-gem"), catalog.supportGems, "support-search-layer");
+}
+
+function createInitialEquipmentState() {
+  return EQUIPMENT_SLOTS.map((slot) => ({
+    ...slot,
+    base: "",
+    baseTradeText: "",
+    affixes: [],
+    increased: slot.id === "weapon" ? 80 : 0,
+    more: 0,
+  }));
+}
+
+function getEquipmentRows(equipmentState = []) {
+  return equipmentState.map((item) => ({
+    slot: item.id,
+    label: item.label,
+    base: item.base,
+    itemType: item.baseTradeText || item.base,
+    stat: item.affixes.map((affix) => affix.tradeText || affix.text).filter(Boolean).join(", "),
+    affixes: item.affixes,
+    increased: toNumber(item.increased),
+    more: toNumber(item.more),
+  }));
+}
+
+function buildEquipmentTradeUrl(item, league = DEFAULT_LEAGUE) {
+  return buildInternationalTradeUrl({
+    league,
+    itemType: item.baseTradeText || item.base,
+    keywords: item.affixes.map((affix) => affix.tradeText || affix.text).filter(Boolean).join(", "),
+  });
+}
+
+function renderCharacterEquipment(equipmentState, league, onOpenSlot) {
+  const target = document.getElementById("character-equipment");
   if (!target) {
     return;
   }
 
   target.innerHTML = "";
-  EQUIPMENT_SLOTS.forEach((slot) => {
+  equipmentState.forEach((slot) => {
     const card = document.createElement("article");
-    card.className = "equipment-card";
+    card.className = ["equipment-card", slot.base || slot.affixes.length > 0 ? "is-filled" : ""].filter(Boolean).join(" ");
     card.dataset.equipmentSlot = slot.id;
+    const affixSummary = slot.affixes.length > 0 ? `${slot.affixes.length} 条词缀` : "点击编辑";
     card.innerHTML = `
-      <div class="equipment-card__header">
-        <strong>${slot.label}</strong>
-        <a class="equipment-trade-link" href="${buildInternationalTradeUrl()}" target="_blank" rel="noopener">集市</a>
-      </div>
-      <div class="field-grid">
-        <label class="calc-field">
-          <span>装备基底</span>
-          <input class="equipment-base" list="equipment-options" placeholder="搜索基底" />
-        </label>
-        <label class="calc-field">
-          <span>词缀筛选</span>
-          <input class="equipment-stat" list="stat-options" placeholder="搜索词缀" />
-        </label>
-        <label class="calc-field">
-          <span>装备 increased %</span>
-          <input class="equipment-increased" type="number" step="1" value="${slot.id === "weapon" ? 80 : 0}" />
-        </label>
-        <label class="calc-field">
-          <span>装备 more %</span>
-          <input class="equipment-more" type="number" step="1" value="0" />
-        </label>
-      </div>
+      <button class="equipment-slot-button" type="button">
+        <span>${escapeHtml(slot.label)}</span>
+        <strong>${escapeHtml(slot.base || "未选择基底")}</strong>
+        <small>${escapeHtml(affixSummary)}</small>
+      </button>
+      <a class="equipment-trade-link" href="${buildEquipmentTradeUrl(slot, league)}" target="_blank" rel="noopener">集市</a>
     `;
+    card.querySelector(".equipment-slot-button")?.addEventListener("click", () => onOpenSlot(slot.id));
     target.append(card);
   });
 }
 
-function getEquipmentRows(form) {
-  return [...form.querySelectorAll("[data-equipment-slot]")].map((card) => ({
-    slot: card.dataset.equipmentSlot,
-    base: card.querySelector(".equipment-base")?.value ?? "",
-    stat: card.querySelector(".equipment-stat")?.value ?? "",
-    increased: toNumber(card.querySelector(".equipment-increased")?.value),
-    more: toNumber(card.querySelector(".equipment-more")?.value),
-    link: card.querySelector(".equipment-trade-link"),
-  }));
+function createAffixRow(affix = {}) {
+  const row = document.createElement("div");
+  row.className = "equipment-affix-row";
+  row.dataset.affixId = affix.id ?? crypto.randomUUID();
+  row.innerHTML = `
+    <input class="equipment-affix-input" type="search" value="${escapeHtml(affix.text ?? "")}" placeholder="搜索装备词缀" autocomplete="off" />
+    <button class="planner-icon-button remove-equipment-affix" type="button" aria-label="删除词缀">×</button>
+  `;
+  row.querySelector(".equipment-affix-input").dataset.tradeText = affix.tradeText ?? "";
+  return row;
 }
 
-function renderEquipmentTradeLinks(form) {
-  const league = form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE;
-
-  getEquipmentRows(form).forEach((row) => {
-    const url = buildInternationalTradeUrl({
-      league,
-      itemType: row.base,
-      keywords: row.stat,
-    });
-    if (row.link) {
-      row.link.href = url;
-      row.link.title = url;
-    }
-  });
+function readEquipmentModalAffixes() {
+  return [...document.querySelectorAll(".equipment-affix-row")].map((row) => {
+    const input = row.querySelector(".equipment-affix-input");
+    return {
+      id: row.dataset.affixId,
+      text: input?.value ?? "",
+      tradeText: input?.dataset.tradeText || input?.value || "",
+    };
+  }).filter((affix) => affix.text);
 }
 
-function readPlannerState(form, catalog, passiveNodes) {
-  const gearRows = getEquipmentRows(form);
+function updateEquipmentModalTrade(slot, league) {
+  const link = document.getElementById("equipment-modal-trade");
+  const baseInput = document.getElementById("equipment-base-search");
+  if (!link || !slot) {
+    return;
+  }
+
+  const preview = {
+    ...slot,
+    base: baseInput?.value ?? slot.base,
+    baseTradeText: baseInput?.dataset.tradeText || baseInput?.value || slot.baseTradeText,
+    affixes: readEquipmentModalAffixes(),
+  };
+  const url = buildEquipmentTradeUrl(preview, league);
+  link.href = url;
+  link.title = url;
+}
+
+function readPlannerState(form, catalog, passiveNodes, equipmentState) {
+  const gearRows = getEquipmentRows(equipmentState);
   const gearIncreased = gearRows.reduce((sum, row) => sum + row.increased, 0);
   const gearMore = gearRows.map((row) => row.more).filter((value) => value !== 0);
   const skills = [...form.querySelectorAll("[data-skill-row]")].map((card, index) => {
@@ -859,7 +1042,7 @@ function readPlannerState(form, catalog, passiveNodes) {
   };
 }
 
-function renderPlannerResult(result, form) {
+function renderPlannerResult(result, form, equipmentState) {
   const firstSkill = result.skills[0] ?? {};
   const entries = {
     "planner-average-hit": result.totalAverageHit,
@@ -868,7 +1051,7 @@ function renderPlannerResult(result, form) {
     "planner-more-multiplier": `${formatValue(firstSkill.moreMultiplier ?? 1)}x`,
     "planner-increased-multiplier": `${formatValue(firstSkill.increasedMultiplier ?? 1)}x`,
     "planner-passives": result.passiveNodeCount,
-    "planner-equipment-count": getEquipmentRows(form).filter((row) => row.base || row.stat || row.increased || row.more).length,
+    "planner-equipment-count": getEquipmentRows(equipmentState).filter((row) => row.base || row.stat || row.increased || row.more).length,
   };
 
   Object.entries(entries).forEach(([id, value]) => {
@@ -948,24 +1131,20 @@ async function initBuildPlanner() {
   ];
   let passiveNodes = [];
   let selectedPassiveNode = passiveTree.nodes.find(hasSupportedPassiveModifiers) ?? passiveTree.nodes[0];
-
-  renderDatalist("skill-options", catalog.skillGems);
-  renderDatalist("support-options", catalog.supportGems);
-  renderDatalist("equipment-options", equipmentBases.map((entry) => ({ ...entry, label: entry.text, english: entry.text })));
-  renderDatalist("stat-options", catalog.itemStats.slice(0, 900));
-  renderEquipmentSlots(equipmentBases);
+  let equipmentState = createInitialEquipmentState();
+  let editingEquipmentSlot = equipmentState[0]?.id ?? "";
 
   const skillList = document.getElementById("skill-list");
   const firstSkill = catalog.skillGems.find((entry) => entry.english === "Lightning Arrow") ?? catalog.skillGems[0];
   if (skillList) {
-    skillList.append(
-      createSkillCard("skill-1", catalog, {
-        name: firstSkill?.label ?? "",
-        level: 20,
-        baseHit: 1000,
-        hitsPerSecond: 2,
-      }),
-    );
+    const firstCard = createSkillCard("skill-1", catalog, {
+      name: firstSkill?.label ?? "",
+      level: 20,
+      baseHit: 1000,
+      hitsPerSecond: 2,
+    });
+    skillList.append(firstCard);
+    wireSkillCardSearch(firstCard, catalog);
   }
 
   const status = document.getElementById("planner-status");
@@ -978,10 +1157,25 @@ async function initBuildPlanner() {
     treeSource.textContent = `${passiveTreePayload.version ?? "PassiveTree"} / ${passiveTreePayload.league ?? DEFAULT_LEAGUE} / ${passiveTree.nodes.length} nodes`;
   }
 
+  const classSelect = document.getElementById("passive-class");
+  const ascendancySelect = document.getElementById("passive-ascendancy");
+  populateSelect(classSelect, passiveTree.classes ?? [], "选择职业", (entry) => entry.name);
+
+  const refreshAscendancies = () => {
+    populateSelect(
+      ascendancySelect,
+      getAscendancyNames(passiveTree, classSelect?.value ?? "").map((name) => ({ name })),
+      "选择升华",
+      (entry) => entry.name,
+    );
+  };
+  refreshAscendancies();
+
   const update = () => {
-    const state = readPlannerState(form, catalog, passiveNodes);
-    renderPlannerResult(calculateBuildDamage(state), form);
-    renderEquipmentTradeLinks(form);
+    const league = form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE;
+    const state = readPlannerState(form, catalog, passiveNodes, equipmentState);
+    renderPlannerResult(calculateBuildDamage(state), form, equipmentState);
+    renderCharacterEquipment(equipmentState, league, openEquipmentModal);
     updatePassiveActiveState(passiveNodes);
     if (selectedPassiveNode) {
       renderPassiveDetails(
@@ -990,6 +1184,91 @@ async function initBuildPlanner() {
       );
     }
   };
+
+  function wireAffixRow(row) {
+    const input = row.querySelector(".equipment-affix-input");
+    attachDynamicSearch(input, catalog.itemStats, "affix-search-layer", () => {
+      const slot = equipmentState.find((item) => item.id === editingEquipmentSlot);
+      updateEquipmentModalTrade(slot, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE);
+    });
+    input?.addEventListener("input", () => {
+      if (input.value !== input.dataset.lastValue) {
+        input.dataset.tradeText = input.dataset.tradeText || input.value;
+      }
+      const slot = equipmentState.find((item) => item.id === editingEquipmentSlot);
+      updateEquipmentModalTrade(slot, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE);
+    });
+    row.querySelector(".remove-equipment-affix")?.addEventListener("click", () => {
+      row.remove();
+      const slot = equipmentState.find((item) => item.id === editingEquipmentSlot);
+      updateEquipmentModalTrade(slot, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE);
+    });
+  }
+
+  function addAffixRow(affix = {}) {
+    const list = document.getElementById("equipment-affix-list");
+    if (!list) {
+      return;
+    }
+
+    const row = createAffixRow(affix);
+    list.append(row);
+    wireAffixRow(row);
+  }
+
+  function openEquipmentModal(slotId) {
+    const modal = document.getElementById("equipment-modal");
+    const title = document.getElementById("equipment-modal-title");
+    const baseInput = document.getElementById("equipment-base-search");
+    const increasedInput = document.getElementById("equipment-increased-input");
+    const moreInput = document.getElementById("equipment-more-input");
+    const affixList = document.getElementById("equipment-affix-list");
+    const slot = equipmentState.find((item) => item.id === slotId);
+    if (!modal || !slot || !baseInput || !affixList) {
+      return;
+    }
+
+    editingEquipmentSlot = slotId;
+    title.textContent = `编辑${slot.label}`;
+    baseInput.value = slot.base;
+    baseInput.dataset.tradeText = slot.baseTradeText;
+    increasedInput.value = slot.increased;
+    moreInput.value = slot.more;
+    affixList.innerHTML = "";
+    (slot.affixes.length > 0 ? slot.affixes : [{ id: crypto.randomUUID(), text: "", tradeText: "" }]).forEach(addAffixRow);
+    updateEquipmentModalTrade(slot, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE);
+    modal.hidden = false;
+    baseInput.focus();
+  }
+
+  function closeEquipmentModal() {
+    const modal = document.getElementById("equipment-modal");
+    if (modal) {
+      modal.hidden = true;
+    }
+  }
+
+  function saveEquipmentModal() {
+    const baseInput = document.getElementById("equipment-base-search");
+    const increasedInput = document.getElementById("equipment-increased-input");
+    const moreInput = document.getElementById("equipment-more-input");
+    equipmentState = equipmentState.map((item) => {
+      if (item.id !== editingEquipmentSlot) {
+        return item;
+      }
+
+      return {
+        ...item,
+        base: baseInput?.value ?? "",
+        baseTradeText: baseInput?.dataset.tradeText || baseInput?.value || "",
+        increased: toNumber(increasedInput?.value),
+        more: toNumber(moreInput?.value),
+        affixes: readEquipmentModalAffixes(),
+      };
+    });
+    closeEquipmentModal();
+    update();
+  }
 
   const toggleTreeNode = (node) => {
     selectedPassiveNode = node;
@@ -1002,18 +1281,65 @@ async function initBuildPlanner() {
   renderPassiveTreeSvg(passiveTree, passiveNodes, toggleTreeNode);
   renderPassiveNodeList(passiveTree, passiveNodes, toggleTreeNode);
   renderPassiveDetails(selectedPassiveNode, false);
+  renderCharacterEquipment(equipmentState, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE, openEquipmentModal);
 
   document.getElementById("passive-search")?.addEventListener("input", () => {
     renderPassiveNodeList(passiveTree, passiveNodes, toggleTreeNode);
+  });
+  classSelect?.addEventListener("change", () => {
+    refreshAscendancies();
+    const classEntry = passiveTree.classes.find((entry) => entry.name === classSelect.value);
+    const startNode = passiveTree.nodes.find((node) => node.id === String(classEntry?.startingNode));
+    if (startNode) {
+      selectedPassiveNode = startNode;
+      renderPassiveDetails(startNode, passiveNodes.some((node) => node.id === startNode.id));
+      focusPassiveTreeNode(startNode, 0.24);
+    }
+  });
+  ascendancySelect?.addEventListener("change", () => {
+    const match = passiveTree.nodes.find((node) => node.ascendancyName === ascendancySelect.value);
+    if (match) {
+      selectedPassiveNode = match;
+      renderPassiveDetails(match, passiveNodes.some((node) => node.id === match.id));
+      focusPassiveTreeNode(match, 0.18);
+    }
   });
   document.getElementById("passive-zoom-in")?.addEventListener("click", () => zoomPassiveTree(0.72));
   document.getElementById("passive-zoom-out")?.addEventListener("click", () => zoomPassiveTree(1.28));
   document.getElementById("passive-reset-view")?.addEventListener("click", resetPassiveTreeView);
   document.getElementById("add-skill")?.addEventListener("click", () => {
     const count = document.querySelectorAll("[data-skill-row]").length + 1;
-    skillList?.append(createSkillCard(`skill-${count}`, catalog, { name: catalog.skillGems[count - 1]?.label ?? "" }));
+    const card = createSkillCard(`skill-${count}`, catalog, { name: catalog.skillGems[count - 1]?.label ?? "" });
+    skillList?.append(card);
+    wireSkillCardSearch(card, catalog);
     update();
   });
+  attachDynamicSearch(document.getElementById("equipment-base-search"), equipmentBases.map((entry) => ({
+    ...entry,
+    label: entry.text,
+    english: entry.text,
+    tradeText: entry.text,
+    searchText: normalizeKey(entry.text),
+  })), "equipment-search-layer", () => {
+    const slot = equipmentState.find((item) => item.id === editingEquipmentSlot);
+    updateEquipmentModalTrade(slot, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE);
+  });
+  document.getElementById("equipment-base-search")?.addEventListener("input", () => {
+    const slot = equipmentState.find((item) => item.id === editingEquipmentSlot);
+    updateEquipmentModalTrade(slot, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE);
+  });
+  document.getElementById("equipment-increased-input")?.addEventListener("input", () => {
+    const slot = equipmentState.find((item) => item.id === editingEquipmentSlot);
+    updateEquipmentModalTrade(slot, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE);
+  });
+  document.getElementById("equipment-more-input")?.addEventListener("input", () => {
+    const slot = equipmentState.find((item) => item.id === editingEquipmentSlot);
+    updateEquipmentModalTrade(slot, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE);
+  });
+  document.getElementById("add-equipment-affix")?.addEventListener("click", () => addAffixRow());
+  document.getElementById("equipment-modal-save")?.addEventListener("click", saveEquipmentModal);
+  document.getElementById("equipment-modal-close")?.addEventListener("click", closeEquipmentModal);
+  document.querySelector("[data-close-equipment]")?.addEventListener("click", closeEquipmentModal);
   document.addEventListener("planner:update", update);
 
   form.addEventListener("input", update);
