@@ -928,12 +928,7 @@ a {
 }
 
 .planner-panel--result {
-  grid-row: 1 / span 2;
-}
-
-.planner-panel--trade {
-  grid-column: 2;
-  grid-row: 3;
+  grid-row: 1;
 }
 
 .calc-field select {
@@ -953,11 +948,116 @@ a {
   box-shadow: 0 0 0 4px rgba(52, 120, 246, 0.1);
 }
 
+.planner-action {
+  min-height: 38px;
+  padding: 8px 12px;
+  border: 1px solid rgba(52, 120, 246, 0.28);
+  border-radius: 8px;
+  background: rgba(232, 240, 255, 0.88);
+  color: var(--blue);
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.skill-list,
+.equipment-slots {
+  display: grid;
+  gap: 12px;
+}
+
+.skill-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 190px;
+  gap: 14px;
+  padding: 14px;
+  border: 1px solid rgba(108, 126, 157, 0.2);
+  border-radius: 8px;
+  background: rgba(247, 250, 255, 0.72);
+}
+
+.skill-card__main {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+}
+
+.skill-card__damage {
+  display: grid;
+  align-content: start;
+  gap: 6px;
+  min-width: 0;
+  padding: 14px;
+  border-radius: 8px;
+  background: #182338;
+  color: #fff;
+}
+
+.skill-card__damage strong {
+  font-size: 30px;
+  line-height: 1;
+}
+
+.skill-card__damage span,
+.skill-card__damage p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 12px;
+}
+
+.skill-card__damage b {
+  color: #fff;
+}
+
+.remove-skill {
+  justify-self: start;
+  margin-top: 6px;
+  border: 0;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.78);
+  cursor: pointer;
+}
+
+.equipment-card {
+  display: grid;
+  gap: 12px;
+  padding: 14px;
+  border: 1px solid rgba(108, 126, 157, 0.2);
+  border-radius: 8px;
+  background: rgba(247, 250, 255, 0.72);
+}
+
+.equipment-card__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.equipment-trade-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 7px 11px;
+  border-radius: 8px;
+  background: var(--text);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 800;
+}
+
 .passive-toolbar {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 14px;
   align-items: end;
+}
+
+.passive-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
 }
 
 .passive-workspace {
@@ -993,7 +1093,6 @@ a {
 }
 
 .passive-tree-node {
-  fill: rgba(90, 108, 139, 0.34);
   stroke: rgba(255, 255, 255, 0.82);
   stroke-width: 14;
   cursor: pointer;
@@ -1003,8 +1102,14 @@ a {
     opacity 160ms ease;
 }
 
+.passive-tree-hit-target {
+  fill: transparent;
+  stroke: transparent;
+  cursor: pointer;
+}
+
 .passive-tree-node.is-supported {
-  fill: rgba(52, 120, 246, 0.58);
+  opacity: 0.82;
 }
 
 .passive-tree-node.is-notable {
@@ -1134,6 +1239,7 @@ a {
   .planner-layout,
   .field-grid,
   .result-grid,
+  .skill-card,
   .passive-toolbar,
   .passive-workspace {
     grid-template-columns: 1fr;

@@ -1,0 +1,5476 @@
+{
+  "updatedAt": "2026-05-19T09:58:16.980Z",
+  "source": [
+    "https://poe2db.tw/cn/Skill_Gems",
+    "https://poe2db.tw/cn/Support_Gems"
+  ],
+  "entries": [
+    {
+      "type": "skill",
+      "slug": "Herald_of_Ash",
+      "english": "Herald of Ash",
+      "chinese": "灰烬之捷",
+      "poe2db": "https://poe2db.tw/cn/Herald_of_Ash"
+    },
+    {
+      "type": "skill",
+      "slug": "Boneshatter",
+      "english": "Boneshatter",
+      "chinese": "七伤破",
+      "poe2db": "https://poe2db.tw/cn/Boneshatter"
+    },
+    {
+      "type": "skill",
+      "slug": "Earthquake",
+      "english": "Earthquake",
+      "chinese": "震地",
+      "poe2db": "https://poe2db.tw/cn/Earthquake"
+    },
+    {
+      "type": "skill",
+      "slug": "Rolling_Slam",
+      "english": "Rolling Slam",
+      "chinese": "轰动猛击",
+      "poe2db": "https://poe2db.tw/cn/Rolling_Slam"
+    },
+    {
+      "type": "skill",
+      "slug": "Armour_Breaker",
+      "english": "Armour Breaker",
+      "chinese": "摧甲重击",
+      "poe2db": "https://poe2db.tw/cn/Armour_Breaker"
+    },
+    {
+      "type": "skill",
+      "slug": "Infernal_Cry",
+      "english": "Infernal Cry",
+      "chinese": "炽焰战吼",
+      "poe2db": "https://poe2db.tw/cn/Infernal_Cry"
+    },
+    {
+      "type": "skill",
+      "slug": "Shield_Charge",
+      "english": "Shield Charge",
+      "chinese": "重盾冲锋",
+      "poe2db": "https://poe2db.tw/cn/Shield_Charge"
+    },
+    {
+      "type": "skill",
+      "slug": "Shockwave_Totem",
+      "english": "Shockwave Totem",
+      "chinese": "震波图腾",
+      "poe2db": "https://poe2db.tw/cn/Shockwave_Totem"
+    },
+    {
+      "type": "skill",
+      "slug": "Iron_Ward",
+      "english": "Iron Ward",
+      "chinese": "钢铁看守",
+      "poe2db": "https://poe2db.tw/cn/Iron_Ward"
+    },
+    {
+      "type": "skill",
+      "slug": "Magma_Barrier",
+      "english": "Magma Barrier",
+      "chinese": "岩浆屏障",
+      "poe2db": "https://poe2db.tw/cn/Magma_Barrier"
+    },
+    {
+      "type": "skill",
+      "slug": "Scavenged_Plating",
+      "english": "Scavenged Plating",
+      "chinese": "装甲回收",
+      "poe2db": "https://poe2db.tw/cn/Scavenged_Plating"
+    },
+    {
+      "type": "skill",
+      "slug": "Molten_Blast",
+      "english": "Molten Blast",
+      "chinese": "熔岩爆裂",
+      "poe2db": "https://poe2db.tw/cn/Molten_Blast"
+    },
+    {
+      "type": "skill",
+      "slug": "Perfect_Strike",
+      "english": "Perfect Strike",
+      "chinese": "完美一击",
+      "poe2db": "https://poe2db.tw/cn/Perfect_Strike"
+    },
+    {
+      "type": "skill",
+      "slug": "Resonating_Shield",
+      "english": "Resonating Shield",
+      "chinese": "共振护盾",
+      "poe2db": "https://poe2db.tw/cn/Resonating_Shield"
+    },
+    {
+      "type": "skill",
+      "slug": "Earthshatter",
+      "english": "Earthshatter",
+      "chinese": "尖刺战吼",
+      "poe2db": "https://poe2db.tw/cn/Earthshatter"
+    },
+    {
+      "type": "skill",
+      "slug": "Leap_Slam",
+      "english": "Leap Slam",
+      "chinese": "跃击",
+      "poe2db": "https://poe2db.tw/cn/Leap_Slam"
+    },
+    {
+      "type": "skill",
+      "slug": "Shield_Wall",
+      "english": "Shield Wall",
+      "chinese": "盾墙",
+      "poe2db": "https://poe2db.tw/cn/Shield_Wall"
+    },
+    {
+      "type": "skill",
+      "slug": "Volcanic_Fissure",
+      "english": "Volcanic Fissure",
+      "chinese": "火山裂缝",
+      "poe2db": "https://poe2db.tw/cn/Volcanic_Fissure"
+    },
+    {
+      "type": "skill",
+      "slug": "Overwhelming_Presence",
+      "english": "Overwhelming Presence",
+      "chinese": "压迫气场",
+      "poe2db": "https://poe2db.tw/cn/Overwhelming_Presence"
+    },
+    {
+      "type": "skill",
+      "slug": "Time_of_Need",
+      "english": "Time of Need",
+      "chinese": "紧急时刻",
+      "poe2db": "https://poe2db.tw/cn/Time_of_Need"
+    },
+    {
+      "type": "skill",
+      "slug": "Forge_Hammer",
+      "english": "Forge Hammer",
+      "chinese": "锻造之锤",
+      "poe2db": "https://poe2db.tw/cn/Forge_Hammer"
+    },
+    {
+      "type": "skill",
+      "slug": "Fortifying_Cry",
+      "english": "Fortifying Cry",
+      "chinese": "坚韧战吼",
+      "poe2db": "https://poe2db.tw/cn/Fortifying_Cry"
+    },
+    {
+      "type": "skill",
+      "slug": "Sunder",
+      "english": "Sunder",
+      "chinese": "大地震击",
+      "poe2db": "https://poe2db.tw/cn/Sunder"
+    },
+    {
+      "type": "skill",
+      "slug": "Seismic_Cry",
+      "english": "Seismic Cry",
+      "chinese": "震地战吼",
+      "poe2db": "https://poe2db.tw/cn/Seismic_Cry"
+    },
+    {
+      "type": "skill",
+      "slug": "Stampede",
+      "english": "Stampede",
+      "chinese": "溃败",
+      "poe2db": "https://poe2db.tw/cn/Stampede"
+    },
+    {
+      "type": "skill",
+      "slug": "Supercharged_Slam",
+      "english": "Supercharged Slam",
+      "chinese": "蓄威神锤",
+      "poe2db": "https://poe2db.tw/cn/Supercharged_Slam"
+    },
+    {
+      "type": "skill",
+      "slug": "Ancestral_Cry",
+      "english": "Ancestral Cry",
+      "chinese": "先祖战吼",
+      "poe2db": "https://poe2db.tw/cn/Ancestral_Cry"
+    },
+    {
+      "type": "skill",
+      "slug": "Ancestral_Warrior_Totem",
+      "english": "Ancestral Warrior Totem",
+      "chinese": "先祖战士图腾",
+      "poe2db": "https://poe2db.tw/cn/Ancestral_Warrior_Totem"
+    },
+    {
+      "type": "skill",
+      "slug": "Hammer_of_the_Gods",
+      "english": "Hammer of the Gods",
+      "chinese": "诸天之锤",
+      "poe2db": "https://poe2db.tw/cn/Hammer_of_the_Gods"
+    },
+    {
+      "type": "skill",
+      "slug": "Berserk",
+      "english": "Berserk",
+      "chinese": "盛怒",
+      "poe2db": "https://poe2db.tw/cn/Berserk"
+    },
+    {
+      "type": "skill",
+      "slug": "Eternal_Rage",
+      "english": "Eternal Rage",
+      "chinese": "永恒狂怒",
+      "poe2db": "https://poe2db.tw/cn/Eternal_Rage"
+    },
+    {
+      "type": "skill",
+      "slug": "Companion%3A_%7B0%7D",
+      "english": "Companion: {0}",
+      "chinese": "伙伴：{0}",
+      "poe2db": "https://poe2db.tw/cn/Companion%3A_%7B0%7D"
+    },
+    {
+      "type": "skill",
+      "slug": "Herald_of_Thunder",
+      "english": "Herald of Thunder",
+      "chinese": "闪电之捷",
+      "poe2db": "https://poe2db.tw/cn/Herald_of_Thunder"
+    },
+    {
+      "type": "skill",
+      "slug": "Disengage",
+      "english": "Disengage",
+      "chinese": "退避三舍",
+      "poe2db": "https://poe2db.tw/cn/Disengage"
+    },
+    {
+      "type": "skill",
+      "slug": "Escape_Shot",
+      "english": "Escape Shot",
+      "chinese": "逃脱射击",
+      "poe2db": "https://poe2db.tw/cn/Escape_Shot"
+    },
+    {
+      "type": "skill",
+      "slug": "Explosive_Spear",
+      "english": "Explosive Spear",
+      "chinese": "爆破战矛",
+      "poe2db": "https://poe2db.tw/cn/Explosive_Spear"
+    },
+    {
+      "type": "skill",
+      "slug": "Lightning_Arrow",
+      "english": "Lightning Arrow",
+      "chinese": "闪电箭矢",
+      "poe2db": "https://poe2db.tw/cn/Lightning_Arrow"
+    },
+    {
+      "type": "skill",
+      "slug": "Lightning_Rod",
+      "english": "Lightning Rod",
+      "chinese": "引雷针",
+      "poe2db": "https://poe2db.tw/cn/Lightning_Rod"
+    },
+    {
+      "type": "skill",
+      "slug": "Poisonburst_Arrow",
+      "english": "Poisonburst Arrow",
+      "chinese": "毒爆箭",
+      "poe2db": "https://poe2db.tw/cn/Poisonburst_Arrow"
+    },
+    {
+      "type": "skill",
+      "slug": "Twister",
+      "english": "Twister",
+      "chinese": "旋龙",
+      "poe2db": "https://poe2db.tw/cn/Twister"
+    },
+    {
+      "type": "skill",
+      "slug": "Whirling_Slash",
+      "english": "Whirling Slash",
+      "chinese": "回旋挥斩",
+      "poe2db": "https://poe2db.tw/cn/Whirling_Slash"
+    },
+    {
+      "type": "skill",
+      "slug": "Cull_The_Weak",
+      "english": "Cull The Weak",
+      "chinese": "终结弱者",
+      "poe2db": "https://poe2db.tw/cn/Cull_The_Weak"
+    },
+    {
+      "type": "skill",
+      "slug": "Fangs_of_Frost",
+      "english": "Fangs of Frost",
+      "chinese": "刺骨寒冰",
+      "poe2db": "https://poe2db.tw/cn/Fangs_of_Frost"
+    },
+    {
+      "type": "skill",
+      "slug": "Freezing_Salvo",
+      "english": "Freezing Salvo",
+      "chinese": "冻结齐射",
+      "poe2db": "https://poe2db.tw/cn/Freezing_Salvo"
+    },
+    {
+      "type": "skill",
+      "slug": "Lightning_Spear",
+      "english": "Lightning Spear",
+      "chinese": "闪电战矛",
+      "poe2db": "https://poe2db.tw/cn/Lightning_Spear"
+    },
+    {
+      "type": "skill",
+      "slug": "Rake",
+      "english": "Rake",
+      "chinese": "斜掠",
+      "poe2db": "https://poe2db.tw/cn/Rake"
+    },
+    {
+      "type": "skill",
+      "slug": "Snipe",
+      "english": "Snipe",
+      "chinese": "狙击",
+      "poe2db": "https://poe2db.tw/cn/Snipe"
+    },
+    {
+      "type": "skill",
+      "slug": "Stormcaller_Arrow",
+      "english": "Stormcaller Arrow",
+      "chinese": "唤雷箭",
+      "poe2db": "https://poe2db.tw/cn/Stormcaller_Arrow"
+    },
+    {
+      "type": "skill",
+      "slug": "Vine_Arrow",
+      "english": "Vine Arrow",
+      "chinese": "藤缠箭",
+      "poe2db": "https://poe2db.tw/cn/Vine_Arrow"
+    },
+    {
+      "type": "skill",
+      "slug": "Plague_Bearer",
+      "english": "Plague Bearer",
+      "chinese": "灾难使徒",
+      "poe2db": "https://poe2db.tw/cn/Plague_Bearer"
+    },
+    {
+      "type": "skill",
+      "slug": "Wind_Dancer",
+      "english": "Wind Dancer",
+      "chinese": "风舞者",
+      "poe2db": "https://poe2db.tw/cn/Wind_Dancer"
+    },
+    {
+      "type": "skill",
+      "slug": "Barrage",
+      "english": "Barrage",
+      "chinese": "弹幕",
+      "poe2db": "https://poe2db.tw/cn/Barrage"
+    },
+    {
+      "type": "skill",
+      "slug": "Electrocuting_Arrow",
+      "english": "Electrocuting Arrow",
+      "chinese": "电殛箭",
+      "poe2db": "https://poe2db.tw/cn/Electrocuting_Arrow"
+    },
+    {
+      "type": "skill",
+      "slug": "Ice-Tipped_Arrows",
+      "english": "Ice-Tipped Arrows",
+      "chinese": "冰尖箭矢",
+      "poe2db": "https://poe2db.tw/cn/Ice-Tipped_Arrows"
+    },
+    {
+      "type": "skill",
+      "slug": "Rapid_Assault",
+      "english": "Rapid Assault",
+      "chinese": "极速进攻",
+      "poe2db": "https://poe2db.tw/cn/Rapid_Assault"
+    },
+    {
+      "type": "skill",
+      "slug": "Spearfield",
+      "english": "Spearfield",
+      "chinese": "枪林矛阵",
+      "poe2db": "https://poe2db.tw/cn/Spearfield"
+    },
+    {
+      "type": "skill",
+      "slug": "Storm_Lance",
+      "english": "Storm Lance",
+      "chinese": "岚舞长枪",
+      "poe2db": "https://poe2db.tw/cn/Storm_Lance"
+    },
+    {
+      "type": "skill",
+      "slug": "Toxic_Growth",
+      "english": "Toxic Growth",
+      "chinese": "剧毒增生",
+      "poe2db": "https://poe2db.tw/cn/Toxic_Growth"
+    },
+    {
+      "type": "skill",
+      "slug": "Blood_Hunt",
+      "english": "Blood Hunt",
+      "chinese": "猎血寻腥",
+      "poe2db": "https://poe2db.tw/cn/Blood_Hunt"
+    },
+    {
+      "type": "skill",
+      "slug": "Gas_Arrow",
+      "english": "Gas Arrow",
+      "chinese": "瓦斯之箭",
+      "poe2db": "https://poe2db.tw/cn/Gas_Arrow"
+    },
+    {
+      "type": "skill",
+      "slug": "Glacial_Lance",
+      "english": "Glacial Lance",
+      "chinese": "冰川长枪",
+      "poe2db": "https://poe2db.tw/cn/Glacial_Lance"
+    },
+    {
+      "type": "skill",
+      "slug": "Primal_Strikes",
+      "english": "Primal Strikes",
+      "chinese": "原始打击",
+      "poe2db": "https://poe2db.tw/cn/Primal_Strikes"
+    },
+    {
+      "type": "skill",
+      "slug": "Snipers_Mark",
+      "english": "Sniper's Mark",
+      "chinese": "狙击之印",
+      "poe2db": "https://poe2db.tw/cn/Snipers_Mark"
+    },
+    {
+      "type": "skill",
+      "slug": "Voltaic_Mark",
+      "english": "Voltaic Mark",
+      "chinese": "流电印记",
+      "poe2db": "https://poe2db.tw/cn/Voltaic_Mark"
+    },
+    {
+      "type": "skill",
+      "slug": "Combat_Frenzy",
+      "english": "Combat Frenzy",
+      "chinese": "战斗狂怒",
+      "poe2db": "https://poe2db.tw/cn/Combat_Frenzy"
+    },
+    {
+      "type": "skill",
+      "slug": "Herald_of_Plague",
+      "english": "Herald of Plague",
+      "chinese": "荒芜之捷",
+      "poe2db": "https://poe2db.tw/cn/Herald_of_Plague"
+    },
+    {
+      "type": "skill",
+      "slug": "Mirage_Archer",
+      "english": "Mirage Archer",
+      "chinese": "幻影射手",
+      "poe2db": "https://poe2db.tw/cn/Mirage_Archer"
+    },
+    {
+      "type": "skill",
+      "slug": "Trail_of_Caltrops",
+      "english": "Trail of Caltrops",
+      "chinese": "铁蒺藜之路",
+      "poe2db": "https://poe2db.tw/cn/Trail_of_Caltrops"
+    },
+    {
+      "type": "skill",
+      "slug": "Bloodhounds_Mark",
+      "english": "Bloodhound's Mark",
+      "chinese": "血犬印记",
+      "poe2db": "https://poe2db.tw/cn/Bloodhounds_Mark"
+    },
+    {
+      "type": "skill",
+      "slug": "Detonating_Arrow",
+      "english": "Detonating Arrow",
+      "chinese": "爆破箭",
+      "poe2db": "https://poe2db.tw/cn/Detonating_Arrow"
+    },
+    {
+      "type": "skill",
+      "slug": "Ice_Shot",
+      "english": "Ice Shot",
+      "chinese": "冰霜射击",
+      "poe2db": "https://poe2db.tw/cn/Ice_Shot"
+    },
+    {
+      "type": "skill",
+      "slug": "Rain_of_Arrows",
+      "english": "Rain of Arrows",
+      "chinese": "箭雨",
+      "poe2db": "https://poe2db.tw/cn/Rain_of_Arrows"
+    },
+    {
+      "type": "skill",
+      "slug": "Tame_Beast",
+      "english": "Tame Beast",
+      "chinese": "驯服野兽",
+      "poe2db": "https://poe2db.tw/cn/Tame_Beast"
+    },
+    {
+      "type": "skill",
+      "slug": "Thunderous_Leap",
+      "english": "Thunderous Leap",
+      "chinese": "雷鸣飞跃",
+      "poe2db": "https://poe2db.tw/cn/Thunderous_Leap"
+    },
+    {
+      "type": "skill",
+      "slug": "Elemental_Sundering",
+      "english": "Elemental Sundering",
+      "chinese": "元素碎裂",
+      "poe2db": "https://poe2db.tw/cn/Elemental_Sundering"
+    },
+    {
+      "type": "skill",
+      "slug": "Shockchain_Arrow",
+      "english": "Shockchain Arrow",
+      "chinese": "连环震击箭",
+      "poe2db": "https://poe2db.tw/cn/Shockchain_Arrow"
+    },
+    {
+      "type": "skill",
+      "slug": "Tornado_Shot",
+      "english": "Tornado Shot",
+      "chinese": "龙卷射击",
+      "poe2db": "https://poe2db.tw/cn/Tornado_Shot"
+    },
+    {
+      "type": "skill",
+      "slug": "Whirlwind_Lance",
+      "english": "Whirlwind Lance",
+      "chinese": "旋风投枪",
+      "poe2db": "https://poe2db.tw/cn/Whirlwind_Lance"
+    },
+    {
+      "type": "skill",
+      "slug": "Magnetic_Salvo",
+      "english": "Magnetic Salvo",
+      "chinese": "磁性齐射",
+      "poe2db": "https://poe2db.tw/cn/Magnetic_Salvo"
+    },
+    {
+      "type": "skill",
+      "slug": "Spear_of_Solaris",
+      "english": "Spear of Solaris",
+      "chinese": "日耀之矛",
+      "poe2db": "https://poe2db.tw/cn/Spear_of_Solaris"
+    },
+    {
+      "type": "skill",
+      "slug": "Spiral_Volley",
+      "english": "Spiral Volley",
+      "chinese": "螺旋齐射",
+      "poe2db": "https://poe2db.tw/cn/Spiral_Volley"
+    },
+    {
+      "type": "skill",
+      "slug": "Toxic_Domain",
+      "english": "Toxic Domain",
+      "chinese": "毒性领域",
+      "poe2db": "https://poe2db.tw/cn/Toxic_Domain"
+    },
+    {
+      "type": "skill",
+      "slug": "Wind_Serpents_Fury",
+      "english": "Wind Serpent's Fury",
+      "chinese": "腾蛇之怒",
+      "poe2db": "https://poe2db.tw/cn/Wind_Serpents_Fury"
+    },
+    {
+      "type": "skill",
+      "slug": "Alchemists_Boon",
+      "english": "Alchemist's Boon",
+      "chinese": "炼金师的恩典",
+      "poe2db": "https://poe2db.tw/cn/Alchemists_Boon"
+    },
+    {
+      "type": "skill",
+      "slug": "Rhoa_Mount",
+      "english": "Rhoa Mount",
+      "chinese": "恐喙鸟坐骑",
+      "poe2db": "https://poe2db.tw/cn/Rhoa_Mount"
+    },
+    {
+      "type": "skill",
+      "slug": "Bone_Blast",
+      "english": "Bone Blast",
+      "chinese": "针刺爆发",
+      "poe2db": "https://poe2db.tw/cn/Bone_Blast"
+    },
+    {
+      "type": "skill",
+      "slug": "Cast_on_Freeze",
+      "english": "Cast on Freeze",
+      "chinese": "冻结时施放",
+      "poe2db": "https://poe2db.tw/cn/Cast_on_Freeze"
+    },
+    {
+      "type": "skill",
+      "slug": "Cast_on_Ignite",
+      "english": "Cast on Ignite",
+      "chinese": "点燃时施放",
+      "poe2db": "https://poe2db.tw/cn/Cast_on_Ignite"
+    },
+    {
+      "type": "skill",
+      "slug": "Cast_on_Shock",
+      "english": "Cast on Shock",
+      "chinese": "感电时施放",
+      "poe2db": "https://poe2db.tw/cn/Cast_on_Shock"
+    },
+    {
+      "type": "skill",
+      "slug": "Chaos_Bolt",
+      "english": "Chaos Bolt",
+      "chinese": "混沌箭",
+      "poe2db": "https://poe2db.tw/cn/Chaos_Bolt"
+    },
+    {
+      "type": "skill",
+      "slug": "Conductivity",
+      "english": "Conductivity",
+      "chinese": "导电",
+      "poe2db": "https://poe2db.tw/cn/Conductivity"
+    },
+    {
+      "type": "skill",
+      "slug": "Decompose",
+      "english": "Decompose",
+      "chinese": "降解",
+      "poe2db": "https://poe2db.tw/cn/Decompose"
+    },
+    {
+      "type": "skill",
+      "slug": "DNT_Crushing_Earth",
+      "english": "[DNT] Crushing Earth",
+      "chinese": "[DNT] Crushing Earth",
+      "poe2db": "https://poe2db.tw/cn/DNT_Crushing_Earth"
+    },
+    {
+      "type": "skill",
+      "slug": "Dark_Pact",
+      "english": "Dark Pact",
+      "chinese": "暗夜契约",
+      "poe2db": "https://poe2db.tw/cn/Dark_Pact"
+    },
+    {
+      "type": "skill",
+      "slug": "Discipline",
+      "english": "Discipline",
+      "chinese": "纪律",
+      "poe2db": "https://poe2db.tw/cn/Discipline"
+    },
+    {
+      "type": "skill",
+      "slug": "Enervating_Nova",
+      "english": "Enervating Nova",
+      "chinese": "衰颓新星",
+      "poe2db": "https://poe2db.tw/cn/Enervating_Nova"
+    },
+    {
+      "type": "skill",
+      "slug": "Exsanguinate",
+      "english": "Exsanguinate",
+      "chinese": "赤炼魔光",
+      "poe2db": "https://poe2db.tw/cn/Exsanguinate"
+    },
+    {
+      "type": "skill",
+      "slug": "Feast_of_Flesh",
+      "english": "Feast of Flesh",
+      "chinese": "血肉盛宴",
+      "poe2db": "https://poe2db.tw/cn/Feast_of_Flesh"
+    },
+    {
+      "type": "skill",
+      "slug": "Firebolt",
+      "english": "Firebolt",
+      "chinese": "火焰弹",
+      "poe2db": "https://poe2db.tw/cn/Firebolt"
+    },
+    {
+      "type": "skill",
+      "slug": "Flammability",
+      "english": "Flammability",
+      "chinese": "易燃",
+      "poe2db": "https://poe2db.tw/cn/Flammability"
+    },
+    {
+      "type": "skill",
+      "slug": "Freezing_Shards",
+      "english": "Freezing Shards",
+      "chinese": "急冻碎片",
+      "poe2db": "https://poe2db.tw/cn/Freezing_Shards"
+    },
+    {
+      "type": "skill",
+      "slug": "Fulmination",
+      "english": "Fulmination",
+      "chinese": "轰鸣烈焰",
+      "poe2db": "https://poe2db.tw/cn/Fulmination"
+    },
+    {
+      "type": "skill",
+      "slug": "Galvanic_Field",
+      "english": "Galvanic Field",
+      "chinese": "电流场",
+      "poe2db": "https://poe2db.tw/cn/Galvanic_Field"
+    },
+    {
+      "type": "skill",
+      "slug": "Heart_of_Ice",
+      "english": "Heart of Ice",
+      "chinese": "冰雪之心",
+      "poe2db": "https://poe2db.tw/cn/Heart_of_Ice"
+    },
+    {
+      "type": "skill",
+      "slug": "Hypothermia",
+      "english": "Hypothermia",
+      "chinese": "急冻",
+      "poe2db": "https://poe2db.tw/cn/Hypothermia"
+    },
+    {
+      "type": "skill",
+      "slug": "Impurity",
+      "english": "Impurity",
+      "chinese": "不净",
+      "poe2db": "https://poe2db.tw/cn/Impurity"
+    },
+    {
+      "type": "skill",
+      "slug": "Lightning_Bolt",
+      "english": "Lightning Bolt",
+      "chinese": "闪电",
+      "poe2db": "https://poe2db.tw/cn/Lightning_Bolt"
+    },
+    {
+      "type": "skill",
+      "slug": "Malice",
+      "english": "Malice",
+      "chinese": "怨毒",
+      "poe2db": "https://poe2db.tw/cn/Malice"
+    },
+    {
+      "type": "skill",
+      "slug": "Mana_Drain",
+      "english": "Mana Drain",
+      "chinese": "魔力吸取",
+      "poe2db": "https://poe2db.tw/cn/Mana_Drain"
+    },
+    {
+      "type": "skill",
+      "slug": "Mirror_of_Refraction",
+      "english": "Mirror of Refraction",
+      "chinese": "折射之镜",
+      "poe2db": "https://poe2db.tw/cn/Mirror_of_Refraction"
+    },
+    {
+      "type": "skill",
+      "slug": "Power_Siphon",
+      "english": "Power Siphon",
+      "chinese": "力量抽取",
+      "poe2db": "https://poe2db.tw/cn/Power_Siphon"
+    },
+    {
+      "type": "skill",
+      "slug": "Purity_of_Fire",
+      "english": "Purity of Fire",
+      "chinese": "火焰净化",
+      "poe2db": "https://poe2db.tw/cn/Purity_of_Fire"
+    },
+    {
+      "type": "skill",
+      "slug": "Purity_of_Ice",
+      "english": "Purity of Ice",
+      "chinese": "冰霜净化",
+      "poe2db": "https://poe2db.tw/cn/Purity_of_Ice"
+    },
+    {
+      "type": "skill",
+      "slug": "Purity_of_Lightning",
+      "english": "Purity of Lightning",
+      "chinese": "闪电净化",
+      "poe2db": "https://poe2db.tw/cn/Purity_of_Lightning"
+    },
+    {
+      "type": "skill",
+      "slug": "Reap",
+      "english": "Reap",
+      "chinese": "赤炼收割",
+      "poe2db": "https://poe2db.tw/cn/Reap"
+    },
+    {
+      "type": "skill",
+      "slug": "Sigil_of_Power",
+      "english": "Sigil of Power",
+      "chinese": "威能法印",
+      "poe2db": "https://poe2db.tw/cn/Sigil_of_Power"
+    },
+    {
+      "type": "skill",
+      "slug": "Skeletal_Sniper",
+      "english": "Skeletal Sniper",
+      "chinese": "魔侍神射手",
+      "poe2db": "https://poe2db.tw/cn/Skeletal_Sniper"
+    },
+    {
+      "type": "skill",
+      "slug": "Skeletal_Warrior",
+      "english": "Skeletal Warrior",
+      "chinese": "魔侍武士",
+      "poe2db": "https://poe2db.tw/cn/Skeletal_Warrior"
+    },
+    {
+      "type": "skill",
+      "slug": "Solar_Orb",
+      "english": "Solar Orb",
+      "chinese": "日曜球",
+      "poe2db": "https://poe2db.tw/cn/Solar_Orb"
+    },
+    {
+      "type": "skill",
+      "slug": "Soulrend",
+      "english": "Soulrend",
+      "chinese": "裂魂术",
+      "poe2db": "https://poe2db.tw/cn/Soulrend"
+    },
+    {
+      "type": "skill",
+      "slug": "Spellslinger",
+      "english": "Spellslinger",
+      "chinese": "法术节魔",
+      "poe2db": "https://poe2db.tw/cn/Spellslinger"
+    },
+    {
+      "type": "skill",
+      "slug": "Ember_Fusillade",
+      "english": "Ember Fusillade",
+      "chinese": "灰烬连射",
+      "poe2db": "https://poe2db.tw/cn/Ember_Fusillade"
+    },
+    {
+      "type": "skill",
+      "slug": "Spark",
+      "english": "Spark",
+      "chinese": "电球",
+      "poe2db": "https://poe2db.tw/cn/Spark"
+    },
+    {
+      "type": "skill",
+      "slug": "Withering_Presence",
+      "english": "Withering Presence",
+      "chinese": "凋零姿态",
+      "poe2db": "https://poe2db.tw/cn/Withering_Presence"
+    },
+    {
+      "type": "skill",
+      "slug": "Unleash",
+      "english": "Unleash",
+      "chinese": "释出",
+      "poe2db": "https://poe2db.tw/cn/Unleash"
+    },
+    {
+      "type": "skill",
+      "slug": "Volatile_Dead",
+      "english": "Volatile Dead",
+      "chinese": "灵体火球",
+      "poe2db": "https://poe2db.tw/cn/Volatile_Dead"
+    },
+    {
+      "type": "skill",
+      "slug": "Wither",
+      "english": "Wither",
+      "chinese": "死亡凋零",
+      "poe2db": "https://poe2db.tw/cn/Wither"
+    },
+    {
+      "type": "skill",
+      "slug": "Contagion",
+      "english": "Contagion",
+      "chinese": "顽疾",
+      "poe2db": "https://poe2db.tw/cn/Contagion"
+    },
+    {
+      "type": "skill",
+      "slug": "Flame_Wall",
+      "english": "Flame Wall",
+      "chinese": "烈焰之墙",
+      "poe2db": "https://poe2db.tw/cn/Flame_Wall"
+    },
+    {
+      "type": "skill",
+      "slug": "Frost_Bomb",
+      "english": "Frost Bomb",
+      "chinese": "寒霜爆",
+      "poe2db": "https://poe2db.tw/cn/Frost_Bomb"
+    },
+    {
+      "type": "skill",
+      "slug": "Ice_Nova",
+      "english": "Ice Nova",
+      "chinese": "冰霜新星",
+      "poe2db": "https://poe2db.tw/cn/Ice_Nova"
+    },
+    {
+      "type": "skill",
+      "slug": "Unearth",
+      "english": "Unearth",
+      "chinese": "开掘",
+      "poe2db": "https://poe2db.tw/cn/Unearth"
+    },
+    {
+      "type": "skill",
+      "slug": "Bone_Cage",
+      "english": "Bone Cage",
+      "chinese": "画地为牢",
+      "poe2db": "https://poe2db.tw/cn/Bone_Cage"
+    },
+    {
+      "type": "skill",
+      "slug": "Enfeeble",
+      "english": "Enfeeble",
+      "chinese": "衰弱",
+      "poe2db": "https://poe2db.tw/cn/Enfeeble"
+    },
+    {
+      "type": "skill",
+      "slug": "Essence_Drain",
+      "english": "Essence Drain",
+      "chinese": "精华吸取",
+      "poe2db": "https://poe2db.tw/cn/Essence_Drain"
+    },
+    {
+      "type": "skill",
+      "slug": "Fireball",
+      "english": "Fireball",
+      "chinese": "火球",
+      "poe2db": "https://poe2db.tw/cn/Fireball"
+    },
+    {
+      "type": "skill",
+      "slug": "Frost_Darts",
+      "english": "Frost Darts",
+      "chinese": "冰霜飞镖",
+      "poe2db": "https://poe2db.tw/cn/Frost_Darts"
+    },
+    {
+      "type": "skill",
+      "slug": "Living_Bomb",
+      "english": "Living Bomb",
+      "chinese": "活动炸弹",
+      "poe2db": "https://poe2db.tw/cn/Living_Bomb"
+    },
+    {
+      "type": "skill",
+      "slug": "Orb_of_Storms",
+      "english": "Orb of Storms",
+      "chinese": "风暴漩涡",
+      "poe2db": "https://poe2db.tw/cn/Orb_of_Storms"
+    },
+    {
+      "type": "skill",
+      "slug": "Skeletal_Arsonist",
+      "english": "Skeletal Arsonist",
+      "chinese": "魔侍焚焰使",
+      "poe2db": "https://poe2db.tw/cn/Skeletal_Arsonist"
+    },
+    {
+      "type": "skill",
+      "slug": "Arctic_Armour",
+      "english": "Arctic Armour",
+      "chinese": "极地装甲",
+      "poe2db": "https://poe2db.tw/cn/Arctic_Armour"
+    },
+    {
+      "type": "skill",
+      "slug": "Convalescence",
+      "english": "Convalescence",
+      "chinese": "康复",
+      "poe2db": "https://poe2db.tw/cn/Convalescence"
+    },
+    {
+      "type": "skill",
+      "slug": "Grim_Feast",
+      "english": "Grim Feast",
+      "chinese": "饕餮飨宴",
+      "poe2db": "https://poe2db.tw/cn/Grim_Feast"
+    },
+    {
+      "type": "skill",
+      "slug": "Mana_Remnants",
+      "english": "Mana Remnants",
+      "chinese": "魔力残片",
+      "poe2db": "https://poe2db.tw/cn/Mana_Remnants"
+    },
+    {
+      "type": "skill",
+      "slug": "Raging_Spirits",
+      "english": "Raging Spirits",
+      "chinese": "愤怒狂灵",
+      "poe2db": "https://poe2db.tw/cn/Raging_Spirits"
+    },
+    {
+      "type": "skill",
+      "slug": "Ravenous_Swarm",
+      "english": "Ravenous Swarm",
+      "chinese": "饕餮虫群",
+      "poe2db": "https://poe2db.tw/cn/Ravenous_Swarm"
+    },
+    {
+      "type": "skill",
+      "slug": "Arc",
+      "english": "Arc",
+      "chinese": "电弧",
+      "poe2db": "https://poe2db.tw/cn/Arc"
+    },
+    {
+      "type": "skill",
+      "slug": "Bonestorm",
+      "english": "Bonestorm",
+      "chinese": "尖刺风暴",
+      "poe2db": "https://poe2db.tw/cn/Bonestorm"
+    },
+    {
+      "type": "skill",
+      "slug": "Frostbolt",
+      "english": "Frostbolt",
+      "chinese": "寒冰弹",
+      "poe2db": "https://poe2db.tw/cn/Frostbolt"
+    },
+    {
+      "type": "skill",
+      "slug": "Pain_Offering",
+      "english": "Pain Offering",
+      "chinese": "苦痛奉献",
+      "poe2db": "https://poe2db.tw/cn/Pain_Offering"
+    },
+    {
+      "type": "skill",
+      "slug": "Raise_Zombie",
+      "english": "Raise Zombie",
+      "chinese": "魔卫复苏",
+      "poe2db": "https://poe2db.tw/cn/Raise_Zombie"
+    },
+    {
+      "type": "skill",
+      "slug": "Skeletal_Frost_Mage",
+      "english": "Skeletal Frost Mage",
+      "chinese": "魔侍冰霜法师",
+      "poe2db": "https://poe2db.tw/cn/Skeletal_Frost_Mage"
+    },
+    {
+      "type": "skill",
+      "slug": "Snap",
+      "english": "Snap",
+      "chinese": "激变",
+      "poe2db": "https://poe2db.tw/cn/Snap"
+    },
+    {
+      "type": "skill",
+      "slug": "Bind_Spectre",
+      "english": "Bind Spectre",
+      "chinese": "束缚灵体",
+      "poe2db": "https://poe2db.tw/cn/Bind_Spectre"
+    },
+    {
+      "type": "skill",
+      "slug": "Detonate_Dead",
+      "english": "Detonate Dead",
+      "chinese": "爆灵术",
+      "poe2db": "https://poe2db.tw/cn/Detonate_Dead"
+    },
+    {
+      "type": "skill",
+      "slug": "Elemental_Weakness",
+      "english": "Elemental Weakness",
+      "chinese": "元素要害",
+      "poe2db": "https://poe2db.tw/cn/Elemental_Weakness"
+    },
+    {
+      "type": "skill",
+      "slug": "Mana_Tempest",
+      "english": "Mana Tempest",
+      "chinese": "魔力风暴",
+      "poe2db": "https://poe2db.tw/cn/Mana_Tempest"
+    },
+    {
+      "type": "skill",
+      "slug": "Profane_Ritual",
+      "english": "Profane Ritual",
+      "chinese": "不敬之礼",
+      "poe2db": "https://poe2db.tw/cn/Profane_Ritual"
+    },
+    {
+      "type": "skill",
+      "slug": "Temporal_Chains",
+      "english": "Temporal Chains",
+      "chinese": "时空锁链",
+      "poe2db": "https://poe2db.tw/cn/Temporal_Chains"
+    },
+    {
+      "type": "skill",
+      "slug": "Vulnerability",
+      "english": "Vulnerability",
+      "chinese": "脆弱",
+      "poe2db": "https://poe2db.tw/cn/Vulnerability"
+    },
+    {
+      "type": "skill",
+      "slug": "Blasphemy",
+      "english": "Blasphemy",
+      "chinese": "诅咒光环",
+      "poe2db": "https://poe2db.tw/cn/Blasphemy"
+    },
+    {
+      "type": "skill",
+      "slug": "Blink",
+      "english": "Blink",
+      "chinese": "闪现",
+      "poe2db": "https://poe2db.tw/cn/Blink"
+    },
+    {
+      "type": "skill",
+      "slug": "Cast_on_Minion_Death",
+      "english": "Cast on Minion Death",
+      "chinese": "召唤生物死亡时施放",
+      "poe2db": "https://poe2db.tw/cn/Cast_on_Minion_Death"
+    },
+    {
+      "type": "skill",
+      "slug": "Siphon_Elements",
+      "english": "Siphon Elements",
+      "chinese": "汲取元素",
+      "poe2db": "https://poe2db.tw/cn/Siphon_Elements"
+    },
+    {
+      "type": "skill",
+      "slug": "Dark_Effigy",
+      "english": "Dark Effigy",
+      "chinese": "黑暗塑像",
+      "poe2db": "https://poe2db.tw/cn/Dark_Effigy"
+    },
+    {
+      "type": "skill",
+      "slug": "Despair",
+      "english": "Despair",
+      "chinese": "绝望",
+      "poe2db": "https://poe2db.tw/cn/Despair"
+    },
+    {
+      "type": "skill",
+      "slug": "Frost_Wall",
+      "english": "Frost Wall",
+      "chinese": "冰墙",
+      "poe2db": "https://poe2db.tw/cn/Frost_Wall"
+    },
+    {
+      "type": "skill",
+      "slug": "Incinerate",
+      "english": "Incinerate",
+      "chinese": "烧毁",
+      "poe2db": "https://poe2db.tw/cn/Incinerate"
+    },
+    {
+      "type": "skill",
+      "slug": "Lightning_Warp",
+      "english": "Lightning Warp",
+      "chinese": "闪电传送",
+      "poe2db": "https://poe2db.tw/cn/Lightning_Warp"
+    },
+    {
+      "type": "skill",
+      "slug": "Skeletal_Reaver",
+      "english": "Skeletal Reaver",
+      "chinese": "魔侍掠夺者",
+      "poe2db": "https://poe2db.tw/cn/Skeletal_Reaver"
+    },
+    {
+      "type": "skill",
+      "slug": "Ball_Lightning",
+      "english": "Ball Lightning",
+      "chinese": "天雷之珠",
+      "poe2db": "https://poe2db.tw/cn/Ball_Lightning"
+    },
+    {
+      "type": "skill",
+      "slug": "Bone_Offering",
+      "english": "Bone Offering",
+      "chinese": "装甲奉献",
+      "poe2db": "https://poe2db.tw/cn/Bone_Offering"
+    },
+    {
+      "type": "skill",
+      "slug": "Comet",
+      "english": "Comet",
+      "chinese": "彗星落",
+      "poe2db": "https://poe2db.tw/cn/Comet"
+    },
+    {
+      "type": "skill",
+      "slug": "Firestorm",
+      "english": "Firestorm",
+      "chinese": "烈炎风暴",
+      "poe2db": "https://poe2db.tw/cn/Firestorm"
+    },
+    {
+      "type": "skill",
+      "slug": "Hexblast",
+      "english": "Hexblast",
+      "chinese": "魔蛊爆炸",
+      "poe2db": "https://poe2db.tw/cn/Hexblast"
+    },
+    {
+      "type": "skill",
+      "slug": "Skeletal_Storm_Mage",
+      "english": "Skeletal Storm Mage",
+      "chinese": "魔侍风暴法师",
+      "poe2db": "https://poe2db.tw/cn/Skeletal_Storm_Mage"
+    },
+    {
+      "type": "skill",
+      "slug": "Eye_of_Winter",
+      "english": "Eye of Winter",
+      "chinese": "凛冬之眼",
+      "poe2db": "https://poe2db.tw/cn/Eye_of_Winter"
+    },
+    {
+      "type": "skill",
+      "slug": "Flameblast",
+      "english": "Flameblast",
+      "chinese": "烈焰爆破",
+      "poe2db": "https://poe2db.tw/cn/Flameblast"
+    },
+    {
+      "type": "skill",
+      "slug": "Lightning_Conduit",
+      "english": "Lightning Conduit",
+      "chinese": "闪电通道",
+      "poe2db": "https://poe2db.tw/cn/Lightning_Conduit"
+    },
+    {
+      "type": "skill",
+      "slug": "Skeletal_Brute",
+      "english": "Skeletal Brute",
+      "chinese": "魔侍蛮兵",
+      "poe2db": "https://poe2db.tw/cn/Skeletal_Brute"
+    },
+    {
+      "type": "skill",
+      "slug": "Skeletal_Cleric",
+      "english": "Skeletal Cleric",
+      "chinese": "魔侍祭司",
+      "poe2db": "https://poe2db.tw/cn/Skeletal_Cleric"
+    },
+    {
+      "type": "skill",
+      "slug": "Soul_Offering",
+      "english": "Soul Offering",
+      "chinese": "灵之奉献",
+      "poe2db": "https://poe2db.tw/cn/Soul_Offering"
+    },
+    {
+      "type": "skill",
+      "slug": "Archmage",
+      "english": "Archmage",
+      "chinese": "大法师",
+      "poe2db": "https://poe2db.tw/cn/Archmage"
+    },
+    {
+      "type": "skill",
+      "slug": "Cast_on_Critical",
+      "english": "Cast on Critical",
+      "chinese": "暴击时施放",
+      "poe2db": "https://poe2db.tw/cn/Cast_on_Critical"
+    },
+    {
+      "type": "skill",
+      "slug": "Cast_on_Elemental_Ailment",
+      "english": "Cast on Elemental Ailment",
+      "chinese": "元素异常状态时施放",
+      "poe2db": "https://poe2db.tw/cn/Cast_on_Elemental_Ailment"
+    },
+    {
+      "type": "skill",
+      "slug": "Elemental_Conflux",
+      "english": "Elemental Conflux",
+      "chinese": "元素汇流",
+      "poe2db": "https://poe2db.tw/cn/Elemental_Conflux"
+    },
+    {
+      "type": "skill",
+      "slug": "Sacrifice",
+      "english": "Sacrifice",
+      "chinese": "替代牺牲",
+      "poe2db": "https://poe2db.tw/cn/Sacrifice"
+    },
+    {
+      "type": "support",
+      "slug": "Amanamus_Tithe",
+      "english": "Amanamu's Tithe",
+      "chinese": "阿曼娜姆的奉纳",
+      "poe2db": "https://poe2db.tw/cn/Amanamus_Tithe"
+    },
+    {
+      "type": "support",
+      "slug": "Ataluis_Bloodletting",
+      "english": "Atalui's Bloodletting",
+      "chinese": "阿图鲁伊的放血术",
+      "poe2db": "https://poe2db.tw/cn/Ataluis_Bloodletting"
+    },
+    {
+      "type": "support",
+      "slug": "Auto_Reload",
+      "english": "Auto Reload",
+      "chinese": "自动装填",
+      "poe2db": "https://poe2db.tw/cn/Auto_Reload"
+    },
+    {
+      "type": "support",
+      "slug": "Bloodlust",
+      "english": "Bloodlust",
+      "chinese": "血怒",
+      "poe2db": "https://poe2db.tw/cn/Bloodlust"
+    },
+    {
+      "type": "support",
+      "slug": "Brutus_Brain",
+      "english": "Brutus' Brain",
+      "chinese": "布鲁特斯之脑",
+      "poe2db": "https://poe2db.tw/cn/Brutus_Brain"
+    },
+    {
+      "type": "support",
+      "slug": "Cirels_Cultivation",
+      "english": "Cirel's Cultivation",
+      "chinese": "西雷尔的教化",
+      "poe2db": "https://poe2db.tw/cn/Cirels_Cultivation"
+    },
+    {
+      "type": "support",
+      "slug": "Paquates_Pact",
+      "english": "Paquate's Pact",
+      "chinese": "帕夸特的契约",
+      "poe2db": "https://poe2db.tw/cn/Paquates_Pact"
+    },
+    {
+      "type": "support",
+      "slug": "Daressos_Passion",
+      "english": "Daresso's Passion",
+      "chinese": "德瑞索的热情",
+      "poe2db": "https://poe2db.tw/cn/Daressos_Passion"
+    },
+    {
+      "type": "support",
+      "slug": "Dauntless",
+      "english": "Dauntless",
+      "chinese": "不动如山",
+      "poe2db": "https://poe2db.tw/cn/Dauntless"
+    },
+    {
+      "type": "support",
+      "slug": "Einhars_Beastrite",
+      "english": "Einhar's Beastrite",
+      "chinese": "伊恩哈尔的魔物仪式",
+      "poe2db": "https://poe2db.tw/cn/Einhars_Beastrite"
+    },
+    {
+      "type": "support",
+      "slug": "Flamepierce",
+      "english": "Flamepierce",
+      "chinese": "烈焰穿刺",
+      "poe2db": "https://poe2db.tw/cn/Flamepierce"
+    },
+    {
+      "type": "support",
+      "slug": "Tawhoas_Tending",
+      "english": "Tawhoa's Tending",
+      "chinese": "塔赫亚的照料",
+      "poe2db": "https://poe2db.tw/cn/Tawhoas_Tending"
+    },
+    {
+      "type": "support",
+      "slug": "Helbryms_Hide",
+      "english": "Helbrym's Hide",
+      "chinese": "赫尔布林的隐瞒",
+      "poe2db": "https://poe2db.tw/cn/Helbryms_Hide"
+    },
+    {
+      "type": "support",
+      "slug": "Kaoms_Madness",
+      "english": "Kaom's Madness",
+      "chinese": "冈姆的疯狂",
+      "poe2db": "https://poe2db.tw/cn/Kaoms_Madness"
+    },
+    {
+      "type": "support",
+      "slug": "Rusted_Spikes",
+      "english": "Rusted Spikes",
+      "chinese": "锈蚀尖刺",
+      "poe2db": "https://poe2db.tw/cn/Rusted_Spikes"
+    },
+    {
+      "type": "support",
+      "slug": "Spar",
+      "english": "Spar",
+      "chinese": "角力",
+      "poe2db": "https://poe2db.tw/cn/Spar"
+    },
+    {
+      "type": "support",
+      "slug": "Uhtreds_Augury",
+      "english": "Uhtred's Augury",
+      "chinese": "乌崔德的占卜",
+      "poe2db": "https://poe2db.tw/cn/Uhtreds_Augury"
+    },
+    {
+      "type": "support",
+      "slug": "Uhtreds_Exodus",
+      "english": "Uhtred's Exodus",
+      "chinese": "乌崔德的出走",
+      "poe2db": "https://poe2db.tw/cn/Uhtreds_Exodus"
+    },
+    {
+      "type": "support",
+      "slug": "Uhtreds_Omen",
+      "english": "Uhtred's Omen",
+      "chinese": "乌崔德的预兆",
+      "poe2db": "https://poe2db.tw/cn/Uhtreds_Omen"
+    },
+    {
+      "type": "support",
+      "slug": "Uruks_Smelting",
+      "english": "Uruk's Smelting",
+      "chinese": "厄罗克的熔炼术",
+      "poe2db": "https://poe2db.tw/cn/Uruks_Smelting"
+    },
+    {
+      "type": "support",
+      "slug": "Uul-Netols_Embrace",
+      "english": "Uul-Netol's Embrace",
+      "chinese": "乌尔尼多的拥抱",
+      "poe2db": "https://poe2db.tw/cn/Uul-Netols_Embrace"
+    },
+    {
+      "type": "support",
+      "slug": "Xophs_Pyre",
+      "english": "Xoph's Pyre",
+      "chinese": "索伏的葬火",
+      "poe2db": "https://poe2db.tw/cn/Xophs_Pyre"
+    },
+    {
+      "type": "support",
+      "slug": "Zerphis_Infamy",
+      "english": "Zerphi's Infamy",
+      "chinese": "泽佛伊的恶名",
+      "poe2db": "https://poe2db.tw/cn/Zerphis_Infamy"
+    },
+    {
+      "type": "support",
+      "slug": "Fire_Attunement",
+      "english": "Fire Attunement",
+      "chinese": "火焰协调",
+      "poe2db": "https://poe2db.tw/cn/Fire_Attunement"
+    },
+    {
+      "type": "support",
+      "slug": "Armour_Demolisher_I",
+      "english": "Armour Demolisher I",
+      "chinese": "护甲破坏者 I",
+      "poe2db": "https://poe2db.tw/cn/Armour_Demolisher_I"
+    },
+    {
+      "type": "support",
+      "slug": "Armour_Explosion",
+      "english": "Armour Explosion",
+      "chinese": "护甲爆破",
+      "poe2db": "https://poe2db.tw/cn/Armour_Explosion"
+    },
+    {
+      "type": "support",
+      "slug": "Battershout",
+      "english": "Battershout",
+      "chinese": "震撼战吼",
+      "poe2db": "https://poe2db.tw/cn/Battershout"
+    },
+    {
+      "type": "support",
+      "slug": "Bleed_I",
+      "english": "Bleed I",
+      "chinese": "流血 I",
+      "poe2db": "https://poe2db.tw/cn/Bleed_I"
+    },
+    {
+      "type": "support",
+      "slug": "Brutality_I",
+      "english": "Brutality I",
+      "chinese": "野性残暴 I",
+      "poe2db": "https://poe2db.tw/cn/Brutality_I"
+    },
+    {
+      "type": "support",
+      "slug": "Compressed_Duration_I",
+      "english": "Compressed Duration I",
+      "chinese": "持续时间压缩 I",
+      "poe2db": "https://poe2db.tw/cn/Compressed_Duration_I"
+    },
+    {
+      "type": "support",
+      "slug": "Double_Barrel_I",
+      "english": "Double Barrel I",
+      "chinese": "双管齐下 I",
+      "poe2db": "https://poe2db.tw/cn/Double_Barrel_I"
+    },
+    {
+      "type": "support",
+      "slug": "Efficiency_I",
+      "english": "Efficiency I",
+      "chinese": "高效 I",
+      "poe2db": "https://poe2db.tw/cn/Efficiency_I"
+    },
+    {
+      "type": "support",
+      "slug": "Elemental_Armament_I",
+      "english": "Elemental Armament I",
+      "chinese": "元素军械 I",
+      "poe2db": "https://poe2db.tw/cn/Elemental_Armament_I"
+    },
+    {
+      "type": "support",
+      "slug": "Execute_I",
+      "english": "Execute I",
+      "chinese": "处决 I",
+      "poe2db": "https://poe2db.tw/cn/Execute_I"
+    },
+    {
+      "type": "support",
+      "slug": "Fist_of_War_I",
+      "english": "Fist of War I",
+      "chinese": "战争铁拳 I",
+      "poe2db": "https://poe2db.tw/cn/Fist_of_War_I"
+    },
+    {
+      "type": "support",
+      "slug": "Enduring_Impact_I",
+      "english": "Enduring Impact I",
+      "chinese": "持续冲击 I",
+      "poe2db": "https://poe2db.tw/cn/Enduring_Impact_I"
+    },
+    {
+      "type": "support",
+      "slug": "Eternal_Flame_I",
+      "english": "Eternal Flame I",
+      "chinese": "长明烈焰 I",
+      "poe2db": "https://poe2db.tw/cn/Eternal_Flame_I"
+    },
+    {
+      "type": "support",
+      "slug": "Ignite_I",
+      "english": "Ignite I",
+      "chinese": "点燃 I",
+      "poe2db": "https://poe2db.tw/cn/Ignite_I"
+    },
+    {
+      "type": "support",
+      "slug": "Impact_Shockwave",
+      "english": "Impact Shockwave",
+      "chinese": "冲击震波",
+      "poe2db": "https://poe2db.tw/cn/Impact_Shockwave"
+    },
+    {
+      "type": "support",
+      "slug": "Meat_Shield_I",
+      "english": "Meat Shield I",
+      "chinese": "肉盾 I",
+      "poe2db": "https://poe2db.tw/cn/Meat_Shield_I"
+    },
+    {
+      "type": "support",
+      "slug": "Opening_Move",
+      "english": "Opening Move",
+      "chinese": "起手式",
+      "poe2db": "https://poe2db.tw/cn/Opening_Move"
+    },
+    {
+      "type": "support",
+      "slug": "Prolonged_Duration_I",
+      "english": "Prolonged Duration I",
+      "chinese": "持续时间延长 I",
+      "poe2db": "https://poe2db.tw/cn/Prolonged_Duration_I"
+    },
+    {
+      "type": "support",
+      "slug": "Rage_I",
+      "english": "Rage I",
+      "chinese": "狂怒 I",
+      "poe2db": "https://poe2db.tw/cn/Rage_I"
+    },
+    {
+      "type": "support",
+      "slug": "Steadfast_I",
+      "english": "Steadfast I",
+      "chinese": "坚定 I",
+      "poe2db": "https://poe2db.tw/cn/Steadfast_I"
+    },
+    {
+      "type": "support",
+      "slug": "Stomping_Ground",
+      "english": "Stomping Ground",
+      "chinese": "震撼大地",
+      "poe2db": "https://poe2db.tw/cn/Stomping_Ground"
+    },
+    {
+      "type": "support",
+      "slug": "Tireless",
+      "english": "Tireless",
+      "chinese": "冷酷",
+      "poe2db": "https://poe2db.tw/cn/Tireless"
+    },
+    {
+      "type": "support",
+      "slug": "Upheaval_I",
+      "english": "Upheaval I",
+      "chinese": "剧变 I",
+      "poe2db": "https://poe2db.tw/cn/Upheaval_I"
+    },
+    {
+      "type": "support",
+      "slug": "Vanguard_I",
+      "english": "Vanguard I",
+      "chinese": "先锋 I",
+      "poe2db": "https://poe2db.tw/cn/Vanguard_I"
+    },
+    {
+      "type": "support",
+      "slug": "Vitality_I",
+      "english": "Vitality I",
+      "chinese": "活力 I",
+      "poe2db": "https://poe2db.tw/cn/Vitality_I"
+    },
+    {
+      "type": "support",
+      "slug": "Aftershock_I",
+      "english": "Aftershock I",
+      "chinese": "余震 I",
+      "poe2db": "https://poe2db.tw/cn/Aftershock_I"
+    },
+    {
+      "type": "support",
+      "slug": "Armour_Break_I",
+      "english": "Armour Break I",
+      "chinese": "护甲破损 I",
+      "poe2db": "https://poe2db.tw/cn/Armour_Break_I"
+    },
+    {
+      "type": "support",
+      "slug": "Behead_I",
+      "english": "Behead I",
+      "chinese": "斩首 I",
+      "poe2db": "https://poe2db.tw/cn/Behead_I"
+    },
+    {
+      "type": "support",
+      "slug": "Font_of_Blood",
+      "english": "Font of Blood",
+      "chinese": "血脉源泉",
+      "poe2db": "https://poe2db.tw/cn/Font_of_Blood"
+    },
+    {
+      "type": "support",
+      "slug": "Lifetap",
+      "english": "Lifetap",
+      "chinese": "赤炼",
+      "poe2db": "https://poe2db.tw/cn/Lifetap"
+    },
+    {
+      "type": "support",
+      "slug": "Brink_I",
+      "english": "Brink I",
+      "chinese": "崩溃边缘 I",
+      "poe2db": "https://poe2db.tw/cn/Brink_I"
+    },
+    {
+      "type": "support",
+      "slug": "Brutality_II",
+      "english": "Brutality II",
+      "chinese": "野性残暴 II",
+      "poe2db": "https://poe2db.tw/cn/Brutality_II"
+    },
+    {
+      "type": "support",
+      "slug": "Concoct_I",
+      "english": "Concoct I",
+      "chinese": "调和术 I",
+      "poe2db": "https://poe2db.tw/cn/Concoct_I"
+    },
+    {
+      "type": "support",
+      "slug": "Crater",
+      "english": "Crater",
+      "chinese": "陨坑",
+      "poe2db": "https://poe2db.tw/cn/Crater"
+    },
+    {
+      "type": "support",
+      "slug": "Defy_I",
+      "english": "Defy I",
+      "chinese": "顽抗 I",
+      "poe2db": "https://poe2db.tw/cn/Defy_I"
+    },
+    {
+      "type": "support",
+      "slug": "Direstrike_I",
+      "english": "Direstrike I",
+      "chinese": "蛮勇打击 I",
+      "poe2db": "https://poe2db.tw/cn/Direstrike_I"
+    },
+    {
+      "type": "support",
+      "slug": "Double_Barrel_II",
+      "english": "Double Barrel II",
+      "chinese": "双管齐下 II",
+      "poe2db": "https://poe2db.tw/cn/Double_Barrel_II"
+    },
+    {
+      "type": "support",
+      "slug": "Elemental_Armament_II",
+      "english": "Elemental Armament II",
+      "chinese": "元素军械 II",
+      "poe2db": "https://poe2db.tw/cn/Elemental_Armament_II"
+    },
+    {
+      "type": "support",
+      "slug": "Exploit_Weakness",
+      "english": "Exploit Weakness",
+      "chinese": "开发要害",
+      "poe2db": "https://poe2db.tw/cn/Exploit_Weakness"
+    },
+    {
+      "type": "support",
+      "slug": "Fan_The_Flames",
+      "english": "Fan The Flames",
+      "chinese": "煽风点火",
+      "poe2db": "https://poe2db.tw/cn/Fan_The_Flames"
+    },
+    {
+      "type": "support",
+      "slug": "Fire_Penetration_I",
+      "english": "Fire Penetration I",
+      "chinese": "火焰穿透 I",
+      "poe2db": "https://poe2db.tw/cn/Fire_Penetration_I"
+    },
+    {
+      "type": "support",
+      "slug": "Fresh_Clip_I",
+      "english": "Fresh Clip I",
+      "chinese": "新装箭匣 I",
+      "poe2db": "https://poe2db.tw/cn/Fresh_Clip_I"
+    },
+    {
+      "type": "support",
+      "slug": "Hardy_Totems_I",
+      "english": "Hardy Totems I",
+      "chinese": "坚韧图腾 I",
+      "poe2db": "https://poe2db.tw/cn/Hardy_Totems_I"
+    },
+    {
+      "type": "support",
+      "slug": "Herbalism_I",
+      "english": "Herbalism I",
+      "chinese": "药草学 I",
+      "poe2db": "https://poe2db.tw/cn/Herbalism_I"
+    },
+    {
+      "type": "support",
+      "slug": "Infernal_Legion_I",
+      "english": "Infernal Legion I",
+      "chinese": "炎军 I",
+      "poe2db": "https://poe2db.tw/cn/Infernal_Legion_I"
+    },
+    {
+      "type": "support",
+      "slug": "Jagged_Ground_I",
+      "english": "Jagged Ground I",
+      "chinese": "崎岖之地 I",
+      "poe2db": "https://poe2db.tw/cn/Jagged_Ground_I"
+    },
+    {
+      "type": "support",
+      "slug": "Life_Leech_I",
+      "english": "Life Leech I",
+      "chinese": "生命偷取 I",
+      "poe2db": "https://poe2db.tw/cn/Life_Leech_I"
+    },
+    {
+      "type": "support",
+      "slug": "Mark_for_Death",
+      "english": "Mark for Death",
+      "chinese": "死亡印记",
+      "poe2db": "https://poe2db.tw/cn/Mark_for_Death"
+    },
+    {
+      "type": "support",
+      "slug": "Persistent_Ground_I",
+      "english": "Persistent Ground I",
+      "chinese": "持久地面 I",
+      "poe2db": "https://poe2db.tw/cn/Persistent_Ground_I"
+    },
+    {
+      "type": "support",
+      "slug": "Raging_Cry",
+      "english": "Raging Cry",
+      "chinese": "愤怒战吼",
+      "poe2db": "https://poe2db.tw/cn/Raging_Cry"
+    },
+    {
+      "type": "support",
+      "slug": "Refraction_I",
+      "english": "Refraction I",
+      "chinese": "折射 I",
+      "poe2db": "https://poe2db.tw/cn/Refraction_I"
+    },
+    {
+      "type": "support",
+      "slug": "Remnant_Potency_I",
+      "english": "Remnant Potency I",
+      "chinese": "残片效能 I",
+      "poe2db": "https://poe2db.tw/cn/Remnant_Potency_I"
+    },
+    {
+      "type": "support",
+      "slug": "Retaliate_I",
+      "english": "Retaliate I",
+      "chinese": "反击 I",
+      "poe2db": "https://poe2db.tw/cn/Retaliate_I"
+    },
+    {
+      "type": "support",
+      "slug": "Selfless_Remnants",
+      "english": "Selfless Remnants",
+      "chinese": "无我残片",
+      "poe2db": "https://poe2db.tw/cn/Selfless_Remnants"
+    },
+    {
+      "type": "support",
+      "slug": "Short_Fuse_I",
+      "english": "Short Fuse I",
+      "chinese": "短暂引信 I",
+      "poe2db": "https://poe2db.tw/cn/Short_Fuse_I"
+    },
+    {
+      "type": "support",
+      "slug": "Skittering_Stone_I",
+      "english": "Skittering Stone I",
+      "chinese": "飞掠石 I",
+      "poe2db": "https://poe2db.tw/cn/Skittering_Stone_I"
+    },
+    {
+      "type": "support",
+      "slug": "Tectonic_Slams",
+      "english": "Tectonic Slams",
+      "chinese": "破釜一击",
+      "poe2db": "https://poe2db.tw/cn/Tectonic_Slams"
+    },
+    {
+      "type": "support",
+      "slug": "Stun_I",
+      "english": "Stun I",
+      "chinese": "晕眩 I",
+      "poe2db": "https://poe2db.tw/cn/Stun_I"
+    },
+    {
+      "type": "support",
+      "slug": "Thornskin_I",
+      "english": "Thornskin I",
+      "chinese": "荆棘皮肤 I",
+      "poe2db": "https://poe2db.tw/cn/Thornskin_I"
+    },
+    {
+      "type": "support",
+      "slug": "Urgent_Totems_I",
+      "english": "Urgent Totems I",
+      "chinese": "紧急图腾 I",
+      "poe2db": "https://poe2db.tw/cn/Urgent_Totems_I"
+    },
+    {
+      "type": "support",
+      "slug": "Vanguard_II",
+      "english": "Vanguard II",
+      "chinese": "先锋 II",
+      "poe2db": "https://poe2db.tw/cn/Vanguard_II"
+    },
+    {
+      "type": "support",
+      "slug": "Volcanic_Eruption",
+      "english": "Volcanic Eruption",
+      "chinese": "熔火喷发",
+      "poe2db": "https://poe2db.tw/cn/Volcanic_Eruption"
+    },
+    {
+      "type": "support",
+      "slug": "Armour_Break_II",
+      "english": "Armour Break II",
+      "chinese": "护甲破损 II",
+      "poe2db": "https://poe2db.tw/cn/Armour_Break_II"
+    },
+    {
+      "type": "support",
+      "slug": "Armour_Demolisher_II",
+      "english": "Armour Demolisher II",
+      "chinese": "护甲破坏者 II",
+      "poe2db": "https://poe2db.tw/cn/Armour_Demolisher_II"
+    },
+    {
+      "type": "support",
+      "slug": "Barbs_I",
+      "english": "Barbs I",
+      "chinese": "荆棘倒刺 I",
+      "poe2db": "https://poe2db.tw/cn/Barbs_I"
+    },
+    {
+      "type": "support",
+      "slug": "Behead_II",
+      "english": "Behead II",
+      "chinese": "斩首 II",
+      "poe2db": "https://poe2db.tw/cn/Behead_II"
+    },
+    {
+      "type": "support",
+      "slug": "Bleed_II",
+      "english": "Bleed II",
+      "chinese": "流血 II",
+      "poe2db": "https://poe2db.tw/cn/Bleed_II"
+    },
+    {
+      "type": "support",
+      "slug": "Branching_Fissures_I",
+      "english": "Branching Fissures I",
+      "chinese": "分叉裂缝 I",
+      "poe2db": "https://poe2db.tw/cn/Branching_Fissures_I"
+    },
+    {
+      "type": "support",
+      "slug": "Brink_II",
+      "english": "Brink II",
+      "chinese": "崩溃边缘 II",
+      "poe2db": "https://poe2db.tw/cn/Brink_II"
+    },
+    {
+      "type": "support",
+      "slug": "Cannibalism_I",
+      "english": "Cannibalism I",
+      "chinese": "吞灵 I",
+      "poe2db": "https://poe2db.tw/cn/Cannibalism_I"
+    },
+    {
+      "type": "support",
+      "slug": "Clash",
+      "english": "Clash",
+      "chinese": "形势逆转",
+      "poe2db": "https://poe2db.tw/cn/Clash"
+    },
+    {
+      "type": "support",
+      "slug": "Compressed_Duration_II",
+      "english": "Compressed Duration II",
+      "chinese": "持续时间压缩 II",
+      "poe2db": "https://poe2db.tw/cn/Compressed_Duration_II"
+    },
+    {
+      "type": "support",
+      "slug": "Cool_Headed",
+      "english": "Cool Headed",
+      "chinese": "冷静头脑",
+      "poe2db": "https://poe2db.tw/cn/Cool_Headed"
+    },
+    {
+      "type": "support",
+      "slug": "Corrupting_Cry_I",
+      "english": "Corrupting Cry I",
+      "chinese": "腐化战吼 I",
+      "poe2db": "https://poe2db.tw/cn/Corrupting_Cry_I"
+    },
+    {
+      "type": "support",
+      "slug": "Deadly_Resolve",
+      "english": "Deadly Resolve",
+      "chinese": "致命决心",
+      "poe2db": "https://poe2db.tw/cn/Deadly_Resolve"
+    },
+    {
+      "type": "support",
+      "slug": "Searing_Flame_I",
+      "english": "Searing Flame I",
+      "chinese": "焚躯烈焰 I",
+      "poe2db": "https://poe2db.tw/cn/Searing_Flame_I"
+    },
+    {
+      "type": "support",
+      "slug": "Deep_Cuts_I",
+      "english": "Deep Cuts I",
+      "chinese": "凌迟 I",
+      "poe2db": "https://poe2db.tw/cn/Deep_Cuts_I"
+    },
+    {
+      "type": "support",
+      "slug": "Fist_of_War_II",
+      "english": "Fist of War II",
+      "chinese": "战争铁拳 II",
+      "poe2db": "https://poe2db.tw/cn/Fist_of_War_II"
+    },
+    {
+      "type": "support",
+      "slug": "Haemocrystals",
+      "english": "Haemocrystals",
+      "chinese": "赤炼水晶",
+      "poe2db": "https://poe2db.tw/cn/Haemocrystals"
+    },
+    {
+      "type": "support",
+      "slug": "Eternal_Flame_II",
+      "english": "Eternal Flame II",
+      "chinese": "长明烈焰 II",
+      "poe2db": "https://poe2db.tw/cn/Eternal_Flame_II"
+    },
+    {
+      "type": "support",
+      "slug": "Ignite_II",
+      "english": "Ignite II",
+      "chinese": "点燃 II",
+      "poe2db": "https://poe2db.tw/cn/Ignite_II"
+    },
+    {
+      "type": "support",
+      "slug": "Immolate",
+      "english": "Immolate",
+      "chinese": "献祭",
+      "poe2db": "https://poe2db.tw/cn/Immolate"
+    },
+    {
+      "type": "support",
+      "slug": "Knockback",
+      "english": "Knockback",
+      "chinese": "击退",
+      "poe2db": "https://poe2db.tw/cn/Knockback"
+    },
+    {
+      "type": "support",
+      "slug": "Life_Leech_II",
+      "english": "Life Leech II",
+      "chinese": "生命偷取 II",
+      "poe2db": "https://poe2db.tw/cn/Life_Leech_II"
+    },
+    {
+      "type": "support",
+      "slug": "Meat_Shield_II",
+      "english": "Meat Shield II",
+      "chinese": "肉盾 II",
+      "poe2db": "https://poe2db.tw/cn/Meat_Shield_II"
+    },
+    {
+      "type": "support",
+      "slug": "Persistent_Ground_II",
+      "english": "Persistent Ground II",
+      "chinese": "持久地面 II",
+      "poe2db": "https://poe2db.tw/cn/Persistent_Ground_II"
+    },
+    {
+      "type": "support",
+      "slug": "Prolonged_Duration_II",
+      "english": "Prolonged Duration II",
+      "chinese": "持续时间延长 II",
+      "poe2db": "https://poe2db.tw/cn/Prolonged_Duration_II"
+    },
+    {
+      "type": "support",
+      "slug": "Quill_Burst",
+      "english": "Quill Burst",
+      "chinese": "棘刺爆发",
+      "poe2db": "https://poe2db.tw/cn/Quill_Burst"
+    },
+    {
+      "type": "support",
+      "slug": "Refraction_II",
+      "english": "Refraction II",
+      "chinese": "折射 II",
+      "poe2db": "https://poe2db.tw/cn/Refraction_II"
+    },
+    {
+      "type": "support",
+      "slug": "Reinforced_Totems_I",
+      "english": "Reinforced Totems I",
+      "chinese": "增强图腾 I",
+      "poe2db": "https://poe2db.tw/cn/Reinforced_Totems_I"
+    },
+    {
+      "type": "support",
+      "slug": "Remnant_Potency_II",
+      "english": "Remnant Potency II",
+      "chinese": "残片效能 II",
+      "poe2db": "https://poe2db.tw/cn/Remnant_Potency_II"
+    },
+    {
+      "type": "support",
+      "slug": "Rending_Apex",
+      "english": "Rending Apex",
+      "chinese": "撕裂巅峰",
+      "poe2db": "https://poe2db.tw/cn/Rending_Apex"
+    },
+    {
+      "type": "support",
+      "slug": "Rip",
+      "english": "Rip",
+      "chinese": "撕裂",
+      "poe2db": "https://poe2db.tw/cn/Rip"
+    },
+    {
+      "type": "support",
+      "slug": "Rupture",
+      "english": "Rupture",
+      "chinese": "残破",
+      "poe2db": "https://poe2db.tw/cn/Rupture"
+    },
+    {
+      "type": "support",
+      "slug": "Splinter_Totem_I",
+      "english": "Splinter Totem I",
+      "chinese": "碎片图腾 I",
+      "poe2db": "https://poe2db.tw/cn/Splinter_Totem_I"
+    },
+    {
+      "type": "support",
+      "slug": "Steadfast_II",
+      "english": "Steadfast II",
+      "chinese": "坚定 II",
+      "poe2db": "https://poe2db.tw/cn/Steadfast_II"
+    },
+    {
+      "type": "support",
+      "slug": "Stoicism_I",
+      "english": "Stoicism I",
+      "chinese": "坚忍 I",
+      "poe2db": "https://poe2db.tw/cn/Stoicism_I"
+    },
+    {
+      "type": "support",
+      "slug": "Tear",
+      "english": "Tear",
+      "chinese": "撕扯",
+      "poe2db": "https://poe2db.tw/cn/Tear"
+    },
+    {
+      "type": "support",
+      "slug": "Urgent_Totems_II",
+      "english": "Urgent Totems II",
+      "chinese": "紧急图腾 II",
+      "poe2db": "https://poe2db.tw/cn/Urgent_Totems_II"
+    },
+    {
+      "type": "support",
+      "slug": "Aftershock_II",
+      "english": "Aftershock II",
+      "chinese": "余震 II",
+      "poe2db": "https://poe2db.tw/cn/Aftershock_II"
+    },
+    {
+      "type": "support",
+      "slug": "Ancestral_Call_I",
+      "english": "Ancestral Call I",
+      "chinese": "先祖召唤 I",
+      "poe2db": "https://poe2db.tw/cn/Ancestral_Call_I"
+    },
+    {
+      "type": "support",
+      "slug": "Armour_Break_III",
+      "english": "Armour Break III",
+      "chinese": "护甲破损 III",
+      "poe2db": "https://poe2db.tw/cn/Armour_Break_III"
+    },
+    {
+      "type": "support",
+      "slug": "Cannibalism_II",
+      "english": "Cannibalism II",
+      "chinese": "吞灵 II",
+      "poe2db": "https://poe2db.tw/cn/Cannibalism_II"
+    },
+    {
+      "type": "support",
+      "slug": "Concoct_II",
+      "english": "Concoct II",
+      "chinese": "调和术 II",
+      "poe2db": "https://poe2db.tw/cn/Concoct_II"
+    },
+    {
+      "type": "support",
+      "slug": "Searing_Flame_II",
+      "english": "Searing Flame II",
+      "chinese": "焚躯烈焰 II",
+      "poe2db": "https://poe2db.tw/cn/Searing_Flame_II"
+    },
+    {
+      "type": "support",
+      "slug": "Direstrike_II",
+      "english": "Direstrike II",
+      "chinese": "蛮勇打击 II",
+      "poe2db": "https://poe2db.tw/cn/Direstrike_II"
+    },
+    {
+      "type": "support",
+      "slug": "Echoing_Cry",
+      "english": "Echoing Cry",
+      "chinese": "回荡战嚎",
+      "poe2db": "https://poe2db.tw/cn/Echoing_Cry"
+    },
+    {
+      "type": "support",
+      "slug": "Efficiency_II",
+      "english": "Efficiency II",
+      "chinese": "高效 II",
+      "poe2db": "https://poe2db.tw/cn/Efficiency_II"
+    },
+    {
+      "type": "support",
+      "slug": "Enraged_Warcry_I",
+      "english": "Enraged Warcry I",
+      "chinese": "燃怒战吼 I",
+      "poe2db": "https://poe2db.tw/cn/Enraged_Warcry_I"
+    },
+    {
+      "type": "support",
+      "slug": "Execute_II",
+      "english": "Execute II",
+      "chinese": "处决 II",
+      "poe2db": "https://poe2db.tw/cn/Execute_II"
+    },
+    {
+      "type": "support",
+      "slug": "Exposing_Cry",
+      "english": "Exposing Cry",
+      "chinese": "洞悉战嚎",
+      "poe2db": "https://poe2db.tw/cn/Exposing_Cry"
+    },
+    {
+      "type": "support",
+      "slug": "Fan_The_Flames_II",
+      "english": "Fan The Flames II",
+      "chinese": "煽风点火II",
+      "poe2db": "https://poe2db.tw/cn/Fan_The_Flames_II"
+    },
+    {
+      "type": "support",
+      "slug": "Fire_Exposure",
+      "english": "Fire Exposure",
+      "chinese": "火焰曝露",
+      "poe2db": "https://poe2db.tw/cn/Fire_Exposure"
+    },
+    {
+      "type": "support",
+      "slug": "Fresh_Clip_II",
+      "english": "Fresh Clip II",
+      "chinese": "新装箭匣 II",
+      "poe2db": "https://poe2db.tw/cn/Fresh_Clip_II"
+    },
+    {
+      "type": "support",
+      "slug": "Hardy_Totems_II",
+      "english": "Hardy Totems II",
+      "chinese": "坚韧图腾 II",
+      "poe2db": "https://poe2db.tw/cn/Hardy_Totems_II"
+    },
+    {
+      "type": "support",
+      "slug": "Enduring_Impact_II",
+      "english": "Enduring Impact II",
+      "chinese": "持续冲击 II",
+      "poe2db": "https://poe2db.tw/cn/Enduring_Impact_II"
+    },
+    {
+      "type": "support",
+      "slug": "Herbalism_II",
+      "english": "Herbalism II",
+      "chinese": "药草学 II",
+      "poe2db": "https://poe2db.tw/cn/Herbalism_II"
+    },
+    {
+      "type": "support",
+      "slug": "Eternal_Flame_III",
+      "english": "Eternal Flame III",
+      "chinese": "长明烈焰 III",
+      "poe2db": "https://poe2db.tw/cn/Eternal_Flame_III"
+    },
+    {
+      "type": "support",
+      "slug": "Incision",
+      "english": "Incision",
+      "chinese": "创口",
+      "poe2db": "https://poe2db.tw/cn/Incision"
+    },
+    {
+      "type": "support",
+      "slug": "Infernal_Legion_II",
+      "english": "Infernal Legion II",
+      "chinese": "炎军 II",
+      "poe2db": "https://poe2db.tw/cn/Infernal_Legion_II"
+    },
+    {
+      "type": "support",
+      "slug": "Long_Fuse_I",
+      "english": "Long Fuse I",
+      "chinese": "加长引线 I",
+      "poe2db": "https://poe2db.tw/cn/Long_Fuse_I"
+    },
+    {
+      "type": "support",
+      "slug": "Mark_for_Death_II",
+      "english": "Mark for Death II",
+      "chinese": "死亡印记 II",
+      "poe2db": "https://poe2db.tw/cn/Mark_for_Death_II"
+    },
+    {
+      "type": "support",
+      "slug": "Heavy_Swing",
+      "english": "Heavy Swing",
+      "chinese": "沉重挥舞",
+      "poe2db": "https://poe2db.tw/cn/Heavy_Swing"
+    },
+    {
+      "type": "support",
+      "slug": "Rage_II",
+      "english": "Rage II",
+      "chinese": "狂怒 II",
+      "poe2db": "https://poe2db.tw/cn/Rage_II"
+    },
+    {
+      "type": "support",
+      "slug": "Rageforged_I",
+      "english": "Rageforged I",
+      "chinese": "怒火锤炼 I",
+      "poe2db": "https://poe2db.tw/cn/Rageforged_I"
+    },
+    {
+      "type": "support",
+      "slug": "Remnant_Potency_III",
+      "english": "Remnant Potency III",
+      "chinese": "残片效能 III",
+      "poe2db": "https://poe2db.tw/cn/Remnant_Potency_III"
+    },
+    {
+      "type": "support",
+      "slug": "Retaliate_II",
+      "english": "Retaliate II",
+      "chinese": "反击 II",
+      "poe2db": "https://poe2db.tw/cn/Retaliate_II"
+    },
+    {
+      "type": "support",
+      "slug": "Short_Fuse_II",
+      "english": "Short Fuse II",
+      "chinese": "短暂引信 II",
+      "poe2db": "https://poe2db.tw/cn/Short_Fuse_II"
+    },
+    {
+      "type": "support",
+      "slug": "Skittering_Stone_II",
+      "english": "Skittering Stone II",
+      "chinese": "飞掠石 II",
+      "poe2db": "https://poe2db.tw/cn/Skittering_Stone_II"
+    },
+    {
+      "type": "support",
+      "slug": "Stun_II",
+      "english": "Stun II",
+      "chinese": "晕眩 II",
+      "poe2db": "https://poe2db.tw/cn/Stun_II"
+    },
+    {
+      "type": "support",
+      "slug": "Syzygy",
+      "english": "Syzygy",
+      "chinese": "朔望",
+      "poe2db": "https://poe2db.tw/cn/Syzygy"
+    },
+    {
+      "type": "support",
+      "slug": "Thornskin_II",
+      "english": "Thornskin II",
+      "chinese": "荆棘皮肤 II",
+      "poe2db": "https://poe2db.tw/cn/Thornskin_II"
+    },
+    {
+      "type": "support",
+      "slug": "Urgent_Totems_III",
+      "english": "Urgent Totems III",
+      "chinese": "紧急图腾 III",
+      "poe2db": "https://poe2db.tw/cn/Urgent_Totems_III"
+    },
+    {
+      "type": "support",
+      "slug": "Vitality_II",
+      "english": "Vitality II",
+      "chinese": "活力 II",
+      "poe2db": "https://poe2db.tw/cn/Vitality_II"
+    },
+    {
+      "type": "support",
+      "slug": "Ancestral_Call_II",
+      "english": "Ancestral Call II",
+      "chinese": "先祖召唤 II",
+      "poe2db": "https://poe2db.tw/cn/Ancestral_Call_II"
+    },
+    {
+      "type": "support",
+      "slug": "Barbs_III",
+      "english": "Barbs III",
+      "chinese": "荆棘倒刺 III",
+      "poe2db": "https://poe2db.tw/cn/Barbs_III"
+    },
+    {
+      "type": "support",
+      "slug": "Barbs_II",
+      "english": "Barbs II",
+      "chinese": "荆棘倒刺 II",
+      "poe2db": "https://poe2db.tw/cn/Barbs_II"
+    },
+    {
+      "type": "support",
+      "slug": "Bleed_IV",
+      "english": "Bleed IV",
+      "chinese": "流血 IV",
+      "poe2db": "https://poe2db.tw/cn/Bleed_IV"
+    },
+    {
+      "type": "support",
+      "slug": "Bleed_III",
+      "english": "Bleed III",
+      "chinese": "流血 III",
+      "poe2db": "https://poe2db.tw/cn/Bleed_III"
+    },
+    {
+      "type": "support",
+      "slug": "Brambleslam",
+      "english": "Brambleslam",
+      "chinese": "遍地荆棘",
+      "poe2db": "https://poe2db.tw/cn/Brambleslam"
+    },
+    {
+      "type": "support",
+      "slug": "Branching_Fissures_II",
+      "english": "Branching Fissures II",
+      "chinese": "分叉裂缝 II",
+      "poe2db": "https://poe2db.tw/cn/Branching_Fissures_II"
+    },
+    {
+      "type": "support",
+      "slug": "Brutality_III",
+      "english": "Brutality III",
+      "chinese": "野性残暴 III",
+      "poe2db": "https://poe2db.tw/cn/Brutality_III"
+    },
+    {
+      "type": "support",
+      "slug": "Corrupting_Cry_II",
+      "english": "Corrupting Cry II",
+      "chinese": "腐化战吼 II",
+      "poe2db": "https://poe2db.tw/cn/Corrupting_Cry_II"
+    },
+    {
+      "type": "support",
+      "slug": "Deep_Cuts_II",
+      "english": "Deep Cuts II",
+      "chinese": "凌迟 II",
+      "poe2db": "https://poe2db.tw/cn/Deep_Cuts_II"
+    },
+    {
+      "type": "support",
+      "slug": "Defy_II",
+      "english": "Defy II",
+      "chinese": "顽抗 II",
+      "poe2db": "https://poe2db.tw/cn/Defy_II"
+    },
+    {
+      "type": "support",
+      "slug": "Double_Barrel_III",
+      "english": "Double Barrel III",
+      "chinese": "双管齐下 III",
+      "poe2db": "https://poe2db.tw/cn/Double_Barrel_III"
+    },
+    {
+      "type": "support",
+      "slug": "Elemental_Armament_III",
+      "english": "Elemental Armament III",
+      "chinese": "元素军械 III",
+      "poe2db": "https://poe2db.tw/cn/Elemental_Armament_III"
+    },
+    {
+      "type": "support",
+      "slug": "Enraged_Warcry_II",
+      "english": "Enraged Warcry II",
+      "chinese": "燃怒战吼 II",
+      "poe2db": "https://poe2db.tw/cn/Enraged_Warcry_II"
+    },
+    {
+      "type": "support",
+      "slug": "Execute_III",
+      "english": "Execute III",
+      "chinese": "处决 III",
+      "poe2db": "https://poe2db.tw/cn/Execute_III"
+    },
+    {
+      "type": "support",
+      "slug": "Fire_Penetration_II",
+      "english": "Fire Penetration II",
+      "chinese": "火焰穿透 II",
+      "poe2db": "https://poe2db.tw/cn/Fire_Penetration_II"
+    },
+    {
+      "type": "support",
+      "slug": "Fist_of_War_III",
+      "english": "Fist of War III",
+      "chinese": "战争铁拳 III",
+      "poe2db": "https://poe2db.tw/cn/Fist_of_War_III"
+    },
+    {
+      "type": "support",
+      "slug": "Heft",
+      "english": "Heft",
+      "chinese": "势大力沉",
+      "poe2db": "https://poe2db.tw/cn/Heft"
+    },
+    {
+      "type": "support",
+      "slug": "Holy_Descent",
+      "english": "Holy Descent",
+      "chinese": "神圣降临",
+      "poe2db": "https://poe2db.tw/cn/Holy_Descent"
+    },
+    {
+      "type": "support",
+      "slug": "Ignite_III",
+      "english": "Ignite III",
+      "chinese": "点燃 III",
+      "poe2db": "https://poe2db.tw/cn/Ignite_III"
+    },
+    {
+      "type": "support",
+      "slug": "Infernal_Legion_III",
+      "english": "Infernal Legion III",
+      "chinese": "炎军 III",
+      "poe2db": "https://poe2db.tw/cn/Infernal_Legion_III"
+    },
+    {
+      "type": "support",
+      "slug": "Jagged_Ground_II",
+      "english": "Jagged Ground II",
+      "chinese": "崎岖之地 II",
+      "poe2db": "https://poe2db.tw/cn/Jagged_Ground_II"
+    },
+    {
+      "type": "support",
+      "slug": "Life_Leech_III",
+      "english": "Life Leech III",
+      "chinese": "生命偷取 III",
+      "poe2db": "https://poe2db.tw/cn/Life_Leech_III"
+    },
+    {
+      "type": "support",
+      "slug": "Long_Fuse_II",
+      "english": "Long Fuse II",
+      "chinese": "加长引线 II",
+      "poe2db": "https://poe2db.tw/cn/Long_Fuse_II"
+    },
+    {
+      "type": "support",
+      "slug": "Persistent_Ground_III",
+      "english": "Persistent Ground III",
+      "chinese": "持久地面 III",
+      "poe2db": "https://poe2db.tw/cn/Persistent_Ground_III"
+    },
+    {
+      "type": "support",
+      "slug": "Rage_III",
+      "english": "Rage III",
+      "chinese": "狂怒 III",
+      "poe2db": "https://poe2db.tw/cn/Rage_III"
+    },
+    {
+      "type": "support",
+      "slug": "Rageforged_II",
+      "english": "Rageforged II",
+      "chinese": "怒火锤炼 II",
+      "poe2db": "https://poe2db.tw/cn/Rageforged_II"
+    },
+    {
+      "type": "support",
+      "slug": "Refraction_III",
+      "english": "Refraction III",
+      "chinese": "折射 III",
+      "poe2db": "https://poe2db.tw/cn/Refraction_III"
+    },
+    {
+      "type": "support",
+      "slug": "Reinforced_Totems_II",
+      "english": "Reinforced Totems II",
+      "chinese": "增强图腾 II",
+      "poe2db": "https://poe2db.tw/cn/Reinforced_Totems_II"
+    },
+    {
+      "type": "support",
+      "slug": "Splinter_Totem_II",
+      "english": "Splinter Totem II",
+      "chinese": "碎片图腾 II",
+      "poe2db": "https://poe2db.tw/cn/Splinter_Totem_II"
+    },
+    {
+      "type": "support",
+      "slug": "Stoicism_II",
+      "english": "Stoicism II",
+      "chinese": "坚忍 II",
+      "poe2db": "https://poe2db.tw/cn/Stoicism_II"
+    },
+    {
+      "type": "support",
+      "slug": "Stun_III",
+      "english": "Stun III",
+      "chinese": "晕眩 III",
+      "poe2db": "https://poe2db.tw/cn/Stun_III"
+    },
+    {
+      "type": "support",
+      "slug": "Upheaval_II",
+      "english": "Upheaval II",
+      "chinese": "剧变 II",
+      "poe2db": "https://poe2db.tw/cn/Upheaval_II"
+    },
+    {
+      "type": "support",
+      "slug": "Ailiths_Chimes",
+      "english": "Ailith's Chimes",
+      "chinese": "艾利丝钟琴",
+      "poe2db": "https://poe2db.tw/cn/Ailiths_Chimes"
+    },
+    {
+      "type": "support",
+      "slug": "Arjuns_Medal",
+      "english": "Arjun's Medal",
+      "chinese": "阿尔琼的勋章",
+      "poe2db": "https://poe2db.tw/cn/Arjuns_Medal"
+    },
+    {
+      "type": "support",
+      "slug": "Arakaalis_Lust",
+      "english": "Arakaali's Lust",
+      "chinese": "阿拉卡力的欲望",
+      "poe2db": "https://poe2db.tw/cn/Arakaalis_Lust"
+    },
+    {
+      "type": "support",
+      "slug": "Atziris_Impatience",
+      "english": "Atziri's Impatience",
+      "chinese": "阿兹里的焦躁",
+      "poe2db": "https://poe2db.tw/cn/Atziris_Impatience"
+    },
+    {
+      "type": "support",
+      "slug": "Rathas_Assault",
+      "english": "Ratha's Assault",
+      "chinese": "拉莎的突袭",
+      "poe2db": "https://poe2db.tw/cn/Rathas_Assault"
+    },
+    {
+      "type": "support",
+      "slug": "Dreamers_Knell",
+      "english": "Dreamer's Knell",
+      "chinese": "幻梦者的丧钟",
+      "poe2db": "https://poe2db.tw/cn/Dreamers_Knell"
+    },
+    {
+      "type": "support",
+      "slug": "Eonyrs_Thunder",
+      "english": "Eonyr's Thunder",
+      "chinese": "伊奥尼尔的雷霆",
+      "poe2db": "https://poe2db.tw/cn/Eonyrs_Thunder"
+    },
+    {
+      "type": "support",
+      "slug": "Murderous_Intent",
+      "english": "Murderous Intent",
+      "chinese": "坚韧磨砺",
+      "poe2db": "https://poe2db.tw/cn/Murderous_Intent"
+    },
+    {
+      "type": "support",
+      "slug": "Ferocity",
+      "english": "Ferocity",
+      "chinese": "狂暴",
+      "poe2db": "https://poe2db.tw/cn/Ferocity"
+    },
+    {
+      "type": "support",
+      "slug": "Garukhans_Resolve",
+      "english": "Garukhan's Resolve",
+      "chinese": "格鲁坎的决心",
+      "poe2db": "https://poe2db.tw/cn/Garukhans_Resolve"
+    },
+    {
+      "type": "support",
+      "slug": "Overabundance_III",
+      "english": "Overabundance III",
+      "chinese": "冗余 III",
+      "poe2db": "https://poe2db.tw/cn/Overabundance_III"
+    },
+    {
+      "type": "support",
+      "slug": "Life_Bounty",
+      "english": "Life Bounty",
+      "chinese": "生命丰沛",
+      "poe2db": "https://poe2db.tw/cn/Life_Bounty"
+    },
+    {
+      "type": "support",
+      "slug": "Lockdown",
+      "english": "Lockdown",
+      "chinese": "封锁",
+      "poe2db": "https://poe2db.tw/cn/Lockdown"
+    },
+    {
+      "type": "support",
+      "slug": "Malady",
+      "english": "Malady",
+      "chinese": "错乱病症",
+      "poe2db": "https://poe2db.tw/cn/Malady"
+    },
+    {
+      "type": "support",
+      "slug": "Mana_Bounty",
+      "english": "Mana Bounty",
+      "chinese": "魔力丰沛",
+      "poe2db": "https://poe2db.tw/cn/Mana_Bounty"
+    },
+    {
+      "type": "support",
+      "slug": "Dominus_Grasp",
+      "english": "Dominus' Grasp",
+      "chinese": "神主之握",
+      "poe2db": "https://poe2db.tw/cn/Dominus_Grasp"
+    },
+    {
+      "type": "support",
+      "slug": "Rakiatas_Flow",
+      "english": "Rakiata's Flow",
+      "chinese": "拉其塔之流",
+      "poe2db": "https://poe2db.tw/cn/Rakiatas_Flow"
+    },
+    {
+      "type": "support",
+      "slug": "Rigwalds_Ferocity",
+      "english": "Rigwald's Ferocity",
+      "chinese": "瑞佛的凶猛",
+      "poe2db": "https://poe2db.tw/cn/Rigwalds_Ferocity"
+    },
+    {
+      "type": "support",
+      "slug": "Stormchain",
+      "english": "Stormchain",
+      "chinese": "风暴连锁",
+      "poe2db": "https://poe2db.tw/cn/Stormchain"
+    },
+    {
+      "type": "support",
+      "slug": "Tacatis_Ire",
+      "english": "Tacati's Ire",
+      "chinese": "塔卡提之怒",
+      "poe2db": "https://poe2db.tw/cn/Tacatis_Ire"
+    },
+    {
+      "type": "support",
+      "slug": "Tasalios_Rhythm",
+      "english": "Tasalio's Rhythm",
+      "chinese": "塔萨里奥的律动",
+      "poe2db": "https://poe2db.tw/cn/Tasalios_Rhythm"
+    },
+    {
+      "type": "support",
+      "slug": "Ricochet_III",
+      "english": "Ricochet III",
+      "chinese": "弹射 III",
+      "poe2db": "https://poe2db.tw/cn/Ricochet_III"
+    },
+    {
+      "type": "support",
+      "slug": "Tuls_Stillness",
+      "english": "Tul's Stillness",
+      "chinese": "托沃的寂静",
+      "poe2db": "https://poe2db.tw/cn/Tuls_Stillness"
+    },
+    {
+      "type": "support",
+      "slug": "Lightning_Attunement",
+      "english": "Lightning Attunement",
+      "chinese": "闪电协调",
+      "poe2db": "https://poe2db.tw/cn/Lightning_Attunement"
+    },
+    {
+      "type": "support",
+      "slug": "Blindside",
+      "english": "Blindside",
+      "chinese": "盲点",
+      "poe2db": "https://poe2db.tw/cn/Blindside"
+    },
+    {
+      "type": "support",
+      "slug": "Chain_I",
+      "english": "Chain I",
+      "chinese": "连锁 I",
+      "poe2db": "https://poe2db.tw/cn/Chain_I"
+    },
+    {
+      "type": "support",
+      "slug": "Charge_Profusion_I",
+      "english": "Charge Profusion I",
+      "chinese": "能量球激增 I",
+      "poe2db": "https://poe2db.tw/cn/Charge_Profusion_I"
+    },
+    {
+      "type": "support",
+      "slug": "Combo_Finisher_I",
+      "english": "Combo Finisher I",
+      "chinese": "连击终结 I",
+      "poe2db": "https://poe2db.tw/cn/Combo_Finisher_I"
+    },
+    {
+      "type": "support",
+      "slug": "Corrosion",
+      "english": "Corrosion",
+      "chinese": "腐蚀",
+      "poe2db": "https://poe2db.tw/cn/Corrosion"
+    },
+    {
+      "type": "support",
+      "slug": "Escalating_Poison",
+      "english": "Escalating Poison",
+      "chinese": "毒性加剧",
+      "poe2db": "https://poe2db.tw/cn/Escalating_Poison"
+    },
+    {
+      "type": "support",
+      "slug": "Heightened_Accuracy_I",
+      "english": "Heightened Accuracy I",
+      "chinese": "精准增强 I",
+      "poe2db": "https://poe2db.tw/cn/Heightened_Accuracy_I"
+    },
+    {
+      "type": "support",
+      "slug": "Overabundance_I",
+      "english": "Overabundance I",
+      "chinese": "冗余 I",
+      "poe2db": "https://poe2db.tw/cn/Overabundance_I"
+    },
+    {
+      "type": "support",
+      "slug": "Innervate",
+      "english": "Innervate",
+      "chinese": "亢奋",
+      "poe2db": "https://poe2db.tw/cn/Innervate"
+    },
+    {
+      "type": "support",
+      "slug": "Life_Drain",
+      "english": "Life Drain",
+      "chinese": "生命榨取",
+      "poe2db": "https://poe2db.tw/cn/Life_Drain"
+    },
+    {
+      "type": "support",
+      "slug": "Multishot_I",
+      "english": "Multishot I",
+      "chinese": "多重射击 I",
+      "poe2db": "https://poe2db.tw/cn/Multishot_I"
+    },
+    {
+      "type": "support",
+      "slug": "Pierce_I",
+      "english": "Pierce I",
+      "chinese": "穿透 I",
+      "poe2db": "https://poe2db.tw/cn/Pierce_I"
+    },
+    {
+      "type": "support",
+      "slug": "Pin_I",
+      "english": "Pin I",
+      "chinese": "定身 I",
+      "poe2db": "https://poe2db.tw/cn/Pin_I"
+    },
+    {
+      "type": "support",
+      "slug": "Poison_I",
+      "english": "Poison I",
+      "chinese": "中毒 I",
+      "poe2db": "https://poe2db.tw/cn/Poison_I"
+    },
+    {
+      "type": "support",
+      "slug": "Precision_I",
+      "english": "Precision I",
+      "chinese": "精准 I",
+      "poe2db": "https://poe2db.tw/cn/Precision_I"
+    },
+    {
+      "type": "support",
+      "slug": "Projectile_Acceleration_I",
+      "english": "Projectile Acceleration I",
+      "chinese": "投射物加速 I",
+      "poe2db": "https://poe2db.tw/cn/Projectile_Acceleration_I"
+    },
+    {
+      "type": "support",
+      "slug": "Projectile_Deceleration_I",
+      "english": "Projectile Deceleration I",
+      "chinese": "投射物减速 I",
+      "poe2db": "https://poe2db.tw/cn/Projectile_Deceleration_I"
+    },
+    {
+      "type": "support",
+      "slug": "Pursuit_I",
+      "english": "Pursuit I",
+      "chinese": "迫近追逐 I",
+      "poe2db": "https://poe2db.tw/cn/Pursuit_I"
+    },
+    {
+      "type": "support",
+      "slug": "Rapid_Attacks_I",
+      "english": "Rapid Attacks I",
+      "chinese": "快速攻击 I",
+      "poe2db": "https://poe2db.tw/cn/Rapid_Attacks_I"
+    },
+    {
+      "type": "support",
+      "slug": "Retreat_I",
+      "english": "Retreat I",
+      "chinese": "撤退 I",
+      "poe2db": "https://poe2db.tw/cn/Retreat_I"
+    },
+    {
+      "type": "support",
+      "slug": "Shock",
+      "english": "Shock",
+      "chinese": "感电",
+      "poe2db": "https://poe2db.tw/cn/Shock"
+    },
+    {
+      "type": "support",
+      "slug": "Slow_Potency",
+      "english": "Slow Potency",
+      "chinese": "减速效能",
+      "poe2db": "https://poe2db.tw/cn/Slow_Potency"
+    },
+    {
+      "type": "support",
+      "slug": "Swift_Affliction_I",
+      "english": "Swift Affliction I",
+      "chinese": "极速腐化 I",
+      "poe2db": "https://poe2db.tw/cn/Swift_Affliction_I"
+    },
+    {
+      "type": "support",
+      "slug": "Window_of_Opportunity_I",
+      "english": "Window of Opportunity I",
+      "chinese": "大好时机 I",
+      "poe2db": "https://poe2db.tw/cn/Window_of_Opportunity_I"
+    },
+    {
+      "type": "support",
+      "slug": "Adhesive_Grenades_I",
+      "english": "Adhesive Grenades I",
+      "chinese": "胶粘榴弹 I",
+      "poe2db": "https://poe2db.tw/cn/Adhesive_Grenades_I"
+    },
+    {
+      "type": "support",
+      "slug": "Admixture",
+      "english": "Admixture",
+      "chinese": "混合物",
+      "poe2db": "https://poe2db.tw/cn/Admixture"
+    },
+    {
+      "type": "support",
+      "slug": "Ammo_Conservation_I",
+      "english": "Ammo Conservation I",
+      "chinese": "节省弹药 I",
+      "poe2db": "https://poe2db.tw/cn/Ammo_Conservation_I"
+    },
+    {
+      "type": "support",
+      "slug": "Blind_I",
+      "english": "Blind I",
+      "chinese": "致盲 I",
+      "poe2db": "https://poe2db.tw/cn/Blind_I"
+    },
+    {
+      "type": "support",
+      "slug": "Bounty_I",
+      "english": "Bounty I",
+      "chinese": "丰饶 I",
+      "poe2db": "https://poe2db.tw/cn/Bounty_I"
+    },
+    {
+      "type": "support",
+      "slug": "Cadence",
+      "english": "Cadence",
+      "chinese": "节律",
+      "poe2db": "https://poe2db.tw/cn/Cadence"
+    },
+    {
+      "type": "support",
+      "slug": "Chain_II",
+      "english": "Chain II",
+      "chinese": "连锁 II",
+      "poe2db": "https://poe2db.tw/cn/Chain_II"
+    },
+    {
+      "type": "support",
+      "slug": "Inhibitor",
+      "english": "Inhibitor",
+      "chinese": "抑制器",
+      "poe2db": "https://poe2db.tw/cn/Inhibitor"
+    },
+    {
+      "type": "support",
+      "slug": "Commiserate",
+      "english": "Commiserate",
+      "chinese": "以己度人",
+      "poe2db": "https://poe2db.tw/cn/Commiserate"
+    },
+    {
+      "type": "support",
+      "slug": "Deadly_Poison_I",
+      "english": "Deadly Poison I",
+      "chinese": "致命毒素 I",
+      "poe2db": "https://poe2db.tw/cn/Deadly_Poison_I"
+    },
+    {
+      "type": "support",
+      "slug": "Delayed_Gratification",
+      "english": "Delayed Gratification",
+      "chinese": "延迟满足",
+      "poe2db": "https://poe2db.tw/cn/Delayed_Gratification"
+    },
+    {
+      "type": "support",
+      "slug": "Durability",
+      "english": "Durability",
+      "chinese": "耐久度",
+      "poe2db": "https://poe2db.tw/cn/Durability"
+    },
+    {
+      "type": "support",
+      "slug": "Electrocute",
+      "english": "Electrocute",
+      "chinese": "电殛",
+      "poe2db": "https://poe2db.tw/cn/Electrocute"
+    },
+    {
+      "type": "support",
+      "slug": "Longshot_I",
+      "english": "Longshot I",
+      "chinese": "远射 I",
+      "poe2db": "https://poe2db.tw/cn/Longshot_I"
+    },
+    {
+      "type": "support",
+      "slug": "Frenzied_Riposte",
+      "english": "Frenzied Riposte",
+      "chinese": "狂怒反击",
+      "poe2db": "https://poe2db.tw/cn/Frenzied_Riposte"
+    },
+    {
+      "type": "support",
+      "slug": "Frozen_Spite",
+      "english": "Frozen Spite",
+      "chinese": "冰冻怨恨",
+      "poe2db": "https://poe2db.tw/cn/Frozen_Spite"
+    },
+    {
+      "type": "support",
+      "slug": "Heightened_Charges",
+      "english": "Heightened Charges",
+      "chinese": "强化能量球",
+      "poe2db": "https://poe2db.tw/cn/Heightened_Charges"
+    },
+    {
+      "type": "support",
+      "slug": "Lasting_Shock",
+      "english": "Lasting Shock",
+      "chinese": "持久感电",
+      "poe2db": "https://poe2db.tw/cn/Lasting_Shock"
+    },
+    {
+      "type": "support",
+      "slug": "Lightning_Penetration",
+      "english": "Lightning Penetration",
+      "chinese": "闪电穿透",
+      "poe2db": "https://poe2db.tw/cn/Lightning_Penetration"
+    },
+    {
+      "type": "support",
+      "slug": "Maim",
+      "english": "Maim",
+      "chinese": "瘫痪",
+      "poe2db": "https://poe2db.tw/cn/Maim"
+    },
+    {
+      "type": "support",
+      "slug": "Momentum",
+      "english": "Momentum",
+      "chinese": "动量",
+      "poe2db": "https://poe2db.tw/cn/Momentum"
+    },
+    {
+      "type": "support",
+      "slug": "Multishot_II",
+      "english": "Multishot II",
+      "chinese": "多重射击 II",
+      "poe2db": "https://poe2db.tw/cn/Multishot_II"
+    },
+    {
+      "type": "support",
+      "slug": "Nova_Projectiles_I",
+      "english": "Nova Projectiles I",
+      "chinese": "新星投射物 I",
+      "poe2db": "https://poe2db.tw/cn/Nova_Projectiles_I"
+    },
+    {
+      "type": "support",
+      "slug": "Overextend",
+      "english": "Overextend",
+      "chinese": "竭力痛击",
+      "poe2db": "https://poe2db.tw/cn/Overextend"
+    },
+    {
+      "type": "support",
+      "slug": "Overreach",
+      "english": "Overreach",
+      "chinese": "过度延伸",
+      "poe2db": "https://poe2db.tw/cn/Overreach"
+    },
+    {
+      "type": "support",
+      "slug": "Pin_II",
+      "english": "Pin II",
+      "chinese": "定身 II",
+      "poe2db": "https://poe2db.tw/cn/Pin_II"
+    },
+    {
+      "type": "support",
+      "slug": "Second_Wind_I",
+      "english": "Second Wind I",
+      "chinese": "助力之风 I",
+      "poe2db": "https://poe2db.tw/cn/Second_Wind_I"
+    },
+    {
+      "type": "support",
+      "slug": "Shocking_Leap",
+      "english": "Shocking Leap",
+      "chinese": "电震跃击",
+      "poe2db": "https://poe2db.tw/cn/Shocking_Leap"
+    },
+    {
+      "type": "support",
+      "slug": "Bursting_Plague",
+      "english": "Bursting Plague",
+      "chinese": "迸发之疫",
+      "poe2db": "https://poe2db.tw/cn/Bursting_Plague"
+    },
+    {
+      "type": "support",
+      "slug": "Ricochet_I",
+      "english": "Ricochet I",
+      "chinese": "弹射 I",
+      "poe2db": "https://poe2db.tw/cn/Ricochet_I"
+    },
+    {
+      "type": "support",
+      "slug": "Volt",
+      "english": "Volt",
+      "chinese": "电伏积聚",
+      "poe2db": "https://poe2db.tw/cn/Volt"
+    },
+    {
+      "type": "support",
+      "slug": "Adhesive_Grenades_II",
+      "english": "Adhesive Grenades II",
+      "chinese": "胶粘榴弹 II",
+      "poe2db": "https://poe2db.tw/cn/Adhesive_Grenades_II"
+    },
+    {
+      "type": "support",
+      "slug": "Alignment_I",
+      "english": "Alignment I",
+      "chinese": "相性 I",
+      "poe2db": "https://poe2db.tw/cn/Alignment_I"
+    },
+    {
+      "type": "support",
+      "slug": "Caltrops",
+      "english": "Caltrops",
+      "chinese": "铁蒺藜",
+      "poe2db": "https://poe2db.tw/cn/Caltrops"
+    },
+    {
+      "type": "support",
+      "slug": "Charged_Shots_I",
+      "english": "Charged Shots I",
+      "chinese": "充能射击 I",
+      "poe2db": "https://poe2db.tw/cn/Charged_Shots_I"
+    },
+    {
+      "type": "support",
+      "slug": "Close_Combat_I",
+      "english": "Close Combat I",
+      "chinese": "近战 I",
+      "poe2db": "https://poe2db.tw/cn/Close_Combat_I"
+    },
+    {
+      "type": "support",
+      "slug": "Combo_Finisher_II",
+      "english": "Combo Finisher II",
+      "chinese": "连击终结 II",
+      "poe2db": "https://poe2db.tw/cn/Combo_Finisher_II"
+    },
+    {
+      "type": "support",
+      "slug": "Cooldown_Recovery_I",
+      "english": "Cooldown Recovery I",
+      "chinese": "冷却回复 I",
+      "poe2db": "https://poe2db.tw/cn/Cooldown_Recovery_I"
+    },
+    {
+      "type": "support",
+      "slug": "Culmination_I",
+      "english": "Culmination I",
+      "chinese": "登峰造极 I",
+      "poe2db": "https://poe2db.tw/cn/Culmination_I"
+    },
+    {
+      "type": "support",
+      "slug": "Deadly_Herald",
+      "english": "Deadly Herald",
+      "chinese": "致命之捷",
+      "poe2db": "https://poe2db.tw/cn/Deadly_Herald"
+    },
+    {
+      "type": "support",
+      "slug": "Deliberation",
+      "english": "Deliberation",
+      "chinese": "从容不迫",
+      "poe2db": "https://poe2db.tw/cn/Deliberation"
+    },
+    {
+      "type": "support",
+      "slug": "Longshot_II",
+      "english": "Longshot II",
+      "chinese": "远射 II",
+      "poe2db": "https://poe2db.tw/cn/Longshot_II"
+    },
+    {
+      "type": "support",
+      "slug": "Fork",
+      "english": "Fork",
+      "chinese": "分叉",
+      "poe2db": "https://poe2db.tw/cn/Fork"
+    },
+    {
+      "type": "support",
+      "slug": "Heightened_Accuracy_II",
+      "english": "Heightened Accuracy II",
+      "chinese": "精准增强 II",
+      "poe2db": "https://poe2db.tw/cn/Heightened_Accuracy_II"
+    },
+    {
+      "type": "support",
+      "slug": "Soul_Drain",
+      "english": "Soul Drain",
+      "chinese": "魂魔榨取",
+      "poe2db": "https://poe2db.tw/cn/Soul_Drain"
+    },
+    {
+      "type": "support",
+      "slug": "Mobility",
+      "english": "Mobility",
+      "chinese": "机动",
+      "poe2db": "https://poe2db.tw/cn/Mobility"
+    },
+    {
+      "type": "support",
+      "slug": "Neural_Overload",
+      "english": "Neural Overload",
+      "chinese": "神经超载",
+      "poe2db": "https://poe2db.tw/cn/Neural_Overload"
+    },
+    {
+      "type": "support",
+      "slug": "Pierce_II",
+      "english": "Pierce II",
+      "chinese": "穿透 II",
+      "poe2db": "https://poe2db.tw/cn/Pierce_II"
+    },
+    {
+      "type": "support",
+      "slug": "Poison_Spores",
+      "english": "Poison Spores",
+      "chinese": "毒孢迸溅",
+      "poe2db": "https://poe2db.tw/cn/Poison_Spores"
+    },
+    {
+      "type": "support",
+      "slug": "Poison_II",
+      "english": "Poison II",
+      "chinese": "中毒 II",
+      "poe2db": "https://poe2db.tw/cn/Poison_II"
+    },
+    {
+      "type": "support",
+      "slug": "Practiced_Combo",
+      "english": "Practiced Combo",
+      "chinese": "娴熟连击",
+      "poe2db": "https://poe2db.tw/cn/Practiced_Combo"
+    },
+    {
+      "type": "support",
+      "slug": "Projectile_Deceleration_II",
+      "english": "Projectile Deceleration II",
+      "chinese": "投射物减速 II",
+      "poe2db": "https://poe2db.tw/cn/Projectile_Deceleration_II"
+    },
+    {
+      "type": "support",
+      "slug": "Punch_Through",
+      "english": "Punch Through",
+      "chinese": "击穿",
+      "poe2db": "https://poe2db.tw/cn/Punch_Through"
+    },
+    {
+      "type": "support",
+      "slug": "Pursuit_II",
+      "english": "Pursuit II",
+      "chinese": "迫近追逐 II",
+      "poe2db": "https://poe2db.tw/cn/Pursuit_II"
+    },
+    {
+      "type": "support",
+      "slug": "Rearm_I",
+      "english": "Rearm I",
+      "chinese": "重新武装 I",
+      "poe2db": "https://poe2db.tw/cn/Rearm_I"
+    },
+    {
+      "type": "support",
+      "slug": "Retreat_II",
+      "english": "Retreat II",
+      "chinese": "撤退 II",
+      "poe2db": "https://poe2db.tw/cn/Retreat_II"
+    },
+    {
+      "type": "support",
+      "slug": "Salvo",
+      "english": "Salvo",
+      "chinese": "齐射",
+      "poe2db": "https://poe2db.tw/cn/Salvo"
+    },
+    {
+      "type": "support",
+      "slug": "Streamlined_Rounds",
+      "english": "Streamlined Rounds",
+      "chinese": "流线弹药",
+      "poe2db": "https://poe2db.tw/cn/Streamlined_Rounds"
+    },
+    {
+      "type": "support",
+      "slug": "Swift_Affliction_II",
+      "english": "Swift Affliction II",
+      "chinese": "极速腐化 II",
+      "poe2db": "https://poe2db.tw/cn/Swift_Affliction_II"
+    },
+    {
+      "type": "support",
+      "slug": "Warm_Blooded",
+      "english": "Warm Blooded",
+      "chinese": "温热血脉",
+      "poe2db": "https://poe2db.tw/cn/Warm_Blooded"
+    },
+    {
+      "type": "support",
+      "slug": "Alignment_II",
+      "english": "Alignment II",
+      "chinese": "相性 II",
+      "poe2db": "https://poe2db.tw/cn/Alignment_II"
+    },
+    {
+      "type": "support",
+      "slug": "Ammo_Conservation_II",
+      "english": "Ammo Conservation II",
+      "chinese": "节省弹药 II",
+      "poe2db": "https://poe2db.tw/cn/Ammo_Conservation_II"
+    },
+    {
+      "type": "support",
+      "slug": "Bounty_II",
+      "english": "Bounty II",
+      "chinese": "丰饶 II",
+      "poe2db": "https://poe2db.tw/cn/Bounty_II"
+    },
+    {
+      "type": "support",
+      "slug": "Controlled_Hazard",
+      "english": "Controlled Hazard",
+      "chinese": "受控危技",
+      "poe2db": "https://poe2db.tw/cn/Controlled_Hazard"
+    },
+    {
+      "type": "support",
+      "slug": "Cooldown_Recovery_II",
+      "english": "Cooldown Recovery II",
+      "chinese": "冷却回复 II",
+      "poe2db": "https://poe2db.tw/cn/Cooldown_Recovery_II"
+    },
+    {
+      "type": "support",
+      "slug": "Culling_Strike_I",
+      "english": "Culling Strike I",
+      "chinese": "终结 I",
+      "poe2db": "https://poe2db.tw/cn/Culling_Strike_I"
+    },
+    {
+      "type": "support",
+      "slug": "Deadly_Poison_II",
+      "english": "Deadly Poison II",
+      "chinese": "致命毒素 II",
+      "poe2db": "https://poe2db.tw/cn/Deadly_Poison_II"
+    },
+    {
+      "type": "support",
+      "slug": "Delayed_Reaction",
+      "english": "Delayed Reaction",
+      "chinese": "延迟激活",
+      "poe2db": "https://poe2db.tw/cn/Delayed_Reaction"
+    },
+    {
+      "type": "support",
+      "slug": "Hit_and_Run",
+      "english": "Hit and Run",
+      "chinese": "连打带跑",
+      "poe2db": "https://poe2db.tw/cn/Hit_and_Run"
+    },
+    {
+      "type": "support",
+      "slug": "Impale",
+      "english": "Impale",
+      "chinese": "穿刺",
+      "poe2db": "https://poe2db.tw/cn/Impale"
+    },
+    {
+      "type": "support",
+      "slug": "Overabundance_II",
+      "english": "Overabundance II",
+      "chinese": "冗余 II",
+      "poe2db": "https://poe2db.tw/cn/Overabundance_II"
+    },
+    {
+      "type": "support",
+      "slug": "Lightning_Exposure",
+      "english": "Lightning Exposure",
+      "chinese": "闪电曝露",
+      "poe2db": "https://poe2db.tw/cn/Lightning_Exposure"
+    },
+    {
+      "type": "support",
+      "slug": "Nimble_Reload",
+      "english": "Nimble Reload",
+      "chinese": "敏捷装填",
+      "poe2db": "https://poe2db.tw/cn/Nimble_Reload"
+    },
+    {
+      "type": "support",
+      "slug": "Nova_Projectiles_II",
+      "english": "Nova Projectiles II",
+      "chinese": "新星投射物 II",
+      "poe2db": "https://poe2db.tw/cn/Nova_Projectiles_II"
+    },
+    {
+      "type": "support",
+      "slug": "Overcharge",
+      "english": "Overcharge",
+      "chinese": "过载",
+      "poe2db": "https://poe2db.tw/cn/Overcharge"
+    },
+    {
+      "type": "support",
+      "slug": "Payload",
+      "english": "Payload",
+      "chinese": "子母弹",
+      "poe2db": "https://poe2db.tw/cn/Payload"
+    },
+    {
+      "type": "support",
+      "slug": "Perfected_Endurance",
+      "english": "Perfected Endurance",
+      "chinese": "完美耐力",
+      "poe2db": "https://poe2db.tw/cn/Perfected_Endurance"
+    },
+    {
+      "type": "support",
+      "slug": "Perfection",
+      "english": "Perfection",
+      "chinese": "完美",
+      "poe2db": "https://poe2db.tw/cn/Perfection"
+    },
+    {
+      "type": "support",
+      "slug": "Precision_II",
+      "english": "Precision II",
+      "chinese": "精准 II",
+      "poe2db": "https://poe2db.tw/cn/Precision_II"
+    },
+    {
+      "type": "support",
+      "slug": "Projectile_Acceleration_II",
+      "english": "Projectile Acceleration II",
+      "chinese": "投射物加速 II",
+      "poe2db": "https://poe2db.tw/cn/Projectile_Acceleration_II"
+    },
+    {
+      "type": "support",
+      "slug": "Rapid_Attacks_II",
+      "english": "Rapid Attacks II",
+      "chinese": "快速攻击 II",
+      "poe2db": "https://poe2db.tw/cn/Rapid_Attacks_II"
+    },
+    {
+      "type": "support",
+      "slug": "Second_Wind_II",
+      "english": "Second Wind II",
+      "chinese": "助力之风 II",
+      "poe2db": "https://poe2db.tw/cn/Second_Wind_II"
+    },
+    {
+      "type": "support",
+      "slug": "Spectral_Volley",
+      "english": "Spectral Volley",
+      "chinese": "灵体齐射",
+      "poe2db": "https://poe2db.tw/cn/Spectral_Volley"
+    },
+    {
+      "type": "support",
+      "slug": "Ricochet_II",
+      "english": "Ricochet II",
+      "chinese": "弹射 II",
+      "poe2db": "https://poe2db.tw/cn/Ricochet_II"
+    },
+    {
+      "type": "support",
+      "slug": "Alignment_III",
+      "english": "Alignment III",
+      "chinese": "相性 III",
+      "poe2db": "https://poe2db.tw/cn/Alignment_III"
+    },
+    {
+      "type": "support",
+      "slug": "Ammo_Conservation_III",
+      "english": "Ammo Conservation III",
+      "chinese": "节省弹药 III",
+      "poe2db": "https://poe2db.tw/cn/Ammo_Conservation_III"
+    },
+    {
+      "type": "support",
+      "slug": "Blind_II",
+      "english": "Blind II",
+      "chinese": "致盲 II",
+      "poe2db": "https://poe2db.tw/cn/Blind_II"
+    },
+    {
+      "type": "support",
+      "slug": "Chain_III",
+      "english": "Chain III",
+      "chinese": "连锁 III",
+      "poe2db": "https://poe2db.tw/cn/Chain_III"
+    },
+    {
+      "type": "support",
+      "slug": "Charge_Profusion_II",
+      "english": "Charge Profusion II",
+      "chinese": "能量球激增 II",
+      "poe2db": "https://poe2db.tw/cn/Charge_Profusion_II"
+    },
+    {
+      "type": "support",
+      "slug": "Charged_Mark",
+      "english": "Charged Mark",
+      "chinese": "充能印记",
+      "poe2db": "https://poe2db.tw/cn/Charged_Mark"
+    },
+    {
+      "type": "support",
+      "slug": "Charged_Shots_II",
+      "english": "Charged Shots II",
+      "chinese": "充能射击 II",
+      "poe2db": "https://poe2db.tw/cn/Charged_Shots_II"
+    },
+    {
+      "type": "support",
+      "slug": "Close_Combat_II",
+      "english": "Close Combat II",
+      "chinese": "近战 II",
+      "poe2db": "https://poe2db.tw/cn/Close_Combat_II"
+    },
+    {
+      "type": "support",
+      "slug": "Culling_Strike_II",
+      "english": "Culling Strike II",
+      "chinese": "终结 II",
+      "poe2db": "https://poe2db.tw/cn/Culling_Strike_II"
+    },
+    {
+      "type": "support",
+      "slug": "Culmination_II",
+      "english": "Culmination II",
+      "chinese": "登峰造极 II",
+      "poe2db": "https://poe2db.tw/cn/Culmination_II"
+    },
+    {
+      "type": "support",
+      "slug": "Pierce_III",
+      "english": "Pierce III",
+      "chinese": "穿透 III",
+      "poe2db": "https://poe2db.tw/cn/Pierce_III"
+    },
+    {
+      "type": "support",
+      "slug": "Pin_III",
+      "english": "Pin III",
+      "chinese": "定身 III",
+      "poe2db": "https://poe2db.tw/cn/Pin_III"
+    },
+    {
+      "type": "support",
+      "slug": "Poison_III",
+      "english": "Poison III",
+      "chinese": "中毒 III",
+      "poe2db": "https://poe2db.tw/cn/Poison_III"
+    },
+    {
+      "type": "support",
+      "slug": "Projectile_Acceleration_III",
+      "english": "Projectile Acceleration III",
+      "chinese": "投射物加速 III",
+      "poe2db": "https://poe2db.tw/cn/Projectile_Acceleration_III"
+    },
+    {
+      "type": "support",
+      "slug": "Pursuit_III",
+      "english": "Pursuit III",
+      "chinese": "迫近追逐 III",
+      "poe2db": "https://poe2db.tw/cn/Pursuit_III"
+    },
+    {
+      "type": "support",
+      "slug": "Rapid_Attacks_III",
+      "english": "Rapid Attacks III",
+      "chinese": "快速攻击 III",
+      "poe2db": "https://poe2db.tw/cn/Rapid_Attacks_III"
+    },
+    {
+      "type": "support",
+      "slug": "Rearm_II",
+      "english": "Rearm II",
+      "chinese": "重新武装 II",
+      "poe2db": "https://poe2db.tw/cn/Rearm_II"
+    },
+    {
+      "type": "support",
+      "slug": "Retreat_III",
+      "english": "Retreat III",
+      "chinese": "撤退 III",
+      "poe2db": "https://poe2db.tw/cn/Retreat_III"
+    },
+    {
+      "type": "support",
+      "slug": "Second_Wind_III",
+      "english": "Second Wind III",
+      "chinese": "助力之风 III",
+      "poe2db": "https://poe2db.tw/cn/Second_Wind_III"
+    },
+    {
+      "type": "support",
+      "slug": "Swift_Affliction_III",
+      "english": "Swift Affliction III",
+      "chinese": "极速腐化 III",
+      "poe2db": "https://poe2db.tw/cn/Swift_Affliction_III"
+    },
+    {
+      "type": "support",
+      "slug": "Window_of_Opportunity_II",
+      "english": "Window of Opportunity II",
+      "chinese": "大好时机 II",
+      "poe2db": "https://poe2db.tw/cn/Window_of_Opportunity_II"
+    },
+    {
+      "type": "support",
+      "slug": "Ahns_Citadel",
+      "english": "Ahn's Citadel",
+      "chinese": "汉恩的城塞",
+      "poe2db": "https://poe2db.tw/cn/Ahns_Citadel"
+    },
+    {
+      "type": "support",
+      "slug": "Arbiters_Ignition",
+      "english": "Arbiter's Ignition",
+      "chinese": "仲裁官的点燃",
+      "poe2db": "https://poe2db.tw/cn/Arbiters_Ignition"
+    },
+    {
+      "type": "support",
+      "slug": "Atziris_Allure",
+      "english": "Atziri's Allure",
+      "chinese": "阿兹里的魅惑",
+      "poe2db": "https://poe2db.tw/cn/Atziris_Allure"
+    },
+    {
+      "type": "support",
+      "slug": "Atziris_Call",
+      "english": "Atziri's Call",
+      "chinese": "阿兹里的召唤",
+      "poe2db": "https://poe2db.tw/cn/Atziris_Call"
+    },
+    {
+      "type": "support",
+      "slug": "Bhatairs_Vengeance",
+      "english": "Bhatair's Vengeance",
+      "chinese": "巴蒂尔的复仇",
+      "poe2db": "https://poe2db.tw/cn/Bhatairs_Vengeance"
+    },
+    {
+      "type": "support",
+      "slug": "Commandment",
+      "english": "Commandment",
+      "chinese": "调遣",
+      "poe2db": "https://poe2db.tw/cn/Commandment"
+    },
+    {
+      "type": "support",
+      "slug": "Diallas_Desire",
+      "english": "Dialla's Desire",
+      "chinese": "达拉的渴望",
+      "poe2db": "https://poe2db.tw/cn/Diallas_Desire"
+    },
+    {
+      "type": "support",
+      "slug": "Doedres_Undoing",
+      "english": "Doedre's Undoing",
+      "chinese": "德瑞的毁灭",
+      "poe2db": "https://poe2db.tw/cn/Doedres_Undoing"
+    },
+    {
+      "type": "support",
+      "slug": "Shock_Siphon",
+      "english": "Shock Siphon",
+      "chinese": "感电虹吸",
+      "poe2db": "https://poe2db.tw/cn/Shock_Siphon"
+    },
+    {
+      "type": "support",
+      "slug": "Eshs_Radiance",
+      "english": "Esh's Radiance",
+      "chinese": "艾许的光辉",
+      "poe2db": "https://poe2db.tw/cn/Eshs_Radiance"
+    },
+    {
+      "type": "support",
+      "slug": "Ixchels_Torment",
+      "english": "Ixchel's Torment",
+      "chinese": "伊克切尔的折磨",
+      "poe2db": "https://poe2db.tw/cn/Ixchels_Torment"
+    },
+    {
+      "type": "support",
+      "slug": "Freezefork",
+      "english": "Freezefork",
+      "chinese": "冻结分叉",
+      "poe2db": "https://poe2db.tw/cn/Freezefork"
+    },
+    {
+      "type": "support",
+      "slug": "Guatelitzis_Ablation",
+      "english": "Guatelitzi's Ablation",
+      "chinese": "瓜铁雷兹的消融",
+      "poe2db": "https://poe2db.tw/cn/Guatelitzis_Ablation"
+    },
+    {
+      "type": "support",
+      "slug": "Hayoxis_Fulmination",
+      "english": "Hayoxi's Fulmination",
+      "chinese": "海幽夏的诛罚",
+      "poe2db": "https://poe2db.tw/cn/Hayoxis_Fulmination"
+    },
+    {
+      "type": "support",
+      "slug": "Kalisas_Crescendo",
+      "english": "Kalisa's Crescendo",
+      "chinese": "卡莉莎的强音",
+      "poe2db": "https://poe2db.tw/cn/Kalisas_Crescendo"
+    },
+    {
+      "type": "support",
+      "slug": "Khatals_Rejuvenation",
+      "english": "Khatal's Rejuvenation",
+      "chinese": "卡哈塔的复苏",
+      "poe2db": "https://poe2db.tw/cn/Khatals_Rejuvenation"
+    },
+    {
+      "type": "support",
+      "slug": "Kulemaks_Dominion",
+      "english": "Kulemak's Dominion",
+      "chinese": "库勒马克的统治",
+      "poe2db": "https://poe2db.tw/cn/Kulemaks_Dominion"
+    },
+    {
+      "type": "support",
+      "slug": "Kurgals_Leash",
+      "english": "Kurgal's Leash",
+      "chinese": "古加尔的缰绳",
+      "poe2db": "https://poe2db.tw/cn/Kurgals_Leash"
+    },
+    {
+      "type": "support",
+      "slug": "Morganas_Tempest",
+      "english": "Morgana's Tempest",
+      "chinese": "莫甘娜的暴风",
+      "poe2db": "https://poe2db.tw/cn/Morganas_Tempest"
+    },
+    {
+      "type": "support",
+      "slug": "Ois%C3%ADns_Oath",
+      "english": "Oisín's Oath",
+      "chinese": "奥辛之誓",
+      "poe2db": "https://poe2db.tw/cn/Ois%C3%ADns_Oath"
+    },
+    {
+      "type": "support",
+      "slug": "Romiras_Requital",
+      "english": "Romira's Requital",
+      "chinese": "罗米拉的报复",
+      "poe2db": "https://poe2db.tw/cn/Romiras_Requital"
+    },
+    {
+      "type": "support",
+      "slug": "Tecrods_Revenge",
+      "english": "Tecrod's Revenge",
+      "chinese": "特克罗的复仇",
+      "poe2db": "https://poe2db.tw/cn/Tecrods_Revenge"
+    },
+    {
+      "type": "support",
+      "slug": "Varashtas_Blessing",
+      "english": "Varashta's Blessing",
+      "chinese": "瓦拉煞的祝福",
+      "poe2db": "https://poe2db.tw/cn/Varashtas_Blessing"
+    },
+    {
+      "type": "support",
+      "slug": "Vilentas_Propulsion",
+      "english": "Vilenta's Propulsion",
+      "chinese": "薇伦塔之推进",
+      "poe2db": "https://poe2db.tw/cn/Vilentas_Propulsion"
+    },
+    {
+      "type": "support",
+      "slug": "Siones_Temper",
+      "english": "Sione's Temper",
+      "chinese": "西奥妮的怒火",
+      "poe2db": "https://poe2db.tw/cn/Siones_Temper"
+    },
+    {
+      "type": "support",
+      "slug": "Xibaquas_Rending",
+      "english": "Xibaqua's Rending",
+      "chinese": "夏巴夸亚的撕裂",
+      "poe2db": "https://poe2db.tw/cn/Xibaquas_Rending"
+    },
+    {
+      "type": "support",
+      "slug": "Zarokhs_Refrain",
+      "english": "Zarokh's Refrain",
+      "chinese": "扎洛卡的克制",
+      "poe2db": "https://poe2db.tw/cn/Zarokhs_Refrain"
+    },
+    {
+      "type": "support",
+      "slug": "Zarokhs_Revolt",
+      "english": "Zarokh's Revolt",
+      "chinese": "扎洛卡的反叛",
+      "poe2db": "https://poe2db.tw/cn/Zarokhs_Revolt"
+    },
+    {
+      "type": "support",
+      "slug": "Cold_Attunement",
+      "english": "Cold Attunement",
+      "chinese": "冰霜协调",
+      "poe2db": "https://poe2db.tw/cn/Cold_Attunement"
+    },
+    {
+      "type": "support",
+      "slug": "Ambush",
+      "english": "Ambush",
+      "chinese": "伏击",
+      "poe2db": "https://poe2db.tw/cn/Ambush"
+    },
+    {
+      "type": "support",
+      "slug": "Arcane_Surge",
+      "english": "Arcane Surge",
+      "chinese": "秘术增强",
+      "poe2db": "https://poe2db.tw/cn/Arcane_Surge"
+    },
+    {
+      "type": "support",
+      "slug": "Burgeon_I",
+      "english": "Burgeon I",
+      "chinese": "迅猛增幅 I",
+      "poe2db": "https://poe2db.tw/cn/Burgeon_I"
+    },
+    {
+      "type": "support",
+      "slug": "Clarity_I",
+      "english": "Clarity I",
+      "chinese": "清晰 I",
+      "poe2db": "https://poe2db.tw/cn/Clarity_I"
+    },
+    {
+      "type": "support",
+      "slug": "Concentrated_Area",
+      "english": "Concentrated Area",
+      "chinese": "范围集中",
+      "poe2db": "https://poe2db.tw/cn/Concentrated_Area"
+    },
+    {
+      "type": "support",
+      "slug": "Controlled_Destruction",
+      "english": "Controlled Destruction",
+      "chinese": "精准破坏",
+      "poe2db": "https://poe2db.tw/cn/Controlled_Destruction"
+    },
+    {
+      "type": "support",
+      "slug": "Creeping_Chill",
+      "english": "Creeping Chill",
+      "chinese": "蔓延寒霜",
+      "poe2db": "https://poe2db.tw/cn/Creeping_Chill"
+    },
+    {
+      "type": "support",
+      "slug": "Crescendo_I",
+      "english": "Crescendo I",
+      "chinese": "渐入佳境 I",
+      "poe2db": "https://poe2db.tw/cn/Crescendo_I"
+    },
+    {
+      "type": "support",
+      "slug": "Crystalline_Shards",
+      "english": "Crystalline Shards",
+      "chinese": "水晶碎片",
+      "poe2db": "https://poe2db.tw/cn/Crystalline_Shards"
+    },
+    {
+      "type": "support",
+      "slug": "Heightened_Curse",
+      "english": "Heightened Curse",
+      "chinese": "强效诅咒",
+      "poe2db": "https://poe2db.tw/cn/Heightened_Curse"
+    },
+    {
+      "type": "support",
+      "slug": "Coursing_Current",
+      "english": "Coursing Current",
+      "chinese": "奔雷疾走",
+      "poe2db": "https://poe2db.tw/cn/Coursing_Current"
+    },
+    {
+      "type": "support",
+      "slug": "Elemental_Army",
+      "english": "Elemental Army",
+      "chinese": "元素大军",
+      "poe2db": "https://poe2db.tw/cn/Elemental_Army"
+    },
+    {
+      "type": "support",
+      "slug": "Expanse",
+      "english": "Expanse",
+      "chinese": "开疆",
+      "poe2db": "https://poe2db.tw/cn/Expanse"
+    },
+    {
+      "type": "support",
+      "slug": "Hourglass",
+      "english": "Hourglass",
+      "chinese": "时之沙漏",
+      "poe2db": "https://poe2db.tw/cn/Hourglass"
+    },
+    {
+      "type": "support",
+      "slug": "Ice_Bite_I",
+      "english": "Ice Bite I",
+      "chinese": "霜咬 I",
+      "poe2db": "https://poe2db.tw/cn/Ice_Bite_I"
+    },
+    {
+      "type": "support",
+      "slug": "Impending_Doom",
+      "english": "Impending Doom",
+      "chinese": "末日将至",
+      "poe2db": "https://poe2db.tw/cn/Impending_Doom"
+    },
+    {
+      "type": "support",
+      "slug": "Last_Gasp",
+      "english": "Last Gasp",
+      "chinese": "亡命之息",
+      "poe2db": "https://poe2db.tw/cn/Last_Gasp"
+    },
+    {
+      "type": "support",
+      "slug": "Deep_Freeze",
+      "english": "Deep Freeze",
+      "chinese": "深度冻结",
+      "poe2db": "https://poe2db.tw/cn/Deep_Freeze"
+    },
+    {
+      "type": "support",
+      "slug": "Magnified_Area_I",
+      "english": "Magnified Area I",
+      "chinese": "范围扩大 I",
+      "poe2db": "https://poe2db.tw/cn/Magnified_Area_I"
+    },
+    {
+      "type": "support",
+      "slug": "Mark_of_Siphoning",
+      "english": "Mark of Siphoning",
+      "chinese": "虹吸印记",
+      "poe2db": "https://poe2db.tw/cn/Mark_of_Siphoning"
+    },
+    {
+      "type": "support",
+      "slug": "Minion_Pact_I",
+      "english": "Minion Pact I",
+      "chinese": "召唤契约 I",
+      "poe2db": "https://poe2db.tw/cn/Minion_Pact_I"
+    },
+    {
+      "type": "support",
+      "slug": "Perpetual_Charge",
+      "english": "Perpetual Charge",
+      "chinese": "永续充能",
+      "poe2db": "https://poe2db.tw/cn/Perpetual_Charge"
+    },
+    {
+      "type": "support",
+      "slug": "Profanity_I",
+      "english": "Profanity I",
+      "chinese": "不敬 I",
+      "poe2db": "https://poe2db.tw/cn/Profanity_I"
+    },
+    {
+      "type": "support",
+      "slug": "Rapid_Casting_I",
+      "english": "Rapid Casting I",
+      "chinese": "快速施法 I",
+      "poe2db": "https://poe2db.tw/cn/Rapid_Casting_I"
+    },
+    {
+      "type": "support",
+      "slug": "Sacrificial_Lamb_I",
+      "english": "Sacrificial Lamb I",
+      "chinese": "替罪羔羊 I",
+      "poe2db": "https://poe2db.tw/cn/Sacrificial_Lamb_I"
+    },
+    {
+      "type": "support",
+      "slug": "Spell_Cascade",
+      "english": "Spell Cascade",
+      "chinese": "多重范围施法",
+      "poe2db": "https://poe2db.tw/cn/Spell_Cascade"
+    },
+    {
+      "type": "support",
+      "slug": "Thrill_of_the_Kill",
+      "english": "Thrill of the Kill",
+      "chinese": "杀戮快感",
+      "poe2db": "https://poe2db.tw/cn/Thrill_of_the_Kill"
+    },
+    {
+      "type": "support",
+      "slug": "Unleash",
+      "english": "Unleash",
+      "chinese": "释出",
+      "poe2db": "https://poe2db.tw/cn/Unleash"
+    },
+    {
+      "type": "support",
+      "slug": "Fortress_I",
+      "english": "Fortress I",
+      "chinese": "坚城 I",
+      "poe2db": "https://poe2db.tw/cn/Fortress_I"
+    },
+    {
+      "type": "support",
+      "slug": "Withering_Touch",
+      "english": "Withering Touch",
+      "chinese": "凋零之触",
+      "poe2db": "https://poe2db.tw/cn/Withering_Touch"
+    },
+    {
+      "type": "support",
+      "slug": "Zenith_I",
+      "english": "Zenith I",
+      "chinese": "天顶 I",
+      "poe2db": "https://poe2db.tw/cn/Zenith_I"
+    },
+    {
+      "type": "support",
+      "slug": "Abiding_Hex",
+      "english": "Abiding Hex",
+      "chinese": "恒远魔蛊",
+      "poe2db": "https://poe2db.tw/cn/Abiding_Hex"
+    },
+    {
+      "type": "support",
+      "slug": "Acrimony",
+      "english": "Acrimony",
+      "chinese": "尖刻",
+      "poe2db": "https://poe2db.tw/cn/Acrimony"
+    },
+    {
+      "type": "support",
+      "slug": "Ambrosia",
+      "english": "Ambrosia",
+      "chinese": "仙馔",
+      "poe2db": "https://poe2db.tw/cn/Ambrosia"
+    },
+    {
+      "type": "support",
+      "slug": "Bidding_I",
+      "english": "Bidding I",
+      "chinese": "奉命 I",
+      "poe2db": "https://poe2db.tw/cn/Bidding_I"
+    },
+    {
+      "type": "support",
+      "slug": "Bone_Shrapnel",
+      "english": "Bone Shrapnel",
+      "chinese": "钙质碎片",
+      "poe2db": "https://poe2db.tw/cn/Bone_Shrapnel"
+    },
+    {
+      "type": "support",
+      "slug": "Boundless_Energy_I",
+      "english": "Boundless Energy I",
+      "chinese": "无边能量 I",
+      "poe2db": "https://poe2db.tw/cn/Boundless_Energy_I"
+    },
+    {
+      "type": "support",
+      "slug": "Catharsis",
+      "english": "Catharsis",
+      "chinese": "泄除",
+      "poe2db": "https://poe2db.tw/cn/Catharsis"
+    },
+    {
+      "type": "support",
+      "slug": "Frost_Nexus",
+      "english": "Frost Nexus",
+      "chinese": "封冻枢纽",
+      "poe2db": "https://poe2db.tw/cn/Frost_Nexus"
+    },
+    {
+      "type": "support",
+      "slug": "Cold_Penetration",
+      "english": "Cold Penetration",
+      "chinese": "冰霜穿透",
+      "poe2db": "https://poe2db.tw/cn/Cold_Penetration"
+    },
+    {
+      "type": "support",
+      "slug": "Considered_Casting",
+      "english": "Considered Casting",
+      "chinese": "审慎施法",
+      "poe2db": "https://poe2db.tw/cn/Considered_Casting"
+    },
+    {
+      "type": "support",
+      "slug": "Crackling_Barrier",
+      "english": "Crackling Barrier",
+      "chinese": "霹雳屏障",
+      "poe2db": "https://poe2db.tw/cn/Crackling_Barrier"
+    },
+    {
+      "type": "support",
+      "slug": "Danse_Macabre",
+      "english": "Danse Macabre",
+      "chinese": "死亡之舞",
+      "poe2db": "https://poe2db.tw/cn/Danse_Macabre"
+    },
+    {
+      "type": "support",
+      "slug": "Deathmarch",
+      "english": "Deathmarch",
+      "chinese": "终末行军",
+      "poe2db": "https://poe2db.tw/cn/Deathmarch"
+    },
+    {
+      "type": "support",
+      "slug": "Embitter",
+      "english": "Embitter",
+      "chinese": "苦寒之意",
+      "poe2db": "https://poe2db.tw/cn/Embitter"
+    },
+    {
+      "type": "support",
+      "slug": "Empowered_Sparks_I",
+      "english": "Empowered Sparks I",
+      "chinese": "强化火花 I",
+      "poe2db": "https://poe2db.tw/cn/Empowered_Sparks_I"
+    },
+    {
+      "type": "support",
+      "slug": "Encroaching_Ground",
+      "english": "Encroaching Ground",
+      "chinese": "侵蚀地面",
+      "poe2db": "https://poe2db.tw/cn/Encroaching_Ground"
+    },
+    {
+      "type": "support",
+      "slug": "Excise",
+      "english": "Excise",
+      "chinese": "净除",
+      "poe2db": "https://poe2db.tw/cn/Excise"
+    },
+    {
+      "type": "support",
+      "slug": "Accelerated_Growth",
+      "english": "Accelerated Growth",
+      "chinese": "迅猛绽放",
+      "poe2db": "https://poe2db.tw/cn/Accelerated_Growth"
+    },
+    {
+      "type": "support",
+      "slug": "Fiery_Death",
+      "english": "Fiery Death",
+      "chinese": "炽灭",
+      "poe2db": "https://poe2db.tw/cn/Fiery_Death"
+    },
+    {
+      "type": "support",
+      "slug": "Harmonic_Remnants_I",
+      "english": "Harmonic Remnants I",
+      "chinese": "和谐残迹 I",
+      "poe2db": "https://poe2db.tw/cn/Harmonic_Remnants_I"
+    },
+    {
+      "type": "support",
+      "slug": "Focused_Curse",
+      "english": "Focused Curse",
+      "chinese": "聚焦诅咒",
+      "poe2db": "https://poe2db.tw/cn/Focused_Curse"
+    },
+    {
+      "type": "support",
+      "slug": "Freeze",
+      "english": "Freeze",
+      "chinese": "冻结",
+      "poe2db": "https://poe2db.tw/cn/Freeze"
+    },
+    {
+      "type": "support",
+      "slug": "Glacier",
+      "english": "Glacier",
+      "chinese": "冰川",
+      "poe2db": "https://poe2db.tw/cn/Glacier"
+    },
+    {
+      "type": "support",
+      "slug": "Gorge",
+      "english": "Gorge",
+      "chinese": "狼吞虎咽",
+      "poe2db": "https://poe2db.tw/cn/Gorge"
+    },
+    {
+      "type": "support",
+      "slug": "Icicle",
+      "english": "Icicle",
+      "chinese": "冰刺",
+      "poe2db": "https://poe2db.tw/cn/Icicle"
+    },
+    {
+      "type": "support",
+      "slug": "Intense_Agony",
+      "english": "Intense Agony",
+      "chinese": "剧烈痛苦",
+      "poe2db": "https://poe2db.tw/cn/Intense_Agony"
+    },
+    {
+      "type": "support",
+      "slug": "Living_Lightning",
+      "english": "Living Lightning",
+      "chinese": "活体闪电",
+      "poe2db": "https://poe2db.tw/cn/Living_Lightning"
+    },
+    {
+      "type": "support",
+      "slug": "Loyalty",
+      "english": "Loyalty",
+      "chinese": "忠诚",
+      "poe2db": "https://poe2db.tw/cn/Loyalty"
+    },
+    {
+      "type": "support",
+      "slug": "Mana_Flare",
+      "english": "Mana Flare",
+      "chinese": "魔力耀斑",
+      "poe2db": "https://poe2db.tw/cn/Mana_Flare"
+    },
+    {
+      "type": "support",
+      "slug": "Font_of_Mana",
+      "english": "Font of Mana",
+      "chinese": "魔力源泉",
+      "poe2db": "https://poe2db.tw/cn/Font_of_Mana"
+    },
+    {
+      "type": "support",
+      "slug": "Mana_Leech",
+      "english": "Mana Leech",
+      "chinese": "魔力偷取",
+      "poe2db": "https://poe2db.tw/cn/Mana_Leech"
+    },
+    {
+      "type": "support",
+      "slug": "Minion_Instability",
+      "english": "Minion Instability",
+      "chinese": "复仇之灵",
+      "poe2db": "https://poe2db.tw/cn/Minion_Instability"
+    },
+    {
+      "type": "support",
+      "slug": "Mysticism_I",
+      "english": "Mysticism I",
+      "chinese": "灵秘 I",
+      "poe2db": "https://poe2db.tw/cn/Mysticism_I"
+    },
+    {
+      "type": "support",
+      "slug": "Pinpoint_Critical",
+      "english": "Pinpoint Critical",
+      "chinese": "精准暴击",
+      "poe2db": "https://poe2db.tw/cn/Pinpoint_Critical"
+    },
+    {
+      "type": "support",
+      "slug": "Potent_Exposure",
+      "english": "Potent Exposure",
+      "chinese": "强力曝露",
+      "poe2db": "https://poe2db.tw/cn/Potent_Exposure"
+    },
+    {
+      "type": "support",
+      "slug": "Shock_Conduction_I",
+      "english": "Shock Conduction I",
+      "chinese": "感电传导 I",
+      "poe2db": "https://poe2db.tw/cn/Shock_Conduction_I"
+    },
+    {
+      "type": "support",
+      "slug": "Spell_Echo",
+      "english": "Spell Echo",
+      "chinese": "施法回响",
+      "poe2db": "https://poe2db.tw/cn/Spell_Echo"
+    },
+    {
+      "type": "support",
+      "slug": "Rising_Tempest",
+      "english": "Rising Tempest",
+      "chinese": "风暴骤起",
+      "poe2db": "https://poe2db.tw/cn/Rising_Tempest"
+    },
+    {
+      "type": "support",
+      "slug": "Upwelling_I",
+      "english": "Upwelling I",
+      "chinese": "升流 I",
+      "poe2db": "https://poe2db.tw/cn/Upwelling_I"
+    },
+    {
+      "type": "support",
+      "slug": "Wildfire",
+      "english": "Wildfire",
+      "chinese": "野火",
+      "poe2db": "https://poe2db.tw/cn/Wildfire"
+    },
+    {
+      "type": "support",
+      "slug": "Chaos_Attunement",
+      "english": "Chaos Attunement",
+      "chinese": "混沌协调",
+      "poe2db": "https://poe2db.tw/cn/Chaos_Attunement"
+    },
+    {
+      "type": "support",
+      "slug": "Ambrosia_II",
+      "english": "Ambrosia II",
+      "chinese": "仙馔 II",
+      "poe2db": "https://poe2db.tw/cn/Ambrosia_II"
+    },
+    {
+      "type": "support",
+      "slug": "Astral_Projection",
+      "english": "Astral Projection",
+      "chinese": "星界投射",
+      "poe2db": "https://poe2db.tw/cn/Astral_Projection"
+    },
+    {
+      "type": "support",
+      "slug": "Biting_Frost_I",
+      "english": "Biting Frost I",
+      "chinese": "刺骨寒意 I",
+      "poe2db": "https://poe2db.tw/cn/Biting_Frost_I"
+    },
+    {
+      "type": "support",
+      "slug": "Brittle_Armour",
+      "english": "Brittle Armour",
+      "chinese": "脆弱护甲",
+      "poe2db": "https://poe2db.tw/cn/Brittle_Armour"
+    },
+    {
+      "type": "support",
+      "slug": "Chaotic_Freeze",
+      "english": "Chaotic Freeze",
+      "chinese": "混沌冻结",
+      "poe2db": "https://poe2db.tw/cn/Chaotic_Freeze"
+    },
+    {
+      "type": "support",
+      "slug": "Corpse_Conservation",
+      "english": "Corpse Conservation",
+      "chinese": "灵盒留存",
+      "poe2db": "https://poe2db.tw/cn/Corpse_Conservation"
+    },
+    {
+      "type": "support",
+      "slug": "Cursed_Ground",
+      "english": "Cursed Ground",
+      "chinese": "诅咒之地",
+      "poe2db": "https://poe2db.tw/cn/Cursed_Ground"
+    },
+    {
+      "type": "support",
+      "slug": "Decaying_Hex",
+      "english": "Decaying Hex",
+      "chinese": "衰颓魔蛊",
+      "poe2db": "https://poe2db.tw/cn/Decaying_Hex"
+    },
+    {
+      "type": "support",
+      "slug": "Drain_Ailments",
+      "english": "Drain Ailments",
+      "chinese": "异常状态吸收",
+      "poe2db": "https://poe2db.tw/cn/Drain_Ailments"
+    },
+    {
+      "type": "support",
+      "slug": "Elemental_Discharge",
+      "english": "Elemental Discharge",
+      "chinese": "元素解放",
+      "poe2db": "https://poe2db.tw/cn/Elemental_Discharge"
+    },
+    {
+      "type": "support",
+      "slug": "Elemental_Focus",
+      "english": "Elemental Focus",
+      "chinese": "元素集中",
+      "poe2db": "https://poe2db.tw/cn/Elemental_Focus"
+    },
+    {
+      "type": "support",
+      "slug": "Energy_Capacitor",
+      "english": "Energy Capacitor",
+      "chinese": "能量电容",
+      "poe2db": "https://poe2db.tw/cn/Energy_Capacitor"
+    },
+    {
+      "type": "support",
+      "slug": "Energy_Retention",
+      "english": "Energy Retention",
+      "chinese": "能量保存",
+      "poe2db": "https://poe2db.tw/cn/Energy_Retention"
+    },
+    {
+      "type": "support",
+      "slug": "Essence_Harvest",
+      "english": "Essence Harvest",
+      "chinese": "收割精华",
+      "poe2db": "https://poe2db.tw/cn/Essence_Harvest"
+    },
+    {
+      "type": "support",
+      "slug": "Eternal_Mark",
+      "english": "Eternal Mark",
+      "chinese": "永恒印记",
+      "poe2db": "https://poe2db.tw/cn/Eternal_Mark"
+    },
+    {
+      "type": "support",
+      "slug": "Execrate",
+      "english": "Execrate",
+      "chinese": "怨恨",
+      "poe2db": "https://poe2db.tw/cn/Execrate"
+    },
+    {
+      "type": "support",
+      "slug": "Extraction",
+      "english": "Extraction",
+      "chinese": "萃取",
+      "poe2db": "https://poe2db.tw/cn/Extraction"
+    },
+    {
+      "type": "support",
+      "slug": "Feeding_Frenzy_I",
+      "english": "Feeding Frenzy I",
+      "chinese": "狂噬 I",
+      "poe2db": "https://poe2db.tw/cn/Feeding_Frenzy_I"
+    },
+    {
+      "type": "support",
+      "slug": "Harmonic_Remnants_II",
+      "english": "Harmonic Remnants II",
+      "chinese": "和谐残迹 II",
+      "poe2db": "https://poe2db.tw/cn/Harmonic_Remnants_II"
+    },
+    {
+      "type": "support",
+      "slug": "Fluke",
+      "english": "Fluke",
+      "chinese": "运势",
+      "poe2db": "https://poe2db.tw/cn/Fluke"
+    },
+    {
+      "type": "support",
+      "slug": "Frostfire",
+      "english": "Frostfire",
+      "chinese": "霜火",
+      "poe2db": "https://poe2db.tw/cn/Frostfire"
+    },
+    {
+      "type": "support",
+      "slug": "Gambleshot",
+      "english": "Gambleshot",
+      "chinese": "投机射击",
+      "poe2db": "https://poe2db.tw/cn/Gambleshot"
+    },
+    {
+      "type": "support",
+      "slug": "Hex_Bloom",
+      "english": "Hex Bloom",
+      "chinese": "魔蛊绽放",
+      "poe2db": "https://poe2db.tw/cn/Hex_Bloom"
+    },
+    {
+      "type": "support",
+      "slug": "Ice_Bite_II",
+      "english": "Ice Bite II",
+      "chinese": "霜咬 II",
+      "poe2db": "https://poe2db.tw/cn/Ice_Bite_II"
+    },
+    {
+      "type": "support",
+      "slug": "Supercritical",
+      "english": "Supercritical",
+      "chinese": "特化暴击",
+      "poe2db": "https://poe2db.tw/cn/Supercritical"
+    },
+    {
+      "type": "support",
+      "slug": "Inexorable_Critical_I",
+      "english": "Inexorable Critical I",
+      "chinese": "命定绝杀 I",
+      "poe2db": "https://poe2db.tw/cn/Inexorable_Critical_I"
+    },
+    {
+      "type": "support",
+      "slug": "Magnified_Area_II",
+      "english": "Magnified Area II",
+      "chinese": "范围扩大 II",
+      "poe2db": "https://poe2db.tw/cn/Magnified_Area_II"
+    },
+    {
+      "type": "support",
+      "slug": "Muster",
+      "english": "Muster",
+      "chinese": "海纳百川",
+      "poe2db": "https://poe2db.tw/cn/Muster"
+    },
+    {
+      "type": "support",
+      "slug": "Practical_Magic_I",
+      "english": "Practical Magic I",
+      "chinese": "实用魔法I",
+      "poe2db": "https://poe2db.tw/cn/Practical_Magic_I"
+    },
+    {
+      "type": "support",
+      "slug": "Ritualistic_Curse",
+      "english": "Ritualistic Curse",
+      "chinese": "仪祭诅咒",
+      "poe2db": "https://poe2db.tw/cn/Ritualistic_Curse"
+    },
+    {
+      "type": "support",
+      "slug": "Sacrificial_Lamb_II",
+      "english": "Sacrificial Lamb II",
+      "chinese": "替罪羔羊 II",
+      "poe2db": "https://poe2db.tw/cn/Sacrificial_Lamb_II"
+    },
+    {
+      "type": "support",
+      "slug": "Sacrificial_Offering",
+      "english": "Sacrificial Offering",
+      "chinese": "牺牲供奉",
+      "poe2db": "https://poe2db.tw/cn/Sacrificial_Offering"
+    },
+    {
+      "type": "support",
+      "slug": "Electromagnetism",
+      "english": "Electromagnetism",
+      "chinese": "电磁力场",
+      "poe2db": "https://poe2db.tw/cn/Electromagnetism"
+    },
+    {
+      "type": "support",
+      "slug": "Static_Shocks",
+      "english": "Static Shocks",
+      "chinese": "静电脉冲",
+      "poe2db": "https://poe2db.tw/cn/Static_Shocks"
+    },
+    {
+      "type": "support",
+      "slug": "Stormfire",
+      "english": "Stormfire",
+      "chinese": "风暴之炎",
+      "poe2db": "https://poe2db.tw/cn/Stormfire"
+    },
+    {
+      "type": "support",
+      "slug": "Strong_Hearted",
+      "english": "Strong Hearted",
+      "chinese": "强健心灵",
+      "poe2db": "https://poe2db.tw/cn/Strong_Hearted"
+    },
+    {
+      "type": "support",
+      "slug": "Thrill_of_the_Kill_II",
+      "english": "Thrill of the Kill II",
+      "chinese": "杀戮快感II",
+      "poe2db": "https://poe2db.tw/cn/Thrill_of_the_Kill_II"
+    },
+    {
+      "type": "support",
+      "slug": "Verglas",
+      "english": "Verglas",
+      "chinese": "雨淞",
+      "poe2db": "https://poe2db.tw/cn/Verglas"
+    },
+    {
+      "type": "support",
+      "slug": "Volatility",
+      "english": "Volatility",
+      "chinese": "无常",
+      "poe2db": "https://poe2db.tw/cn/Volatility"
+    },
+    {
+      "type": "support",
+      "slug": "Fortress_II",
+      "english": "Fortress II",
+      "chinese": "坚城 II",
+      "poe2db": "https://poe2db.tw/cn/Fortress_II"
+    },
+    {
+      "type": "support",
+      "slug": "Wildshards_I",
+      "english": "Wildshards I",
+      "chinese": "狂野碎片 I",
+      "poe2db": "https://poe2db.tw/cn/Wildshards_I"
+    },
+    {
+      "type": "support",
+      "slug": "Zenith_II",
+      "english": "Zenith II",
+      "chinese": "天顶 II",
+      "poe2db": "https://poe2db.tw/cn/Zenith_II"
+    },
+    {
+      "type": "support",
+      "slug": "Advancing_Storm",
+      "english": "Advancing Storm",
+      "chinese": "风暴行军",
+      "poe2db": "https://poe2db.tw/cn/Advancing_Storm"
+    },
+    {
+      "type": "support",
+      "slug": "Bidding_II",
+      "english": "Bidding II",
+      "chinese": "奉命 II",
+      "poe2db": "https://poe2db.tw/cn/Bidding_II"
+    },
+    {
+      "type": "support",
+      "slug": "Blazing_Critical",
+      "english": "Blazing Critical",
+      "chinese": "炽烈绝杀",
+      "poe2db": "https://poe2db.tw/cn/Blazing_Critical"
+    },
+    {
+      "type": "support",
+      "slug": "Boundless_Energy_II",
+      "english": "Boundless Energy II",
+      "chinese": "无边能量 II",
+      "poe2db": "https://poe2db.tw/cn/Boundless_Energy_II"
+    },
+    {
+      "type": "support",
+      "slug": "Burgeon_II",
+      "english": "Burgeon II",
+      "chinese": "迅猛增幅 II",
+      "poe2db": "https://poe2db.tw/cn/Burgeon_II"
+    },
+    {
+      "type": "support",
+      "slug": "Burning_Inscription",
+      "english": "Burning Inscription",
+      "chinese": "燃烧铭文",
+      "poe2db": "https://poe2db.tw/cn/Burning_Inscription"
+    },
+    {
+      "type": "support",
+      "slug": "Clarity_II",
+      "english": "Clarity II",
+      "chinese": "清晰 II",
+      "poe2db": "https://poe2db.tw/cn/Clarity_II"
+    },
+    {
+      "type": "support",
+      "slug": "Cold_Exposure",
+      "english": "Cold Exposure",
+      "chinese": "冰霜曝露",
+      "poe2db": "https://poe2db.tw/cn/Cold_Exposure"
+    },
+    {
+      "type": "support",
+      "slug": "Concussive_Spells",
+      "english": "Concussive Spells",
+      "chinese": "冲击法术",
+      "poe2db": "https://poe2db.tw/cn/Concussive_Spells"
+    },
+    {
+      "type": "support",
+      "slug": "Crazed_Minions",
+      "english": "Crazed Minions",
+      "chinese": "癫狂召唤生物",
+      "poe2db": "https://poe2db.tw/cn/Crazed_Minions"
+    },
+    {
+      "type": "support",
+      "slug": "Crescendo_II",
+      "english": "Crescendo II",
+      "chinese": "渐入佳境 II",
+      "poe2db": "https://poe2db.tw/cn/Crescendo_II"
+    },
+    {
+      "type": "support",
+      "slug": "Derange",
+      "english": "Derange",
+      "chinese": "错乱",
+      "poe2db": "https://poe2db.tw/cn/Derange"
+    },
+    {
+      "type": "support",
+      "slug": "Empowered_Sparks_II",
+      "english": "Empowered Sparks II",
+      "chinese": "强化火花 II",
+      "poe2db": "https://poe2db.tw/cn/Empowered_Sparks_II"
+    },
+    {
+      "type": "support",
+      "slug": "Feeding_Frenzy_II",
+      "english": "Feeding Frenzy II",
+      "chinese": "狂噬 II",
+      "poe2db": "https://poe2db.tw/cn/Feeding_Frenzy_II"
+    },
+    {
+      "type": "support",
+      "slug": "Hulking_Minions",
+      "english": "Hulking Minions",
+      "chinese": "魁梧仆从",
+      "poe2db": "https://poe2db.tw/cn/Hulking_Minions"
+    },
+    {
+      "type": "support",
+      "slug": "Inexorable_Critical_II",
+      "english": "Inexorable Critical II",
+      "chinese": "命定绝杀 II",
+      "poe2db": "https://poe2db.tw/cn/Inexorable_Critical_II"
+    },
+    {
+      "type": "support",
+      "slug": "Living_Lightning_II",
+      "english": "Living Lightning II",
+      "chinese": "活体闪电 II",
+      "poe2db": "https://poe2db.tw/cn/Living_Lightning_II"
+    },
+    {
+      "type": "support",
+      "slug": "Mark_of_Siphoning_II",
+      "english": "Mark of Siphoning II",
+      "chinese": "虹吸印记II",
+      "poe2db": "https://poe2db.tw/cn/Mark_of_Siphoning_II"
+    },
+    {
+      "type": "support",
+      "slug": "Minion_Pact_II",
+      "english": "Minion Pact II",
+      "chinese": "召唤契约 II",
+      "poe2db": "https://poe2db.tw/cn/Minion_Pact_II"
+    },
+    {
+      "type": "support",
+      "slug": "Mysticism_II",
+      "english": "Mysticism II",
+      "chinese": "灵秘 II",
+      "poe2db": "https://poe2db.tw/cn/Mysticism_II"
+    },
+    {
+      "type": "support",
+      "slug": "Rapid_Casting_II",
+      "english": "Rapid Casting II",
+      "chinese": "快速施法 II",
+      "poe2db": "https://poe2db.tw/cn/Rapid_Casting_II"
+    },
+    {
+      "type": "support",
+      "slug": "Upwelling_II",
+      "english": "Upwelling II",
+      "chinese": "升流 II",
+      "poe2db": "https://poe2db.tw/cn/Upwelling_II"
+    },
+    {
+      "type": "support",
+      "slug": "Bidding_III",
+      "english": "Bidding III",
+      "chinese": "奉命 III",
+      "poe2db": "https://poe2db.tw/cn/Bidding_III"
+    },
+    {
+      "type": "support",
+      "slug": "Biting_Frost_II",
+      "english": "Biting Frost II",
+      "chinese": "刺骨寒意 II",
+      "poe2db": "https://poe2db.tw/cn/Biting_Frost_II"
+    },
+    {
+      "type": "support",
+      "slug": "Catalysing_Elements",
+      "english": "Catalysing Elements",
+      "chinese": "元素催化",
+      "poe2db": "https://poe2db.tw/cn/Catalysing_Elements"
+    },
+    {
+      "type": "support",
+      "slug": "Chaos_Mastery",
+      "english": "Chaos Mastery",
+      "chinese": "混沌专精",
+      "poe2db": "https://poe2db.tw/cn/Chaos_Mastery"
+    },
+    {
+      "type": "support",
+      "slug": "Cold_Mastery",
+      "english": "Cold Mastery",
+      "chinese": "冰霜专精",
+      "poe2db": "https://poe2db.tw/cn/Cold_Mastery"
+    },
+    {
+      "type": "support",
+      "slug": "Crescendo_III",
+      "english": "Crescendo III",
+      "chinese": "渐入佳境 III",
+      "poe2db": "https://poe2db.tw/cn/Crescendo_III"
+    },
+    {
+      "type": "support",
+      "slug": "Expand",
+      "english": "Expand",
+      "chinese": "扩展",
+      "poe2db": "https://poe2db.tw/cn/Expand"
+    },
+    {
+      "type": "support",
+      "slug": "Accelerated_Growth_II",
+      "english": "Accelerated Growth II",
+      "chinese": "迅猛绽放II",
+      "poe2db": "https://poe2db.tw/cn/Accelerated_Growth_II"
+    },
+    {
+      "type": "support",
+      "slug": "Fire_Mastery",
+      "english": "Fire Mastery",
+      "chinese": "火焰专精",
+      "poe2db": "https://poe2db.tw/cn/Fire_Mastery"
+    },
+    {
+      "type": "support",
+      "slug": "Lightning_Mastery",
+      "english": "Lightning Mastery",
+      "chinese": "闪电专精",
+      "poe2db": "https://poe2db.tw/cn/Lightning_Mastery"
+    },
+    {
+      "type": "support",
+      "slug": "Minion_Mastery",
+      "english": "Minion Mastery",
+      "chinese": "召唤生物专精",
+      "poe2db": "https://poe2db.tw/cn/Minion_Mastery"
+    },
+    {
+      "type": "support",
+      "slug": "Physical_Mastery",
+      "english": "Physical Mastery",
+      "chinese": "物理专精",
+      "poe2db": "https://poe2db.tw/cn/Physical_Mastery"
+    },
+    {
+      "type": "support",
+      "slug": "Practical_Magic_II",
+      "english": "Practical Magic II",
+      "chinese": "实用魔法II",
+      "poe2db": "https://poe2db.tw/cn/Practical_Magic_II"
+    },
+    {
+      "type": "support",
+      "slug": "Profanity_II",
+      "english": "Profanity II",
+      "chinese": "不敬 II",
+      "poe2db": "https://poe2db.tw/cn/Profanity_II"
+    },
+    {
+      "type": "support",
+      "slug": "Rapid_Casting_III",
+      "english": "Rapid Casting III",
+      "chinese": "快速施法 III",
+      "poe2db": "https://poe2db.tw/cn/Rapid_Casting_III"
+    },
+    {
+      "type": "support",
+      "slug": "Shock_Conduction_II",
+      "english": "Shock Conduction II",
+      "chinese": "感电传导 II",
+      "poe2db": "https://poe2db.tw/cn/Shock_Conduction_II"
+    },
+    {
+      "type": "support",
+      "slug": "Wildshards_II",
+      "english": "Wildshards II",
+      "chinese": "狂野碎片 II",
+      "poe2db": "https://poe2db.tw/cn/Wildshards_II"
+    },
+    {
+      "type": "support",
+      "slug": "DNT-UNUSED_Spiral_Projectiles_I",
+      "english": "[DNT-UNUSED] Spiral Projectiles I",
+      "chinese": "螺旋投射物 I",
+      "poe2db": "https://poe2db.tw/cn/DNT-UNUSED_Spiral_Projectiles_I"
+    },
+    {
+      "type": "support",
+      "slug": "Ruthless",
+      "english": "Ruthless",
+      "chinese": "无情",
+      "poe2db": "https://poe2db.tw/cn/Ruthless"
+    },
+    {
+      "type": "support",
+      "slug": "Unbreakable",
+      "english": "Unbreakable",
+      "chinese": "不屈不破",
+      "poe2db": "https://poe2db.tw/cn/Unbreakable"
+    },
+    {
+      "type": "support",
+      "slug": "Prolonged_Duration_III",
+      "english": "Prolonged Duration III",
+      "chinese": "持续时间延长 III",
+      "poe2db": "https://poe2db.tw/cn/Prolonged_Duration_III"
+    },
+    {
+      "type": "support",
+      "slug": "Frozen_Vortex",
+      "english": "Frozen Vortex",
+      "chinese": "冰封漩涡",
+      "poe2db": "https://poe2db.tw/cn/Frozen_Vortex"
+    },
+    {
+      "type": "support",
+      "slug": "Enervation",
+      "english": "Enervation",
+      "chinese": "弱能",
+      "poe2db": "https://poe2db.tw/cn/Enervation"
+    },
+    {
+      "type": "support",
+      "slug": "Chance_to_Freeze",
+      "english": "Chance to Freeze",
+      "chinese": "冻结几率",
+      "poe2db": "https://poe2db.tw/cn/Chance_to_Freeze"
+    },
+    {
+      "type": "support",
+      "slug": "Invocation",
+      "english": "Invocation",
+      "chinese": "祈求",
+      "poe2db": "https://poe2db.tw/cn/Invocation"
+    },
+    {
+      "type": "support",
+      "slug": "Devastate",
+      "english": "Devastate",
+      "chinese": "摧残",
+      "poe2db": "https://poe2db.tw/cn/Devastate"
+    },
+    {
+      "type": "support",
+      "slug": "Spreading_Frost",
+      "english": "Spreading Frost",
+      "chinese": "弥漫寒霜",
+      "poe2db": "https://poe2db.tw/cn/Spreading_Frost"
+    },
+    {
+      "type": "support",
+      "slug": "Energy_Barrier",
+      "english": "Energy Barrier",
+      "chinese": "能量屏障",
+      "poe2db": "https://poe2db.tw/cn/Energy_Barrier"
+    },
+    {
+      "type": "support",
+      "slug": "Wind_Wave",
+      "english": "Wind Wave",
+      "chinese": "劲风波",
+      "poe2db": "https://poe2db.tw/cn/Wind_Wave"
+    },
+    {
+      "type": "support",
+      "slug": "Infusion",
+      "english": "Infusion",
+      "chinese": "灌注",
+      "poe2db": "https://poe2db.tw/cn/Infusion"
+    },
+    {
+      "type": "support",
+      "slug": "Break_Endurance",
+      "english": "Break Endurance",
+      "chinese": "崩解耐力",
+      "poe2db": "https://poe2db.tw/cn/Break_Endurance"
+    },
+    {
+      "type": "support",
+      "slug": "Premeditation",
+      "english": "Premeditation",
+      "chinese": "先见之明",
+      "poe2db": "https://poe2db.tw/cn/Premeditation"
+    },
+    {
+      "type": "support",
+      "slug": "Hinder",
+      "english": "Hinder",
+      "chinese": "缓速",
+      "poe2db": "https://poe2db.tw/cn/Hinder"
+    },
+    {
+      "type": "support",
+      "slug": "Fusillade",
+      "english": "Fusillade",
+      "chinese": "连环飞矢",
+      "poe2db": "https://poe2db.tw/cn/Fusillade"
+    },
+    {
+      "type": "support",
+      "slug": "Soulbreaker",
+      "english": "Soulbreaker",
+      "chinese": "破魂者",
+      "poe2db": "https://poe2db.tw/cn/Soulbreaker"
+    },
+    {
+      "type": "support",
+      "slug": "Daze",
+      "english": "Daze",
+      "chinese": "恍惚",
+      "poe2db": "https://poe2db.tw/cn/Daze"
+    },
+    {
+      "type": "support",
+      "slug": "Break_Posture",
+      "english": "Break Posture",
+      "chinese": "摧垮架势",
+      "poe2db": "https://poe2db.tw/cn/Break_Posture"
+    },
+    {
+      "type": "support",
+      "slug": "Dazing_Cry",
+      "english": "Dazing Cry",
+      "chinese": "恍神咆哮",
+      "poe2db": "https://poe2db.tw/cn/Dazing_Cry"
+    },
+    {
+      "type": "support",
+      "slug": "Font_of_Rage",
+      "english": "Font of Rage",
+      "chinese": "怒火源泉",
+      "poe2db": "https://poe2db.tw/cn/Font_of_Rage"
+    },
+    {
+      "type": "support",
+      "slug": "Aftershock_III",
+      "english": "Aftershock III",
+      "chinese": "余震 III",
+      "poe2db": "https://poe2db.tw/cn/Aftershock_III"
+    },
+    {
+      "type": "support",
+      "slug": "DNT-UNUSED_Iron_Will",
+      "english": "[DNT-UNUSED] Iron Will",
+      "chinese": "钢铁意志",
+      "poe2db": "https://poe2db.tw/cn/DNT-UNUSED_Iron_Will"
+    },
+    {
+      "type": "support",
+      "slug": "DNT-UNUSED_Iron_Grip",
+      "english": "[DNT-UNUSED] Iron Grip",
+      "chinese": "钢铁之握",
+      "poe2db": "https://poe2db.tw/cn/DNT-UNUSED_Iron_Grip"
+    },
+    {
+      "type": "support",
+      "slug": "Lasting_Ground",
+      "english": "Lasting Ground",
+      "chinese": "持续地面",
+      "poe2db": "https://poe2db.tw/cn/Lasting_Ground"
+    },
+    {
+      "type": "support",
+      "slug": "Leverage",
+      "english": "Leverage",
+      "chinese": "乘虚而入",
+      "poe2db": "https://poe2db.tw/cn/Leverage"
+    },
+    {
+      "type": "support",
+      "slug": "Potential",
+      "english": "Potential",
+      "chinese": "潜能",
+      "poe2db": "https://poe2db.tw/cn/Potential"
+    },
+    {
+      "type": "support",
+      "slug": "Flow",
+      "english": "Flow",
+      "chinese": "波流",
+      "poe2db": "https://poe2db.tw/cn/Flow"
+    },
+    {
+      "type": "support",
+      "slug": "Adhesive_Grenades_III",
+      "english": "Adhesive Grenades III",
+      "chinese": "胶粘榴弹 III",
+      "poe2db": "https://poe2db.tw/cn/Adhesive_Grenades_III"
+    },
+    {
+      "type": "support",
+      "slug": "Tremors",
+      "english": "Tremors",
+      "chinese": "地震",
+      "poe2db": "https://poe2db.tw/cn/Tremors"
+    },
+    {
+      "type": "support",
+      "slug": "Nadir",
+      "english": "Nadir",
+      "chinese": "天底",
+      "poe2db": "https://poe2db.tw/cn/Nadir"
+    },
+    {
+      "type": "support",
+      "slug": "Rally",
+      "english": "Rally",
+      "chinese": "奋威",
+      "poe2db": "https://poe2db.tw/cn/Rally"
+    },
+    {
+      "type": "support",
+      "slug": "Hoarfrost",
+      "english": "Hoarfrost",
+      "chinese": "白霜",
+      "poe2db": "https://poe2db.tw/cn/Hoarfrost"
+    },
+    {
+      "type": "support",
+      "slug": "Reverberate",
+      "english": "Reverberate",
+      "chinese": "回荡",
+      "poe2db": "https://poe2db.tw/cn/Reverberate"
+    },
+    {
+      "type": "support",
+      "slug": "Dazzle",
+      "english": "Dazzle",
+      "chinese": "眩目",
+      "poe2db": "https://poe2db.tw/cn/Dazzle"
+    },
+    {
+      "type": "support",
+      "slug": "Unyielding",
+      "english": "Unyielding",
+      "chinese": "不折",
+      "poe2db": "https://poe2db.tw/cn/Unyielding"
+    },
+    {
+      "type": "support",
+      "slug": "Desperation",
+      "english": "Desperation",
+      "chinese": "孤注一掷",
+      "poe2db": "https://poe2db.tw/cn/Desperation"
+    },
+    {
+      "type": "support",
+      "slug": "Excoriate",
+      "english": "Excoriate",
+      "chinese": "严厉申斥",
+      "poe2db": "https://poe2db.tw/cn/Excoriate"
+    },
+    {
+      "type": "support",
+      "slug": "Unbending",
+      "english": "Unbending",
+      "chinese": "不屈之心",
+      "poe2db": "https://poe2db.tw/cn/Unbending"
+    },
+    {
+      "type": "support",
+      "slug": "Magnetic_Remnants",
+      "english": "Magnetic Remnants",
+      "chinese": "磁化残片",
+      "poe2db": "https://poe2db.tw/cn/Magnetic_Remnants"
+    },
+    {
+      "type": "support",
+      "slug": "Ancestral_Call_III",
+      "english": "Ancestral Call III",
+      "chinese": "先祖召唤 III",
+      "poe2db": "https://poe2db.tw/cn/Ancestral_Call_III"
+    },
+    {
+      "type": "support",
+      "slug": "Unsteady_Tempo",
+      "english": "Unsteady Tempo",
+      "chinese": "失衡节奏",
+      "poe2db": "https://poe2db.tw/cn/Unsteady_Tempo"
+    },
+    {
+      "type": "support",
+      "slug": "Ancestral_Aid",
+      "english": "Ancestral Aid",
+      "chinese": "先祖之助",
+      "poe2db": "https://poe2db.tw/cn/Ancestral_Aid"
+    },
+    {
+      "type": "support",
+      "slug": "DNT-UNUSED_Titanic_Arrows",
+      "english": "[DNT-UNUSED] Titanic Arrows",
+      "chinese": "[DNT-UNUSED] Titanic Arrows",
+      "poe2db": "https://poe2db.tw/cn/DNT-UNUSED_Titanic_Arrows"
+    },
+    {
+      "type": "support",
+      "slug": "Rime",
+      "english": "Rime",
+      "chinese": "雾凇",
+      "poe2db": "https://poe2db.tw/cn/Rime"
+    },
+    {
+      "type": "support",
+      "slug": "Arms_Length",
+      "english": "Arms Length",
+      "chinese": "一臂之隔",
+      "poe2db": "https://poe2db.tw/cn/Arms_Length"
+    },
+    {
+      "type": "support",
+      "slug": "Charm_Bounty",
+      "english": "Charm Bounty",
+      "chinese": "咒符恩典",
+      "poe2db": "https://poe2db.tw/cn/Charm_Bounty"
+    },
+    {
+      "type": "support",
+      "slug": "Untouchable",
+      "english": "Untouchable",
+      "chinese": "不可触及",
+      "poe2db": "https://poe2db.tw/cn/Untouchable"
+    },
+    {
+      "type": "support",
+      "slug": "Greatwood_II",
+      "english": "Greatwood II",
+      "chinese": "神木 II",
+      "poe2db": "https://poe2db.tw/cn/Greatwood_II"
+    },
+    {
+      "type": "support",
+      "slug": "Unabating",
+      "english": "Unabating",
+      "chinese": "不倦防护",
+      "poe2db": "https://poe2db.tw/cn/Unabating"
+    },
+    {
+      "type": "support",
+      "slug": "DNT-UNUSED_Timerot",
+      "english": "[DNT-UNUSED] Timerot",
+      "chinese": "[DNT-UNUSED] Timerot",
+      "poe2db": "https://poe2db.tw/cn/DNT-UNUSED_Timerot"
+    },
+    {
+      "type": "support",
+      "slug": "First_Blood",
+      "english": "First Blood",
+      "chinese": "第一滴血",
+      "poe2db": "https://poe2db.tw/cn/First_Blood"
+    },
+    {
+      "type": "support",
+      "slug": "Hobble",
+      "english": "Hobble",
+      "chinese": "跛行",
+      "poe2db": "https://poe2db.tw/cn/Hobble"
+    },
+    {
+      "type": "support",
+      "slug": "DNT-UNUSED_Spectral_Palm",
+      "english": "[DNT-UNUSED] Spectral Palm",
+      "chinese": "[DNT-UNUSED] Spectral Palm",
+      "poe2db": "https://poe2db.tw/cn/DNT-UNUSED_Spectral_Palm"
+    },
+    {
+      "type": "support",
+      "slug": "Volatile_Power",
+      "english": "Volatile Power",
+      "chinese": "无常之力",
+      "poe2db": "https://poe2db.tw/cn/Volatile_Power"
+    },
+    {
+      "type": "support",
+      "slug": "Unerring_Power",
+      "english": "Unerring Power",
+      "chinese": "精准之力",
+      "poe2db": "https://poe2db.tw/cn/Unerring_Power"
+    },
+    {
+      "type": "support",
+      "slug": "See_Red",
+      "english": "See Red",
+      "chinese": "赤红鼓动",
+      "poe2db": "https://poe2db.tw/cn/See_Red"
+    },
+    {
+      "type": "support",
+      "slug": "Undermine",
+      "english": "Undermine",
+      "chinese": "暗中破坏",
+      "poe2db": "https://poe2db.tw/cn/Undermine"
+    },
+    {
+      "type": "support",
+      "slug": "Outmaneuver",
+      "english": "Outmaneuver",
+      "chinese": "智取",
+      "poe2db": "https://poe2db.tw/cn/Outmaneuver"
+    },
+    {
+      "type": "support",
+      "slug": "Tumult",
+      "english": "Tumult",
+      "chinese": "动乱",
+      "poe2db": "https://poe2db.tw/cn/Tumult"
+    },
+    {
+      "type": "support",
+      "slug": "Relentless_Rage",
+      "english": "Relentless Rage",
+      "chinese": "无尽怒火",
+      "poe2db": "https://poe2db.tw/cn/Relentless_Rage"
+    },
+    {
+      "type": "support",
+      "slug": "DNT_Stone_Slam_Aegis",
+      "english": "[DNT] Stone Slam Aegis",
+      "chinese": "[DNT] Stone Slam Aegis",
+      "poe2db": "https://poe2db.tw/cn/DNT_Stone_Slam_Aegis"
+    },
+    {
+      "type": "support",
+      "slug": "DNT_Totemic_Aegis",
+      "english": "[DNT] Totemic Aegis",
+      "chinese": "[DNT] Totemic Aegis",
+      "poe2db": "https://poe2db.tw/cn/DNT_Totemic_Aegis"
+    },
+    {
+      "type": "support",
+      "slug": "DNT_From_the_Grave",
+      "english": "[DNT] From the Grave",
+      "chinese": "[DNT] From the Grave",
+      "poe2db": "https://poe2db.tw/cn/DNT_From_the_Grave"
+    },
+    {
+      "type": "support",
+      "slug": "Flame_Pillar",
+      "english": "Flame Pillar",
+      "chinese": "烈焰之柱",
+      "poe2db": "https://poe2db.tw/cn/Flame_Pillar"
+    },
+    {
+      "type": "support",
+      "slug": "Atziris_Communion",
+      "english": "Atziri's Communion",
+      "chinese": "阿兹里的圣礼",
+      "poe2db": "https://poe2db.tw/cn/Atziris_Communion"
+    },
+    {
+      "type": "support",
+      "slug": "DNT_Tangmazu_Lineage",
+      "english": "[DNT] Tangmazu Lineage",
+      "chinese": "[DNT] Tangmazu Lineage",
+      "poe2db": "https://poe2db.tw/cn/DNT_Tangmazu_Lineage"
+    }
+  ]
+}

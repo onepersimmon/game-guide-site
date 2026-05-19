@@ -30,6 +30,9 @@ jobs:
       - name: Sync official PoE2 trade data
         run: node ./scripts/fetch-poe2-trade-data.mjs
 
+      - name: Sync PoE2DB Chinese names
+        run: node ./scripts/fetch-poe2db-cn-index.mjs
+
       - name: Sync PoE2 passive tree data
         run: node ./scripts/fetch-poe2-passive-tree.mjs
 
@@ -49,6 +52,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html robots.txt sitemap.xml llms.txt campaign classes builds tools about.html contact.html privacy.html disclaimer.html data/builds.json data/ascendancies.json data/ggg-news.json data/map-guide-cache.json data/trade2-items.json data/trade2-static.json data/trade2-stats.json data/poe2-passive-tree.json data/crawled assets/images/builds assets/images/hero
+          git add index.html robots.txt sitemap.xml llms.txt campaign classes builds tools about.html contact.html privacy.html disclaimer.html data/builds.json data/ascendancies.json data/ggg-news.json data/map-guide-cache.json data/trade2-items.json data/trade2-static.json data/trade2-stats.json data/poe2db-cn-index.json data/poe2-passive-tree.json data/crawled assets/images/builds assets/images/hero
           git diff --cached --quiet || git commit -m "chore: refresh poe2 build data"
           git push

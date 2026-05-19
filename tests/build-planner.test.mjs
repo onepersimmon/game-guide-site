@@ -6,6 +6,7 @@ import {
   calculateBuildDamage,
   createInitialBuildState,
   inferPassiveNodeModifiers,
+  localizeCatalogEntry,
   normalizePassiveTree,
   normalizeTradeCatalog,
   togglePassiveNode,
@@ -49,6 +50,27 @@ test("normalizeTradeCatalog builds dropdown lists", () => {
   assert.equal(catalog.itemStats.some((item) => item.text === "+# to Strength"), true);
 });
 
+test("catalog entries can be localized and searched with poe2db Chinese names", () => {
+  const entry = localizeCatalogEntry(
+    { text: "Lightning Arrow", type: "Lightning Arrow" },
+    {
+      entries: [
+        {
+          type: "skill",
+          slug: "Lightning_Arrow",
+          english: "Lightning Arrow",
+          chinese: "闪电箭矢",
+        },
+      ],
+    },
+  );
+
+  assert.equal(entry.label, "闪电箭矢");
+  assert.equal(entry.searchText.includes("lightning arrow"), true);
+  assert.equal(entry.searchText.includes("闪电箭矢"), true);
+  assert.equal(entry.tradeText, "Lightning Arrow");
+});
+
 test("build damage updates when skill and passive state changes", () => {
   const catalog = normalizeTradeCatalog({
     items: tradePayload,
@@ -74,6 +96,43 @@ test("build damage updates when skill and passive state changes", () => {
   assert.equal(result.skills[0].averageHit > 0, true);
   assert.equal(result.totalAverageHit > result.skills[0].nonCritHit, true);
   assert.equal(result.totalDps > 0, true);
+});
+
+test("build damage returns one result for every configured skill", () => {
+  const state = {
+    ...createInitialBuildState(),
+    skills: [
+      {
+        id: "skill-1",
+        name: "闪电箭矢",
+        level: 20,
+        baseHit: 100,
+        hitsPerSecond: 2,
+        increased: { gear: 20, tree: 0, support: 0, skill: 0 },
+        more: [10],
+        critChance: 10,
+        critDamage: 200,
+      },
+      {
+        id: "skill-2",
+        name: "毒爆箭",
+        level: 18,
+        baseHit: 200,
+        hitsPerSecond: 1,
+        increased: { gear: 0, tree: 0, support: 0, skill: 0 },
+        more: [],
+        critChance: 0,
+        critDamage: 150,
+      },
+    ],
+  };
+
+  const result = calculateBuildDamage(state);
+
+  assert.equal(result.skills.length, 2);
+  assert.equal(result.skills[0].name, "闪电箭矢");
+  assert.equal(result.skills[1].name, "毒爆箭");
+  assert.equal(result.totalDps, result.skills[0].dps + result.skills[1].dps);
 });
 
 test("passive tree nodes are normalized into drawable damage nodes", () => {
@@ -182,6 +241,11 @@ test("international trade url uses the official trade2 search path", () => {
 test("build planner page exposes searchable clickable passive tree controls", () => {
   const html = readFileSync("/Users/persimmon/project/game-guide-site/tools/build-planner.html", "utf8");
 
+  assert.match(html, /id="skill-list"/);
+  assert.match(html, /id="add-skill"/);
+  assert.match(html, /id="equipment-slots"/);
+  assert.match(html, /id="skill-options"/);
+  assert.match(html, /id="support-options"/);
   assert.match(html, /id="passive-search"/);
   assert.match(html, /id="passive-tree-svg"/);
   assert.match(html, /id="passive-node-list"/);
