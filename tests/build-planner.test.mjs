@@ -341,8 +341,14 @@ test("build planner page exposes searchable clickable passive tree controls", ()
   assert.match(script, /addEventListener\("wheel"/);
   assert.match(script, /zoomPassiveTreeAtPoint/);
   assert.match(script, /wirePassiveTreePan/);
+  assert.match(script, /wirePassiveTreeSvgDelegates/);
+  assert.match(script, /updatePassiveActiveEdgePath/);
+  assert.match(script, /class: "passive-tree-edge-path"/);
   assert.match(script, /showPassiveTooltip/);
   assert.match(script, /syncEquipmentStateJewelSlots/);
+  assert.doesNotMatch(script, /hitTarget\.addEventListener\("click"/);
+  assert.doesNotMatch(script, /circle\.addEventListener\("click"/);
+  assert.doesNotMatch(script, /createSvgElement\("line"/);
   assert.match(script, /support-gem-slot/);
   assert.match(script, /Array\.from\(\{ length: 5 \}/);
   assert.match(script, /getEquipmentBaseEntriesForSlot/);

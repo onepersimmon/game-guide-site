@@ -621,14 +621,20 @@ function getPassiveTreePayload(payload = {}, localizationIndex = {}) {
 
 function updatePassiveActiveState(passiveNodes) {
   const activeIds = new Set(passiveNodes.map((node) => node.id));
+  const svg = document.getElementById("passive-tree-svg");
+  const previousIds = svg?.__activePassiveIds ?? new Set();
+  const changedIds = new Set([...activeIds, ...previousIds].filter((id) => activeIds.has(id) !== previousIds.has(id)));
 
-  document.querySelectorAll("[data-passive-id]").forEach((element) => {
-    element.classList.toggle("is-active", activeIds.has(element.dataset.passiveId));
+  changedIds.forEach((id) => {
+    document.querySelectorAll(`.passive-tree-node[data-passive-id="${id}"]`).forEach((element) => {
+      element.classList.toggle("is-active", activeIds.has(id));
+    });
   });
-  document.querySelectorAll("[data-passive-edge]").forEach((element) => {
-    const [from, to] = element.dataset.passiveEdge.split(":");
-    element.classList.toggle("is-active", activeIds.has(from) && activeIds.has(to));
-  });
+
+  updatePassiveActiveEdgePath(svg, activeIds);
+  if (svg) {
+    svg.__activePassiveIds = activeIds;
+  }
 }
 
 function updatePassiveSearchState(tree) {
@@ -641,7 +647,7 @@ function updatePassiveSearchState(tree) {
       : [],
   );
 
-  document.querySelectorAll("[data-passive-id]").forEach((element) => {
+  document.querySelectorAll(".passive-tree-node[data-passive-id]").forEach((element) => {
     element.classList.toggle("is-search-match", matches.has(element.dataset.passiveId));
   });
 }
@@ -742,6 +748,92 @@ function hidePassiveTooltip() {
   }
 }
 
+function getPassiveEventNode(svg, event) {
+  const element = event.target?.closest?.("[data-passive-id]");
+  if (!element || !svg?.contains(element)) {
+    return null;
+  }
+
+  return svg.__passiveNodeById?.get(element.dataset.passiveId) ?? null;
+}
+
+function updatePassiveActiveEdgePath(svg, activeIds = new Set()) {
+  const activePath = svg?.querySelector?.("[data-passive-active-edges]");
+  if (!activePath) {
+    return;
+  }
+
+  const d = (svg.__passiveEdgeSegments ?? [])
+    .filter((segment) => activeIds.has(segment.from) && activeIds.has(segment.to))
+    .map((segment) => segment.d)
+    .join(" ");
+  activePath.setAttribute("d", d);
+}
+
+function wirePassiveTreeSvgDelegates(svg, onToggle) {
+  if (!svg) {
+    return;
+  }
+
+  svg.__onPassiveToggle = onToggle;
+  if (svg.__passiveDelegatesWired) {
+    return;
+  }
+
+  svg.__passiveDelegatesWired = true;
+  svg.addEventListener("click", (event) => {
+    const node = getPassiveEventNode(svg, event);
+    if (!node) {
+      return;
+    }
+
+    if (svg.__didDrag) {
+      event.preventDefault();
+      return;
+    }
+
+    svg.__onPassiveToggle?.(node);
+  });
+  svg.addEventListener("keydown", (event) => {
+    const node = getPassiveEventNode(svg, event);
+    if (!node || (event.key !== "Enter" && event.key !== " ")) {
+      return;
+    }
+
+    event.preventDefault();
+    svg.__onPassiveToggle?.(node);
+  });
+  svg.addEventListener("mouseover", (event) => {
+    const node = getPassiveEventNode(svg, event);
+    if (!node) {
+      return;
+    }
+
+    const relatedNode = getPassiveEventNode(svg, { target: event.relatedTarget });
+    if (relatedNode?.id === node.id) {
+      return;
+    }
+
+    showPassiveTooltip(node, svg.__activePassiveIds?.has(node.id), event);
+  });
+  svg.addEventListener("mousemove", (event) => {
+    if (getPassiveEventNode(svg, event)) {
+      movePassiveTooltip(event);
+    }
+  });
+  svg.addEventListener("mouseout", (event) => {
+    const node = getPassiveEventNode(svg, event);
+    if (!node) {
+      return;
+    }
+
+    const relatedNode = getPassiveEventNode(svg, { target: event.relatedTarget });
+    if (relatedNode?.id !== node.id) {
+      hidePassiveTooltip();
+    }
+  });
+}
+
 function renderPassiveTreeSvg(tree, passiveNodes, onToggle) {
   const svg = document.getElementById("passive-tree-svg");
   if (!svg) {
@@ -756,8 +848,12 @@ function renderPassiveTreeSvg(tree, passiveNodes, onToggle) {
   const fragment = document.createDocumentFragment();
   const edges = createSvgElement("g", { class: "passive-tree-edges" });
   const nodes = createSvgElement("g", { class: "passive-tree-nodes" });
+  const edgeSegments = [];
 
   svg.innerHTML = "";
+  svg.__passiveNodeById = nodeById;
+  svg.__passiveEdgeSegments = edgeSegments;
+  svg.__activePassiveIds = new Set(activeIds);
   svg.__baseViewBox = { x: tree.bounds.minX - padding, y: tree.bounds.minY - padding, width, height };
   svg.__currentViewBox = { ...svg.__baseViewBox };
   setPassiveViewBox(svg, svg.__currentViewBox);
@@ -769,35 +865,28 @@ function renderPassiveTreeSvg(tree, passiveNodes, onToggle) {
         return;
       }
 
-      edges.append(
-        createSvgElement("line", {
-          x1: node.x,
-          y1: node.y,
-          x2: target.x,
-          y2: target.y,
-          "data-passive-edge": `${node.id}:${target.id}`,
-          class: activeIds.has(node.id) && activeIds.has(target.id) ? "is-active" : "",
-        }),
-      );
+      edgeSegments.push({
+        from: node.id,
+        to: target.id,
+        d: `M${node.x} ${node.y}L${target.x} ${target.y}`,
+      });
     });
   });
+  edges.append(
+    createSvgElement("path", {
+      d: edgeSegments.map((segment) => segment.d).join(" "),
+      class: "passive-tree-edge-path",
+    }),
+    createSvgElement("path", {
+      d: "",
+      class: "passive-tree-edge-path is-active",
+      "data-passive-active-edges": "true",
+    }),
+  );
+  updatePassiveActiveEdgePath(svg, activeIds);
 
   tree.nodes.forEach((node) => {
     const supported = hasSupportedPassiveModifiers(node);
-    const handleNodePick = (event) => {
-      if (svg.__didDrag) {
-        event.preventDefault();
-        return;
-      }
-      onToggle(node);
-    };
-    const handleNodeKeydown = (event) => {
-      if (event.key === "Enter" || event.key === " ") {
-        event.preventDefault();
-        onToggle(node);
-      }
-    };
-    const handleNodeHover = (event) => showPassiveTooltip(node, activeIds.has(node.id), event);
     const hitTarget = createSvgElement("circle", {
       cx: node.x,
       cy: node.y,
@@ -829,28 +918,14 @@ function renderPassiveTreeSvg(tree, passiveNodes, onToggle) {
         .filter(Boolean)
         .join(" "),
     });
-    const title = createSvgElement("title");
-    title.textContent = `${node.label ?? node.name} - ${node.statsTextCn || node.statsText}`;
-    hitTarget.append(title);
-    hitTarget.addEventListener("click", handleNodePick);
-    hitTarget.addEventListener("keydown", handleNodeKeydown);
-    hitTarget.addEventListener("mouseenter", handleNodeHover);
-    hitTarget.addEventListener("mousemove", movePassiveTooltip);
-    hitTarget.addEventListener("mouseleave", hidePassiveTooltip);
     circle.setAttribute("fill", node.color ?? "#6c7e9d");
-    circle.append(createSvgElement("title"));
-    circle.querySelector("title").textContent = title.textContent;
-    circle.addEventListener("click", handleNodePick);
-    circle.addEventListener("keydown", handleNodeKeydown);
-    circle.addEventListener("mouseenter", handleNodeHover);
-    circle.addEventListener("mousemove", movePassiveTooltip);
-    circle.addEventListener("mouseleave", hidePassiveTooltip);
     nodes.append(circle);
     nodes.append(hitTarget);
   });
 
   fragment.append(edges, nodes);
   svg.append(fragment);
+  wirePassiveTreeSvgDelegates(svg, onToggle);
 }
 
 function setPassiveViewBox(svg, viewBox) {

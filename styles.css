@@ -1285,13 +1285,14 @@ a {
   height: 820px;
 }
 
-.passive-tree-edges line {
+.passive-tree-edge-path {
+  fill: none;
   stroke: rgba(138, 146, 154, 0.34);
   stroke-width: 1.05;
   vector-effect: non-scaling-stroke;
 }
 
-.passive-tree-edges line.is-active {
+.passive-tree-edge-path.is-active {
   stroke: #ffdf44;
   stroke-width: 2.2;
 }
@@ -1301,10 +1302,6 @@ a {
   stroke: rgba(0, 0, 0, 0.48);
   stroke-width: 1.1;
   cursor: pointer;
-  transition:
-    fill 160ms ease,
-    stroke 160ms ease,
-    opacity 160ms ease;
   vector-effect: non-scaling-stroke;
 }
 
