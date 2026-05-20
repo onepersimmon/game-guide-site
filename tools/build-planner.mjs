@@ -68,6 +68,9 @@ export function localizeCatalogEntry(entry = {}, localizationIndex = {}) {
     english,
     tradeText: english,
     chinese: match?.chinese ?? "",
+    image: match?.image ?? entry.image ?? "",
+    page: match?.page ?? entry.page ?? "",
+    slug: match?.slug ?? entry.slug ?? "",
     poe2db: match?.poe2db ?? "",
     searchText: normalizeKey([label, english, match?.slug?.replaceAll("_", " ")].filter(Boolean).join(" ")),
   };
@@ -467,6 +470,7 @@ function setInputEntry(input, entry) {
   input.value = getEntryLabel(entry);
   input.dataset.tradeText = getEntryTradeText(entry);
   input.dataset.entryId = entry.id ?? entry.type ?? entry.text ?? "";
+  input.dataset.image = entry.image ?? "";
 }
 
 function positionSearchLayer(layer, input) {
@@ -495,7 +499,8 @@ function attachDynamicSearch(input, entries, layerId, onSelect, { emptyText = "�
   const render = () => {
     cancelAnimationFrame(frame);
     frame = requestAnimationFrame(() => {
-      const matches = matchSearchEntries(entries, input.value, 36);
+      const sourceEntries = typeof entries === "function" ? entries() : entries;
+      const matches = matchSearchEntries(sourceEntries, input.value, 36);
       positionSearchLayer(layer, input);
       layer.innerHTML = "";
       layer.hidden = false;
@@ -512,9 +517,13 @@ function attachDynamicSearch(input, entries, layerId, onSelect, { emptyText = "�
         const button = document.createElement("button");
         button.type = "button";
         button.className = "search-layer__item";
+        const image = entry.image ? `<img src="${escapeHtml(entry.image)}" alt="" loading="lazy" />` : "";
         button.innerHTML = `
-          <strong>${escapeHtml(getEntryLabel(entry))}</strong>
-          <span>${escapeHtml(entry.chinese ? "来自流放之路 2 编年史" : "来自国际服集市缓存")}</span>
+          ${image}
+          <span class="search-layer__text">
+            <strong>${escapeHtml(getEntryLabel(entry))}</strong>
+            <span>${escapeHtml(entry.chinese ? "来自流放之路 2 编年史" : "来自国际服集市缓存")}</span>
+          </span>
         `;
         button.addEventListener("mousedown", (event) => {
           event.preventDefault();
@@ -772,6 +781,18 @@ function setPassiveViewBox(svg, viewBox) {
   svg.setAttribute("viewBox", `${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}`);
 }
 
+function clampPassiveViewBox(svg, width, height) {
+  const base = svg.__baseViewBox;
+  if (!base) {
+    return { width, height };
+  }
+
+  return {
+    width: clamp(width, base.width * 0.045, base.width * 2.2),
+    height: clamp(height, base.height * 0.045, base.height * 2.2),
+  };
+}
+
 function zoomPassiveTree(factor) {
   const svg = document.getElementById("passive-tree-svg");
   if (!svg?.__currentViewBox) {
@@ -779,13 +800,41 @@ function zoomPassiveTree(factor) {
   }
 
   const current = svg.__currentViewBox;
-  const nextWidth = current.width * factor;
-  const nextHeight = current.height * factor;
+  const { width: nextWidth, height: nextHeight } = clampPassiveViewBox(svg, current.width * factor, current.height * factor);
   const centerX = current.x + current.width / 2;
   const centerY = current.y + current.height / 2;
   svg.__currentViewBox = {
     x: centerX - nextWidth / 2,
     y: centerY - nextHeight / 2,
+    width: nextWidth,
+    height: nextHeight,
+  };
+  setPassiveViewBox(svg, svg.__currentViewBox);
+}
+
+function zoomPassiveTreeAtPoint(svg, factor, clientX, clientY) {
+  if (!svg?.__currentViewBox) {
+    return;
+  }
+
+  const rect = svg.getBoundingClientRect();
+  if (!rect.width || !rect.height) {
+    zoomPassiveTree(factor);
+    return;
+  }
+
+  const current = svg.__currentViewBox;
+  const pointerX = current.x + ((clientX - rect.left) / rect.width) * current.width;
+  const pointerY = current.y + ((clientY - rect.top) / rect.height) * current.height;
+  const requestedWidth = current.width * factor;
+  const requestedHeight = current.height * factor;
+  const { width: nextWidth, height: nextHeight } = clampPassiveViewBox(svg, requestedWidth, requestedHeight);
+  const appliedXFactor = nextWidth / current.width;
+  const appliedYFactor = nextHeight / current.height;
+
+  svg.__currentViewBox = {
+    x: pointerX - (pointerX - current.x) * appliedXFactor,
+    y: pointerY - (pointerY - current.y) * appliedYFactor,
     width: nextWidth,
     height: nextHeight,
   };
@@ -828,76 +877,93 @@ function getAscendancyNames(tree, selectedClassName = "") {
 }
 
 const EQUIPMENT_SLOTS = [
-  { id: "weapon", label: "武器", area: "weapon" },
-  { id: "offhand", label: "副手", area: "weapon" },
-  { id: "helmet", label: "头盔", area: "armour" },
-  { id: "body", label: "胸甲", area: "armour" },
-  { id: "gloves", label: "手套", area: "armour" },
-  { id: "boots", label: "鞋子", area: "armour" },
-  { id: "amulet", label: "项链", area: "accessory" },
-  { id: "ring-1", label: "戒指 1", area: "accessory" },
-  { id: "ring-2", label: "戒指 2", area: "accessory" },
-  { id: "belt", label: "腰带", area: "accessory" },
-  { id: "jewel", label: "天赋珠宝", area: "jewel" },
+  { id: "weapon", label: "武器", area: "weapon", pages: ["Bows", "Claws", "Crossbows", "Daggers", "Flails", "One_Hand_Axes", "One_Hand_Maces", "One_Hand_Swords", "Quarterstaves", "Sceptres", "Spears", "Staves", "Two_Hand_Axes", "Two_Hand_Maces", "Two_Hand_Swords", "Wands"] },
+  { id: "offhand", label: "副手", area: "weapon", pages: ["Bucklers", "Foci", "Quivers", "Shields"] },
+  { id: "helmet", label: "头盔", area: "armour", pages: ["Helmets"] },
+  { id: "body", label: "胸甲", area: "armour", pages: ["Body_Armours"] },
+  { id: "gloves", label: "手套", area: "armour", pages: ["Gloves"] },
+  { id: "boots", label: "鞋子", area: "armour", pages: ["Boots"] },
+  { id: "amulet", label: "项链", area: "accessory", pages: ["Amulets"] },
+  { id: "ring-1", label: "戒指 1", area: "accessory", pages: ["Rings"] },
+  { id: "ring-2", label: "戒指 2", area: "accessory", pages: ["Rings"] },
+  { id: "belt", label: "腰带", area: "accessory", pages: ["Belts"] },
+  { id: "jewel", label: "天赋珠宝", area: "jewel", pages: ["Jewels"] },
 ];
+
+export function getEquipmentBaseEntriesForSlot(catalog = {}, slotId = "") {
+  const slot = EQUIPMENT_SLOTS.find((entry) => entry.id === slotId);
+  if (!slot) {
+    return [];
+  }
+
+  const basePools = {
+    weapon: catalog.weaponBases ?? [],
+    armour: catalog.armourBases ?? [],
+    accessory: catalog.accessoryBases ?? [],
+    jewel: catalog.jewelBases ?? [],
+  };
+  const allowedPages = new Set(slot.pages ?? []);
+
+  return (basePools[slot.area] ?? []).filter((entry) => allowedPages.has(entry.page));
+}
 
 function findEntryByInput(entries = [], value = "") {
   const query = normalizeKey(value);
   return entries.find((entry) => normalizeKey(entry.label) === query || normalizeKey(entry.english) === query || normalizeKey(entry.text) === query);
 }
 
+function getGemImage(entry = {}) {
+  return entry.image || "";
+}
+
+function createGemIcon(image = "", className = "gem-icon") {
+  const source = escapeHtml(image);
+  return `<span class="${className}">${source ? `<img src="${source}" alt="" loading="lazy" />` : ""}</span>`;
+}
+
 function createSkillCard(id, catalog, values = {}) {
   const card = document.createElement("article");
   card.className = "skill-card";
   card.dataset.skillRow = id;
+  const selectedSkill = findEntryByInput(catalog.skillGems, values.name ?? "") ?? {};
+  const supports = Array.isArray(values.supports) ? values.supports : [values.support].filter(Boolean);
+  const supportInputs = Array.from({ length: 5 }, (_, index) => {
+    const supportValue = supports[index] ?? "";
+    const supportEntry = findEntryByInput(catalog.supportGems, supportValue) ?? {};
+    return `
+      <label class="support-gem-slot">
+        <span>辅助 ${index + 1}</span>
+        <span class="gem-search-control">
+          ${createGemIcon(getGemImage(supportEntry), "gem-icon gem-icon--small")}
+          <input class="support-gem" data-support-index="${index + 1}" type="search" value="${escapeHtml(supportValue)}" placeholder="搜索辅助宝石" autocomplete="off" />
+        </span>
+      </label>
+    `;
+  }).join("");
   card.innerHTML = `
     <div class="skill-card__main">
-      <div class="field-grid">
-        <label class="calc-field">
+      <div class="skill-card__topline">
+        <label class="calc-field skill-card__skill-field">
           <span>主动技能宝石</span>
-          <input class="skill-name" type="search" value="${escapeHtml(values.name ?? "")}" placeholder="输入中文或英文搜索技能" autocomplete="off" />
+          <span class="gem-search-control">
+            ${createGemIcon(getGemImage(selectedSkill))}
+            <input class="skill-name" type="search" value="${escapeHtml(values.name ?? "")}" placeholder="输入中文或英文搜索技能" autocomplete="off" />
+          </span>
         </label>
-        <label class="calc-field">
+        <label class="calc-field skill-card__level-field">
           <span>技能等级</span>
           <input class="skill-level" type="number" min="1" step="1" value="${values.level ?? 20}" />
         </label>
-        <label class="calc-field">
-          <span>辅助宝石</span>
-          <input class="support-gem" type="search" value="${escapeHtml(values.support ?? "")}" placeholder="输入中文或英文搜索辅助" autocomplete="off" />
-        </label>
-        <label class="calc-field">
-          <span>辅助更多 %</span>
-          <input class="support-more" type="number" step="1" value="${values.supportMore ?? 30}" />
-        </label>
       </div>
-      <div class="field-grid">
-        <label class="calc-field">
-          <span>技能基础 hit</span>
-          <input class="skill-base-hit" type="number" min="0" step="1" value="${values.baseHit ?? 1000}" />
-        </label>
-        <label class="calc-field">
-          <span>每秒命中次数</span>
-          <input class="skill-hps" type="number" min="0" step="0.05" value="${values.hitsPerSecond ?? 2}" />
-        </label>
-        <label class="calc-field">
-          <span>技能提高 %</span>
-          <input class="skill-increased" type="number" step="1" value="${values.skillIncreased ?? 0}" />
-        </label>
-        <label class="calc-field">
-          <span>技能更多 %</span>
-          <input class="skill-more" type="number" step="1" value="${values.skillMore ?? 0}" />
-        </label>
+      <div class="support-gem-list">
+        ${supportInputs}
       </div>
-      <div class="field-grid">
-        <label class="calc-field">
-          <span>暴击几率 %</span>
-          <input class="skill-crit-chance" type="number" min="0" max="100" step="0.1" value="${values.critChance ?? 20}" />
-        </label>
-        <label class="calc-field">
-          <span>暴击伤害 %</span>
-          <input class="skill-crit-damage" type="number" min="100" step="1" value="${values.critDamage ?? 250}" />
-        </label>
-      </div>
+      <input class="skill-base-hit" type="hidden" value="${values.baseHit ?? ""}" />
+      <input class="skill-hps" type="hidden" value="${values.hitsPerSecond ?? 2}" />
+      <input class="skill-increased" type="hidden" value="${values.skillIncreased ?? 0}" />
+      <input class="skill-more" type="hidden" value="${values.skillMore ?? 0}" />
+      <input class="skill-crit-chance" type="hidden" value="${values.critChance ?? 20}" />
+      <input class="skill-crit-damage" type="hidden" value="${values.critDamage ?? 250}" />
     </div>
     <aside class="skill-card__damage">
       <strong data-skill-dps>0</strong>
@@ -921,9 +987,25 @@ function createSkillCard(id, catalog, values = {}) {
   return card;
 }
 
+function updateGemIcon(input, entry = {}) {
+  const icon = input?.closest(".gem-search-control")?.querySelector(".gem-icon");
+  if (!icon) {
+    return;
+  }
+
+  const image = entry.image || input?.dataset.image || "";
+  icon.innerHTML = image ? `<img src="${escapeHtml(image)}" alt="" loading="lazy" />` : "";
+}
+
 function wireSkillCardSearch(card, catalog) {
-  attachDynamicSearch(card.querySelector(".skill-name"), catalog.skillGems, "skill-search-layer");
-  attachDynamicSearch(card.querySelector(".support-gem"), catalog.supportGems, "support-search-layer");
+  const skillInput = card.querySelector(".skill-name");
+  attachDynamicSearch(skillInput, catalog.skillGems, "skill-search-layer", (entry) => updateGemIcon(skillInput, entry));
+  updateGemIcon(skillInput, findEntryByInput(catalog.skillGems, skillInput?.value ?? ""));
+
+  card.querySelectorAll(".support-gem").forEach((input) => {
+    attachDynamicSearch(input, catalog.supportGems, "support-search-layer", (entry) => updateGemIcon(input, entry));
+    updateGemIcon(input, findEntryByInput(catalog.supportGems, input.value));
+  });
 }
 
 function createInitialEquipmentState() {
@@ -1031,21 +1113,26 @@ function readPlannerState(form, catalog, passiveNodes, equipmentState) {
   const skills = [...form.querySelectorAll("[data-skill-row]")].map((card, index) => {
     const nameInput = card.querySelector(".skill-name")?.value ?? "";
     const skillEntry = findEntryByInput(catalog.skillGems, nameInput);
-    const supportMore = toNumber(card.querySelector(".support-more")?.value);
+    const supportGems = [...card.querySelectorAll(".support-gem")]
+      .map((input) => input.value.trim())
+      .filter(Boolean);
+    const supportMore = supportGems.map(() => 10);
     const skillMore = toNumber(card.querySelector(".skill-more")?.value);
+    const level = toNumber(card.querySelector(".skill-level")?.value, 1);
+    const baseHitValue = card.querySelector(".skill-base-hit")?.value ?? "";
 
     return {
       id: card.dataset.skillRow ?? `skill-${index + 1}`,
       name: skillEntry?.label || nameInput || `技能 ${index + 1}`,
-      level: toNumber(card.querySelector(".skill-level")?.value, 1),
-      baseHit: toNumber(card.querySelector(".skill-base-hit")?.value),
+      level,
+      baseHit: baseHitValue === "" ? level * 50 : toNumber(baseHitValue),
       hitsPerSecond: toNumber(card.querySelector(".skill-hps")?.value, 1),
-      supportGems: [card.querySelector(".support-gem")?.value].filter(Boolean),
+      supportGems,
       gear: gearRows,
       passiveNodes: [],
       critChance: toNumber(card.querySelector(".skill-crit-chance")?.value),
       critDamage: toNumber(card.querySelector(".skill-crit-damage")?.value, 100),
-      more: [supportMore, skillMore, ...gearMore].filter((value) => value !== 0),
+      more: [...supportMore, skillMore, ...gearMore].filter((value) => value !== 0),
       increased: {
         gear: gearIncreased,
         tree: toNumber(form.querySelector("#planner-tree-increased")?.value),
@@ -1168,7 +1255,6 @@ async function initBuildPlanner() {
     const firstCard = createSkillCard("skill-1", catalog, {
       name: firstSkill?.label ?? "",
       level: 20,
-      baseHit: 1000,
       hitsPerSecond: 2,
     });
     skillList.append(firstCard);
@@ -1177,12 +1263,12 @@ async function initBuildPlanner() {
 
   const status = document.getElementById("planner-status");
   if (status) {
-    status.textContent = `已加载国际服集市缓存：${catalog.skillGems.length} 个技能/宝石项、${catalog.supportGems.length} 个辅助项、${equipmentBases.length} 个装备基底；编年史中文缓存：${localizationIndex.entries?.length ?? 0} 条；天赋树 ${passiveTree.nodes.length} 个节点。`;
+    status.textContent = `已加载国际服集市缓存：${catalog.skillGems.length} 个技能/宝石项、${catalog.supportGems.length} 个辅助项、${equipmentBases.length} 个装备基底；编年史繁體中文缓存：${localizationIndex.entries?.length ?? 0} 条；天赋树 ${passiveTree.nodes.length} 个节点。`;
   }
 
   const treeSource = document.getElementById("passive-tree-source");
   if (treeSource) {
-    treeSource.textContent = `${passiveTreePayload.version ?? "天赋树"} / ${passiveTreePayload.league ?? DEFAULT_LEAGUE} / ${passiveTree.nodes.length} 个节点 / 中文来自流放之路 2 编年史`;
+    treeSource.textContent = `${passiveTreePayload.version ?? "天赋树"} / ${passiveTreePayload.league ?? DEFAULT_LEAGUE} / ${passiveTree.nodes.length} 个节点 / 繁體中文来自流放之路 2 编年史`;
   }
 
   const classSelect = document.getElementById("passive-class");
@@ -1265,6 +1351,7 @@ async function initBuildPlanner() {
 
     editingEquipmentSlot = slotId;
     title.textContent = `编辑${slot.label}`;
+    baseInput.__searchEntries = getEquipmentBaseEntriesForSlot(catalog, slotId);
     baseInput.value = slot.base;
     baseInput.dataset.tradeText = slot.baseTradeText;
     increasedInput.value = slot.increased;
@@ -1341,6 +1428,11 @@ async function initBuildPlanner() {
   });
   document.getElementById("passive-zoom-in")?.addEventListener("click", () => zoomPassiveTree(0.72));
   document.getElementById("passive-zoom-out")?.addEventListener("click", () => zoomPassiveTree(1.28));
+  document.querySelector(".passive-tree-surface")?.addEventListener("wheel", (event) => {
+    event.preventDefault();
+    const factor = Math.exp(event.deltaY * 0.0012);
+    zoomPassiveTreeAtPoint(document.getElementById("passive-tree-svg"), factor, event.clientX, event.clientY);
+  }, { passive: false });
   document.getElementById("passive-reset-view")?.addEventListener("click", resetPassiveTreeView);
   document.getElementById("add-skill")?.addEventListener("click", () => {
     const count = document.querySelectorAll("[data-skill-row]").length + 1;
@@ -1349,7 +1441,9 @@ async function initBuildPlanner() {
     wireSkillCardSearch(card, catalog);
     update();
   });
-  attachDynamicSearch(document.getElementById("equipment-base-search"), equipmentBases, "equipment-search-layer", () => {
+  attachDynamicSearch(document.getElementById("equipment-base-search"), () => {
+    return getEquipmentBaseEntriesForSlot(catalog, editingEquipmentSlot);
+  }, "equipment-search-layer", () => {
     const slot = equipmentState.find((item) => item.id === editingEquipmentSlot);
     updateEquipmentModalTrade(slot, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE);
   });

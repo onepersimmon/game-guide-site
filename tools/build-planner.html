@@ -19,9 +19,9 @@
           <p class="eyebrow">流放之路 2 工具</p>
           <h1>构筑伤害计算器</h1>
           <p>
-            从国际服官方集市缓存中加载交易筛选项；技能、辅助宝石、装备基底、职业、升华和天赋中文名来自流放之路 2 编年史。每次改技能、装备或点天赋节点，伤害结果都会重新计算。
+            从国际服官方集市缓存中加载交易筛选项；技能、辅助宝石、装备基底、职业、升华和天赋繁體中文名来自流放之路 2 编年史。每次改技能、装备或点天赋节点，伤害结果都会重新计算。
           </p>
-          <p id="planner-status" class="source-note">正在加载国际服集市缓存和流放之路 2 编年史中文缓存...</p>
+          <p id="planner-status" class="source-note">正在加载国际服集市缓存和流放之路 2 编年史繁體中文缓存...</p>
         </div>
         <nav class="site-links" aria-label="工具导航">
           <a class="source-note source-note--link" href="../index.html">返回首页</a>
@@ -39,7 +39,7 @@
               </div>
               <button id="add-skill" class="planner-action" type="button">添加技能</button>
             </div>
-            <p class="section-copy">技能和辅助宝石名称来自流放之路 2 编年史中文索引，可输入中文或英文搜索；每个技能卡右侧显示自己的伤害。</p>
+            <p class="section-copy">技能和辅助宝石名称来自流放之路 2 编年史繁體中文索引，可输入中文或英文搜索；每行技能右侧显示自己的伤害。</p>
             <label class="calc-field calc-field--wide" for="planner-league">
               <span>国际服联赛</span>
               <input id="planner-league" type="text" value="Fate of the Vaal" />
@@ -53,7 +53,7 @@
                 <p class="section-kicker">装备</p>
                 <h2 id="planner-gear-title">装备与词缀</h2>
               </div>
-              <p class="section-copy">装备基底中文名来自流放之路 2 编年史；每个槽位都能选基底、多个词缀和手动数值，右侧按钮会把该装备参数带入国际服官方集市。</p>
+              <p class="section-copy">装备基底繁體中文名来自流放之路 2 编年史；每个槽位只显示对应基底，可选多个词缀，右侧按钮会把该装备参数带入国际服官方集市。</p>
             </div>
             <div id="equipment-slots" class="equipment-slots equipment-slots--compact">
               <div id="character-equipment" class="character-equipment" aria-label="人物装备槽位"></div>
@@ -66,7 +66,7 @@
                 <p class="section-kicker">天赋树</p>
                 <h2 id="planner-tree-title">可点击天赋节点</h2>
               </div>
-              <p class="section-copy">天赋坐标来自 poe.ninja 当前缓存，中文名称和词缀来自流放之路 2 编年史；点击节点或列表项会立刻进入计算。</p>
+              <p class="section-copy">天赋坐标来自 poe.ninja 当前缓存，繁體中文名称和词缀来自流放之路 2 编年史；滚轮直接缩放，点击节点或列表项会立刻进入计算。</p>
             </div>
             <div class="passive-toolbar">
               <label class="calc-field" for="passive-class">
@@ -82,8 +82,6 @@
                 <input id="passive-search" type="search" placeholder="暴击、法术、投射物、伤害..." />
               </label>
               <div class="passive-tools">
-                <button id="passive-zoom-in" type="button" class="planner-action">放大</button>
-                <button id="passive-zoom-out" type="button" class="planner-action">缩小</button>
                 <button id="passive-reset-view" type="button" class="planner-action">重置</button>
               </div>
             </div>
@@ -187,6 +185,6 @@
       </section>
     </div>
 
-    <script type="module" src="./build-planner.mjs?v=5"></script>
+    <script type="module" src="./build-planner.mjs?v=6"></script>
   </body>
 </html>

@@ -5,6 +5,7 @@ import {
   buildInternationalTradeUrl,
   calculateBuildDamage,
   createInitialBuildState,
+  getEquipmentBaseEntriesForSlot,
   inferPassiveNodeModifiers,
   localizeCatalogEntry,
   normalizePassiveTree,
@@ -59,16 +60,18 @@ test("catalog entries can be localized and searched with poe2db Chinese names", 
           type: "skill",
           slug: "Lightning_Arrow",
           english: "Lightning Arrow",
-          chinese: "闪电箭矢",
+          chinese: "閃電箭矢",
+          image: "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/lightning_arrow.webp",
         },
       ],
     },
   );
 
-  assert.equal(entry.label, "闪电箭矢");
+  assert.equal(entry.label, "閃電箭矢");
   assert.equal(entry.searchText.includes("lightning arrow"), true);
-  assert.equal(entry.searchText.includes("闪电箭矢"), true);
+  assert.equal(entry.searchText.includes("閃電箭矢"), true);
   assert.equal(entry.tradeText, "Lightning Arrow");
+  assert.equal(entry.image.includes("SkillIcons"), true);
 });
 
 test("equipment base entries keep trade text while displaying PoE2DB Chinese names", () => {
@@ -81,6 +84,8 @@ test("equipment base entries keep trade text while displaying PoE2DB Chinese nam
           slug: "Shortbow",
           english: "Shortbow",
           chinese: "短弓",
+          page: "Bows",
+          image: "https://cdn.poe2db.tw/image/Art/2DItems/Weapons/Bows/Shortbow.webp",
         },
       ],
     },
@@ -88,8 +93,32 @@ test("equipment base entries keep trade text while displaying PoE2DB Chinese nam
 
   assert.equal(entry.label, "短弓");
   assert.equal(entry.tradeText, "Shortbow");
+  assert.equal(entry.page, "Bows");
+  assert.equal(entry.image.includes("Shortbow"), true);
   assert.equal(entry.searchText.includes("短弓"), true);
   assert.equal(entry.searchText.includes("shortbow"), true);
+});
+
+test("equipment base search is filtered by the selected equipment slot", () => {
+  const catalog = {
+    weaponBases: [{ label: "短弓", english: "Shortbow", page: "Bows" }],
+    armourBases: [
+      { label: "絲質風帽", english: "Silk Cap", page: "Helmets" },
+      { label: "沙漠外套", english: "Desert Vest", page: "Body_Armours" },
+      { label: "絲綢手套", english: "Silk Gloves", page: "Gloves" },
+    ],
+    accessoryBases: [
+      { label: "重革腰帶", english: "Heavy Belt", page: "Belts" },
+      { label: "金戒指", english: "Gold Ring", page: "Rings" },
+    ],
+    jewelBases: [{ label: "鑽石珠寶", english: "Diamond Jewel", page: "Jewels" }],
+  };
+
+  const helmetBases = getEquipmentBaseEntriesForSlot(catalog, "helmet");
+  const beltBases = getEquipmentBaseEntriesForSlot(catalog, "belt");
+
+  assert.deepEqual(helmetBases.map((entry) => entry.english), ["Silk Cap"]);
+  assert.deepEqual(beltBases.map((entry) => entry.english), ["Heavy Belt"]);
 });
 
 test("build planner localizes equipment base dropdowns from PoE2DB cache", () => {
@@ -134,7 +163,7 @@ test("build damage returns one result for every configured skill", () => {
     skills: [
       {
         id: "skill-1",
-        name: "闪电箭矢",
+        name: "閃電箭矢",
         level: 20,
         baseHit: 100,
         hitsPerSecond: 2,
@@ -160,7 +189,7 @@ test("build damage returns one result for every configured skill", () => {
   const result = calculateBuildDamage(state);
 
   assert.equal(result.skills.length, 2);
-  assert.equal(result.skills[0].name, "闪电箭矢");
+  assert.equal(result.skills[0].name, "閃電箭矢");
   assert.equal(result.skills[1].name, "毒爆箭");
   assert.equal(result.totalDps, result.skills[0].dps + result.skills[1].dps);
 });
@@ -270,6 +299,7 @@ test("international trade url uses the official trade2 search path", () => {
 
 test("build planner page exposes searchable clickable passive tree controls", () => {
   const html = readFileSync("/Users/persimmon/project/game-guide-site/tools/build-planner.html", "utf8");
+  const script = readFileSync("/Users/persimmon/project/game-guide-site/tools/build-planner.mjs", "utf8");
 
   assert.match(html, /id="skill-list"/);
   assert.match(html, /id="add-skill"/);
@@ -284,6 +314,11 @@ test("build planner page exposes searchable clickable passive tree controls", ()
   assert.match(html, /id="passive-node-list"/);
   assert.match(html, /id="passive-details"/);
   assert.match(html, /流放之路 2 编年史/);
+  assert.match(script, /addEventListener\("wheel"/);
+  assert.match(script, /zoomPassiveTreeAtPoint/);
+  assert.match(script, /support-gem-slot/);
+  assert.match(script, /Array\.from\(\{ length: 5 \}/);
+  assert.match(script, /getEquipmentBaseEntriesForSlot/);
   assert.doesNotMatch(html, /<datalist id="skill-options"/);
   assert.doesNotMatch(html, /<datalist id="support-options"/);
 });

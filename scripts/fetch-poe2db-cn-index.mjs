@@ -6,12 +6,44 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const DATA_DIR = path.join(ROOT, "data");
 const OUTPUT_FILE = path.join(DATA_DIR, "poe2db-cn-index.json");
+const EN_LOCALE = "us";
+const SOURCE_LOCALE = "tw";
 const PAGES = [
   { type: "skill", page: "Skill_Gems" },
   { type: "support", page: "Support_Gems" },
 ];
 const PASSIVE_TREE_PAGE = "passive-skill-tree";
 const ITEM_INDEX_PAGE = "Items";
+const REQUIRED_ITEM_CLASS_PAGES = [
+  "Amulets",
+  "Belts",
+  "Body_Armours",
+  "Boots",
+  "Bows",
+  "Bucklers",
+  "Claws",
+  "Crossbows",
+  "Daggers",
+  "Flails",
+  "Foci",
+  "Gloves",
+  "Helmets",
+  "Jewels",
+  "One_Hand_Axes",
+  "One_Hand_Maces",
+  "One_Hand_Swords",
+  "Quarterstaves",
+  "Quivers",
+  "Rings",
+  "Sceptres",
+  "Shields",
+  "Spears",
+  "Staves",
+  "Two_Hand_Axes",
+  "Two_Hand_Maces",
+  "Two_Hand_Swords",
+  "Wands",
+];
 
 async function fetchText(url) {
   const response = await fetch(url, {
@@ -60,12 +92,42 @@ function stripTags(text = "") {
     .trim();
 }
 
+function toAbsolutePoe2dbUrl(url = "") {
+  const decoded = decodeHtml(url).trim();
+  if (!decoded) {
+    return "";
+  }
+
+  if (decoded.startsWith("//")) {
+    return `https:${decoded}`;
+  }
+
+  if (decoded.startsWith("/")) {
+    return `https://poe2db.tw${decoded}`;
+  }
+
+  return decoded;
+}
+
+function extractImage(fragment = "") {
+  const match = fragment.match(/<img[^>]+src="([^"]+)"/);
+  return match ? toAbsolutePoe2dbUrl(match[1]) : "";
+}
+
 function parseGemAnchors(html, lang) {
   const entries = new Map();
-  const pattern = new RegExp(`<a class="gem_[^"]+"[^>]+href="/${lang}/([^"]+)"[^>]*>([^<]+)</a>`, "g");
+  const pattern = new RegExp(`<a class="gem_[^"]+"[^>]+href="/${lang}/([^"]+)"[^>]*>([\\s\\S]*?)</a>`, "g");
 
   for (const match of html.matchAll(pattern)) {
-    entries.set(match[1], decodeHtml(match[2]).trim());
+    const slug = match[1];
+    const fragment = match[2];
+    const current = entries.get(slug) ?? {};
+    const name = stripTags(fragment);
+    const image = extractImage(fragment);
+    entries.set(slug, {
+      name: name || current.name || "",
+      image: image || current.image || "",
+    });
   }
 
   return entries;
@@ -73,8 +135,8 @@ function parseGemAnchors(html, lang) {
 
 function normalizePageSlug(href = "") {
   return decodeHtml(href)
-    .replace(/^https:\/\/poe2db\.tw\/(?:us|cn)\//, "")
-    .replace(/^\/(?:us|cn)\//, "")
+    .replace(/^https:\/\/poe2db\.tw\/(?:us|cn|tw)\//, "")
+    .replace(/^\/(?:us|cn|tw)\//, "")
     .replace(/^\//, "")
     .split("#")[0]
     .split("?")[0]
@@ -101,13 +163,23 @@ function parseBaseItems(html) {
 
   for (const match of html.matchAll(pattern)) {
     const slug = normalizePageSlug(match[1]);
+    const current = entries.get(slug) ?? {};
     const name = stripTags(match[2]);
-    if (slug && name) {
-      entries.set(slug, name);
+    const image = extractImage(match[2]);
+    if (slug && (name || image)) {
+      entries.set(slug, {
+        name: name || current.name || "",
+        image: image || current.image || "",
+      });
     }
   }
 
   return entries;
+}
+
+function getItemBasePagePriority(page = "") {
+  const index = REQUIRED_ITEM_CLASS_PAGES.indexOf(page);
+  return index === -1 ? 1000 : index;
 }
 
 function findPassiveTreeScript(html) {
@@ -149,7 +221,7 @@ function createPassiveTreeEntries(englishTree, chineseTree) {
       chinese: chineseNode.name,
       englishStats: englishNode.stats ?? [],
       chineseStats: chineseNode.stats ?? [],
-      poe2db: `https://poe2db.tw/cn/${PASSIVE_TREE_PAGE}`,
+      poe2db: `https://poe2db.tw/${SOURCE_LOCALE}/${PASSIVE_TREE_PAGE}`,
     });
   }
 
@@ -161,7 +233,7 @@ function createPassiveTreeEntries(englishTree, chineseTree) {
         index,
         english: englishClass.name,
         chinese: chineseClass.name,
-        poe2db: `https://poe2db.tw/cn/${PASSIVE_TREE_PAGE}`,
+        poe2db: `https://poe2db.tw/${SOURCE_LOCALE}/${PASSIVE_TREE_PAGE}`,
       });
     }
 
@@ -178,7 +250,7 @@ function createPassiveTreeEntries(englishTree, chineseTree) {
         id: englishAscendancy.id ?? "",
         english: englishAscendancy.name,
         chinese: chineseAscendancy.name,
-        poe2db: `https://poe2db.tw/cn/${PASSIVE_TREE_PAGE}`,
+        poe2db: `https://poe2db.tw/${SOURCE_LOCALE}/${PASSIVE_TREE_PAGE}`,
       });
     }
   }
@@ -187,60 +259,66 @@ function createPassiveTreeEntries(englishTree, chineseTree) {
 }
 
 async function fetchPassiveTreeEntries() {
-  const passivePage = await fetchText(`https://poe2db.tw/cn/${PASSIVE_TREE_PAGE}`);
+  const passivePage = await fetchText(`https://poe2db.tw/${SOURCE_LOCALE}/${PASSIVE_TREE_PAGE}`);
   const scriptUrl = findPassiveTreeScript(passivePage);
   const scriptText = await fetchText(scriptUrl);
   const version = findPoe2PassiveTreeVersion(scriptText);
   const [englishTree, chineseTree] = await Promise.all([
-    fetchText(`https://poe2db.tw/data/${PASSIVE_TREE_PAGE}/${version}/data_us.json?1`).then(JSON.parse),
-    fetchText(`https://poe2db.tw/data/${PASSIVE_TREE_PAGE}/${version}/data_cn.json?1`).then(JSON.parse),
+    fetchText(`https://poe2db.tw/data/${PASSIVE_TREE_PAGE}/${version}/data_${EN_LOCALE}.json?1`).then(JSON.parse),
+    fetchText(`https://poe2db.tw/data/${PASSIVE_TREE_PAGE}/${version}/data_${SOURCE_LOCALE}.json?1`).then(JSON.parse),
   ]);
 
   return {
     version,
     entries: createPassiveTreeEntries(englishTree, chineseTree),
     sources: [
-      `https://poe2db.tw/cn/${PASSIVE_TREE_PAGE}`,
-      `https://poe2db.tw/data/${PASSIVE_TREE_PAGE}/${version}/data_cn.json?1`,
+      `https://poe2db.tw/${SOURCE_LOCALE}/${PASSIVE_TREE_PAGE}`,
+      `https://poe2db.tw/data/${PASSIVE_TREE_PAGE}/${version}/data_${SOURCE_LOCALE}.json?1`,
     ],
   };
 }
 
 async function fetchItemBaseEntries() {
   const [englishIndex, chineseIndex] = await Promise.all([
-    fetchText(`https://poe2db.tw/us/${ITEM_INDEX_PAGE}`),
-    fetchText(`https://poe2db.tw/cn/${ITEM_INDEX_PAGE}`),
+    fetchText(`https://poe2db.tw/${EN_LOCALE}/${ITEM_INDEX_PAGE}`),
+    fetchText(`https://poe2db.tw/${SOURCE_LOCALE}/${ITEM_INDEX_PAGE}`),
   ]);
-  const pageSlugs = [...new Set([...parseItemClassPages(englishIndex), ...parseItemClassPages(chineseIndex)])].sort();
+  const pageSlugs = [...new Set([...REQUIRED_ITEM_CLASS_PAGES, ...parseItemClassPages(englishIndex), ...parseItemClassPages(chineseIndex)])].sort();
   const entriesByEnglish = new Map();
-  const sources = [`https://poe2db.tw/cn/${ITEM_INDEX_PAGE}`];
+  const sources = [`https://poe2db.tw/${SOURCE_LOCALE}/${ITEM_INDEX_PAGE}`];
 
   for (const slug of pageSlugs) {
     const [englishHtml, chineseHtml] = await Promise.all([
-      fetchOptionalText(`https://poe2db.tw/us/${slug}`),
-      fetchOptionalText(`https://poe2db.tw/cn/${slug}`),
+      fetchOptionalText(`https://poe2db.tw/${EN_LOCALE}/${slug}`),
+      fetchOptionalText(`https://poe2db.tw/${SOURCE_LOCALE}/${slug}`),
     ]);
     if (!englishHtml || !chineseHtml) {
       continue;
     }
 
-    sources.push(`https://poe2db.tw/cn/${slug}`);
+    sources.push(`https://poe2db.tw/${SOURCE_LOCALE}/${slug}`);
     const englishItems = parseBaseItems(englishHtml);
     const chineseItems = parseBaseItems(chineseHtml);
 
-    for (const [itemSlug, englishName] of englishItems.entries()) {
-      const chineseName = chineseItems.get(itemSlug);
-      if (!chineseName) {
+    for (const [itemSlug, englishItem] of englishItems.entries()) {
+      const chineseItem = chineseItems.get(itemSlug);
+      if (!chineseItem?.name) {
         continue;
       }
 
-      entriesByEnglish.set(englishName, {
+      const existing = entriesByEnglish.get(englishItem.name);
+      if (existing && getItemBasePagePriority(existing.page) <= getItemBasePagePriority(slug)) {
+        continue;
+      }
+
+      entriesByEnglish.set(englishItem.name, {
         type: "item_base",
         slug: itemSlug,
         page: slug,
-        english: englishName,
-        chinese: chineseName,
-        poe2db: `https://poe2db.tw/cn/${itemSlug}`,
+        english: englishItem.name,
+        chinese: chineseItem.name,
+        image: chineseItem.image || englishItem.image || "",
+        poe2db: `https://poe2db.tw/${SOURCE_LOCALE}/${itemSlug}`,
       });
     }
   }
@@ -257,25 +335,26 @@ export async function syncPoe2dbChineseIndex() {
 
   for (const { type, page } of PAGES) {
     const [englishHtml, chineseHtml] = await Promise.all([
-      fetchText(`https://poe2db.tw/us/${page}`),
-      fetchText(`https://poe2db.tw/cn/${page}`),
+      fetchText(`https://poe2db.tw/${EN_LOCALE}/${page}`),
+      fetchText(`https://poe2db.tw/${SOURCE_LOCALE}/${page}`),
     ]);
-    source.push(`https://poe2db.tw/cn/${page}`);
-    const english = parseGemAnchors(englishHtml, "us");
-    const chinese = parseGemAnchors(chineseHtml, "cn");
+    source.push(`https://poe2db.tw/${SOURCE_LOCALE}/${page}`);
+    const english = parseGemAnchors(englishHtml, EN_LOCALE);
+    const chinese = parseGemAnchors(chineseHtml, SOURCE_LOCALE);
 
-    for (const [slug, englishName] of english.entries()) {
-      const chineseName = chinese.get(slug);
-      if (!chineseName) {
+    for (const [slug, englishEntry] of english.entries()) {
+      const chineseEntry = chinese.get(slug);
+      if (!chineseEntry?.name) {
         continue;
       }
 
       entries.push({
         type,
         slug,
-        english: englishName,
-        chinese: chineseName,
-        poe2db: `https://poe2db.tw/cn/${slug}`,
+        english: englishEntry.name,
+        chinese: chineseEntry.name,
+        image: chineseEntry.image || englishEntry.image || "",
+        poe2db: `https://poe2db.tw/${SOURCE_LOCALE}/${slug}`,
       });
     }
   }
@@ -294,6 +373,7 @@ export async function syncPoe2dbChineseIndex() {
     `${JSON.stringify(
       {
         updatedAt: new Date().toISOString(),
+        locale: SOURCE_LOCALE,
         source,
         passiveTreeVersion: passiveTree.version,
         entries,
