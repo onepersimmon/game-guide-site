@@ -1165,6 +1165,11 @@ function getAscendancyNames(tree, selectedClassName = "") {
   return fromClass.length > 0 ? fromClass : fromNodes;
 }
 
+function getInitialPassiveFocusNode(tree) {
+  const firstClassStart = tree.classes?.find((entry) => entry.startingNode)?.startingNode;
+  return tree.nodes.find((node) => node.id === String(firstClassStart)) ?? tree.nodes.find(hasSupportedPassiveModifiers) ?? tree.nodes[0];
+}
+
 const EQUIPMENT_SLOTS = [
   { id: "weapon", label: "武器", area: "weapon", pages: ["Bows", "Claws", "Crossbows", "Daggers", "Flails", "One_Hand_Axes", "One_Hand_Maces", "One_Hand_Swords", "Quarterstaves", "Sceptres", "Spears", "Staves", "Two_Hand_Axes", "Two_Hand_Maces", "Two_Hand_Swords", "Wands"] },
   { id: "offhand", label: "副手", area: "weapon", pages: ["Bucklers", "Foci", "Quivers", "Shields"] },
@@ -1561,7 +1566,8 @@ async function initBuildPlanner() {
     ...catalog.jewelBases,
   ];
   let passiveNodes = [];
-  let selectedPassiveNode = passiveTree.nodes.find(hasSupportedPassiveModifiers) ?? passiveTree.nodes[0];
+  const initialPassiveNode = getInitialPassiveFocusNode(passiveTree);
+  let selectedPassiveNode = initialPassiveNode;
   let equipmentState = createInitialEquipmentState();
   let editingEquipmentSlot = equipmentState[0]?.id ?? "";
 
@@ -1716,6 +1722,7 @@ async function initBuildPlanner() {
   };
 
   renderPassiveTreeSvg(passiveTree, passiveNodes, toggleTreeNode);
+  focusPassiveTreeNode(initialPassiveNode, 0.16);
   renderPassiveNodeList(passiveTree, passiveNodes, toggleTreeNode);
   renderCharacterEquipment(equipmentState, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE, openEquipmentModal);
   wirePassiveTreePan(document.querySelector(".passive-tree-surface"), document.getElementById("passive-tree-svg"));

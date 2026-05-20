@@ -343,6 +343,8 @@ test("build planner page exposes searchable clickable passive tree controls", ()
   assert.match(script, /wirePassiveTreePan/);
   assert.match(script, /wirePassiveTreeSvgDelegates/);
   assert.match(script, /updatePassiveActiveEdgePath/);
+  assert.match(script, /getInitialPassiveFocusNode/);
+  assert.match(script, /focusPassiveTreeNode\(initialPassiveNode, 0\.16\)/);
   assert.match(script, /previewPassiveTreePan/);
   assert.match(script, /commitPassiveTreePan/);
   assert.match(script, /requestAnimationFrame/);
