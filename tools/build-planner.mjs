@@ -782,6 +782,11 @@ function wirePassiveTreeSvgDelegates(svg, onToggle) {
 
   svg.__passiveDelegatesWired = true;
   svg.addEventListener("click", (event) => {
+    if (svg.__skipNextPassiveClick) {
+      svg.__skipNextPassiveClick = false;
+      return;
+    }
+
     const node = getPassiveEventNode(svg, event);
     if (!node) {
       return;
@@ -846,6 +851,10 @@ function renderPassiveTreeSvg(tree, passiveNodes, onToggle) {
   const activeIds = new Set(passiveNodes.map((node) => node.id));
   const nodeById = new Map(tree.nodes.map((node) => [node.id, node]));
   const fragment = document.createDocumentFragment();
+  const viewport = createSvgElement("g", {
+    class: "passive-tree-viewport",
+    "data-passive-viewport": "true",
+  });
   const edges = createSvgElement("g", { class: "passive-tree-edges" });
   const nodes = createSvgElement("g", { class: "passive-tree-nodes" });
   const edgeSegments = [];
@@ -923,13 +932,59 @@ function renderPassiveTreeSvg(tree, passiveNodes, onToggle) {
     nodes.append(hitTarget);
   });
 
-  fragment.append(edges, nodes);
+  viewport.append(edges, nodes);
+  fragment.append(viewport);
   svg.append(fragment);
   wirePassiveTreeSvgDelegates(svg, onToggle);
 }
 
 function setPassiveViewBox(svg, viewBox) {
   svg.setAttribute("viewBox", `${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}`);
+}
+
+function getPassivePanOffset(svg, viewBox, deltaX, deltaY) {
+  const rect = svg?.getBoundingClientRect?.();
+  if (!rect?.width || !rect?.height || !viewBox) {
+    return { x: 0, y: 0 };
+  }
+
+  return {
+    x: (deltaX / rect.width) * viewBox.width,
+    y: (deltaY / rect.height) * viewBox.height,
+  };
+}
+
+function clearPassiveTreePanPreview(svg) {
+  const viewport = svg?.querySelector?.("[data-passive-viewport]");
+  viewport?.removeAttribute("transform");
+  svg?.classList?.remove("is-pan-previewing");
+}
+
+function previewPassiveTreePan(svg, startViewBox, deltaX, deltaY) {
+  const viewport = svg?.querySelector?.("[data-passive-viewport]");
+  if (!viewport) {
+    return;
+  }
+
+  const offset = getPassivePanOffset(svg, startViewBox, deltaX, deltaY);
+  viewport.setAttribute("transform", `translate(${offset.x} ${offset.y})`);
+  svg.classList.add("is-pan-previewing");
+}
+
+function commitPassiveTreePan(svg, startViewBox, deltaX, deltaY) {
+  if (!svg || !startViewBox) {
+    return;
+  }
+
+  const offset = getPassivePanOffset(svg, startViewBox, deltaX, deltaY);
+  clearPassiveTreePanPreview(svg);
+  svg.__currentViewBox = {
+    x: startViewBox.x - offset.x,
+    y: startViewBox.y - offset.y,
+    width: startViewBox.width,
+    height: startViewBox.height,
+  };
+  setPassiveViewBox(svg, svg.__currentViewBox);
 }
 
 function clampPassiveViewBox(svg, width, height) {
@@ -950,6 +1005,7 @@ function zoomPassiveTree(factor) {
     return;
   }
 
+  clearPassiveTreePanPreview(svg);
   const current = svg.__currentViewBox;
   const { width: nextWidth, height: nextHeight } = clampPassiveViewBox(svg, current.width * factor, current.height * factor);
   const centerX = current.x + current.width / 2;
@@ -968,6 +1024,7 @@ function zoomPassiveTreeAtPoint(svg, factor, clientX, clientY) {
     return;
   }
 
+  clearPassiveTreePanPreview(svg);
   const rect = svg.getBoundingClientRect();
   if (!rect.width || !rect.height) {
     zoomPassiveTree(factor);
@@ -992,26 +1049,6 @@ function zoomPassiveTreeAtPoint(svg, factor, clientX, clientY) {
   setPassiveViewBox(svg, svg.__currentViewBox);
 }
 
-function panPassiveTreeByPixels(svg, deltaX, deltaY) {
-  if (!svg?.__currentViewBox) {
-    return;
-  }
-
-  const rect = svg.getBoundingClientRect();
-  if (!rect.width || !rect.height) {
-    return;
-  }
-
-  const current = svg.__currentViewBox;
-  svg.__currentViewBox = {
-    x: current.x - (deltaX / rect.width) * current.width,
-    y: current.y - (deltaY / rect.height) * current.height,
-    width: current.width,
-    height: current.height,
-  };
-  setPassiveViewBox(svg, svg.__currentViewBox);
-}
-
 function wirePassiveTreePan(surface, svg) {
   if (!surface || !svg) {
     return;
@@ -1019,7 +1056,7 @@ function wirePassiveTreePan(surface, svg) {
 
   let drag = null;
   surface.addEventListener("pointerdown", (event) => {
-    if (event.button !== 0 || event.target?.dataset?.passiveId) {
+    if (event.button !== 0 || !svg.__currentViewBox) {
       return;
     }
 
@@ -1027,7 +1064,12 @@ function wirePassiveTreePan(surface, svg) {
       pointerId: event.pointerId,
       x: event.clientX,
       y: event.clientY,
+      totalX: 0,
+      totalY: 0,
       distance: 0,
+      frame: 0,
+      node: getPassiveEventNode(svg, event),
+      startViewBox: { ...svg.__currentViewBox },
     };
     svg.__didDrag = false;
     surface.classList.add("is-panning");
@@ -1040,11 +1082,18 @@ function wirePassiveTreePan(surface, svg) {
 
     const deltaX = event.clientX - drag.x;
     const deltaY = event.clientY - drag.y;
+    drag.totalX += deltaX;
+    drag.totalY += deltaY;
     drag.distance += Math.abs(deltaX) + Math.abs(deltaY);
     if (drag.distance > 3) {
       svg.__didDrag = true;
-      panPassiveTreeByPixels(svg, deltaX, deltaY);
       hidePassiveTooltip();
+      if (!drag.frame) {
+        drag.frame = window.requestAnimationFrame(() => {
+          drag.frame = 0;
+          previewPassiveTreePan(svg, drag.startViewBox, drag.totalX, drag.totalY);
+        });
+      }
     }
     drag.x = event.clientX;
     drag.y = event.clientY;
@@ -1055,6 +1104,18 @@ function wirePassiveTreePan(surface, svg) {
       return;
     }
 
+    if (drag.frame) {
+      window.cancelAnimationFrame(drag.frame);
+    }
+    if (drag.distance > 3) {
+      commitPassiveTreePan(svg, drag.startViewBox, drag.totalX, drag.totalY);
+    } else {
+      clearPassiveTreePanPreview(svg);
+      if (drag.node) {
+        svg.__onPassiveToggle?.(drag.node);
+        svg.__skipNextPassiveClick = true;
+      }
+    }
     drag = null;
     surface.classList.remove("is-panning");
     surface.releasePointerCapture?.(event.pointerId);
@@ -1073,6 +1134,7 @@ function resetPassiveTreeView() {
     return;
   }
 
+  clearPassiveTreePanPreview(svg);
   svg.__currentViewBox = { ...svg.__baseViewBox };
   setPassiveViewBox(svg, svg.__currentViewBox);
 }
@@ -1083,6 +1145,7 @@ function focusPassiveTreeNode(node, scale = 0.34) {
     return;
   }
 
+  clearPassiveTreePanPreview(svg);
   const base = svg.__baseViewBox;
   const width = Math.max(1400, base.width * scale);
   const height = Math.max(900, base.height * scale);

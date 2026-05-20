@@ -59,7 +59,7 @@ test("build planner page exposes PoE2 planner controls and results", () => {
   assert.match(buildPlanner, /id="passive-tree-svg"/);
   assert.match(buildPlanner, /id="planner-average-hit"/);
   assert.match(buildPlanner, /id="equipment-slots"/);
-  assert.match(buildPlanner, /type="module" src="\.\/build-planner\.mjs\?v=8"/);
+  assert.match(buildPlanner, /type="module" src="\.\/build-planner\.mjs\?v=9"/);
 });
 
 test("page replaces the large hero with a compact GGG news list", () => {

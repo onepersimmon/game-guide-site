@@ -1285,6 +1285,11 @@ a {
   height: 820px;
 }
 
+.passive-tree-viewport {
+  transform-box: fill-box;
+  transform-origin: 0 0;
+}
+
 .passive-tree-edge-path {
   fill: none;
   stroke: rgba(138, 146, 154, 0.34);

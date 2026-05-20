@@ -343,12 +343,17 @@ test("build planner page exposes searchable clickable passive tree controls", ()
   assert.match(script, /wirePassiveTreePan/);
   assert.match(script, /wirePassiveTreeSvgDelegates/);
   assert.match(script, /updatePassiveActiveEdgePath/);
+  assert.match(script, /previewPassiveTreePan/);
+  assert.match(script, /commitPassiveTreePan/);
+  assert.match(script, /requestAnimationFrame/);
+  assert.match(script, /data-passive-viewport/);
   assert.match(script, /class: "passive-tree-edge-path"/);
   assert.match(script, /showPassiveTooltip/);
   assert.match(script, /syncEquipmentStateJewelSlots/);
   assert.doesNotMatch(script, /hitTarget\.addEventListener\("click"/);
   assert.doesNotMatch(script, /circle\.addEventListener\("click"/);
   assert.doesNotMatch(script, /createSvgElement\("line"/);
+  assert.doesNotMatch(script, /pointermove[\s\S]{0,650}setPassiveViewBox/);
   assert.match(script, /support-gem-slot/);
   assert.match(script, /Array\.from\(\{ length: 5 \}/);
   assert.match(script, /getEquipmentBaseEntriesForSlot/);
