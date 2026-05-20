@@ -80,6 +80,13 @@ function localizeCatalogList(entries = [], localizationIndex = {}) {
   return entries.map((entry) => localizeCatalogEntry(entry, localizationIndex));
 }
 
+function createPoe2dbGemCatalog(localizationIndex = {}, type = "skill") {
+  return (localizationIndex.entries ?? [])
+    .filter((entry) => entry.type === type)
+    .map((entry) => localizeCatalogEntry({ text: entry.english, type: entry.english }, localizationIndex))
+    .filter((entry, index, entries) => entries.findIndex((candidate) => candidate.english === entry.english) === index);
+}
+
 function createPoe2dbLocalizationMaps(localizationIndex = {}) {
   const maps = {
     passiveBySkill: new Map(),
@@ -140,6 +147,7 @@ export function normalizePassiveTree(rawTree = {}) {
   const skillsPerOrbit = constants.skillsPerOrbit ?? [];
   const orbitRadii = constants.orbitRadii ?? [];
   const groups = rawTree.groups ?? {};
+  const jewelSlotSkills = new Set((rawTree.jewelSlots ?? []).map((skill) => String(skill)));
   const bounds = {
     minX: Number.POSITIVE_INFINITY,
     minY: Number.POSITIVE_INFINITY,
@@ -167,6 +175,7 @@ export function normalizePassiveTree(rawTree = {}) {
       y,
       color: node.color ?? "#6c7e9d",
       isNotable: Boolean(node.isNotable),
+      isJewelSocket: jewelSlotSkills.has(String(node.skill ?? id)) || /\[?jewel\]?\s+socket/i.test(node.name ?? ""),
       ascendancyName: node.ascendancyName ?? "",
       statsText: (node.stats ?? []).map((stat) => stripMarkup(stat.t ?? stat.text ?? "")).filter(Boolean).join(" | "),
       statsTextCn: "",
@@ -262,12 +271,7 @@ export function createInitialBuildState(catalog = {}) {
     catalog,
     skills: [createSkillRow()],
     passiveNodes: [],
-    equipment: {
-      weapon: null,
-      armour: null,
-      accessory: null,
-      jewel: null,
-    },
+    equipment: createInitialEquipmentState(),
   };
 }
 
@@ -477,7 +481,7 @@ function positionSearchLayer(layer, input) {
   const rect = input.getBoundingClientRect();
   layer.style.left = `${rect.left}px`;
   layer.style.top = `${rect.bottom + 6}px`;
-  layer.style.width = `${Math.max(rect.width, 280)}px`;
+  layer.style.width = `${Math.min(Math.max(rect.width, 280), 640)}px`;
 }
 
 function hideSearchLayer(layer) {
@@ -546,6 +550,7 @@ function attachDynamicSearch(input, entries, layerId, onSelect, { emptyText = "�
     }
   });
   window.addEventListener("resize", () => hideSearchLayer(layer));
+  window.addEventListener("scroll", () => hideSearchLayer(layer), { capture: true });
   document.addEventListener("mousedown", (event) => {
     if (event.target !== input && !layer.contains(event.target)) {
       hideSearchLayer(layer);
@@ -590,6 +595,7 @@ function formatPassiveModifiers(node) {
 function getPassiveTreePayload(payload = {}, localizationIndex = {}) {
   const tree = Array.isArray(payload.nodes) ? payload : normalizePassiveTree(payload);
   const localizationMaps = createPoe2dbLocalizationMaps(localizationIndex);
+  const jewelSlotSkills = new Set((tree.jewelSlots ?? []).map((skill) => String(skill)));
 
   return {
     ...tree,
@@ -599,9 +605,11 @@ function getPassiveTreePayload(payload = {}, localizationIndex = {}) {
       const label = passiveEntry?.chinese ?? node.name ?? node.label ?? "";
       const ascendancyNameCn = ascendancyEntry?.chinese ?? node.ascendancyName ?? "";
       const statsTextCn = (passiveEntry?.chineseStats ?? []).join(" | ");
+      const isJewelSocket = Boolean(node.isJewelSocket) || jewelSlotSkills.has(String(node.skill ?? node.id)) || /jewel.*socket|\[Jewel\|珠寶\]插槽/i.test(`${node.name ?? ""} ${label}`);
       return {
         ...node,
         label,
+        isJewelSocket,
         ascendancyNameCn,
         statsTextCn,
         poe2dbChineseSource: passiveEntry?.poe2db ?? "",
@@ -620,6 +628,21 @@ function updatePassiveActiveState(passiveNodes) {
   document.querySelectorAll("[data-passive-edge]").forEach((element) => {
     const [from, to] = element.dataset.passiveEdge.split(":");
     element.classList.toggle("is-active", activeIds.has(from) && activeIds.has(to));
+  });
+}
+
+function updatePassiveSearchState(tree) {
+  const query = normalizeKey(document.getElementById("passive-search")?.value ?? "");
+  const matches = new Set(
+    query
+      ? tree.nodes
+          .filter((node) => (node.searchText || normalizeKey(`${node.name} ${node.statsText} ${node.statsTextCn} ${node.ascendancyName}`)).includes(query))
+          .map((node) => node.id)
+      : [],
+  );
+
+  document.querySelectorAll("[data-passive-id]").forEach((element) => {
+    element.classList.toggle("is-search-match", matches.has(element.dataset.passiveId));
   });
 }
 
@@ -678,6 +701,47 @@ function renderPassiveNodeList(tree, passiveNodes, onToggle) {
   }
 }
 
+function showPassiveTooltip(node, isActive, event) {
+  const target = document.getElementById("passive-tooltip");
+  if (!target || !node) {
+    return;
+  }
+
+  target.innerHTML = "";
+  const title = document.createElement("strong");
+  title.textContent = node.label ?? node.name;
+  const meta = document.createElement("span");
+  meta.textContent = [node.ascendancyNameCn || node.ascendancyName, isActive ? "已点亮" : "未点亮", node.isJewelSocket ? "珠宝插槽" : ""].filter(Boolean).join(" / ");
+  const modifiers = document.createElement("p");
+  modifiers.textContent = formatPassiveModifiers(node);
+  const stats = document.createElement("small");
+  stats.textContent = node.statsTextCn || node.statsText || "无可展示词缀";
+  target.append(title, meta, modifiers, stats);
+  movePassiveTooltip(event);
+  target.hidden = false;
+}
+
+function movePassiveTooltip(event) {
+  const target = document.getElementById("passive-tooltip");
+  if (!target || !event) {
+    return;
+  }
+
+  const offset = 18;
+  const width = 320;
+  const left = Math.min(event.clientX + offset, window.innerWidth - width - 14);
+  const top = Math.min(event.clientY + offset, window.innerHeight - 180);
+  target.style.left = `${Math.max(14, left)}px`;
+  target.style.top = `${Math.max(14, top)}px`;
+}
+
+function hidePassiveTooltip() {
+  const target = document.getElementById("passive-tooltip");
+  if (target) {
+    target.hidden = true;
+  }
+}
+
 function renderPassiveTreeSvg(tree, passiveNodes, onToggle) {
   const svg = document.getElementById("passive-tree-svg");
   if (!svg) {
@@ -720,14 +784,20 @@ function renderPassiveTreeSvg(tree, passiveNodes, onToggle) {
 
   tree.nodes.forEach((node) => {
     const supported = hasSupportedPassiveModifiers(node);
-    const handleNodePick = () => onToggle(node);
+    const handleNodePick = (event) => {
+      if (svg.__didDrag) {
+        event.preventDefault();
+        return;
+      }
+      onToggle(node);
+    };
     const handleNodeKeydown = (event) => {
       if (event.key === "Enter" || event.key === " ") {
         event.preventDefault();
         onToggle(node);
       }
     };
-    const handleNodeHover = () => renderPassiveDetails(node, activeIds.has(node.id));
+    const handleNodeHover = (event) => showPassiveTooltip(node, activeIds.has(node.id), event);
     const hitTarget = createSvgElement("circle", {
       cx: node.x,
       cy: node.y,
@@ -737,6 +807,7 @@ function renderPassiveTreeSvg(tree, passiveNodes, onToggle) {
       class: [
         "passive-tree-hit-target",
         supported ? "is-supported" : "",
+        node.isJewelSocket ? "is-jewel-socket" : "",
         activeIds.has(node.id) ? "is-active" : "",
       ]
         .filter(Boolean)
@@ -752,6 +823,7 @@ function renderPassiveTreeSvg(tree, passiveNodes, onToggle) {
         "passive-tree-node",
         node.isNotable ? "is-notable" : "",
         supported ? "is-supported" : "",
+        node.isJewelSocket ? "is-jewel-socket" : "",
         activeIds.has(node.id) ? "is-active" : "",
       ]
         .filter(Boolean)
@@ -763,12 +835,16 @@ function renderPassiveTreeSvg(tree, passiveNodes, onToggle) {
     hitTarget.addEventListener("click", handleNodePick);
     hitTarget.addEventListener("keydown", handleNodeKeydown);
     hitTarget.addEventListener("mouseenter", handleNodeHover);
+    hitTarget.addEventListener("mousemove", movePassiveTooltip);
+    hitTarget.addEventListener("mouseleave", hidePassiveTooltip);
     circle.setAttribute("fill", node.color ?? "#6c7e9d");
     circle.append(createSvgElement("title"));
     circle.querySelector("title").textContent = title.textContent;
     circle.addEventListener("click", handleNodePick);
     circle.addEventListener("keydown", handleNodeKeydown);
     circle.addEventListener("mouseenter", handleNodeHover);
+    circle.addEventListener("mousemove", movePassiveTooltip);
+    circle.addEventListener("mouseleave", hidePassiveTooltip);
     nodes.append(circle);
     nodes.append(hitTarget);
   });
@@ -841,6 +917,81 @@ function zoomPassiveTreeAtPoint(svg, factor, clientX, clientY) {
   setPassiveViewBox(svg, svg.__currentViewBox);
 }
 
+function panPassiveTreeByPixels(svg, deltaX, deltaY) {
+  if (!svg?.__currentViewBox) {
+    return;
+  }
+
+  const rect = svg.getBoundingClientRect();
+  if (!rect.width || !rect.height) {
+    return;
+  }
+
+  const current = svg.__currentViewBox;
+  svg.__currentViewBox = {
+    x: current.x - (deltaX / rect.width) * current.width,
+    y: current.y - (deltaY / rect.height) * current.height,
+    width: current.width,
+    height: current.height,
+  };
+  setPassiveViewBox(svg, svg.__currentViewBox);
+}
+
+function wirePassiveTreePan(surface, svg) {
+  if (!surface || !svg) {
+    return;
+  }
+
+  let drag = null;
+  surface.addEventListener("pointerdown", (event) => {
+    if (event.button !== 0 || event.target?.dataset?.passiveId) {
+      return;
+    }
+
+    drag = {
+      pointerId: event.pointerId,
+      x: event.clientX,
+      y: event.clientY,
+      distance: 0,
+    };
+    svg.__didDrag = false;
+    surface.classList.add("is-panning");
+    surface.setPointerCapture?.(event.pointerId);
+  });
+  surface.addEventListener("pointermove", (event) => {
+    if (!drag || drag.pointerId !== event.pointerId) {
+      return;
+    }
+
+    const deltaX = event.clientX - drag.x;
+    const deltaY = event.clientY - drag.y;
+    drag.distance += Math.abs(deltaX) + Math.abs(deltaY);
+    if (drag.distance > 3) {
+      svg.__didDrag = true;
+      panPassiveTreeByPixels(svg, deltaX, deltaY);
+      hidePassiveTooltip();
+    }
+    drag.x = event.clientX;
+    drag.y = event.clientY;
+  });
+
+  const finishDrag = (event) => {
+    if (!drag || drag.pointerId !== event.pointerId) {
+      return;
+    }
+
+    drag = null;
+    surface.classList.remove("is-panning");
+    surface.releasePointerCapture?.(event.pointerId);
+    window.setTimeout(() => {
+      svg.__didDrag = false;
+    }, 0);
+  };
+
+  surface.addEventListener("pointerup", finishDrag);
+  surface.addEventListener("pointercancel", finishDrag);
+}
+
 function resetPassiveTreeView() {
   const svg = document.getElementById("passive-tree-svg");
   if (!svg?.__baseViewBox) {
@@ -887,11 +1038,22 @@ const EQUIPMENT_SLOTS = [
   { id: "ring-1", label: "戒指 1", area: "accessory", pages: ["Rings"] },
   { id: "ring-2", label: "戒指 2", area: "accessory", pages: ["Rings"] },
   { id: "belt", label: "腰带", area: "accessory", pages: ["Belts"] },
-  { id: "jewel", label: "天赋珠宝", area: "jewel", pages: ["Jewels"] },
 ];
 
+function createJewelEquipmentSlot(index) {
+  return { id: `jewel-${index}`, label: `天赋珠宝 ${index}`, area: "jewel", pages: ["Jewels"] };
+}
+
+function getEquipmentSlotDefinition(slotId = "") {
+  if (/^jewel-\d+$/.test(slotId)) {
+    return createJewelEquipmentSlot(toNumber(slotId.split("-")[1], 1));
+  }
+
+  return EQUIPMENT_SLOTS.find((entry) => entry.id === slotId);
+}
+
 export function getEquipmentBaseEntriesForSlot(catalog = {}, slotId = "") {
-  const slot = EQUIPMENT_SLOTS.find((entry) => entry.id === slotId);
+  const slot = getEquipmentSlotDefinition(slotId);
   if (!slot) {
     return [];
   }
@@ -905,6 +1067,29 @@ export function getEquipmentBaseEntriesForSlot(catalog = {}, slotId = "") {
   const allowedPages = new Set(slot.pages ?? []);
 
   return (basePools[slot.area] ?? []).filter((entry) => allowedPages.has(entry.page));
+}
+
+export function getSelectedJewelSocketCount(passiveNodes = []) {
+  return passiveNodes.filter((node) => node?.isJewelSocket || /jewel.*socket|\[Jewel\|珠寶\]插槽/i.test(`${node?.name ?? ""} ${node?.label ?? ""}`)).length;
+}
+
+export function syncEquipmentStateJewelSlots(equipmentState = [], jewelSlotCount = 0) {
+  const baseSlots = equipmentState.filter((slot) => slot.area !== "jewel");
+  const existingJewels = equipmentState.filter((slot) => slot.area === "jewel");
+  const nextJewels = Array.from({ length: Math.max(0, jewelSlotCount) }, (_, index) => {
+    const definition = createJewelEquipmentSlot(index + 1);
+    const existing = existingJewels[index] ?? {};
+    return {
+      ...definition,
+      base: existing.base ?? "",
+      baseTradeText: existing.baseTradeText ?? "",
+      affixes: existing.affixes ?? [],
+      increased: toNumber(existing.increased),
+      more: toNumber(existing.more),
+    };
+  });
+
+  return [...baseSlots, ...nextJewels];
 }
 
 function findEntryByInput(entries = [], value = "") {
@@ -1008,15 +1193,15 @@ function wireSkillCardSearch(card, catalog) {
   });
 }
 
-function createInitialEquipmentState() {
-  return EQUIPMENT_SLOTS.map((slot) => ({
+function createInitialEquipmentState(jewelSlotCount = 0) {
+  return syncEquipmentStateJewelSlots(EQUIPMENT_SLOTS.map((slot) => ({
     ...slot,
     base: "",
     baseTradeText: "",
     affixes: [],
     increased: slot.id === "weapon" ? 80 : 0,
     more: 0,
-  }));
+  })), jewelSlotCount);
 }
 
 function getEquipmentRows(equipmentState = []) {
@@ -1215,20 +1400,13 @@ async function initBuildPlanner() {
     loadJson("../data/poe2-passive-tree.json"),
   ]);
   const catalog = normalizeTradeCatalog({ items, staticData, stats });
-  catalog.skillGems = localizeCatalogList(catalog.skillGems, localizationIndex);
+  catalog.skillGems = createPoe2dbGemCatalog(localizationIndex, "skill");
   catalog.weaponBases = localizeCatalogList(catalog.weaponBases, localizationIndex);
   catalog.armourBases = localizeCatalogList(catalog.armourBases, localizationIndex);
   catalog.accessoryBases = localizeCatalogList(catalog.accessoryBases, localizationIndex);
   catalog.jewelBases = localizeCatalogList(catalog.jewelBases, localizationIndex);
   catalog.flaskBases = localizeCatalogList(catalog.flaskBases, localizationIndex);
-  catalog.supportGems = [
-    ...localizeCatalogList(catalog.supportGems, localizationIndex),
-    ...(localizationIndex.entries ?? [])
-      .filter((entry) => entry.type === "support")
-      .map((entry) => localizeCatalogEntry({ text: entry.english, type: entry.english }, localizationIndex)),
-  ].filter((entry, index, entries) => {
-    return entries.findIndex((candidate) => candidate.label === entry.label) === index;
-  });
+  catalog.supportGems = createPoe2dbGemCatalog(localizationIndex, "support");
   catalog.itemStats = catalog.itemStats.map((entry) => ({
     ...entry,
     label: entry.text,
@@ -1294,16 +1472,15 @@ async function initBuildPlanner() {
 
   const update = () => {
     const league = form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE;
+    equipmentState = syncEquipmentStateJewelSlots(equipmentState, getSelectedJewelSocketCount(passiveNodes));
+    if (!equipmentState.some((slot) => slot.id === editingEquipmentSlot)) {
+      editingEquipmentSlot = equipmentState[0]?.id ?? "";
+    }
     const state = readPlannerState(form, catalog, passiveNodes, equipmentState);
     renderPlannerResult(calculateBuildDamage(state), form, equipmentState);
     renderCharacterEquipment(equipmentState, league, openEquipmentModal);
     updatePassiveActiveState(passiveNodes);
-    if (selectedPassiveNode) {
-      renderPassiveDetails(
-        selectedPassiveNode,
-        passiveNodes.some((node) => node.id === selectedPassiveNode.id),
-      );
-    }
+    updatePassiveSearchState(passiveTree);
   };
 
   function wireAffixRow(row) {
@@ -1402,11 +1579,12 @@ async function initBuildPlanner() {
 
   renderPassiveTreeSvg(passiveTree, passiveNodes, toggleTreeNode);
   renderPassiveNodeList(passiveTree, passiveNodes, toggleTreeNode);
-  renderPassiveDetails(selectedPassiveNode, false);
   renderCharacterEquipment(equipmentState, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE, openEquipmentModal);
+  wirePassiveTreePan(document.querySelector(".passive-tree-surface"), document.getElementById("passive-tree-svg"));
 
   document.getElementById("passive-search")?.addEventListener("input", () => {
     renderPassiveNodeList(passiveTree, passiveNodes, toggleTreeNode);
+    updatePassiveSearchState(passiveTree);
   });
   classSelect?.addEventListener("change", () => {
     refreshAscendancies();
@@ -1414,7 +1592,6 @@ async function initBuildPlanner() {
     const startNode = passiveTree.nodes.find((node) => node.id === String(classEntry?.startingNode));
     if (startNode) {
       selectedPassiveNode = startNode;
-      renderPassiveDetails(startNode, passiveNodes.some((node) => node.id === startNode.id));
       focusPassiveTreeNode(startNode, 0.24);
     }
   });
@@ -1422,7 +1599,6 @@ async function initBuildPlanner() {
     const match = passiveTree.nodes.find((node) => node.ascendancyName === ascendancySelect.value);
     if (match) {
       selectedPassiveNode = match;
-      renderPassiveDetails(match, passiveNodes.some((node) => node.id === match.id));
       focusPassiveTreeNode(match, 0.18);
     }
   });

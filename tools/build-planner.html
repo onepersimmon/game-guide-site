@@ -90,10 +90,6 @@
               <div class="passive-tree-surface" aria-label="流放之路 2 天赋树节点图">
                 <svg id="passive-tree-svg" role="img" aria-label="可点击流放之路 2 天赋树"></svg>
               </div>
-              <aside class="passive-sidebar" aria-label="天赋节点列表与详情">
-                <div id="passive-node-list" class="passive-node-list"></div>
-                <div id="passive-details" class="passive-details">选择一个节点查看词缀。</div>
-              </aside>
             </div>
             <div class="field-grid">
               <label class="calc-field" for="planner-tree-increased">
@@ -146,6 +142,7 @@
     <div id="support-search-layer" class="search-layer" hidden></div>
     <div id="equipment-search-layer" class="search-layer" hidden></div>
     <div id="affix-search-layer" class="search-layer" hidden></div>
+    <div id="passive-tooltip" class="passive-tooltip" role="tooltip" hidden></div>
 
     <div id="equipment-modal" class="equipment-modal" role="dialog" aria-modal="true" aria-labelledby="equipment-modal-title" hidden>
       <div class="equipment-modal__backdrop" data-close-equipment></div>
@@ -185,6 +182,6 @@
       </section>
     </div>
 
-    <script type="module" src="./build-planner.mjs?v=6"></script>
+    <script type="module" src="./build-planner.mjs?v=7"></script>
   </body>
 </html>

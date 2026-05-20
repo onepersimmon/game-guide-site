@@ -6,9 +6,11 @@ import {
   calculateBuildDamage,
   createInitialBuildState,
   getEquipmentBaseEntriesForSlot,
+  getSelectedJewelSocketCount,
   inferPassiveNodeModifiers,
   localizeCatalogEntry,
   normalizePassiveTree,
+  syncEquipmentStateJewelSlots,
   normalizeTradeCatalog,
   togglePassiveNode,
   updateSkillRow,
@@ -119,6 +121,24 @@ test("equipment base search is filtered by the selected equipment slot", () => {
 
   assert.deepEqual(helmetBases.map((entry) => entry.english), ["Silk Cap"]);
   assert.deepEqual(beltBases.map((entry) => entry.english), ["Heavy Belt"]);
+});
+
+test("jewel equipment slots follow selected passive jewel sockets", () => {
+  const tree = normalizePassiveTree({
+    nodes: {
+      10: { name: "[Jewel] Socket", skill: 1010, group: "g1", orbit: 0, orbitIndex: 0, out: [] },
+      11: { name: "Attack Damage", skill: 1011, group: "g1", orbit: 1, orbitIndex: 0, out: [] },
+    },
+    groups: { g1: { x: 0, y: 0, nodes: ["10", "11"] } },
+    constants: { skillsPerOrbit: [1, 1], orbitRadii: [0, 80] },
+    jewelSlots: [1010],
+  });
+  const selected = [tree.nodes.find((node) => node.id === "10"), tree.nodes.find((node) => node.id === "11")];
+  const equipment = syncEquipmentStateJewelSlots(createInitialBuildState().equipment, getSelectedJewelSocketCount(selected));
+
+  assert.equal(getSelectedJewelSocketCount(selected), 1);
+  assert.equal(equipment.filter((slot) => slot.area === "jewel").length, 1);
+  assert.equal(equipment.some((slot) => slot.id === "jewel-1" && slot.label === "天赋珠宝 1"), true);
 });
 
 test("build planner localizes equipment base dropdowns from PoE2DB cache", () => {
@@ -311,11 +331,18 @@ test("build planner page exposes searchable clickable passive tree controls", ()
   assert.match(html, /id="passive-ascendancy"/);
   assert.match(html, /id="passive-search"/);
   assert.match(html, /id="passive-tree-svg"/);
-  assert.match(html, /id="passive-node-list"/);
-  assert.match(html, /id="passive-details"/);
+  assert.match(html, /id="passive-tooltip"/);
+  assert.doesNotMatch(html, /id="passive-node-list"/);
+  assert.doesNotMatch(html, /id="passive-details"/);
   assert.match(html, /流放之路 2 编年史/);
+  assert.match(script, /createPoe2dbGemCatalog\(localizationIndex, "skill"\)/);
+  assert.match(script, /createPoe2dbGemCatalog\(localizationIndex, "support"\)/);
+  assert.match(script, /window\.addEventListener\("scroll", \(\) => hideSearchLayer\(layer\), \{ capture: true \}\)/);
   assert.match(script, /addEventListener\("wheel"/);
   assert.match(script, /zoomPassiveTreeAtPoint/);
+  assert.match(script, /wirePassiveTreePan/);
+  assert.match(script, /showPassiveTooltip/);
+  assert.match(script, /syncEquipmentStateJewelSlots/);
   assert.match(script, /support-gem-slot/);
   assert.match(script, /Array\.from\(\{ length: 5 \}/);
   assert.match(script, /getEquipmentBaseEntriesForSlot/);

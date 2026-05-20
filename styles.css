@@ -1144,7 +1144,7 @@ a {
     ". helmet amulet ."
     "weapon body ring1 offhand"
     ". gloves ring2 ."
-    ". boots belt jewel";
+    ". boots belt .";
   gap: 10px;
   max-width: 620px;
   margin: 0 auto;
@@ -1190,8 +1190,8 @@ a {
   grid-area: belt;
 }
 
-.character-equipment [data-equipment-slot="jewel"] {
-  grid-area: jewel;
+.character-equipment [data-equipment-slot^="jewel-"] {
+  border-color: rgba(52, 120, 246, 0.34);
 }
 
 .equipment-slot-button {
@@ -1256,8 +1256,6 @@ a {
 
 .passive-workspace {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
-  gap: 14px;
   min-height: 720px;
 }
 
@@ -1273,6 +1271,12 @@ a {
   box-shadow:
     inset 0 0 0 1px rgba(255, 255, 255, 0.035),
     inset 0 0 70px rgba(0, 0, 0, 0.72);
+  cursor: grab;
+  touch-action: none;
+}
+
+.passive-tree-surface.is-panning {
+  cursor: grabbing;
 }
 
 #passive-tree-svg {
@@ -1325,6 +1329,53 @@ a {
   opacity: 1;
   stroke: #fff9c4;
   stroke-width: 2.4;
+}
+
+.passive-tree-node.is-jewel-socket {
+  stroke: rgba(238, 241, 255, 0.82);
+  stroke-width: 2;
+}
+
+.passive-tree-node.is-search-match {
+  opacity: 1;
+  stroke: #7cd9ff;
+  stroke-width: 2.6;
+}
+
+.passive-tooltip {
+  position: fixed;
+  z-index: 90;
+  display: grid;
+  gap: 7px;
+  width: min(320px, calc(100vw - 28px));
+  padding: 12px 14px;
+  border: 1px solid rgba(220, 226, 239, 0.92);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 22px 56px rgba(10, 16, 28, 0.28);
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+  pointer-events: none;
+}
+
+.passive-tooltip[hidden] {
+  display: none;
+}
+
+.passive-tooltip strong {
+  color: var(--text);
+  font-size: 14px;
+}
+
+.passive-tooltip p {
+  margin: 0;
+  color: var(--blue);
+  font-weight: 800;
+}
+
+.passive-tooltip small {
+  color: var(--muted);
 }
 
 .passive-sidebar {
