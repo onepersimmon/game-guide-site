@@ -71,6 +71,9 @@ const UI_COPY = {
       cached: "本地缓存",
       open: "查看忍者网",
       unranked: "未进前 10",
+      starterKicker: "开荒资料",
+      starterTitle: "BD 开荒汇总",
+      starterCopy: "外部作者整理的开荒 BD 文档与帖子，先作为人工精选入口接入，方便快速跳转查方案。",
     },
     filters: {
       all: "全部",
@@ -149,6 +152,9 @@ const UI_COPY = {
       cached: "Local cache",
       open: "Open poe.ninja",
       unranked: "Outside top 10",
+      starterKicker: "Starter Guides",
+      starterTitle: "Starter Build Roundup",
+      starterCopy: "Curated external build documents and posts for quickly checking league-start ideas.",
     },
     filters: {
       all: "All",

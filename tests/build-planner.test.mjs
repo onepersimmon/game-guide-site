@@ -5,6 +5,7 @@ import {
   buildInternationalTradeUrl,
   calculateBuildDamage,
   createInitialBuildState,
+  consumeSearchSelectionFlag,
   getEquipmentBaseEntriesForSlot,
   getSelectedJewelSocketCount,
   inferPassiveNodeModifiers,
@@ -15,6 +16,7 @@ import {
   togglePassiveNode,
   updateSkillRow,
 } from "../tools/build-planner.mjs";
+import { parsePoe2dbModifierHoverPage } from "../scripts/fetch-poe2db-cn-index.mjs";
 
 const tradePayload = {
   result: [
@@ -148,6 +150,47 @@ test("build planner localizes equipment base dropdowns from PoE2DB cache", () =>
   assert.match(script, /catalog\.armourBases = localizeCatalogList\(catalog\.armourBases, localizationIndex\)/);
   assert.match(script, /catalog\.accessoryBases = localizeCatalogList\(catalog\.accessoryBases, localizationIndex\)/);
   assert.match(script, /catalog\.jewelBases = localizeCatalogList\(catalog\.jewelBases, localizationIndex\)/);
+});
+
+test("search selection flags are consumed so autocomplete closes after selection", () => {
+  const input = { dataset: { searchSelected: "1" } };
+
+  assert.equal(consumeSearchSelectionFlag(input), true);
+  assert.equal(input.dataset.searchSelected, undefined);
+  assert.equal(consumeSearchSelectionFlag(input), false);
+});
+
+test("poe2db modifier hover pages expose Chinese names and numeric ranges", () => {
+  const html = `
+    <div class=''>
+      <div class="card mb-2 ">
+        <h5 class="card-header"><span class='item_magic'><span class='mod-value'>+(5—8)</span> 點力量</span></h5>
+        <span data-tabname="之野蠻"></span>
+        <table class='table table-hover table-striped mb-0'>
+          <tr><th>Name<td>之野蠻
+          <tr><th>Family<td>Strength
+          <tr><th>Domains<td>物品 (1)
+          <tr><th>GenerationType<td>後綴 (2)
+          <tr><th>Req. level<td>1
+          <tr><th>Stats<td><li>additional strength <span class='badge bg-primary'>Min: 5</span> <span class='badge bg-primary'>Max: 8</span> <span class='badge bg-primary'>Global</span></li>
+          <tr><th>ItemClasses<td><a class="ItemClasses" href="Rings">戒指</a> · <a class="ItemClasses" href="Amulets">項鍊</a>
+        </table>
+      </div>
+    </div>
+  `;
+
+  const entry = parsePoe2dbModifierHoverPage(html, "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/example");
+
+  assert.equal(entry.name, "之野蠻");
+  assert.equal(entry.title, "+(5—8) 點力量");
+  assert.equal(entry.family, "Strength");
+  assert.equal(entry.generationType, "後綴 (2)");
+  assert.equal(entry.reqLevel, 1);
+  assert.equal(entry.stats[0].text, "additional strength");
+  assert.equal(entry.stats[0].min, 5);
+  assert.equal(entry.stats[0].max, 8);
+  assert.equal(entry.itemClasses[0].label, "戒指");
+  assert.equal(entry.searchText.includes("之野蠻"), true);
 });
 
 test("build damage updates when skill and passive state changes", () => {

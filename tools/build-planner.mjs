@@ -87,6 +87,57 @@ function createPoe2dbGemCatalog(localizationIndex = {}, type = "skill") {
     .filter((entry, index, entries) => entries.findIndex((candidate) => candidate.english === entry.english) === index);
 }
 
+function createPoe2dbModifierCatalog(localizationIndex = {}) {
+  return (localizationIndex.entries ?? [])
+    .filter((entry) => entry.type === "modifier")
+    .map((entry) => {
+      const stats = Array.isArray(entry.stats) ? entry.stats : [];
+      const title = entry.title || entry.name || entry.chinese || entry.english || "";
+      const name = entry.name || entry.chinese || title;
+      const itemClasses = Array.isArray(entry.itemClasses) ? entry.itemClasses : [];
+      const summary = [
+        title,
+        entry.family,
+        entry.generationType,
+        entry.reqLevel ? `需求等級 ${entry.reqLevel}` : "",
+        itemClasses.map((item) => item.label || item.text || item).filter(Boolean).join("、"),
+        stats
+          .map((stat) => {
+            const pieces = [stat.text || ""].filter(Boolean);
+            if (stat.min !== "" && stat.min !== null && stat.min !== undefined && stat.max !== "" && stat.max !== null && stat.max !== undefined) {
+              pieces.push(`${stat.min}-${stat.max}`);
+            }
+            return pieces.join(" ");
+          })
+          .filter(Boolean)
+          .join(" / "),
+      ].filter(Boolean).join(" / ");
+
+      return {
+        ...entry,
+        id: entry.id || entry.hash || entry.slug || title,
+        text: name,
+        label: name,
+        title,
+        english: stats.map((stat) => stat.text).filter(Boolean).join(" / "),
+        tradeText: stats.map((stat) => stat.text).filter(Boolean).join(", "),
+        rangeMin: stats[0]?.min ?? "",
+        rangeMax: stats[0]?.max ?? "",
+        summary,
+        searchText: normalizeKey([
+          name,
+          title,
+          entry.family,
+          entry.generationType,
+          entry.reqLevel ? `需求等級 ${entry.reqLevel}` : "",
+          ...itemClasses.map((item) => item.label || item.text || item),
+          ...stats.map((stat) => [stat.text, stat.min, stat.max].filter((value) => value !== "" && value !== null && value !== undefined).join(" ")),
+        ].filter(Boolean).join(" ")),
+      };
+    })
+    .filter((entry, index, entries) => entries.findIndex((candidate) => candidate.id === entry.id) === index);
+}
+
 function createPoe2dbLocalizationMaps(localizationIndex = {}) {
   const maps = {
     passiveBySkill: new Map(),
@@ -475,6 +526,17 @@ function setInputEntry(input, entry) {
   input.dataset.tradeText = getEntryTradeText(entry);
   input.dataset.entryId = entry.id ?? entry.type ?? entry.text ?? "";
   input.dataset.image = entry.image ?? "";
+  input.dataset.rangeMin = entry.rangeMin ?? entry.stats?.[0]?.min ?? "";
+  input.dataset.rangeMax = entry.rangeMax ?? entry.stats?.[0]?.max ?? "";
+}
+
+export function consumeSearchSelectionFlag(input = {}) {
+  if (input?.dataset?.searchSelected !== "1") {
+    return false;
+  }
+
+  delete input.dataset.searchSelected;
+  return true;
 }
 
 function positionSearchLayer(layer, input) {
@@ -503,6 +565,11 @@ function attachDynamicSearch(input, entries, layerId, onSelect, { emptyText = "�
   const render = () => {
     cancelAnimationFrame(frame);
     frame = requestAnimationFrame(() => {
+      if (consumeSearchSelectionFlag(input)) {
+        hideSearchLayer(layer);
+        return;
+      }
+
       const sourceEntries = typeof entries === "function" ? entries() : entries;
       const matches = matchSearchEntries(sourceEntries, input.value, 36);
       positionSearchLayer(layer, input);
@@ -526,16 +593,22 @@ function attachDynamicSearch(input, entries, layerId, onSelect, { emptyText = "�
           ${image}
           <span class="search-layer__text">
             <strong>${escapeHtml(getEntryLabel(entry))}</strong>
-            <span>${escapeHtml(entry.chinese ? "来自流放之路 2 编年史" : "来自国际服集市缓存")}</span>
+            <span>${escapeHtml(entry.summary || entry.subtitle || entry.detail || (entry.chinese ? "来自流放之路 2 编年史" : "来自国际服集市缓存"))}</span>
           </span>
         `;
         button.addEventListener("mousedown", (event) => {
           event.preventDefault();
           setInputEntry(input, entry);
+          input.dataset.searchSelected = "1";
           hideSearchLayer(layer);
           onSelect?.(entry);
           input.dispatchEvent(new Event("input", { bubbles: true }));
           input.dispatchEvent(new Event("change", { bubbles: true }));
+          queueMicrotask(() => {
+            if (input?.dataset?.searchSelected === "1") {
+              delete input.dataset.searchSelected;
+            }
+          });
         });
         layer.append(button);
       });
@@ -1361,10 +1434,22 @@ function getEquipmentRows(equipmentState = []) {
 }
 
 function buildEquipmentTradeUrl(item, league = DEFAULT_LEAGUE) {
+  const affixKeywords = item.affixes
+    .map((affix) => {
+      const fragments = [affix.tradeText || affix.text].filter(Boolean);
+      const range = [affix.min, affix.max].filter((value) => value !== "" && value !== null && value !== undefined).join("-");
+      if (range) {
+        fragments.push(`(${range})`);
+      }
+      return fragments.join(" ");
+    })
+    .filter(Boolean)
+    .join(", ");
+
   return buildInternationalTradeUrl({
     league,
     itemType: item.baseTradeText || item.base,
-    keywords: item.affixes.map((affix) => affix.tradeText || affix.text).filter(Boolean).join(", "),
+    keywords: affixKeywords,
   });
 }
 
@@ -1398,8 +1483,20 @@ function createAffixRow(affix = {}) {
   row.className = "equipment-affix-row";
   row.dataset.affixId = affix.id ?? crypto.randomUUID();
   row.innerHTML = `
-    <input class="equipment-affix-input" type="search" value="${escapeHtml(affix.text ?? "")}" placeholder="搜索装备词缀" autocomplete="off" />
-    <button class="planner-icon-button remove-equipment-affix" type="button" aria-label="删除词缀">×</button>
+    <div class="equipment-affix-row__search">
+      <input class="equipment-affix-input" type="search" value="${escapeHtml(affix.text ?? "")}" placeholder="搜索繁體詞綴" autocomplete="off" />
+      <button class="planner-icon-button remove-equipment-affix" type="button" aria-label="删除词缀">×</button>
+    </div>
+    <div class="equipment-affix-row__range">
+      <label>
+        <span>最小</span>
+        <input class="equipment-affix-min" type="number" step="any" value="${escapeHtml(affix.min ?? "")}" placeholder="0" />
+      </label>
+      <label>
+        <span>最大</span>
+        <input class="equipment-affix-max" type="number" step="any" value="${escapeHtml(affix.max ?? "")}" placeholder="0" />
+      </label>
+    </div>
   `;
   row.querySelector(".equipment-affix-input").dataset.tradeText = affix.tradeText ?? "";
   return row;
@@ -1408,10 +1505,14 @@ function createAffixRow(affix = {}) {
 function readEquipmentModalAffixes() {
   return [...document.querySelectorAll(".equipment-affix-row")].map((row) => {
     const input = row.querySelector(".equipment-affix-input");
+    const minInput = row.querySelector(".equipment-affix-min");
+    const maxInput = row.querySelector(".equipment-affix-max");
     return {
       id: row.dataset.affixId,
       text: input?.value ?? "",
       tradeText: input?.dataset.tradeText || input?.value || "",
+      min: minInput?.value ?? "",
+      max: maxInput?.value ?? "",
     };
   }).filter((affix) => affix.text);
 }
@@ -1550,13 +1651,17 @@ async function initBuildPlanner() {
   catalog.jewelBases = localizeCatalogList(catalog.jewelBases, localizationIndex);
   catalog.flaskBases = localizeCatalogList(catalog.flaskBases, localizationIndex);
   catalog.supportGems = createPoe2dbGemCatalog(localizationIndex, "support");
-  catalog.itemStats = catalog.itemStats.map((entry) => ({
-    ...entry,
-    label: entry.text,
-    english: entry.text,
-    tradeText: entry.text,
-    searchText: normalizeKey(entry.text),
-  }));
+  const legacyItemStats = catalog.itemStats;
+  catalog.itemStats = createPoe2dbModifierCatalog(localizationIndex);
+  if (catalog.itemStats.length === 0) {
+    catalog.itemStats = legacyItemStats.map((entry) => ({
+      ...entry,
+      label: entry.text,
+      english: entry.text,
+      tradeText: entry.text,
+      searchText: normalizeKey(entry.text),
+    }));
+  }
   const passiveTree = getPassiveTreePayload(passiveTreePayload, localizationIndex);
   const localizationMaps = createPoe2dbLocalizationMaps(localizationIndex);
   const equipmentBases = [
@@ -1585,7 +1690,7 @@ async function initBuildPlanner() {
 
   const status = document.getElementById("planner-status");
   if (status) {
-    status.textContent = `已加载国际服集市缓存：${catalog.skillGems.length} 个技能/宝石项、${catalog.supportGems.length} 个辅助项、${equipmentBases.length} 个装备基底；编年史繁體中文缓存：${localizationIndex.entries?.length ?? 0} 条；天赋树 ${passiveTree.nodes.length} 个节点。`;
+    status.textContent = `已加载国际服集市缓存：${catalog.skillGems.length} 个技能/宝石项、${catalog.supportGems.length} 个辅助项、${equipmentBases.length} 个装备基底、${catalog.itemStats.length} 个编年史词缀；编年史繁體中文缓存：${localizationIndex.entries?.length ?? 0} 条；天赋树 ${passiveTree.nodes.length} 个节点。`;
   }
 
   const treeSource = document.getElementById("passive-tree-source");
@@ -1629,7 +1734,21 @@ async function initBuildPlanner() {
 
   function wireAffixRow(row) {
     const input = row.querySelector(".equipment-affix-input");
-    attachDynamicSearch(input, catalog.itemStats, "affix-search-layer", () => {
+    const minInput = row.querySelector(".equipment-affix-min");
+    const maxInput = row.querySelector(".equipment-affix-max");
+
+    const fillRangeInputs = (entry = {}) => {
+      const stat = entry.stats?.[0] ?? {};
+      if (minInput && minInput.value === "" && stat.min !== undefined && stat.min !== null) {
+        minInput.value = stat.min;
+      }
+      if (maxInput && maxInput.value === "" && stat.max !== undefined && stat.max !== null) {
+        maxInput.value = stat.max;
+      }
+    };
+
+    attachDynamicSearch(input, catalog.itemStats, "affix-search-layer", (entry) => {
+      fillRangeInputs(entry);
       const slot = equipmentState.find((item) => item.id === editingEquipmentSlot);
       updateEquipmentModalTrade(slot, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE);
     });
@@ -1637,6 +1756,14 @@ async function initBuildPlanner() {
       if (input.value !== input.dataset.lastValue) {
         input.dataset.tradeText = input.dataset.tradeText || input.value;
       }
+      const slot = equipmentState.find((item) => item.id === editingEquipmentSlot);
+      updateEquipmentModalTrade(slot, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE);
+    });
+    minInput?.addEventListener("input", () => {
+      const slot = equipmentState.find((item) => item.id === editingEquipmentSlot);
+      updateEquipmentModalTrade(slot, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE);
+    });
+    maxInput?.addEventListener("input", () => {
       const slot = equipmentState.find((item) => item.id === editingEquipmentSlot);
       updateEquipmentModalTrade(slot, form.querySelector("#planner-league")?.value || DEFAULT_LEAGUE);
     });

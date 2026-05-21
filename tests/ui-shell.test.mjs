@@ -46,6 +46,14 @@ test("page links to static seo pages", () => {
   assert.match(html, /href="\.\/tools\/build-planner\.html"/);
 });
 
+test("page exposes starter build guide links", () => {
+  assert.match(html, /id="starter-build-guides"/);
+  assert.match(html, /BD 开荒汇总/);
+  assert.match(html, /href="https:\/\/docs\.qq\.com\/doc\/DUnRmaGhjTVFIT1NO"[\s\S]*?target="_blank"[\s\S]*?rel="noopener"/);
+  assert.match(html, /href="https:\/\/docs\.qq\.com\/doc\/DRk5ITORGTOVJdOdn"[\s\S]*?target="_blank"[\s\S]*?rel="noopener"/);
+  assert.match(html, /href="https:\/\/h5\.caimogu\.cc\/post\/detail\?postId=2367801&amp;type=0"[\s\S]*?target="_blank"[\s\S]*?rel="noopener"/);
+});
+
 test("build planner page exposes PoE2 planner controls and results", () => {
   assert.match(buildPlanner, /构筑伤害计算器/);
   assert.match(buildPlanner, /id="skill-search-layer"/);
@@ -59,7 +67,7 @@ test("build planner page exposes PoE2 planner controls and results", () => {
   assert.match(buildPlanner, /id="passive-tree-svg"/);
   assert.match(buildPlanner, /id="planner-average-hit"/);
   assert.match(buildPlanner, /id="equipment-slots"/);
-  assert.match(buildPlanner, /type="module" src="\.\/build-planner\.mjs\?v=10"/);
+  assert.match(buildPlanner, /type="module" src="\.\/build-planner\.mjs\?v=11"/);
 });
 
 test("page replaces the large hero with a compact GGG news list", () => {

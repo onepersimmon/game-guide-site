@@ -38,3 +38,13 @@ test("poe2db Chinese cache includes Traditional Chinese equipment base names wit
   assert.ok(entries.some((entry) => entry.type === "item_base" && entry.english === "Heavy Belt" && entry.chinese === "重革腰帶" && entry.page === "Belts"));
   assert.ok(entries.some((entry) => entry.type === "item_base" && entry.page === "Helmets" && /image\//.test(entry.image ?? "")));
 });
+
+test("poe2db Chinese cache includes Traditional Chinese modifier entries with range metadata", () => {
+  const payload = readJson(`${root}/data/poe2db-cn-index.json`);
+  const entries = payload.entries ?? [];
+  const modifiers = entries.filter((entry) => entry.type === "modifier");
+
+  assert.ok(modifiers.length > 0);
+  assert.ok(modifiers.some((entry) => entry.name || entry.title));
+  assert.ok(modifiers.some((entry) => Array.isArray(entry.stats) && entry.stats.length > 0));
+});

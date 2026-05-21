@@ -45,10 +45,11 @@ const REQUIRED_ITEM_CLASS_PAGES = [
   "Wands",
 ];
 
-async function fetchText(url) {
+async function fetchText(url, referer = "") {
   const response = await fetch(url, {
     headers: {
       "user-agent": "poe2-guide-site-sync/1.0",
+      ...(referer ? { referer } : {}),
     },
   });
 
@@ -59,10 +60,11 @@ async function fetchText(url) {
   return response.text();
 }
 
-async function fetchOptionalText(url) {
+async function fetchOptionalText(url, referer = "") {
   const response = await fetch(url, {
     headers: {
       "user-agent": "poe2-guide-site-sync/1.0",
+      ...(referer ? { referer } : {}),
     },
   });
 
@@ -90,6 +92,10 @@ function stripTags(text = "") {
   return decodeHtml(String(text).replace(/<[^>]+>/g, " "))
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function escapeRegExp(value = "") {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function toAbsolutePoe2dbUrl(url = "") {
@@ -177,9 +183,93 @@ function parseBaseItems(html) {
   return entries;
 }
 
+function collectModifierHoverRefs(html, sourceUrl, refs = new Map()) {
+  for (const match of html.matchAll(/Poe_Data_Mods_hover\/([a-f0-9]{64})/g)) {
+    const hash = match[1];
+    const hoverUrl = `https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/${hash}`;
+    if (!refs.has(hash)) {
+      refs.set(hash, { hash, url: hoverUrl, referer: sourceUrl });
+    }
+  }
+
+  return refs;
+}
+
+function extractTableCell(html, label) {
+  const pattern = new RegExp(`<tr><th>${escapeRegExp(label)}<td>([\\s\\S]*?)(?=<tr><th>|</table>)`, "i");
+  const match = html.match(pattern);
+  return match ? match[1] : "";
+}
+
+function parseModifierStats(statsHtml = "") {
+  return [...statsHtml.matchAll(/<li>([\s\S]*?)<\/li>/g)].map((match) => {
+    const raw = match[1];
+    const text = stripTags(raw.replace(/<span class='badge bg-primary'>[\s\S]*?<\/span>/g, ""));
+    const minMatch = raw.match(/Min:\s*([0-9]+(?:\.[0-9]+)?)/i);
+    const maxMatch = raw.match(/Max:\s*([0-9]+(?:\.[0-9]+)?)/i);
+    const scope = [...raw.matchAll(/<span class='badge bg-primary'>([^<]+)<\/span>/g)]
+      .map((badge) => stripTags(badge[1]))
+      .filter((badge) => !/^Min:/i.test(badge) && !/^Max:/i.test(badge))
+      .join(" / ");
+
+    return {
+      text,
+      min: minMatch ? Number.parseFloat(minMatch[1]) : null,
+      max: maxMatch ? Number.parseFloat(maxMatch[1]) : null,
+      scope,
+    };
+  });
+}
+
+export function parsePoe2dbModifierHoverPage(html, sourceUrl = "") {
+  const title = stripTags(html.match(/<h5 class="card-header">([\s\S]*?)<\/h5>/i)?.[1] ?? "");
+  const name = stripTags(extractTableCell(html, "Name"));
+  const family = stripTags(extractTableCell(html, "Family"));
+  const domains = stripTags(extractTableCell(html, "Domains"));
+  const generationType = stripTags(extractTableCell(html, "GenerationType"));
+  const reqLevel = Number.parseInt(stripTags(extractTableCell(html, "Req. level")) || "0", 10) || 0;
+  const stats = parseModifierStats(extractTableCell(html, "Stats"));
+  const itemClassesHtml = extractTableCell(html, "ItemClasses");
+  const itemClasses = [...itemClassesHtml.matchAll(/<a class="ItemClasses[^"]*" href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)].map((match) => ({
+    href: match[1],
+    label: stripTags(match[2]),
+  }));
+  const hash = sourceUrl.split("/").filter(Boolean).pop() ?? "";
+
+  return {
+    type: "modifier",
+    hash,
+    sourceUrl,
+    title,
+    name,
+    family,
+    domains,
+    generationType,
+    reqLevel,
+    stats,
+    itemClasses,
+    searchText: [title, name, family, generationType, domains, reqLevel ? `需求等級 ${reqLevel}` : "", ...stats.map((stat) => `${stat.text} ${stat.min ?? ""} ${stat.max ?? ""}`), ...itemClasses.map((item) => item.label)].map((value) => String(value).trim()).filter(Boolean).join(" "),
+  };
+}
+
 function getItemBasePagePriority(page = "") {
   const index = REQUIRED_ITEM_CLASS_PAGES.indexOf(page);
   return index === -1 ? 1000 : index;
+}
+
+async function mapWithConcurrency(items, concurrency, mapper) {
+  const results = [];
+  let cursor = 0;
+  const workers = Array.from({ length: Math.min(concurrency, items.length) }, async () => {
+    while (cursor < items.length) {
+      const index = cursor;
+      cursor += 1;
+      results[index] = await mapper(items[index], index);
+    }
+  });
+
+  await Promise.all(workers);
+  return results;
 }
 
 function findPassiveTreeScript(html) {
@@ -285,7 +375,10 @@ async function fetchItemBaseEntries() {
   ]);
   const pageSlugs = [...new Set([...REQUIRED_ITEM_CLASS_PAGES, ...parseItemClassPages(englishIndex), ...parseItemClassPages(chineseIndex)])].sort();
   const entriesByEnglish = new Map();
+  const modifierRefs = new Map();
   const sources = [`https://poe2db.tw/${SOURCE_LOCALE}/${ITEM_INDEX_PAGE}`];
+  collectModifierHoverRefs(englishIndex, `https://poe2db.tw/${EN_LOCALE}/${ITEM_INDEX_PAGE}`, modifierRefs);
+  collectModifierHoverRefs(chineseIndex, `https://poe2db.tw/${SOURCE_LOCALE}/${ITEM_INDEX_PAGE}`, modifierRefs);
 
   for (const slug of pageSlugs) {
     const [englishHtml, chineseHtml] = await Promise.all([
@@ -297,6 +390,8 @@ async function fetchItemBaseEntries() {
     }
 
     sources.push(`https://poe2db.tw/${SOURCE_LOCALE}/${slug}`);
+    collectModifierHoverRefs(englishHtml, `https://poe2db.tw/${EN_LOCALE}/${slug}`, modifierRefs);
+    collectModifierHoverRefs(chineseHtml, `https://poe2db.tw/${SOURCE_LOCALE}/${slug}`, modifierRefs);
     const englishItems = parseBaseItems(englishHtml);
     const chineseItems = parseBaseItems(chineseHtml);
 
@@ -323,9 +418,20 @@ async function fetchItemBaseEntries() {
     }
   }
 
+  const modifierEntries = (await mapWithConcurrency([...modifierRefs.values()], 8, async (ref) => {
+    try {
+      const hoverHtml = await fetchOptionalText(ref.url, ref.referer);
+      return hoverHtml ? parsePoe2dbModifierHoverPage(hoverHtml, ref.url) : null;
+    } catch (error) {
+      console.warn(`Skipping modifier ${ref.hash}: ${error.message}`);
+      return null;
+    }
+  })).filter(Boolean);
+
   return {
     entries: [...entriesByEnglish.values()],
     sources,
+    modifierEntries,
   };
 }
 
@@ -366,6 +472,7 @@ export async function syncPoe2dbChineseIndex() {
   const itemBases = await fetchItemBaseEntries();
   source.push(...itemBases.sources);
   entries.push(...itemBases.entries);
+  entries.push(...itemBases.modifierEntries);
 
   await mkdir(DATA_DIR, { recursive: true });
   await writeFile(
