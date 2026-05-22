@@ -9,6 +9,18 @@ const OFFICIAL_HOME_API = "https://pathofexile2.com/internal-api/content/home";
 const OFFICIAL_NEWS_URL = "https://pathofexile2.com/news";
 
 const KNOWN_TRANSLATIONS = {
+  "Breach Mechanics Recap": {
+    title: "裂隙机制回顾",
+    summary: "如果你错过了裂隙改动，这篇回顾会带你快速看一遍。",
+  },
+  "Balance Changes to Chronomancer and Gemling Legionnaire Ascendancies": {
+    title: "时空术士与古灵使徒斗士升华平衡调整",
+    summary: "在《先人回归》中，时空术士和古灵使徒斗士会迎来一些平衡改动，点开这篇新闻就能看见具体变化。",
+  },
+  "Expedition: Logbook Exploration": {
+    title: "探险：日志簿探索",
+    summary: "在《先人回归》中，日志簿会有大幅调整。准备好扬帆出海，像真正的探险家一样去发现新内容吧。",
+  },
   "Path of Exile 2: Return of the Ancients Teasers": {
     title: "流放之路 2：先人回归预告汇总",
     summary: "GGG 会在这篇帖子中持续汇总《流放之路 2：先人回归》的预告内容。",

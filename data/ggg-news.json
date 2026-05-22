@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T06:57:33.883Z",
+  "updatedAt": "2026-05-22T00:41:01.133Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
@@ -7,64 +7,64 @@
   },
   "items": [
     {
-      "id": "new-unique-items-the-auspex-and-facebreaker",
-      "title": "New Unique Items - the Auspex and Facebreaker",
-      "date": "2026-05-18T21:03:50+00:00",
-      "summary": "In Path of Exile 2: Return of the Ancients, we are introducing two new Unique Items: the Auspex and a beloved Path of Exile classic, Facebreaker. Unleash a relentless barrage of punches to crush your enemies… and shatter their minds.",
-      "href": "https://www.pathofexile.com/forum/view-thread/3932150",
-      "thumb": "https://web.poecdn.com/public/news/2026-05-19/AuspexandFacebreakerUniqueTwitter.jpg",
+      "id": "breach-mechanics-recap",
+      "title": "Breach Mechanics Recap",
+      "date": "2026-05-21T02:21:29+00:00",
+      "summary": "If you’ve missed the changes to Breach, check them out here in this recap.",
+      "href": "https://www.pathofexile.com/forum/view-thread/3932430",
+      "thumb": "https://web.poecdn.com/public/news/2026-05-21/BreachRecapTwitter.jpg",
       "category": "Blue Post",
       "localized": {
         "zh": {
-          "title": "New Unique Items - the Auspex and Facebreaker",
-          "summary": "In Path of Exile 2: Return of the Ancients, we are introducing two new Unique Items: the Auspex and a beloved Path of Exile classic, Facebreaker. Unleash a relentless barrage of punches to crush your enemies… and shatter their minds.",
+          "title": "裂隙机制回顾",
+          "summary": "如果你错过了裂隙改动，这篇回顾会带你快速看一遍。",
           "category": "GGG 蓝贴"
         },
         "en": {
-          "title": "New Unique Items - the Auspex and Facebreaker",
-          "summary": "In Path of Exile 2: Return of the Ancients, we are introducing two new Unique Items: the Auspex and a beloved Path of Exile classic, Facebreaker. Unleash a relentless barrage of punches to crush your enemies… and shatter their minds.",
+          "title": "Breach Mechanics Recap",
+          "summary": "If you’ve missed the changes to Breach, check them out here in this recap.",
           "category": "Blue Post"
         }
       }
     },
     {
-      "id": "tavern-talk-podcast-with-jonathan-rogers-and-mark-roberts",
-      "title": "Tavern Talk Podcast with Jonathan Rogers and Mark Roberts",
-      "date": "2026-05-18T01:30:00+00:00",
-      "summary": "Watch Game Directors Jonathan Rogers and Mark Roberts join Darthmicrotransaction and GhazzyTV for a special Tavern Talk interview on May 23 at 2PM PDT to discuss Path of Exile 2: Return of the Ancients.",
-      "href": "https://www.pathofexile.com/forum/view-thread/3932051",
-      "thumb": "https://web.poecdn.com/public/news/2026-05-18/TavernTalkTwitter.jpg",
+      "id": "balance-changes-to-chronomancer-and-gemling-legionnaire-ascendancies",
+      "title": "Balance Changes to Chronomancer and Gemling Legionnaire Ascendancies",
+      "date": "2026-05-20T21:06:53+00:00",
+      "summary": "In Return of the Ancients, the Chronomancer and Gemling Legionnaire are receiving some balance changes. Check out this news post to see what you can expect!",
+      "href": "https://www.pathofexile.com/forum/view-thread/3932399",
+      "thumb": "https://web.poecdn.com/public/news/2026-05-21/ChronoGemlingTwitter.jpg",
       "category": "Blue Post",
       "localized": {
         "zh": {
-          "title": "Tavern Talk Podcast with Jonathan Rogers and Mark Roberts",
-          "summary": "Watch Game Directors Jonathan Rogers and Mark Roberts join Darthmicrotransaction and GhazzyTV for a special Tavern Talk interview on May 23 at 2PM PDT to discuss Path of Exile 2: Return of the Ancients.",
+          "title": "时空术士与古灵使徒斗士升华平衡调整",
+          "summary": "在《先人回归》中，时空术士和古灵使徒斗士会迎来一些平衡改动，点开这篇新闻就能看见具体变化。",
           "category": "GGG 蓝贴"
         },
         "en": {
-          "title": "Tavern Talk Podcast with Jonathan Rogers and Mark Roberts",
-          "summary": "Watch Game Directors Jonathan Rogers and Mark Roberts join Darthmicrotransaction and GhazzyTV for a special Tavern Talk interview on May 23 at 2PM PDT to discuss Path of Exile 2: Return of the Ancients.",
+          "title": "Balance Changes to Chronomancer and Gemling Legionnaire Ascendancies",
+          "summary": "In Return of the Ancients, the Chronomancer and Gemling Legionnaire are receiving some balance changes. Check out this news post to see what you can expect!",
           "category": "Blue Post"
         }
       }
     },
     {
-      "id": "path-of-exile-2-return-of-the-ancients-teasers",
-      "title": "Path of Exile 2: Return of the Ancients Teasers",
-      "date": "2026-04-27T20:29:32+00:00",
-      "summary": "In this post we will compile all the Path of Exile 2: Return of the Ancients teasers as they're posted.",
-      "href": "https://www.pathofexile.com/forum/view-thread/3929742",
-      "thumb": "https://web.poecdn.com/public/news/2026-04-27/TeaserTwitterCover.jpg",
+      "id": "expedition-logbook-exploration",
+      "title": "Expedition: Logbook Exploration",
+      "date": "2026-05-19T21:01:36+00:00",
+      "summary": "In Return of the Ancients, Logbooks are seeing some big changes. It’s time to go seafaring like true explorers! Check out this news post to discover what you might uncover as you island hop through the vast oceans.",
+      "href": "https://www.pathofexile.com/forum/view-thread/3932272",
+      "thumb": "https://web.poecdn.com/public/news/2026-05-20/ExpeditionLogbookTwitter.jpg",
       "category": "Blue Post",
       "localized": {
         "zh": {
-          "title": "流放之路 2：先人回归预告汇总",
-          "summary": "GGG 会在这篇帖子中持续汇总《流放之路 2：先人回归》的预告内容。",
+          "title": "探险：日志簿探索",
+          "summary": "在《先人回归》中，日志簿会有大幅调整。准备好扬帆出海，像真正的探险家一样去发现新内容吧。",
           "category": "GGG 蓝贴"
         },
         "en": {
-          "title": "Path of Exile 2: Return of the Ancients Teasers",
-          "summary": "In this post we will compile all the Path of Exile 2: Return of the Ancients teasers as they're posted.",
+          "title": "Expedition: Logbook Exploration",
+          "summary": "In Return of the Ancients, Logbooks are seeing some big changes. It’s time to go seafaring like true explorers! Check out this news post to discover what you might uncover as you island hop through the vast oceans.",
           "category": "Blue Post"
         }
       }
