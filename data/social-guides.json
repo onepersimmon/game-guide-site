@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T01:51:31.478Z",
+  "updatedAt": "2026-08-19T07:14:04.727Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1dk8u68EVw",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 闪回9月上线！？ 开荒 职业用什么好？",
+      "summary": "文档点点关注即可私信即可自动回复（之前关注的重新点点也可以收到喔~） 点个关注支持一下啦~ 求关注~求关注~求关注~求关注~求关注~求关注~求关注~求关注~",
+      "author": "酷懒之音",
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "href": "https://www.bilibili.com/video/av117115822610143",
+      "cover": "https://i1.hdslb.com/bfs/archive/8deb0691efddb73fce0f3657caf1df413fcb003d.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV15P836NEyJ",
       "platform": "bilibili",
@@ -72,19 +85,6 @@
       "href": "https://www.bilibili.com/video/av117072973596349",
       "cover": "https://i2.hdslb.com/bfs/archive/e97e569c79d9d811f15cd2dbf111399fe237ffc0.jpg",
       "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1uiM96oEQY",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【流放2】【BD】都说精华吸取+瘟疫是 开荒 神器 —— 那它到底能不能打终局?",
-      "summary": "精华吸取配瘟疫,几乎是每个版本都被写进开荒推荐的组合:便宜、好用、两个键清一屏。但问题也来了 —— 它是不是只能开荒?能不能一路带你进终局,能不能杀终局首领?**答案是肯定的。 这个BD终局也可以轻松杀boss，清图，并且有很高的生存。 需要文档的请消息我",
-      "author": "刷图的默者",
-      "publishedAt": "2026-08-03T08:03:54.000Z",
-      "href": "https://www.bilibili.com/video/av117030527240027",
-      "cover": "https://i2.hdslb.com/bfs/archive/8d95083584071a9c50008e48d5fe26ce21202a50.jpg",
-      "query": "POE2 开荒",
       "source": "B 站公开搜索"
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T06:56:30.640Z",
+  "updatedAt": "2026-08-19T07:09:29.486Z",
   "source": {
     "name": "流亡2编年史 / PoE2DB",
     "url": "https://poe2db.tw/cn/Ascendancy_class"
@@ -79,12 +79,12 @@
           "notables": [
             {
               "name": "奔波袭击",
-              "effect": "奔跑时无法被重度晕眩 / 移动时使用技能的移动速度惩罚总降 50%",
+              "effect": "奔跑时无法被重度晕眩 / 移动时使用技能的移动速度惩罚总降 30%",
               "sourceUrl": "https://poe2db.tw/cn/Running_Assault",
               "localized": {
                 "en": {
                   "name": "Running Assault",
-                  "effect": "Cannot be Heavy Stunned while Sprinting / 50% less Movement Speed Penalty from using Skills while moving"
+                  "effect": "Cannot be Heavy Stunned while Sprinting / 30% less Movement Speed Penalty from using Skills while moving"
                 }
               }
             },
@@ -101,12 +101,12 @@
             },
             {
               "name": "倾压剧毒",
-              "effect": "目标同时可以受到你的中毒效果数量翻倍 / 中毒持续时间总降 35%",
+              "effect": "目标同时可以受到你的中毒效果数量翻倍 / 中毒持续时间总降 50%",
               "sourceUrl": "https://poe2db.tw/cn/Overwhelming_Toxicity",
               "localized": {
                 "en": {
                   "name": "Overwhelming Toxicity",
-                  "effect": "Double the number of your Poisons that targets can be affected by at the same time / 35% less Poison Duration"
+                  "effect": "Double the number of your Poisons that targets can be affected by at the same time / 50% less Poison Duration"
                 }
               }
             },
@@ -151,7 +151,7 @@
           "notables": [
             {
               "name": "暴击",
-              "effect": "攻击时的击中几率能[[ExceedChance|溢出 100%] / 获得等同于攻击击中溢出几率 25% 的额外暴击几率",
+              "effect": "攻击时的击中几率能溢出 100% / 获得等同于攻击击中溢出几率 25% 的额外暴击几率",
               "sourceUrl": "https://poe2db.tw/cn/Critical_Strike",
               "localized": {
                 "en": {
@@ -184,7 +184,7 @@
             },
             {
               "name": "直击要害",
-              "effect": "当在场的敌人具有弱点暴露时，移动速度加快 20% / 当在场的敌人具有弱点暴露时，技能速度加快 40%",
+              "effect": "当在场的敌人具有弱点暴露时，移动速度提高 20% / 当在场的敌人具有弱点暴露时，技能速度提高 40%",
               "sourceUrl": "https://poe2db.tw/cn/In_for_the_Kill",
               "localized": {
                 "en": {
@@ -206,7 +206,52 @@
           "englishName": "Spirit Walker",
           "sourceUrl": "https://poe2db.tw/cn/Spirit_Walker",
           "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexFourb_Huntress2.webp",
-          "notables": [],
+          "notables": [
+            {
+              "name": "雄鹿践踏",
+              "effect": "获得技能: 雄鹿践踏 / 每移动 10 米，获得一个活性鬼灵，上限为 3 个 / 攻击时，消耗所有的活性鬼灵以触发雄鹿践踏",
+              "sourceUrl": "https://poe2db.tw/cn/Vivid_Stampede",
+              "localized": {
+                "en": {
+                  "name": "Vivid Stampede",
+                  "effect": "Grants Skill: Vivid Stampede / Gain a Vivid Wisp for every 10 metres you move, up to a maximum of 3 / Expend all Vivid Wisps to trigger Vivid Stampede when you Attack"
+                }
+              }
+            },
+            {
+              "name": "莫丽根的指引",
+              "effect": "雄鹿践踏结束时，获得 1 个活性鬼灵 / 雄鹿每跃击一次，造成的伤害总增 20%",
+              "sourceUrl": "https://poe2db.tw/cn/The_M%C3%B3rrigans_Guidance",
+              "localized": {
+                "en": {
+                  "name": "The Mórrigan's Guidance",
+                  "effect": "Gain 1 Vivid Wisps when Vivid Stampede ends / Stags deal 20% more damage per leap"
+                }
+              }
+            },
+            {
+              "name": "野性守护",
+              "effect": "获得技能: 野性守护",
+              "sourceUrl": "https://poe2db.tw/cn/Wild_Protector",
+              "localized": {
+                "en": {
+                  "name": "Wild Protector",
+                  "effect": "Grants Skill: Wild Protector"
+                }
+              }
+            },
+            {
+              "name": "卡萨的平衡",
+              "effect": "伙伴造成相当于你的主手武器伤害 60% 的额外攻击伤害",
+              "sourceUrl": "https://poe2db.tw/cn/The_Cathas_Balance",
+              "localized": {
+                "en": {
+                  "name": "The Catha's Balance",
+                  "effect": "Companions gain added Attack damage equal to 60% of your main hand Weapon's damage"
+                }
+              }
+            }
+          ],
           "localized": {
             "en": {
               "name": "Spirit Walker"
@@ -249,13 +294,13 @@
               "localized": {
                 "en": {
                   "name": "Intricate Sigils",
-                  "effect": "+1 Charm Slot / 20% more Charm Charges gained"
+                  "effect": "+1 Charm Slots / 20% more Charm Charges gained"
                 }
               }
             },
             {
               "name": "心灵护命",
-              "effect": "充能不足时可以改为消耗 25% 的最大魔力触发咒符",
+              "effect": "充能不足时可以改为消耗魔力上限的 25% 触发咒符",
               "sourceUrl": "https://poe2db.tw/cn/Mind_Phylacteries",
               "localized": {
                 "en": {
@@ -291,7 +336,52 @@
           "englishName": "Martial Artist",
           "sourceUrl": "https://poe2db.tw/cn/Martial_Artist",
           "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexIntFourb_Monk1.webp",
-          "notables": [],
+          "notables": [
+            {
+              "name": "武术专精",
+              "effect": "获得连击时，获得 1 个额外连击 / 使用技能时，每消耗一次连击，当前能量护盾充能延迟 -0.2 秒",
+              "sourceUrl": "https://poe2db.tw/cn/Martial_Adept",
+              "localized": {
+                "en": {
+                  "name": "Martial Adept",
+                  "effect": "When you gain Combo, gain 1 additional Combo / -0.2 seconds to current Energy Shield Recharge delay per Combo expended when using Skills"
+                }
+              }
+            },
+            {
+              "name": "武术大师",
+              "effect": "技能可在不考虑武器组的情况下继续并保留连击 / 从所有攻击击中获得连击",
+              "sourceUrl": "https://poe2db.tw/cn/Martial_Master",
+              "localized": {
+                "en": {
+                  "name": "Martial Master",
+                  "effect": "Skills can build and retain Combo regardless of Weapon Set / Gain Combo from all Attack Hits"
+                }
+              }
+            },
+            {
+              "name": "凝虚式",
+              "effect": "获得技能: 虚空钟灵",
+              "sourceUrl": "https://poe2db.tw/cn/Hollow_Focus_Technique",
+              "localized": {
+                "en": {
+                  "name": "Hollow Focus Technique",
+                  "effect": "Grants Skill: Hollow Focus"
+                }
+              }
+            },
+            {
+              "name": "鸣虚式",
+              "effect": "获得技能: 虚空和鸣 / carried_spectral_bell",
+              "sourceUrl": "https://poe2db.tw/cn/Hollow_Resonance_Technique",
+              "localized": {
+                "en": {
+                  "name": "Hollow Resonance Technique",
+                  "effect": "Grants Skill: Hollow Resonance / carried_spectral_bell"
+                }
+              }
+            }
+          ],
           "localized": {
             "en": {
               "name": "Martial Artist"
@@ -470,12 +560,12 @@
             },
             {
               "name": "重塑身躯",
-              "effect": "受到的冰霜伤害的 20% 转为火焰伤害 / 承受的闪电伤害有 20% 视为火焰伤害",
+              "effect": "受到的物理伤害的 20% 视作混沌伤害 / 承受的闪电伤害有 20% 视为火焰伤害",
               "sourceUrl": "https://poe2db.tw/cn/Altered_Flesh",
               "localized": {
                 "en": {
                   "name": "Altered Flesh",
-                  "effect": "20% of Cold Damage taken as Fire Damage / 20% of Lightning Damage taken as Fire Damage"
+                  "effect": "20% of Physical Damage taken as Chaos Damage / 20% of Lightning Damage taken as Fire Damage"
                 }
               }
             }
@@ -495,7 +585,7 @@
           "notables": [
             {
               "name": "创伤尖刺",
-              "effect": "每 50 点当前生命使暴击伤害加成总增 1%",
+              "effect": "每50 点当前生命使暴击伤害加成提高 1%",
               "sourceUrl": "https://poe2db.tw/cn/Gore_Spike",
               "localized": {
                 "en": {
@@ -506,7 +596,7 @@
             },
             {
               "name": "皮开肉绽",
-              "effect": "法术的基础暴击几率为 15%",
+              "effect": "法术的基础暴击率为 15%",
               "sourceUrl": "https://poe2db.tw/cn/Sunder_the_Flesh",
               "localized": {
                 "en": {
@@ -528,12 +618,12 @@
             },
             {
               "name": "赤红刀锋",
-              "effect": "你对被诅咒目标施加的流血效果为恶性 / 元素伤害也作用于流血强度",
+              "effect": "元素伤害也作用于流血强度 / 你对被诅咒目标施加的流血效果为恶性",
               "sourceUrl": "https://poe2db.tw/cn/Blood_Barbs",
               "localized": {
                 "en": {
                   "name": "Blood Barbs",
-                  "effect": "Bleeding you inflict on Cursed targets is Aggravated / Elemental Damage also Contributes to Bleeding Magnitude"
+                  "effect": "Elemental Damage also Contributes to Bleeding Magnitude / Bleeding you inflict on Cursed targets is Aggravated"
                 }
               }
             }
@@ -553,12 +643,12 @@
           "notables": [
             {
               "name": "结晶护命匣",
-              "effect": "可以在命匣中镶嵌一个非传奇基本珠宝 / 镶嵌珠宝的效果提高 100%",
+              "effect": "可以在命匣中镶嵌一个非传奇基本珠宝 / 从已镶嵌的珠宝获得的加成效果提高 100%",
               "sourceUrl": "https://poe2db.tw/cn/Crystalline_Phylactery",
               "localized": {
                 "en": {
                   "name": "Crystalline Phylactery",
-                  "effect": "Can Socket a non-Unique Basic Jewel into the Phylactery / 100% increased Effect of the Socketed Jewel"
+                  "effect": "Can Socket a non-Unique Basic Jewel into the Phylactery / 100% increased Effect of bonuses gained from Socketed Jewel"
                 }
               }
             },
@@ -586,7 +676,7 @@
             },
             {
               "name": "黑化之心",
-              "effect": "每 100 魔力上限使你提供的不洁之力增益状态的强度提高 4%",
+              "effect": "每 100 魔力上限使你提供的不洁之力增益的强度提高 4%",
               "sourceUrl": "https://poe2db.tw/cn/Blackened_Heart",
               "localized": {
                 "en": {
@@ -728,13 +818,13 @@
               }
             },
             {
-              "name": "急浪奔流",
-              "effect": "吸纳效果改为在 4 秒内生效",
-              "sourceUrl": "https://poe2db.tw/cn/The_Rapid_River",
+              "name": "变化多端",
+              "effect": "承受伤害总降 30% / 受到敌人击中伤害 4 秒后，承受等同于该次击中伤害 30% 的伤害",
+              "sourceUrl": "https://poe2db.tw/cn/Phased_Form",
               "localized": {
                 "en": {
-                  "name": "The Rapid River",
-                  "effect": "Recoup Effects instead occur over 4 seconds"
+                  "name": "Phased Form",
+                  "effect": "Take 30% less Damage / 4 seconds after being Damaged by an Enemy Hit, take Damage equal to 30% of that Hit's Damage"
                 }
               }
             }
@@ -787,7 +877,7 @@
             },
             {
               "name": "力量法器",
-              "effect": "持有长杖时可装备法器 / 从已装备的法器获得的加成总降 50%",
+              "effect": "持有长杖时可装备法器 / 从已装备的法器获得的加成降低 50%",
               "sourceUrl": "https://poe2db.tw/cn/Instruments_of_Power",
               "localized": {
                 "en": {
@@ -859,12 +949,12 @@
             },
             {
               "name": "粉碎冲击",
-              "effect": "对重度晕眩的敌人的伤害总增 25% / 你的击中为粉碎打击",
+              "effect": "你的击中为粉碎打击 / 对重度晕眩的敌人的伤害总增 25%",
               "sourceUrl": "https://poe2db.tw/cn/Crushing_Impacts",
               "localized": {
                 "en": {
                   "name": "Crushing Impacts",
-                  "effect": "25% more Damage against Heavy Stunned Enemies / Your Hits are Crushing Blows"
+                  "effect": "Your Hits are Crushing Blows / 25% more Damage against Heavy Stunned Enemies"
                 }
               }
             }
@@ -1014,7 +1104,7 @@
           "notables": [
             {
               "name": "可靠的计划",
-              "effect": "永久性增益状态的保留总降 50%",
+              "effect": "永久性增益的保留总降 50%",
               "sourceUrl": "https://poe2db.tw/cn/A_Solid_Plan",
               "localized": {
                 "en": {
@@ -1030,7 +1120,7 @@
               "localized": {
                 "en": {
                   "name": "Watch How I Do It",
-                  "effect": "Allies in your Presence gain added Attack Damage equal / to 25% of your main hand Weapon's Damage"
+                  "effect": "Allies in your Presence gain added Attack Damage equal / to 25% of your main hand Weapon's damage"
                 }
               }
             },
@@ -1129,13 +1219,13 @@
           "image": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrDexFourb_Mercenary3.webp",
           "notables": [
             {
-              "name": "结晶潜力",
-              "effect": "所有技能品质 +10%",
-              "sourceUrl": "https://poe2db.tw/cn/Crystalline_Potential",
+              "name": "美德精华",
+              "effect": "获得技能: 美德壁垒 / base maximum number of gemling barrier stacks [3]",
+              "sourceUrl": "https://poe2db.tw/cn/Essence_of_Virtue",
               "localized": {
                 "en": {
-                  "name": "Crystalline Potential",
-                  "effect": "+10% to Quality of all Skills"
+                  "name": "Essence of Virtue",
+                  "effect": "Grants Skill: Virtuous Barrier / base maximum number of gemling barrier stacks [3]"
                 }
               }
             },
@@ -1163,12 +1253,12 @@
             },
             {
               "name": "奇术深造",
-              "effect": "赋予奇术活力 / gain random charge every X ms from total socketed gem attribute requirements [5000]",
+              "effect": "宝石品质为镶嵌的技能提供一个额外效果",
               "sourceUrl": "https://poe2db.tw/cn/Advanced_Thaumaturgy",
               "localized": {
                 "en": {
                   "name": "Advanced Thaumaturgy",
-                  "effect": "Grants Thaumaturgical Dynamism / gain random charge every X ms from total socketed gem attribute requirements [5000]"
+                  "effect": "Gem Quality grants Socketed Skills an additional effect"
                 }
               }
             }
@@ -1213,7 +1303,7 @@
             },
             {
               "name": "无踪之道",
-              "effect": "探索未行之路",
+              "effect": "探索未择之路",
               "sourceUrl": "https://poe2db.tw/cn/The_Unseen_Path",
               "localized": {
                 "en": {
@@ -1293,12 +1383,12 @@
             },
             {
               "name": "应激生长",
-              "effect": "受到的元素伤害总降 10% / 每次受到击中时，你会适应击中伤害最高的元素伤害类型",
+              "effect": "受到的元素伤害总降 10% / 每次受到击中时，你会适应击中伤害最高的元素伤害类型 1 次",
               "sourceUrl": "https://poe2db.tw/cn/Reactive_Growth",
               "localized": {
                 "en": {
                   "name": "Reactive Growth",
-                  "effect": "10% less Elemental Damage taken / Adapt to the highest Elemental Damage Type of each Hit you take"
+                  "effect": "10% less Elemental Damage taken / Adapt 1 times to the highest Elemental Damage Type of each Hit you take"
                 }
               }
             }
