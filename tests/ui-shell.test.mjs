@@ -95,6 +95,11 @@ test("page includes inline fallback renderer for local file mode", () => {
   assert.match(html, /document\.querySelectorAll\("\.world-map-viewer, \.class-preview-card, \.build-card"\)\.length > 0/);
 });
 
+test("page includes embedded social data for API fallback rendering", () => {
+  assert.match(html, /id="social-guides-data"/);
+  assert.match(html, /id="social-links-data"/);
+});
+
 test("page includes a correction contact statement in the footer", () => {
   assert.match(html, /class="site-footer"/);
   assert.match(html, /纠错或优化建议请联系/);

@@ -770,6 +770,14 @@ async function loadJson(url) {
   return response.json();
 }
 
+async function loadJsonOrEmbedded(url, scriptId) {
+  try {
+    return await loadJson(url);
+  } catch {
+    return readEmbeddedJson(scriptId);
+  }
+}
+
 function readEmbeddedJson(scriptId) {
   const element = document.querySelector(`#${scriptId}`);
   if (!element?.textContent) {
@@ -792,12 +800,12 @@ async function loadAppData() {
   }
 
   const [worldMaps, ascendancies, buildsPayload, gggNews, socialGuides, socialLinks] = await Promise.all([
-    loadJson(WORLD_MAPS_URL),
-    loadJson(ASCENDANCIES_URL),
-    loadJson(BUILDS_URL),
-    loadJson(GGG_NEWS_URL),
-    loadJson(SOCIAL_GUIDES_URL),
-    loadJson(SOCIAL_LINKS_URL),
+    loadJsonOrEmbedded(WORLD_MAPS_URL, "world-maps-data"),
+    loadJsonOrEmbedded(ASCENDANCIES_URL, "ascendancies-data"),
+    loadJsonOrEmbedded(BUILDS_URL, "builds-data"),
+    loadJsonOrEmbedded(GGG_NEWS_URL, "ggg-news-data"),
+    loadJsonOrEmbedded(SOCIAL_GUIDES_URL, "social-guides-data"),
+    loadJsonOrEmbedded(SOCIAL_LINKS_URL, "social-links-data"),
   ]);
 
   return { worldMaps, ascendancies, buildsPayload, gggNews, socialGuides, socialLinks };

@@ -128,9 +128,9 @@ a {
 .social-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 10px;
   align-items: center;
-  margin-top: 4px;
+  margin-top: 12px;
 }
 
 .social-links__label {
@@ -140,23 +140,60 @@ a {
 }
 
 .social-link {
-  padding: 7px 10px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 116px;
+  padding: 9px 13px 9px 9px;
+  border: 1px solid transparent;
+  border-radius: 13px;
   color: var(--text);
-  font-size: 12px;
-  font-weight: 700;
   text-decoration: none;
-  transition: transform 160ms ease, border-color 160ms ease;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 8px 18px rgba(62, 83, 125, 0.1);
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
 }
 
 .social-link:hover {
   border-color: currentColor;
   transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(62, 83, 125, 0.16);
 }
 
-.social-link--bilibili { color: #e56b9f; }
+.social-link::before {
+  display: inline-grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border-radius: 9px;
+  color: #fff;
+  content: attr(data-mark);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.social-link span,
+.social-link small {
+  display: block;
+}
+
+.social-link span {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.social-link small {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.social-link--bilibili { color: #df5a91; }
+.social-link--bilibili::before { background: #df5a91; }
 .social-link--weibo { color: #d44d4d; }
+.social-link--weibo::before { background: #d44d4d; }
 
 .ggg-news {
   display: grid;
