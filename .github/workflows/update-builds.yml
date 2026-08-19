@@ -1,9 +1,14 @@
+# @author zwy
 name: Update POE2 Builds
 
 on:
   workflow_dispatch:
   schedule:
     - cron: "17 */6 * * *"
+
+concurrency:
+  group: poe2-guide-sync
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -22,25 +27,38 @@ jobs:
           node-version: "22"
 
       - name: Crawl PoE2DB ascendancy data
+        continue-on-error: true
         run: node ./scripts/fetch-poe2-ascendancies.mjs
 
       - name: Sync poe.ninja build data
+        continue-on-error: true
         run: node ./scripts/fetch-poe2-ninja.mjs
 
       - name: Sync official PoE2 trade data
+        continue-on-error: true
         run: node ./scripts/fetch-poe2-trade-data.mjs
 
       - name: Sync PoE2DB Chinese names
+        continue-on-error: true
         run: node ./scripts/fetch-poe2db-cn-index.mjs
 
       - name: Sync PoE2 passive tree data
+        continue-on-error: true
         run: node ./scripts/fetch-poe2-passive-tree.mjs
 
       - name: Crawl map guide sources
+        continue-on-error: true
         run: node ./scripts/fetch-map-guides.mjs
 
       - name: Crawl GGG official news
+        continue-on-error: true
         run: node ./scripts/fetch-ggg-news.mjs
+
+      - name: Crawl B 站 guides
+        continue-on-error: true
+        env:
+          BILIBILI_COOKIE: ${{ secrets.BILIBILI_COOKIE }}
+        run: node ./scripts/fetch-social-guides.mjs
 
       - name: Refresh embedded HTML data
         run: node ./scripts/embed-local-data.mjs
@@ -52,6 +70,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html robots.txt sitemap.xml llms.txt campaign classes builds tools about.html contact.html privacy.html disclaimer.html data/builds.json data/ascendancies.json data/ggg-news.json data/map-guide-cache.json data/trade2-items.json data/trade2-static.json data/trade2-stats.json data/poe2db-cn-index.json data/poe2-passive-tree.json data/crawled assets/images/builds assets/images/hero
+          git add index.html robots.txt sitemap.xml llms.txt campaign classes builds tools about.html contact.html privacy.html disclaimer.html data/builds.json data/ascendancies.json data/ggg-news.json data/social-guides.json data/social-links.json data/map-guide-cache.json data/trade2-items.json data/trade2-static.json data/trade2-stats.json data/poe2db-cn-index.json data/poe2-passive-tree.json data/crawled assets/images/builds assets/images/hero
           git diff --cached --quiet || git commit -m "chore: refresh poe2 build data"
           git push

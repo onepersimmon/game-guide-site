@@ -1,8 +1,11 @@
+// @author zwy
 const MAPS_URL = "./data/maps.json";
 const BUILDS_URL = "./data/builds.json";
 const WORLD_MAPS_URL = "./data/world-maps.json";
 const ASCENDANCIES_URL = "./data/ascendancies.json";
 const GGG_NEWS_URL = "./data/ggg-news.json";
+const SOCIAL_GUIDES_URL = "./data/social-guides.json";
+const SOCIAL_LINKS_URL = "./data/social-links.json";
 const DEFAULT_LANGUAGE = "zh";
 const SUPPORTED_LANGUAGES = ["zh", "en"];
 
@@ -28,6 +31,17 @@ const UI_COPY = {
       world: "开荒攻略",
       classes: "职业预览",
       builds: "最新 BD",
+      community: "社区攻略",
+    },
+    social: {
+      label: "社交平台",
+      kicker: "社区信号",
+      title: "B 站攻略",
+      copy: "同步公开搜索结果，保留原作者和原帖入口；平台要求登录或限流时沿用上次缓存。",
+      open: "打开原帖",
+      empty: "暂未抓到可展示的公开结果，请打开平台搜索入口。",
+      sync: "社区数据同步于",
+      failed: (platform) => `${platform} 本轮未能访问，页面保留上次缓存。`,
     },
     world: {
       kicker: "章节总览",
@@ -109,6 +123,17 @@ const UI_COPY = {
       world: "Campaign Guide",
       classes: "Class Preview",
       builds: "Builds",
+      community: "Community",
+    },
+    social: {
+      label: "Social",
+      kicker: "Community Signals",
+      title: "Bilibili Guides",
+      copy: "Public search results with original authors and links. Cached results are kept when a platform requires login or rate limits requests.",
+      open: "Open source",
+      empty: "No public results were captured. Use a platform search link instead.",
+      sync: "Community sync",
+      failed: (platform) => `${platform} was unavailable this run; the previous cache is shown.`,
     },
     world: {
       kicker: "Campaign Atlas",
@@ -293,6 +318,15 @@ function formatShortDate(value, language = DEFAULT_LANGUAGE) {
   });
 }
 
+function escapeHtml(value = "") {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
 function createFilterButton(tag, activeTag) {
   return `
     <button
@@ -334,6 +368,47 @@ function renderGggNews(newsPayload, language = DEFAULT_LANGUAGE) {
   newsRoot.innerHTML = latestItems.length
     ? latestItems.map((item) => renderGggNewsItem(item, language)).join("")
     : `<div class="empty-state empty-state--compact">${copy.empty}</div>`;
+}
+
+function renderCommunity(state) {
+  const portalRoot = document.querySelector("#social-portal-grid");
+  const guideRoot = document.querySelector("#social-guide-grid");
+  const noteRoot = document.querySelector("#social-sync-note");
+  if (!portalRoot || !guideRoot || !noteRoot) return;
+
+  const copy = getUiCopy(state.language).social;
+  const links = state.socialLinks.links ?? [];
+  portalRoot.innerHTML = links.map((link) => `
+    <a class="social-portal-card social-portal-card--${escapeHtml(link.platform)}" href="${escapeHtml(link.href)}" target="_blank" rel="noopener">
+      <span class="social-portal-card__platform">${escapeHtml(link.label)}</span>
+      <strong>${escapeHtml(link.description)}</strong>
+      <span class="social-portal-card__action">${copy.open} ↗</span>
+    </a>
+  `).join("");
+
+  const items = (state.socialGuides.items ?? [])
+    .filter((item) => item.platform === "bilibili")
+    .sort((a, b) => new Date(b.publishedAt || 0).getTime() - new Date(a.publishedAt || 0).getTime());
+  guideRoot.innerHTML = items.length
+    ? items.map((item) => `
+      <a class="social-guide-card" href="${escapeHtml(item.href)}" target="_blank" rel="noopener">
+        ${item.cover ? `<img src="${escapeHtml(item.cover)}" alt="" loading="lazy" />` : ""}
+        <div class="social-guide-card__body">
+          <div class="social-guide-card__meta"><span>${escapeHtml(item.platformLabel)}</span><small>${formatShortDate(item.publishedAt, state.language)}</small></div>
+          <h3>${escapeHtml(item.title)}</h3>
+          <p>${escapeHtml(item.summary || item.author || "")}</p>
+          <small>${escapeHtml(item.author || item.source || "")}</small>
+        </div>
+      </a>
+    `).join("")
+    : `<div class="empty-state">${copy.empty}</div>`;
+
+  const errorPlatforms = (state.socialGuides.errors ?? []).map(() => "B 站");
+  const syncDate = state.socialGuides.updatedAt ? formatShortDate(state.socialGuides.updatedAt, state.language) : "";
+  noteRoot.textContent = [
+    syncDate ? `${copy.sync} ${syncDate}` : "",
+    ...errorPlatforms.map((platform) => copy.failed(platform)),
+  ].filter(Boolean).join(" · ");
 }
 
 function renderMapCard(map, language = DEFAULT_LANGUAGE) {
@@ -631,6 +706,7 @@ function renderApp(state) {
   renderWorldMaps(state);
   renderClasses(state);
   renderBuilds(state.buildsPayload, state.language);
+  renderCommunity(state);
 }
 
 function setupTabs() {
@@ -710,17 +786,21 @@ async function loadAppData() {
       ascendancies: readEmbeddedJson("ascendancies-data"),
       buildsPayload: readEmbeddedJson("builds-data"),
       gggNews: readEmbeddedJson("ggg-news-data"),
+      socialGuides: readEmbeddedJson("social-guides-data"),
+      socialLinks: readEmbeddedJson("social-links-data"),
     };
   }
 
-  const [worldMaps, ascendancies, buildsPayload, gggNews] = await Promise.all([
+  const [worldMaps, ascendancies, buildsPayload, gggNews, socialGuides, socialLinks] = await Promise.all([
     loadJson(WORLD_MAPS_URL),
     loadJson(ASCENDANCIES_URL),
     loadJson(BUILDS_URL),
     loadJson(GGG_NEWS_URL),
+    loadJson(SOCIAL_GUIDES_URL),
+    loadJson(SOCIAL_LINKS_URL),
   ]);
 
-  return { worldMaps, ascendancies, buildsPayload, gggNews };
+  return { worldMaps, ascendancies, buildsPayload, gggNews, socialGuides, socialLinks };
 }
 
 async function initApp() {
@@ -734,16 +814,20 @@ async function initApp() {
     ascendancies: { source: { name: "" }, classes: [] },
     buildsPayload: { updatedAt: null, builds: [] },
     gggNews: { source: { name: "" }, items: [] },
+    socialGuides: { updatedAt: null, items: [], errors: [] },
+    socialLinks: { links: [] },
   };
 
   setupLanguageSwitcher(state);
 
   try {
-    const { worldMaps, ascendancies, buildsPayload, gggNews } = await loadAppData();
+    const { worldMaps, ascendancies, buildsPayload, gggNews, socialGuides, socialLinks } = await loadAppData();
     state.worldMaps = worldMaps;
     state.ascendancies = ascendancies;
     state.buildsPayload = buildsPayload;
     state.gggNews = gggNews;
+    state.socialGuides = socialGuides;
+    state.socialLinks = socialLinks;
     renderApp(state);
 
     document.querySelector("#world-map-tabs").addEventListener("click", (event) => {
@@ -763,6 +847,7 @@ async function initApp() {
     document.querySelector("#classes-grid").innerHTML = message;
     document.querySelector("#builds-grid").innerHTML = message;
     document.querySelector("#builds-summary").innerHTML = message;
+    document.querySelector("#social-guide-grid").innerHTML = message;
     console.error(error);
   }
 }

@@ -1,3 +1,4 @@
+// @author zwy
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -11,6 +12,8 @@ const targets = [
   ["maps-data", "data/maps.json"],
   ["builds-data", "data/builds.json"],
   ["ggg-news-data", "data/ggg-news.json"],
+  ["social-guides-data", "data/social-guides.json"],
+  ["social-links-data", "data/social-links.json"],
 ];
 
 function replaceEmbeddedJson(html, scriptId, json) {

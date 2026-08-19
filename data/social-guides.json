@@ -1,0 +1,92 @@
+{
+  "updatedAt": "2026-08-19T01:51:31.478Z",
+  "source": {
+    "name": "B 站公开搜索",
+    "queries": [
+      "POE2 开荒",
+      "流放之路2 开荒"
+    ],
+    "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
+  },
+  "items": [
+    {
+      "id": "bilibili-BV15P836NEyJ",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "再次完结！锤与盾！ 流放2 战士还是太简单了",
+      "summary": "",
+      "author": "怒り風",
+      "publishedAt": "2026-08-18T15:06:54.000Z",
+      "href": "https://www.bilibili.com/video/av117117080898474",
+      "cover": "https://i2.hdslb.com/bfs/archive/e44cd9d15b61485b79911782f01e6c7d1fd2e354.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1YjbX6VEMi",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放2 闪回赛季 先知德鲁伊植物人零资源起手 开荒 攻略 附带文档",
+      "summary": "先知植物人开荒bd：https://ocnjcsoe3uwn.feishu.cn/wiki/XZ8xwnaAmiB2DYk2hGycwATNnIf?from=from_copylink",
+      "author": "兔子-游戏分享",
+      "publishedAt": "2026-08-16T13:24:54.000Z",
+      "href": "https://www.bilibili.com/video/av117105403893760",
+      "cover": "https://i0.hdslb.com/bfs/archive/ee675adfd5f9a9dd11c7b3ace4d8d98731edf58a.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1E4bk6dETu",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放2 闪回赛季助理新手 开荒 系列 第一期A大的战士零资源 开荒 攻略",
+      "summary": "",
+      "author": "兔子-游戏分享",
+      "publishedAt": "2026-08-15T10:08:53.000Z",
+      "href": "https://www.bilibili.com/video/av117098961443724",
+      "cover": "https://i0.hdslb.com/bfs/archive/f5425414c19233840b25bacc1557c328d25965cc.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1iwgH6mELn",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】Lolcohol 50个 流放之路2 小技巧，肯定有帮助",
+      "summary": "Lolcohol 分享了流放之路2中大量实用但鲜为人知的技巧，涵盖交易网站、游戏内交易、商人交互、装备技能、重铸台、仓库管理、天赋分配、藏身处等方方面面。掌握这些操作能大幅提升刷图和交易效率，避免踩坑。无论新手还是老玩家都能从中获益。",
+      "author": "棱镜poe2lens",
+      "publishedAt": "2026-08-14T23:00:00.000Z",
+      "href": "https://www.bilibili.com/video/av117086445764621",
+      "cover": "https://i0.hdslb.com/bfs/archive/a04dab7be338484a7953133cdb22526c30f7c94a.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1WLua6RE9g",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "聊聊 在 流放2 玩泰坦的一些想法",
+      "summary": "随便刷刷",
+      "author": "怒り風",
+      "publishedAt": "2026-08-10T20:03:00.000Z",
+      "href": "https://www.bilibili.com/video/av117072973596349",
+      "cover": "https://i2.hdslb.com/bfs/archive/e97e569c79d9d811f15cd2dbf111399fe237ffc0.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1uiM96oEQY",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【流放2】【BD】都说精华吸取+瘟疫是 开荒 神器 —— 那它到底能不能打终局?",
+      "summary": "精华吸取配瘟疫,几乎是每个版本都被写进开荒推荐的组合:便宜、好用、两个键清一屏。但问题也来了 —— 它是不是只能开荒?能不能一路带你进终局,能不能杀终局首领?**答案是肯定的。 这个BD终局也可以轻松杀boss，清图，并且有很高的生存。 需要文档的请消息我",
+      "author": "刷图的默者",
+      "publishedAt": "2026-08-03T08:03:54.000Z",
+      "href": "https://www.bilibili.com/video/av117030527240027",
+      "cover": "https://i2.hdslb.com/bfs/archive/8d95083584071a9c50008e48d5fe26ce21202a50.jpg",
+      "query": "POE2 开荒",
+      "source": "B 站公开搜索"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,18 @@
+{
+  "links": [
+    {
+      "id": "bilibili",
+      "platform": "bilibili",
+      "label": "B 站",
+      "description": "搜索 POE2 开荒攻略",
+      "href": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92%E6%94%BB%E7%95%A5"
+    },
+    {
+      "id": "weibo",
+      "platform": "weibo",
+      "label": "微博",
+      "description": "搜索 POE2 版本讨论",
+      "href": "https://s.weibo.com/weibo?q=POE2%20%E5%BC%80%E8%8D%92%E6%94%BB%E7%95%A5"
+    }
+  ]
+}

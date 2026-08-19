@@ -1,3 +1,4 @@
+// @author zwy
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -39,6 +40,15 @@ function resolveAssetUrl(source) {
 }
 
 function findPoe2League(indexState) {
+  const currentEconomyLeague = indexState.economyLeagues?.find((league) => league.indexed);
+  const currentSnapshot = indexState.snapshotVersions?.find(
+    (snapshot) => snapshot.url === currentEconomyLeague?.url,
+  );
+
+  if (currentSnapshot) {
+    return currentSnapshot;
+  }
+
   return (
     indexState.snapshotVersions?.find((snapshot) => snapshot.url === "vaal" && snapshot.type !== "depthsolo") ??
     indexState.snapshotVersions?.find((snapshot) => snapshot.passiveTree?.startsWith("PassiveTree-")) ??
@@ -55,33 +65,42 @@ function findSearchComponentUrl(buildPageHtml) {
   return match[1];
 }
 
-function findTreeManifestUrl(componentSource) {
-  const match = componentSource.match(/import\("\.\/([^"]+\.mjs)"\)[^)]*\)[^,]*,[^}]*Dom|\.\/(a\.[^"]+\.mjs)/);
-  const explicit = componentSource.match(/\.\/(a\.[^"]+\.mjs)/g)?.find((candidate) => candidate.includes("Dom"));
+async function findTreeManifestUrl(componentSource, componentUrl) {
+  const queue = [
+    [componentUrl, componentSource],
+  ];
+  const visited = new Set();
 
-  if (explicit) {
-    return resolveAssetUrl(explicit.replace("./", ""));
+  while (queue.length && visited.size < 120) {
+    const [sourceUrl, source] = queue.shift();
+    if (visited.has(sourceUrl)) continue;
+    visited.add(sourceUrl);
+
+    if (/\/src\/generated\/poe2\/trees\/PassiveTree-/.test(source)) {
+      return sourceUrl;
+    }
+
+    const imports = [...source.matchAll(/(?:from|import\()\x22?\.\/(a2?\.[A-Za-z0-9_-]+\.mjs)/g)]
+      .map((match) => new URL(match[1], sourceUrl).toString());
+    for (const importUrl of imports) {
+      if (visited.has(importUrl)) continue;
+      try {
+        queue.push([importUrl, await fetchText(importUrl)]);
+      } catch {
+        // Optional client modules can disappear between deploys.
+      }
+    }
   }
 
-  if (match?.[1] || match?.[2]) {
-    return resolveAssetUrl(match[1] ?? match[2]);
-  }
-
-  const fallback = componentSource.match(/\.\/(a\.[A-Za-z0-9_-]+\.mjs)/g)?.find((candidate) => {
-    return componentSource.slice(Math.max(0, componentSource.indexOf(candidate) - 120), componentSource.indexOf(candidate) + 120).includes("Tree");
-  });
-
-  if (!fallback) {
-    throw new Error("Could not find poe.ninja tree manifest module");
-  }
-
-  return resolveAssetUrl(fallback.replace("./", ""));
+  throw new Error("Could not find poe.ninja tree manifest module");
 }
 
 function findPassiveTreeAssetUrl(manifestSource, passiveTreeName) {
   const fileName = `${passiveTreeName}.json`;
   const escapedFileName = fileName.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const match = manifestSource.match(new RegExp(`/trees/${escapedFileName}":\\(\\)=>[^"]+"\\.\\/([^"]+\\.mjs)"`));
+  const match = manifestSource.match(new RegExp(
+    `/src/generated/poe2/trees/${escapedFileName}[^\\n]*?import\\(\\x60\\.\\/([^\\x60]+\\.mjs)`,
+  ));
 
   if (match) {
     return resolveAssetUrl(match[1]);
@@ -107,7 +126,7 @@ export async function syncPoe2PassiveTree() {
   const buildPage = await fetchText(`${NINJA_ORIGIN}/poe2/builds/${league.url ?? "vaal"}`);
   const searchComponentUrl = findSearchComponentUrl(buildPage);
   const searchComponent = await fetchText(searchComponentUrl);
-  const manifestUrl = findTreeManifestUrl(searchComponent);
+  const manifestUrl = await findTreeManifestUrl(searchComponent, searchComponentUrl);
   const manifestSource = await fetchText(manifestUrl);
   const treeAssetUrl = findPassiveTreeAssetUrl(manifestSource, passiveTreeName);
   const treeSource = await fetchText(treeAssetUrl);
