@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T02:00:42.568Z",
+  "updatedAt": "2026-08-20T07:10:44.614Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1mZ8F6tEvj",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】闪回 开荒 职业选择，055闪回补丁改动方向，什么是闪回赛季， 流放之路2",
+      "summary": "学院群-赫奇帕奇：981091020 学院群-斯莱特林：326715482 学院群-拉文克劳：892414325 学院群-格兰芬多：305385389 这里是流放魔法学院，我们下期节目见",
+      "author": "POE魔法学院",
+      "publishedAt": "2026-08-20T04:58:37.000Z",
+      "href": "https://www.bilibili.com/video/av117126056644207",
+      "cover": "https://i1.hdslb.com/bfs/archive/19506c92de1269391307384e95b4160dd2faeead.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1dk8u68EVw",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-08-14T23:00:00.000Z",
       "href": "https://www.bilibili.com/video/av117086445764621",
       "cover": "https://i0.hdslb.com/bfs/archive/a04dab7be338484a7953133cdb22526c30f7c94a.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1WLua6RE9g",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "聊聊 在 流放2 玩泰坦的一些想法",
-      "summary": "随便刷刷",
-      "author": "怒り風",
-      "publishedAt": "2026-08-10T20:03:00.000Z",
-      "href": "https://www.bilibili.com/video/av117072973596349",
-      "cover": "https://i2.hdslb.com/bfs/archive/e97e569c79d9d811f15cd2dbf111399fe237ffc0.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
