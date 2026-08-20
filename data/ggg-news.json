@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-08-19T19:00:06.291Z",
+  "updatedAt": "2026-08-20T02:00:40.264Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "watch-the-path-of-exile-2-exilecon-qualifier-tomorrow-new-twitch-drops",
+      "title": "Watch the Path of Exile 2 ExileCon Qualifier Tomorrow - New Twitch Drops",
+      "date": "2026-08-19T21:13:52+00:00",
+      "summary": "The third ExileCon Path of Exile 2 Qualifier begins tomorrow! Watch it live to receive the Coliseum Helmet Attachment via Twitch Drops!",
+      "href": "https://www.pathofexile.com/forum/view-thread/3998279",
+      "thumb": "https://web.poecdn.com/public/news/2026-08-20/PoE2Qualifier3Twitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Watch the Path of Exile 2 ExileCon Qualifier Tomorrow - New Twitch Drops",
+          "summary": "The third ExileCon Path of Exile 2 Qualifier begins tomorrow! Watch it live to receive the Coliseum Helmet Attachment via Twitch Drops!",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Watch the Path of Exile 2 ExileCon Qualifier Tomorrow - New Twitch Drops",
+          "summary": "The third ExileCon Path of Exile 2 Qualifier begins tomorrow! Watch it live to receive the Coliseum Helmet Attachment via Twitch Drops!",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "fan-art-competition-highlights",
       "title": "Fan Art Competition Highlights",
@@ -44,27 +65,6 @@
         "en": {
           "title": "The Last of the Druids Microtransactions Are Now Available in Store",
           "summary": "Microtransactions from the Last of the Druids Mystery Box are finally available in the store for Path of Exile 1 and Path of Exile 2! Check them out!",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "path-of-exile-2-exilecon-qualifier-2-is-going-on-now",
-      "title": "Path of Exile 2 ExileCon Qualifier #2 Is Going On Now!",
-      "date": "2026-08-13T21:00:00+00:00",
-      "summary": "The ExileCon Path of Exile 2 Qualifier #2 is now live! Check out the news post for all the details.",
-      "href": "https://www.pathofexile.com/forum/view-thread/3996810",
-      "thumb": "https://web.poecdn.com/public/news/2026-08-14/Qualifier2Twitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Path of Exile 2 ExileCon Qualifier #2 Is Going On Now!",
-          "summary": "The ExileCon Path of Exile 2 Qualifier #2 is now live! Check out the news post for all the details.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Path of Exile 2 ExileCon Qualifier #2 Is Going On Now!",
-          "summary": "The ExileCon Path of Exile 2 Qualifier #2 is now live! Check out the news post for all the details.",
           "category": "Blue Post"
         }
       }
