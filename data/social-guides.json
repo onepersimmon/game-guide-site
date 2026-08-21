@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T19:08:48.032Z",
+  "updatedAt": "2026-08-21T02:03:51.643Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1nC8K6AEnu",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 】不负众望，拿下剧情竞速世界第一+目前世界纪录",
+      "summary": "谢谢大家的支持，后续会做全流程开荒视频教学",
+      "author": "胖胖丁爱吃鱼",
+      "publishedAt": "2026-08-21T01:21:49.000Z",
+      "href": "https://www.bilibili.com/video/av117130871770146",
+      "cover": "https://i2.hdslb.com/bfs/archive/5d4e6111c39cfdbe2d682a7eeb4e5951772763de.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1mZ8F6tEvj",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-08-15T10:08:53.000Z",
       "href": "https://www.bilibili.com/video/av117098961443724",
       "cover": "https://i0.hdslb.com/bfs/archive/f5425414c19233840b25bacc1557c328d25965cc.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1iwgH6mELn",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】Lolcohol 50个 流放之路2 小技巧，肯定有帮助",
-      "summary": "Lolcohol 分享了流放之路2中大量实用但鲜为人知的技巧，涵盖交易网站、游戏内交易、商人交互、装备技能、重铸台、仓库管理、天赋分配、藏身处等方方面面。掌握这些操作能大幅提升刷图和交易效率，避免踩坑。无论新手还是老玩家都能从中获益。",
-      "author": "棱镜poe2lens",
-      "publishedAt": "2026-08-14T23:00:00.000Z",
-      "href": "https://www.bilibili.com/video/av117086445764621",
-      "cover": "https://i0.hdslb.com/bfs/archive/a04dab7be338484a7953133cdb22526c30f7c94a.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }

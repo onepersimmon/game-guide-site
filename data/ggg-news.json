@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-08-20T19:08:46.870Z",
+  "updatedAt": "2026-08-21T02:03:50.818Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "path-of-exile-2-exilecon-qualifier-3-is-going-on-now",
+      "title": "Path of Exile 2 ExileCon Qualifier #3 Is Going On Now!",
+      "date": "2026-08-20T21:00:00+00:00",
+      "summary": "The ExileCon Path of Exile 2 Qualifier #3 is now live! Check out the news post for all the details.",
+      "href": "https://www.pathofexile.com/forum/view-thread/3998501",
+      "thumb": "https://web.poecdn.com/public/news/2026-08-21/PoE2Qualifier3Twitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Path of Exile 2 ExileCon Qualifier #3 Is Going On Now!",
+          "summary": "The ExileCon Path of Exile 2 Qualifier #3 is now live! Check out the news post for all the details.",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Path of Exile 2 ExileCon Qualifier #3 Is Going On Now!",
+          "summary": "The ExileCon Path of Exile 2 Qualifier #3 is now live! Check out the news post for all the details.",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "watch-the-path-of-exile-2-exilecon-qualifier-tomorrow-new-twitch-drops",
       "title": "Watch the Path of Exile 2 ExileCon Qualifier Tomorrow - New Twitch Drops",
@@ -44,27 +65,6 @@
         "en": {
           "title": "Fan Art Competition Highlights",
           "summary": "Last week, we started a Fan Art competition themed around the latest expansions in Path of Exile 1 and Path of Exile 2, and we’ve already received many great submissions. Check out the highlights in this news post!",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "the-last-of-the-druids-microtransactions-are-now-available-in-store",
-      "title": "The Last of the Druids Microtransactions Are Now Available in Store",
-      "date": "2026-08-16T21:44:46+00:00",
-      "summary": "Microtransactions from the Last of the Druids Mystery Box are finally available in the store for Path of Exile 1 and Path of Exile 2! Check them out!",
-      "href": "https://www.pathofexile.com/forum/view-thread/3997583",
-      "thumb": "https://web.poecdn.com/public/news/2026-08-17/PoE2DruidsMTXinStoreTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "The Last of the Druids Microtransactions Are Now Available in Store",
-          "summary": "Microtransactions from the Last of the Druids Mystery Box are finally available in the store for Path of Exile 1 and Path of Exile 2! Check them out!",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "The Last of the Druids Microtransactions Are Now Available in Store",
-          "summary": "Microtransactions from the Last of the Druids Mystery Box are finally available in the store for Path of Exile 1 and Path of Exile 2! Check them out!",
           "category": "Blue Post"
         }
       }
