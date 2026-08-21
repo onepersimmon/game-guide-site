@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T02:03:51.643Z",
+  "updatedAt": "2026-08-21T07:14:13.303Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1uV8u6nExs",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 世界记录】胖丁1小时56分！拳打A神脚踢Guy｜中国人能飞｜0.5race3完整竞速录像",
+      "summary": "1h56m17s！冲破2小时壁垒！POE2资格赛封神竞速对局！哪怕中途死亡1次，依旧碾压各路顶尖高手 ✨关注世界第一女猎胖丁谢谢喵 ✨看旋龙开荒我只看胖胖丁爱吃鱼 🏆POE2 第三张 ExileCon 门票 得主 @胖胖丁爱吃鱼 竞赛排名： https://pathofexile2.com/ladder/Exilecon%202026%20PoE2%20Qualifier%20%233 ⚠️本稿件为搬运转载，不拥有视频版权。 参赛原版直播存放于Twitch： https://www.twitch",
+      "author": "赵振豪plus",
+      "publishedAt": "2026-08-21T03:56:43.000Z",
+      "href": "https://www.bilibili.com/video/av117131442198669",
+      "cover": "https://i1.hdslb.com/bfs/archive/4485a7c3f0fb8f709b4fdc296c98799f73234cbe.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1nC8K6AEnu",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-08-16T13:24:54.000Z",
       "href": "https://www.bilibili.com/video/av117105403893760",
       "cover": "https://i0.hdslb.com/bfs/archive/ee675adfd5f9a9dd11c7b3ace4d8d98731edf58a.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1E4bk6dETu",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放2 闪回赛季助理新手 开荒 系列 第一期A大的战士零资源 开荒 攻略",
-      "summary": "",
-      "author": "兔子-游戏分享",
-      "publishedAt": "2026-08-15T10:08:53.000Z",
-      "href": "https://www.bilibili.com/video/av117098961443724",
-      "cover": "https://i0.hdslb.com/bfs/archive/f5425414c19233840b25bacc1557c328d25965cc.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }

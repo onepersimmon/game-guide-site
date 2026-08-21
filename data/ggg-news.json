@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-08-21T02:03:50.818Z",
+  "updatedAt": "2026-08-21T07:14:11.760Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "ggg-live-on-27-august",
+      "title": "GGG Live on 27 August",
+      "date": "2026-08-21T04:04:57+00:00",
+      "summary": "On August 27 PDT, tune in to twitch.tv/pathofexile to find out everything you need to know about our next Path of Exile 2 update!",
+      "href": "https://www.pathofexile.com/forum/view-thread/3998582",
+      "thumb": "https://web.poecdn.com/public/news/2026-08-21/0.5.5AnnounceTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "GGG Live on 27 August",
+          "summary": "On August 27 PDT, tune in to twitch.tv/pathofexile to find out everything you need to know about our next Path of Exile 2 update!",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "GGG Live on 27 August",
+          "summary": "On August 27 PDT, tune in to twitch.tv/pathofexile to find out everything you need to know about our next Path of Exile 2 update!",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "path-of-exile-2-exilecon-qualifier-3-is-going-on-now",
       "title": "Path of Exile 2 ExileCon Qualifier #3 Is Going On Now!",
@@ -44,27 +65,6 @@
         "en": {
           "title": "Watch the Path of Exile 2 ExileCon Qualifier Tomorrow - New Twitch Drops",
           "summary": "The third ExileCon Path of Exile 2 Qualifier begins tomorrow! Watch it live to receive the Coliseum Helmet Attachment via Twitch Drops!",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "fan-art-competition-highlights",
-      "title": "Fan Art Competition Highlights",
-      "date": "2026-08-17T22:20:25+00:00",
-      "summary": "Last week, we started a Fan Art competition themed around the latest expansions in Path of Exile 1 and Path of Exile 2, and we’ve already received many great submissions. Check out the highlights in this news post!",
-      "href": "https://www.pathofexile.com/forum/view-thread/3997822",
-      "thumb": "https://web.poecdn.com/public/news/2026-08-18/FanArtCompetitionWeek1Twitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Fan Art Competition Highlights",
-          "summary": "Last week, we started a Fan Art competition themed around the latest expansions in Path of Exile 1 and Path of Exile 2, and we’ve already received many great submissions. Check out the highlights in this news post!",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Fan Art Competition Highlights",
-          "summary": "Last week, we started a Fan Art competition themed around the latest expansions in Path of Exile 1 and Path of Exile 2, and we’ve already received many great submissions. Check out the highlights in this news post!",
           "category": "Blue Post"
         }
       }
