@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T19:00:45.351Z",
+  "updatedAt": "2026-08-22T01:53:57.087Z",
   "source": "poe.ninja",
   "leagueName": "Runes of Aldur",
   "builds": [
@@ -44,7 +44,7 @@
       "className": "Gemling Legionnaire",
       "leagueName": "Runes of Aldur",
       "summary": "古灵使徒斗士 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 16.2,
+      "popularity": 16.3,
       "trend": 1,
       "rank": 2,
       "image": "./assets/images/builds/gemling-legionnaire.webp",
@@ -117,12 +117,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 8.5,
-      "trend": 1,
+      "trend": -1,
       "rank": 4,
       "image": "./assets/images/builds/deadeye.webp",
       "tags": [
         "热门职业",
-        "热度上升"
+        "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Deadeye",
       "localized": {
@@ -132,7 +132,7 @@
           "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
@@ -141,7 +141,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Rising"
+            "Falling"
           ]
         }
       },
@@ -153,12 +153,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "神谕者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 5.7,
-      "trend": 1,
+      "trend": -1,
       "rank": 5,
       "image": "./assets/images/builds/oracle.webp",
       "tags": [
         "热门职业",
-        "热度上升"
+        "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Oracle",
       "localized": {
@@ -168,7 +168,7 @@
           "summary": "神谕者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
@@ -177,7 +177,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Rising"
+            "Falling"
           ]
         }
       },
@@ -261,12 +261,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "命源法师 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 3.5,
-      "trend": 1,
+      "trend": 0,
       "rank": 8,
       "image": "./assets/images/builds/blood-mage.webp",
       "tags": [
         "热门职业",
-        "热度上升"
+        "热度持平"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Blood%20Mage",
       "localized": {
@@ -276,7 +276,7 @@
           "summary": "命源法师 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度上升"
+            "热度持平"
           ]
         },
         "en": {
@@ -285,7 +285,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Rising"
+            "Stable"
           ]
         }
       },
