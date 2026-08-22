@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T01:53:57.568Z",
+  "updatedAt": "2026-08-22T07:03:13.549Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14491,16 +14491,16 @@
           }
         },
         {
-          "type": "Chain Flail",
-          "text": "INCOMPLETE Chain Flail",
+          "type": "Iron Greatsword",
+          "text": "INCOMPLETE Iron Greatsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Iron Greatsword",
-          "text": "INCOMPLETE Iron Greatsword",
+          "type": "Chain Flail",
+          "text": "INCOMPLETE Chain Flail",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
