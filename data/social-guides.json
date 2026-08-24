@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T13:20:16.721Z",
+  "updatedAt": "2026-08-24T19:08:51.642Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -88,5 +88,11 @@
       "source": "B 站公开搜索"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "platform": "bilibili",
+      "message": "412 Precondition Failed",
+      "at": "2026-08-24T19:08:51.642Z"
+    }
+  ]
 }
