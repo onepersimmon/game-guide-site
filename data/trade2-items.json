@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T18:51:16.144Z",
+  "updatedAt": "2026-08-24T02:00:26.367Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14491,14 +14491,6 @@
           }
         },
         {
-          "type": "Iron Greatsword",
-          "text": "INCOMPLETE Iron Greatsword",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
           "type": "Chain Flail",
           "text": "INCOMPLETE Chain Flail",
           "name": "INCOMPLETE",
@@ -14509,6 +14501,14 @@
         {
           "type": "Light Halberd",
           "text": "INCOMPLETE Light Halberd",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Iron Greatsword",
+          "text": "INCOMPLETE Iron Greatsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
