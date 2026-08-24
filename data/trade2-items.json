@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T07:32:22.548Z",
+  "updatedAt": "2026-08-24T13:17:22.220Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -9136,6 +9136,9 @@
           "type": "Legacy of Duality"
         },
         {
+          "type": "Legacy of Dunkelhalt"
+        },
+        {
           "type": "Legacy of Dusk Vigil"
         },
         {
@@ -14483,16 +14486,16 @@
           }
         },
         {
-          "type": "Bearded Axe",
-          "text": "INCOMPLETE Bearded Axe",
+          "type": "Iron Greatsword",
+          "text": "INCOMPLETE Iron Greatsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Iron Greatsword",
-          "text": "INCOMPLETE Iron Greatsword",
+          "type": "Bearded Axe",
+          "text": "INCOMPLETE Bearded Axe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
