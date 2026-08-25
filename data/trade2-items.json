@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T19:04:07.807Z",
+  "updatedAt": "2026-08-25T01:55:53.745Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14510,16 +14510,16 @@
           }
         },
         {
-          "type": "Light Halberd",
-          "text": "INCOMPLETE Light Halberd",
+          "type": "Simple Dagger",
+          "text": "INCOMPLETE Simple Dagger",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Simple Dagger",
-          "text": "INCOMPLETE Simple Dagger",
+          "type": "Light Halberd",
+          "text": "INCOMPLETE Light Halberd",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true

@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-08-24T19:08:49.097Z",
+  "updatedAt": "2026-08-25T01:59:10.877Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "watch-the-new-path-of-exile-2-reveal-at-gamescom",
+      "title": "Watch the New Path of Exile 2 Reveal at gamescom",
+      "date": "2026-08-24T21:17:26+00:00",
+      "summary": "Tune in to gamescom’s stream tomorrow, August 25, for an exclusive Path of Exile 2 reveal, and if you’re attending the expo, check out our booth in Hall 6.1, B031! Find out more in this news post.",
+      "href": "https://www.pathofexile.com/forum/view-thread/3999330",
+      "thumb": "https://web.poecdn.com/public/news/2026-08-25/WatchNewRevealGamescomTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Watch the New Path of Exile 2 Reveal at gamescom",
+          "summary": "Tune in to gamescom’s stream tomorrow, August 25, for an exclusive Path of Exile 2 reveal, and if you’re attending the expo, check out our booth in Hall 6.1, B031! Find out more in this news post.",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Watch the New Path of Exile 2 Reveal at gamescom",
+          "summary": "Tune in to gamescom’s stream tomorrow, August 25, for an exclusive Path of Exile 2 reveal, and if you’re attending the expo, check out our booth in Hall 6.1, B031! Find out more in this news post.",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "fan-art-competition-highlights-2",
       "title": "Fan Art Competition Highlights #2",
@@ -44,27 +65,6 @@
         "en": {
           "title": "GGG Live on 27 August",
           "summary": "On August 27 PDT, tune in to twitch.tv/pathofexile to find out everything you need to know about our next Path of Exile 2 update!",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "path-of-exile-2-exilecon-qualifier-3-is-going-on-now",
-      "title": "Path of Exile 2 ExileCon Qualifier #3 Is Going On Now!",
-      "date": "2026-08-20T21:00:00+00:00",
-      "summary": "The ExileCon Path of Exile 2 Qualifier #3 is now live! Check out the news post for all the details.",
-      "href": "https://www.pathofexile.com/forum/view-thread/3998501",
-      "thumb": "https://web.poecdn.com/public/news/2026-08-21/PoE2Qualifier3Twitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Path of Exile 2 ExileCon Qualifier #3 Is Going On Now!",
-          "summary": "The ExileCon Path of Exile 2 Qualifier #3 is now live! Check out the news post for all the details.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Path of Exile 2 ExileCon Qualifier #3 Is Going On Now!",
-          "summary": "The ExileCon Path of Exile 2 Qualifier #3 is now live! Check out the news post for all the details.",
           "category": "Blue Post"
         }
       }
