@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T13:30:59.964Z",
+  "updatedAt": "2026-08-26T20:12:55.081Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1yb8o6yEYg",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放2 科隆游戏展，新地图新boss，剑还能弹刀！",
+      "summary": "转载自https://x.com/pathofexile2new/status/2092628142561362291/video/1?s=46",
+      "author": "赵振豪plus",
+      "publishedAt": "2026-08-26T17:37:53.000Z",
+      "href": "https://www.bilibili.com/video/av117163016919093",
+      "cover": "https://i1.hdslb.com/bfs/archive/c5fddb8b543b84c04d79deaf74f873709e79e5f3.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1dt8Z6PEbV",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 降临 闪回赛季 0.55版本平衡旋风会否挨刀？ 开荒 BD选择注意事项",
+      "summary": "近一个月没发内容，为闪回赛季预热下，近期会密集更新，谢兄弟们支持！",
+      "author": "威尔-Willwil",
+      "publishedAt": "2026-08-26T17:03:15.000Z",
+      "href": "https://www.bilibili.com/video/av117162446429654",
+      "cover": "https://i0.hdslb.com/bfs/archive/0d2d8e0c49f1ef8a2d2abb5af86f2e7270071ef1.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1Hv8m6SERJ",
       "platform": "bilibili",
@@ -60,39 +86,7 @@
       "cover": "https://i1.hdslb.com/bfs/archive/19506c92de1269391307384e95b4160dd2faeead.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1dk8u68EVw",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 闪回9月上线！？ 开荒 职业用什么好？",
-      "summary": "文档点点关注即可私信即可自动回复（之前关注的重新点点也可以收到喔~） 点个关注支持一下啦~ 求关注~求关注~求关注~求关注~求关注~求关注~求关注~求关注~",
-      "author": "酷懒之音",
-      "publishedAt": "2026-08-19T04:00:00.000Z",
-      "href": "https://www.bilibili.com/video/av117115822610143",
-      "cover": "https://i1.hdslb.com/bfs/archive/8deb0691efddb73fce0f3657caf1df413fcb003d.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV15P836NEyJ",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "再次完结！锤与盾！ 流放2 战士还是太简单了",
-      "summary": "",
-      "author": "怒り風",
-      "publishedAt": "2026-08-18T15:06:54.000Z",
-      "href": "https://www.bilibili.com/video/av117117080898474",
-      "cover": "https://i2.hdslb.com/bfs/archive/e44cd9d15b61485b79911782f01e6c7d1fd2e354.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-08-26T13:30:59.964Z"
-    }
-  ]
+  "errors": []
 }
