@@ -1,11 +1,53 @@
 {
-  "updatedAt": "2026-08-26T20:12:53.555Z",
+  "updatedAt": "2026-08-27T10:00:40.554Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "watch-ggg-live-and-final-exilecon-qualifier-new-twitch-drops",
+      "title": "Watch GGG Live and Final ExileCon Qualifier - New Twitch Drops",
+      "date": "2026-08-27T01:04:35+00:00",
+      "summary": "Tune in to GGG Live at 12:30 PM on August 27 to find out more about the upcoming Path of Exile 2 0.5.5 update, or watch the final ExileCon Qualifier afterward to earn the Curse of the Allflame Mystery Box through Twitch Drops! Read more in this news post.",
+      "href": "https://www.pathofexile.com/forum/view-thread/3999700",
+      "thumb": "https://web.poecdn.com/public/news/2026-08-26/GGGLive27AugBoxDropTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Watch GGG Live and Final ExileCon Qualifier - New Twitch Drops",
+          "summary": "Tune in to GGG Live at 12:30 PM on August 27 to find out more about the upcoming Path of Exile 2 0.5.5 update, or watch the final ExileCon Qualifier afterward to earn the Curse of the Allflame Mystery Box through Twitch Drops! Read more in this news post.",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Watch GGG Live and Final ExileCon Qualifier - New Twitch Drops",
+          "summary": "Tune in to GGG Live at 12:30 PM on August 27 to find out more about the upcoming Path of Exile 2 0.5.5 update, or watch the final ExileCon Qualifier afterward to earn the Curse of the Allflame Mystery Box through Twitch Drops! Read more in this news post.",
+          "category": "Blue Post"
+        }
+      }
+    },
+    {
+      "id": "path-of-exile-2-full-release-registration-faq",
+      "title": "Path of Exile 2 Full Release Registration FAQ",
+      "date": "2026-08-26T21:39:45+00:00",
+      "summary": "Sign up at https://pathofexile2.com/register to stay up to date as we head toward Path of Exile 2’s full release and earn exclusive rewards. The more players who register, the more cosmetics everyone can unlock! Check out the FAQ in this news post.",
+      "href": "https://www.pathofexile.com/forum/view-thread/3999673",
+      "thumb": "https://web.poecdn.com/public/news/2026-08-26/FullReleaseRegistrationFAQTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Path of Exile 2 Full Release Registration FAQ",
+          "summary": "Sign up at https://pathofexile2.com/register to stay up to date as we head toward Path of Exile 2’s full release and earn exclusive rewards. The more players who register, the more cosmetics everyone can unlock! Check out the FAQ in this news post.",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Path of Exile 2 Full Release Registration FAQ",
+          "summary": "Sign up at https://pathofexile2.com/register to stay up to date as we head toward Path of Exile 2’s full release and earn exclusive rewards. The more players who register, the more cosmetics everyone can unlock! Check out the FAQ in this news post.",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "path-of-exile-2-fully-releases-on-december-11",
       "title": "Path of Exile 2 Fully Releases on December 11!",
@@ -23,48 +65,6 @@
         "en": {
           "title": "Path of Exile 2 Fully Releases on December 11!",
           "summary": "Sharpen your blades and ready your swords for December 11, when Path of Exile 2 goes into Full Release! Sign up for exclusive rewards and check out more in this news post.",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "watch-the-new-path-of-exile-2-reveal-at-gamescom",
-      "title": "Watch the New Path of Exile 2 Reveal at gamescom",
-      "date": "2026-08-24T21:17:26+00:00",
-      "summary": "Tune in to gamescom’s stream tomorrow, August 25, for an exclusive Path of Exile 2 reveal, and if you’re attending the expo, check out our booth in Hall 6.1, B031! Find out more in this news post.",
-      "href": "https://www.pathofexile.com/forum/view-thread/3999330",
-      "thumb": "https://web.poecdn.com/public/news/2026-08-25/WatchNewRevealGamescomTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Watch the New Path of Exile 2 Reveal at gamescom",
-          "summary": "Tune in to gamescom’s stream tomorrow, August 25, for an exclusive Path of Exile 2 reveal, and if you’re attending the expo, check out our booth in Hall 6.1, B031! Find out more in this news post.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Watch the New Path of Exile 2 Reveal at gamescom",
-          "summary": "Tune in to gamescom’s stream tomorrow, August 25, for an exclusive Path of Exile 2 reveal, and if you’re attending the expo, check out our booth in Hall 6.1, B031! Find out more in this news post.",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "fan-art-competition-highlights-2",
-      "title": "Fan Art Competition Highlights #2",
-      "date": "2026-08-23T21:06:30+00:00",
-      "summary": "Our Fan Art competition is in full swing! Check out the latest highlights in this news post!",
-      "href": "https://www.pathofexile.com/forum/view-thread/3999131",
-      "thumb": "https://web.poecdn.com/public/news/2026-08-24/FanArtWeek2Twitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Fan Art Competition Highlights #2",
-          "summary": "Our Fan Art competition is in full swing! Check out the latest highlights in this news post!",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Fan Art Competition Highlights #2",
-          "summary": "Our Fan Art competition is in full swing! Check out the latest highlights in this news post!",
           "category": "Blue Post"
         }
       }

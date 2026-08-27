@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T20:12:55.081Z",
+  "updatedAt": "2026-08-27T10:00:43.063Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1vLhA6mEjv",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 降临：闪回赛季法术图腾炸冰流BD 开荒 -毕业文档",
+      "summary": "已成型BD，文档已基本完结！",
+      "author": "逍遥游灬勿忘",
+      "publishedAt": "2026-08-27T05:08:48.000Z",
+      "href": "https://www.bilibili.com/video/av117165734759761",
+      "cover": "https://i0.hdslb.com/bfs/archive/fc134020532c269aa7abf07e8dccdc0e7580faa7.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1yb8o6yEYg",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-08-21T01:21:49.000Z",
       "href": "https://www.bilibili.com/video/av117130871770146",
       "cover": "https://i2.hdslb.com/bfs/archive/5d4e6111c39cfdbe2d682a7eeb4e5951772763de.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1mZ8F6tEvj",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】闪回 开荒 职业选择，055闪回补丁改动方向，什么是闪回赛季， 流放之路2",
-      "summary": "学院群-赫奇帕奇：981091020 学院群-斯莱特林：326715482 学院群-拉文克劳：892414325 学院群-格兰芬多：305385389 这里是流放魔法学院，我们下期节目见",
-      "author": "POE魔法学院",
-      "publishedAt": "2026-08-20T04:58:37.000Z",
-      "href": "https://www.bilibili.com/video/av117126056644207",
-      "cover": "https://i1.hdslb.com/bfs/archive/19506c92de1269391307384e95b4160dd2faeead.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
