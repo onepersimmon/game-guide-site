@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T10:00:43.063Z",
+  "updatedAt": "2026-08-27T22:27:48.540Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1bo4o6yEFf",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 降临 闪回发布会分析 玩法改动逐条分析 开荒 收益策略推荐",
+      "summary": "视频制作不易，感谢兄弟们动动小手帮忙给个赞。",
+      "author": "威尔-Willwil",
+      "publishedAt": "2026-08-27T22:27:02.000Z",
+      "href": "https://www.bilibili.com/video/av117169811626602",
+      "cover": "https://i0.hdslb.com/bfs/archive/d855013707d61294816a71a7c11ec4d1843ef66e.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV15f4962E16",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】0.5法师（门徒）轮椅 开荒 4小时全收集",
+      "summary": "https://my.feishu.cn/wiki/ANLxw1dT8iQliKkbXFLcHnAZnyd 文档里攻略细节和build文件，其中技能推荐和天赋路线都在build文件里了，有问题烦请及时反馈",
+      "author": "赵振豪plus",
+      "publishedAt": "2026-08-27T20:16:20.000Z",
+      "href": "https://www.bilibili.com/video/av117167462882036",
+      "cover": "https://i1.hdslb.com/bfs/archive/b354c74b484ef24bd057a64795233416772ef382.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1vLhA6mEjv",
       "platform": "bilibili",
@@ -49,41 +75,15 @@
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1Hv8m6SERJ",
+      "id": "bilibili-BV18B8Z6tEZm",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "1.9小时打完四章？？ 这届选手太强了！ 2026 流放 嘉年华 资格赛第三场（中文语音）",
-      "summary": "恭喜 @胖胖丁爱吃鱼 获得第三张 ExileCon门票 由ZiggyD 与 RAIZQT 解说 由 黑鸟在天际 翻译 （虽说是AI ，但是时长太长了，也挺费劲，给UP点点赞吧） 竞赛排名： https://pathofexile2.com/ladder/Exilecon%202026%20PoE2%20Qualifier%20%233 https://www.youtube.com/watch?v=EtriVlnk9OI&amp;t=598s",
-      "author": "黑鸟在天际",
-      "publishedAt": "2026-08-22T10:59:42.000Z",
-      "href": "https://www.bilibili.com/video/av117138790681586",
-      "cover": "https://i2.hdslb.com/bfs/archive/e352992affc51dba2340c3823ae3e4ca145adc1c.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1uV8u6nExs",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 世界记录】胖丁1小时56分！拳打A神脚踢Guy｜中国人能飞｜0.5race3完整竞速录像",
-      "summary": "1h56m17s！冲破2小时壁垒！POE2资格赛封神竞速对局！哪怕中途死亡1次，依旧碾压各路顶尖高手 ✨关注世界第一女猎胖丁谢谢喵 ✨看旋龙开荒我只看胖胖丁爱吃鱼 🏆POE2 第三张 ExileCon 门票 得主 @胖胖丁爱吃鱼 竞赛排名： https://pathofexile2.com/ladder/Exilecon%202026%20PoE2%20Qualifier%20%233 ⚠️本稿件为搬运转载，不拥有视频版权。 参赛原版直播存放于Twitch： https://www.twitch",
-      "author": "赵振豪plus",
-      "publishedAt": "2026-08-21T03:56:43.000Z",
-      "href": "https://www.bilibili.com/video/av117131442198669",
-      "cover": "https://i1.hdslb.com/bfs/archive/4485a7c3f0fb8f709b4fdc296c98799f73234cbe.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1nC8K6AEnu",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 】不负众望，拿下剧情竞速世界第一+目前世界纪录",
-      "summary": "谢谢大家的支持，后续会做全流程开荒视频教学",
-      "author": "胖胖丁爱吃鱼",
-      "publishedAt": "2026-08-21T01:21:49.000Z",
-      "href": "https://www.bilibili.com/video/av117130871770146",
-      "cover": "https://i2.hdslb.com/bfs/archive/5d4e6111c39cfdbe2d682a7eeb4e5951772763de.jpg",
+      "title": "流放2 从0开始 开荒 ，女巫",
+      "summary": "",
+      "author": "最能肝的贝仙人",
+      "publishedAt": "2026-08-26T15:55:11.000Z",
+      "href": "https://www.bilibili.com/video/av117162597550049",
+      "cover": "https://i2.hdslb.com/bfs/archive/7406f52cf2d0b00c9f2699871be6d19b59117eba.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
