@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T11:33:20.950Z",
+  "updatedAt": "2026-08-28T22:30:30.107Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,89 +10,83 @@
   },
   "items": [
     {
-      "id": "bilibili-BV1bo4o6yEFf",
+      "id": "bilibili-BV1VCtK6LEjm",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "流放之路2 降临 闪回发布会分析 玩法改动逐条分析 开荒 收益策略推荐",
-      "summary": "视频制作不易，感谢兄弟们动动小手帮忙给个赞。",
+      "title": "流放之路2 降临 古灵使徒夯爆了 降低操作门槛 佣兵剧情 开荒 踩蘑菇文档视频说明",
+      "summary": "踩蘑菇文档在评论区置顶，制作不易，请大家多为视频支持点赞。",
       "author": "威尔-Willwil",
-      "publishedAt": "2026-08-27T22:27:02.000Z",
-      "href": "https://www.bilibili.com/video/av117169811626602",
-      "cover": "https://i0.hdslb.com/bfs/archive/d855013707d61294816a71a7c11ec4d1843ef66e.jpg",
+      "publishedAt": "2026-08-28T18:41:18.000Z",
+      "href": "https://www.bilibili.com/video/av117174593133889",
+      "cover": "https://i1.hdslb.com/bfs/archive/ab0ccf60fa3691d2d9c51982225cb4ab17bdc69d.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV15f4962E16",
+      "id": "bilibili-BV173tN6EEHW",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "【 流放2 】0.5法师（门徒）轮椅 开荒 4小时全收集",
-      "summary": "https://my.feishu.cn/wiki/ANLxw1dT8iQliKkbXFLcHnAZnyd 文档里攻略细节和build文件，其中技能推荐和天赋路线都在build文件里了，有问题烦请及时反馈",
-      "author": "赵振豪plus",
-      "publishedAt": "2026-08-27T20:16:20.000Z",
-      "href": "https://www.bilibili.com/video/av117167462882036",
-      "cover": "https://i1.hdslb.com/bfs/archive/b354c74b484ef24bd057a64795233416772ef382.jpg",
+      "title": "【 流放之路2 降临】闪回赛季古灵王朝。迫击炮 开荒 保姆级攻略！断头饭来了？",
+      "summary": "",
+      "author": "里奥poe",
+      "publishedAt": "2026-08-28T13:53:34.000Z",
+      "href": "https://www.bilibili.com/video/av117173452343238",
+      "cover": "https://i2.hdslb.com/bfs/archive/11a2aba8c2bb30b01f5fc6f12829731c616156cd.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1vLhA6mEjv",
+      "id": "bilibili-BV1M2tw6oE1s",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "流放之路2 降临：闪回赛季法术图腾炸冰流BD 开荒 -毕业文档",
-      "summary": "已成型BD，文档已基本完结！",
+      "title": "流放之路2 闪回 两大轮椅职业推荐和 开荒 攻略",
+      "summary": "https://scn5jz40mt5c.feishu.cn/docx/J1eZdSfyToSWpWxyzC5ctXiInrc?from=from_copylink 武圣开荒文档 https://scn5jz40mt5c.feishu.cn/docx/B29ZdhXhDoKKuIxiTSgcBQxlnPd?from=from_copylink 法师开荒文档 1079334297 群号",
+      "author": "吾舛舛",
+      "publishedAt": "2026-08-28T12:24:31.000Z",
+      "href": "https://www.bilibili.com/video/av117173083181507",
+      "cover": "https://i0.hdslb.com/bfs/archive/dbb372795ec89a938752f58c89fe2f12cca7206d.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1UPtw6xELH",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 降临：闪回赛季法术图腾BD 开荒 -毕业版文档",
+      "summary": "既然他不平衡，那我就继续用！ 炸冰图腾开荒真的很舒服！ 懒人救星！",
       "author": "逍遥游灬勿忘",
-      "publishedAt": "2026-08-27T05:08:48.000Z",
-      "href": "https://www.bilibili.com/video/av117165734759761",
+      "publishedAt": "2026-08-28T05:11:15.000Z",
+      "href": "https://www.bilibili.com/video/av117171405521508",
       "cover": "https://i0.hdslb.com/bfs/archive/fc134020532c269aa7abf07e8dccdc0e7580faa7.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1yb8o6yEYg",
+      "id": "bilibili-BV1re4f6MEtB",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "流放2 科隆游戏展，新地图新boss，剑还能弹刀！",
-      "summary": "转载自https://x.com/pathofexile2new/status/2092628142561362291/video/1?s=46",
-      "author": "赵振豪plus",
-      "publishedAt": "2026-08-26T17:37:53.000Z",
-      "href": "https://www.bilibili.com/video/av117163016919093",
-      "cover": "https://i1.hdslb.com/bfs/archive/c5fddb8b543b84c04d79deaf74f873709e79e5f3.jpg",
+      "title": "流放之路2 降临|9月闪回新赛季新内容+1.0正式版内容速览",
+      "summary": "友好沟通即可，喷子恶语直接拉黑不废话！",
+      "author": "客不见",
+      "publishedAt": "2026-08-28T03:19:24.000Z",
+      "href": "https://www.bilibili.com/video/av117170969255432",
+      "cover": "https://i1.hdslb.com/bfs/archive/ccde05a20d1b24d013fc1ee747f4960febafa3fe.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1dt8Z6PEbV",
+      "id": "bilibili-BV1hQ4f6dEhg",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "流放之路2 降临 闪回赛季 0.55版本平衡旋风会否挨刀？ 开荒 BD选择注意事项",
-      "summary": "近一个月没发内容，为闪回赛季预热下，近期会密集更新，谢兄弟们支持！",
-      "author": "威尔-Willwil",
-      "publishedAt": "2026-08-26T17:03:15.000Z",
-      "href": "https://www.bilibili.com/video/av117162446429654",
-      "cover": "https://i0.hdslb.com/bfs/archive/0d2d8e0c49f1ef8a2d2abb5af86f2e7270071ef1.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV18B8Z6tEZm",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放2 从0开始 开荒 ，女巫",
-      "summary": "",
-      "author": "最能肝的贝仙人",
-      "publishedAt": "2026-08-26T15:55:11.000Z",
-      "href": "https://www.bilibili.com/video/av117162597550049",
-      "cover": "https://i2.hdslb.com/bfs/archive/7406f52cf2d0b00c9f2699871be6d19b59117eba.jpg",
+      "title": "流放之路2 闪回定档9.5 无平衡性补丁！ 男厕王朝？祭祀王朝？炸坟王朝？深渊王朝？ 内含指环王 开荒 榴弹转召唤文档",
+      "summary": "【金山文档 | WPS云文档】 女猎指环王从零剧情爆炸弩转召唤开荒到T15异界详细攻略-0.5.5闪回 https://www.kdocs.cn/l/cs5IgPwFAEre 如果还有不懂的话可以进群问一下 QQ群号:754018153来问就行或者视频评论一下 请多多收藏关注点赞 每个赛季都会有更多的指环王BD分享",
+      "author": "sakura7czh",
+      "publishedAt": "2026-08-28T01:22:57.000Z",
+      "href": "https://www.bilibili.com/video/av117170499489253",
+      "cover": "https://i1.hdslb.com/bfs/archive/27acb80187a8ca7f45e902f05064e5a7cf66dcaf.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-08-28T11:33:20.950Z"
-    }
-  ]
+  "errors": []
 }
