@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T16:46:39.618Z",
+  "updatedAt": "2026-08-29T20:58:48.206Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14462,16 +14462,16 @@
           }
         },
         {
-          "type": "Splitting Greataxe",
-          "text": "INCOMPLETE Splitting Greataxe",
+          "type": "Bearded Axe",
+          "text": "INCOMPLETE Bearded Axe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Bearded Axe",
-          "text": "INCOMPLETE Bearded Axe",
+          "type": "Splitting Greataxe",
+          "text": "INCOMPLETE Splitting Greataxe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
