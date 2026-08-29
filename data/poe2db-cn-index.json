@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T22:30:17.234Z",
+  "updatedAt": "2026-08-29T07:14:12.769Z",
   "locale": "tw",
   "source": [
     "https://poe2db.tw/tw/Skill_Gems",
@@ -115886,6 +115886,27 @@
     },
     {
       "type": "modifier",
+      "hash": "f06f14e0ea50db262f42521b39a31f733fedfc8c85623419b11322dcb51d60e3",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f06f14e0ea50db262f42521b39a31f733fedfc8c85623419b11322dcb51d60e3",
+      "title": "用此武器 擊中 時有 (10 — 15) %機率造成 中毒",
+      "name": "",
+      "family": "LocalChanceToPoisonOnHit",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local poison on hit % 10 — 15 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "用此武器 擊中 時有 (10 — 15) %機率造成 中毒 LocalChanceToPoisonOnHit 已汙染 (5) 物品 (1) 需求等級 1 local poison on hit % 10 — 15 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "d944014529837d115f4486786e15f6e40bf5724f83c91731219dad9ac2966e0f",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/d944014529837d115f4486786e15f6e40bf5724f83c91731219dad9ac2966e0f",
       "title": "擊中 時獲得 1 層 盛怒",
@@ -118835,27 +118856,6 @@
       ],
       "itemClasses": [],
       "searchText": "當你有一個 圖騰 ，增加 (41 — 59) %傷害 烏拉曼的 TotemDamage 前綴 (1) 深淵 (28) 需求等級 65 damage +% while totem active 41 — 59 Global"
-    },
-    {
-      "type": "modifier",
-      "hash": "f06f14e0ea50db262f42521b39a31f733fedfc8c85623419b11322dcb51d60e3",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f06f14e0ea50db262f42521b39a31f733fedfc8c85623419b11322dcb51d60e3",
-      "title": "用此武器 擊中 時有 (10 — 15) %機率造成 中毒",
-      "name": "",
-      "family": "LocalChanceToPoisonOnHit",
-      "domains": "物品 (1)",
-      "generationType": "已汙染 (5)",
-      "reqLevel": 1,
-      "stats": [
-        {
-          "text": "local poison on hit % 10 — 15 區域",
-          "min": null,
-          "max": null,
-          "scope": ""
-        }
-      ],
-      "itemClasses": [],
-      "searchText": "用此武器 擊中 時有 (10 — 15) %機率造成 中毒 LocalChanceToPoisonOnHit 已汙染 (5) 物品 (1) 需求等級 1 local poison on hit % 10 — 15 區域"
     },
     {
       "type": "modifier",

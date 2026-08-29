@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T22:30:30.107Z",
+  "updatedAt": "2026-08-29T07:14:19.365Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,58 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1nK4k6WEGQ",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放2 -0.55最新魔巫 开荒 喂饭攻略",
+      "summary": "",
+      "author": "老王的砖",
+      "publishedAt": "2026-08-29T05:48:53.000Z",
+      "href": "https://www.bilibili.com/video/av117177210509961",
+      "cover": "https://i0.hdslb.com/bfs/archive/3d50c54f5c140c976292d9e9a17e2eb6a879b6d9.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1Lo4k6EEo7",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 【魔巫～门徒剧情 开荒 】20-58级 含文档",
+      "summary": "关注并三连 后台私信“魔巫” 即可获取文档 老粉丝可以先取消关注再关注获取文档 接修车 接配装 v:poeyyds",
+      "author": "黑虎阿福-小八",
+      "publishedAt": "2026-08-29T04:18:40.000Z",
+      "href": "https://www.bilibili.com/video/av117176858056536",
+      "cover": "https://i1.hdslb.com/bfs/archive/1fe5c0d4f8bcf1473f5f3ddd08c523a5ff608ab5.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1EU4k69EU1",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 【魔巫～门徒剧情 开荒 】0-20级 含文档",
+      "summary": "关注并三连 后台私信“魔巫” 即可获取文档 老粉丝可以先取消关注再关注获取文档 接修车 接配装 v:poeyyds",
+      "author": "黑虎阿福-小八",
+      "publishedAt": "2026-08-29T03:51:51.000Z",
+      "href": "https://www.bilibili.com/video/av117176740617937",
+      "cover": "https://i1.hdslb.com/bfs/archive/1fe5c0d4f8bcf1473f5f3ddd08c523a5ff608ab5.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1ny4k64EAv",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 降临.闪回锐眼榴弹 开荒 异界天赋全细节讲解。",
+      "summary": "",
+      "author": "瘾大旺小旺",
+      "publishedAt": "2026-08-29T03:47:29.000Z",
+      "href": "https://www.bilibili.com/video/av117176723835611",
+      "cover": "https://i2.hdslb.com/bfs/archive/bba6a368c82975033ca1892f11628d18a0849f49.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1VCtK6LEjm",
       "platform": "bilibili",
@@ -32,58 +84,6 @@
       "publishedAt": "2026-08-28T13:53:34.000Z",
       "href": "https://www.bilibili.com/video/av117173452343238",
       "cover": "https://i2.hdslb.com/bfs/archive/11a2aba8c2bb30b01f5fc6f12829731c616156cd.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1M2tw6oE1s",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 闪回 两大轮椅职业推荐和 开荒 攻略",
-      "summary": "https://scn5jz40mt5c.feishu.cn/docx/J1eZdSfyToSWpWxyzC5ctXiInrc?from=from_copylink 武圣开荒文档 https://scn5jz40mt5c.feishu.cn/docx/B29ZdhXhDoKKuIxiTSgcBQxlnPd?from=from_copylink 法师开荒文档 1079334297 群号",
-      "author": "吾舛舛",
-      "publishedAt": "2026-08-28T12:24:31.000Z",
-      "href": "https://www.bilibili.com/video/av117173083181507",
-      "cover": "https://i0.hdslb.com/bfs/archive/dbb372795ec89a938752f58c89fe2f12cca7206d.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1UPtw6xELH",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 降临：闪回赛季法术图腾BD 开荒 -毕业版文档",
-      "summary": "既然他不平衡，那我就继续用！ 炸冰图腾开荒真的很舒服！ 懒人救星！",
-      "author": "逍遥游灬勿忘",
-      "publishedAt": "2026-08-28T05:11:15.000Z",
-      "href": "https://www.bilibili.com/video/av117171405521508",
-      "cover": "https://i0.hdslb.com/bfs/archive/fc134020532c269aa7abf07e8dccdc0e7580faa7.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1re4f6MEtB",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 降临|9月闪回新赛季新内容+1.0正式版内容速览",
-      "summary": "友好沟通即可，喷子恶语直接拉黑不废话！",
-      "author": "客不见",
-      "publishedAt": "2026-08-28T03:19:24.000Z",
-      "href": "https://www.bilibili.com/video/av117170969255432",
-      "cover": "https://i1.hdslb.com/bfs/archive/ccde05a20d1b24d013fc1ee747f4960febafa3fe.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1hQ4f6dEhg",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 闪回定档9.5 无平衡性补丁！ 男厕王朝？祭祀王朝？炸坟王朝？深渊王朝？ 内含指环王 开荒 榴弹转召唤文档",
-      "summary": "【金山文档 | WPS云文档】 女猎指环王从零剧情爆炸弩转召唤开荒到T15异界详细攻略-0.5.5闪回 https://www.kdocs.cn/l/cs5IgPwFAEre 如果还有不懂的话可以进群问一下 QQ群号:754018153来问就行或者视频评论一下 请多多收藏关注点赞 每个赛季都会有更多的指环王BD分享",
-      "author": "sakura7czh",
-      "publishedAt": "2026-08-28T01:22:57.000Z",
-      "href": "https://www.bilibili.com/video/av117170499489253",
-      "cover": "https://i1.hdslb.com/bfs/archive/27acb80187a8ca7f45e902f05064e5a7cf66dcaf.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
