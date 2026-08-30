@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T05:34:20.623Z",
+  "updatedAt": "2026-08-30T12:00:29.080Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,58 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1dmtH6oEJe",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "萌新闭眼入！闪回赛季 开荒 BD 推荐 + 中后期强度一览",
+      "summary": "POE2 闪回不知道玩什么职业？ 整理 4 个强势开荒角色，上手简单、生存够用，开荒推图不坐牢，新手入坑直接参考。 你闪回准备玩哪个 BD？评论区聊聊！",
+      "author": "夏天不瞌睡",
+      "publishedAt": "2026-08-30T10:22:37.000Z",
+      "href": "https://www.bilibili.com/video/av117183954818820",
+      "cover": "https://i1.hdslb.com/bfs/archive/7da55065963f7d9155a55767393f1d5179a7fea9.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1DdtH6HEH4",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】榴弹 开荒 保姆级攻略，一路平推到异界！",
+      "summary": "",
+      "author": "迷失的星星777",
+      "publishedAt": "2026-08-30T10:17:06.000Z",
+      "href": "https://www.bilibili.com/video/av117183938037011",
+      "cover": "https://i1.hdslb.com/bfs/archive/0e7a455f78a12a764b8e0698ee0ebab2cc437adc.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1tU4X6eEdM",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】0.5赛季7小时0死速通火焰仲裁者｜门徒轮椅4h全收集剧情｜2h异界T15+升华3｜闪回通用",
+      "summary": "https://my.feishu.cn/wiki/ANLxw1dT8iQliKkbXFLcHnAZnyd 文档里有攻略细节和build文件，其中技能推荐和天赋路线都在build文件里了，有问题烦请及时反馈 适用于闪回",
+      "author": "赵振豪plus",
+      "publishedAt": "2026-08-30T07:46:54.000Z",
+      "href": "https://www.bilibili.com/video/av117183334063571",
+      "cover": "https://i0.hdslb.com/bfs/archive/03b382783253cff6cbfa00668f26edfebb2f3d0e.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1WR4X68EQU",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "两款软件助力 流放之路2 闪回 开荒 榴弹特效屏蔽剧情引导易刷开全图找路不迷糊",
+      "summary": "易刷全图有风险，谨慎选择，加群有软件安装包",
+      "author": "碳基十二",
+      "publishedAt": "2026-08-30T07:30:01.000Z",
+      "href": "https://www.bilibili.com/video/av117183266950572",
+      "cover": "https://i0.hdslb.com/bfs/archive/70bdc2564279d7d3ed545e36f3881ecbafe06cc1.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1jT4Q6CEKv",
       "platform": "bilibili",
@@ -32,58 +84,6 @@
       "publishedAt": "2026-08-29T23:05:00.000Z",
       "href": "https://www.bilibili.com/video/av117179978813941",
       "cover": "https://i2.hdslb.com/bfs/archive/2c5cc90dd5c96f91d6b39bc7bf9b37a1a13f71f4.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1DF4D6bEKd",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 禁忌仪式闪回武僧下蛋冰刺+游侠冰簇旋风 开荒 文档",
-      "summary": "没招了，0.5.5没有单独的Press Kit包，官方给的素材就一个大合集海报，所以封面凑合看吧，三连+关注自动获取文档，老粉私信我关键词即可",
-      "author": "感觉药丸_",
-      "publishedAt": "2026-08-29T21:06:04.000Z",
-      "href": "https://www.bilibili.com/video/av117180817481645",
-      "cover": "https://i1.hdslb.com/bfs/archive/94d00a085867b60af7c4e57f86ad3ef21b5d8d5b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV14j416VErj",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】专家最强 开荒 轮椅【全程讲解】从零到200谵妄游龙！",
-      "summary": "家人们，0.55之前实在没时间做BD介绍了，后面找时间再补吧，没有文档，没有人物链接，这个BD在B站有很多教程，不是我自创的，大伙想学的先各显神通一下吧，感谢大家的理解！ 有关于专家服的问题都可以问我 我的粉丝群：453115741 专家模式交流群：1025951977",
-      "author": "烩炒稻草人",
-      "publishedAt": "2026-08-29T15:31:49.000Z",
-      "href": "https://www.bilibili.com/video/av117179425031563",
-      "cover": "https://i1.hdslb.com/bfs/archive/520f4fedbb9ba46a13c22b507940c2fab1e77ead.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1Rk416sEZU",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放2 闪回不知道玩什么？ 开荒 升华推荐来了！",
-      "summary": "兄弟们这几个升华怎么样？",
-      "author": "一只鲸鱼呀_游戏分享",
-      "publishedAt": "2026-08-29T13:43:38.000Z",
-      "href": "https://www.bilibili.com/video/av117179072649976",
-      "cover": "https://i0.hdslb.com/bfs/archive/49a34a70df51f70226492fa732c6570e731efc27.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1vH426ZE8Z",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 闪回赛季 开荒 推荐",
-      "summary": "闪回赛季玩法变化小，据说职业平衡也不做调整。",
-      "author": "杰克布兰克",
-      "publishedAt": "2026-08-29T13:15:19.000Z",
-      "href": "https://www.bilibili.com/video/av117178971981593",
-      "cover": "https://i1.hdslb.com/bfs/archive/96588246d191d2ab107ab7c111fc8dd908d1bd1f.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }

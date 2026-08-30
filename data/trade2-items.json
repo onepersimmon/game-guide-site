@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T05:31:01.608Z",
+  "updatedAt": "2026-08-30T12:00:06.805Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14470,14 +14470,6 @@
           }
         },
         {
-          "type": "Bearded Axe",
-          "text": "INCOMPLETE Bearded Axe",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
           "type": "Corroded Longsword",
           "text": "INCOMPLETE Corroded Longsword",
           "name": "INCOMPLETE",
@@ -14488,6 +14480,14 @@
         {
           "type": "Splintered Flail",
           "text": "INCOMPLETE Splintered Flail",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Bearded Axe",
+          "text": "INCOMPLETE Bearded Axe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
