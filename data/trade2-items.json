@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T20:58:48.206Z",
+  "updatedAt": "2026-08-30T05:31:01.608Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14438,16 +14438,16 @@
           }
         },
         {
-          "type": "Charred Shortsword",
-          "text": "INCOMPLETE Charred Shortsword",
+          "type": "Dull Hatchet",
+          "text": "INCOMPLETE Dull Hatchet",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Dull Hatchet",
-          "text": "INCOMPLETE Dull Hatchet",
+          "type": "Charred Shortsword",
+          "text": "INCOMPLETE Charred Shortsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
@@ -14462,16 +14462,16 @@
           }
         },
         {
-          "type": "Bearded Axe",
-          "text": "INCOMPLETE Bearded Axe",
+          "type": "Splitting Greataxe",
+          "text": "INCOMPLETE Splitting Greataxe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Splitting Greataxe",
-          "text": "INCOMPLETE Splitting Greataxe",
+          "type": "Bearded Axe",
+          "text": "INCOMPLETE Bearded Axe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
@@ -14502,16 +14502,16 @@
           }
         },
         {
-          "type": "Iron Greatsword",
-          "text": "INCOMPLETE Iron Greatsword",
+          "type": "Simple Dagger",
+          "text": "INCOMPLETE Simple Dagger",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Simple Dagger",
-          "text": "INCOMPLETE Simple Dagger",
+          "type": "Iron Greatsword",
+          "text": "INCOMPLETE Iron Greatsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
