@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T12:00:29.080Z",
+  "updatedAt": "2026-08-30T16:50:33.907Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV17ctH6FEeg",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 降临0.55】萌新也能玩懂的德鲁 开荒 文档！龙爪撕裂冰雷龙从入门到入土！一个文档全部涵盖",
+      "summary": "做为一个体量小米渣的小UP， 能做到这里走到这里，已是我的极限！ 未来的路能有多长，我也不知道。 但我会继续努力，感谢大家支持。 另外，不再要给我充电了。感谢。 关注即可自动获取这份文档。 文档从攻略的排版，到重要字体的颜色标注，到关键的备注地方注解，我都是有考究的。 哪怕你是一个纯萌新，也一定看得懂我的攻略，这也是我这个攻略的初衷. 文档内容：不限于怎么开荒，怎么连技能，怎么连天赋，怎么选装备，如何制作毕业装备教程解说。 未来准备添加的内容-前一周的日记，重点放在第一周的自我提升，从无到有的这个过程。",
+      "author": "徐安安最可爱",
+      "publishedAt": "2026-08-30T12:52:37.000Z",
+      "href": "https://www.bilibili.com/video/av117184542016131",
+      "cover": "https://i0.hdslb.com/bfs/archive/958695c60d01597a9f3173cd58b7aa9ca51b1708.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1KHtH61ECn",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "[ 流放之路2 ]0.55赛季新手剧情攻略，直接无痛 开荒",
+      "summary": "【腾讯文档】流放之路2佣兵开荒文档 https://docs.qq.com/doc/DWHNLZ1pVUHN0VnhY",
+      "author": "Ma碎梦",
+      "publishedAt": "2026-08-30T11:37:40.000Z",
+      "href": "https://www.bilibili.com/video/av117184240027867",
+      "cover": "https://i2.hdslb.com/bfs/archive/7f786f77c025956fe84a6dbb53e7f013aca399a9.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1dmtH6oEJe",
       "platform": "bilibili",
@@ -58,32 +84,6 @@
       "publishedAt": "2026-08-30T07:30:01.000Z",
       "href": "https://www.bilibili.com/video/av117183266950572",
       "cover": "https://i0.hdslb.com/bfs/archive/70bdc2564279d7d3ed545e36f3881ecbafe06cc1.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1jT4Q6CEKv",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "古灵迫击炮榴弹 开荒 万字胎教级文档《 流放之路2 》蛇女变身都放不出来？",
-      "summary": "点赞、关注，评论区留言：文档 私信自动免费获取详细搬砖文档。 3000人搬砖交流群：753229403",
-      "author": "麒麟游戏攻略",
-      "publishedAt": "2026-08-30T03:02:11.000Z",
-      "href": "https://www.bilibili.com/video/av117182226762789",
-      "cover": "https://i1.hdslb.com/bfs/archive/02dac1d7aa3cf7fd25e908a3cc995aff38fa59cd.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1Zk4m6PEdv",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "熟肉Jorgen：5个强力的 开荒 BD推荐， 流放之路2 闪回赛季 开荒 首先！攻守兼备还廉价！神谕者·武圣`血法弓·战争图腾·盾墙完整文档分享",
-      "summary": "👇本期的所有POB链接都已转化成编年史中文版！ 👇还是建议导入POB软件使用。当然不会POB的兄弟直接打开看就行！ 👇注意下面文档指南里的代码是可以下载的，BD构筑是可以直接导入流放2游戏的！现在流放有一键代码代入功能 ⚠️神谕者剧情开荒POB——https://poe2db.tw/cn/pob/RRm4zWPz6m ⚠️神谕者 CoC画地为牢POB——https://poe2db.tw/cn/pob/DQHDhwe4rI53 ⚠️神谕者 CoC画地为牢文档——https://mobalytics.gg/",
-      "author": "苏丹你好",
-      "publishedAt": "2026-08-29T23:05:00.000Z",
-      "href": "https://www.bilibili.com/video/av117179978813941",
-      "cover": "https://i2.hdslb.com/bfs/archive/2c5cc90dd5c96f91d6b39bc7bf9b37a1a13f71f4.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
