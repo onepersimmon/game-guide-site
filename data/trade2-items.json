@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T16:45:56.825Z",
+  "updatedAt": "2026-08-30T21:12:46.698Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14510,16 +14510,16 @@
           }
         },
         {
-          "type": "Iron Greatsword",
-          "text": "INCOMPLETE Iron Greatsword",
+          "type": "Light Halberd",
+          "text": "INCOMPLETE Light Halberd",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Light Halberd",
-          "text": "INCOMPLETE Light Halberd",
+          "type": "Iron Greatsword",
+          "text": "INCOMPLETE Iron Greatsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
