@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T05:49:11.882Z",
+  "updatedAt": "2026-08-31T14:06:27.510Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,6 +10,45 @@
   },
   "items": [
     {
+      "id": "bilibili-BV1bQtb6MEnq",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】【0.5.5】 1 级到地图 佣兵／古灵军团 旋风 赛季 开荒 准备 完整攻略",
+      "summary": "【0.5.5】 1 级到地图 佣兵／古灵军团 旋风 赛季开荒准备 完整攻略",
+      "author": "刷图的默者",
+      "publishedAt": "2026-08-31T12:26:48.000Z",
+      "href": "https://www.bilibili.com/video/av117190061721703",
+      "cover": "https://i0.hdslb.com/bfs/archive/0ca8b1f1c8ab71c832c648a16e004ec102ad2b12.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1Duth6yEkT",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】闪回 开荒2 选1！榴弹高伤vs旋风速通，横推剧情！",
+      "summary": "求点赞！求关注！攻略文档B站关注有自动回复！ 📌 本期内容 2种思路佣兵，女猎和游侠均可； 佣兵建议学习剧情全收集演示的参考视频中：胖丁大佬3小时53分（竞速世界第一） 分章节详解：榴弹+旋风2种天赋点法、技能链接 重点增加符文石提醒，强化剧情流程 📄“闪回开荒” ✅文案整理：@枫向标GAME 探索旅程永无止境，但你们的每一次点赞与关注，都指引我们前进方向！ 我是前线分析员小枫，关注我，咱们下期视频见啦！拜拜！",
+      "author": "枫向标GAME",
+      "publishedAt": "2026-08-31T09:47:36.000Z",
+      "href": "https://www.bilibili.com/video/av117189474519206",
+      "cover": "https://i2.hdslb.com/bfs/archive/8824edce7b095090add65c5794b5ba8d28cc058a.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1w1tt6WEHL",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 降临武僧武圣龙喷 开荒 攻略，文档在简介",
+      "summary": "【腾讯文档】流放之路2武圣旋风转龙喷开荒（简体版） https://docs.qq.com/doc/DQ0hqcGZCVGdrV0Fw",
+      "author": "莫得利亚",
+      "publishedAt": "2026-08-31T07:39:12.000Z",
+      "href": "https://www.bilibili.com/video/av117188971208522",
+      "cover": "https://i1.hdslb.com/bfs/archive/0e13d3f71ca701ee09a60723042b78deb142062c.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
       "id": "bilibili-BV1ektb65Ek8",
       "platform": "bilibili",
       "platformLabel": "B 站",
@@ -19,19 +58,6 @@
       "publishedAt": "2026-08-31T05:00:22.000Z",
       "href": "https://www.bilibili.com/video/av117188350451280",
       "cover": "https://i1.hdslb.com/bfs/archive/b62e6f8aa7ef9e312bb3df629f74a95bcb416ecc.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1Fktx6mE6w",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "2D造价2个升华就能刷T16炸坟？《 流放之路2 》迫击炮武器制作流程",
-      "summary": "点赞、关注，评论区留言：文档 私信自动免费获取详细搬砖文档。 3000人搬砖交流群：753229403",
-      "author": "麒麟游戏攻略",
-      "publishedAt": "2026-08-31T04:14:54.000Z",
-      "href": "https://www.bilibili.com/video/av117188165896355",
-      "cover": "https://i2.hdslb.com/bfs/archive/2d89aeebb38fdf28c8f1bf1a70a31ba1afb8d138.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
@@ -58,32 +84,6 @@
       "publishedAt": "2026-08-31T04:00:00.000Z",
       "href": "https://www.bilibili.com/video/av117187863908397",
       "cover": "https://i0.hdslb.com/bfs/archive/192a363deaec74a7081755a7326f2b5ce02abacc.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1b4tx6ZEei",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 降临】0.5.5补丁将所有服务器同步更新？！",
-      "summary": "",
-      "author": "炖了一锅鱼",
-      "publishedAt": "2026-08-31T03:30:02.000Z",
-      "href": "https://www.bilibili.com/video/av117187998193686",
-      "cover": "https://i0.hdslb.com/bfs/archive/e76fd8b68d1a93e6626db3dd1e9408623d0d1d5a.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1W9tp6kE4f",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 降临】S055闪回超保姆 开荒 流派推荐 旋风/榴弹极速印刷术 猿神花粉打镜子？一文看完立刻启动！",
-      "summary": "刷子企鹅：573393625 喜欢的客观点个赞点点关注转发谢谢咯！ UP以新游探索以及流派玩法研究， 有问题弹幕或者视频下方留言，看到就会回复。",
-      "author": "旋风劉",
-      "publishedAt": "2026-08-31T03:30:00.000Z",
-      "href": "https://www.bilibili.com/video/av117185649316058",
-      "cover": "https://i1.hdslb.com/bfs/archive/c4ed8cb3e0b59fa0ff46cc7604e69b811636e09c.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
