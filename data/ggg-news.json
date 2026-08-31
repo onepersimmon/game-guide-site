@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-08-31T14:06:26.420Z",
+  "updatedAt": "2026-08-31T22:58:56.435Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "fan-art-competition-highlights-3",
+      "title": "Fan Art Competition Highlights #3",
+      "date": "2026-08-31T22:43:25+00:00",
+      "summary": "The Fan Art competition is still ongoing! Check out some of the great submissions themed around Path of Exile 1 and Path of Exile 2 in this news post. Submissions close on Wednesday, 2nd September at 10PM PDT!",
+      "href": "https://www.pathofexile.com/forum/view-thread/4000596",
+      "thumb": "https://web.poecdn.com/public/news/2026-08-31/ENFanArtWeek3Twitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Fan Art Competition Highlights #3",
+          "summary": "The Fan Art competition is still ongoing! Check out some of the great submissions themed around Path of Exile 1 and Path of Exile 2 in this news post. Submissions close on Wednesday, 2nd September at 10PM PDT!",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Fan Art Competition Highlights #3",
+          "summary": "The Fan Art competition is still ongoing! Check out some of the great submissions themed around Path of Exile 1 and Path of Exile 2 in this news post. Submissions close on Wednesday, 2nd September at 10PM PDT!",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "path-of-exile-2-forbidden-rites-faq",
       "title": "Path of Exile 2: Forbidden Rites FAQ",
@@ -44,27 +65,6 @@
         "en": {
           "title": "Path of Exile 2: 0.5.5 Event League & Duelist Deep Dive",
           "summary": "During the GGG Live earlier today, we revealed our next 0.5.5 update for Path of Exile 2, coming September 4th PDT! We also had a closer look at the Duelist, joining the fight on December 11 when Path of Exile 2 fully releases. Find out more in this news post.",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "watch-ggg-live-and-final-exilecon-qualifier-new-twitch-drops",
-      "title": "Watch GGG Live and Final ExileCon Qualifier - New Twitch Drops",
-      "date": "2026-08-27T01:04:35+00:00",
-      "summary": "Tune in to GGG Live at 12:30 PM on August 27 to find out more about the upcoming Path of Exile 2 0.5.5 update, or watch the final ExileCon Qualifier afterward to earn the Curse of the Allflame Mystery Box through Twitch Drops! Read more in this news post.",
-      "href": "https://www.pathofexile.com/forum/view-thread/3999700",
-      "thumb": "https://web.poecdn.com/public/news/2026-08-26/GGGLive27AugBoxDropTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Watch GGG Live and Final ExileCon Qualifier - New Twitch Drops",
-          "summary": "Tune in to GGG Live at 12:30 PM on August 27 to find out more about the upcoming Path of Exile 2 0.5.5 update, or watch the final ExileCon Qualifier afterward to earn the Curse of the Allflame Mystery Box through Twitch Drops! Read more in this news post.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Watch GGG Live and Final ExileCon Qualifier - New Twitch Drops",
-          "summary": "Tune in to GGG Live at 12:30 PM on August 27 to find out more about the upcoming Path of Exile 2 0.5.5 update, or watch the final ExileCon Qualifier afterward to earn the Curse of the Allflame Mystery Box through Twitch Drops! Read more in this news post.",
           "category": "Blue Post"
         }
       }

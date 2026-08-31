@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T14:06:27.510Z",
+  "updatedAt": "2026-08-31T22:58:58.215Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1XVtY6SEJ5",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 禁忌仪式闪回佣兵古灵电喷雷暴+榴弹 开荒 文档，别再倒数你那个引线了",
+      "summary": "三连评论+关注自动获取，老粉私信古灵开荒，坐牢回来找我",
+      "author": "感觉药丸_",
+      "publishedAt": "2026-08-31T22:14:39.000Z",
+      "href": "https://www.bilibili.com/video/av117192410534083",
+      "cover": "https://i2.hdslb.com/bfs/archive/562c7b54d020a6d665cad42eaec973fb78e89416.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1bQtb6MEnq",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-08-31T04:09:24.000Z",
       "href": "https://www.bilibili.com/video/av117188149121357",
       "cover": "https://i1.hdslb.com/bfs/archive/45e5a0636938dd22a86c381822ad2f9d1323d513.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1QPt46aEtZ",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 】0.5.5新赛季 开荒 BD推荐/召唤新晋挂机工位？万字 开荒 文档免费领取",
-      "summary": "文档点点关注即可私信即可自动回复（之前关注的重新点点也可以收到喔~） 点个关注支持一下啦~ 求关注~求关注~求关注~求关注~求关注~求关注~求关注~求关注~",
-      "author": "酷懒之音",
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "href": "https://www.bilibili.com/video/av117187863908397",
-      "cover": "https://i0.hdslb.com/bfs/archive/192a363deaec74a7081755a7326f2b5ce02abacc.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
