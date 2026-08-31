@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T21:12:46.698Z",
+  "updatedAt": "2026-08-31T05:45:02.042Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14438,16 +14438,16 @@
           }
         },
         {
-          "type": "Dull Hatchet",
-          "text": "INCOMPLETE Dull Hatchet",
+          "type": "Charred Shortsword",
+          "text": "INCOMPLETE Charred Shortsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Charred Shortsword",
-          "text": "INCOMPLETE Charred Shortsword",
+          "type": "Dull Hatchet",
+          "text": "INCOMPLETE Dull Hatchet",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
@@ -14470,14 +14470,6 @@
           }
         },
         {
-          "type": "Corroded Longsword",
-          "text": "INCOMPLETE Corroded Longsword",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
           "type": "Splintered Flail",
           "text": "INCOMPLETE Splintered Flail",
           "name": "INCOMPLETE",
@@ -14488,6 +14480,14 @@
         {
           "type": "Bearded Axe",
           "text": "INCOMPLETE Bearded Axe",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Corroded Longsword",
+          "text": "INCOMPLETE Corroded Longsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
