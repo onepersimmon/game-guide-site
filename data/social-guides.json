@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T05:21:18.898Z",
+  "updatedAt": "2026-09-01T11:48:43.976Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,45 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV11Mt36yEdg",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 降临055猿神 开荒 喂饭级文档来了",
+      "summary": "一键三连加关注自动回复！老粉丝看攻略合集！",
+      "author": "嗖嗖了",
+      "publishedAt": "2026-09-01T10:12:52.000Z",
+      "href": "https://www.bilibili.com/video/av117195246014741",
+      "cover": "https://i2.hdslb.com/bfs/archive/c14180cdae3eddecc3e6e7794dea759672322e85.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV195tG6bEta",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 闪回0.55搬砖bd文档从 开荒 到成功撤离",
+      "summary": "文档群文件或私信自取",
+      "author": "黑崎铭木",
+      "publishedAt": "2026-09-01T08:35:48.000Z",
+      "href": "https://www.bilibili.com/video/av117194860073046",
+      "cover": "https://i1.hdslb.com/bfs/archive/49eb179c98f196a0b42c70b359daa0fff1fc8c52.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1Rxtu6WEZx",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【萌新鱼鱼】 流放2 0.55闪回 bd推荐",
+      "summary": "网页市集汉化，查价器，加速器等请提前准备好，除加速器外均可群内自取",
+      "author": "萌新鱼鱼",
+      "publishedAt": "2026-09-01T07:06:52.000Z",
+      "href": "https://www.bilibili.com/video/av117194490908830",
+      "cover": "https://i0.hdslb.com/bfs/archive/f6bdc964003070dd27613ddc580fa73b9a527707.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1DVtg6HEdN",
       "platform": "bilibili",
@@ -45,45 +84,6 @@
       "publishedAt": "2026-09-01T01:59:59.000Z",
       "href": "https://www.bilibili.com/video/av117193282952808",
       "cover": "https://i2.hdslb.com/bfs/archive/c96041ed17bcc62f72553e91bbdbc9171cd8372b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1iFtM6pEai",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 降临十大穷哥们平民 开荒 BD盘点，猎魔人又王朝了？",
-      "summary": "一定看到最后哟，有鸽鸽得独家建议；主页公开群里有很多往期文档豆豆能直接用，本赛季鸽鸽决定先猎魔人开！然后后期转古灵，国服的话应该先猿神开，这样感觉效率是最高的",
-      "author": "Ray鸽鸽鸽鸽",
-      "publishedAt": "2026-09-01T00:45:35.000Z",
-      "href": "https://www.bilibili.com/video/av117193014517534",
-      "cover": "https://i0.hdslb.com/bfs/archive/1e55ee502cef256b1898326b8b141770847b023a.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1EetM6FEH3",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】Scorpius十大 开荒 BD排名，第一名居然这么低调？",
-      "summary": "Scorpius本期视频盘点新0.55活动中最适合开荒的十大BD，涵盖优缺点、成型速度与所需装备，并附上对应攻略作者，帮你轻松度过前期。榜单基于个人实测，兼顾强度与上手难度，适合新老玩家参考。",
-      "author": "棱镜poe2lens",
-      "publishedAt": "2026-09-01T00:39:37.000Z",
-      "href": "https://www.bilibili.com/video/av117192980958590",
-      "cover": "https://i0.hdslb.com/bfs/archive/59d1b67d99b04510c826eb40b337ba62a97d8a42.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1YUtY6dE2K",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 降临0.5.5】门徒 独狼模拟 开荒 ！什么叫仅1个升华85级带着白板武器轻松通关火焰巅峰+神圣仲裁官",
-      "summary": "",
-      "author": "叻就是生活",
-      "publishedAt": "2026-08-31T23:30:00.000Z",
-      "href": "https://www.bilibili.com/video/av117191756221827",
-      "cover": "https://i1.hdslb.com/bfs/archive/8a19841a971b6bfdf20bf04db0cb993a9194892a.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
