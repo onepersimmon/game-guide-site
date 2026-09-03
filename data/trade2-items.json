@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T11:23:32.286Z",
+  "updatedAt": "2026-09-03T16:31:21.582Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14486,14 +14486,6 @@
           }
         },
         {
-          "type": "Corroded Longsword",
-          "text": "INCOMPLETE Corroded Longsword",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
           "type": "Chain Flail",
           "text": "INCOMPLETE Chain Flail",
           "name": "INCOMPLETE",
@@ -14502,16 +14494,16 @@
           }
         },
         {
-          "type": "Simple Dagger",
-          "text": "INCOMPLETE Simple Dagger",
+          "type": "Corroded Longsword",
+          "text": "INCOMPLETE Corroded Longsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Iron Greatsword",
-          "text": "INCOMPLETE Iron Greatsword",
+          "type": "Simple Dagger",
+          "text": "INCOMPLETE Simple Dagger",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
@@ -14536,6 +14528,14 @@
         {
           "type": "Executioner Greataxe",
           "text": "INCOMPLETE Executioner Greataxe",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Iron Greatsword",
+          "text": "INCOMPLETE Iron Greatsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
