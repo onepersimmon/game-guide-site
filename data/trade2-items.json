@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T16:31:21.582Z",
+  "updatedAt": "2026-09-03T21:06:58.680Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14510,16 +14510,16 @@
           }
         },
         {
-          "type": "Broadsword",
-          "text": "INCOMPLETE Broadsword",
+          "type": "Iron Greatsword",
+          "text": "INCOMPLETE Iron Greatsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Light Halberd",
-          "text": "INCOMPLETE Light Halberd",
+          "type": "Broadsword",
+          "text": "INCOMPLETE Broadsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
@@ -14534,8 +14534,8 @@
           }
         },
         {
-          "type": "Iron Greatsword",
-          "text": "INCOMPLETE Iron Greatsword",
+          "type": "Light Halberd",
+          "text": "INCOMPLETE Light Halberd",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
