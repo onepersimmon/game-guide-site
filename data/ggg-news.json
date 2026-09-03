@@ -1,11 +1,53 @@
 {
-  "updatedAt": "2026-09-02T21:07:28.010Z",
+  "updatedAt": "2026-09-03T04:43:57.812Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "path-of-exile-2-full-release-registration",
+      "title": "Path of Exile 2 Full Release Registration",
+      "date": "2026-09-03T01:00:00+00:00",
+      "summary": "Sign up at https://pathofexile2.com/register to receive updates on the Path of Exile 2 Full Release and get exclusive rewards! You have until December 10th to register, so there is still plenty of time to reach the milestones.",
+      "href": "https://www.pathofexile.com/forum/view-thread/4000887",
+      "thumb": "https://web.poecdn.com/public/news/2026-09-03/RegisterReminderTwitter.png",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Path of Exile 2 Full Release Registration",
+          "summary": "Sign up at https://pathofexile2.com/register to receive updates on the Path of Exile 2 Full Release and get exclusive rewards! You have until December 10th to register, so there is still plenty of time to reach the milestones.",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Path of Exile 2 Full Release Registration",
+          "summary": "Sign up at https://pathofexile2.com/register to receive updates on the Path of Exile 2 Full Release and get exclusive rewards! You have until December 10th to register, so there is still plenty of time to reach the milestones.",
+          "category": "Blue Post"
+        }
+      }
+    },
+    {
+      "id": "path-of-exile-2-forbidden-rites-patch-notes-and-item-filter-information",
+      "title": "Path of Exile 2: Forbidden Rites Patch Notes and Item Filter Information",
+      "date": "2026-09-02T22:36:22+00:00",
+      "summary": "The patch notes for Path of Exile 2: Forbidden Rites are now available. Check them out! We’ve also prepared Item Filter information you may need for this event.",
+      "href": "https://www.pathofexile.com/forum/view-thread/4000871",
+      "thumb": "https://web.poecdn.com/public/news/2026-09-03/055PatchNotesTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Path of Exile 2: Forbidden Rites Patch Notes and Item Filter Information",
+          "summary": "The patch notes for Path of Exile 2: Forbidden Rites are now available. Check them out! We’ve also prepared Item Filter information you may need for this event.",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Path of Exile 2: Forbidden Rites Patch Notes and Item Filter Information",
+          "summary": "The patch notes for Path of Exile 2: Forbidden Rites are now available. Check them out! We’ve also prepared Item Filter information you may need for this event.",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "fan-art-competition-highlights-3",
       "title": "Fan Art Competition Highlights #3",
@@ -23,48 +65,6 @@
         "en": {
           "title": "Fan Art Competition Highlights #3",
           "summary": "The Fan Art competition is still ongoing! Check out some of the great submissions themed around Path of Exile 1 and Path of Exile 2 in this news post. Submissions close on Wednesday, 2nd September at 10PM PDT!",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "path-of-exile-2-forbidden-rites-faq",
-      "title": "Path of Exile 2: Forbidden Rites FAQ",
-      "date": "2026-08-30T23:46:04+00:00",
-      "summary": "Last week, we announced Forbidden Rites, an event league in Path of Exile 2 launching alongside the 0.5.5 patch on September 4th PDT. In this news post, we’ve answered some of the most common questions from our community about the event.",
-      "href": "https://www.pathofexile.com/forum/view-thread/4000430",
-      "thumb": "https://web.poecdn.com/public/news/2026-08-31/ForbiddenRitesFAQTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Path of Exile 2: Forbidden Rites FAQ",
-          "summary": "Last week, we announced Forbidden Rites, an event league in Path of Exile 2 launching alongside the 0.5.5 patch on September 4th PDT. In this news post, we’ve answered some of the most common questions from our community about the event.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Path of Exile 2: Forbidden Rites FAQ",
-          "summary": "Last week, we announced Forbidden Rites, an event league in Path of Exile 2 launching alongside the 0.5.5 patch on September 4th PDT. In this news post, we’ve answered some of the most common questions from our community about the event.",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "path-of-exile-2-0-5-5-event-league-duelist-deep-dive",
-      "title": "Path of Exile 2: 0.5.5 Event League & Duelist Deep Dive",
-      "date": "2026-08-27T20:04:20+00:00",
-      "summary": "During the GGG Live earlier today, we revealed our next 0.5.5 update for Path of Exile 2, coming September 4th PDT! We also had a closer look at the Duelist, joining the fight on December 11 when Path of Exile 2 fully releases. Find out more in this news post.",
-      "href": "https://www.pathofexile.com/forum/view-thread/3999858",
-      "thumb": "https://web.poecdn.com/public/news/2026-08-27/EN055LivestreamTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Path of Exile 2: 0.5.5 Event League & Duelist Deep Dive",
-          "summary": "During the GGG Live earlier today, we revealed our next 0.5.5 update for Path of Exile 2, coming September 4th PDT! We also had a closer look at the Duelist, joining the fight on December 11 when Path of Exile 2 fully releases. Find out more in this news post.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Path of Exile 2: 0.5.5 Event League & Duelist Deep Dive",
-          "summary": "During the GGG Live earlier today, we revealed our next 0.5.5 update for Path of Exile 2, coming September 4th PDT! We also had a closer look at the Duelist, joining the fight on December 11 when Path of Exile 2 fully releases. Find out more in this news post.",
           "category": "Blue Post"
         }
       }

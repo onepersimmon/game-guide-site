@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T21:07:22.294Z",
+  "updatedAt": "2026-09-03T04:39:19.791Z",
   "source": "poe.ninja",
   "leagueName": "Runes of Aldur",
   "builds": [
@@ -44,7 +44,7 @@
       "className": "Gemling Legionnaire",
       "leagueName": "Runes of Aldur",
       "summary": "古灵使徒斗士 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 16.5,
+      "popularity": 16.6,
       "trend": 1,
       "rank": 2,
       "image": "./assets/images/builds/gemling-legionnaire.webp",
@@ -81,12 +81,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "灵魂行者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 11.2,
-      "trend": -1,
+      "trend": 1,
       "rank": 3,
       "image": "./assets/images/builds/spirit-walker.webp",
       "tags": [
         "主联赛头部",
-        "热度回落"
+        "热度上升"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Spirit%20Walker",
       "localized": {
@@ -96,7 +96,7 @@
           "summary": "灵魂行者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "主联赛头部",
-            "热度回落"
+            "热度上升"
           ]
         },
         "en": {
@@ -105,7 +105,7 @@
           "summary": "A high-share ascendancy in Runes of Aldur, worth watching as the league meta keeps shifting.",
           "tags": [
             "Main league leader",
-            "Falling"
+            "Rising"
           ]
         }
       },
@@ -116,7 +116,7 @@
       "className": "Deadeye",
       "leagueName": "Runes of Aldur",
       "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 8.1,
+      "popularity": 8,
       "trend": -1,
       "rank": 4,
       "image": "./assets/images/builds/deadeye.webp",
@@ -224,7 +224,7 @@
       "className": "Stormweaver",
       "leagueName": "Runes of Aldur",
       "summary": "风暴编织者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 4.7,
+      "popularity": 4.6,
       "trend": -1,
       "rank": 7,
       "image": "./assets/images/builds/stormweaver.webp",
