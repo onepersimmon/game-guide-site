@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T16:27:19.523Z",
+  "updatedAt": "2026-09-04T20:49:43.422Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -9142,7 +9142,7 @@
           "type": "Legacy of Dusk Vigil"
         },
         {
-          "type": "Legacy of Edyrns Tusks"
+          "type": "Legacy of Edyrn's Tusks"
         },
         {
           "type": "Legacy of Elevore"
@@ -9530,6 +9530,9 @@
         },
         {
           "type": "Zalatl's Soul Core of Insulation"
+        },
+        {
+          "type": "Jiquani's Soul Core of Squalls"
         },
         {
           "type": "Topotante's Soul Core of Dampening"
