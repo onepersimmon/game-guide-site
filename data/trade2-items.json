@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T21:06:58.680Z",
+  "updatedAt": "2026-09-04T04:41:33.311Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14478,16 +14478,16 @@
           }
         },
         {
-          "type": "Bearded Axe",
-          "text": "INCOMPLETE Bearded Axe",
+          "type": "Chain Flail",
+          "text": "INCOMPLETE Chain Flail",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Chain Flail",
-          "text": "INCOMPLETE Chain Flail",
+          "type": "Bearded Axe",
+          "text": "INCOMPLETE Bearded Axe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
