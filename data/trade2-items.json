@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T10:42:44.378Z",
+  "updatedAt": "2026-09-05T15:19:23.398Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -9532,6 +9532,12 @@
           "type": "Xipocado's Soul Core of Dominion"
         },
         {
+          "type": "Jiquani's Soul Core of Automation"
+        },
+        {
+          "type": "Jiquani's Soul Core of Malediction"
+        },
+        {
           "type": "Jiquani's Soul Core of Targeting"
         },
         {
@@ -14157,16 +14163,16 @@
           }
         },
         {
-          "type": "Runemastered Wooden Club",
-          "text": "Brynhand's Mark Runemastered Wooden Club",
+          "type": "Runeforged Wooden Club",
+          "text": "Brynhand's Mark Runeforged Wooden Club",
           "name": "Brynhand's Mark",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Runeforged Wooden Club",
-          "text": "Brynhand's Mark Runeforged Wooden Club",
+          "type": "Runemastered Wooden Club",
+          "text": "Brynhand's Mark Runemastered Wooden Club",
           "name": "Brynhand's Mark",
           "flags": {
             "unique": true

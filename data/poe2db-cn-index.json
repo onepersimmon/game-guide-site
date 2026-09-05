@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T10:47:22.461Z",
+  "updatedAt": "2026-09-05T15:23:55.757Z",
   "locale": "tw",
   "source": [
     "https://poe2db.tw/tw/Skill_Gems",
@@ -6302,11 +6302,11 @@
       "chinese": "集風",
       "englishStats": [
         "Gain [Tailwind] on Skill use",
-        "Lose all [Tailwind] when [HitDamage|Hit]"
+        "Lose all [Tailwind] when [Hit]"
       ],
       "chineseStats": [
         "使用技能時獲得[Tailwind|流順之風]",
-        "遭[HitDamage|擊中]時，失去所有[Tailwind|流順之風]"
+        "遭[Hit|擊中]時，失去所有[Tailwind|流順之風]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -6375,10 +6375,10 @@
       "english": "Blind Chance",
       "chinese": "致盲機率",
       "englishStats": [
-        "5% chance to [Blind] Enemies on [HitDamage|Hit]"
+        "5% chance to [Blind] Enemies on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]敵人時有5%機率[Blind|致盲]"
+        "[Hit|擊中]敵人時有5%機率[Blind|致盲]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -6473,11 +6473,11 @@
       "english": "Internal Layer",
       "chinese": "內裡",
       "englishStats": [
-        "Body Armour grants [HitDamage|Hits] against you have 100% reduced [CriticalDamageBonus|Critical Damage Bonus]",
+        "Body Armour grants [Hit|Hits] against you have 100% reduced [CriticalDamageBonus|Critical Damage Bonus]",
         "base physical damage reduction rating no display [200]"
       ],
       "chineseStats": [
-        "減少100%身體護甲賦予對你[HitDamage|擊中]時的[CriticalDamageBonus|暴擊傷害加成]",
+        "減少100%身體護甲賦予對你[Hit|擊中]時的[CriticalDamageBonus|暴擊傷害加成]",
         "base physical damage reduction rating no display [200]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -6540,7 +6540,7 @@
         "8% increased [Reservation] [Efficiency] of [Herald] Skills"
       ],
       "chineseStats": [
-        "[Herald|捷光環]技能增加8%[Reservation|保留]效率"
+        "[Herald|捷光環]技能增加8%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -7081,10 +7081,10 @@
       "english": "Rage on Melee Hit",
       "chinese": "近戰擊中獲得盛怒",
       "englishStats": [
-        "Gain 1 [Rage|Rage] on [Melee] [HitDamage|Hit]"
+        "Gain 1 [Rage|Rage] on [Melee] [Hit]"
       ],
       "chineseStats": [
-        "[Melee|近戰][HitDamage|擊中]時，獲得1層[Rage|盛怒]"
+        "[Melee|近戰][Hit|擊中]時，獲得1層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -7851,12 +7851,12 @@
       "englishStats": [
         "15% increased [Attack] Area Damage",
         "10% increased Area of Effect for [Attack|Attacks]",
-        "5% chance to [Daze] on [HitDamage|Hit]"
+        "5% chance to [Daze] on [Hit]"
       ],
       "chineseStats": [
         "增加15%[Attack|攻擊]範圍傷害",
         "[Attack|攻擊]增加10%範圍效果",
-        "[HitDamage|擊中]時有5%機率造成[Daze|目眩]"
+        "[Hit|擊中]時有5%機率造成[Daze|目眩]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -8019,12 +8019,12 @@
       "skill": "1543",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -8241,10 +8241,10 @@
       "english": "Blind Chance",
       "chinese": "致盲機率",
       "englishStats": [
-        "5% chance to [Blind] Enemies on [HitDamage|Hit]"
+        "5% chance to [Blind] Enemies on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]敵人時有5%機率[Blind|致盲]"
+        "[Hit|擊中]敵人時有5%機率[Blind|致盲]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -8259,7 +8259,7 @@
         "70% increased [EnergyShield|Energy Shield] from Equipped Helmet"
       ],
       "chineseStats": [
-        "增加20%[LightRadius|光線範圍]",
+        "增加20%[LightRadius|照亮範圍]",
         "增加70%來自已裝備頭盔的[EnergyShield|能量護盾]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -8449,12 +8449,12 @@
       "skill": "1928",
       "code": "",
       "english": "Minion Attack and Cast Speed",
-      "chinese": "召喚物攻擊和施放速度",
+      "chinese": "召喚物攻擊和施法速度",
       "englishStats": [
         "[Minion|Minions] have 5% increased [Attack] and Cast Speed"
       ],
       "chineseStats": [
-        "[Minion|召喚物]增加5%[Attack|攻擊]和施放速度"
+        "[Minion|召喚物]增加5%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -8540,7 +8540,7 @@
       ],
       "chineseStats": [
         "增加30%[Flask|藥劑]的魔力恢復",
-        "在任何魔力[Flask|藥劑]效果期間，增加8%[Attack|攻擊]和施放速度"
+        "在任何魔力[Flask|藥劑]效果期間，增加8%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -8575,10 +8575,10 @@
       "english": "Poison Chance",
       "chinese": "中毒機率",
       "englishStats": [
-        "8% chance to [Poison|Poison] on [HitDamage|Hit]"
+        "8% chance to [Poison|Poison] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有8%機率造成[Poison|中毒]"
+        "[Hit|擊中]時有8%機率造成[Poison|中毒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -8961,10 +8961,10 @@
       "english": "Stars Aligned",
       "chinese": "行列眾星",
       "englishStats": [
-        "[HitDamage|Damage with Hits] is [Lucky|Lucky] against Enemies that are on [LowLife|Low Life]"
+        "[Hit|Damage with Hits] is [Lucky|Lucky] against Enemies that are on [LowLife|Low Life]"
       ],
       "chineseStats": [
-        "對[LowLife|貧血狀態]敵人的[HitDamage|擊中傷害]會觸發[Lucky|幸運]"
+        "對[LowLife|貧血狀態]敵人的[Hit|擊中傷害]會觸發[Lucky|幸運]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -8985,10 +8985,10 @@
       "english": "Poison Chance",
       "chinese": "中毒機率",
       "englishStats": [
-        "8% chance to [Poison|Poison] on [HitDamage|Hit]"
+        "8% chance to [Poison|Poison] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有8%機率造成[Poison|中毒]"
+        "[Hit|擊中]時有8%機率造成[Poison|中毒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -9086,7 +9086,7 @@
       ],
       "chineseStats": [
         "增加30%[Totem|圖騰]設置速度",
-        "若你[Recently|近期]召喚過[Totem|圖騰]，增加8%[Attack|攻擊]和施放速度"
+        "若你[Recently|近期]召喚過[Totem|圖騰]，增加8%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -9202,7 +9202,7 @@
         "8% increased Mana Cost [Efficiency]"
       ],
       "chineseStats": [
-        "增加8%魔力消耗[Efficiency|效率]"
+        "增加8%魔力消耗[Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -9477,8 +9477,8 @@
         "10% reduced Cast Speed when on Full Life"
       ],
       "chineseStats": [
-        "[LowLife|貧血狀態]時增加20%施放速度",
-        "滿血時減少10%施放速度"
+        "[LowLife|貧血狀態]時增加20%施法速度",
+        "滿血時減少10%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -9613,12 +9613,12 @@
       "skill": "3128",
       "code": "",
       "english": "Cast Speed with Cold Skills",
-      "chinese": "冰冷技能施放速度",
+      "chinese": "冰冷技能施法速度",
       "englishStats": [
         "3% increased Cast Speed with [Cold] Skills"
       ],
       "chineseStats": [
-        "[Cold|冰冷]技能增加3%施放速度"
+        "[Cold|冰冷]技能增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -10288,11 +10288,11 @@
       "chinese": "攻擊傷害和連擊",
       "englishStats": [
         "5% increased [Attack] Damage",
-        "5% Chance to build an additional [Combo] on [HitDamage|Hit]"
+        "5% Chance to build an additional [Combo] on [Hit]"
       ],
       "chineseStats": [
         "增加5%[Attack|攻擊]傷害",
-        "[HitDamage|擊中]時有5%機率額外累積一個[Combo|連擊]"
+        "[Hit|擊中]時有5%機率額外累積一個[Combo|連擊]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -10319,10 +10319,10 @@
       "english": "Blind Chance",
       "chinese": "致盲機率",
       "englishStats": [
-        "8% chance to [Blind] Enemies on [HitDamage|Hit] with [Attack|Attacks]"
+        "8% chance to [Blind] Enemies on [Hit] with [Attack|Attacks]"
       ],
       "chineseStats": [
-        "[Attack|攻擊][HitDamage|擊中]有8%機率[Blind|致盲]敵人"
+        "[Attack|攻擊][Hit|擊中]有8%機率[Blind|致盲]敵人"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -10440,13 +10440,13 @@
       "chinese": "女巫殺手",
       "englishStats": [
         "Enemies have Maximum [Concentration] equal to 30% of their Maximum Life",
-        "Break enemy [Concentration] on [HitDamage|Hit] equal to 100% of Damage Dealt",
+        "Break enemy [Concentration] on [Hit] equal to 100% of Damage Dealt",
         "Enemies regain 10% of [Concentration] every second if they haven't lost [Concentration] in the past 5 seconds",
         "focus decay delay ms [5000]"
       ],
       "chineseStats": [
         "敵人有等同於其最大生命30%的[Concentration|專注]上限",
-        "[HitDamage|擊中]敵人時，破壞等同於造成傷害100%的[Concentration|專注]",
+        "[Hit|擊中]敵人時，破壞等同於造成傷害100%的[Concentration|專注]",
         "若敵人在過去5秒內沒有失去[Concentration|集中]，便恢復10%[Concentration|集中]",
         "focus decay delay ms [5000]"
       ],
@@ -10564,7 +10564,7 @@
         "+3%全[ElementalDamage|元素][Resistances|抗性]",
         "增加20%[ElementalDamage|元素傷害]",
         "女巫: 增加20%[Minion|召喚物]造成的傷害",
-        "女巫: [Minion|召喚物]增加4%[Attack|攻擊]和施放速度"
+        "女巫: [Minion|召喚物]增加4%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -10670,7 +10670,7 @@
         "20% increased [Reservation] [Efficiency] of [Herald] Skills"
       ],
       "chineseStats": [
-        "[Herald|捷光環]技能增加20%[Reservation|保留]效率"
+        "[Herald|捷光環]技能增加20%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -11299,10 +11299,10 @@
       "english": "Damage vs Blinded",
       "chinese": "對受致盲者傷害",
       "englishStats": [
-        "15% increased Damage with [HitDamage|Hits] against [Blind|Blinded] Enemies"
+        "15% increased Damage with [Hit|Hits] against [Blind|Blinded] Enemies"
       ],
       "chineseStats": [
-        "增加15%對被[Blind|致盲]敵人的[HitDamage|擊中]傷害"
+        "增加15%對被[Blind|致盲]敵人的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -11501,10 +11501,10 @@
       "english": "Rage on Hit",
       "chinese": "擊中時獲得盛怒",
       "englishStats": [
-        "Gain 1 [Rage|Rage] on [Melee] [HitDamage|Hit]"
+        "Gain 1 [Rage|Rage] on [Melee] [Hit]"
       ],
       "chineseStats": [
-        "[Melee|近戰][HitDamage|擊中]時，獲得1層[Rage|盛怒]"
+        "[Melee|近戰][Hit|擊中]時，獲得1層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -11534,7 +11534,7 @@
         "[Banner|Banners] also grant +25% to all [ElementalDamage|Elemental] [Resistances] affected targets"
       ],
       "chineseStats": [
-        "[Banner|旗幟]同時賦予被其影響的目標+25%全[ElementalDamage|元素][Resistances|抗性]"
+        "[Banner|鬥旗]同時賦予被其影響的目標+25%全[ElementalDamage|元素][Resistances|抗性]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -11785,12 +11785,12 @@
       "skill": "4847",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -11932,11 +11932,11 @@
       "chinese": "厚重冰霜",
       "englishStats": [
         "20% increased [Freeze|Freeze] Buildup",
-        "[HitDamage|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies"
+        "[Hit|Hits] ignore non-negative [ElementalDamage|Elemental] [Resistances] of [Frozen] Enemies"
       ],
       "chineseStats": [
         "增加20%[Freeze|冰凍]累積",
-        "[HitDamage|擊中]無視[Frozen|被冰凍]敵人的非負值[ElementalDamage|元素][Resistances|抗性]"
+        "[Hit|擊中]無視[Frozen|被冰凍]敵人的非負值[ElementalDamage|元素][Resistances|抗性]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -11997,11 +11997,11 @@
       "english": "Seeing Stars",
       "chinese": "見證群星",
       "englishStats": [
-        "10% chance to [Daze] on [HitDamage|Hit]",
+        "10% chance to [Daze] on [Hit]",
         "25% increased [Daze] Duration"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有10%機率造成[Daze|目眩]",
+        "[Hit|擊中]時有10%機率造成[Daze|目眩]",
         "增加25%[Daze|目眩]持續時間"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -12057,10 +12057,10 @@
       "english": "Parry Area",
       "chinese": "招架範圍",
       "englishStats": [
-        "15% increased [Parry] [HitDamage|Hit] Area of Effect"
+        "15% increased [Parry] [Hit] Area of Effect"
       ],
       "chineseStats": [
-        "增加15%[Parry|招架][HitDamage|擊中]的範圍效果"
+        "增加15%[Parry|招架][Hit|擊中]的範圍效果"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -12088,7 +12088,7 @@
         "3% increased [Attack] and Cast Speed with Elemental Skills"
       ],
       "chineseStats": [
-        "元素技能增加3%[Attack|攻擊]和施放速度"
+        "元素技能增加3%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -12097,12 +12097,12 @@
       "skill": "5098",
       "code": "",
       "english": "Banner Area",
-      "chinese": "旗幟範圍",
+      "chinese": "鬥旗範圍",
       "englishStats": [
         "[Banner] Skills have 12% increased Area of Effect"
       ],
       "chineseStats": [
-        "[Banner|旗幟]技能增加12%範圍效果"
+        "[Banner|鬥旗]技能增加12%範圍效果"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -12199,12 +12199,12 @@
       "english": "Escape Strategy",
       "chinese": "逃逸策略",
       "englishStats": [
-        "100% increased [Evasion|Evasion Rating] if you have been [HitDamage|Hit] [Recently|Recently]",
-        "30% reduced [Evasion] Rating if you haven't been [HitDamage|Hit] [Recently]"
+        "100% increased [Evasion|Evasion Rating] if you have been [Hit] [Recently|Recently]",
+        "30% reduced [Evasion] Rating if you haven't been [Hit] [Recently]"
       ],
       "chineseStats": [
-        "若你[Recently|近期]被[HitDamage|擊中]，增加100%[Evasion|閃避值]",
-        "若你[Recently|近期]沒有被[HitDamage|擊中]，減少30%[Evasion|閃避]值"
+        "若你[Recently|近期]被[Hit|擊中]，增加100%[Evasion|閃避值]",
+        "若你[Recently|近期]沒有被[Hit|擊中]，減少30%[Evasion|閃避]值"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -12385,12 +12385,12 @@
       "skill": "5398",
       "code": "",
       "english": "Totem Cast Speed",
-      "chinese": "圖騰施放速度",
+      "chinese": "圖騰施法速度",
       "englishStats": [
         "[Spell|Spells] Cast by [Totem|Totems] have 4% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加4%[Totem|圖騰]施放[Spell|法術]的施放速度"
+        "增加4%[Totem|圖騰]施放[Spell|法術]的施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -12911,10 +12911,10 @@
       "english": "Damage vs Blinded",
       "chinese": "對受致盲者傷害",
       "englishStats": [
-        "15% increased Damage with [HitDamage|Hits] against [Blind|Blinded] Enemies"
+        "15% increased Damage with [Hit|Hits] against [Blind|Blinded] Enemies"
       ],
       "chineseStats": [
-        "增加15%對被[Blind|致盲]敵人的[HitDamage|擊中]傷害"
+        "增加15%對被[Blind|致盲]敵人的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -12983,10 +12983,10 @@
       "english": "Poison Chance",
       "chinese": "中毒機率",
       "englishStats": [
-        "8% chance to [Poison|Poison] on [HitDamage|Hit]"
+        "8% chance to [Poison|Poison] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有8%機率造成[Poison|中毒]"
+        "[Hit|擊中]時有8%機率造成[Poison|中毒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -13011,10 +13011,10 @@
       "english": "Poison Chance",
       "chinese": "中毒機率",
       "englishStats": [
-        "8% chance to [Poison|Poison] on [HitDamage|Hit]"
+        "8% chance to [Poison|Poison] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有8%機率造成[Poison|中毒]"
+        "[Hit|擊中]時有8%機率造成[Poison|中毒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -13039,12 +13039,12 @@
       "english": "First Sting",
       "chinese": "首道毒刺",
       "englishStats": [
-        "30% chance to [Poison] on [HitDamage|Hit] against Enemies that are not Poisoned",
+        "30% chance to [Poison] on [Hit] against Enemies that are not Poisoned",
         "80% increased [BuffMagnitude|Magnitude] of [Poison] you inflict on targets that are not Poisoned",
         "Requires The Unseen Path"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]未中毒的敵人時有30%機率造成[Poison|中毒]",
+        "[Hit|擊中]未中毒的敵人時有30%機率造成[Poison|中毒]",
         "對未中毒目標增加80%你施加[Poison|中毒]的[BuffMagnitude|幅度]",
         "需要 未見之道"
       ],
@@ -13255,12 +13255,12 @@
       "skill": "6294",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -13503,12 +13503,12 @@
       "skill": "6623",
       "code": "",
       "english": "Banner Aura Effect",
-      "chinese": "旗幟光環效果",
+      "chinese": "鬥旗光環效果",
       "englishStats": [
         "Banner Skills have 12% increased Aura [BuffMagnitude|Magnitudes]"
       ],
       "chineseStats": [
-        "旗幟技能增加12%光環[BuffMagnitude|幅度]"
+        "鬥旗技能增加12%光環[BuffMagnitude|幅度]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -13533,10 +13533,10 @@
       "english": "Aggravation",
       "chinese": "加劇",
       "englishStats": [
-        "10% chance to [Aggravate] [Bleeding] on targets you [HitDamage|Hit] with [Attack|Attacks]"
+        "10% chance to [Aggravate] [Bleeding] on targets you [Hit] with [Attack|Attacks]"
       ],
       "chineseStats": [
-        "你的[Attack|攻擊][HitDamage|擊中]時，有10%機率[Aggravate|加劇]目標身上的[Bleeding|流血]"
+        "你的[Attack|攻擊][Hit|擊中]時，有10%機率[Aggravate|加劇]目標身上的[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -13547,10 +13547,10 @@
       "english": "Damage against Ailments",
       "chinese": "對異常狀態者造成傷害",
       "englishStats": [
-        "12% increased Damage with [HitDamage|Hits] against Enemies affected by [ElementalAilments|Elemental Ailments]"
+        "12% increased Damage with [Hit|Hits] against Enemies affected by [ElementalAilments|Elemental Ailments]"
       ],
       "chineseStats": [
-        "增加12%對受[ElementalAilments|元素異常狀態]影響的敵人的[HitDamage|擊中]傷害"
+        "增加12%對受[ElementalAilments|元素異常狀態]影響的敵人的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -13899,10 +13899,10 @@
       "english": "Ceremonial Ablution",
       "chinese": "儀式淨身",
       "englishStats": [
-        "Sorcery Ward's Barrier can also take [Physical] and [Chaos] Damage from [HitDamage|Hits]"
+        "Sorcery Ward's Barrier can also take [Physical] and [Chaos] Damage from [Hit|Hits]"
       ],
       "chineseStats": [
-        "祕法護盾可以同時承受來自[HitDamage|擊中]的[Physical|物理]及[Chaos|混沌]傷害"
+        "祕法護盾可以同時承受來自[Hit|擊中]的[Physical|物理]及[Chaos|混沌]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -14107,7 +14107,7 @@
       "skill": "7104",
       "code": "",
       "english": "Puppet Master chance",
-      "chinese": "魁儡大師機率",
+      "chinese": "魁儡大師效果",
       "englishStats": [
         "15% increased Effect of [PuppetMaster|Puppet Master]"
       ],
@@ -14343,11 +14343,11 @@
       "english": "Ignore Pain",
       "chinese": "無視疼痛",
       "englishStats": [
-        "Gain 3 [Rage] when [HitDamage|Hit] by an Enemy",
+        "Gain 3 [Rage] when [Hit] by an Enemy",
         "Every [Rage] also grants 2% increased [StunThreshold|Stun Threshold]"
       ],
       "chineseStats": [
-        "遭敵人[HitDamage|擊中]時，獲得3層[Rage|盛怒]",
+        "遭敵人[Hit|擊中]時，獲得3層[Rage|盛怒]",
         "每一層[Rage|盛怒]也會增加2%[StunThreshold|暈眩門檻]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -14488,11 +14488,11 @@
       "chinese": "斷片",
       "englishStats": [
         "30% increased [Stun] Buildup",
-        "[HitDamage|Hits] [ArmourBreak|Break] 50% increased [Armour|Armour] on targets with [Ailments]"
+        "[Hit|Hits] [ArmourBreak|Break] 50% increased [Armour|Armour] on targets with [Ailments]"
       ],
       "chineseStats": [
         "增加30%[Stun|暈眩]累積",
-        "[HitDamage|擊中]受[Ailments|異常狀態]影響的敵人時，增加50%對其[Armour|護甲值][ArmourBreak|破壞]"
+        "[Hit|擊中]受[Ailments|異常狀態]影響的敵人時，增加50%對其[Armour|護甲值][ArmourBreak|破壞]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -14574,12 +14574,12 @@
       "chinese": "值得信賴的盟友",
       "englishStats": [
         "[Companion|Companions] have 20% increased maximum Life",
-        "5% of Damage from [HitDamage|Hits] is taken from your Damageable [Companion]'s Life before you",
+        "5% of Damage from [Hit|Hits] is taken from your Damageable [Companion]'s Life before you",
         "Requires The Unseen Path"
       ],
       "chineseStats": [
         "增加20%[Companion|盟友]的最大生命",
-        "[HitDamage|擊中]傷害的5%會先由你的可傷害[Companion|盟友]承受",
+        "[Hit|擊中]傷害的5%會先由你的可傷害[Companion|盟友]承受",
         "需要 未見之道"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -14703,11 +14703,11 @@
       "english": "Internal Bleeding",
       "chinese": "內出血",
       "englishStats": [
-        "20% chance to [Aggravate] [Bleeding] on targets you [HitDamage|Hit] with [Empowered] [Attack|Attacks]",
+        "20% chance to [Aggravate] [Bleeding] on targets you [Hit] with [Empowered] [Attack|Attacks]",
         "[Empowered|Empowered Attacks] deal 30% increased Damage"
       ],
       "chineseStats": [
-        "你的[Empowered|強化][Attack|攻擊][HitDamage|擊中]目標時，有20%機率[Aggravate|加劇][Bleeding|流血]",
+        "你的[Empowered|強化][Attack|攻擊][Hit|擊中]目標時，有20%機率[Aggravate|加劇][Bleeding|流血]",
         "增加30%[Empowered|強化攻擊]造成的傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -14735,10 +14735,10 @@
       "english": "Rage on Ignite",
       "chinese": "點燃時獲得盛怒",
       "englishStats": [
-        "Gain 1 [Rage] when your [HitDamage|Hit] [Ignite|Ignites] a target"
+        "Gain 1 [Rage] when your [Hit] [Ignite|Ignites] a target"
       ],
       "chineseStats": [
-        "你的[HitDamage|擊中]每[Ignite|點燃]一個目標獲得1點[Rage|盛怒]"
+        "你的[Hit|擊中]每[Ignite|點燃]一個目標獲得1點[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -14891,10 +14891,10 @@
       "english": "Combo Gain",
       "chinese": "連擊獲得",
       "englishStats": [
-        "10% Chance to build an additional [Combo] on [HitDamage|Hit]"
+        "10% Chance to build an additional [Combo] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有10%機率額外累積一個[Combo|連擊]"
+        "[Hit|擊中]時有10%機率額外累積一個[Combo|連擊]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -15104,7 +15104,7 @@
         "8% increased [Reservation] [Efficiency] of [Herald] Skills"
       ],
       "chineseStats": [
-        "[Herald|捷光環]技能增加8%[Reservation|保留]效率"
+        "[Herald|捷光環]技能增加8%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -15144,12 +15144,12 @@
       "chinese": "流血持續時間",
       "englishStats": [
         "10% increased Bleeding Duration",
-        "20% chance for [Attack] [HitDamage|Hits] to apply [Incision]",
+        "20% chance for [Attack] [Hit|Hits] to apply [Incision]",
         "Requires The Unseen Path"
       ],
       "chineseStats": [
         "增加10%流血持續時間",
-        "[Attack|攻擊][HitDamage|擊中]時，有20%機率施加[Incision|切割]",
+        "[Attack|攻擊][Hit|擊中]時，有20%機率施加[Incision|切割]",
         "需要 未見之道"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -15219,10 +15219,10 @@
       "english": "Damage vs Blinded",
       "chinese": "對受致盲者傷害",
       "englishStats": [
-        "15% increased Damage with [HitDamage|Hits] against [Blind|Blinded] Enemies"
+        "15% increased Damage with [Hit|Hits] against [Blind|Blinded] Enemies"
       ],
       "chineseStats": [
-        "增加15%對被[Blind|致盲]敵人的[HitDamage|擊中]傷害"
+        "增加15%對被[Blind|致盲]敵人的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -15255,12 +15255,12 @@
       "skill": "8357",
       "code": "",
       "english": "Minion Attack and Cast Speed",
-      "chinese": "召喚物攻擊和施放速度",
+      "chinese": "召喚物攻擊和施法速度",
       "englishStats": [
         "[Minion|Minions] have 3% increased [Attack] and Cast Speed"
       ],
       "chineseStats": [
-        "[Minion|召喚物]增加3%[Attack|攻擊]和施放速度"
+        "[Minion|召喚物]增加3%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -15365,10 +15365,10 @@
       "english": "Damage against Enemies on Low Life",
       "chinese": "對貧血敵人造成的傷害",
       "englishStats": [
-        "30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"
+        "30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"
       ],
       "chineseStats": [
-        "對[LowLife|貧血狀態]的敵人增加30%[HitDamage|擊中]傷害"
+        "對[LowLife|貧血狀態]的敵人增加30%[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -15660,7 +15660,7 @@
         "30% increased Mana Cost [Efficiency] of [Attack|Attacks] during any Mana [Flask] Effect"
       ],
       "chineseStats": [
-        "在任何魔力[Flask|藥劑]的效果期間，增加30%[Attack|攻擊]的魔力消耗[Efficiency|效率]"
+        "在任何魔力[Flask|藥劑]的效果期間，增加30%[Attack|攻擊]的魔力消耗[Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -15891,10 +15891,10 @@
       "english": "Melee Damage",
       "chinese": "近戰傷害",
       "englishStats": [
-        "15% increased [Melee] Damage with [HitDamage|Hits] at [CloseRange|Close Range]"
+        "15% increased [Melee] Damage with [Hit|Hits] at [CloseRange|Close Range]"
       ],
       "chineseStats": [
-        "[CloseRange|近距離]下增加15%[Melee|近戰][HitDamage|擊中]傷害"
+        "[CloseRange|近距離]下增加15%[Melee|近戰][Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -16125,10 +16125,10 @@
       "english": "Bleed Chance",
       "chinese": "流血機率",
       "englishStats": [
-        "5% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]"
+        "5% chance to inflict [Bleeding|Bleeding] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Bleeding|流血]"
+        "[Hit|擊中]時有5%機率造成[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -16140,12 +16140,12 @@
       "chinese": "暗黑右手",
       "englishStats": [
         "[Minion|Minions] have 20% increased Area of Effect",
-        "[Minion|Minions] have 10% chance to inflict [Withered] on [HitDamage|Hit]",
+        "[Minion|Minions] have 10% chance to inflict [Withered] on [Hit]",
         "[Spell|Spells] [Gain] 5% of Damage as extra [Chaos|Chaos] Damage"
       ],
       "chineseStats": [
         "增加20%[Minion|召喚物]的範圍效果",
-        "[Minion|召喚物][HitDamage|擊中]時有10%機率造成[Withered|凋零]",
+        "[Minion|召喚物][Hit|擊中]時有10%機率造成[Withered|凋零]",
         "[Spell|法術][Gain|獲得]等同於傷害5%的額外[Chaos|混沌]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -16233,12 +16233,12 @@
       "english": "Giantslayer",
       "chinese": "泰坦殺手",
       "englishStats": [
-        "25% increased Damage with [HitDamage|Hits] against [Rarity|Rare and Unique] Enemies",
+        "25% increased Damage with [Hit|Hits] against [Rarity|Rare and Unique] Enemies",
         "20% increased [Accuracy] Rating against [Rarity|Rare or Unique] Enemies",
         "20% increased chance to inflict [Ailments] against [Rarity|Rare or Unique] Enemies"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]對[Rarity|稀有和傳奇]增加25%傷害",
+        "[Hit|擊中]對[Rarity|稀有和傳奇]增加25%傷害",
         "增加20%對[Rarity|稀有或傳奇]敵人的[Accuracy|命中]值",
         "增加20%對[Rarity|稀有或傳奇]敵人造成[Ailments|異常狀態]的機率"
       ],
@@ -16369,10 +16369,10 @@
       "english": "Rage when Hit",
       "chinese": "擊中時獲得盛怒",
       "englishStats": [
-        "Gain 2 [Rage] when [HitDamage|Hit] by an Enemy"
+        "Gain 2 [Rage] when [Hit] by an Enemy"
       ],
       "chineseStats": [
-        "遭敵人[HitDamage|擊中]時，獲得2層[Rage|盛怒]"
+        "遭敵人[Hit|擊中]時，獲得2層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -16414,7 +16414,7 @@
         "Projectiles have 25% chance for an additional Projectile when [Fork|Forking]"
       ],
       "chineseStats": [
-        "投射物[Fork|分岔]時有25%機率發射1個額外投射物"
+        "投射物[Fork|分裂]時有25%機率發射1個額外投射物"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -16637,10 +16637,10 @@
       "english": "Critical Strike",
       "chinese": "暴擊",
       "englishStats": [
-        "Chance to [HitDamage|Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [HitDamage|Hit] with [Attack|Attacks]"
+        "Chance to [Hit] with [Attack|Attacks] can [ExceedChance|exceed 100%]\nGain additional [Critical|Critical Hit] Chance equal to 25% of excess chance to [Hit] with [Attack|Attacks]"
       ],
       "chineseStats": [
-        "[Attack|攻擊][HitDamage|擊中]機率可以[ExceedChance|高於100%]\n獲得等同於25%溢出[Attack|攻擊][HitDamage|擊中]機率的額外[Critical|暴擊]率"
+        "[Attack|攻擊][Hit|擊中]機率可以[ExceedChance|高於100%]\n獲得等同於25%溢出[Attack|攻擊][Hit|擊中]機率的額外[Critical|暴擊]率"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -16793,10 +16793,10 @@
       "english": "Parry Area",
       "chinese": "招架範圍",
       "englishStats": [
-        "15% increased [Parry] [HitDamage|Hit] Area of Effect"
+        "15% increased [Parry] [Hit] Area of Effect"
       ],
       "chineseStats": [
-        "增加15%[Parry|招架][HitDamage|擊中]的範圍效果"
+        "增加15%[Parry|招架][Hit|擊中]的範圍效果"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -16983,10 +16983,10 @@
       "english": "Melee Damage if Projectile Hit",
       "chinese": "投射物擊中時為近戰傷害",
       "englishStats": [
-        "15% increased [Melee] Damage if you've dealt a [Projectile] [Attack] [HitDamage|Hit] in the past eight seconds"
+        "15% increased [Melee] Damage if you've dealt a [Projectile] [Attack] [Hit] in the past eight seconds"
       ],
       "chineseStats": [
-        "如果你在過去8秒內以[Projectile|投射物][Attack|攻擊][HitDamage|擊中]，增加15%[Melee|近戰]傷害"
+        "如果你在過去8秒內以[Projectile|投射物][Attack|攻擊][Hit|擊中]，增加15%[Melee|近戰]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -17055,11 +17055,11 @@
       "english": "Mending Deflection",
       "chinese": "癒合偏斜",
       "englishStats": [
-        "15% of Damage taken from [Deflect|Deflected] [HitDamage|Hits] [Recoup|Recouped] as Life",
+        "15% of Damage taken from [Deflect|Deflected] [Hit|Hits] [Recoup|Recouped] as Life",
         "20% [FasterESRechargeStart|faster start of Energy Shield Recharge] when not on Full Life"
       ],
       "chineseStats": [
-        "承受來自[Deflect|偏斜][HitDamage|擊中]的傷害時，受到傷害的15%[Recoup|補償]為生命",
+        "承受來自[Deflect|偏斜][Hit|擊中]的傷害時，受到傷害的15%[Recoup|補償]為生命",
         "生命未滿時，[FasterESRechargeStart|能量護盾開始充能速度加快]20%"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -17285,10 +17285,10 @@
       "english": "Bleeding Chance",
       "chinese": "流血機率",
       "englishStats": [
-        "5% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]"
+        "5% chance to inflict [Bleeding|Bleeding] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Bleeding|流血]"
+        "[Hit|擊中]時有5%機率造成[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -17307,7 +17307,7 @@
       "chineseStats": [
         "+12%的[Armour|護甲值]也會套用至[ElementalDamage|元素傷害]",
         "獲得等同10%[Evasion|閃避值]的[Deflect|偏斜值]",
-        "旗幟技能增加15%光環[BuffMagnitude|幅度]",
+        "鬥旗技能增加15%光環[BuffMagnitude|幅度]",
         "減少25%承受的[ArmourBreak|護甲破壞]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -17351,7 +17351,7 @@
         "18% of Skill Mana Costs [StatConversion|Converted] to Life Costs"
       ],
       "chineseStats": [
-        "增加15%[Attack|攻擊]消耗[Efficiency|效率]",
+        "增加15%[Attack|攻擊]消耗[Efficiency|效用]",
         "18%技能魔力消耗[StatConversion|轉換]為生命消耗"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -17451,11 +17451,11 @@
       "english": "Molten Symbol",
       "chinese": "熔化標誌",
       "englishStats": [
-        "Body Armour grants 25% of [Physical] Damage from [HitDamage|Hits] taken as [Fire] Damage",
+        "Body Armour grants 25% of [Physical] Damage from [Hit|Hits] taken as [Fire] Damage",
         "base physical damage reduction rating no display [200]"
       ],
       "chineseStats": [
-        "身體護甲賦予將所承受[HitDamage|擊中][Physical|物理]傷害的25%視為[Fire|火焰]傷害",
+        "身體護甲賦予將所承受[Hit|擊中][Physical|物理]傷害的25%視為[Fire|火焰]傷害",
         "base physical damage reduction rating no display [200]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -17467,10 +17467,10 @@
       "english": "Damage vs Blinded",
       "chinese": "對受致盲者傷害",
       "englishStats": [
-        "15% increased Damage with [HitDamage|Hits] against [Blind|Blinded] Enemies"
+        "15% increased Damage with [Hit|Hits] against [Blind|Blinded] Enemies"
       ],
       "chineseStats": [
-        "增加15%對被[Blind|致盲]敵人的[HitDamage|擊中]傷害"
+        "增加15%對被[Blind|致盲]敵人的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -17481,11 +17481,11 @@
       "english": "Repulsion",
       "chinese": "排斥",
       "englishStats": [
-        "Area Skills have 20% chance to [Knockback|Knock Enemies Back] on [HitDamage|Hit]",
+        "Area Skills have 20% chance to [Knockback|Knock Enemies Back] on [Hit]",
         "20% increased [Spell] Area Damage"
       ],
       "chineseStats": [
-        "範圍技能[HitDamage|擊中]敵人時有20%機率[Knockback|擊退敵人]",
+        "範圍技能[Hit|擊中]敵人時有20%機率[Knockback|擊退敵人]",
         "增加20%[Spell|法術]範圍傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -17863,7 +17863,7 @@
         "15% increased Mana Cost of Skills"
       ],
       "chineseStats": [
-        "增加16%施放速度",
+        "增加16%施法速度",
         "增加15%技能魔力消耗"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -17908,7 +17908,7 @@
         "25% increased [Reservation] [Efficiency] of [Companion] Skills"
       ],
       "chineseStats": [
-        "[Companion|盟友]技能增加25%[Reservation|保留]效率"
+        "[Companion|盟友]技能增加25%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -17965,8 +17965,8 @@
         "There is no [Limit] on the number of [Banner|Banners] you can place"
       ],
       "chineseStats": [
-        "[Banner|旗幟]每秒獲得5[Glory|榮耀]",
-        "你可以放置的[Banner|旗幟]數量沒有[Limit|上限]"
+        "[Banner|鬥旗]每秒獲得5[Glory|榮耀]",
+        "你可以放置的[Banner|鬥旗]數量沒有[Limit|上限]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -18012,7 +18012,7 @@
       ],
       "chineseStats": [
         "增加16%[Spell|法術][Critical|暴擊率]",
-        "若你[Recently|近期]造成[Critical|暴擊]，增加8%施放速度"
+        "若你[Recently|近期]造成[Critical|暴擊]，增加8%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -18147,10 +18147,10 @@
       "english": "Dazing Blocks",
       "chinese": "目眩格擋",
       "englishStats": [
-        "100% chance to [Daze] Enemies whose [HitDamage|Hits] you [Block] with a raised [Shield]"
+        "100% chance to [Daze] Enemies whose [Hit|Hits] you [Block] with a raised [Shield]"
       ],
       "chineseStats": [
-        "舉起[Shield|盾牌][Block|格檔]敵人的[HitDamage|擊中]時，有100%機率使敵人[Daze|目眩]"
+        "舉起[Shield|盾牌][Block|格檔]敵人的[Hit|擊中]時，有100%機率使敵人[Daze|目眩]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -18173,13 +18173,13 @@
       "skill": "10534",
       "code": "",
       "english": "Totem Cast and Attack Speed",
-      "chinese": "圖騰攻擊及施放速度",
+      "chinese": "圖騰攻擊及施法速度",
       "englishStats": [
         "[Spell|Spells] Cast by [Totem|Totems] have 4% increased Cast Speed",
         "[Attack|Attacks] used by Totems have 4% increased [Attack] Speed"
       ],
       "chineseStats": [
-        "增加4%[Totem|圖騰]施放[Spell|法術]的施放速度",
+        "增加4%[Totem|圖騰]施放[Spell|法術]的施法速度",
         "增加4%圖騰使用[Attack|攻擊]的[Attack|攻擊]速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -18445,12 +18445,12 @@
       "skill": "10742",
       "code": "",
       "english": "Minion Attack and Cast Speed",
-      "chinese": "召喚物攻擊和施放速度",
+      "chinese": "召喚物攻擊和施法速度",
       "englishStats": [
         "[Minion|Minions] have 3% increased [Attack] and Cast Speed"
       ],
       "chineseStats": [
-        "[Minion|召喚物]增加3%[Attack|攻擊]和施放速度"
+        "[Minion|召喚物]增加3%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -18547,12 +18547,12 @@
       "skill": "10835",
       "code": "",
       "english": "Banner Duration",
-      "chinese": "旗幟持續時間",
+      "chinese": "鬥旗持續時間",
       "englishStats": [
         "[Banner] Skills have 20% increased Duration"
       ],
       "chineseStats": [
-        "[Banner|旗幟]技能增加20%持續時間"
+        "[Banner|鬥旗]技能增加20%持續時間"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -18573,12 +18573,12 @@
       "english": "Bestial Rage",
       "chinese": "野獸狂怒",
       "englishStats": [
-        "Gain 1 [Rage|Rage] on [Melee] [HitDamage|Hit]",
+        "Gain 1 [Rage|Rage] on [Melee] [Hit]",
         "Every 10 [Rage|Rage] also grants 12% increased [Physical|Physical] Damage"
       ],
       "chineseStats": [
-        "[Melee|近戰][HitDamage|擊中]時，獲得1層[Rage|盛怒]",
-        "每10[Rage|盛怒]同時給予增加12%[Physical|物理]傷害"
+        "[Melee|近戰][Hit|擊中]時，獲得1層[Rage|盛怒]",
+        "每10[Rage|盛怒]同時賦予增加12%[Physical|物理]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -18987,10 +18987,10 @@
       "english": "Axe Rage on Hit",
       "chinese": "斧擊中盛怒",
       "englishStats": [
-        "Gain 1 [Rage|Rage] on [Melee|Melee] [Axe|Axe] [HitDamage|Hit]"
+        "Gain 1 [Rage|Rage] on [Melee|Melee] [Axe|Axe] [Hit]"
       ],
       "chineseStats": [
-        "以[Axe|斧][Melee|近戰][HitDamage|擊中]時，獲得1層[Rage|盛怒]"
+        "以[Axe|斧][Melee|近戰][Hit|擊中]時，獲得1層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -19143,10 +19143,10 @@
       "english": "Damage against Enemies on Low Life",
       "chinese": "對貧血敵人造成的傷害",
       "englishStats": [
-        "30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"
+        "30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"
       ],
       "chineseStats": [
-        "對[LowLife|貧血狀態]的敵人增加30%[HitDamage|擊中]傷害"
+        "對[LowLife|貧血狀態]的敵人增加30%[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -19331,10 +19331,10 @@
       "english": "Spreading Shocks",
       "chinese": "擴散感電",
       "englishStats": [
-        "[Shock|Shocking] [HitDamage|Hits] have a 50% chance to also Shock enemies in a 1.5 metre radius"
+        "[Shock|Shocking] [Hit|Hits] have a 50% chance to also Shock enemies in a 1.5 metre radius"
       ],
       "chineseStats": [
-        "[Shock|感電][HitDamage|擊中]也有50%的機率感電1.5公尺範圍內的敵人"
+        "[Shock|感電][Hit|擊中]也有50%的機率感電1.5公尺範圍內的敵人"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -19407,10 +19407,10 @@
       "english": "Rage when Hit",
       "chinese": "擊中時獲得盛怒",
       "englishStats": [
-        "Gain 2 [Rage] when [HitDamage|Hit] by an Enemy"
+        "Gain 2 [Rage] when [Hit] by an Enemy"
       ],
       "chineseStats": [
-        "遭敵人[HitDamage|擊中]時，獲得2層[Rage|盛怒]"
+        "遭敵人[Hit|擊中]時，獲得2層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -19535,12 +19535,12 @@
       "skill": "11752",
       "code": "",
       "english": "Banner Duration",
-      "chinese": "旗幟持續時間",
+      "chinese": "鬥旗持續時間",
       "englishStats": [
         "[Banner] Skills have 20% increased Duration"
       ],
       "chineseStats": [
-        "[Banner|旗幟]技能增加20%持續時間"
+        "[Banner|鬥旗]技能增加20%持續時間"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -19579,12 +19579,12 @@
       "english": "The Spring Hare",
       "chinese": "春兔",
       "englishStats": [
-        "20% chance for Damage of Enemies [HitDamage|Hitting] you to be [Unlucky]",
-        "20% chance for Damage with [HitDamage|Hits] to be [Lucky]"
+        "20% chance for Damage of Enemies [Hit|Hitting] you to be [Unlucky]",
+        "20% chance for Damage with [Hit|Hits] to be [Lucky]"
       ],
       "chineseStats": [
-        "敵人[HitDamage|擊中]你的傷害有20%機率視為[UnLucky|帶來厄運]",
-        "[HitDamage|擊中]傷害有20%機率十分[Lucky|幸運]"
+        "敵人[Hit|擊中]你的傷害有20%機率視為[UnLucky|帶來厄運]",
+        "[Hit|擊中]傷害有20%機率十分[Lucky|幸運]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -19749,10 +19749,10 @@
       "english": "Blind Chance",
       "chinese": "致盲機率",
       "englishStats": [
-        "5% chance to [Blind] Enemies on [HitDamage|Hit]"
+        "5% chance to [Blind] Enemies on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]敵人時有5%機率[Blind|致盲]"
+        "[Hit|擊中]敵人時有5%機率[Blind|致盲]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -19991,10 +19991,10 @@
       "english": "Parry Area",
       "chinese": "格擋及承受自被格擋攻擊的傷害",
       "englishStats": [
-        "20% increased [Parry] [HitDamage|Hit] Area of Effect"
+        "20% increased [Parry] [Hit] Area of Effect"
       ],
       "chineseStats": [
-        "增加20%[Parry|招架][HitDamage|擊中]的範圍效果"
+        "增加20%[Parry|招架][Hit|擊中]的範圍效果"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -20027,12 +20027,12 @@
       "skill": "12166",
       "code": "",
       "english": "Cast Speed with Cold Skills",
-      "chinese": "冰冷技能施放速度",
+      "chinese": "冰冷技能施法速度",
       "englishStats": [
         "3% increased Cast Speed with [Cold] Skills"
       ],
       "chineseStats": [
-        "[Cold|冰冷]技能增加3%施放速度"
+        "[Cold|冰冷]技能增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -20745,12 +20745,12 @@
       "skill": "12821",
       "code": "",
       "english": "Banner Glory Gained",
-      "chinese": "旗幟獲得榮耀",
+      "chinese": "鬥旗獲得榮耀",
       "englishStats": [
         "20% increased [Glory] generation for [Banner] Skills"
       ],
       "chineseStats": [
-        "[Banner|旗幟]技能增加20%生成的[Glory|榮耀]"
+        "[Banner|鬥旗]技能增加20%生成的[Glory|榮耀]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -20761,12 +20761,12 @@
       "english": "Adaptable Assault",
       "chinese": "可適應攻擊",
       "englishStats": [
-        "+0.4 metres to [Melee] [Strike] Range if you've dealt a [Projectile] [Attack] [HitDamage|Hit] in the past eight seconds",
-        "[Projectile|Projectiles] have 25% chance to [Fork] if you've dealt a [Melee] [HitDamage|Hit] in the past eight seconds"
+        "+0.4 metres to [Melee] [Strike] Range if you've dealt a [Projectile] [Attack] [Hit] in the past eight seconds",
+        "[Projectile|Projectiles] have 25% chance to [Fork] if you've dealt a [Melee] [Hit] in the past eight seconds"
       ],
       "chineseStats": [
-        "若你過去8秒內造成一次[Projectile|投射物][Attack|攻擊][HitDamage|擊中]，[Melee|近戰][Strike|打擊]範圍+0.4公尺",
-        "如果你在過去8秒內以[Melee|近戰][HitDamage|擊中]，則[Projectile|投射物]有25%機率[Fork|分岔]"
+        "若你過去8秒內造成一次[Projectile|投射物][Attack|攻擊][Hit|擊中]，[Melee|近戰][Strike|打擊]範圍+0.4公尺",
+        "如果你在過去8秒內以[Melee|近戰][Hit|擊中]，則[Projectile|投射物]有25%機率[Fork|分裂]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -21041,7 +21041,7 @@
       "chineseStats": [
         "減少3%[SkillSpeed|技能速度]",
         "處於你[Presence|存在範圍]中的[Allies|友方]增加6%[Attack|攻擊]速度",
-        "處於你[Presence|存在範圍]中的[Allies|友方]增加6%施放速度",
+        "處於你[Presence|存在範圍]中的[Allies|友方]增加6%施法速度",
         "需要 未見之道"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -21203,10 +21203,10 @@
       "english": "Armour",
       "chinese": "護甲",
       "englishStats": [
-        "20% increased [Armour|Armour] if you haven't been [HitDamage|Hit] [Recently|Recently]"
+        "20% increased [Armour|Armour] if you haven't been [Hit] [Recently|Recently]"
       ],
       "chineseStats": [
-        "若你[Recently|近期]未被[HitDamage|擊中]，增加20%[Armour|護甲值]"
+        "若你[Recently|近期]未被[Hit|擊中]，增加20%[Armour|護甲值]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -21469,11 +21469,11 @@
       "english": "Shadow Dancing",
       "chinese": "影之舞",
       "englishStats": [
-        "40% increased [Evasion|Evasion Rating] if you have been [HitDamage|Hit] [Recently|Recently]",
+        "40% increased [Evasion|Evasion Rating] if you have been [Hit] [Recently|Recently]",
         "40% [FasterESRechargeStart|faster start of Energy Shield Recharge] if you've been [Stun|Stunned] [Recently]"
       ],
       "chineseStats": [
-        "若你[Recently|近期]被[HitDamage|擊中]，增加40%[Evasion|閃避值]",
+        "若你[Recently|近期]被[Hit|擊中]，增加40%[Evasion|閃避值]",
         "若你[Recently|近期]被[Stun|暈眩]，[FasterESRechargeStart|能量護盾開始充能速度加快]40%"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -21656,7 +21656,7 @@
         "3% increased [Attack] and Cast Speed with [Lightning|Lightning] Skills"
       ],
       "chineseStats": [
-        "[Lightning|閃電]技能增加3%[Attack|攻擊]和施放速度"
+        "[Lightning|閃電]技能增加3%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -21862,7 +21862,7 @@
       ],
       "chineseStats": [
         "增加14%[Lightning|閃電]傷害",
-        "[Lightning|閃電]技能增加8%[Attack|攻擊]和施放速度"
+        "[Lightning|閃電]技能增加8%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -21986,11 +21986,11 @@
       "chinese": "操控魔法",
       "englishStats": [
         "25% increased [Critical|Critical Hit Chance] for [Spell|Spells]",
-        "[HitDamage|Hits] have 25% reduced [Critical|Critical Hit] Chance against you"
+        "[Hit|Hits] have 25% reduced [Critical|Critical Hit] Chance against you"
       ],
       "chineseStats": [
         "增加25%[Spell|法術][Critical|暴擊率]",
-        "對你的[HitDamage|擊中]減少25%[Critical|暴擊]率"
+        "對你的[Hit|擊中]減少25%[Critical|暴擊]率"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -22043,10 +22043,10 @@
       "english": "Rage on Hit",
       "chinese": "擊中時獲得盛怒",
       "englishStats": [
-        "Gain 1 [Rage|Rage] on [Melee] [HitDamage|Hit]"
+        "Gain 1 [Rage|Rage] on [Melee] [Hit]"
       ],
       "chineseStats": [
-        "[Melee|近戰][HitDamage|擊中]時，獲得1層[Rage|盛怒]"
+        "[Melee|近戰][Hit|擊中]時，獲得1層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -22327,12 +22327,12 @@
       "skill": "14096",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -22439,10 +22439,10 @@
       "english": "Rage on Ignite",
       "chinese": "點燃時獲得盛怒",
       "englishStats": [
-        "Gain 1 [Rage] when your [HitDamage|Hit] [Ignite|Ignites] a target"
+        "Gain 1 [Rage] when your [Hit] [Ignite|Ignites] a target"
       ],
       "chineseStats": [
-        "你的[HitDamage|擊中]每[Ignite|點燃]一個目標獲得1點[Rage|盛怒]"
+        "你的[Hit|擊中]每[Ignite|點燃]一個目標獲得1點[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -22538,8 +22538,8 @@
       "type": "passive",
       "skill": "14265",
       "code": "",
-      "english": "Arsonist",
-      "chinese": "火焰傷害",
+      "english": "Pyromancer",
+      "chinese": "火占師",
       "englishStats": [
         "20% increased [Fire] Damage",
         "10% increased Cast Speed while Ignited",
@@ -22547,7 +22547,7 @@
       ],
       "chineseStats": [
         "增加20%[Fire|火焰]傷害",
-        "被點燃時增加10%施放速度",
+        "被點燃時增加10%施法速度",
         "減少5%移動使用火焰技能時的移動速度懲罰"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -22891,10 +22891,10 @@
       "english": "Rage on Melee Hit",
       "chinese": "近戰擊中獲得盛怒",
       "englishStats": [
-        "Gain 1 [Rage|Rage] on [Melee] [HitDamage|Hit]"
+        "Gain 1 [Rage|Rage] on [Melee] [Hit]"
       ],
       "chineseStats": [
-        "[Melee|近戰][HitDamage|擊中]時，獲得1層[Rage|盛怒]"
+        "[Melee|近戰][Hit|擊中]時，獲得1層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -23313,7 +23313,7 @@
         "+13% to [Resistances|Chaos Resistance]"
       ],
       "chineseStats": [
-        "增加10%施放速度",
+        "增加10%施法速度",
         "+13%[Resistances|混沌抗性]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -23495,11 +23495,11 @@
       "english": "Impale Chance",
       "chinese": "穿刺機率",
       "englishStats": [
-        "30% chance to [Impale] on [Spell] [HitDamage|Hit]",
+        "30% chance to [Impale] on [Spell] [Hit]",
         "Requires The Unseen Path"
       ],
       "chineseStats": [
-        "[Spell|法術][HitDamage|擊中]時有30%機率造成[Impale|穿刺]",
+        "[Spell|法術][Hit|擊中]時有30%機率造成[Impale|穿刺]",
         "需要 未見之道"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -23599,7 +23599,7 @@
         "[Attack|Attacks] used by Totems have 5% increased [Attack] Speed"
       ],
       "chineseStats": [
-        "增加5%[Totem|圖騰]施放[Spell|法術]的施放速度",
+        "增加5%[Totem|圖騰]施放[Spell|法術]的施法速度",
         "增加5%圖騰使用[Attack|攻擊]的[Attack|攻擊]速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -23623,12 +23623,12 @@
       "skill": "15304",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -24057,14 +24057,14 @@
       "englishStats": [
         "+12% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]",
         "8% [FasterESRechargeStart|faster start of Energy Shield Recharge]",
-        "10% increased effect of [Archon] [Buff|Buffs] on you",
-        "[Archon] recovery period expires 10% faster"
+        "[Archon] recovery period expires 10% faster",
+        "10% increased effect of [Archon] [Buff|Buffs] on you"
       ],
       "chineseStats": [
         "+12%的[Armour|護甲值]也會套用至[ElementalDamage|元素傷害]",
         "[FasterESRechargeStart|能量護盾開始充能速度加快]8%",
-        "增加10%你的[Archon|統治者][Buff|增益效果]",
-        "[Archon|統治者]增益效果恢復期加快10%"
+        "[Archon|統治者]增益效果恢復期加快10%",
+        "增加10%你的[Archon|統治者][Buff|增益效果]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -24231,10 +24231,10 @@
       "english": "Damage against Ailments",
       "chinese": "對異常狀態者造成傷害",
       "englishStats": [
-        "12% increased Damage with [HitDamage|Hits] against Enemies affected by [ElementalAilments|Elemental Ailments]"
+        "12% increased Damage with [Hit|Hits] against Enemies affected by [ElementalAilments|Elemental Ailments]"
       ],
       "chineseStats": [
-        "增加12%對受[ElementalAilments|元素異常狀態]影響的敵人的[HitDamage|擊中]傷害"
+        "增加12%對受[ElementalAilments|元素異常狀態]影響的敵人的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -24301,10 +24301,10 @@
       "english": "Daze on Hit",
       "chinese": "擊中時目眩",
       "englishStats": [
-        "5% chance to [Daze] on [HitDamage|Hit]"
+        "5% chance to [Daze] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Daze|目眩]"
+        "[Hit|擊中]時有5%機率造成[Daze|目眩]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -24433,10 +24433,10 @@
       "english": "Daze on Hit",
       "chinese": "擊中時目眩",
       "englishStats": [
-        "5% chance to [Daze] on [HitDamage|Hit]"
+        "5% chance to [Daze] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Daze|目眩]"
+        "[Hit|擊中]時有5%機率造成[Daze|目眩]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -24625,12 +24625,12 @@
       "skill": "16385",
       "code": "",
       "english": "Banner Glory Gained",
-      "chinese": "旗幟獲得榮耀",
+      "chinese": "鬥旗獲得榮耀",
       "englishStats": [
         "20% increased [Glory] generation for [Banner] Skills"
       ],
       "chineseStats": [
-        "[Banner|旗幟]技能增加20%生成的[Glory|榮耀]"
+        "[Banner|鬥旗]技能增加20%生成的[Glory|榮耀]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -24704,7 +24704,7 @@
         "+10 to [Intelligence]"
       ],
       "chineseStats": [
-        "增加5%施放速度",
+        "增加5%施法速度",
         "增加15%魔力回復率",
         "+10[Intelligence|智慧]"
       ],
@@ -24804,7 +24804,7 @@
       "type": "passive",
       "skill": "16568",
       "code": "",
-      "english": "Defenses and Companion Life",
+      "english": "Defences and Companion Life",
       "chinese": "防禦和盟友生命",
       "englishStats": [
         "[Companion|Companions] have 12% increased maximum Life",
@@ -24826,7 +24826,7 @@
         "3% increased [Attack] and Cast Speed with Elemental Skills"
       ],
       "chineseStats": [
-        "元素技能增加3%[Attack|攻擊]和施放速度"
+        "元素技能增加3%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -25078,7 +25078,7 @@
       ],
       "chineseStats": [
         "增加15%魔力回復率",
-        "增加20%魔力消耗[Efficiency|效率]"
+        "增加20%魔力消耗[Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -25186,7 +25186,7 @@
         "3% increased [Attack] and Cast Speed with [Lightning|Lightning] Skills"
       ],
       "chineseStats": [
-        "[Lightning|閃電]技能增加3%[Attack|攻擊]和施放速度"
+        "[Lightning|閃電]技能增加3%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -25528,7 +25528,7 @@
       ],
       "chineseStats": [
         "增加15%[Evasion|閃避值]",
-        "增加8%施放速度"
+        "增加8%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -25605,12 +25605,12 @@
       "english": "Utility Ordnance",
       "chinese": "實用軍械",
       "englishStats": [
-        "40% increased Cooldown Recovery Rate for [Grenade] Skills",
-        "80% reduced [Grenade] Damage"
+        "80% reduced [Grenade] Damage",
+        "40% increased Cooldown Recovery Rate for [Grenade] Skills"
       ],
       "chineseStats": [
-        "增加40%[Grenade|擲彈]技能冷卻時間恢復率",
-        "減少80%[Grenade|擲彈]傷害"
+        "減少80%[Grenade|擲彈]傷害",
+        "增加40%[Grenade|擲彈]技能冷卻時間恢復率"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -25881,12 +25881,12 @@
       "skill": "17505",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -26015,10 +26015,10 @@
       "english": "Thirsting Ally",
       "chinese": "飢渴的盟友",
       "englishStats": [
-        "[LifeLeech|Leeching Life] from your [HitDamage|Hits] causes your [Companion] to also Leech the [LeechSameAmount|same amount] of Life"
+        "[LifeLeech|Leeching Life] from your [Hit|Hits] causes your [Companion] to also Leech the [LeechSameAmount|same amount] of Life"
       ],
       "chineseStats": [
-        "你的[HitDamage|擊中]所造成的[LifeLeech|生命偷取]也會你的[Companion|盟友]也能偷取[LeechSameAmount|等量]生命"
+        "你的[Hit|擊中]所造成的[LifeLeech|生命偷取]也會你的[Companion|盟友]也能偷取[LeechSameAmount|等量]生命"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -26045,10 +26045,10 @@
       "english": "Rage on Hit",
       "chinese": "擊中時獲得盛怒",
       "englishStats": [
-        "Gain 1 [Rage|Rage] on [Melee] [HitDamage|Hit]"
+        "Gain 1 [Rage|Rage] on [Melee] [Hit]"
       ],
       "chineseStats": [
-        "[Melee|近戰][HitDamage|擊中]時，獲得1層[Rage|盛怒]"
+        "[Melee|近戰][Hit|擊中]時，獲得1層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -26266,12 +26266,12 @@
       "chinese": "中毒機率和法術傷害",
       "englishStats": [
         "12% increased [Spell] Damage",
-        "8% chance to [Poison|Poison] on [HitDamage|Hit]",
+        "8% chance to [Poison|Poison] on [Hit]",
         "Requires The Unseen Path"
       ],
       "chineseStats": [
         "增加12%[Spell|法術]傷害",
-        "[HitDamage|擊中]時有8%機率造成[Poison|中毒]",
+        "[Hit|擊中]時有8%機率造成[Poison|中毒]",
         "需要 未見之道"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -26547,10 +26547,10 @@
       "english": "Damage against Enemies on Low Life",
       "chinese": "對貧血敵人造成的傷害",
       "englishStats": [
-        "30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"
+        "30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"
       ],
       "chineseStats": [
-        "對[LowLife|貧血狀態]的敵人增加30%[HitDamage|擊中]傷害"
+        "對[LowLife|貧血狀態]的敵人增加30%[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -26561,12 +26561,12 @@
       "english": "Careful Consideration",
       "chinese": "小心翼翼",
       "englishStats": [
-        "30% reduced [Evasion|Evasion Rating] if you have been [HitDamage|Hit] [Recently|Recently]",
-        "100% increased [Evasion] Rating if you haven't been [HitDamage|Hit] [Recently]"
+        "30% reduced [Evasion|Evasion Rating] if you have been [Hit] [Recently|Recently]",
+        "100% increased [Evasion] Rating if you haven't been [Hit] [Recently]"
       ],
       "chineseStats": [
-        "若你[Recently|近期]被[HitDamage|擊中]，減少30%[Evasion|閃避值]",
-        "若你[Recently|近期]沒有被[HitDamage|擊中]，增加100%[Evasion|閃避]值"
+        "若你[Recently|近期]被[Hit|擊中]，減少30%[Evasion|閃避值]",
+        "若你[Recently|近期]沒有被[Hit|擊中]，增加100%[Evasion|閃避]值"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -27449,12 +27449,12 @@
       "skill": "18801",
       "code": "",
       "english": "Banner Duration",
-      "chinese": "旗幟持續時間",
+      "chinese": "鬥旗持續時間",
       "englishStats": [
         "[Banner] Skills have 20% increased Duration"
       ],
       "chineseStats": [
-        "[Banner|旗幟]技能增加20%持續時間"
+        "[Banner|鬥旗]技能增加20%持續時間"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -27571,10 +27571,10 @@
       "english": "Shaper of Winter",
       "chinese": "寒冬雕塑者",
       "englishStats": [
-        "[DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Chill] Magnitude"
+        "[DamageTypes|All Damage] from [Hit|Hits] [Contributes|Contributes] to [Chill] Magnitude"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]的[DamageTypes|所有傷害][Contributes|貢獻]至[Chill|冰緩]幅度"
+        "[Hit|擊中]的[DamageTypes|所有傷害][Contributes|貢獻]至[Chill|冰緩]幅度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -27926,7 +27926,7 @@
       ],
       "chineseStats": [
         "增加30%[Spell|法術]傷害",
-        "減少5%施放速度"
+        "減少5%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -28089,7 +28089,7 @@
       ],
       "chineseStats": [
         "當你有一個[Totem|圖騰]，增加25%傷害",
-        "每有一個召喚的[Totem|圖騰]，[Totem|圖騰]施放的[Spell|法術]增加3%施放速度",
+        "每有一個召喚的[Totem|圖騰]，[Totem|圖騰]施放的[Spell|法術]增加3%施法速度",
         "每有一個召喚的[Totem|圖騰]，[Totem|圖騰]使用的[Attack|攻擊]增加3%[Attack|攻擊]速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -28128,7 +28128,7 @@
         "Chance to [Evasion|Evade] is [Unlucky]\nChance to [Deflect] is [Lucky]"
       ],
       "chineseStats": [
-        "[Evasion|閃避]機率視為[UnLucky|帶來厄運]\n[Deflect|偏斜]的機率視為[Lucky|帶來幸運]"
+        "[Evasion|閃避]機率很[UnLucky|不幸]\n[Deflect|偏斜]機率[Lucky|很幸運]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -28199,10 +28199,10 @@
       "english": "Damage against Enemies on Low Life",
       "chinese": "對貧血敵人造成的傷害",
       "englishStats": [
-        "30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"
+        "30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"
       ],
       "chineseStats": [
-        "對[LowLife|貧血狀態]的敵人增加30%[HitDamage|擊中]傷害"
+        "對[LowLife|貧血狀態]的敵人增加30%[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -28799,7 +28799,7 @@
         "10% reduced [Critical|Critical Hit Chance]"
       ],
       "chineseStats": [
-        "若你[Recently|近期]造成[Critical|暴擊]，增加16%施放速度",
+        "若你[Recently|近期]造成[Critical|暴擊]，增加16%施法速度",
         "減少10%[Critical|暴擊率]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -28961,14 +28961,14 @@
       "skill": "20236",
       "code": "",
       "english": "Attack and Cast Speed on Critical",
-      "chinese": "暴擊時攻擊和施放速度",
+      "chinese": "暴擊時攻擊和施法速度",
       "englishStats": [
         "3% increased [Attack] Speed if you've dealt a [Critical|Critical Hit] [Recently|Recently]",
         "3% increased Cast Speed if you've dealt a [Critical|Critical Hit] [Recently|Recently]"
       ],
       "chineseStats": [
         "若你[Recently|近期]造成[Critical|暴擊]，增加3%[Attack|攻擊]速度",
-        "若你[Recently|近期]造成[Critical|暴擊]，增加3%施放速度"
+        "若你[Recently|近期]造成[Critical|暴擊]，增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -29565,12 +29565,12 @@
       "skill": "20842",
       "code": "",
       "english": "Banner Area",
-      "chinese": "旗幟範圍",
+      "chinese": "鬥旗範圍",
       "englishStats": [
         "[Banner] Skills have 12% increased Area of Effect"
       ],
       "chineseStats": [
-        "[Banner|旗幟]技能增加12%範圍效果"
+        "[Banner|鬥旗]技能增加12%範圍效果"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -29638,11 +29638,11 @@
       "chinese": "致盲打擊",
       "englishStats": [
         "24% increased [Attack] Damage",
-        "10% chance to [Blind] Enemies on [HitDamage|Hit] with [Attack|Attacks]"
+        "10% chance to [Blind] Enemies on [Hit] with [Attack|Attacks]"
       ],
       "chineseStats": [
         "增加24%[Attack|攻擊]傷害",
-        "[Attack|攻擊][HitDamage|擊中]有10%機率[Blind|致盲]敵人"
+        "[Attack|攻擊][Hit|擊中]有10%機率[Blind|致盲]敵人"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -29769,12 +29769,12 @@
       "skill": "21096",
       "code": "",
       "english": "Banner Area",
-      "chinese": "旗幟範圍",
+      "chinese": "鬥旗範圍",
       "englishStats": [
         "[Banner] Skills have 12% increased Area of Effect"
       ],
       "chineseStats": [
-        "[Banner|旗幟]技能增加12%範圍效果"
+        "[Banner|鬥旗]技能增加12%範圍效果"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -29950,7 +29950,7 @@
       "chineseStats": [
         "+10%的[Armour|護甲值]也會套用至[ElementalDamage|元素傷害]",
         "[FasterESRechargeStart|能量護盾開始充能速度加快]10%",
-        "增加10%[LightRadius|光線範圍]",
+        "增加10%[LightRadius|照亮範圍]",
         "增加10%[Accuracy|命中]值",
         "增加10%範圍效果"
       ],
@@ -30469,10 +30469,10 @@
       "english": "Damage against Ailments",
       "chinese": "對異常狀態者造成傷害",
       "englishStats": [
-        "12% increased Damage with [HitDamage|Hits] against Enemies affected by [ElementalAilments|Elemental Ailments]"
+        "12% increased Damage with [Hit|Hits] against Enemies affected by [ElementalAilments|Elemental Ailments]"
       ],
       "chineseStats": [
-        "增加12%對受[ElementalAilments|元素異常狀態]影響的敵人的[HitDamage|擊中]傷害"
+        "增加12%對受[ElementalAilments|元素異常狀態]影響的敵人的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -30599,10 +30599,10 @@
       "english": "Bleeding Chance",
       "chinese": "流血機率",
       "englishStats": [
-        "5% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]"
+        "5% chance to inflict [Bleeding|Bleeding] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Bleeding|流血]"
+        "[Hit|擊中]時有5%機率造成[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -30801,10 +30801,10 @@
       "english": "Damage and Criticals vs Dazed Enemies",
       "chinese": "對目眩敵人造成的傷害及暴擊",
       "englishStats": [
-        "5% chance to [Daze] on [HitDamage|Hit]"
+        "5% chance to [Daze] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Daze|目眩]"
+        "[Hit|擊中]時有5%機率造成[Daze|目眩]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -30825,11 +30825,11 @@
       "english": "Empowered Attack Damage and Bleeding Chance",
       "chinese": "強化攻擊傷害和流血機率",
       "englishStats": [
-        "5% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]",
+        "5% chance to inflict [Bleeding|Bleeding] on [Hit]",
         "[Empowered|Empowered Attacks] deal 10% increased Damage"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Bleeding|流血]",
+        "[Hit|擊中]時有5%機率造成[Bleeding|流血]",
         "增加10%[Empowered|強化攻擊]造成的傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -30989,12 +30989,12 @@
       "skill": "22152",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -31022,7 +31022,7 @@
         "6% increased [Reservation] [Efficiency] of [Herald] Skills"
       ],
       "chineseStats": [
-        "[Herald|捷光環]技能增加6%[Reservation|保留]效率"
+        "[Herald|捷光環]技能增加6%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -31239,12 +31239,12 @@
       "skill": "22484",
       "code": "",
       "english": "Totem Cast Speed",
-      "chinese": "圖騰施放速度",
+      "chinese": "圖騰施法速度",
       "englishStats": [
         "[Spell|Spells] Cast by [Totem|Totems] have 4% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加4%[Totem|圖騰]施放[Spell|法術]的施放速度"
+        "增加4%[Totem|圖騰]施放[Spell|法術]的施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -31255,10 +31255,10 @@
       "english": "Poison Chance",
       "chinese": "中毒機率",
       "englishStats": [
-        "8% chance to [Poison|Poison] on [HitDamage|Hit]"
+        "8% chance to [Poison|Poison] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有8%機率造成[Poison|中毒]"
+        "[Hit|擊中]時有8%機率造成[Poison|中毒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -31487,10 +31487,10 @@
       "english": "Storm's Rebuke",
       "chinese": "風暴之責",
       "englishStats": [
-        "[ArmourBreak|Fully Broken Armour] you inflict also increases [Cold] and [Lightning] Damage Taken from [HitDamage|Hits]"
+        "[ArmourBreak|Fully Broken Armour] you inflict also increases [Cold] and [Lightning] Damage Taken from [Hit|Hits]"
       ],
       "chineseStats": [
-        "你施加的[ArmourBreak|完全破甲]同時會增加承受的[HitDamage|擊中][Cold|冰冷]和[Lightning|閃電]傷害"
+        "你施加的[ArmourBreak|完全破甲]同時會增加承受的[Hit|擊中][Cold|冰冷]和[Lightning|閃電]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -31565,10 +31565,10 @@
       "english": "Inevitable Rupture",
       "chinese": "無免殘破",
       "englishStats": [
-        "10% chance for [Attack] [HitDamage|Hits] to apply ten [Incision]"
+        "10% chance for [Attack] [Hit|Hits] to apply ten [Incision]"
       ],
       "chineseStats": [
-        "[Attack|攻擊][HitDamage|擊中]時，有10%機率施加10層[Incision|切割]"
+        "[Attack|攻擊][Hit|擊中]時，有10%機率施加10層[Incision|切割]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -31713,10 +31713,10 @@
       "english": "Incision Chance",
       "chinese": "切割機率",
       "englishStats": [
-        "20% chance for [Attack] [HitDamage|Hits] to apply [Incision]"
+        "20% chance for [Attack] [Hit|Hits] to apply [Incision]"
       ],
       "chineseStats": [
-        "[Attack|攻擊][HitDamage|擊中]時，有20%機率施加[Incision|切割]"
+        "[Attack|攻擊][Hit|擊中]時，有20%機率施加[Incision|切割]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -31775,10 +31775,10 @@
       "english": "Damage against Enemies on Low Life",
       "chinese": "對貧血敵人造成的傷害",
       "englishStats": [
-        "30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"
+        "30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"
       ],
       "chineseStats": [
-        "對[LowLife|貧血狀態]的敵人增加30%[HitDamage|擊中]傷害"
+        "對[LowLife|貧血狀態]的敵人增加30%[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -32059,12 +32059,12 @@
       "skill": "23305",
       "code": "",
       "english": "Mark Use Speed",
-      "chinese": "印記施放速度",
+      "chinese": "印記施法速度",
       "englishStats": [
         "[Mark] Skills have 10% increased Use Speed"
       ],
       "chineseStats": [
-        "增加10%[Mark|印記]技能的施放速度"
+        "增加10%[Mark|印記]技能的施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -32195,10 +32195,10 @@
       "english": "Poison Chance",
       "chinese": "中毒機率",
       "englishStats": [
-        "8% chance to [Poison|Poison] on [HitDamage|Hit]"
+        "8% chance to [Poison|Poison] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有8%機率造成[Poison|中毒]"
+        "[Hit|擊中]時有8%機率造成[Poison|中毒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -33028,7 +33028,7 @@
       ],
       "chineseStats": [
         "增加18%魔力回復率",
-        "[LowMana|貧魔狀態]時，增加25%魔力消耗[Efficiency|效率]"
+        "[LowMana|貧魔狀態]時，增加25%魔力消耗[Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -33267,10 +33267,10 @@
       "english": "Damage against Ailments",
       "chinese": "對異常狀態者造成傷害",
       "englishStats": [
-        "12% increased Damage with [HitDamage|Hits] against Enemies affected by [ElementalAilments|Elemental Ailments]"
+        "12% increased Damage with [Hit|Hits] against Enemies affected by [ElementalAilments|Elemental Ailments]"
       ],
       "chineseStats": [
-        "增加12%對受[ElementalAilments|元素異常狀態]影響的敵人的[HitDamage|擊中]傷害"
+        "增加12%對受[ElementalAilments|元素異常狀態]影響的敵人的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -33474,11 +33474,11 @@
       "chinese": "劇烈爆發",
       "englishStats": [
         "80% increased [Flammability] [BuffMagnitude|Magnitude]",
-        "40% increased Damage with [HitDamage|Hits] against [Ignite|Ignited] Enemies"
+        "40% increased Damage with [Hit|Hits] against [Ignite|Ignited] Enemies"
       ],
       "chineseStats": [
         "增加80%[Flammability|易燃][BuffMagnitude|幅度]",
-        "[HitDamage|擊中]對[Ignite|點燃]敵人增加40%傷害"
+        "[Hit|擊中]對[Ignite|點燃]敵人增加40%傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -33838,11 +33838,11 @@
       "chinese": "攻擊範圍和連擊",
       "englishStats": [
         "4% increased Area of Effect for [Attack|Attacks]",
-        "5% Chance to build an additional [Combo] on [HitDamage|Hit]"
+        "5% Chance to build an additional [Combo] on [Hit]"
       ],
       "chineseStats": [
         "[Attack|攻擊]增加4%範圍效果",
-        "[HitDamage|擊中]時有5%機率額外累積一個[Combo|連擊]"
+        "[Hit|擊中]時有5%機率額外累積一個[Combo|連擊]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -34057,7 +34057,7 @@
       "english": "Critical Damage Bonus on You",
       "chinese": "對你的暴擊傷害加成",
       "englishStats": [
-        "[HitDamage|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"
+        "[Hit|Hits] against you have 12% reduced [CriticalDamageBonus|Critical Damage Bonus]"
       ],
       "chineseStats": [
         "對你的擊中減少12%[CriticalDamageBonus|暴擊傷害加成]"
@@ -34285,11 +34285,11 @@
       "english": "Poison Chance",
       "chinese": "中毒機率",
       "englishStats": [
-        "10% chance to [Poison|Poison] on [HitDamage|Hit]",
+        "10% chance to [Poison|Poison] on [Hit]",
         "Requires The Unseen Path"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有10%機率造成[Poison|中毒]",
+        "[Hit|擊中]時有10%機率造成[Poison|中毒]",
         "需要 未見之道"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -34431,7 +34431,7 @@
       "english": "Strength and Critical Damage Bonus on You",
       "chinese": "力量和對你的暴擊傷害加成",
       "englishStats": [
-        "[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]",
+        "[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]",
         "+5 to [Strength]"
       ],
       "chineseStats": [
@@ -34632,11 +34632,11 @@
       "chinese": "飛沙入眼",
       "englishStats": [
         "10% increased [Attack] Speed",
-        "15% chance to [Blind] Enemies on [HitDamage|Hit] with [Attack|Attacks]"
+        "15% chance to [Blind] Enemies on [Hit] with [Attack|Attacks]"
       ],
       "chineseStats": [
         "增加10%[Attack|攻擊]速度",
-        "[Attack|攻擊][HitDamage|擊中]有15%機率[Blind|致盲]敵人"
+        "[Attack|攻擊][Hit|擊中]有15%機率[Blind|致盲]敵人"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -34753,12 +34753,12 @@
       "skill": "25729",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -34871,14 +34871,14 @@
       "skill": "25829",
       "code": "",
       "english": "Spell Damage and Cast Speed",
-      "chinese": "法術傷害和施放速度",
+      "chinese": "法術傷害和施法速度",
       "englishStats": [
         "6% increased [Spell] Damage",
         "2% increased Cast Speed"
       ],
       "chineseStats": [
         "增加6%[Spell|法術]傷害",
-        "增加2%施放速度"
+        "增加2%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -34889,10 +34889,10 @@
       "english": "Daze on Hit",
       "chinese": "擊中時目眩",
       "englishStats": [
-        "5% chance to [Daze] on [HitDamage|Hit]"
+        "5% chance to [Daze] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Daze|目眩]"
+        "[Hit|擊中]時有5%機率造成[Daze|目眩]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -35288,11 +35288,11 @@
       "chinese": "攻擊範圍和連擊",
       "englishStats": [
         "4% increased Area of Effect for [Attack|Attacks]",
-        "5% Chance to build an additional [Combo] on [HitDamage|Hit]"
+        "5% Chance to build an additional [Combo] on [Hit]"
       ],
       "chineseStats": [
         "[Attack|攻擊]增加4%範圍效果",
-        "[HitDamage|擊中]時有5%機率額外累積一個[Combo|連擊]"
+        "[Hit|擊中]時有5%機率額外累積一個[Combo|連擊]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -35493,7 +35493,7 @@
         "16% increased Skill Effect Duration"
       ],
       "chineseStats": [
-        "[Cold|冰冷]技能增加8%施放速度",
+        "[Cold|冰冷]技能增加8%施法速度",
         "增加16%技能效果持續時間"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -35737,10 +35737,10 @@
       "english": "Bone Chains",
       "chinese": "骸骨連鎖",
       "englishStats": [
-        "[Physical] [Spell] [Critical] [HitDamage|Hits] build [Pinned|Pin]"
+        "[Physical] [Spell] [Critical] [Hit|Hits] build [Pinned|Pin]"
       ],
       "chineseStats": [
-        "[Physical|物理][Spell|法術][HitDamage|擊中]且[Critical|暴擊]時，會累積[Pinned|釘身]"
+        "[Physical|物理][Spell|法術][Hit|擊中]且[Critical|暴擊]時，會累積[Pinned|釘身]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -35809,12 +35809,12 @@
       "skill": "26596",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -36292,7 +36292,7 @@
       ],
       "chineseStats": [
         "增加40%[Totem|圖騰]設置速度",
-        "增加6%[Totem|圖騰]施放[Spell|法術]的施放速度",
+        "增加6%[Totem|圖騰]施放[Spell|法術]的施法速度",
         "增加6%圖騰使用[Attack|攻擊]的[Attack|攻擊]速度",
         "需要 未見之道"
       ],
@@ -36911,10 +36911,10 @@
       "english": "Rage on Hit",
       "chinese": "擊中時獲得盛怒",
       "englishStats": [
-        "Gain 1 [Rage|Rage] on [Melee] [HitDamage|Hit]"
+        "Gain 1 [Rage|Rage] on [Melee] [Hit]"
       ],
       "chineseStats": [
-        "[Melee|近戰][HitDamage|擊中]時，獲得1層[Rage|盛怒]"
+        "[Melee|近戰][Hit|擊中]時，獲得1層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -36925,12 +36925,12 @@
       "english": "Counterstancing",
       "chinese": "反擊姿態",
       "englishStats": [
-        "Successfully [Parry|Parrying] a [Melee] [HitDamage|Hit] grants 40% increased Damage to your next Ranged [Attack]",
-        "Successfully [Parry|Parrying] a [Projectile] [HitDamage|Hit] grants 40% increased Damage to your next [Melee] [Attack]"
+        "Successfully [Parry|Parrying] a [Melee] [Hit] grants 40% increased Damage to your next Ranged [Attack]",
+        "Successfully [Parry|Parrying] a [Projectile] [Hit] grants 40% increased Damage to your next [Melee] [Attack]"
       ],
       "chineseStats": [
-        "成功[Parry|招架]一次[Melee|近戰][HitDamage|擊中]後，增加40%你的下一次遠程[Attack|攻擊]傷害",
-        "成功[Parry|招架]一次[Projectile|投射物][HitDamage|擊中]後，增加40%你的下一次[Melee|近戰][Attack|攻擊]傷害"
+        "成功[Parry|招架]一次[Melee|近戰][Hit|擊中]後，增加40%你的下一次遠程[Attack|攻擊]傷害",
+        "成功[Parry|招架]一次[Projectile|投射物][Hit|擊中]後，增加40%你的下一次[Melee|近戰][Attack|攻擊]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -37036,7 +37036,7 @@
       ],
       "chineseStats": [
         "增加40%[Shock|感電]機率",
-        "[Lightning|閃電]技能增加5%[Attack|攻擊]和施放速度"
+        "[Lightning|閃電]技能增加5%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -37093,10 +37093,10 @@
       "english": "Rage when Hit",
       "chinese": "遭敵人擊中時，獲得盛怒",
       "englishStats": [
-        "Gain 2 [Rage] when [HitDamage|Hit] by an Enemy"
+        "Gain 2 [Rage] when [Hit] by an Enemy"
       ],
       "chineseStats": [
-        "遭敵人[HitDamage|擊中]時，獲得2層[Rage|盛怒]"
+        "遭敵人[Hit|擊中]時，獲得2層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -37326,11 +37326,11 @@
       "chinese": "迷蹤形態",
       "englishStats": [
         "Take 30% less Damage",
-        "4 seconds after being Damaged by an Enemy [HitDamage|Hit], take Damage equal to 30% of that [HitDamage|Hit]'s Damage"
+        "4 seconds after being Damaged by an Enemy [Hit], take Damage equal to 30% of that [Hit]'s Damage"
       ],
       "chineseStats": [
         "承受30%更少傷害",
-        "在被敵人[HitDamage|擊中]並受傷的4秒後，承受等同於30%該次[HitDamage|擊中]的傷害"
+        "在被敵人[Hit|擊中]並受傷的4秒後，承受等同於30%該次[Hit|擊中]的傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -37472,7 +37472,7 @@
       "chinese": "暴擊傷害核心",
       "englishStats": [
         "25% increased [CriticalDamageBonus|Critical Damage Bonus]",
-        "[HitDamage|Hits] against you have 25% reduced [CriticalDamageBonus|Critical Damage Bonus]"
+        "[Hit|Hits] against you have 25% reduced [CriticalDamageBonus|Critical Damage Bonus]"
       ],
       "chineseStats": [
         "增加25%[CriticalDamageBonus|暴擊傷害加成]",
@@ -37573,10 +37573,10 @@
       "english": "Damage vs Full Life",
       "chinese": "對滿血敵人的傷害",
       "englishStats": [
-        "20% increased Damage with [HitDamage|Hits] against Enemies that are on Full Life"
+        "20% increased Damage with [Hit|Hits] against Enemies that are on Full Life"
       ],
       "chineseStats": [
-        "增加20%對滿血敵人的[HitDamage|擊中]傷害"
+        "增加20%對滿血敵人的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -37748,11 +37748,11 @@
       "chinese": "散播火焰",
       "englishStats": [
         "10% increased Ignite Duration on Enemies",
-        "25% increased Damage with [HitDamage|Hits] against [Ignite|Ignited] Enemies"
+        "25% increased Damage with [Hit|Hits] against [Ignite|Ignited] Enemies"
       ],
       "chineseStats": [
         "增加10%敵人點燃持續時間",
-        "[HitDamage|擊中]對[Ignite|點燃]敵人增加25%傷害"
+        "[Hit|擊中]對[Ignite|點燃]敵人增加25%傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -37835,12 +37835,12 @@
       "englishStats": [
         "+10% to [Resistances|Fire Resistance]",
         "15% increased effect of [ArmourBreak|Fully Broken Armour]",
-        "[ArmourBreak|Fully Broken Armour] you inflict also increases [Fire] Damage Taken from [HitDamage|Hits]"
+        "[ArmourBreak|Fully Broken Armour] you inflict also increases [Fire] Damage Taken from [Hit|Hits]"
       ],
       "chineseStats": [
         "+10%[Resistances|火焰抗性]",
         "增加15%[ArmourBreak|完全破甲]的效果",
-        "你造成的[ArmourBreak|完全護甲破壞]同時會增加承受的[HitDamage|擊中][Fire|火焰]傷害"
+        "你造成的[ArmourBreak|完全護甲破壞]同時會增加承受的[Hit|擊中][Fire|火焰]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -37911,10 +37911,10 @@
       "english": "Armour if Hit",
       "chinese": "擊中時獲得護甲",
       "englishStats": [
-        "20% increased [Armour] if you have been [HitDamage|Hit] [Recently]"
+        "20% increased [Armour] if you have been [Hit] [Recently]"
       ],
       "chineseStats": [
-        "若你[Recently|近期]被[HitDamage|擊中]，增加20%[Armour|護甲值]"
+        "若你[Recently|近期]被[Hit|擊中]，增加20%[Armour|護甲值]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -38035,12 +38035,12 @@
       "skill": "28774",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -38115,12 +38115,12 @@
       "skill": "28839",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -38234,11 +38234,11 @@
       "chinese": "韻律脈輪",
       "englishStats": [
         "6% increased [Attack] Speed",
-        "20% Chance to build an additional [Combo] on [HitDamage|Hit]"
+        "20% Chance to build an additional [Combo] on [Hit]"
       ],
       "chineseStats": [
         "增加6%[Attack|攻擊]速度",
-        "[HitDamage|擊中]時有20%機率額外累積一個[Combo|連擊]"
+        "[Hit|擊中]時有20%機率額外累積一個[Combo|連擊]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -38277,10 +38277,10 @@
       "english": "Rage when Hit",
       "chinese": "遭敵人擊中時，獲得盛怒",
       "englishStats": [
-        "Gain 2 [Rage] when [HitDamage|Hit] by an Enemy"
+        "Gain 2 [Rage] when [Hit] by an Enemy"
       ],
       "chineseStats": [
-        "遭敵人[HitDamage|擊中]時，獲得2層[Rage|盛怒]"
+        "遭敵人[Hit|擊中]時，獲得2層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -38689,10 +38689,10 @@
       "english": "Sudden Infuriation",
       "chinese": "突發暴怒",
       "englishStats": [
-        "4% chance that if you would gain [Rage] on [HitDamage|Hit], you instead gain up to your maximum Rage"
+        "4% chance that if you would gain [Rage] on [Hit], you instead gain up to your maximum Rage"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有4%機率不會獲得[Rage|盛怒]，而是獲得最大盛怒"
+        "[Hit|擊中]時有4%機率不會獲得[Rage|盛怒]，而是獲得最大盛怒"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -38762,7 +38762,7 @@
         "8% increased Mana Cost [Efficiency]"
       ],
       "chineseStats": [
-        "增加8%魔力消耗[Efficiency|效率]"
+        "增加8%魔力消耗[Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -38831,12 +38831,12 @@
       "skill": "29502",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -38881,12 +38881,12 @@
       "englishStats": [
         "40% increased [Critical|Critical Hit Chance] against Enemies that are on Full Life",
         "Cannot be [Blind|Blinded] while on Full Life",
-        "80% increased Damage with [HitDamage|Hits] against Enemies that are on Full Life"
+        "80% increased Damage with [Hit|Hits] against Enemies that are on Full Life"
       ],
       "chineseStats": [
         "對滿血的敵人增加40%[Critical|暴擊率]",
         "生命已滿時無法被[Blind|致盲]",
-        "增加80%對滿血敵人的[HitDamage|擊中]傷害"
+        "增加80%對滿血敵人的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -39133,10 +39133,10 @@
       "english": "Incision Chance",
       "chinese": "切割機率",
       "englishStats": [
-        "20% chance for [Attack] [HitDamage|Hits] to apply [Incision]"
+        "20% chance for [Attack] [Hit|Hits] to apply [Incision]"
       ],
       "chineseStats": [
-        "[Attack|攻擊][HitDamage|擊中]時，有20%機率施加[Incision|切割]"
+        "[Attack|攻擊][Hit|擊中]時，有20%機率施加[Incision|切割]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -39945,12 +39945,12 @@
       "english": "Vile Wounds",
       "chinese": "惡性創傷",
       "englishStats": [
-        "33% increased Damage with [HitDamage|Hits] against Enemies affected by [Ailments]",
+        "33% increased Damage with [Hit|Hits] against Enemies affected by [Ailments]",
         "Huntress: +30 to [Accuracy|Accuracy] Rating",
         "Huntress: 10% increased [Accuracy] Rating"
       ],
       "chineseStats": [
-        "增加33%對受[Ailments|異常狀態]影響的敵人的[HitDamage|擊中]傷害",
+        "增加33%對受[Ailments|異常狀態]影響的敵人的[Hit|擊中]傷害",
         "女獵人: +30[Accuracy|命中]值",
         "女獵人: 增加10%[Accuracy|命中]值"
       ],
@@ -40203,12 +40203,12 @@
       "english": "Harmony Within",
       "chinese": "心宇和諧",
       "englishStats": [
-        "[HitDamage|Hit] damage is taken from Mana before Life if your current Mana is higher than your current Life",
+        "[Hit] damage is taken from Mana before Life if your current Mana is higher than your current Life",
         "15% less maximum Life",
         "15% less maximum Mana"
       ],
       "chineseStats": [
-        "如果你當前魔力高於當前生命，承受的[HitDamage|擊中]傷害會先從魔力扣除",
+        "如果你當前魔力高於當前生命，承受的[Hit|擊中]傷害會先從魔力扣除",
         "15%更少最大生命",
         "15%更少最大魔力"
       ],
@@ -40323,10 +40323,10 @@
       "english": "Gem Studded",
       "chinese": "鑲嵌的寶石",
       "englishStats": [
-        "For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have 30% less cost\n•Green: 40% less Movement Speed Penalty from using Skills while Moving"
+        "For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [Hit|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have 30% less cost\n•Green: 40% less Movement Speed Penalty from using Skills while Moving"
       ],
       "chineseStats": [
-        "依據插槽中的輔助寶石最多顆的顏色，會獲得\n•紅色：對你的[HitDamage|擊中]傷害無[CriticalDamageBonus|暴擊傷害加成]\n•藍色：技能有30%更少消耗\n•綠色：移動時使用技能會有40%更少移動速度懲罰"
+        "依據插槽中的輔助寶石最多顆的顏色，會獲得\n•紅色：對你的[Hit|擊中]傷害無[CriticalDamageBonus|暴擊傷害加成]\n•藍色：技能有30%更少消耗\n•綠色：移動時使用技能會有40%更少移動速度懲罰"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -40764,11 +40764,11 @@
       "chinese": "催化",
       "englishStats": [
         "20% increased [ElementalDamage|Elemental] Damage with [Attack|Attacks]",
-        "5% of [Physical] Damage from [HitDamage|Hits] taken as Damage of a Random [ElementalDamage|Element]"
+        "5% of [Physical] Damage from [Hit|Hits] taken as Damage of a Random [ElementalDamage|Element]"
       ],
       "chineseStats": [
         "增加20%[Attack|攻擊][ElementalDamage|元素]傷害",
-        "承受的5%[HitDamage|擊中][Physical|物理]傷害視為1種隨機[ElementalDamage|元素]傷害"
+        "承受的5%[Hit|擊中][Physical|物理]傷害視為1種隨機[ElementalDamage|元素]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -41234,7 +41234,7 @@
         "8% increased Mana Cost [Efficiency]"
       ],
       "chineseStats": [
-        "增加8%魔力消耗[Efficiency|效率]"
+        "增加8%魔力消耗[Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -41264,7 +41264,7 @@
         "6% increased [Reservation] [Efficiency] of [Herald] Skills"
       ],
       "chineseStats": [
-        "[Herald|捷光環]技能增加6%[Reservation|保留]效率"
+        "[Herald|捷光環]技能增加6%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -41898,7 +41898,7 @@
       ],
       "chineseStats": [
         "增加2%[Attack|攻擊]速度",
-        "增加5%消耗[Efficiency|效率]"
+        "增加5%消耗[Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -42501,11 +42501,11 @@
       "english": "Captivating Companionship",
       "chinese": "迷人陪伴",
       "englishStats": [
-        "5% of Damage from [HitDamage|Hits] is taken from your Damageable [Companion]'s Life before you",
+        "5% of Damage from [Hit|Hits] is taken from your Damageable [Companion]'s Life before you",
         "20% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while your [Companion] is in your [Presence]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]傷害的5%會先由你的可傷害[Companion|盟友]承受",
+        "[Hit|擊中]傷害的5%會先由你的可傷害[Companion|盟友]承受",
         "當你的[Companion|盟友]在你的[Presence|存在範圍]內時，增加20%[Armour|護甲]、[Evasion|閃避]與[EnergyShield|能量護盾]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -42661,10 +42661,10 @@
       "english": "Poison Chance",
       "chinese": "中毒機率",
       "englishStats": [
-        "8% chance to [Poison|Poison] on [HitDamage|Hit]"
+        "8% chance to [Poison|Poison] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有8%機率造成[Poison|中毒]"
+        "[Hit|擊中]時有8%機率造成[Poison|中毒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -42991,13 +42991,13 @@
       "skill": "33209",
       "code": "",
       "english": "Totem Cast and Attack Speed",
-      "chinese": "圖騰攻擊及施放速度",
+      "chinese": "圖騰攻擊及施法速度",
       "englishStats": [
         "[Spell|Spells] Cast by [Totem|Totems] have 4% increased Cast Speed",
         "[Attack|Attacks] used by Totems have 4% increased [Attack] Speed"
       ],
       "chineseStats": [
-        "增加4%[Totem|圖騰]施放[Spell|法術]的施放速度",
+        "增加4%[Totem|圖騰]施放[Spell|法術]的施法速度",
         "增加4%圖騰使用[Attack|攻擊]的[Attack|攻擊]速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -43019,10 +43019,10 @@
       "english": "Deep Wounds",
       "chinese": "深層創傷",
       "englishStats": [
-        "[Attack] [HitDamage|Hits] [Aggravate] any [Bleeding] on targets which is older than 4 seconds"
+        "[Attack] [Hit|Hits] [Aggravate] any [Bleeding] on targets which is older than 4 seconds"
       ],
       "chineseStats": [
-        "[Attack|攻擊][HitDamage|擊中]會[Aggravate|加劇]目標身上任何超過4秒的[Bleeding|流血]"
+        "[Attack|攻擊][Hit|擊中]會[Aggravate|加劇]目標身上任何超過4秒的[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -43086,7 +43086,7 @@
         "12% increased [Reservation] [Efficiency] of [Minion] Skills"
       ],
       "chineseStats": [
-        "[Minion|召喚物]技能增加12%[Reservation|保留]效率"
+        "[Minion|召喚物]技能增加12%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -43278,11 +43278,11 @@
       "chinese": "回響招架",
       "englishStats": [
         "15% increased [ParriedDebuff|Parried Debuff] [BuffMagnitude|Magnitude]",
-        "20% increased [Parry] [HitDamage|Hit] Area of Effect"
+        "20% increased [Parry] [Hit] Area of Effect"
       ],
       "chineseStats": [
         "增加15%[ParriedDebuff|受招架減益效果]的[BuffMagnitude|幅度]",
-        "增加20%[Parry|招架][HitDamage|擊中]的範圍效果"
+        "增加20%[Parry|招架][Hit|擊中]的範圍效果"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -43354,7 +43354,7 @@
         "Requires The Unseen Path"
       ],
       "chineseStats": [
-        "增加4%[Totem|圖騰]施放[Spell|法術]的施放速度",
+        "增加4%[Totem|圖騰]施放[Spell|法術]的施法速度",
         "增加4%圖騰使用[Attack|攻擊]的[Attack|攻擊]速度",
         "需要 未見之道"
       ],
@@ -43841,7 +43841,7 @@
       ],
       "chineseStats": [
         "增加20%[Cold|冰冷]傷害",
-        "被冰緩時增加10%施放速度",
+        "被冰緩時增加10%施法速度",
         "減少5%移動使用冰冷技能時的移動速度懲罰"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -44338,7 +44338,7 @@
       ],
       "chineseStats": [
         "增加20%魔力回復率",
-        "增加15%魔力消耗[Efficiency|效率]"
+        "增加15%魔力消耗[Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -44382,11 +44382,11 @@
       "chinese": "微小損害",
       "englishStats": [
         "Enemy [Critical|Critical Hit Chance] against you is [Unlucky]",
-        "Damage of Enemies [HitDamage|Hitting] you is [Unlucky]"
+        "Damage of Enemies [Hit|Hitting] you is [Unlucky]"
       ],
       "chineseStats": [
         "敵人對你的[Critical|暴擊率][Unlucky|不幸]",
-        "敵人對你的[HitDamage|擊中傷害][Unlucky|不幸]"
+        "敵人對你的[Hit|擊中傷害][Unlucky|不幸]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -44397,13 +44397,13 @@
       "english": "One with the River",
       "chinese": "和河同行",
       "englishStats": [
-        "10% chance to [Daze] on [HitDamage|Hit]",
+        "10% chance to [Daze] on [Hit]",
         "30% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while wielding a [Quarterstaff]",
         "30% increased [Freeze] Buildup with [Quarterstaff|Quarterstaves]",
         "30% increased [Stun] Buildup with [Quarterstaff|Quarterstaves]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有10%機率造成[Daze|目眩]",
+        "[Hit|擊中]時有10%機率造成[Daze|目眩]",
         "持用[Quarterstaff|細杖]時增加30%[Armour|護甲]、[Evasion|閃避]與[EnergyShield|能量護盾]",
         "增加30%[Quarterstaff|細杖]的[Freeze|冰凍]累積",
         "增加30%[Quarterstaff|細杖]的[Stun|暈眩]累積"
@@ -44632,7 +44632,7 @@
         "增加29%[Chaos|混沌]傷害",
         "+13點全部[Attributes|能力值]",
         "-7%[Resistances|混沌抗性]",
-        "減少23%[LightRadius|光線範圍]"
+        "減少23%[LightRadius|照亮範圍]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -44644,11 +44644,11 @@
       "chinese": "毒蛇之羈絆",
       "englishStats": [
         "16% increased Skill Effect Duration",
-        "[Companion|Companions] have a 40% chance to [Poison] on [HitDamage|Hit]"
+        "[Companion|Companions] have a 40% chance to [Poison] on [Hit]"
       ],
       "chineseStats": [
         "增加16%技能效果持續時間",
-        "[Companion|盟友]有40%機率[HitDamage|擊中]時造成[Poison|中毒"
+        "[Companion|盟友]有40%機率[Hit|擊中]時造成[Poison|中毒"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -44803,10 +44803,10 @@
       "english": "Emboldening Lead",
       "chinese": "鼓舞領導",
       "englishStats": [
-        "[Minion|Minions] deal 30% increased Damage if you've [HitDamage|Hit] [Recently]"
+        "[Minion|Minions] deal 30% increased Damage if you've [Hit] [Recently]"
       ],
       "chineseStats": [
-        "若你[Recently|近期]有被[HitDamage|擊中]，增加30%[Minion|召喚物]造成的傷害"
+        "若你[Recently|近期]造成[Hit|擊中] ，增加30%[Minion|召喚物]造成的傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -45081,7 +45081,7 @@
       "english": "Strength and Critical Damage Bonus on You",
       "chinese": "力量和對你的暴擊傷害加成",
       "englishStats": [
-        "[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]",
+        "[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]",
         "+5 to [Strength]"
       ],
       "chineseStats": [
@@ -45111,10 +45111,10 @@
       "english": "Rage when Hit",
       "chinese": "遭敵人擊中時，獲得盛怒",
       "englishStats": [
-        "Gain 2 [Rage] when [HitDamage|Hit] by an Enemy"
+        "Gain 2 [Rage] when [Hit] by an Enemy"
       ],
       "chineseStats": [
-        "遭敵人[HitDamage|擊中]時，獲得2層[Rage|盛怒]"
+        "遭敵人[Hit|擊中]時，獲得2層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -45178,13 +45178,13 @@
       "chinese": "堅決偏斜",
       "englishStats": [
         "Gain [Deflect|Deflection Rating] equal to 8% of [Evasion|Evasion Rating]",
-        "[Deflect|Deflected] [HitDamage|Hits] cannot inflict [Maim] on you",
-        "[Deflect|Deflected] [HitDamage|Hits] cannot inflict [Bleeding] on you"
+        "[Deflect|Deflected] [Hit|Hits] cannot inflict [Maim] on you",
+        "[Deflect|Deflected] [Hit|Hits] cannot inflict [Bleeding] on you"
       ],
       "chineseStats": [
         "獲得等同8%[Evasion|閃避值]的[Deflect|偏斜值]",
-        "[Deflect|偏斜]的[HitDamage|擊中]無法對你施加[Maim|癱瘓]",
-        "[Deflect|偏斜]的[HitDamage|擊中]無法對你施加[Bleeding|流血]"
+        "[Deflect|偏斜]的[Hit|擊中]無法對你施加[Maim|癱瘓]",
+        "[Deflect|偏斜]的[Hit|擊中]無法對你施加[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -45271,11 +45271,11 @@
       "english": "Poison Chance",
       "chinese": "中毒機率",
       "englishStats": [
-        "10% chance to [Poison|Poison] on [HitDamage|Hit]",
+        "10% chance to [Poison|Poison] on [Hit]",
         "Requires The Unseen Path"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有10%機率造成[Poison|中毒]",
+        "[Hit|擊中]時有10%機率造成[Poison|中毒]",
         "需要 未見之道"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -45568,7 +45568,7 @@
         "6% increased [Reservation] [Efficiency] of [Herald] Skills"
       ],
       "chineseStats": [
-        "[Herald|捷光環]技能增加6%[Reservation|保留]效率"
+        "[Herald|捷光環]技能增加6%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -45781,12 +45781,12 @@
       "skill": "35534",
       "code": "",
       "english": "Mark Use Speed",
-      "chinese": "印記施放速度",
+      "chinese": "印記施法速度",
       "englishStats": [
         "[Mark] Skills have 10% increased Use Speed"
       ],
       "chineseStats": [
-        "增加10%[Mark|印記]技能的施放速度"
+        "增加10%[Mark|印記]技能的施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -46344,7 +46344,7 @@
         "4% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加4%施放速度"
+        "增加4%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -46773,10 +46773,10 @@
       "english": "Daze on Hit",
       "chinese": "擊中時目眩",
       "englishStats": [
-        "5% chance to [Daze] on [HitDamage|Hit]"
+        "5% chance to [Daze] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Daze|目眩]"
+        "[Hit|擊中]時有5%機率造成[Daze|目眩]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -46850,7 +46850,7 @@
         "6% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加6%施放速度"
+        "增加6%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -46957,10 +46957,10 @@
       "english": "Rage on Hit",
       "chinese": "擊中時獲得盛怒",
       "englishStats": [
-        "Gain 1 [Rage|Rage] on [Melee] [HitDamage|Hit]"
+        "Gain 1 [Rage|Rage] on [Melee] [Hit]"
       ],
       "chineseStats": [
-        "[Melee|近戰][HitDamage|擊中]時，獲得1層[Rage|盛怒]"
+        "[Melee|近戰][Hit|擊中]時，獲得1層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -47183,10 +47183,10 @@
       "english": "Damage against Enemies on Low Life",
       "chinese": "對貧血敵人造成的傷害",
       "englishStats": [
-        "30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"
+        "30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"
       ],
       "chineseStats": [
-        "對[LowLife|貧血狀態]的敵人增加30%[HitDamage|擊中]傷害"
+        "對[LowLife|貧血狀態]的敵人增加30%[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -47297,11 +47297,11 @@
       "english": "Imploding Impacts",
       "chinese": "碎猛之擊",
       "englishStats": [
-        "[ArmourBreak|Fully Broken Armour] you inflict increases all Damage Taken from [HitDamage|Hits] instead",
+        "[ArmourBreak|Fully Broken Armour] you inflict increases all Damage Taken from [Hit|Hits] instead",
         "You can [ArmourOverbreak|Break Enemy Armour to below 0]"
       ],
       "chineseStats": [
-        "你造成的[ArmourBreak|完全護甲破壞]會改為增加所有承受的[HitDamage|擊中]傷害",
+        "你造成的[ArmourBreak|完全護甲破壞]會改為增加所有承受的[Hit|擊中]傷害",
         "你可以[ArmourOverbreak|將敵人的護甲破壞至0以下]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -47567,10 +47567,10 @@
       "english": "Bleed Chance",
       "chinese": "流血機率",
       "englishStats": [
-        "5% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]"
+        "5% chance to inflict [Bleeding|Bleeding] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Bleeding|流血]"
+        "[Hit|擊中]時有5%機率造成[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -47579,12 +47579,12 @@
       "skill": "36927",
       "code": "",
       "english": "Mark Use Speed",
-      "chinese": "印記施放速度",
+      "chinese": "印記施法速度",
       "englishStats": [
         "[Mark] Skills have 10% increased Use Speed"
       ],
       "chineseStats": [
-        "增加10%[Mark|印記]技能的施放速度"
+        "增加10%[Mark|印記]技能的施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -47596,11 +47596,11 @@
       "chinese": "連續攻擊",
       "englishStats": [
         "25% increased [Attack] Damage",
-        "5% chance to [Daze] on [HitDamage|Hit]"
+        "5% chance to [Daze] on [Hit]"
       ],
       "chineseStats": [
         "增加25%[Attack|攻擊]傷害",
-        "[HitDamage|擊中]時有5%機率造成[Daze|目眩]"
+        "[Hit|擊中]時有5%機率造成[Daze|目眩]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -48010,7 +48010,7 @@
         "3% increased [Attack] and Cast Speed with [Lightning|Lightning] Skills"
       ],
       "chineseStats": [
-        "[Lightning|閃電]技能增加3%[Attack|攻擊]和施放速度"
+        "[Lightning|閃電]技能增加3%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -48212,7 +48212,7 @@
       "chineseStats": [
         "增加15%生命回復率",
         "增加15%魔力回復率",
-        "滿魔力時，增加12%施放速度"
+        "滿魔力時，增加12%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -48247,7 +48247,7 @@
       "english": "Strength and Critical Damage Bonus on You",
       "chinese": "力量和對你的暴擊傷害加成",
       "englishStats": [
-        "[HitDamage|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]",
+        "[Hit|Hits] against you have 5% reduced [CriticalDamageBonus|Critical Damage Bonus]",
         "+5 to [Strength]"
       ],
       "chineseStats": [
@@ -48430,7 +48430,7 @@
       "type": "passive",
       "skill": "37688",
       "code": "",
-      "english": "Devestating Devices",
+      "english": "Devastating Devices",
       "chinese": "破壞裝置",
       "englishStats": [
         "25% increased [Trap] Damage"
@@ -48556,8 +48556,8 @@
         "Requires The Unseen Path"
       ],
       "chineseStats": [
-        "技能減少20%[Spirit|精魂]保留效率",
-        "[Minion|召喚物]技能增加40%[Reservation|保留]效率",
+        "技能減少20%[Spirit|精魂][Reservation|保留][Efficiency|效用]",
+        "[Minion|召喚物]技能增加40%[Reservation|保留][Efficiency|效用]",
         "需要 未見之道"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -48569,10 +48569,10 @@
       "english": "Combo Gain",
       "chinese": "連擊獲得",
       "englishStats": [
-        "10% Chance to build an additional [Combo] on [HitDamage|Hit]"
+        "10% Chance to build an additional [Combo] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有10%機率額外累積一個[Combo|連擊]"
+        "[Hit|擊中]時有10%機率額外累積一個[Combo|連擊]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -48636,11 +48636,11 @@
       "chinese": "光明壁壘",
       "englishStats": [
         "[Blind] Enemies 3 metres in front of you every 0.25 seconds while your [Shield] is raised",
-        "Raise Shield inflicts [Parry|Parried] for 2 seconds on [HitDamage|Hit]"
+        "Raise Shield inflicts [Parry|Parried] for 2 seconds on [Hit]"
       ],
       "chineseStats": [
         "當你舉起[Shield|盾牌]時，每0.25秒[Blind|致盲]前方3公尺內的敵人",
-        "舉盾在[HitDamage|擊中]時對敵人施加[Parry|招架]效果，持續2秒"
+        "舉盾在[Hit|擊中]時對敵人施加[Parry|招架]效果，持續2秒"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -49309,11 +49309,11 @@
       "english": "Stupefy",
       "chinese": "麻木",
       "englishStats": [
-        "10% chance to [Daze] on [HitDamage|Hit]",
+        "10% chance to [Daze] on [Hit]",
         "30% increased Damage against [Daze|Dazed] Enemies"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有10%機率造成[Daze|目眩]",
+        "[Hit|擊中]時有10%機率造成[Daze|目眩]",
         "增加30%對[Daze|目眩]敵人的傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -49422,11 +49422,11 @@
       "chinese": "混亂攻擊",
       "englishStats": [
         "25% increased [Blind] duration",
-        "25% increased Damage with [HitDamage|Hits] against [Blind|Blinded] Enemies"
+        "25% increased Damage with [Hit|Hits] against [Blind|Blinded] Enemies"
       ],
       "chineseStats": [
         "增加25%[Blind|致盲]持續時間",
-        "增加25%對被[Blind|致盲]敵人的[HitDamage|擊中]傷害"
+        "增加25%對被[Blind|致盲]敵人的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -49542,7 +49542,7 @@
       ],
       "chineseStats": [
         "傷害穿透敵人8%的元素抗性",
-        "元素技能增加5%[Attack|攻擊]和施放速度"
+        "元素技能增加5%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -49745,10 +49745,10 @@
       "english": "Armour if Hit",
       "chinese": "擊中時獲得護甲",
       "englishStats": [
-        "20% increased [Armour] if you have been [HitDamage|Hit] [Recently]"
+        "20% increased [Armour] if you have been [Hit] [Recently]"
       ],
       "chineseStats": [
-        "若你[Recently|近期]被[HitDamage|擊中]，增加20%[Armour|護甲值]"
+        "若你[Recently|近期]被[Hit|擊中]，增加20%[Armour|護甲值]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -49898,7 +49898,7 @@
         "6% increased [Reservation] [Efficiency] of [Herald] Skills"
       ],
       "chineseStats": [
-        "[Herald|捷光環]技能增加6%[Reservation|保留]效率"
+        "[Herald|捷光環]技能增加6%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -49949,7 +49949,7 @@
       "skill": "38813",
       "code": "",
       "english": "Devotion to the King",
-      "chinese": "向王效忠",
+      "chinese": "誓忠於王",
       "englishStats": [
         " Grants Skill: Queen's Procession"
       ],
@@ -50229,11 +50229,11 @@
       "english": "Exploit",
       "chinese": "弱點針對",
       "englishStats": [
-        "25% increased Damage with [HitDamage|Hits] against Enemies affected by [ElementalAilments|Elemental Ailments]",
+        "25% increased Damage with [Hit|Hits] against Enemies affected by [ElementalAilments|Elemental Ailments]",
         "15% increased Duration of [Ignite], [Shock] and [Chill] on Enemies"
       ],
       "chineseStats": [
-        "增加25%對受[ElementalAilments|元素異常狀態]影響的敵人的[HitDamage|擊中]傷害",
+        "增加25%對受[ElementalAilments|元素異常狀態]影響的敵人的[Hit|擊中]傷害",
         "增加15%敵人身上的[Ignite|點燃]、[Shock|感電]和[Chill|冰緩]持續時間"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -50341,10 +50341,10 @@
       "english": "Melee Damage",
       "chinese": "近戰傷害",
       "englishStats": [
-        "15% increased [Melee] Damage with [HitDamage|Hits] at [CloseRange|Close Range]"
+        "15% increased [Melee] Damage with [Hit|Hits] at [CloseRange|Close Range]"
       ],
       "chineseStats": [
-        "[CloseRange|近距離]下增加15%[Melee|近戰][HitDamage|擊中]傷害"
+        "[CloseRange|近距離]下增加15%[Melee|近戰][Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -51078,7 +51078,7 @@
       ],
       "chineseStats": [
         "召喚物減少15%[Attack|攻擊]速度",
-        "召喚物減少15%施放速度",
+        "召喚物減少15%施法速度",
         "增加100%[Minion|召喚物]的[Command|號令]技能造成的傷害",
         "需要 未見之道"
       ],
@@ -51092,12 +51092,12 @@
       "chinese": "撼敵之掌",
       "englishStats": [
         "20% increased [Knockback] Distance",
-        "10% chance to [Daze] on [HitDamage|Hit]",
+        "10% chance to [Daze] on [Hit]",
         "25% increased [Physical] Damage"
       ],
       "chineseStats": [
         "增加20%[Knockback|擊退]距離",
-        "[HitDamage|擊中]時有10%機率造成[Daze|目眩]",
+        "[Hit|擊中]時有10%機率造成[Daze|目眩]",
         "增加25%[Physical|物理]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -51275,10 +51275,10 @@
       "english": "Poison Chance",
       "chinese": "中毒機率",
       "englishStats": [
-        "8% chance to [Poison|Poison] on [HitDamage|Hit]"
+        "8% chance to [Poison|Poison] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有8%機率造成[Poison|中毒]"
+        "[Hit|擊中]時有8%機率造成[Poison|中毒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -51382,7 +51382,7 @@
       ],
       "chineseStats": [
         "增加8%[Attack|攻擊]速度",
-        "增加15%消耗[Efficiency|效率]"
+        "增加15%消耗[Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -51493,10 +51493,10 @@
       "english": "Bleed Chance",
       "chinese": "流血機率",
       "englishStats": [
-        "5% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]"
+        "5% chance to inflict [Bleeding|Bleeding] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Bleeding|流血]"
+        "[Hit|擊中]時有5%機率造成[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -51583,10 +51583,10 @@
       "english": "Bleeding Chance",
       "chinese": "流血機率",
       "englishStats": [
-        "5% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]"
+        "5% chance to inflict [Bleeding|Bleeding] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Bleeding|流血]"
+        "[Hit|擊中]時有5%機率造成[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -51865,10 +51865,10 @@
       "english": "Damage vs Low Life Enemies",
       "chinese": "對貧血狀態的敵人造成的傷害",
       "englishStats": [
-        "35% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"
+        "35% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"
       ],
       "chineseStats": [
-        "對[LowLife|貧血狀態]的敵人增加35%[HitDamage|擊中]傷害"
+        "對[LowLife|貧血狀態]的敵人增加35%[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -51963,10 +51963,10 @@
       "english": "Wooden Wall",
       "chinese": "堅木之壘",
       "englishStats": [
-        "20% of Damage from [HitDamage|Hits] is taken from your nearest [Totem|Totem's] Life before you"
+        "20% of Damage from [Hit|Hits] is taken from your nearest [Totem|Totem's] Life before you"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]傷害在扣除你的生命前，其20%傷害先從距離你最近的[Totem|圖騰]扣除生命"
+        "[Hit|擊中]傷害在扣除你的生命前，其20%傷害先從距離你最近的[Totem|圖騰]扣除生命"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -52267,10 +52267,10 @@
       "english": "Damage against Ailments",
       "chinese": "對異常狀態者造成傷害",
       "englishStats": [
-        "12% increased Damage with [HitDamage|Hits] against Enemies affected by [ElementalAilments|Elemental Ailments]"
+        "12% increased Damage with [Hit|Hits] against Enemies affected by [ElementalAilments|Elemental Ailments]"
       ],
       "chineseStats": [
-        "增加12%對受[ElementalAilments|元素異常狀態]影響的敵人的[HitDamage|擊中]傷害"
+        "增加12%對受[ElementalAilments|元素異常狀態]影響的敵人的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -52712,11 +52712,11 @@
       "chinese": "癱瘓打擊",
       "englishStats": [
         "25% increased [Attack] Damage",
-        "[Attack|Attacks] have 25% chance to [Maim|Maim] on [HitDamage|Hit]"
+        "[Attack|Attacks] have 25% chance to [Maim|Maim] on [Hit]"
       ],
       "chineseStats": [
         "增加25%[Attack|攻擊]傷害",
-        "[Attack|攻擊][HitDamage|擊中]時有25%機率造成[Maim|癱瘓]"
+        "[Attack|攻擊][Hit|擊中]時有25%機率造成[Maim|癱瘓]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -52821,12 +52821,12 @@
       "skill": "41651",
       "code": "",
       "english": "Banner Area",
-      "chinese": "旗幟範圍",
+      "chinese": "鬥旗範圍",
       "englishStats": [
         "[Banner] Skills have 12% increased Area of Effect"
       ],
       "chineseStats": [
-        "[Banner|旗幟]技能增加12%範圍效果"
+        "[Banner|鬥旗]技能增加12%範圍效果"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -52964,11 +52964,11 @@
       "chinese": "喚起施行者",
       "englishStats": [
         "25% increased [Critical|Critical Hit] Chance if you've [Trigger|Triggered] a Skill [Recently]",
-        "[Meta] Skills gain 25% increased [Energy] if you've dealt a [Critical] [HitDamage|Hit] [Recently]"
+        "[Meta] Skills gain 25% increased [Energy] if you've dealt a [Critical] [Hit] [Recently]"
       ],
       "chineseStats": [
         "若你[Recently|近期][Trigger|觸發]過技能，增加25%[Critical|暴擊]率",
-        "若你[Recently|近期]造成[Critical|暴擊][HitDamage|擊中]，增加25%[Meta|主要]技能獲得[Energy|能量]"
+        "若你[Recently|近期]造成[Critical|暴擊][Hit|擊中]，增加25%[Meta|主要]技能獲得[Energy|能量]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -52996,11 +52996,11 @@
       "chinese": "招架範圍和減益幅度",
       "englishStats": [
         "6% increased [ParriedDebuff|Parried Debuff] [BuffMagnitude|Magnitude]",
-        "8% increased [Parry] [HitDamage|Hit] Area of Effect"
+        "8% increased [Parry] [Hit] Area of Effect"
       ],
       "chineseStats": [
         "增加6%[ParriedDebuff|受招架減益效果]的[BuffMagnitude|幅度]",
-        "增加8%[Parry|招架][HitDamage|擊中]的範圍效果"
+        "增加8%[Parry|招架][Hit|擊中]的範圍效果"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -53056,7 +53056,7 @@
         "You can have two [Companion|Companions] of different types\n30% more [Reservation] [Efficiency] of [Companion] Skills\n20% less [Reservation] [Efficiency] of non-[Companion] Skills"
       ],
       "chineseStats": [
-        "你可以擁有兩種不同種類的[Companion|盟友]\n[Companion|盟友]技能擁有30%更多[Reservation|保留][Efficiency|效率]\n20%更少非[Companion|盟友]技能的[Reservation|保留][Efficiency|效率]"
+        "你可以擁有兩種不同種類的[Companion|盟友]\n[Companion|盟友]技能擁有30%更多[Reservation|保留][Efficiency|效用]\n20%更少非[Companion|盟友]技能的[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -53081,10 +53081,10 @@
       "english": "Point Blank",
       "chinese": "零點射擊",
       "englishStats": [
-        "[Projectile|Projectiles] deal 20% more [HitDamage|Hit] damage to targets in the first 3.5 metres of their movement, scaling down with distance travelled to reach 0% after 7 metres"
+        "[Projectile|Projectiles] deal 20% more [Hit] damage to targets in the first 3.5 metres of their movement, scaling down with distance travelled to reach 0% after 7 metres"
       ],
       "chineseStats": [
-        "[Projectile|投射物]對最初3.5公尺內目標造成20%更多[HitDamage|擊中]傷害，隨飛行距離減少，在7公尺後為0%"
+        "[Projectile|投射物]對最初3.5公尺內目標造成20%更多[Hit|擊中]傷害，隨飛行距離減少，在7公尺後為0%"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -53193,12 +53193,12 @@
       "skill": "41991",
       "code": "",
       "english": "Minion Attack and Cast Speed",
-      "chinese": "召喚物攻擊和施放速度",
+      "chinese": "召喚物攻擊和施法速度",
       "englishStats": [
         "[Minion|Minions] have 3% increased [Attack] and Cast Speed"
       ],
       "chineseStats": [
-        "[Minion|召喚物]增加3%[Attack|攻擊]和施放速度"
+        "[Minion|召喚物]增加3%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -53390,11 +53390,11 @@
       "chinese": "恆久偏斜",
       "englishStats": [
         "20% increased [Evasion|Evasion Rating]",
-        "Prevent +3% of Damage from [Deflect|Deflected] [HitDamage|Hits]"
+        "Prevent +3% of Damage from [Deflect|Deflected] [Hit|Hits]"
       ],
       "chineseStats": [
         "增加20%[Evasion|閃避值]",
-        "抵禦[Deflect|偏斜][HitDamage|擊中]的+3%傷害"
+        "抵禦[Deflect|偏斜][Hit|擊中]的+3%傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -53518,7 +53518,7 @@
         "[Meta] Skills have 20% increased [Reservation] [Efficiency]"
       ],
       "chineseStats": [
-        "[Meta|主要]技能增加20%[Reservation|保留][Efficiency|效率]"
+        "[Meta|主要]技能增加20%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -53604,7 +53604,7 @@
         "Projectiles have 75% chance for an additional Projectile when [Fork|Forking]"
       ],
       "chineseStats": [
-        "投射物[Fork|分岔]時有75%機率發射1個額外投射物"
+        "投射物[Fork|分裂]時有75%機率發射1個額外投射物"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -53631,12 +53631,12 @@
       "englishStats": [
         "20% increased [LightRadius|Light Radius]",
         "Cannot be [Blind|Blinded]",
-        "12% chance to [Blind] Enemies on [HitDamage|Hit]"
+        "12% chance to [Blind] Enemies on [Hit]"
       ],
       "chineseStats": [
-        "增加20%[LightRadius|光線範圍]",
+        "增加20%[LightRadius|照亮範圍]",
         "不會被[Blind|致盲]",
-        "[HitDamage|擊中]敵人時有12%機率[Blind|致盲]"
+        "[Hit|擊中]敵人時有12%機率[Blind|致盲]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -53745,14 +53745,14 @@
       "english": "Surging Avatar",
       "chinese": "澎湃灌注",
       "englishStats": [
+        "Gain 1 fewer [Surge|Lightning Surge] from [Trigger|Triggering] Elemental Surge",
         "When you Consume a [Charges|Charge], [Trigger] Elemental Surge to gain 2 [Surge|Fire Surges]",
-        "When you Consume a [Charges|Charge], [Trigger] Elemental Surge to gain 2 [Surge|Cold Surges]",
-        "Gain 1 fewer [Surge|Lightning Surge] from [Trigger|Triggering] Elemental Surge"
+        "When you Consume a [Charges|Charge], [Trigger] Elemental Surge to gain 2 [Surge|Cold Surges]"
       ],
       "chineseStats": [
+        "[Trigger|觸發]元素波動時獲得1更少[Surge|閃電波動]",
         "當你消耗[Charges|能量球]時，[Trigger|觸發]元素波動以獲得2[Surge|火焰波動]",
-        "當你消耗[Charges|能量球]時，[Trigger|觸發]元素波動以獲得2[Surge|冰冷波動]",
-        "[Trigger|觸發]元素波動時獲得1更少[Surge|閃電波動]"
+        "當你消耗[Charges|能量球]時，[Trigger|觸發]元素波動以獲得2[Surge|冰冷波動]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -54077,14 +54077,14 @@
       "englishStats": [
         "15% chance to [Pierce|Pierce] an Enemy",
         "15% increased [Projectile] Damage",
-        "Huntress: 30% increased [Melee] Damage if you've dealt a [Projectile] [Attack] [HitDamage|Hit] in the past eight seconds",
-        "Huntress: 30% increased [Projectile] Damage if you've dealt a [Melee] [HitDamage|Hit] in the past eight seconds"
+        "Huntress: 30% increased [Melee] Damage if you've dealt a [Projectile] [Attack] [Hit] in the past eight seconds",
+        "Huntress: 30% increased [Projectile] Damage if you've dealt a [Melee] [Hit] in the past eight seconds"
       ],
       "chineseStats": [
         "有15%機率[Pierce|穿透]一個敵人",
         "增加15%[Projectile|投射物]傷害",
-        "女獵人: 如果你在過去8秒內以[Projectile|投射物][Attack|攻擊][HitDamage|擊中]，增加30%[Melee|近戰]傷害",
-        "女獵人: 如果你在過去8秒內以[Melee|近戰][HitDamage|擊中]，增加30%則[Projectile|投射物]傷害"
+        "女獵人: 如果你在過去8秒內以[Projectile|投射物][Attack|攻擊][Hit|擊中]，增加30%[Melee|近戰]傷害",
+        "女獵人: 如果你在過去8秒內以[Melee|近戰][Hit|擊中]，增加30%則[Projectile|投射物]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -54171,12 +54171,12 @@
       "skill": "42845",
       "code": "",
       "english": "Banner Area",
-      "chinese": "旗幟範圍",
+      "chinese": "鬥旗範圍",
       "englishStats": [
         "[Banner] Skills have 16% increased Area of Effect"
       ],
       "chineseStats": [
-        "[Banner|旗幟]技能增加16%範圍效果"
+        "[Banner|鬥旗]技能增加16%範圍效果"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -54241,10 +54241,10 @@
       "english": "Blind Chance",
       "chinese": "致盲機率",
       "englishStats": [
-        "5% chance to [Blind] Enemies on [HitDamage|Hit]"
+        "5% chance to [Blind] Enemies on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]敵人時有5%機率[Blind|致盲]"
+        "[Hit|擊中]敵人時有5%機率[Blind|致盲]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -54493,10 +54493,10 @@
       "english": "Damage vs Low Life Enemies",
       "chinese": "對貧血狀態的敵人造成的傷害",
       "englishStats": [
-        "35% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"
+        "35% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"
       ],
       "chineseStats": [
-        "對[LowLife|貧血狀態]的敵人增加35%[HitDamage|擊中]傷害"
+        "對[LowLife|貧血狀態]的敵人增加35%[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -54633,10 +54633,10 @@
       "english": "Adaptive Skin",
       "chinese": "適應皮膚",
       "englishStats": [
-        "+1% to [MaximumResistances|Maximum Resistances] of each [ElementalDamage|Elemental] Damage Type you have been [HitDamage|Hit] with [Recently]"
+        "+1% to [MaximumResistances|Maximum Resistances] of each [ElementalDamage|Elemental] Damage Type you have been [Hit] with [Recently]"
       ],
       "chineseStats": [
-        "根據你[Recently|近期]被[HitDamage|擊中]的[ElementalDamage|元素]傷害種類增加+1%[MaximumResistances|最大抗性]"
+        "根據你[Recently|近期]被[Hit|擊中]的[ElementalDamage|元素]傷害種類增加+1%[MaximumResistances|最大抗性]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -54774,11 +54774,11 @@
       "chinese": "暴露傷口",
       "englishStats": [
         "15% increased chance to inflict [Ailments]",
-        "[HitDamage|Hits] [ArmourBreak|Break] 30% increased [Armour|Armour] on targets with [Ailments]"
+        "[Hit|Hits] [ArmourBreak|Break] 30% increased [Armour|Armour] on targets with [Ailments]"
       ],
       "chineseStats": [
         "增加15%造成[Ailments|異常狀態]的機率",
-        "[HitDamage|擊中]受[Ailments|異常狀態]影響的敵人時，增加30%對其[Armour|護甲值][ArmourBreak|破壞]"
+        "[Hit|擊中]受[Ailments|異常狀態]影響的敵人時，增加30%對其[Armour|護甲值][ArmourBreak|破壞]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -55023,10 +55023,10 @@
       "english": "Blind Chance",
       "chinese": "致盲機率",
       "englishStats": [
-        "8% chance to [Blind] Enemies on [HitDamage|Hit] with [Attack|Attacks]"
+        "8% chance to [Blind] Enemies on [Hit] with [Attack|Attacks]"
       ],
       "chineseStats": [
-        "[Attack|攻擊][HitDamage|擊中]有8%機率[Blind|致盲]敵人"
+        "[Attack|攻擊][Hit|擊中]有8%機率[Blind|致盲]敵人"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -55175,11 +55175,11 @@
       "english": "Crippling Toxins",
       "chinese": "致殘毒素",
       "englishStats": [
-        "25% chance for [Attack|Attacks] to [Maim|Maim] on [HitDamage|Hit] against [Poison|Poisoned] Enemies",
+        "25% chance for [Attack|Attacks] to [Maim|Maim] on [Hit] against [Poison|Poisoned] Enemies",
         "25% increased [BuffMagnitude|Magnitude] of [Poison] you inflict"
       ],
       "chineseStats": [
-        "[Attack|攻擊][HitDamage|擊中][Poison|中毒]的敵人時，有25%的機率造成[Maim|癱瘓]",
+        "[Attack|攻擊][Hit|擊中][Poison|中毒]的敵人時，有25%的機率造成[Maim|癱瘓]",
         "增加25%你所施加之[Poison|中毒]的[BuffMagnitude|幅度]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -55303,10 +55303,10 @@
       "english": "Bleed Chance",
       "chinese": "流血機率",
       "englishStats": [
-        "5% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]"
+        "5% chance to inflict [Bleeding|Bleeding] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Bleeding|流血]"
+        "[Hit|擊中]時有5%機率造成[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -55320,7 +55320,7 @@
         "When a [Banner] expires, recover 15% of the [Glory] required for that Banner"
       ],
       "chineseStats": [
-        "當[Banner|旗幟]消失時，恢復15%該旗幟所需的[Glory|榮耀]"
+        "當[Banner|鬥旗]消失時，恢復15%該鬥旗所需的[Glory|榮耀]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -55838,11 +55838,11 @@
       "chinese": "印記效果和致盲機率",
       "englishStats": [
         "8% increased Effect of your [Mark] Skills",
-        "5% chance to [Blind] Enemies on [HitDamage|Hit] with [Attack|Attacks]"
+        "5% chance to [Blind] Enemies on [Hit] with [Attack|Attacks]"
       ],
       "chineseStats": [
         "增加8%你的[Mark|印記]技能效果",
-        "[Attack|攻擊][HitDamage|擊中]有5%機率[Blind|致盲]敵人"
+        "[Attack|攻擊][Hit|擊中]有5%機率[Blind|致盲]敵人"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -55857,8 +55857,8 @@
         "10% increased Cast Speed when on Full Life"
       ],
       "chineseStats": [
-        "增加5%施放速度",
-        "滿血時增加10%施放速度"
+        "增加5%施法速度",
+        "滿血時增加10%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -56035,14 +56035,14 @@
       "skill": "44372",
       "code": "",
       "english": "Spell Damage and Cast Speed",
-      "chinese": "法術傷害和施放速度",
+      "chinese": "法術傷害和施法速度",
       "englishStats": [
         "6% increased [Spell] Damage",
         "2% increased Cast Speed"
       ],
       "chineseStats": [
         "增加6%[Spell|法術]傷害",
-        "增加2%施放速度"
+        "增加2%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -56383,10 +56383,10 @@
       "english": "Lightning Rod",
       "chinese": "雷霆之杖",
       "englishStats": [
-        "30% chance for [Lightning] Damage with [HitDamage|Hits] to be [Lucky]"
+        "30% chance for [Lightning] Damage with [Hit|Hits] to be [Lucky]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]造成的[Lightning|閃電]傷害有30%機率為[Lucky|幸運]"
+        "[Hit|擊中]造成的[Lightning|閃電]傷害有30%機率為[Lucky|幸運]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -56538,7 +56538,7 @@
         "8% increased [Reservation] [Efficiency] of [Companion] Skills"
       ],
       "chineseStats": [
-        "[Companion|盟友]技能增加8%[Reservation|保留]效率"
+        "[Companion|盟友]技能增加8%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -56611,7 +56611,7 @@
         "4% increased Movement Speed if you've used a [Mark] [Recently]"
       ],
       "chineseStats": [
-        "增加60%[Mark|印記]的魔力消耗[Efficiency|效率]",
+        "增加60%[Mark|印記]的魔力消耗[Efficiency|效用]",
         "若你[Recently|近期]施放過[Mark|印記]法術，增加4%移動速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -56917,11 +56917,11 @@
       "english": "Finishing Blows",
       "chinese": "終結之擊",
       "englishStats": [
-        "60% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]",
+        "60% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]",
         "30% increased [Stun|Stun] Buildup against Enemies that are on [LowLife|Low Life]"
       ],
       "chineseStats": [
-        "對[LowLife|貧血狀態]的敵人增加60%[HitDamage|擊中]傷害",
+        "對[LowLife|貧血狀態]的敵人增加60%[Hit|擊中]傷害",
         "增加30%對[LowLife|貧血狀態]敵人造成的[Stun|暈眩]累積"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -57393,7 +57393,7 @@
       "english": "The Raging Ox",
       "chinese": "怒牛",
       "englishStats": [
-        "[HitDamage|Hits] against you have 30% reduced [CriticalDamageBonus|Critical Damage Bonus]",
+        "[Hit|Hits] against you have 30% reduced [CriticalDamageBonus|Critical Damage Bonus]",
         "15% reduced Duration of [Ailments|Ailments] on You",
         "+10 to [Strength]"
       ],
@@ -57453,12 +57453,12 @@
       "skill": "45390",
       "code": "",
       "english": "Mark Use Speed",
-      "chinese": "印記施放速度",
+      "chinese": "印記施法速度",
       "englishStats": [
         "[Mark] Skills have 10% increased Use Speed"
       ],
       "chineseStats": [
-        "增加10%[Mark|印記]技能的施放速度"
+        "增加10%[Mark|印記]技能的施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -57764,7 +57764,7 @@
       ],
       "chineseStats": [
         "增加20%魔力回復率",
-        "增加15%魔力消耗[Efficiency|效率]"
+        "增加15%魔力消耗[Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -57775,10 +57775,10 @@
       "english": "Melee Damage if Projectile Hit",
       "chinese": "投射物擊中時為近戰傷害",
       "englishStats": [
-        "15% increased [Melee] Damage if you've dealt a [Projectile] [Attack] [HitDamage|Hit] in the past eight seconds"
+        "15% increased [Melee] Damage if you've dealt a [Projectile] [Attack] [Hit] in the past eight seconds"
       ],
       "chineseStats": [
-        "如果你在過去8秒內以[Projectile|投射物][Attack|攻擊][HitDamage|擊中]，增加15%[Melee|近戰]傷害"
+        "如果你在過去8秒內以[Projectile|投射物][Attack|攻擊][Hit|擊中]，增加15%[Melee|近戰]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -58572,7 +58572,7 @@
       ],
       "chineseStats": [
         "你的召喚物為[Gigantic|極大]狀態",
-        "[Minion|召喚物]技能減少25%[Reservation|保留]效率"
+        "[Minion|召喚物]技能減少25%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -58627,10 +58627,10 @@
       "english": "Rage on Melee Hit",
       "chinese": "近戰擊中獲得盛怒",
       "englishStats": [
-        "Gain 1 [Rage|Rage] on [Melee] [HitDamage|Hit]"
+        "Gain 1 [Rage|Rage] on [Melee] [Hit]"
       ],
       "chineseStats": [
-        "[Melee|近戰][HitDamage|擊中]時，獲得1層[Rage|盛怒]"
+        "[Melee|近戰][Hit|擊中]時，獲得1層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -58682,7 +58682,7 @@
         "Attribute Passive Skills can instead grant 5% increased Damage\nAttribute Passive Skills can instead grant 5% increased [Armour], [Evasion] and [EnergyShield|Energy Shield]\nAttribute Passive Skills can instead grant 5% increased Cost [Efficiency]"
       ],
       "chineseStats": [
-        "能力值天賦改為賦予增加5%傷害\n能力值天賦改為賦予增加5%[Armour|護甲]、[Evasion|閃避]、和[EnergyShield|能量護盾]\n能力值天賦改為賦予增加5%消耗[Efficiency|效率]"
+        "能力值天賦改為賦予增加5%傷害\n能力值天賦改為賦予增加5%[Armour|護甲]、[Evasion|閃避]、和[EnergyShield|能量護盾]\n能力值天賦改為賦予增加5%消耗[Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -58964,11 +58964,11 @@
       "chinese": "損害",
       "englishStats": [
         "25% increased Damage with One Handed Weapons",
-        "[Attack|Attacks] have 10% chance to [Maim|Maim] on [HitDamage|Hit]"
+        "[Attack|Attacks] have 10% chance to [Maim|Maim] on [Hit]"
       ],
       "chineseStats": [
         "持單手武器時增加25%傷害",
-        "[Attack|攻擊][HitDamage|擊中]時有10%機率造成[Maim|癱瘓]"
+        "[Attack|攻擊][Hit|擊中]時有10%機率造成[Maim|癱瘓]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -58979,10 +58979,10 @@
       "english": "Projectile Damage if Melee Hit",
       "chinese": "近戰擊中時為投射物傷害",
       "englishStats": [
-        "15% increased [Projectile] Damage if you've dealt a [Melee] [HitDamage|Hit] in the past eight seconds"
+        "15% increased [Projectile] Damage if you've dealt a [Melee] [Hit] in the past eight seconds"
       ],
       "chineseStats": [
-        "如果你在過去8秒內以[Melee|近戰][HitDamage|擊中]，增加15%則[Projectile|投射物]傷害"
+        "如果你在過去8秒內以[Melee|近戰][Hit|擊中]，增加15%則[Projectile|投射物]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -59110,7 +59110,7 @@
       "chineseStats": [
         "獲得等同4%[Evasion|閃避值]的[Deflect|偏斜值]",
         "[FasterESRechargeStart|能量護盾開始充能速度加快]4%",
-        "增加5%魔力消耗[Efficiency|效率]"
+        "增加5%魔力消耗[Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -59555,12 +59555,12 @@
       "skill": "47307",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -59645,11 +59645,11 @@
       "english": "Empowered Attack Damage and Bleeding Chance",
       "chinese": "強化攻擊傷害和流血機率",
       "englishStats": [
-        "5% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]",
+        "5% chance to inflict [Bleeding|Bleeding] on [Hit]",
         "[Empowered|Empowered Attacks] deal 10% increased Damage"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Bleeding|流血]",
+        "[Hit|擊中]時有5%機率造成[Bleeding|流血]",
         "增加10%[Empowered|強化攻擊]造成的傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -59730,7 +59730,7 @@
       ],
       "chineseStats": [
         "增加20%召喚物持續時間",
-        "[TemporaryMinion|暫時召喚物]技能具有+2召出[Minion|召喚物][Limit|上限]"
+        "[TemporaryMinion|暫時召喚物]技能具有 +2 召出[Minion|召喚物][Limit|上限]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -59788,7 +59788,7 @@
         "8% increased [Reservation] [Efficiency] of [Companion] Skills"
       ],
       "chineseStats": [
-        "[Companion|盟友]技能增加8%[Reservation|保留]效率"
+        "[Companion|盟友]技能增加8%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -59823,11 +59823,11 @@
       "english": "Dizzying Hits",
       "chinese": "暈眩之擊",
       "englishStats": [
-        "10% chance to [Daze] on [HitDamage|Hit]",
+        "10% chance to [Daze] on [Hit]",
         "25% increased [Critical] Hit Chance against [Daze|Dazed] Enemies"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有10%機率造成[Daze|目眩]",
+        "[Hit|擊中]時有10%機率造成[Daze|目眩]",
         "增加25%對[Daze|目眩]敵人的[Critical|暴擊]機率"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -60031,10 +60031,10 @@
       "english": "Bleeding Chance",
       "chinese": "流血機率",
       "englishStats": [
-        "5% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]"
+        "5% chance to inflict [Bleeding|Bleeding] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Bleeding|流血]"
+        "[Hit|擊中]時有5%機率造成[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -60131,10 +60131,10 @@
       "english": "Rage on Hit",
       "chinese": "擊中時獲得盛怒",
       "englishStats": [
-        "Gain 1 [Rage|Rage] on [Melee] [HitDamage|Hit]"
+        "Gain 1 [Rage|Rage] on [Melee] [Hit]"
       ],
       "chineseStats": [
-        "[Melee|近戰][HitDamage|擊中]時，獲得1層[Rage|盛怒]"
+        "[Melee|近戰][Hit|擊中]時，獲得1層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -60335,11 +60335,11 @@
       "english": "Honourless",
       "chinese": "毫無榮譽",
       "englishStats": [
-        "25% increased [Armour] if you've [HitDamage|Hit] an Enemy with a [Melee|Melee Attack] [Recently]",
+        "25% increased [Armour] if you've [Hit] an Enemy with a [Melee|Melee Attack] [Recently]",
         "50% increased [Melee|Melee Damage] against [Immobilised] Enemies"
       ],
       "chineseStats": [
-        "若你[Recently|近期]以[Melee|近戰攻擊][HitDamage|擊中]一個敵人，增加25%[Armour|護甲值]",
+        "若你[Recently|近期]以[Melee|近戰攻擊][Hit|擊中]一個敵人，增加25%[Armour|護甲值]",
         "增加50%對[Immobilised|禁錮]敵人的[Melee|近戰傷害]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -60349,12 +60349,12 @@
       "skill": "48026",
       "code": "",
       "english": "Banner Glory Gained",
-      "chinese": "旗幟獲得榮耀",
+      "chinese": "鬥旗獲得榮耀",
       "englishStats": [
         "20% increased [Glory] generation for [Banner] Skills"
       ],
       "chineseStats": [
-        "[Banner|旗幟]技能增加20%生成的[Glory|榮耀]"
+        "[Banner|鬥旗]技能增加20%生成的[Glory|榮耀]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -60394,12 +60394,12 @@
       "chinese": "流血持續時間",
       "englishStats": [
         "10% increased Bleeding Duration",
-        "20% chance for [Attack] [HitDamage|Hits] to apply [Incision]",
+        "20% chance for [Attack] [Hit|Hits] to apply [Incision]",
         "Requires The Unseen Path"
       ],
       "chineseStats": [
         "增加10%流血持續時間",
-        "[Attack|攻擊][HitDamage|擊中]時，有20%機率施加[Incision|切割]",
+        "[Attack|攻擊][Hit|擊中]時，有20%機率施加[Incision|切割]",
         "需要 未見之道"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -60539,12 +60539,12 @@
       "englishStats": [
         "[Projectile|Projectiles] have 30% increased [CriticalDamageBonus|Critical Damage Bonus] against Enemies further than 6m",
         "[Projectile|Projectiles] have 20% increased [Critical] Hit Chance against Enemies further than 6m",
-        "25% chance to inflict [Daze] with [HitDamage|Hits] against Enemies further than 6m"
+        "25% chance to inflict [Daze] with [Hit|Hits] against Enemies further than 6m"
       ],
       "chineseStats": [
         "增加30%[Projectile|投射物]對6公尺外敵人的[CriticalDamageBonus|暴擊傷害加成]",
         "增加20%[Projectile|投射物]對距離超過6公尺的敵人[Critical|暴擊]機率",
-        "[HitDamage|擊中]6公尺外的敵人時，有25%機率造成[Daze|目眩]"
+        "[Hit|擊中]6公尺外的敵人時，有25%機率造成[Daze|目眩]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -60869,11 +60869,11 @@
       "english": "Exploit the Elements",
       "chinese": "元素弱點",
       "englishStats": [
-        "24% increased Damage with [HitDamage|Hits] against Enemies affected by [ElementalAilments|Elemental Ailments]",
+        "24% increased Damage with [Hit|Hits] against Enemies affected by [ElementalAilments|Elemental Ailments]",
         "30% increased chance to inflict [Ailments] against [Rarity|Rare or Unique] Enemies"
       ],
       "chineseStats": [
-        "增加24%對受[ElementalAilments|元素異常狀態]影響的敵人的[HitDamage|擊中]傷害",
+        "增加24%對受[ElementalAilments|元素異常狀態]影響的敵人的[Hit|擊中]傷害",
         "增加30%對[Rarity|稀有或傳奇]敵人造成[Ailments|異常狀態]的機率"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -60882,7 +60882,7 @@
       "type": "passive",
       "skill": "48583",
       "code": "",
-      "english": "Life Leech. Armour and Evasion while Leeching",
+      "english": "Life Leech, Armour and Evasion while Leeching",
       "chinese": "生命偷取。偷取時的護甲和閃避",
       "englishStats": [
         "6% increased amount of Life [LifeLeech|Leeched]",
@@ -61695,7 +61695,7 @@
         "+5 to [Dexterity|Dexterity] and [Intelligence|Intelligence]"
       ],
       "chineseStats": [
-        "增加8%[Attack|攻擊]和施放速度",
+        "增加8%[Attack|攻擊]和施法速度",
         "+5點[Dexterity|敏捷]與[Intelligence|智慧]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -62039,10 +62039,10 @@
       "english": "Incision Chance",
       "chinese": "切割機率",
       "englishStats": [
-        "20% chance for [Attack] [HitDamage|Hits] to apply [Incision]"
+        "20% chance for [Attack] [Hit|Hits] to apply [Incision]"
       ],
       "chineseStats": [
-        "[Attack|攻擊][HitDamage|擊中]時，有20%機率施加[Incision|切割]"
+        "[Attack|攻擊][Hit|擊中]時，有20%機率施加[Incision|切割]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -62114,7 +62114,7 @@
         "3% increased [Attack] and Cast Speed with Elemental Skills"
       ],
       "chineseStats": [
-        "元素技能增加3%[Attack|攻擊]和施放速度"
+        "元素技能增加3%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -62133,7 +62133,7 @@
       "chineseStats": [
         "減少3%[SkillSpeed|技能速度]",
         "處於你[Presence|存在範圍]中的[Allies|友方]增加6%[Attack|攻擊]速度",
-        "處於你[Presence|存在範圍]中的[Allies|友方]增加6%施放速度",
+        "處於你[Presence|存在範圍]中的[Allies|友方]增加6%施法速度",
         "需要 未見之道"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -62345,11 +62345,11 @@
       "english": "Corruption Endures",
       "chinese": "腐化永存",
       "englishStats": [
-        "7% chance to Avoid Death from [HitDamage|Hits]",
+        "7% chance to Avoid Death from [Hit|Hits]",
         "Requires The Unseen Path"
       ],
       "chineseStats": [
-        "有7%機率避免因遭[HitDamage|擊中]而死亡",
+        "有7%機率避免因遭[Hit|擊中]而死亡",
         "需要 未見之道"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -62463,12 +62463,12 @@
       "english": "Spellblade",
       "chinese": "魔刃",
       "englishStats": [
-        "32% increased [Spell] Damage while wielding a [Melee] Weapon",
-        "+10 to [Dexterity]"
+        "+10 to [Dexterity]",
+        "32% increased [Spell] Damage while wielding a [Melee] Weapon"
       ],
       "chineseStats": [
-        "使用[Melee|近戰]武器時，增加32%[Spell|法術]傷害",
-        "+10[Dexterity|敏捷]"
+        "+10[Dexterity|敏捷]",
+        "使用[Melee|近戰]武器時，增加32%[Spell|法術]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -63044,7 +63044,7 @@
       ],
       "chineseStats": [
         "增加20%[Lightning|閃電]傷害",
-        "增加15%魔力消耗[Efficiency|效率]"
+        "增加15%魔力消耗[Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -63257,11 +63257,11 @@
       "english": "Avoiding Deflection",
       "chinese": "避免偏斜",
       "englishStats": [
-        "-5% to amount of [HitDamage|Damage] Prevented by [Deflect|Deflection]",
+        "-5% to amount of [Hit|Damage] Prevented by [Deflect|Deflection]",
         "20% increased [Deflect|Deflection Rating]"
       ],
       "chineseStats": [
-        "-5%[Deflect|偏斜]抵禦[HitDamage|傷害]量",
+        "-5%[Deflect|偏斜]抵禦[Hit|傷害]量",
         "增加20%[Deflect|偏斜值]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -63758,11 +63758,11 @@
       "chinese": "虛耗",
       "englishStats": [
         "15% increased Duration of [DamagingAilments|Damaging Ailments] on Enemies",
-        "30% increased Damage with [HitDamage|Hits] against Enemies affected by [Ailments]"
+        "30% increased Damage with [Hit|Hits] against Enemies affected by [Ailments]"
       ],
       "chineseStats": [
         "增加15%敵人身上的[DamagingAilments|傷害型異常狀態]持續時間",
-        "增加30%對受[Ailments|異常狀態]影響的敵人的[HitDamage|擊中]傷害"
+        "增加30%對受[Ailments|異常狀態]影響的敵人的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -63909,10 +63909,10 @@
       "english": "Damage against Burning Enemies",
       "chinese": "對燃燒敵人的傷害",
       "englishStats": [
-        "14% increased Damage with [HitDamage|Hits] against [Burning|Burning] Enemies"
+        "14% increased Damage with [Hit|Hits] against [Burning|Burning] Enemies"
       ],
       "chineseStats": [
-        "對[Burning|燃燒]的敵人增加14%造成的[HitDamage|擊中]傷害"
+        "對[Burning|燃燒]的敵人增加14%造成的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -63935,12 +63935,12 @@
       "skill": "51416",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -64073,7 +64073,7 @@
       "english": "Way of the Mountain",
       "chinese": "山巒之道",
       "englishStats": [
-        "100% [SurpassChance|Surpassing] chance per enemy [Power] to gain [MountainsTeachings|Mountain's Teachings] on [Immobilised|Immobilising] an enemy, up to a maximum of 30\nLose a [MountainsTeachings|Mountain's Teaching] when you are [HitDamage|Hit], or when you use or [Sustained|Sustain] an [Attack] that benefits from [MountainsTeachings|Mountain's Teachings]",
+        "100% [SurpassChance|Surpassing] chance per enemy [Power] to gain [MountainsTeachings|Mountain's Teachings] on [Immobilised|Immobilising] an enemy, up to a maximum of 30\nLose a [MountainsTeachings|Mountain's Teaching] when you are [Hit], or when you use or [Sustained|Sustain] an [Attack] that benefits from [MountainsTeachings|Mountain's Teachings]",
         "stone skin duration ms [20000]",
         "stone skin grants attack damage +% final you use yourself [15]",
         "stone skin grants damage reduction life threshold % [30]",
@@ -64081,7 +64081,7 @@
         "stone skin grants stun threshold +% final [50]"
       ],
       "chineseStats": [
-        "當你[Immobilised|禁錮]敵人時其每點[Power|強度]都會使你\n擁有100%[SurpassChance|滿溢]機率獲得[MountainsTeachings|山嶺教誨]，最多30\n當你被[HitDamage|擊中]、使用或[Sustained|持續]一個受益於[MountainsTeachings|山嶺教誨]的[Attack|攻擊]時，失去一層[MountainsTeachings|山嶺教誨]",
+        "當你[Immobilised|禁錮]敵人時其每點[Power|強度]都會使你\n擁有100%[SurpassChance|滿溢]機率獲得[MountainsTeachings|山嶺教誨]，最多30\n當你被[Hit|擊中]、使用或[Sustained|持續]一個受益於[MountainsTeachings|山嶺教誨]的[Attack|攻擊]時，失去一層[MountainsTeachings|山嶺教誨]",
         "stone skin duration ms [20000]",
         "stone skin grants attack damage +% final you use yourself [15]",
         "stone skin grants damage reduction life threshold % [30]",
@@ -64472,7 +64472,7 @@
         "12% increased [Attack] and Cast Speed if you've summoned a [Totem|Totem] [Recently|Recently]"
       ],
       "chineseStats": [
-        "若你[Recently|近期]召喚過[Totem|圖騰]，增加12%[Attack|攻擊]和施放速度"
+        "若你[Recently|近期]召喚過[Totem|圖騰]，增加12%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -64561,11 +64561,11 @@
       "english": "Finality",
       "chinese": "終結",
       "englishStats": [
-        "120% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]",
+        "120% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]",
         "5% increased Damage taken while on [LowLife|Low Life]"
       ],
       "chineseStats": [
-        "對[LowLife|貧血狀態]的敵人增加120%[HitDamage|擊中]傷害",
+        "對[LowLife|貧血狀態]的敵人增加120%[Hit|擊中]傷害",
         "[LowLife|貧血狀態]時增加5%承受傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -64687,7 +64687,7 @@
         "[Trigger|Triggered] [Spell|Spells] deal 40% increased [Spell] Damage"
       ],
       "chineseStats": [
-        "增加10%魔力消耗[Efficiency|效率]",
+        "增加10%魔力消耗[Efficiency|效用]",
         "[Trigger|觸發][Spell|法術]增加40%造成的[Spell|法術]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -64807,11 +64807,11 @@
       "english": "Turtle Charm",
       "chinese": "靈龜之符",
       "englishStats": [
-        "You take 20% of damage from [Block|Blocked] [HitDamage|Hits]",
+        "You take 20% of damage from [Block|Blocked] [Hit|Hits]",
         "Maximum [Block] chance is 75%"
       ],
       "chineseStats": [
-        "你受到來自[Block|格擋][HitDamage|擊中]的20%傷害",
+        "你受到來自[Block|格擋][Hit|擊中]的20%傷害",
         "最大[Block|格擋]機率為75%"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -64831,12 +64831,12 @@
       "skill": "52106",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -64895,10 +64895,10 @@
       "english": "Trained Deflection",
       "chinese": "受訓偏斜",
       "englishStats": [
-        "Prevent +6% of Damage from [Deflect|Deflected] [HitDamage|Hits]"
+        "Prevent +6% of Damage from [Deflect|Deflected] [Hit|Hits]"
       ],
       "chineseStats": [
-        "抵禦[Deflect|偏斜][HitDamage|擊中]的+6%傷害"
+        "抵禦[Deflect|偏斜][Hit|擊中]的+6%傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -65099,10 +65099,10 @@
       "english": "Axe Rage on Hit",
       "chinese": "斧擊中盛怒",
       "englishStats": [
-        "Gain 1 [Rage|Rage] on [Melee|Melee] [Axe|Axe] [HitDamage|Hit]"
+        "Gain 1 [Rage|Rage] on [Melee|Melee] [Axe|Axe] [Hit]"
       ],
       "chineseStats": [
-        "以[Axe|斧][Melee|近戰][HitDamage|擊中]時，獲得1層[Rage|盛怒]"
+        "以[Axe|斧][Melee|近戰][Hit|擊中]時，獲得1層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -65134,7 +65134,7 @@
       ],
       "chineseStats": [
         "增加20%[Totem|圖騰]傷害",
-        "若你[Recently|近期]召喚過[Totem|圖騰]，增加6%[Attack|攻擊]和施放速度"
+        "若你[Recently|近期]召喚過[Totem|圖騰]，增加6%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -65285,12 +65285,12 @@
       "skill": "52429",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -65817,8 +65817,8 @@
       "chineseStats": [
         "獲得等同8%[Evasion|閃避值]的[Deflect|偏斜值]",
         "[FasterESRechargeStart|能量護盾開始充能速度加快]8%",
-        "增加10%魔力消耗[Efficiency|效率]",
-        "[Minion|召喚物]技能增加10%[Reservation|保留]效率"
+        "增加10%魔力消耗[Efficiency|效用]",
+        "[Minion|召喚物]技能增加10%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -65829,10 +65829,10 @@
       "english": "Impale Chance",
       "chinese": "穿刺機率",
       "englishStats": [
-        "15% chance to [Impale] on [Spell] [HitDamage|Hit]"
+        "15% chance to [Impale] on [Spell] [Hit]"
       ],
       "chineseStats": [
-        "[Spell|法術][HitDamage|擊中]時有15%機率造成[Impale|穿刺]"
+        "[Spell|法術][Hit|擊中]時有15%機率造成[Impale|穿刺]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -66150,7 +66150,7 @@
         "3% increased [Attack] and Cast Speed with [Lightning|Lightning] Skills"
       ],
       "chineseStats": [
-        "[Lightning|閃電]技能增加3%[Attack|攻擊]和施放速度"
+        "[Lightning|閃電]技能增加3%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -66219,12 +66219,12 @@
       "skill": "53320",
       "code": "",
       "english": "Banner Glory Gained",
-      "chinese": "旗幟獲得榮耀",
+      "chinese": "鬥旗獲得榮耀",
       "englishStats": [
         "20% increased [Glory] generation for [Banner] Skills"
       ],
       "chineseStats": [
-        "[Banner|旗幟]技能增加20%生成的[Glory|榮耀]"
+        "[Banner|鬥旗]技能增加20%生成的[Glory|榮耀]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -66283,8 +66283,8 @@
         "[Banner] Skills have 30% increased Duration"
       ],
       "chineseStats": [
-        "[Banner|旗幟]技能增加30%範圍效果",
-        "[Banner|旗幟]技能增加30%持續時間"
+        "[Banner|鬥旗]技能增加30%範圍效果",
+        "[Banner|鬥旗]技能增加30%持續時間"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -66355,10 +66355,10 @@
       "english": "Axe Rage on Hit",
       "chinese": "斧擊中盛怒",
       "englishStats": [
-        "Gain 2 [Rage|Rage] on [Melee|Melee] [Axe|Axe] [HitDamage|Hit]"
+        "Gain 2 [Rage|Rage] on [Melee|Melee] [Axe|Axe] [Hit]"
       ],
       "chineseStats": [
-        "以[Axe|斧][Melee|近戰][HitDamage|擊中]時，獲得2層[Rage|盛怒]"
+        "以[Axe|斧][Melee|近戰][Hit|擊中]時，獲得2層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -66453,10 +66453,10 @@
       "english": "Projectile Damage if Melee Hit",
       "chinese": "近戰擊中時為投射物傷害",
       "englishStats": [
-        "15% increased [Projectile] Damage if you've dealt a [Melee] [HitDamage|Hit] in the past eight seconds"
+        "15% increased [Projectile] Damage if you've dealt a [Melee] [Hit] in the past eight seconds"
       ],
       "chineseStats": [
-        "如果你在過去8秒內以[Melee|近戰][HitDamage|擊中]，增加15%則[Projectile|投射物]傷害"
+        "如果你在過去8秒內以[Melee|近戰][Hit|擊中]，增加15%則[Projectile|投射物]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -66725,10 +66725,10 @@
       "english": "Rage when Hit",
       "chinese": "擊中時獲得盛怒",
       "englishStats": [
-        "Gain 2 [Rage] when [HitDamage|Hit] by an Enemy"
+        "Gain 2 [Rage] when [Hit] by an Enemy"
       ],
       "chineseStats": [
-        "遭敵人[HitDamage|擊中]時，獲得2層[Rage|盛怒]"
+        "遭敵人[Hit|擊中]時，獲得2層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -66756,13 +66756,13 @@
       "chinese": "備案",
       "englishStats": [
         "20% increased [Armour] and [Evasion] Rating",
-        "40% increased [Evasion|Evasion Rating] if you have been [HitDamage|Hit] [Recently|Recently]",
-        "40% increased [Armour|Armour] if you haven't been [HitDamage|Hit] [Recently|Recently]"
+        "40% increased [Evasion|Evasion Rating] if you have been [Hit] [Recently|Recently]",
+        "40% increased [Armour|Armour] if you haven't been [Hit] [Recently|Recently]"
       ],
       "chineseStats": [
         "增加20%[Armour|護甲值]和[Evasion|閃避]值",
-        "若你[Recently|近期]被[HitDamage|擊中]，增加40%[Evasion|閃避值]",
-        "若你[Recently|近期]未被[HitDamage|擊中]，增加40%[Armour|護甲值]"
+        "若你[Recently|近期]被[Hit|擊中]，增加40%[Evasion|閃避值]",
+        "若你[Recently|近期]未被[Hit|擊中]，增加40%[Armour|護甲值]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -66884,12 +66884,12 @@
       "chinese": "閃閃發光",
       "englishStats": [
         "10% [FasterESRechargeStart|faster start of Energy Shield Recharge]",
-        "20% increased [Evasion] Rating if you haven't been [HitDamage|Hit] [Recently]",
+        "20% increased [Evasion] Rating if you haven't been [Hit] [Recently]",
         "3% increased Movement Speed while you have [EnergyShield|Energy Shield]"
       ],
       "chineseStats": [
         "[FasterESRechargeStart|能量護盾開始充能速度加快]10%",
-        "若你[Recently|近期]沒有被[HitDamage|擊中]，增加20%[Evasion|閃避]值",
+        "若你[Recently|近期]沒有被[Hit|擊中]，增加20%[Evasion|閃避]值",
         "有[EnergyShield|能量護盾]時，增加3%移動速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -66959,10 +66959,10 @@
       "english": "Rage on Hit",
       "chinese": "擊中時獲得盛怒",
       "englishStats": [
-        "Gain 1 [Rage|Rage] on [Melee] [HitDamage|Hit]"
+        "Gain 1 [Rage|Rage] on [Melee] [Hit]"
       ],
       "chineseStats": [
-        "[Melee|近戰][HitDamage|擊中]時，獲得1層[Rage|盛怒]"
+        "[Melee|近戰][Hit|擊中]時，獲得1層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -67139,12 +67139,12 @@
       "skill": "54194",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "6% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加6%施放速度"
+        "增加6%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -67353,10 +67353,10 @@
       "english": "Armour",
       "chinese": "護甲",
       "englishStats": [
-        "20% increased [Armour] if you have been [HitDamage|Hit] [Recently]"
+        "20% increased [Armour] if you have been [Hit] [Recently]"
       ],
       "chineseStats": [
-        "若你[Recently|近期]被[HitDamage|擊中]，增加20%[Armour|護甲值]"
+        "若你[Recently|近期]被[Hit|擊中]，增加20%[Armour|護甲值]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -67649,7 +67649,7 @@
       "skill": "54733",
       "code": "",
       "english": "Puppet Master chance",
-      "chinese": "魁儡大師機率",
+      "chinese": "魁儡大師效果",
       "englishStats": [
         "15% increased Effect of [PuppetMaster|Puppet Master]"
       ],
@@ -67705,11 +67705,11 @@
       "english": "Hindered Capabilities",
       "chinese": "受阻之力",
       "englishStats": [
-        "30% increased Damage with [HitDamage|Hits] against [Hinder|Hindered] Enemies",
+        "30% increased Damage with [Hit|Hits] against [Hinder|Hindered] Enemies",
         "[Debuff|Debuffs] you inflict have 10% increased [SlowMagnitudeModifier|Slow Magnitude]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]受[Hinder|阻礙]敵人時，增加30%造成的傷害",
+        "[Hit|擊中]受[Hinder|阻礙]敵人時，增加30%造成的傷害",
         "你施加的[Debuff|減益效果]增加10%[Slow|緩速幅度]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -67908,11 +67908,11 @@
       "chinese": "復仇之怒",
       "englishStats": [
         "Every [Rage] also grants 1% increased [Armour]",
-        "Gain 5 [Rage] when [HitDamage|Hit] by an Enemy"
+        "Gain 5 [Rage] when [Hit] by an Enemy"
       ],
       "chineseStats": [
         "每層[Rage|盛怒]增加1%[Armour|護甲]",
-        "遭敵人[HitDamage|擊中]時，獲得5層[Rage|盛怒]"
+        "遭敵人[Hit|擊中]時，獲得5層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -68025,11 +68025,11 @@
       "english": "Bloodletting",
       "chinese": "滲血",
       "englishStats": [
-        "10% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]",
+        "10% chance to inflict [Bleeding|Bleeding] on [Hit]",
         "15% increased [BuffMagnitude|Magnitude] of [Bleeding|Bleeding] you inflict"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有10%機率造成[Bleeding|流血]",
+        "[Hit|擊中]時有10%機率造成[Bleeding|流血]",
         "增加15%你所施加之[Bleeding|流血]的[BuffMagnitude|幅度]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -68308,7 +68308,7 @@
       "chineseStats": [
         "增加3%移動速度",
         "增加20%[Minion|召喚物]移動速度",
-        "[Minion|召喚物]增加8%[Attack|攻擊]和施放速度"
+        "[Minion|召喚物]增加8%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -68371,10 +68371,10 @@
       "english": "Bleeding Chance",
       "chinese": "流血機率",
       "englishStats": [
-        "5% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]"
+        "5% chance to inflict [Bleeding|Bleeding] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Bleeding|流血]"
+        "[Hit|擊中]時有5%機率造成[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -68574,11 +68574,11 @@
       "chinese": "攻擊範圍和連擊",
       "englishStats": [
         "4% increased Area of Effect for [Attack|Attacks]",
-        "5% Chance to build an additional [Combo] on [HitDamage|Hit]"
+        "5% Chance to build an additional [Combo] on [Hit]"
       ],
       "chineseStats": [
         "[Attack|攻擊]增加4%範圍效果",
-        "[HitDamage|擊中]時有5%機率額外累積一個[Combo|連擊]"
+        "[Hit|擊中]時有5%機率額外累積一個[Combo|連擊]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -69047,10 +69047,10 @@
       "english": "Incision Chance",
       "chinese": "切割機率",
       "englishStats": [
-        "20% chance for [Attack] [HitDamage|Hits] to apply [Incision]"
+        "20% chance for [Attack] [Hit|Hits] to apply [Incision]"
       ],
       "chineseStats": [
-        "[Attack|攻擊][HitDamage|擊中]時，有20%機率施加[Incision|切割]"
+        "[Attack|攻擊][Hit|擊中]時，有20%機率施加[Incision|切割]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -69061,10 +69061,10 @@
       "english": "Rage on Hit",
       "chinese": "擊中時獲得盛怒",
       "englishStats": [
-        "Gain 1 [Rage|Rage] on [Melee] [HitDamage|Hit]"
+        "Gain 1 [Rage|Rage] on [Melee] [Hit]"
       ],
       "chineseStats": [
-        "[Melee|近戰][HitDamage|擊中]時，獲得1層[Rage|盛怒]"
+        "[Melee|近戰][Hit|擊中]時，獲得1層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -69431,10 +69431,10 @@
       "english": "Damage against Burning Enemies",
       "chinese": "對燃燒敵人的傷害",
       "englishStats": [
-        "14% increased Damage with [HitDamage|Hits] against [Burning|Burning] Enemies"
+        "14% increased Damage with [Hit|Hits] against [Burning|Burning] Enemies"
       ],
       "chineseStats": [
-        "對[Burning|燃燒]的敵人增加14%造成的[HitDamage|擊中]傷害"
+        "對[Burning|燃燒]的敵人增加14%造成的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -69462,12 +69462,12 @@
       "chinese": "中毒機率和法術傷害",
       "englishStats": [
         "12% increased [Spell] Damage",
-        "8% chance to [Poison|Poison] on [HitDamage|Hit]",
+        "8% chance to [Poison|Poison] on [Hit]",
         "Requires The Unseen Path"
       ],
       "chineseStats": [
         "增加12%[Spell|法術]傷害",
-        "[HitDamage|擊中]時有8%機率造成[Poison|中毒]",
+        "[Hit|擊中]時有8%機率造成[Poison|中毒]",
         "需要 未見之道"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -69507,10 +69507,10 @@
       "english": "Damage against Enemies on Low Life",
       "chinese": "對貧血敵人造成的傷害",
       "englishStats": [
-        "30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"
+        "30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"
       ],
       "chineseStats": [
-        "對[LowLife|貧血狀態]的敵人增加30%[HitDamage|擊中]傷害"
+        "對[LowLife|貧血狀態]的敵人增加30%[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -69521,10 +69521,10 @@
       "english": "Grasping Wounds",
       "chinese": "緊扼傷口",
       "englishStats": [
-        "25% of Life Loss from [HitDamage|Hits] is prevented, then that much Life is lost over 4 seconds instead"
+        "25% of Life Loss from [Hit|Hits] is prevented, then that much Life is lost over 4 seconds instead"
       ],
       "chineseStats": [
-        "避免承受[HitDamage|擊中]傷害的25%生命損失，改為在4秒內逐漸被扣除"
+        "避免承受[Hit|擊中]傷害的25%生命損失，改為在4秒內逐漸被扣除"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -69623,12 +69623,12 @@
       "skill": "56284",
       "code": "",
       "english": "Minion Attack and Cast Speed",
-      "chinese": "召喚物攻擊和施放速度",
+      "chinese": "召喚物攻擊和施法速度",
       "englishStats": [
         "[Minion|Minions] have 5% increased [Attack] and Cast Speed"
       ],
       "chineseStats": [
-        "[Minion|召喚物]增加5%[Attack|攻擊]和施放速度"
+        "[Minion|召喚物]增加5%[Attack|攻擊]和施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -69733,10 +69733,10 @@
       "english": "Rage when Hit",
       "chinese": "擊中時獲得盛怒",
       "englishStats": [
-        "Gain 2 [Rage] when [HitDamage|Hit] by an Enemy"
+        "Gain 2 [Rage] when [Hit] by an Enemy"
       ],
       "chineseStats": [
-        "遭敵人[HitDamage|擊中]時，獲得2層[Rage|盛怒]"
+        "遭敵人[Hit|擊中]時，獲得2層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -69914,13 +69914,13 @@
       "chinese": "偶像崇敬",
       "englishStats": [
         "[Companion|Companions] deal 10% increased damage per [Idol] in your [Equipment]",
-        "2% increased [Reservation] [Efficiency] of Skills per [Idol] in your [Equipment]",
-        "-4% to all Elemental [Resistances] per non-[Idol] [Augment] in your [Equipment]"
+        "-4% to all Elemental [Resistances] per non-[Idol] [Augment] in your [Equipment]",
+        "2% increased [Reservation] [Efficiency] of Skills per [Idol] in your [Equipment]"
       ],
       "chineseStats": [
         "[Equipment|裝備]中每擁有一個[Idol|魔偶]，即增加10%[Companion|盟友]造成的傷害",
-        "[Equipment|裝備]中每擁有一個[Idol|魔偶]，即增加2%[Reservation|保留][Efficiency|效率]",
-        "[Equipment|裝備]中每擁有一個非[Idol|魔偶]的[Augment|增幅]，即-4%全元素[Resistances|抗性]"
+        "[Equipment|裝備]中每擁有一個非[Idol|魔偶]的[Augment|增幅]，即-4%全元素[Resistances|抗性]",
+        "[Equipment|裝備]中每擁有一個[Idol|魔偶]，即增加2%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -70013,10 +70013,10 @@
       "english": "Bulwark",
       "chinese": "守護",
       "englishStats": [
-        "Dodge Roll cannot Avoid Damage\nTake 30% less [HitDamage|Damage from Hits] while Dodge Rolling"
+        "Dodge Roll cannot Avoid Damage\nTake 30% less [Hit|Damage from Hits] while Dodge Rolling"
       ],
       "chineseStats": [
-        "閃避翻滾無法躲避傷害\n閃避翻滾時承受30%更少[HitDamage|擊中傷害]"
+        "閃避翻滾無法躲避傷害\n閃避翻滾時承受30%更少[Hit|擊中傷害]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -70139,12 +70139,12 @@
       "skill": "56703",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -70211,12 +70211,12 @@
       "skill": "56762",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -70227,11 +70227,11 @@
       "english": "Electrifying Daze",
       "chinese": "電光目眩",
       "englishStats": [
-        "5% chance to [Daze] on [HitDamage|Hit]",
+        "5% chance to [Daze] on [Hit]",
         "[Gain] 12% of [Physical] Damage as Extra [Lightning] Damage against [Daze|Dazed] Enemies"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Daze|目眩]",
+        "[Hit|擊中]時有5%機率造成[Daze|目眩]",
         "對於受[Daze|目眩]敵人，[Gain|獲得]等同於[Physical|物理]傷害12%的額外[Lightning|閃電]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -70465,7 +70465,7 @@
       "english": "Battle-hardened",
       "chinese": "固守戰場",
       "englishStats": [
-        "[HitDamage|Hits] against you have 20% reduced [CriticalDamageBonus|Critical Damage Bonus]",
+        "[Hit|Hits] against you have 20% reduced [CriticalDamageBonus|Critical Damage Bonus]",
         "20% increased [Armour] and [Evasion] Rating",
         "+5 to [Strength|Strength] and [Dexterity|Dexterity]"
       ],
@@ -70526,7 +70526,7 @@
         "Every 2 [Rage] also grants 1% more [Spell] damage"
       ],
       "chineseStats": [
-        "每2[Rage|盛怒]同時給予1%更多[Spell|法術]傷害"
+        "每2[Rage|盛怒]同時賦予1%更多[Spell|法術]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -70733,7 +70733,7 @@
         "Requires The Unseen Path"
       ],
       "chineseStats": [
-        "[TemporaryMinion|暫時召喚物]技能具有+2召出[Minion|召喚物][Limit|上限]",
+        "[TemporaryMinion|暫時召喚物]技能具有 +2 召出[Minion|召喚物][Limit|上限]",
         "需要 未見之道"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -70983,10 +70983,10 @@
       "english": "In Your Face",
       "chinese": "面部攻擊",
       "englishStats": [
-        "40% increased [Melee] Damage with [HitDamage|Hits] at [CloseRange|Close Range]"
+        "40% increased [Melee] Damage with [Hit|Hits] at [CloseRange|Close Range]"
       ],
       "chineseStats": [
-        "[CloseRange|近距離]下增加40%[Melee|近戰][HitDamage|擊中]傷害"
+        "[CloseRange|近距離]下增加40%[Melee|近戰][Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -71075,12 +71075,12 @@
       "englishStats": [
         "Recover 20 Life when you [Block]",
         "+2% to maximum [Block] chance",
-        "80% less [Knockback] Distance for [Block|Blocked] [HitDamage|Hits]"
+        "80% less [Knockback] Distance for [Block|Blocked] [Hit|Hits]"
       ],
       "chineseStats": [
         "你[Block|格擋]時恢復20生命",
         "+2%至最大[Block|格擋]機率",
-        "[Block|被格擋]的[HitDamage|擊中]具有80%更少[Knockback|擊退]距離"
+        "[Block|被格擋]的[Hit|擊中]具有80%更少[Knockback|擊退]距離"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -71147,10 +71147,10 @@
       "english": "Impale Chance",
       "chinese": "穿刺機率",
       "englishStats": [
-        "15% chance to [Impale] on [Spell] [HitDamage|Hit]"
+        "15% chance to [Impale] on [Spell] [Hit]"
       ],
       "chineseStats": [
-        "[Spell|法術][HitDamage|擊中]時有15%機率造成[Impale|穿刺]"
+        "[Spell|法術][Hit|擊中]時有15%機率造成[Impale|穿刺]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -71217,12 +71217,12 @@
       "skill": "57616",
       "code": "",
       "english": "Banner Duration",
-      "chinese": "旗幟持續時間",
+      "chinese": "鬥旗持續時間",
       "englishStats": [
         "[Banner] Skills have 20% increased Duration"
       ],
       "chineseStats": [
-        "[Banner|旗幟]技能增加20%持續時間"
+        "[Banner|鬥旗]技能增加20%持續時間"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -71361,14 +71361,14 @@
       "skill": "57791",
       "code": "",
       "english": "Spell Damage and Cast Speed",
-      "chinese": "法術傷害和施放速度",
+      "chinese": "法術傷害和施法速度",
       "englishStats": [
         "6% increased [Spell] Damage",
         "2% increased Cast Speed"
       ],
       "chineseStats": [
         "增加6%[Spell|法術]傷害",
-        "增加2%施放速度"
+        "增加2%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -71380,11 +71380,11 @@
       "chinese": "清空區域",
       "englishStats": [
         "20% increased [Knockback] Distance",
-        "20% chance to [Knockback|Knock Enemies Back] with [HitDamage|Hits] at [CloseRange|Close Range]"
+        "20% chance to [Knockback|Knock Enemies Back] with [Hit|Hits] at [CloseRange|Close Range]"
       ],
       "chineseStats": [
         "增加20%[Knockback|擊退]距離",
-        "在[CloseRange|近距離][HitDamage|擊中]時有20%機率[Knockback|擊退敵人]"
+        "在[CloseRange|近距離][Hit|擊中]時有20%機率[Knockback|擊退敵人]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -71424,13 +71424,13 @@
       "chinese": "整合效率",
       "englishStats": [
         "Skills deal 20% increased Damage per [ConnectedGem|Connected] Red [SupportGem|Support Gem]",
-        "Skills have 6% increased [SkillSpeed|Skill Speed] per [ConnectedGem|Connected] Green [SupportGem|Support Gem]",
-        "Skills have 20% increased [Critical|Critical Hit Chance] per [ConnectedGem|Connected] Blue [SupportGem|Support Gem]"
+        "Skills have 20% increased [Critical|Critical Hit Chance] per [ConnectedGem|Connected] Blue [SupportGem|Support Gem]",
+        "Skills have 6% increased [SkillSpeed|Skill Speed] per [ConnectedGem|Connected] Green [SupportGem|Support Gem]"
       ],
       "chineseStats": [
         "增加20%每個[ConnectedGem|連接]的紅色[SupportGem|輔助寶石]使技能傷害",
-        "增加6%每個[ConnectedGem|連接]的綠色[SupportGem|輔助寶石]使技能[SkillSpeed|技能速度]",
-        "增加20%每個[ConnectedGem|連接]的藍色[SupportGem|輔助寶石]使技能[Critical|暴擊率]"
+        "增加20%每個[ConnectedGem|連接]的藍色[SupportGem|輔助寶石]使技能[Critical|暴擊率]",
+        "增加6%每個[ConnectedGem|連接]的綠色[SupportGem|輔助寶石]使技能[SkillSpeed|技能速度]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -72278,13 +72278,13 @@
       "chinese": "反應性生長",
       "englishStats": [
         "10% less [ElementalDamage|Elemental Damage] taken",
-        "[Adaptation|Adapt] 1 times to the highest [ElementalDamage|Elemental Damage Type] of each [HitDamage|Hit] you take",
+        "[Adaptation|Adapt] 1 times to the highest [ElementalDamage|Elemental Damage Type] of each [Hit] you take",
         "10% less Damage taken of each [ElementalDamage|Elemental Damage Type] per matching [Adaptation]",
         "base max adaptations [3]"
       ],
       "chineseStats": [
         "承受10%更少[ElementalDamage|元素傷害]",
-        "根據承受的每一[HitDamage|擊中][Adaptation|適應]最高的[ElementalDamage|元素傷害種類]1次",
+        "根據承受的每一[Hit|擊中][Adaptation|適應]最高的[ElementalDamage|元素傷害種類]1次",
         "每一[Adaptation|適應]賦予10%更少相應[ElementalDamage|元素傷害類型]的承受傷害",
         "base max adaptations [3]"
       ],
@@ -72341,10 +72341,10 @@
       "english": "Anvil's Weight",
       "chinese": "沉砧之勢",
       "englishStats": [
-        "[ArmourBreak|Break Armour] equal to 10% of [HitDamage|Hit Damage] dealt"
+        "[ArmourBreak|Break Armour] equal to 10% of [Hit|Hit Damage] dealt"
       ],
       "chineseStats": [
-        "[ArmourBreak|破壞的護甲值]等同於造成的10%[HitDamage|擊中傷害]"
+        "[ArmourBreak|破壞的護甲值]等同於造成的10%[Hit|擊中傷害]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -72424,8 +72424,8 @@
       "type": "passive",
       "skill": "58783",
       "code": "",
-      "english": "Life Leech. Armour and Evasion while Leeching",
-      "chinese": "生命偷取。偷取時的護甲和閃避",
+      "english": "Life Leech, Armour and Evasion while Leeching",
+      "chinese": "生命偷取、偷取時的護甲和閃避",
       "englishStats": [
         "6% increased amount of Life [LifeLeech|Leeched]",
         "8% increased [Armour] and [Evasion] Rating while Leeching"
@@ -72505,10 +72505,10 @@
       "english": "Incision Chance",
       "chinese": "切割機率",
       "englishStats": [
-        "20% chance for [Attack] [HitDamage|Hits] to apply [Incision]"
+        "20% chance for [Attack] [Hit|Hits] to apply [Incision]"
       ],
       "chineseStats": [
-        "[Attack|攻擊][HitDamage|擊中]時，有20%機率施加[Incision|切割]"
+        "[Attack|攻擊][Hit|擊中]時，有20%機率施加[Incision|切割]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -72541,14 +72541,14 @@
       "englishStats": [
         "+8% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]",
         "10% [FasterESRechargeStart|faster start of Energy Shield Recharge]",
-        "Immune to [Exposure]",
-        "Unaffected by [ElementalWeakness|Elemental Weakness]"
+        "30% reduced [BuffEffect|effect] of [Curse|Curses] on you",
+        "Immune to [Exposure]"
       ],
       "chineseStats": [
         "+8%的[Armour|護甲值]也會套用至[ElementalDamage|元素傷害]",
         "[FasterESRechargeStart|能量護盾開始充能速度加快]10%",
-        "免疫曝曬",
-        "不受[ElementalWeakness|元素要害]影響"
+        "減少30%你身上的[Curse|詛咒][BuffEffect|效果]",
+        "免疫曝曬"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -72571,12 +72571,12 @@
       "skill": "58930",
       "code": "",
       "english": "Cast Speed",
-      "chinese": "施放速度",
+      "chinese": "施法速度",
       "englishStats": [
         "3% increased Cast Speed"
       ],
       "chineseStats": [
-        "增加3%施放速度"
+        "增加3%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -72774,12 +72774,12 @@
       "chinese": "中毒機率和法術傷害",
       "englishStats": [
         "12% increased [Spell] Damage",
-        "8% chance to [Poison|Poison] on [HitDamage|Hit]",
+        "8% chance to [Poison|Poison] on [Hit]",
         "Requires The Unseen Path"
       ],
       "chineseStats": [
         "增加12%[Spell|法術]傷害",
-        "[HitDamage|擊中]時有8%機率造成[Poison|中毒]",
+        "[Hit|擊中]時有8%機率造成[Poison|中毒]",
         "需要 未見之道"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -73003,11 +73003,11 @@
       "english": "Crushing Impacts",
       "chinese": "輾壓痛擊",
       "englishStats": [
-        "Your [HitDamage|Hits] are [CrushingBlow|Crushing Blows]",
+        "Your [Hit|Hits] are [CrushingBlow|Crushing Blows]",
         "25% more Damage against [HeavyStun|Heavy Stunned] Enemies"
       ],
       "chineseStats": [
-        "你的[HitDamage|擊中]為[CrushingBlow|粉碎重擊]",
+        "你的[Hit|擊中]為[CrushingBlow|粉碎重擊]",
         "增加25%對[HeavyStun|遭沉重暈眩]的敵人的傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -73283,10 +73283,10 @@
       "english": "Far Shot",
       "chinese": "遠射",
       "englishStats": [
-        "[Projectile|Projectiles] deal 0% more [HitDamage|Hit] damage to targets in the first 3.5 metres of their movement, scaling up with distance travelled to reach 20% after 7 metres"
+        "[Projectile|Projectiles] deal 0% more [Hit] damage to targets in the first 3.5 metres of their movement, scaling up with distance travelled to reach 20% after 7 metres"
       ],
       "chineseStats": [
-        "[Projectile|投射物]對最初3.5公尺內目標造成0%更多[HitDamage|擊中]傷害，隨飛行距離增加，在7公尺後為20%"
+        "[Projectile|投射物]對最初3.5公尺內目標造成0%更多[Hit|擊中]傷害，隨飛行距離增加，在7公尺後為20%"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -73797,13 +73797,13 @@
       "englishStats": [
         "3% increased Movement Speed",
         "20% increased Bleeding Duration",
-        "40% chance for [Attack] [HitDamage|Hits] to apply [Incision]",
+        "40% chance for [Attack] [Hit|Hits] to apply [Incision]",
         "Requires The Unseen Path"
       ],
       "chineseStats": [
         "增加3%移動速度",
         "增加20%流血持續時間",
-        "[Attack|攻擊][HitDamage|擊中]時，有40%機率施加[Incision|切割]",
+        "[Attack|攻擊][Hit|擊中]時，有40%機率施加[Incision|切割]",
         "需要 未見之道"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -73845,10 +73845,10 @@
       "english": "Rage on Hit",
       "chinese": "擊中時獲得盛怒",
       "englishStats": [
-        "Gain 1 [Rage|Rage] on [Melee] [HitDamage|Hit]"
+        "Gain 1 [Rage|Rage] on [Melee] [Hit]"
       ],
       "chineseStats": [
-        "[Melee|近戰][HitDamage|擊中]時，獲得1層[Rage|盛怒]"
+        "[Melee|近戰][Hit|擊中]時，獲得1層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -73923,12 +73923,12 @@
       "english": "Stylebender",
       "chinese": "風格轉換",
       "englishStats": [
-        "[HitDamage|Hits] [ArmourBreak|Break] 30% increased [Armour|Armour] on targets with [Ailments]",
+        "[Hit|Hits] [ArmourBreak|Break] 30% increased [Armour|Armour] on targets with [Ailments]",
         "+10 to [Strength]",
         "25% increased [Physical] Damage"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]受[Ailments|異常狀態]影響的敵人時，增加30%對其[Armour|護甲值][ArmourBreak|破壞]",
+        "[Hit|擊中]受[Ailments|異常狀態]影響的敵人時，增加30%對其[Armour|護甲值][ArmourBreak|破壞]",
         "+10[Strength|力量]",
         "增加25%[Physical|物理]傷害"
       ],
@@ -74037,10 +74037,10 @@
       "english": "Bleed Chance",
       "chinese": "流血機率",
       "englishStats": [
-        "5% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]"
+        "5% chance to inflict [Bleeding|Bleeding] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Bleeding|流血]"
+        "[Hit|擊中]時有5%機率造成[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -74212,11 +74212,11 @@
       "chinese": "絕佳機會",
       "englishStats": [
         "30% increased [Stun] Buildup",
-        "[HitDamage|Damage with Hits] is [Lucky|Lucky] against [HeavyStun|Heavy Stunned] Enemies"
+        "[Hit|Damage with Hits] is [Lucky|Lucky] against [HeavyStun|Heavy Stunned] Enemies"
       ],
       "chineseStats": [
         "增加30%[Stun|暈眩]累積",
-        "對[HeavyStun|遭沉重暈眩]敵人的[HitDamage|擊中傷害]會觸發[Lucky|幸運]"
+        "對[HeavyStun|遭沉重暈眩]敵人的[Hit|擊中傷害]會觸發[Lucky|幸運]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -74246,7 +74246,7 @@
         "8% increased [Reservation] [Efficiency] of [Herald] Skills"
       ],
       "chineseStats": [
-        "[Herald|捷光環]技能增加8%[Reservation|保留]效率"
+        "[Herald|捷光環]技能增加8%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -74325,10 +74325,10 @@
       "english": "Damage vs Full Life",
       "chinese": "對滿血敵人的傷害",
       "englishStats": [
-        "20% increased Damage with [HitDamage|Hits] against Enemies that are on Full Life"
+        "20% increased Damage with [Hit|Hits] against Enemies that are on Full Life"
       ],
       "chineseStats": [
-        "增加20%對滿血敵人的[HitDamage|擊中]傷害"
+        "增加20%對滿血敵人的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -74545,10 +74545,10 @@
       "english": "Incision Chance",
       "chinese": "切割機率",
       "englishStats": [
-        "20% chance for [Attack] [HitDamage|Hits] to apply [Incision]"
+        "20% chance for [Attack] [Hit|Hits] to apply [Incision]"
       ],
       "chineseStats": [
-        "[Attack|攻擊][HitDamage|擊中]時，有20%機率施加[Incision|切割]"
+        "[Attack|攻擊][Hit|擊中]時，有20%機率施加[Incision|切割]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -74686,7 +74686,7 @@
         "Life Recovery from your [Flask|Flasks] also applies to your [Companion|Companions]"
       ],
       "chineseStats": [
-        "你的[Flask|藥劑]給予的生命恢復也會套用於你的[Companion|盟友]"
+        "你的[Flask|藥劑]賦予的生命恢復也會套用於你的[Companion|盟友]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -74815,10 +74815,10 @@
       "english": "Staggering Wounds",
       "chinese": "撼敵創傷",
       "englishStats": [
-        "50% chance to [Knockback|Knock Back] [Bleeding] Enemies with [HitDamage|Hits]"
+        "50% chance to [Knockback|Knock Back] [Bleeding] Enemies with [Hit|Hits]"
       ],
       "chineseStats": [
-        "以[HitDamage|擊中]使敵人[Bleeding|流血]時，有50%機率[Knockback|擊退]敵人"
+        "以[Hit|擊中]使敵人[Bleeding|流血]時，有50%機率[Knockback|擊退]敵人"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -75197,10 +75197,10 @@
       "english": "Damage vs Blinded",
       "chinese": "對受致盲者傷害",
       "englishStats": [
-        "15% increased Damage with [HitDamage|Hits] against [Blind|Blinded] Enemies"
+        "15% increased Damage with [Hit|Hits] against [Blind|Blinded] Enemies"
       ],
       "chineseStats": [
-        "增加15%對被[Blind|致盲]敵人的[HitDamage|擊中]傷害"
+        "增加15%對被[Blind|致盲]敵人的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -75260,7 +75260,7 @@
       ],
       "chineseStats": [
         "若你[Recently|近期]施放過[Spell|法術]，增加30%[Attack|攻擊]傷害",
-        "若你[Recently|近期]攻擊過，增加10%施放速度"
+        "若你[Recently|近期]攻擊過，增加10%施法速度"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -75367,11 +75367,11 @@
       "english": "Wasting Casts",
       "chinese": "懸念",
       "englishStats": [
-        "25% increased Damage with [HitDamage|Hits] against [Hinder|Hindered] Enemies",
+        "25% increased Damage with [Hit|Hits] against [Hinder|Hindered] Enemies",
         "15% chance to [Hinder] Enemies on Hit with [Spell|Spells]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]受[Hinder|阻礙]敵人時，增加25%造成的傷害",
+        "[Hit|擊中]受[Hinder|阻礙]敵人時，增加25%造成的傷害",
         "[Spell|法術]擊中時有15%機率[Hinder|阻礙]敵人"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -75429,10 +75429,10 @@
       "english": "Damage against Enemies on Low Life",
       "chinese": "對貧血敵人造成的傷害",
       "englishStats": [
-        "30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"
+        "30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"
       ],
       "chineseStats": [
-        "對[LowLife|貧血狀態]的敵人增加30%[HitDamage|擊中]傷害"
+        "對[LowLife|貧血狀態]的敵人增加30%[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -75494,11 +75494,11 @@
       "chinese": "武術宗師",
       "englishStats": [
         "Skills can build and retain [Combo] regardless of [WeaponSets|Weapon Set]",
-        "Gain [Combo] from all [Attack] [HitDamage|Hits]"
+        "Gain [Combo] from all [Attack] [Hit|Hits]"
       ],
       "chineseStats": [
         "技能可以無視[WeaponSets|武器組合]累積並維持[Combo|連擊]數",
-        "從所有[Attack|攻擊][HitDamage|擊中]中獲得[Combo|連擊]"
+        "從所有[Attack|攻擊][Hit|擊中]中獲得[Combo|連擊]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -75539,11 +75539,11 @@
       "english": "Quarterstaff Freeze and Daze Buildup",
       "chinese": "細杖冰凍和目眩累積",
       "englishStats": [
-        "5% chance to [Daze] on [HitDamage|Hit]",
+        "5% chance to [Daze] on [Hit]",
         "20% increased [Freeze] Buildup with [Quarterstaff|Quarterstaves]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Daze|目眩]",
+        "[Hit|擊中]時有5%機率造成[Daze|目眩]",
         "增加20%[Quarterstaff|細杖]的[Freeze|冰凍]累積"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -75813,10 +75813,10 @@
       "english": "Bleed Chance",
       "chinese": "流血機率",
       "englishStats": [
-        "5% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]"
+        "5% chance to inflict [Bleeding|Bleeding] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Bleeding|流血]"
+        "[Hit|擊中]時有5%機率造成[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -75899,10 +75899,10 @@
       "english": "Rage on Hit",
       "chinese": "擊中時獲得盛怒",
       "englishStats": [
-        "Gain 1 [Rage|Rage] on [Melee] [HitDamage|Hit]"
+        "Gain 1 [Rage|Rage] on [Melee] [Hit]"
       ],
       "chineseStats": [
-        "[Melee|近戰][HitDamage|擊中]時，獲得1層[Rage|盛怒]"
+        "[Melee|近戰][Hit|擊中]時，獲得1層[Rage|盛怒]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -75930,7 +75930,7 @@
         "You can equip a non-[ItemRarity|Unique] [Sceptre] while wielding a [Talisman]\n50% less [Spirit]\nNon-[Minion] Skills have 50% less [Reservation] [Efficiency]"
       ],
       "chineseStats": [
-        "你可以於裝備[Talisman|魔符]時同時裝一把非[Rarity|傳奇]的[Sceptre|權杖]\n50%更少[Spirit|精魂]\n非[Minion|召喚物]技能擁有50%更少[Reservation|保留][Efficiency|效率]"
+        "你可以於裝備[Talisman|魔符]時同時裝一把非[Rarity|傳奇]的[Sceptre|權杖]\n50%更少[Spirit|精魂]\n非[Minion|召喚物]技能擁有50%更少[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -76048,7 +76048,7 @@
       ],
       "chineseStats": [
         "衝刺時無法被[HeavyStun|沉重暈眩]",
-        "在移動時使用技能有30%更少移動速度懲罰"
+        "在移動時使用技能有 30% 更少移動速度懲罰"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -76277,7 +76277,7 @@
         "+1 maximum stacks of [PuppetMaster|Puppet Master]"
       ],
       "chineseStats": [
-        "增加15%[Command|號令]技能的魔力消耗[Efficiency|效率]",
+        "增加15%[Command|號令]技能的魔力消耗[Efficiency|效用]",
         "+1最大[PuppetMaster|魁儡大師]層數"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -76343,12 +76343,12 @@
       "skill": "62258",
       "code": "",
       "english": "Banner Glory Gained",
-      "chinese": "旗幟獲得榮耀",
+      "chinese": "鬥旗獲得榮耀",
       "englishStats": [
         "20% increased [Glory] generation for [Banner] Skills"
       ],
       "chineseStats": [
-        "[Banner|旗幟]技能增加20%生成的[Glory|榮耀]"
+        "[Banner|鬥旗]技能增加20%生成的[Glory|榮耀]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -76376,11 +76376,11 @@
       "chinese": "爆燃",
       "englishStats": [
         "60% increased [Flammability] [BuffMagnitude|Magnitude]",
-        "30% increased Damage with [HitDamage|Hits] against [Burning|Burning] Enemies"
+        "30% increased Damage with [Hit|Hits] against [Burning|Burning] Enemies"
       ],
       "chineseStats": [
         "增加60%[Flammability|易燃][BuffMagnitude|幅度]",
-        "對[Burning|燃燒]的敵人增加30%造成的[HitDamage|擊中]傷害"
+        "對[Burning|燃燒]的敵人增加30%造成的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -76588,7 +76588,7 @@
         "[Banner] [Buff|Buffs] linger on you for 2 seconds after you leave the Area"
       ],
       "chineseStats": [
-        "你離開區域後，[Banner|旗幟][Buff|增益效果]在你身上停留2秒"
+        "你離開區域後，[Banner|鬥旗][Buff|增益效果]在你身上停留2秒"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -77279,10 +77279,10 @@
       "english": "Sigil of Fire",
       "chinese": "火焰符印",
       "englishStats": [
-        "30% increased Damage with [HitDamage|Hits] against [Ignite|Ignited] Enemies"
+        "30% increased Damage with [Hit|Hits] against [Ignite|Ignited] Enemies"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]對[Ignite|點燃]敵人增加30%傷害"
+        "[Hit|擊中]對[Ignite|點燃]敵人增加30%傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -77360,7 +77360,7 @@
       ],
       "chineseStats": [
         "[Totem|圖騰]獲得+1%[MaximumResistances|最大全元素抗性]",
-        "增加2%[Totem|圖騰]施放[Spell|法術]的施放速度",
+        "增加2%[Totem|圖騰]施放[Spell|法術]的施法速度",
         "增加2%圖騰使用[Attack|攻擊]的[Attack|攻擊]速度",
         "需要 未見之道"
       ],
@@ -77426,7 +77426,7 @@
       ],
       "chineseStats": [
         "[Meta|主要]技能獲得35%更多[Energy|能量]",
-        "[Meta|主要]技能增加50%[Reservation|保留][Efficiency|效率]"
+        "[Meta|主要]技能增加50%[Reservation|保留][Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -77549,12 +77549,12 @@
       "skill": "63360",
       "code": "",
       "english": "Banner Glory Gained",
-      "chinese": "旗幟獲得榮耀",
+      "chinese": "鬥旗獲得榮耀",
       "englishStats": [
         "20% increased [Glory] generation for [Banner] Skills"
       ],
       "chineseStats": [
-        "[Banner|旗幟]技能增加20%生成的[Glory|榮耀]"
+        "[Banner|鬥旗]技能增加20%生成的[Glory|榮耀]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -77780,11 +77780,11 @@
       "chinese": "輕易擺脫",
       "englishStats": [
         "15% increased [Armour]",
-        "Prevent +15% of Damage from [Deflect|Deflected] [Critical] [HitDamage|Hits]"
+        "Prevent +15% of Damage from [Deflect|Deflected] [Critical] [Hit|Hits]"
       ],
       "chineseStats": [
         "增加15%[Armour|護甲值]",
-        "遭[Critical|暴擊][HitDamage|擊中]發動[Deflect|偏斜]時，抵禦+15%的傷害"
+        "遭[Critical|暴擊][Hit|擊中]發動[Deflect|偏斜]時，抵禦+15%的傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -78007,10 +78007,10 @@
       "english": "Damage against Enemies on Low Life",
       "chinese": "對貧血敵人造成的傷害",
       "englishStats": [
-        "30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"
+        "30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"
       ],
       "chineseStats": [
-        "對[LowLife|貧血狀態]的敵人增加30%[HitDamage|擊中]傷害"
+        "對[LowLife|貧血狀態]的敵人增加30%[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -78129,10 +78129,10 @@
       "english": "Bleeding Chance",
       "chinese": "流血機率",
       "englishStats": [
-        "5% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]"
+        "5% chance to inflict [Bleeding|Bleeding] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Bleeding|流血]"
+        "[Hit|擊中]時有5%機率造成[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -78363,10 +78363,10 @@
       "english": "Daze Chance",
       "chinese": "目眩機率",
       "englishStats": [
-        "5% chance to [Daze] on [HitDamage|Hit]"
+        "5% chance to [Daze] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Daze|目眩]"
+        "[Hit|擊中]時有5%機率造成[Daze|目眩]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -78751,11 +78751,11 @@
       "english": "Shattering Daze",
       "chinese": "粉碎目眩",
       "englishStats": [
-        "5% chance to [Daze] on [HitDamage|Hit]",
+        "5% chance to [Daze] on [Hit]",
         "[Gain] 12% of [Physical] Damage as Extra [Cold] Damage against [Daze|Dazed] Enemies"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Daze|目眩]",
+        "[Hit|擊中]時有5%機率造成[Daze|目眩]",
         "對於受[Daze|目眩]敵人，[Gain|獲得]等同於[Physical|物理]傷害12%的額外[Cold|冰冷]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -78899,10 +78899,10 @@
       "english": "Easy Target",
       "chinese": "易攻目標",
       "englishStats": [
-        "Your [HitDamage|Hits] cannot be [Evasion|Evaded] by [HeavyStun|Heavy Stunned] Enemies"
+        "Your [Hit|Hits] cannot be [Evasion|Evaded] by [HeavyStun|Heavy Stunned] Enemies"
       ],
       "chineseStats": [
-        "被[HeavyStun|沉重暈眩]的敵人無法[Evasion|閃避]你的[HitDamage|擊中]"
+        "被[HeavyStun|沉重暈眩]的敵人無法[Evasion|閃避]你的[Hit|擊中]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -79017,7 +79017,7 @@
       "english": "Wary Dodging",
       "chinese": "警覺躲避",
       "englishStats": [
-        "Cannot be [LightStun|Light Stunned] if you haven't been [HitDamage|Hit] [Recently]"
+        "Cannot be [LightStun|Light Stunned] if you haven't been [Hit] [Recently]"
       ],
       "chineseStats": [
         "若你[Recently|近期]沒被擊中，則不會被暈眩"
@@ -79087,11 +79087,11 @@
       "english": "Quarterstaff Freeze and Daze Buildup",
       "chinese": "細杖冰凍和目眩累積",
       "englishStats": [
-        "5% chance to [Daze] on [HitDamage|Hit]",
+        "5% chance to [Daze] on [Hit]",
         "20% increased [Freeze] Buildup with [Quarterstaff|Quarterstaves]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Daze|目眩]",
+        "[Hit|擊中]時有5%機率造成[Daze|目眩]",
         "增加20%[Quarterstaff|細杖]的[Freeze|冰凍]累積"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -79345,10 +79345,10 @@
       "english": "Damage against Enemies on Low Life",
       "chinese": "對貧血敵人造成的傷害",
       "englishStats": [
-        "30% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]"
+        "30% increased Damage with [Hit|Hits] against Enemies that are on [LowLife|Low Life]"
       ],
       "chineseStats": [
-        "對[LowLife|貧血狀態]的敵人增加30%[HitDamage|擊中]傷害"
+        "對[LowLife|貧血狀態]的敵人增加30%[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -79359,10 +79359,10 @@
       "english": "Bleed Chance",
       "chinese": "流血機率",
       "englishStats": [
-        "5% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]"
+        "5% chance to inflict [Bleeding|Bleeding] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Bleeding|流血]"
+        "[Hit|擊中]時有5%機率造成[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -79389,10 +79389,10 @@
       "english": "Intense Flames",
       "chinese": "熊熊烈火",
       "englishStats": [
-        "35% increased Damage with [HitDamage|Hits] against [Burning|Burning] Enemies"
+        "35% increased Damage with [Hit|Hits] against [Burning|Burning] Enemies"
       ],
       "chineseStats": [
-        "對[Burning|燃燒]的敵人增加35%造成的[HitDamage|擊中]傷害"
+        "對[Burning|燃燒]的敵人增加35%造成的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -79403,10 +79403,10 @@
       "english": "Impenetrable Shell",
       "chinese": "無敵甲殼",
       "englishStats": [
-        "Defend with 150% of [Armour] against [HitDamage|Hits] from Enemies that are further than 6m away"
+        "Defend with 150% of [Armour] against [Hit|Hits] from Enemies that are further than 6m away"
       ],
       "chineseStats": [
-        "以150%的[Armour|護甲值]抵抗來自6碼外的[HitDamage|擊中]傷害"
+        "以150%的[Armour|護甲值]抵抗來自6碼外的[Hit|擊中]傷害"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -79592,7 +79592,7 @@
         "Requires The Unseen Path"
       ],
       "chineseStats": [
-        "增加4%[Totem|圖騰]施放[Spell|法術]的施放速度",
+        "增加4%[Totem|圖騰]施放[Spell|法術]的施法速度",
         "增加4%圖騰使用[Attack|攻擊]的[Attack|攻擊]速度",
         "需要 未見之道"
       ],
@@ -79793,10 +79793,10 @@
       "english": "Bleeding Chance",
       "chinese": "流血機率",
       "englishStats": [
-        "5% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]"
+        "5% chance to inflict [Bleeding|Bleeding] on [Hit]"
       ],
       "chineseStats": [
-        "[HitDamage|擊中]時有5%機率造成[Bleeding|流血]"
+        "[Hit|擊中]時有5%機率造成[Bleeding|流血]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -79837,7 +79837,7 @@
       "skill": "65353",
       "code": "",
       "english": "Banner Mastery",
-      "chinese": "旗幟專精",
+      "chinese": "鬥旗專精",
       "englishStats": [],
       "chineseStats": [],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
@@ -79852,7 +79852,7 @@
         "8% increased Mana Cost [Efficiency]"
       ],
       "chineseStats": [
-        "增加8%魔力消耗[Efficiency|效率]"
+        "增加8%魔力消耗[Efficiency|效用]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -79903,12 +79903,12 @@
       "skill": "65439",
       "code": "",
       "english": "Banner Aura Effect",
-      "chinese": "旗幟光環效果",
+      "chinese": "鬥旗光環效果",
       "englishStats": [
         "Banner Skills have 12% increased Aura [BuffMagnitude|Magnitudes]"
       ],
       "chineseStats": [
-        "旗幟技能增加12%光環[BuffMagnitude|幅度]"
+        "鬥旗技能增加12%光環[BuffMagnitude|幅度]"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },
@@ -79995,12 +79995,12 @@
       "englishStats": [
         "[Flask|Flasks] do not recover Life",
         "Gain 1 Life [Flask] Charges per 2% Life spent",
-        "On [HitDamage|Hitting] an Enemy while a Life [Flask] is at full Charges, 40% of its Charges are consumed\n[Gain] 1% of damage as [Physical] damage for 5 seconds per Charge consumed this way"
+        "On [Hit|Hitting] an Enemy while a Life [Flask] is at full Charges, 40% of its Charges are consumed\n[Gain] 1% of damage as [Physical] damage for 5 seconds per Charge consumed this way"
       ],
       "chineseStats": [
         "[Flask|藥劑]無法恢復生命",
         "每消耗2%生命獲得1生命[Flask|藥劑]充能",
-        "在生命[Flask|藥劑]充能全滿時[HitDamage|擊中]敵人，消耗其40%充能\n每以此方式消耗1充能，[Gain|獲得]等同於1%傷害的[Physical|物理]傷害5秒"
+        "在生命[Flask|藥劑]充能全滿時[Hit|擊中]敵人，消耗其40%充能\n每以此方式消耗1充能，[Gain|獲得]等同於1%傷害的[Physical|物理]傷害5秒"
       ],
       "poe2db": "https://poe2db.tw/tw/passive-skill-tree"
     },

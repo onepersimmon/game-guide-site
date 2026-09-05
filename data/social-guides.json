@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T10:47:26.364Z",
+  "updatedAt": "2026-09-05T15:23:59.992Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,6 +10,71 @@
   },
   "items": [
     {
+      "id": "bilibili-BV1M6bL6AEvA",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 闪回女武神亚马逊动作魂系BD攻略 开荒 到终局，女猎手攻略，招架、冰川之枪、刺骨寒冰",
+      "summary": "0.5开荒视频BV1UCVa6gE2i 欢迎加入游戏交流群①群910937429 ，②群951295788，③群新开320949072 入群暗号：流放2 以下为BGM音乐版权信息： ▬▬▬▬▬▬▬▬▬▬▬▼▬▬▬▬▬▬▬▬▬▬▬ https://youtu.be/NohjpGt5SvM?si=6y81oS4rIa-pYZdX This cover is part of FamilyJules Video Game Covers Vol. 5! 🟢 Spotify: https://spoti.fi/37",
+      "author": "James_晓锋",
+      "publishedAt": "2026-09-05T14:52:44.000Z",
+      "href": "https://www.bilibili.com/video/av117218968934212",
+      "cover": "https://i0.hdslb.com/bfs/archive/a0e5d87891e81d42953d7fb99ab69359dde6904f.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV12rbL6hED5",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 |古灵旋风 开荒 无脑入祭坛，轻松农出毕业暗金",
+      "summary": "",
+      "author": "POE大王",
+      "publishedAt": "2026-09-05T14:50:02.000Z",
+      "href": "https://www.bilibili.com/video/av117218952091735",
+      "cover": "https://i1.hdslb.com/bfs/archive/a864faaae39f1f63b9e149aa126a59dc434d0b29.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1Ujbj6qEyK",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 0.5】Zizaran - 削之前快玩！灵魂行者驯猴BD 开荒 全解析",
+      "summary": "https://www.youtube.com/watch?v=YN13xbmdjj0 Zizaran 分享他在流放之路2 0.5.5 禁忌仪式赛季使用的灵魂行者开荒 BD 指南，从构筑思路到装备搭配都有详细说明。 文字版指南：https://maxroll.gg/poe2/build-guides/companion-spirit-walker-build-guide 这套 BD 的完整配置与所有文件，都可以在上面的文字版指南链接中找到。 赞助：Starforge Systems——宇宙最强的 PC",
+      "author": "Sen妖桉",
+      "publishedAt": "2026-09-05T11:58:17.000Z",
+      "href": "https://www.bilibili.com/video/av117218297842267",
+      "cover": "https://i2.hdslb.com/bfs/archive/f738ed3e7a06dd079873878d4429a807a818919b.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV137t26xE91",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 0.5】dslily - 开荒 想换口味？五个冷门但能打的BD",
+      "summary": "https://www.youtube.com/watch?v=eyG-JdJgAKI 0.5.5 值得一试的构筑推荐——其实都是老构筑，只是你八成还没玩过！ 各构筑传送门： - 毒弓夏乌拉追随者（Goratha）- https://www.youtube.com/watch?v=h5O8hy1BzGc - 烈焰爆破古灵使徒（作者本人 / JosiahYeet）- https://www.youtube.com/watch?v=ds5aPwrmH6c / https://www.youtube.com",
+      "author": "Sen妖桉",
+      "publishedAt": "2026-09-05T11:31:04.000Z",
+      "href": "https://www.bilibili.com/video/av117218197243139",
+      "cover": "https://i0.hdslb.com/bfs/archive/1caba9987b65c23c436af2fef764dd30ef8ff7d5.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1BNt26YEZZ",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】禁忌仪式闪回 开荒 体验 通货和暗金很多但是太看脸 前期攻坚赚钱推荐 先计算利润更稳妥",
+      "summary": "收益计算：poepromax.cloud/poe2/bossing，昨天看见的 感觉还可以",
+      "author": "San旬",
+      "publishedAt": "2026-09-05T10:55:34.000Z",
+      "href": "https://www.bilibili.com/video/av117218062898711",
+      "cover": "https://i1.hdslb.com/bfs/archive/7538cd9d3bfb44f33f62ffdbb64053b9d799b8dd.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
       "id": "bilibili-BV1FCt26BEqr",
       "platform": "bilibili",
       "platformLabel": "B 站",
@@ -19,71 +84,6 @@
       "publishedAt": "2026-09-05T10:20:08.000Z",
       "href": "https://www.bilibili.com/video/av117217912036035",
       "cover": "https://i0.hdslb.com/bfs/archive/ac39ba9ddd36a05dac5631b351b5490d888644ba.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1nCt26qEFa",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 】 0.55赛季，有史以来 开荒 最轻松的赛季，剧情祭坛千万不要嫌麻烦，基本是第一天的大头资源",
-      "summary": "忍者网链接 https://poe.ninja/poe2/profile/ljljljljlj3-0975/forbiddenrites/character/古靈人 太困了，第一天就先到这儿了，可以预见的前期后期全是通胀的一个赛季",
-      "author": "Luking-",
-      "publishedAt": "2026-09-05T10:19:40.000Z",
-      "href": "https://www.bilibili.com/video/av117217911903828",
-      "cover": "https://i0.hdslb.com/bfs/archive/7e1b6b4d7e2f9ed396e836658190d07f78ec1fed.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1Tutm6SENC",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "全世界都在推的 开荒 BD，古灵地炼到底是什么BD？（ 流放2 0.5赛季）",
-      "summary": "",
-      "author": "大叔认真玩游戏",
-      "publishedAt": "2026-09-05T09:23:34.000Z",
-      "href": "https://www.bilibili.com/video/av117217693801859",
-      "cover": "https://i0.hdslb.com/bfs/archive/b6c72227dee168638fd271635e4ff72ec7aaaa3e.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1Letm6YEbD",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路 2055新赛季女猎人冰旋風 开荒 BD",
-      "summary": "亚马逊、灵活行者、仪式行者升华任意，都可以用这套BD开荒，安全又效率，告别坐牢",
-      "author": "沃茨哈普尼",
-      "publishedAt": "2026-09-05T08:27:44.000Z",
-      "href": "https://www.bilibili.com/video/av117217425431150",
-      "cover": "https://i0.hdslb.com/bfs/archive/640bec5b69e401f2b50567cfb3abd00650f14a0b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1MNtm6pE4H",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 剧情重要必拿奖励汇总清单 开荒 最佳最快流程顺序 速来领取",
-      "summary": "",
-      "author": "短裤游戏",
-      "publishedAt": "2026-09-05T08:25:55.000Z",
-      "href": "https://www.bilibili.com/video/av117217475693058",
-      "cover": "https://i0.hdslb.com/bfs/archive/e3324089f8d92a5e9efffa2fc0d365af65f964c4.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1fWtm6uEHx",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 闪回赛季现已上线！新赛季 开荒 必备BD推荐！",
-      "summary": "",
-      "author": "爱吃鸡の翅",
-      "publishedAt": "2026-09-05T07:36:43.000Z",
-      "href": "https://www.bilibili.com/video/av117217274367084",
-      "cover": "https://i2.hdslb.com/bfs/archive/6b1830550dfa06229f3d11a7ba406c5f440eed2c.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
