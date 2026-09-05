@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-09-05T15:23:58.156Z",
+  "updatedAt": "2026-09-05T20:32:08.083Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "introducing-phantasmal-elemental-ancestral-elemental-and-delirium-archer-bundles",
+      "title": "Introducing Phantasmal Elemental, Ancestral Elemental and Delirium Archer bundles",
+      "date": "2026-09-05T20:00:00+00:00",
+      "summary": "The Forbidden Rites Event League brings with it a haul of new cosmetic effects to help you stand out on your journey through Wraeclast, alongside the new Relic Stash Tab!",
+      "href": "https://www.pathofexile.com/forum/view-thread/4001615",
+      "thumb": "https://web.poecdn.com/public/news/2026-09-05/055BundleTwitter.png",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Introducing Phantasmal Elemental, Ancestral Elemental and Delirium Archer bundles",
+          "summary": "The Forbidden Rites Event League brings with it a haul of new cosmetic effects to help you stand out on your journey through Wraeclast, alongside the new Relic Stash Tab!",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Introducing Phantasmal Elemental, Ancestral Elemental and Delirium Archer bundles",
+          "summary": "The Forbidden Rites Event League brings with it a haul of new cosmetic effects to help you stand out on your journey through Wraeclast, alongside the new Relic Stash Tab!",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "forbidden-rites-starts-soon-new-twitch-drop",
       "title": "Forbidden Rites Starts Soon - New Twitch Drop",
@@ -44,27 +65,6 @@
         "en": {
           "title": "Path of Exile 2 Full Release Registration",
           "summary": "Sign up at https://pathofexile2.com/register to receive updates on the Path of Exile 2 Full Release and get exclusive rewards! You have until December 10th to register, so there is still plenty of time to reach the milestones.",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "path-of-exile-2-forbidden-rites-patch-notes-and-item-filter-information",
-      "title": "Path of Exile 2: Forbidden Rites Patch Notes and Item Filter Information",
-      "date": "2026-09-02T22:36:22+00:00",
-      "summary": "The patch notes for Path of Exile 2: Forbidden Rites are now available. Check them out! We’ve also prepared Item Filter information you may need for this event.",
-      "href": "https://www.pathofexile.com/forum/view-thread/4000871",
-      "thumb": "https://web.poecdn.com/public/news/2026-09-03/055PatchNotesTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Path of Exile 2: Forbidden Rites Patch Notes and Item Filter Information",
-          "summary": "The patch notes for Path of Exile 2: Forbidden Rites are now available. Check them out! We’ve also prepared Item Filter information you may need for this event.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Path of Exile 2: Forbidden Rites Patch Notes and Item Filter Information",
-          "summary": "The patch notes for Path of Exile 2: Forbidden Rites are now available. Check them out! We’ve also prepared Item Filter information you may need for this event.",
           "category": "Blue Post"
         }
       }

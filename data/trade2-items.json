@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T15:19:23.398Z",
+  "updatedAt": "2026-09-05T20:27:39.217Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14123,16 +14123,16 @@
           }
         },
         {
-          "type": "Runemastered Studded Greatclub",
-          "text": "Brain Rattler Runemastered Studded Greatclub",
+          "type": "Runeforged Studded Greatclub",
+          "text": "Brain Rattler Runeforged Studded Greatclub",
           "name": "Brain Rattler",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Runeforged Studded Greatclub",
-          "text": "Brain Rattler Runeforged Studded Greatclub",
+          "type": "Runemastered Studded Greatclub",
+          "text": "Brain Rattler Runemastered Studded Greatclub",
           "name": "Brain Rattler",
           "flags": {
             "unique": true
@@ -14444,16 +14444,16 @@
           }
         },
         {
-          "type": "Runemastered Oak Greathammer",
-          "text": "Hrimnor's Hymn Runemastered Oak Greathammer",
+          "type": "Runeforged Oak Greathammer",
+          "text": "Hrimnor's Hymn Runeforged Oak Greathammer",
           "name": "Hrimnor's Hymn",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Runeforged Oak Greathammer",
-          "text": "Hrimnor's Hymn Runeforged Oak Greathammer",
+          "type": "Runemastered Oak Greathammer",
+          "text": "Hrimnor's Hymn Runemastered Oak Greathammer",
           "name": "Hrimnor's Hymn",
           "flags": {
             "unique": true
