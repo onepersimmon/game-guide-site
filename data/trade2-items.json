@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T04:37:14.920Z",
+  "updatedAt": "2026-09-05T10:42:44.378Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -8752,6 +8752,9 @@
           "type": "Rogue's Marker"
         },
         {
+          "type": "Sacred Bloom"
+        },
+        {
           "type": "Azmeri Reliquary Key"
         },
         {
@@ -9532,6 +9535,9 @@
           "type": "Jiquani's Soul Core of Targeting"
         },
         {
+          "type": "Jiquani's Soul Core of Rallying"
+        },
+        {
           "type": "Zalatl's Soul Core of Insulation"
         },
         {
@@ -9541,13 +9547,25 @@
           "type": "Jiquani's Soul Core of Severing"
         },
         {
+          "type": "Jiquani's Soul Core of Rippling"
+        },
+        {
           "type": "Jiquani's Soul Core of Quaking"
         },
         {
           "type": "Jiquani's Soul Core of Munitions"
         },
         {
+          "type": "Jiquani's Soul Core of Snares"
+        },
+        {
+          "type": "Jiquani's Soul Core of Abundance"
+        },
+        {
           "type": "Jiquani's Soul Core of Squalls"
+        },
+        {
+          "type": "Jiquani's Soul Core of Thundering"
         },
         {
           "type": "Atziri's Soul Core of Devotion"
@@ -9557,6 +9575,9 @@
         },
         {
           "type": "Atziri's Soul Core of Vitality"
+        },
+        {
+          "type": "Atziri's Soul Core of Alacrity"
         },
         {
           "type": "Atziri's Soul Core of Inoculation"
@@ -14393,16 +14414,16 @@
           }
         },
         {
-          "type": "Runemastered Felled Greatclub",
-          "text": "Hoghunt Runemastered Felled Greatclub",
+          "type": "Runeforged Felled Greatclub",
+          "text": "Hoghunt Runeforged Felled Greatclub",
           "name": "Hoghunt",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Runeforged Felled Greatclub",
-          "text": "Hoghunt Runeforged Felled Greatclub",
+          "type": "Runemastered Felled Greatclub",
+          "text": "Hoghunt Runemastered Felled Greatclub",
           "name": "Hoghunt",
           "flags": {
             "unique": true
