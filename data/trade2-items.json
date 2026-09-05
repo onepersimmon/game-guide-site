@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T20:49:43.422Z",
+  "updatedAt": "2026-09-05T04:37:14.920Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -9529,13 +9529,37 @@
           "type": "Xipocado's Soul Core of Dominion"
         },
         {
+          "type": "Jiquani's Soul Core of Targeting"
+        },
+        {
           "type": "Zalatl's Soul Core of Insulation"
+        },
+        {
+          "type": "Jiquani's Soul Core of Radiance"
+        },
+        {
+          "type": "Jiquani's Soul Core of Severing"
+        },
+        {
+          "type": "Jiquani's Soul Core of Quaking"
+        },
+        {
+          "type": "Jiquani's Soul Core of Munitions"
         },
         {
           "type": "Jiquani's Soul Core of Squalls"
         },
         {
+          "type": "Atziri's Soul Core of Devotion"
+        },
+        {
           "type": "Topotante's Soul Core of Dampening"
+        },
+        {
+          "type": "Atziri's Soul Core of Vitality"
+        },
+        {
+          "type": "Atziri's Soul Core of Inoculation"
         },
         {
           "type": "Atmohua's Soul Core of Retreat"
@@ -14882,16 +14906,16 @@
           }
         },
         {
-          "type": "Runemastered Tense Crossbow",
-          "text": "Rampart Raptor Runemastered Tense Crossbow",
+          "type": "Runeforged Tense Crossbow",
+          "text": "Rampart Raptor Runeforged Tense Crossbow",
           "name": "Rampart Raptor",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Runeforged Tense Crossbow",
-          "text": "Rampart Raptor Runeforged Tense Crossbow",
+          "type": "Runemastered Tense Crossbow",
+          "text": "Rampart Raptor Runemastered Tense Crossbow",
           "name": "Rampart Raptor",
           "flags": {
             "unique": true

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T20:54:50.136Z",
+  "updatedAt": "2026-09-05T04:41:55.273Z",
   "locale": "tw",
   "source": [
     "https://poe2db.tw/tw/Skill_Gems",
@@ -742,7 +742,7 @@
       "type": "skill",
       "slug": "Untether",
       "english": "Untether",
-      "chinese": "深淵活體炸彈",
+      "chinese": "解脫",
       "image": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/AbyssalLivingBomb.webp",
       "poe2db": "https://poe2db.tw/tw/Untether"
     },
@@ -4030,7 +4030,7 @@
       "type": "support",
       "slug": "Bounty_II",
       "english": "Bounty II",
-      "chinese": "寶物 II",
+      "chinese": "懸賞 II",
       "image": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/Support/LifeFlaskSupport.webp",
       "poe2db": "https://poe2db.tw/tw/Bounty_II"
     },
@@ -81407,7 +81407,7 @@
       "slug": "Idol_of_Maxarius",
       "page": "Augment",
       "english": "Idol of Maxarius",
-      "chinese": "馬薩里斯魔偶",
+      "chinese": "瑪薩里歐斯魔偶",
       "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/TormentedSpiritSocketables/AzmeriSocketableStagSpecial.webp",
       "poe2db": "https://poe2db.tw/tw/Idol_of_Maxarius"
     },
@@ -81671,6 +81671,168 @@
       "chinese": "賽匹卡托的支配靈魂核心",
       "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/NewSoulCoreMinion.webp",
       "poe2db": "https://poe2db.tw/tw/Xipocados_Soul_Core_of_Dominion"
+    },
+    {
+      "type": "item_base",
+      "slug": "Jiquanis_Soul_Core_of_Automation",
+      "page": "Augment",
+      "english": "Jiquani's Soul Core of Automation",
+      "chinese": "吉卡尼的自動化靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/RareSoulCoreTotems.webp",
+      "poe2db": "https://poe2db.tw/tw/Jiquanis_Soul_Core_of_Automation"
+    },
+    {
+      "type": "item_base",
+      "slug": "Jiquanis_Soul_Core_of_Malediction",
+      "page": "Augment",
+      "english": "Jiquani's Soul Core of Malediction",
+      "chinese": "吉卡尼的惡語靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/RareSoulCoreCurses.webp",
+      "poe2db": "https://poe2db.tw/tw/Jiquanis_Soul_Core_of_Malediction"
+    },
+    {
+      "type": "item_base",
+      "slug": "Jiquanis_Soul_Core_of_Targeting",
+      "page": "Augment",
+      "english": "Jiquani's Soul Core of Targeting",
+      "chinese": "吉卡尼的索敵靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/RareSoulCoreMarks.webp",
+      "poe2db": "https://poe2db.tw/tw/Jiquanis_Soul_Core_of_Targeting"
+    },
+    {
+      "type": "item_base",
+      "slug": "Jiquanis_Soul_Core_of_Rallying",
+      "page": "Augment",
+      "english": "Jiquani's Soul Core of Rallying",
+      "chinese": "吉卡尼的號召靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/RareSoulCoreWarcries.webp",
+      "poe2db": "https://poe2db.tw/tw/Jiquanis_Soul_Core_of_Rallying"
+    },
+    {
+      "type": "item_base",
+      "slug": "Jiquanis_Soul_Core_of_Radiance",
+      "page": "Augment",
+      "english": "Jiquani's Soul Core of Radiance",
+      "chinese": "吉卡尼的輝耀靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/RareSoulCoreHeralds.webp",
+      "poe2db": "https://poe2db.tw/tw/Jiquanis_Soul_Core_of_Radiance"
+    },
+    {
+      "type": "item_base",
+      "slug": "Jiquanis_Soul_Core_of_Severing",
+      "page": "Augment",
+      "english": "Jiquani's Soul Core of Severing",
+      "chinese": "吉卡尼的斷切靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/RareSoulCoreStrikes.webp",
+      "poe2db": "https://poe2db.tw/tw/Jiquanis_Soul_Core_of_Severing"
+    },
+    {
+      "type": "item_base",
+      "slug": "Jiquanis_Soul_Core_of_Rippling",
+      "page": "Augment",
+      "english": "Jiquani's Soul Core of Rippling",
+      "chinese": "吉卡尼的漣漪靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/RareSoulCoreNovas.webp",
+      "poe2db": "https://poe2db.tw/tw/Jiquanis_Soul_Core_of_Rippling"
+    },
+    {
+      "type": "item_base",
+      "slug": "Jiquanis_Soul_Core_of_Quaking",
+      "page": "Augment",
+      "english": "Jiquani's Soul Core of Quaking",
+      "chinese": "吉卡尼的震顫靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/RareSoulCoreSlams.webp",
+      "poe2db": "https://poe2db.tw/tw/Jiquanis_Soul_Core_of_Quaking"
+    },
+    {
+      "type": "item_base",
+      "slug": "Jiquanis_Soul_Core_of_Munitions",
+      "page": "Augment",
+      "english": "Jiquani's Soul Core of Munitions",
+      "chinese": "吉卡尼的彈藥靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/RareSoulCoreGrenades.webp",
+      "poe2db": "https://poe2db.tw/tw/Jiquanis_Soul_Core_of_Munitions"
+    },
+    {
+      "type": "item_base",
+      "slug": "Jiquanis_Soul_Core_of_Snares",
+      "page": "Augment",
+      "english": "Jiquani's Soul Core of Snares",
+      "chinese": "吉卡尼的陷阱靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/RareSoulCoreHazards.webp",
+      "poe2db": "https://poe2db.tw/tw/Jiquanis_Soul_Core_of_Snares"
+    },
+    {
+      "type": "item_base",
+      "slug": "Jiquanis_Soul_Core_of_Abundance",
+      "page": "Augment",
+      "english": "Jiquani's Soul Core of Abundance",
+      "chinese": "吉卡尼的豐饒靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/RareSoulCorePlants.webp",
+      "poe2db": "https://poe2db.tw/tw/Jiquanis_Soul_Core_of_Abundance"
+    },
+    {
+      "type": "item_base",
+      "slug": "Jiquanis_Soul_Core_of_Squalls",
+      "page": "Augment",
+      "english": "Jiquani's Soul Core of Squalls",
+      "chinese": "吉卡尼的狂風靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/RareSoulCoreWind.webp",
+      "poe2db": "https://poe2db.tw/tw/Jiquanis_Soul_Core_of_Squalls"
+    },
+    {
+      "type": "item_base",
+      "slug": "Jiquanis_Soul_Core_of_Thundering",
+      "page": "Augment",
+      "english": "Jiquani's Soul Core of Thundering",
+      "chinese": "吉卡尼的雷鳴靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/RareSoulCoreStorms.webp",
+      "poe2db": "https://poe2db.tw/tw/Jiquanis_Soul_Core_of_Thundering"
+    },
+    {
+      "type": "item_base",
+      "slug": "Atziris_Soul_Core_of_Devotion",
+      "page": "Augment",
+      "english": "Atziri's Soul Core of Devotion",
+      "chinese": "阿茲里的奉獻靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/SoulCoreSpecialHelmet.webp",
+      "poe2db": "https://poe2db.tw/tw/Atziris_Soul_Core_of_Devotion"
+    },
+    {
+      "type": "item_base",
+      "slug": "Atziris_Soul_Core_of_Vitality",
+      "page": "Augment",
+      "english": "Atziri's Soul Core of Vitality",
+      "chinese": "阿茲里的活力靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/SoulCoreSpecialBodyArmour.webp",
+      "poe2db": "https://poe2db.tw/tw/Atziris_Soul_Core_of_Vitality"
+    },
+    {
+      "type": "item_base",
+      "slug": "Atziris_Soul_Core_of_Alacrity",
+      "page": "Augment",
+      "english": "Atziri's Soul Core of Alacrity",
+      "chinese": "阿茲里的敏捷靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/SoulCoreSpecialGloves.webp",
+      "poe2db": "https://poe2db.tw/tw/Atziris_Soul_Core_of_Alacrity"
+    },
+    {
+      "type": "item_base",
+      "slug": "Atziris_Soul_Core_of_Inoculation",
+      "page": "Augment",
+      "english": "Atziri's Soul Core of Inoculation",
+      "chinese": "阿茲里的免疫靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/SoulCoreSpecialBoots.webp",
+      "poe2db": "https://poe2db.tw/tw/Atziris_Soul_Core_of_Inoculation"
+    },
+    {
+      "type": "item_base",
+      "slug": "Soul_Core_of_Vizoma",
+      "page": "Augment",
+      "english": "Soul Core of Vizoma",
+      "chinese": "威索瑪靈魂核心",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/GreaterSoulCoreVision.webp",
+      "poe2db": "https://poe2db.tw/tw/Soul_Core_of_Vizoma"
     },
     {
       "type": "item_base",
@@ -82738,7 +82900,7 @@
       "type": "item_base",
       "slug": "Legacy_of_Edyrns_Tusks",
       "page": "Augment",
-      "english": "Legacy of Edyrns Tusks",
+      "english": "Legacy of Edyrn's Tusks",
       "chinese": "傳承．埃狄恩的曲牙",
       "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
       "poe2db": "https://poe2db.tw/tw/Legacy_of_Edyrns_Tusks"
@@ -82748,7 +82910,7 @@
       "slug": "Legacy_of_Kingsguard",
       "page": "Augment",
       "english": "Legacy of Kingsguard",
-      "chinese": "傳承．王衛",
+      "chinese": "傳承．皇家衛甲",
       "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.webp",
       "poe2db": "https://poe2db.tw/tw/Legacy_of_Kingsguard"
     },
@@ -88490,7 +88652,7 @@
       "slug": "Runeforged_Warden_Bow",
       "page": "Bows",
       "english": "Runeforged Warden Bow",
-      "chinese": "Runeforged Warden Bow",
+      "chinese": "符鍛守護者之弓",
       "image": "https://cdn.poe2db.tw/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Basetypes/Bow03.webp",
       "poe2db": "https://poe2db.tw/tw/Runeforged_Warden_Bow"
     },
@@ -94706,12 +94868,48 @@
     },
     {
       "type": "item_base",
-      "slug": "Simulacrum",
+      "slug": "Fragment_of_the_Hydra",
       "page": "Map_Fragments",
-      "english": "Simulacrum",
-      "chinese": "幻像異界",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Maps/DeliriumFragment.webp",
-      "poe2db": "https://poe2db.tw/tw/Simulacrum"
+      "english": "Fragment of the Hydra",
+      "chinese": "九頭蛇斷片",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Maps/AtlasMaps/FragmentHydra.webp",
+      "poe2db": "https://poe2db.tw/tw/Fragment_of_the_Hydra"
+    },
+    {
+      "type": "item_base",
+      "slug": "Offering_to_the_Goddess",
+      "page": "Map_Fragments",
+      "english": "Offering to the Goddess",
+      "chinese": "女神祭品",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Maps/Labyrinth.webp",
+      "poe2db": "https://poe2db.tw/tw/Offering_to_the_Goddess"
+    },
+    {
+      "type": "item_base",
+      "slug": "Tribute_to_the_Goddess",
+      "page": "Map_Fragments",
+      "english": "Tribute to the Goddess",
+      "chinese": "女神獻禮",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Maps/LabyrinthHarvest.webp",
+      "poe2db": "https://poe2db.tw/tw/Tribute_to_the_Goddess"
+    },
+    {
+      "type": "item_base",
+      "slug": "Gift_to_the_Goddess",
+      "page": "Map_Fragments",
+      "english": "Gift to the Goddess",
+      "chinese": "女神之贈",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Maps/LabyrinthHarvestInfused1.webp",
+      "poe2db": "https://poe2db.tw/tw/Gift_to_the_Goddess"
+    },
+    {
+      "type": "item_base",
+      "slug": "Dedication_to_the_Goddess",
+      "page": "Map_Fragments",
+      "english": "Dedication to the Goddess",
+      "chinese": "女神奉獻",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Maps/LabyrinthHarvestInfused2.webp",
+      "poe2db": "https://poe2db.tw/tw/Dedication_to_the_Goddess"
     },
     {
       "type": "item_base",
@@ -94721,6 +94919,168 @@
       "chinese": "覲見國王",
       "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Ritual/VoodooKingEffigy.webp",
       "poe2db": "https://poe2db.tw/tw/An_Audience_with_the_King"
+    },
+    {
+      "type": "item_base",
+      "slug": "Gilded_Expedition_Scarab",
+      "page": "Map_Fragments",
+      "english": "Gilded Expedition Scarab",
+      "chinese": "聖甲蟲：鍍金探險",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/GreaterScarabExpedition.webp",
+      "poe2db": "https://poe2db.tw/tw/Gilded_Expedition_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Winged_Expedition_Scarab",
+      "page": "Map_Fragments",
+      "english": "Winged Expedition Scarab",
+      "chinese": "聖甲蟲：展翅探險",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/Tier4ScarabExpedition.webp",
+      "poe2db": "https://poe2db.tw/tw/Winged_Expedition_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Rusted_Legion_Scarab",
+      "page": "Map_Fragments",
+      "english": "Rusted Legion Scarab",
+      "chinese": "聖甲蟲：鏽蝕戰亂",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/LesserScarabLegion.webp",
+      "poe2db": "https://poe2db.tw/tw/Rusted_Legion_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Polished_Legion_Scarab",
+      "page": "Map_Fragments",
+      "english": "Polished Legion Scarab",
+      "chinese": "聖甲蟲：圓滑戰亂",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/NormalScarabLegion.webp",
+      "poe2db": "https://poe2db.tw/tw/Polished_Legion_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Gilded_Legion_Scarab",
+      "page": "Map_Fragments",
+      "english": "Gilded Legion Scarab",
+      "chinese": "聖甲蟲：鍍金戰亂",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/GreaterScarabLegion.webp",
+      "poe2db": "https://poe2db.tw/tw/Gilded_Legion_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Winged_Legion_Scarab",
+      "page": "Map_Fragments",
+      "english": "Winged Legion Scarab",
+      "chinese": "聖甲蟲：展翅戰亂",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/Tier4ScarabLegion.webp",
+      "poe2db": "https://poe2db.tw/tw/Winged_Legion_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Rusted_Metamorph_Scarab",
+      "page": "Map_Fragments",
+      "english": "Rusted Metamorph Scarab",
+      "chinese": "聖甲蟲：鏽蝕鍊魔",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/LesserScarabMetamorph.webp",
+      "poe2db": "https://poe2db.tw/tw/Rusted_Metamorph_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Polished_Metamorph_Scarab",
+      "page": "Map_Fragments",
+      "english": "Polished Metamorph Scarab",
+      "chinese": "聖甲蟲：圓滑鍊魔",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/NormalScarabMetamorph.webp",
+      "poe2db": "https://poe2db.tw/tw/Polished_Metamorph_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Gilded_Metamorph_Scarab",
+      "page": "Map_Fragments",
+      "english": "Gilded Metamorph Scarab",
+      "chinese": "聖甲蟲：鍍金鍊魔",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/GreaterScarabMetamorph.webp",
+      "poe2db": "https://poe2db.tw/tw/Gilded_Metamorph_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Winged_Metamorph_Scarab",
+      "page": "Map_Fragments",
+      "english": "Winged Metamorph Scarab",
+      "chinese": "聖甲蟲：展翅鍊魔",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/Tier4ScarabMetamorph.webp",
+      "poe2db": "https://poe2db.tw/tw/Winged_Metamorph_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Rusted_Blight_Scarab",
+      "page": "Map_Fragments",
+      "english": "Rusted Blight Scarab",
+      "chinese": "聖甲蟲：鏽蝕凋落",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/LesserScarabBlight.webp",
+      "poe2db": "https://poe2db.tw/tw/Rusted_Blight_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Polished_Blight_Scarab",
+      "page": "Map_Fragments",
+      "english": "Polished Blight Scarab",
+      "chinese": "聖甲蟲：圓滑凋落",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/NormalScarabBlight.webp",
+      "poe2db": "https://poe2db.tw/tw/Polished_Blight_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Gilded_Blight_Scarab",
+      "page": "Map_Fragments",
+      "english": "Gilded Blight Scarab",
+      "chinese": "聖甲蟲：鍍金凋落",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/GreaterScarabBlight.webp",
+      "poe2db": "https://poe2db.tw/tw/Gilded_Blight_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Winged_Blight_Scarab",
+      "page": "Map_Fragments",
+      "english": "Winged Blight Scarab",
+      "chinese": "聖甲蟲：展翅凋落",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/Tier4ScarabBlight.webp",
+      "poe2db": "https://poe2db.tw/tw/Winged_Blight_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Rusted_Abyss_Scarab",
+      "page": "Map_Fragments",
+      "english": "Rusted Abyss Scarab",
+      "chinese": "聖甲蟲：鏽蝕深淵",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/LesserScarabAbyss.webp",
+      "poe2db": "https://poe2db.tw/tw/Rusted_Abyss_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Polished_Abyss_Scarab",
+      "page": "Map_Fragments",
+      "english": "Polished Abyss Scarab",
+      "chinese": "聖甲蟲：圓滑深淵",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/NormalScarabAbyss.webp",
+      "poe2db": "https://poe2db.tw/tw/Polished_Abyss_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Gilded_Abyss_Scarab",
+      "page": "Map_Fragments",
+      "english": "Gilded Abyss Scarab",
+      "chinese": "聖甲蟲：鍍金深淵",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/GreaterScarabAbyss.webp",
+      "poe2db": "https://poe2db.tw/tw/Gilded_Abyss_Scarab"
+    },
+    {
+      "type": "item_base",
+      "slug": "Winged_Abyss_Scarab",
+      "page": "Map_Fragments",
+      "english": "Winged Abyss Scarab",
+      "chinese": "聖甲蟲：展翅深淵",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/Tier4ScarabAbyss.webp",
+      "poe2db": "https://poe2db.tw/tw/Winged_Abyss_Scarab"
     },
     {
       "type": "item_base",
@@ -94784,6 +95144,24 @@
       "chinese": "勝利之運",
       "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/SoulCores/TrialmasterKey3.webp",
       "poe2db": "https://poe2db.tw/tw/Victorious_Fate"
+    },
+    {
+      "type": "item_base",
+      "slug": "Simulacrum",
+      "page": "Map_Fragments",
+      "english": "Simulacrum",
+      "chinese": "幻像異界",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Maps/DeliriumFragment.webp",
+      "poe2db": "https://poe2db.tw/tw/Simulacrum"
+    },
+    {
+      "type": "item_base",
+      "slug": "Sacred_Bloom",
+      "page": "Map_Fragments",
+      "english": "Sacred Bloom",
+      "chinese": "聖綻之花",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Harvest/SacredLifeforce.webp",
+      "poe2db": "https://poe2db.tw/tw/Sacred_Bloom"
     },
     {
       "type": "item_base",
@@ -95726,7 +96104,7 @@
       "slug": "Scimitar",
       "page": "One_Hand_Swords",
       "english": "Scimitar",
-      "chinese": "彎刀",
+      "chinese": "短彎刀",
       "image": "https://cdn.poe2db.tw/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/Basetypes/1HSword04.webp",
       "poe2db": "https://poe2db.tw/tw/Scimitar"
     },
@@ -100247,8 +100625,8 @@
     },
     {
       "type": "modifier",
-      "hash": "1123f35e44d9e68fa5089391423ed8307fa3c34a432892ed12dd844973e3d59e",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/1123f35e44d9e68fa5089391423ed8307fa3c34a432892ed12dd844973e3d59e",
+      "hash": "2b305d0958b30f91ff9eb088647566ddc6a33daff97ee4fc042ad941be848909",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2b305d0958b30f91ff9eb088647566ddc6a33daff97ee4fc042ad941be848909",
       "title": "+(25 — 27) 點 力量",
       "name": "巨人之",
       "family": "Strength",
@@ -100373,8 +100751,8 @@
     },
     {
       "type": "modifier",
-      "hash": "ca54f827df73dcac56fe969acdb2880f76dc832dd0c3fccc5240bd798be87a11",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/ca54f827df73dcac56fe969acdb2880f76dc832dd0c3fccc5240bd798be87a11",
+      "hash": "7eacc721d8c6643b820d78724329ea40d4a8c85047801b0ad8703b064f96f679",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/7eacc721d8c6643b820d78724329ea40d4a8c85047801b0ad8703b064f96f679",
       "title": "+(17 — 20) 點 敏捷",
       "name": "獵鷹之",
       "family": "Dexterity",
@@ -100415,8 +100793,8 @@
     },
     {
       "type": "modifier",
-      "hash": "d6429d20fd398a8f32fc1e32f038c49ca2aa86db9a203476875564316e61a52e",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/d6429d20fd398a8f32fc1e32f038c49ca2aa86db9a203476875564316e61a52e",
+      "hash": "6f0bf226286dc2f5a9cdf287e18d5c892cc0d52b93984dc36e209c22ceb2ac2b",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/6f0bf226286dc2f5a9cdf287e18d5c892cc0d52b93984dc36e209c22ceb2ac2b",
       "title": "+(25 — 27) 點 敏捷",
       "name": "花豹之",
       "family": "Dexterity",
@@ -100583,8 +100961,8 @@
     },
     {
       "type": "modifier",
-      "hash": "f6fa29b50b264a213e32fa442cf7e55e9a3312aae42a039dad00db7a7f44ad96",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f6fa29b50b264a213e32fa442cf7e55e9a3312aae42a039dad00db7a7f44ad96",
+      "hash": "13c2f3e07b2390826b1616c552136ac9dbe4e9e3e9d71fc9ceddf27c08ed2a2d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/13c2f3e07b2390826b1616c552136ac9dbe4e9e3e9d71fc9ceddf27c08ed2a2d",
       "title": "+(25 — 27) 點 智慧",
       "name": "聖人之",
       "family": "Intelligence",
@@ -100856,8 +101234,8 @@
     },
     {
       "type": "modifier",
-      "hash": "2ec0de620670329eec677ad811d09221fb07ab210e6c77984479a8a01736f9ba",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2ec0de620670329eec677ad811d09221fb07ab210e6c77984479a8a01736f9ba",
+      "hash": "4e65dd97047e549b87f7c3538d874904d2749d1a63d4ea05319cd480c22985e1",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/4e65dd97047e549b87f7c3538d874904d2749d1a63d4ea05319cd480c22985e1",
       "title": "+(11 — 15) % 火焰抗性",
       "name": "火蜥蜴之",
       "family": "FireResistance",
@@ -100940,8 +101318,8 @@
     },
     {
       "type": "modifier",
-      "hash": "759f188df956d0b95792268f62fadedb8375a05844107420b1ab8adf9b8e9e10",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/759f188df956d0b95792268f62fadedb8375a05844107420b1ab8adf9b8e9e10",
+      "hash": "fd3acd2d78f0d64a400ba7c0d0904d19c234f0fa63781722624e7b5440a4beb3",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/fd3acd2d78f0d64a400ba7c0d0904d19c234f0fa63781722624e7b5440a4beb3",
       "title": "+(31 — 35) % 火焰抗性",
       "name": "火山之",
       "family": "FireResistance",
@@ -101024,8 +101402,8 @@
     },
     {
       "type": "modifier",
-      "hash": "3f6c9cdeed05c9a174040f0c261f09a5742f9d9ace79d2d291e9a8cb5447f33e",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/3f6c9cdeed05c9a174040f0c261f09a5742f9d9ace79d2d291e9a8cb5447f33e",
+      "hash": "22eb4b2ec7366cc2337f7b6ea0147bac277aa35f1ab8154447c19d630a6824bf",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/22eb4b2ec7366cc2337f7b6ea0147bac277aa35f1ab8154447c19d630a6824bf",
       "title": "+(11 — 15) % 冰冷抗性",
       "name": "企鵝之",
       "family": "ColdResistance",
@@ -101066,8 +101444,8 @@
     },
     {
       "type": "modifier",
-      "hash": "6f43295c3720d9b01ee2dca0fe03f09d84874d33c989766151dab438df00cfb7",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/6f43295c3720d9b01ee2dca0fe03f09d84874d33c989766151dab438df00cfb7",
+      "hash": "6cedca1eaa09dd0e36867395ac29fbcc8849372881fb1e59f36db30b15fce4be",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/6cedca1eaa09dd0e36867395ac29fbcc8849372881fb1e59f36db30b15fce4be",
       "title": "+(21 — 25) % 冰冷抗性",
       "name": "雪人之",
       "family": "ColdResistance",
@@ -101108,8 +101486,8 @@
     },
     {
       "type": "modifier",
-      "hash": "19b917fe7bacc9e73e877da450e17a939e8b17e3904ce232ee5c764688c01bda",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/19b917fe7bacc9e73e877da450e17a939e8b17e3904ce232ee5c764688c01bda",
+      "hash": "26b9710c47b566f29c0a2321634445e934685711a6e5cdc6591ba75310c6d4c2",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/26b9710c47b566f29c0a2321634445e934685711a6e5cdc6591ba75310c6d4c2",
       "title": "+(31 — 35) % 冰冷抗性",
       "name": "北極熊之",
       "family": "ColdResistance",
@@ -101276,8 +101654,8 @@
     },
     {
       "type": "modifier",
-      "hash": "87cfea9c20687b2488ad12a257961384ec68f74d00802ad6cb099d9b6eb88448",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/87cfea9c20687b2488ad12a257961384ec68f74d00802ad6cb099d9b6eb88448",
+      "hash": "c0abae09ba1850ba59ebb61226d409657d054180a1431dbceb50f3808f8a3210",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c0abae09ba1850ba59ebb61226d409657d054180a1431dbceb50f3808f8a3210",
       "title": "+(31 — 35) % 閃電抗性",
       "name": "颱風之",
       "family": "LightningResistance",
@@ -101486,8 +101864,8 @@
     },
     {
       "type": "modifier",
-      "hash": "8b061c1531b46041a3933a5febc5ba0d6ea3d5c0f4e85bf22f44a8edfe595b7e",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/8b061c1531b46041a3933a5febc5ba0d6ea3d5c0f4e85bf22f44a8edfe595b7e",
+      "hash": "4c3dba9e317355071cb9f1f14bd20f4799ce79b5aa30945dbfa4e86e3d449856",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/4c3dba9e317355071cb9f1f14bd20f4799ce79b5aa30945dbfa4e86e3d449856",
       "title": "+(8 — 11) % 混沌抗性",
       "name": "放逐之",
       "family": "ChaosResistance",
@@ -101528,8 +101906,8 @@
     },
     {
       "type": "modifier",
-      "hash": "2d3e66b0e57cb3cc5b35bb4f33ee3d03b91be417d700307b5870254b19b73b1c",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2d3e66b0e57cb3cc5b35bb4f33ee3d03b91be417d700307b5870254b19b73b1c",
+      "hash": "643b3b9caa3ff29f3d46b79b1c526e9147a6caa5444fa9806fb4ede5f2edd1bf",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/643b3b9caa3ff29f3d46b79b1c526e9147a6caa5444fa9806fb4ede5f2edd1bf",
       "title": "+(16 — 19) % 混沌抗性",
       "name": "出境之",
       "family": "ChaosResistance",
@@ -102893,8 +103271,8 @@
     },
     {
       "type": "modifier",
-      "hash": "f7ddcfcbd779bd3e4405cebe4cdfc87b1bf918f1bb4cb04abe6a4d87382e03d3",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f7ddcfcbd779bd3e4405cebe4cdfc87b1bf918f1bb4cb04abe6a4d87382e03d3",
+      "hash": "97c43334c6cbaaa326e041cf672ad537becaf673efa58a1a3a3d7214c15ef4b9",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/97c43334c6cbaaa326e041cf672ad537becaf673efa58a1a3a3d7214c15ef4b9",
       "title": "全部 召喚物 技能等級 +1",
       "name": "監督者之",
       "family": "IncreaseSocketedGemLevel",
@@ -103775,8 +104153,8 @@
     },
     {
       "type": "modifier",
-      "hash": "0d724df7ee1ed4b53e032d9caca06bb3601c6181d2178a70291835e0206ce2cc",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/0d724df7ee1ed4b53e032d9caca06bb3601c6181d2178a70291835e0206ce2cc",
+      "hash": "2d4f5cb81eee9064831ab2f7aeadde41f5cd4d7cab9e0da48504986af3a556f4",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2d4f5cb81eee9064831ab2f7aeadde41f5cd4d7cab9e0da48504986af3a556f4",
       "title": "增加 (25 — 29) % 暴擊傷害加成",
       "name": "憤恨之",
       "family": "CriticalStrikeMultiplier",
@@ -104888,6 +105266,27 @@
     },
     {
       "type": "modifier",
+      "hash": "b71fd01d865a65f38e95bb42287db921cab2d5851c0e24c7eeb5478ec9c84bac",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/b71fd01d865a65f38e95bb42287db921cab2d5851c0e24c7eeb5478ec9c84bac",
+      "title": "祈願 法術 有 (10 — 20) %機率消耗一半的 能量",
+      "name": "柯戈的",
+      "family": "InvocatedSpellHalfEnergyChance",
+      "domains": "深淵 (28)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "invocation spell chance to cost half energy % 10 — 20 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "祈願 法術 有 (10 — 20) %機率消耗一半的 能量 柯戈的 InvocatedSpellHalfEnergyChance 前綴 (1) 深淵 (28) 需求等級 65 invocation spell chance to cost half energy % 10 — 20 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "73b9c71a6ca360b6109d37fcc2489cdb22c5488b6d5a6bd5029ade628aded851",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/73b9c71a6ca360b6109d37fcc2489cdb22c5488b6d5a6bd5029ade628aded851",
       "title": "+(13 — 17) %火焰和混沌抗性",
@@ -105497,6 +105896,27 @@
     },
     {
       "type": "modifier",
+      "hash": "97b6d3e7a1ab16872d79edc6805f84ddc9e5449fffb1d3dd59d7ae6ab7a763b5",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/97b6d3e7a1ab16872d79edc6805f84ddc9e5449fffb1d3dd59d7ae6ab7a763b5",
+      "title": "+(35 — 50) 點 敏捷",
+      "name": "",
+      "family": "Dexterity",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "additional dexterity 35 — 50 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(35 — 50) 點 敏捷 Dexterity 傳奇 (3) 物品 (1) 需求等級 1 additional dexterity 35 — 50 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "b8279bb21b2af82136182a7f20d1341b996ee0de0efe6fbf99802141cad180fb",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/b8279bb21b2af82136182a7f20d1341b996ee0de0efe6fbf99802141cad180fb",
       "title": "全部技能寶石等級 +2",
@@ -105665,6 +106085,27 @@
     },
     {
       "type": "modifier",
+      "hash": "3adca01b388806117c17bcd298e16e31795e2a5e7ce07dc6929605e375063842",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/3adca01b388806117c17bcd298e16e31795e2a5e7ce07dc6929605e375063842",
+      "title": "+(14 — 16) 點 力量",
+      "name": "",
+      "family": "Strength",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "additional strength 14 — 16 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(14 — 16) 點 力量 Strength 傳奇 (3) 物品 (1) 需求等級 1 additional strength 14 — 16 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "161dff7e103799aa1866311ca13dc67c29280d446de61f8289804093da55651b",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/161dff7e103799aa1866311ca13dc67c29280d446de61f8289804093da55651b",
       "title": "+2 % 最大全元素抗性",
@@ -105725,6 +106166,27 @@
       ],
       "itemClasses": [],
       "searchText": "+(150 — 174) 最大生命 豐饒的 IncreasedLife 前綴 (1) 物品 (1) 需求等級 65 base maximum life 150 — 174 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "9159eb9a296e5b21df72f1e257a067cfc16deff04680c6f32f9d1d00e82ab8d5",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/9159eb9a296e5b21df72f1e257a067cfc16deff04680c6f32f9d1d00e82ab8d5",
+      "title": "+(23 — 51) 護甲值",
+      "name": "鑲嵌的",
+      "family": "IncreasedPhysicalDamageReductionRating",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 11,
+      "stats": [
+        {
+          "text": "base physical damage reduction rating 23 — 51 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(23 — 51) 護甲值 鑲嵌的 IncreasedPhysicalDamageReductionRating 前綴 (1) 物品 (1) 需求等級 11 base physical damage reduction rating 23 — 51 Global"
     },
     {
       "type": "modifier",
@@ -106580,6 +107042,27 @@
       ],
       "itemClasses": [],
       "searchText": "+(20 — 25) % 火焰抗性 FireResistance 已汙染 (5) 物品 (1) 需求等級 1 base fire damage resistance % 20 — 25 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "37c1441b2976145c6e3209b427b547da6b3c39c8aa49351908129fd1f29fb7f4",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/37c1441b2976145c6e3209b427b547da6b3c39c8aa49351908129fd1f29fb7f4",
+      "title": "+(20 — 25) % 冰冷抗性",
+      "name": "",
+      "family": "ColdResistance",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "base cold damage resistance % 20 — 25 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(20 — 25) % 冰冷抗性 ColdResistance 已汙染 (5) 物品 (1) 需求等級 1 base cold damage resistance % 20 — 25 Global"
     },
     {
       "type": "modifier",
@@ -108401,8 +108884,8 @@
     },
     {
       "type": "modifier",
-      "hash": "a86abe26cd49d9313bacbe423a923dcc4ed27a46817eb424286c014281e51388",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a86abe26cd49d9313bacbe423a923dcc4ed27a46817eb424286c014281e51388",
+      "hash": "e3a188677fa81112a83f8b8372a19f8460ce109dc42c7b94602af0d22e330c4c",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e3a188677fa81112a83f8b8372a19f8460ce109dc42c7b94602af0d22e330c4c",
       "title": "附加 (4 — 6) 至 (7 — 11) 物理 傷害",
       "name": "磨光的",
       "family": "PhysicalDamage",
@@ -108482,8 +108965,8 @@
     },
     {
       "type": "modifier",
-      "hash": "f467a73066e42faf76901660d2bf3e316440742ec28b58945e0c4522e04de4d0",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f467a73066e42faf76901660d2bf3e316440742ec28b58945e0c4522e04de4d0",
+      "hash": "8d58770f0b0728685f548dcfd068e8c6d122e43231824f71cc702d900998060d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/8d58770f0b0728685f548dcfd068e8c6d122e43231824f71cc702d900998060d",
       "title": "附加 (10 — 15) 至 (18 — 26) 物理 傷害",
       "name": "熠熠的",
       "family": "PhysicalDamage",
@@ -108536,8 +109019,8 @@
     },
     {
       "type": "modifier",
-      "hash": "00e173174a1a2436ebb500fd5e9e0ad17268c88c32c27f7b380d69f2682c544e",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/00e173174a1a2436ebb500fd5e9e0ad17268c88c32c27f7b380d69f2682c544e",
+      "hash": "96d1f532b2d4755b5ddc3f98e66a579380e0bdf8f475133a5d6cc15eda6eeeae",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/96d1f532b2d4755b5ddc3f98e66a579380e0bdf8f475133a5d6cc15eda6eeeae",
       "title": "附加 (16 — 24) 至 (28 — 42) 物理 傷害",
       "name": "鋒利的",
       "family": "PhysicalDamage",
@@ -108725,8 +109208,8 @@
     },
     {
       "type": "modifier",
-      "hash": "409d0f71a26d98488b0536fc1f39e092a3d35f745b95f4478796a5f02414df05",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/409d0f71a26d98488b0536fc1f39e092a3d35f745b95f4478796a5f02414df05",
+      "hash": "646c618f138378810193f279545dd63e58e5be4fb02bf6397759818f479f8048",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/646c618f138378810193f279545dd63e58e5be4fb02bf6397759818f479f8048",
       "title": "附加 (20 — 24) 至 (32 — 37) 火焰 傷害",
       "name": "火焰的",
       "family": "FireDamage",
@@ -108779,8 +109262,8 @@
     },
     {
       "type": "modifier",
-      "hash": "9c938e48b775b5fbfc7b52af3cfaf1bfd23246f4b79c59cab9a5ad11eae944fe",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/9c938e48b775b5fbfc7b52af3cfaf1bfd23246f4b79c59cab9a5ad11eae944fe",
+      "hash": "39fa042ded2fc992e451ba72408d22068063e05070a13cfd0b1aac0bad151de1",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/39fa042ded2fc992e451ba72408d22068063e05070a13cfd0b1aac0bad151de1",
       "title": "附加 (35 — 44) 至 (56 — 71) 火焰 傷害",
       "name": "焚燒的",
       "family": "FireDamage",
@@ -109265,8 +109748,8 @@
     },
     {
       "type": "modifier",
-      "hash": "7c3fc3d60a3124b2c61964ef35ce4df20c791167baa7c65a9768a5a81dd126f4",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/7c3fc3d60a3124b2c61964ef35ce4df20c791167baa7c65a9768a5a81dd126f4",
+      "hash": "1c017c9f0c7f20030eea34e6a7af9e7f2f0bccbdac15f8363e93f9af1bbfb677",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/1c017c9f0c7f20030eea34e6a7af9e7f2f0bccbdac15f8363e93f9af1bbfb677",
       "title": "附加 (1 — 3) 至 (55 — 60) 閃電 傷害",
       "name": "火花的",
       "family": "LightningDamage",
@@ -109319,8 +109802,8 @@
     },
     {
       "type": "modifier",
-      "hash": "cba863c5168fcdb762ce12569a699ba7d11d9f95ac9103005f8dd0e52455931a",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/cba863c5168fcdb762ce12569a699ba7d11d9f95ac9103005f8dd0e52455931a",
+      "hash": "095318a1291b61b1f8b25811f761fa2eb77101bc5ca56cca9b649711e52d7852",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/095318a1291b61b1f8b25811f761fa2eb77101bc5ca56cca9b649711e52d7852",
       "title": "附加 (1 — 6) 至 (85 — 107) 閃電 傷害",
       "name": "電震的",
       "family": "LightningDamage",
@@ -110525,8 +111008,8 @@
     },
     {
       "type": "modifier",
-      "hash": "b415e8bbbe9fb3832f01c821a673d6982e2bc31e4d87e385f12ac452f143c19c",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/b415e8bbbe9fb3832f01c821a673d6982e2bc31e4d87e385f12ac452f143c19c",
+      "hash": "1bc3c4815abf621dd191c71da2bf210bbffc337333d6b13470f5ff99401bf466",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/1bc3c4815abf621dd191c71da2bf210bbffc337333d6b13470f5ff99401bf466",
       "title": "增加 (11 — 13) % 攻擊 速度",
       "name": "成熟之",
       "family": "IncreasedAttackSpeed",
@@ -110546,8 +111029,8 @@
     },
     {
       "type": "modifier",
-      "hash": "df65441d60310e81022995f84e25b58ffa856f8a470b1d1e3f4dca063e317919",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/df65441d60310e81022995f84e25b58ffa856f8a470b1d1e3f4dca063e317919",
+      "hash": "1d00477294154a0d9e87bda42928541e1534c6956500622f171295df0edfc99b",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/1d00477294154a0d9e87bda42928541e1534c6956500622f171295df0edfc99b",
       "title": "增加 (14 — 16) % 攻擊 速度",
       "name": "聲望之",
       "family": "IncreasedAttackSpeed",
@@ -110567,8 +111050,8 @@
     },
     {
       "type": "modifier",
-      "hash": "4dcd1c0bf960f44b12f216938197f6c088ebd68b77ff1d63ae86e47c6d797217",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/4dcd1c0bf960f44b12f216938197f6c088ebd68b77ff1d63ae86e47c6d797217",
+      "hash": "d2b0e9bcede546399a3d14906ed4b75924251722ae5fa507c66cf88d582be8f8",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/d2b0e9bcede546399a3d14906ed4b75924251722ae5fa507c66cf88d582be8f8",
       "title": "增加 (17 — 19) % 攻擊 速度",
       "name": "讚賞之",
       "family": "IncreasedAttackSpeed",
@@ -110672,8 +111155,8 @@
     },
     {
       "type": "modifier",
-      "hash": "a212d4b2c2975801d9b2753b9c556c53a5395a3e1a08d0aaf4ba84dfce6643cf",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a212d4b2c2975801d9b2753b9c556c53a5395a3e1a08d0aaf4ba84dfce6643cf",
+      "hash": "881c9594f74cf5eddeed1b7f278c32af9c3db02bcf205fa6c0517bd0c8dfa10e",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/881c9594f74cf5eddeed1b7f278c32af9c3db02bcf205fa6c0517bd0c8dfa10e",
       "title": "+(124 — 167) 命中 值",
       "name": "穩定之",
       "family": "IncreasedAccuracy",
@@ -110714,8 +111197,8 @@
     },
     {
       "type": "modifier",
-      "hash": "33707c0224d564336573cc030404010f8c820ee19118ccf2682a2e758bba48e0",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/33707c0224d564336573cc030404010f8c820ee19118ccf2682a2e758bba48e0",
+      "hash": "41566d3e19228fc21bf41498d2d5a06ed70e4665fe314e9d798c1921b0b8dcb5",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/41566d3e19228fc21bf41498d2d5a06ed70e4665fe314e9d798c1921b0b8dcb5",
       "title": "+(237 — 346) 命中 值",
       "name": "狩獵者的",
       "family": "IncreasedAccuracy",
@@ -110819,8 +111302,8 @@
     },
     {
       "type": "modifier",
-      "hash": "66dba25358516e88e7ffbda15fe8fb195a2e10c8ee078b0800dde0b37a893b53",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/66dba25358516e88e7ffbda15fe8fb195a2e10c8ee078b0800dde0b37a893b53",
+      "hash": "3d7a57fd431e4f4f3376156bc266ec8ed728a9c0bdfdaa8d9281dfd72ba6eb14",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/3d7a57fd431e4f4f3376156bc266ec8ed728a9c0bdfdaa8d9281dfd72ba6eb14",
       "title": "+(1.51 — 2.1) % 暴擊 率",
       "name": "浩劫之",
       "family": "CriticalStrikeChanceIncrease",
@@ -110840,8 +111323,8 @@
     },
     {
       "type": "modifier",
-      "hash": "c9ec0a60094fb81f1399a2b4c04574d26eaa4c2b59324df9860df5c1bbe9433d",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c9ec0a60094fb81f1399a2b4c04574d26eaa4c2b59324df9860df5c1bbe9433d",
+      "hash": "adc7f60c75084724dab226ed947af0033ea26f076afbd887d00addba6464a332",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/adc7f60c75084724dab226ed947af0033ea26f076afbd887d00addba6464a332",
       "title": "+(2.11 — 2.7) % 暴擊 率",
       "name": "災害之",
       "family": "CriticalStrikeChanceIncrease",
@@ -110861,8 +111344,8 @@
     },
     {
       "type": "modifier",
-      "hash": "fb8216effc4cda030121fd9807775eec71195be09ffbc79661ff22379d345b07",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/fb8216effc4cda030121fd9807775eec71195be09ffbc79661ff22379d345b07",
+      "hash": "7ac4a8d8e369d8f31c400624686aacbcbe1ba69a2fda5499753ea1b09cdde332",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/7ac4a8d8e369d8f31c400624686aacbcbe1ba69a2fda5499753ea1b09cdde332",
       "title": "+(3.11 — 3.8) % 暴擊 率",
       "name": "血禍之",
       "family": "CriticalStrikeChanceIncrease",
@@ -112295,8 +112778,8 @@
     },
     {
       "type": "modifier",
-      "hash": "4852be492f5cd85d94b15863bc43d8216c5e21102e23a976d32b348dd1f94e05",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/4852be492f5cd85d94b15863bc43d8216c5e21102e23a976d32b348dd1f94e05",
+      "hash": "731cd96a2a170fa7e7c27726f5a0f780546873ceba505bad26af2841924bea3d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/731cd96a2a170fa7e7c27726f5a0f780546873ceba505bad26af2841924bea3d",
       "title": "增加 (56 — 67) % 閃避 值",
       "name": "幽靈的",
       "family": "DefencesPercent",
@@ -112532,6 +113015,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (39 — 42) % 閃避 值 暈眩門檻 +(95 — 136) 蜂鳥的 DefencesPercentAndStunThreshold 前綴 (1) 物品 (1) 需求等級 74 stun threshold + 95 — 136 Global local evasion rating +% 39 — 42 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "505d58417b9f696b396bebed4cf52a2a9b19506bc226e20759065b27c2e5a456",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/505d58417b9f696b396bebed4cf52a2a9b19506bc226e20759065b27c2e5a456",
+      "title": "增加 (15 — 19) % 格擋 率",
+      "name": "堅韌的",
+      "family": "IncreasedShieldBlockPercentage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local block chance +% 15 — 19 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (15 — 19) % 格擋 率 堅韌的 IncreasedShieldBlockPercentage 前綴 (1) 物品 (1) 需求等級 1 local block chance +% 15 — 19 區域"
     },
     {
       "type": "modifier",
@@ -113018,6 +113522,27 @@
     },
     {
       "type": "modifier",
+      "hash": "e0faec0b1107dd883e4424895590fa55560f0d7e9762318ce973a084a99976aa",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e0faec0b1107dd883e4424895590fa55560f0d7e9762318ce973a084a99976aa",
+      "title": "你 格擋 時獲得 (40 — 55) 生命",
+      "name": "",
+      "family": "GainLifeOnBlock",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "life gained on block 40 — 55 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "你 格擋 時獲得 (40 — 55) 生命 GainLifeOnBlock 傳奇 (3) 物品 (1) 需求等級 1 life gained on block 40 — 55 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "57b7b4dc0fbffacbecff3d9268b1881484024e33321600c0a834e9c58c4eea10",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/57b7b4dc0fbffacbecff3d9268b1881484024e33321600c0a834e9c58c4eea10",
       "title": "增加 (40 — 60) % 閃避 值",
@@ -113036,6 +113561,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (40 — 60) % 閃避 值 DefencesPercent 傳奇 (3) 物品 (1) 需求等級 1 local evasion rating +% 40 — 60 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "7d8a35cc9801ed2a6cc8b93ba8fdc7caf7d19cf7ba3eccfb202902dfd058c36e",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/7d8a35cc9801ed2a6cc8b93ba8fdc7caf7d19cf7ba3eccfb202902dfd058c36e",
+      "title": "+(4 — 5) %至最大 格擋 機率",
+      "name": "",
+      "family": "MaximumBlockChance",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "additional maximum block % 4 — 5 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(4 — 5) %至最大 格擋 機率 MaximumBlockChance 傳奇 (3) 物品 (1) 需求等級 1 additional maximum block % 4 — 5 Global"
     },
     {
       "type": "modifier",
@@ -113564,6 +114110,27 @@
     },
     {
       "type": "modifier",
+      "hash": "b47c4bc6d6bac45952ae4b35524a7fdcbe144a64caacb1c117d3f8cfd8a53342",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/b47c4bc6d6bac45952ae4b35524a7fdcbe144a64caacb1c117d3f8cfd8a53342",
+      "title": "每次使用減少 (18 — 20) %充能",
+      "name": "從業者的",
+      "family": "FlaskChargesUsed",
+      "domains": "Flask (2)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 14,
+      "stats": [
+        {
+          "text": "local charges used +% -20 — -18 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每次使用減少 (18 — 20) %充能 從業者的 FlaskChargesUsed 後綴 (2) Flask (2) 需求等級 14 local charges used +% -20 — -18 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "bd281dc23244398ddd037318381072419f444ac2b04280798d1f95828e4215e7",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/bd281dc23244398ddd037318381072419f444ac2b04280798d1f95828e4215e7",
       "title": "每次使用減少 (21 — 23) %充能",
@@ -113774,6 +114341,27 @@
     },
     {
       "type": "modifier",
+      "hash": "46559ad4d78769a0849b38bd1165cee4ed2d4e5cc04a018a020022aac1b8752d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/46559ad4d78769a0849b38bd1165cee4ed2d4e5cc04a018a020022aac1b8752d",
+      "title": "每秒獲得 0.15 充能",
+      "name": "枝葉之",
+      "family": "FlaskGainCharge",
+      "domains": "Flask (2)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 8,
+      "stats": [
+        {
+          "text": "local flask gain X charges every minute 9 — 9 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每秒獲得 0.15 充能 枝葉之 FlaskGainCharge 後綴 (2) Flask (2) 需求等級 8 local flask gain X charges every minute 9 — 9 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "06804fc78e08e38b20509733da0f8d45b98aa68133cad90115634803300d0416",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/06804fc78e08e38b20509733da0f8d45b98aa68133cad90115634803300d0416",
       "title": "每秒獲得 0.25 充能",
@@ -113900,8 +114488,8 @@
     },
     {
       "type": "modifier",
-      "hash": "69fc27c65c1d7aa29824fff2da6ca2bfbca5c41abf569f2797f121c253a84901",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/69fc27c65c1d7aa29824fff2da6ca2bfbca5c41abf569f2797f121c253a84901",
+      "hash": "f581db2222aac03f00db3e3c1b07cb5a307fa5170f6fde23d18f33e33a7730d8",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f581db2222aac03f00db3e3c1b07cb5a307fa5170f6fde23d18f33e33a7730d8",
       "title": "增加 (23 — 25) % 攻擊 速度",
       "name": "惡名之",
       "family": "IncreasedAttackSpeed",
@@ -114221,8 +114809,8 @@
     },
     {
       "type": "modifier",
-      "hash": "11c454ad7ce23b39557e48077ffca3e064e03bfdfb46a8a3206a3d2a894e0b2f",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/11c454ad7ce23b39557e48077ffca3e064e03bfdfb46a8a3206a3d2a894e0b2f",
+      "hash": "e27275a9a47ba383c3d608dab121fbc748196122b5356a86dcb044b7f559abb3",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e27275a9a47ba383c3d608dab121fbc748196122b5356a86dcb044b7f559abb3",
       "title": "附加 (5 — 8) 至 (10 — 15) 物理 傷害",
       "name": "磨光的",
       "family": "PhysicalDamage",
@@ -114302,8 +114890,8 @@
     },
     {
       "type": "modifier",
-      "hash": "dffa994bad38d430467a0665d29423b95023be2a9bf7acac41442907ffd71db3",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/dffa994bad38d430467a0665d29423b95023be2a9bf7acac41442907ffd71db3",
+      "hash": "7a1e5029acb65d61841d6f6139bdb9b1f31f0a745d26f16ee79cedc5e2d69983",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/7a1e5029acb65d61841d6f6139bdb9b1f31f0a745d26f16ee79cedc5e2d69983",
       "title": "附加 (14 — 21) 至 (25 — 37) 物理 傷害",
       "name": "熠熠的",
       "family": "PhysicalDamage",
@@ -114356,8 +114944,8 @@
     },
     {
       "type": "modifier",
-      "hash": "d08039ea5eb165cc39d2ba48434f25073a0e9e9b08c53f6b38de5826d428ed49",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/d08039ea5eb165cc39d2ba48434f25073a0e9e9b08c53f6b38de5826d428ed49",
+      "hash": "e4e3007b9d017b79d7ac191a1de6e171516f49b86050c7e482f9fb353f9edffd",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e4e3007b9d017b79d7ac191a1de6e171516f49b86050c7e482f9fb353f9edffd",
       "title": "附加 (23 — 35) 至 (39 — 59) 物理 傷害",
       "name": "鋒利的",
       "family": "PhysicalDamage",
@@ -114464,8 +115052,8 @@
     },
     {
       "type": "modifier",
-      "hash": "1a6a6a62fe9712ca5165eb641ac0088c6330c4190d90be17dd1f88b2138425f8",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/1a6a6a62fe9712ca5165eb641ac0088c6330c4190d90be17dd1f88b2138425f8",
+      "hash": "a89e608683ae82322d48dab62941415bcd096100b2e78bfd73e6551bf43d67dd",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a89e608683ae82322d48dab62941415bcd096100b2e78bfd73e6551bf43d67dd",
       "title": "附加 (6 — 9) 至 (10 — 16) 火焰 傷害",
       "name": "悶燒的",
       "family": "FireDamage",
@@ -114734,8 +115322,8 @@
     },
     {
       "type": "modifier",
-      "hash": "f6f2657c129f1ff2fce47a986d4830744072051e8f3217989d9d9d56723080cf",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f6f2657c129f1ff2fce47a986d4830744072051e8f3217989d9d9d56723080cf",
+      "hash": "2beb404fb84fbc0709c2e344cda03987e4fd7614d2b91e3804a0e54714d5b678",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2beb404fb84fbc0709c2e344cda03987e4fd7614d2b91e3804a0e54714d5b678",
       "title": "附加 (5 — 8) 至 (9 — 14) 冰冷 傷害",
       "name": "冷凍的",
       "family": "ColdDamage",
@@ -114815,8 +115403,8 @@
     },
     {
       "type": "modifier",
-      "hash": "ace911f8d2160229e5fd450fc6ac53dbc2a43909b724660d280434a664645646",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/ace911f8d2160229e5fd450fc6ac53dbc2a43909b724660d280434a664645646",
+      "hash": "e35e4e169e77a3149206a13002faf60fd7716443e99ca83d09113f7a714195c4",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e35e4e169e77a3149206a13002faf60fd7716443e99ca83d09113f7a714195c4",
       "title": "附加 (25 — 30) 至 (38 — 46) 冰冷 傷害",
       "name": "急凍的",
       "family": "ColdDamage",
@@ -114869,8 +115457,8 @@
     },
     {
       "type": "modifier",
-      "hash": "743d7c200b06c527e24ace74fb3990af361b3aee16122c172466f8a41220a054",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/743d7c200b06c527e24ace74fb3990af361b3aee16122c172466f8a41220a054",
+      "hash": "37009534ea4ee8d26121ed46f8ff9431b3e0a5ffecab70fc640b242e0a3d822d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/37009534ea4ee8d26121ed46f8ff9431b3e0a5ffecab70fc640b242e0a3d822d",
       "title": "附加 (46 — 57) 至 (70 — 88) 冰冷 傷害",
       "name": "冰河的",
       "family": "ColdDamage",
@@ -115139,8 +115727,8 @@
     },
     {
       "type": "modifier",
-      "hash": "c8fe00f6ab6928ee2ec94c94531463e2ea613210c28df39edf8ac57c78fff64a",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c8fe00f6ab6928ee2ec94c94531463e2ea613210c28df39edf8ac57c78fff64a",
+      "hash": "d12617b882a1148d00d7b2054207f3e159edad79ad6b8b9e87ae5bac66f6ba3e",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/d12617b882a1148d00d7b2054207f3e159edad79ad6b8b9e87ae5bac66f6ba3e",
       "title": "附加 (1 — 8) 至 (128 — 162) 閃電 傷害",
       "name": "電震的",
       "family": "LightningDamage",
@@ -115691,6 +116279,27 @@
     },
     {
       "type": "modifier",
+      "hash": "f3c47d89ddd9974ceaae5bbf191b29900bbb0fe754ba7534ce7bce38d59af140",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f3c47d89ddd9974ceaae5bbf191b29900bbb0fe754ba7534ce7bce38d59af140",
+      "title": "增加 (17 — 25) %裝填速度",
+      "name": "柯戈之",
+      "family": "CrossbowReloadSpeed",
+      "domains": "深淵 (28)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "local reload speed +% 17 — 25 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (17 — 25) %裝填速度 柯戈之 CrossbowReloadSpeed 後綴 (2) 深淵 (28) 需求等級 65 local reload speed +% 17 — 25 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "27ef4725545564e3983e56e021eb8cad1c0510422b374734f2efba9792b733d7",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/27ef4725545564e3983e56e021eb8cad1c0510422b374734f2efba9792b733d7",
       "title": "你的 十字弓 有 (15 — 20) %機率立即裝填",
@@ -115823,48 +116432,6 @@
     },
     {
       "type": "modifier",
-      "hash": "e33541dca021c61ec2c6b40dad41d54fb0f6204d5cb0213a473c870f55d85e8e",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e33541dca021c61ec2c6b40dad41d54fb0f6204d5cb0213a473c870f55d85e8e",
-      "title": "增加 (50 — 75) % 暈眩 累積",
-      "name": "",
-      "family": "StunDamageIncrease",
-      "domains": "物品 (1)",
-      "generationType": "傳奇 (3)",
-      "reqLevel": 1,
-      "stats": [
-        {
-          "text": "local hit damage stun multiplier +% 50 — 75 區域",
-          "min": null,
-          "max": null,
-          "scope": ""
-        }
-      ],
-      "itemClasses": [],
-      "searchText": "增加 (50 — 75) % 暈眩 累積 StunDamageIncrease 傳奇 (3) 物品 (1) 需求等級 1 local hit damage stun multiplier +% 50 — 75 區域"
-    },
-    {
-      "type": "modifier",
-      "hash": "bb24a0c618f66eca682285151386036216d7ccf280ba9469ec7c17bc4d5bf057",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/bb24a0c618f66eca682285151386036216d7ccf280ba9469ec7c17bc4d5bf057",
-      "title": "此武器增加 (20 — 40) % 近戰 打擊 範圍",
-      "name": "",
-      "family": "MeleeWeaponAndUnarmedRange",
-      "domains": "物品 (1)",
-      "generationType": "傳奇 (3)",
-      "reqLevel": 1,
-      "stats": [
-        {
-          "text": "local +% weapon range 20 — 40 區域",
-          "min": null,
-          "max": null,
-          "scope": ""
-        }
-      ],
-      "itemClasses": [],
-      "searchText": "此武器增加 (20 — 40) % 近戰 打擊 範圍 MeleeWeaponAndUnarmedRange 傳奇 (3) 物品 (1) 需求等級 1 local +% weapon range 20 — 40 區域"
-    },
-    {
-      "type": "modifier",
       "hash": "9e7dc2420facfd8c9abe004e3c5c0a6077cb806c2f4b7f6da503044f9a704531",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/9e7dc2420facfd8c9abe004e3c5c0a6077cb806c2f4b7f6da503044f9a704531",
       "title": "此武器增加 (10 — 20) % 近戰 打擊 範圍",
@@ -115925,6 +116492,48 @@
       ],
       "itemClasses": [],
       "searchText": "擊中 時獲得 1 層 盛怒 RageOnHit 已汙染 (5) 物品 (1) 需求等級 1 local gain X rage on hit 1 — 1 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "e33541dca021c61ec2c6b40dad41d54fb0f6204d5cb0213a473c870f55d85e8e",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e33541dca021c61ec2c6b40dad41d54fb0f6204d5cb0213a473c870f55d85e8e",
+      "title": "增加 (50 — 75) % 暈眩 累積",
+      "name": "",
+      "family": "StunDamageIncrease",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local hit damage stun multiplier +% 50 — 75 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (50 — 75) % 暈眩 累積 StunDamageIncrease 傳奇 (3) 物品 (1) 需求等級 1 local hit damage stun multiplier +% 50 — 75 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "bb24a0c618f66eca682285151386036216d7ccf280ba9469ec7c17bc4d5bf057",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/bb24a0c618f66eca682285151386036216d7ccf280ba9469ec7c17bc4d5bf057",
+      "title": "此武器增加 (20 — 40) % 近戰 打擊 範圍",
+      "name": "",
+      "family": "MeleeWeaponAndUnarmedRange",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local +% weapon range 20 — 40 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "此武器增加 (20 — 40) % 近戰 打擊 範圍 MeleeWeaponAndUnarmedRange 傳奇 (3) 物品 (1) 需求等級 1 local +% weapon range 20 — 40 區域"
     },
     {
       "type": "modifier",
@@ -116201,8 +116810,8 @@
     },
     {
       "type": "modifier",
-      "hash": "de6ac3f79000d8529db377316dc9df727863c0596197a00c647ae2c52aeb71aa",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/de6ac3f79000d8529db377316dc9df727863c0596197a00c647ae2c52aeb71aa",
+      "hash": "d55dccf55f457d86ef2680b97f6d22f31d365391cb5c383bdac5ac66f2aa1ceb",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/d55dccf55f457d86ef2680b97f6d22f31d365391cb5c383bdac5ac66f2aa1ceb",
       "title": "增加 (56 — 67) % 能量護盾",
       "name": "無懼的",
       "family": "DefencesPercent",
@@ -116222,8 +116831,8 @@
     },
     {
       "type": "modifier",
-      "hash": "a636b3ac11146e34420e9e46d7a4dbb2580c649de175a9a7ecb9847ffa4f21b1",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a636b3ac11146e34420e9e46d7a4dbb2580c649de175a9a7ecb9847ffa4f21b1",
+      "hash": "49b3263213941c6be1f559894135247bf571686c078a934b04c6c1a498174b70",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/49b3263213941c6be1f559894135247bf571686c078a934b04c6c1a498174b70",
       "title": "增加 (68 — 79) % 能量護盾",
       "name": "無畏的",
       "family": "DefencesPercent",
@@ -116468,8 +117077,8 @@
     },
     {
       "type": "modifier",
-      "hash": "287e27bab79e8e9fc8ecfdc69603b03f8b3db404437edad8589ff513e4607c0a",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/287e27bab79e8e9fc8ecfdc69603b03f8b3db404437edad8589ff513e4607c0a",
+      "hash": "73c9900deae57555aabd10b2546ccc299a2ea6c672277abc69acef6637cf349f",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/73c9900deae57555aabd10b2546ccc299a2ea6c672277abc69acef6637cf349f",
       "title": "增加 (35 — 44) % 法術 傷害",
       "name": "嫻熟的",
       "family": "WeaponCasterDamagePrefix",
@@ -116552,8 +117161,8 @@
     },
     {
       "type": "modifier",
-      "hash": "c0beee2a563370fe2b06ad481e3bd50595c02597419291c9fcce6430c8039ae5",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c0beee2a563370fe2b06ad481e3bd50595c02597419291c9fcce6430c8039ae5",
+      "hash": "bb13105dc94958cb8c1f4ff04aa7a86e99d0332e58551a366c2aa7df98b446ea",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/bb13105dc94958cb8c1f4ff04aa7a86e99d0332e58551a366c2aa7df98b446ea",
       "title": "增加 (75 — 89) % 法術 傷害",
       "name": "魔咒師的",
       "family": "WeaponCasterDamagePrefix",
@@ -117056,6 +117665,27 @@
     },
     {
       "type": "modifier",
+      "hash": "550e263d6707bb3a311972b97dd1259e2f62840e2c564d09a489cb6f02980a4e",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/550e263d6707bb3a311972b97dd1259e2f62840e2c564d09a489cb6f02980a4e",
+      "title": "增加 (25 — 34) % 法術 物理 傷害",
+      "name": "懲戒的",
+      "family": "WeaponDamageTypePrefix",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 2,
+      "stats": [
+        {
+          "text": "spell physical damage +% 25 — 34 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (25 — 34) % 法術 物理 傷害 懲戒的 WeaponDamageTypePrefix 前綴 (1) 物品 (1) 需求等級 2 spell physical damage +% 25 — 34 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "bc3b41b91420a8f5285aaedebe5be00953bd410d7c9a7f6dd6b7e74d4e45bee6",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/bc3b41b91420a8f5285aaedebe5be00953bd410d7c9a7f6dd6b7e74d4e45bee6",
       "title": "增加 (45 — 54) % 法術 物理 傷害",
@@ -117266,8 +117896,8 @@
     },
     {
       "type": "modifier",
-      "hash": "cac50249489351bf2f11d0583a4c91f49d5da3d45256a167db13ed5d86b70de3",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/cac50249489351bf2f11d0583a4c91f49d5da3d45256a167db13ed5d86b70de3",
+      "hash": "b93c48cfe4271527d44afdc86c433c35637966d01ea620e8cb32d8be1e885eb8",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/b93c48cfe4271527d44afdc86c433c35637966d01ea620e8cb32d8be1e885eb8",
       "title": "增加 (34 — 39) % 法術 暴擊率",
       "name": "浩劫之",
       "family": "SpellCriticalStrikeChanceIncrease",
@@ -117287,8 +117917,8 @@
     },
     {
       "type": "modifier",
-      "hash": "44ead0db80d1277b12ddfa077f0db07df7025e691b65f8940705b8b283281e77",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/44ead0db80d1277b12ddfa077f0db07df7025e691b65f8940705b8b283281e77",
+      "hash": "288b72fb54a085f30f74a0667c4e54e069580f94cd020e3b731c641e67b5185d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/288b72fb54a085f30f74a0667c4e54e069580f94cd020e3b731c641e67b5185d",
       "title": "增加 (40 — 46) % 法術 暴擊率",
       "name": "災害之",
       "family": "SpellCriticalStrikeChanceIncrease",
@@ -117308,8 +117938,8 @@
     },
     {
       "type": "modifier",
-      "hash": "804277f04a209720435d04b355b02e47cc9a30e7de842d85395e73739914f900",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/804277f04a209720435d04b355b02e47cc9a30e7de842d85395e73739914f900",
+      "hash": "f5f2a8eb88ef4a6675f3c78154d7a6c4f3e9b8997cdb61b384663735a06a8401",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f5f2a8eb88ef4a6675f3c78154d7a6c4f3e9b8997cdb61b384663735a06a8401",
       "title": "增加 (47 — 53) % 法術 暴擊率",
       "name": "血禍之",
       "family": "SpellCriticalStrikeChanceIncrease",
@@ -117476,8 +118106,8 @@
     },
     {
       "type": "modifier",
-      "hash": "311cc36ef761fb7811779a8a6ad9f6d1d7b35dd6e95f655a22b411ccf442e1fe",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/311cc36ef761fb7811779a8a6ad9f6d1d7b35dd6e95f655a22b411ccf442e1fe",
+      "hash": "ff0df6021267c79f599bd72e0a3dfd314b4c48b990d66ce10ddb58e84e543ae0",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/ff0df6021267c79f599bd72e0a3dfd314b4c48b990d66ce10ddb58e84e543ae0",
       "title": "增加 (20 — 23) % 能量護盾充能率",
       "name": "熱情之",
       "family": "EnergyShieldRegeneration",
@@ -118478,6 +119108,27 @@
     },
     {
       "type": "modifier",
+      "hash": "1da2aff0a518b9096ab5bfbf93cfa9ca695f56ba61e8fb1023c35be35fdb408a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/1da2aff0a518b9096ab5bfbf93cfa9ca695f56ba61e8fb1023c35be35fdb408a",
+      "title": "增加 (51 — 55) %恢復率",
+      "name": "爽朗",
+      "family": "FlaskRecoverySpeed",
+      "domains": "Flask (2)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 31,
+      "stats": [
+        {
+          "text": "local flask recovery speed +% 51 — 55 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (51 — 55) %恢復率 爽朗 FlaskRecoverySpeed 前綴 (1) Flask (2) 需求等級 31 local flask recovery speed +% 51 — 55 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "e7a900a867aafb030b76bf1868ed507786e3e3991281a7b01dbf84160176501d",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e7a900a867aafb030b76bf1868ed507786e3e3991281a7b01dbf84160176501d",
       "title": "增加 (66 — 70) %恢復率",
@@ -118589,6 +119240,33 @@
     },
     {
       "type": "modifier",
+      "hash": "9860c0c19abb19d3f6bf3104bba594e1428ef3310a1590eeb5fb0b9493e84f4c",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/9860c0c19abb19d3f6bf3104bba594e1428ef3310a1590eeb5fb0b9493e84f4c",
+      "title": "增加 (69 — 76) %魔力恢復 使用時，會扣除魔力恢復值 15 %的生命",
+      "name": "發酵的",
+      "family": "FlaskRecoveryAmount",
+      "domains": "Flask (2)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 30,
+      "stats": [
+        {
+          "text": "local flask mana to recover +% 69 — 76 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local flask removes % of mana recovery from life on use 15 — 15 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (69 — 76) %魔力恢復 使用時，會扣除魔力恢復值 15 %的生命 發酵的 FlaskRecoveryAmount 前綴 (1) Flask (2) 需求等級 30 local flask mana to recover +% 69 — 76 區域 local flask removes % of mana recovery from life on use 15 — 15 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "34dfc4249cbb120a6348a2fd7f596fe818921e43454f20fc7d51e854c9b6fe31",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/34dfc4249cbb120a6348a2fd7f596fe818921e43454f20fc7d51e854c9b6fe31",
       "title": "增加 (77 — 84) %魔力恢復 使用時，會扣除魔力恢復值 15 %的生命",
@@ -118682,6 +119360,27 @@
       ],
       "itemClasses": [],
       "searchText": "貧魔狀態時使用有 (71 — 80) %更多恢復量 執著的 FlaskRecoveryAmount 前綴 (1) Flask (2) 需求等級 44 local flask amount to recover +% when on low mana 71 — 80 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "4f66ded6ca2028589df5cb46245fccf147afb61e0e261f96d0dac1701b0140fd",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/4f66ded6ca2028589df5cb46245fccf147afb61e0e261f96d0dac1701b0140fd",
+      "title": "貧魔狀態時使用有 (91 — 100) %更多恢復量",
+      "name": "延長",
+      "family": "FlaskRecoveryAmount",
+      "domains": "Flask (2)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 82,
+      "stats": [
+        {
+          "text": "local flask amount to recover +% when on low mana 91 — 100 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "貧魔狀態時使用有 (91 — 100) %更多恢復量 延長 FlaskRecoveryAmount 前綴 (1) Flask (2) 需求等級 82 local flask amount to recover +% when on low mana 91 — 100 區域"
     },
     {
       "type": "modifier",
@@ -120647,6 +121346,27 @@
     },
     {
       "type": "modifier",
+      "hash": "684f08ba8e6176dc253712d128e2e72a189c3808e52dcbf172153d32e550cfe3",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/684f08ba8e6176dc253712d128e2e72a189c3808e52dcbf172153d32e550cfe3",
+      "title": "增加 (37 — 42) %弓技能的傷害",
+      "name": "尖銳的",
+      "family": "DamageWithWeaponTypeSkill",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 46,
+      "stats": [
+        {
+          "text": "damage +% with bow skills 37 — 42 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (37 — 42) %弓技能的傷害 尖銳的 DamageWithWeaponTypeSkill 前綴 (1) 物品 (1) 需求等級 46 damage +% with bow skills 37 — 42 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "808e81df40a1f18049119c5cb2be9fbd66393207d4d3b8bfa5150fd84f4eaa4e",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/808e81df40a1f18049119c5cb2be9fbd66393207d4d3b8bfa5150fd84f4eaa4e",
       "title": "增加 (43 — 50) %弓技能的傷害",
@@ -120920,6 +121640,27 @@
     },
     {
       "type": "modifier",
+      "hash": "18a42a7281be2b05793497aaf13a1d718181faf63e0dc9ad715f92ecc9a38e0f",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/18a42a7281be2b05793497aaf13a1d718181faf63e0dc9ad715f92ecc9a38e0f",
+      "title": "移動時， 投射物 攻擊 有 (8 — 12) %機率發射2個額外 投射物",
+      "name": "烏拉曼之",
+      "family": "AdditionalProjectiles",
+      "domains": "深淵 (28)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "projectile attacks % chance to fire 2 additional projectiles while moving 8 — 12 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "移動時， 投射物 攻擊 有 (8 — 12) %機率發射2個額外 投射物 烏拉曼之 AdditionalProjectiles 後綴 (2) 深淵 (28) 需求等級 65 projectile attacks % chance to fire 2 additional projectiles while moving 8 — 12 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "da41ee254c7ede8776b1c0b9fe05eac51684db1430a5d18a229a118ec41c51c2",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/da41ee254c7ede8776b1c0b9fe05eac51684db1430a5d18a229a118ec41c51c2",
       "title": "投射物 速度增減也會套用於 弓 的傷害",
@@ -121046,6 +121787,27 @@
     },
     {
       "type": "modifier",
+      "hash": "649fbe2b76c1afb8b376d9b788bd692292a64607ea8160dcc0971c0891b60646",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/649fbe2b76c1afb8b376d9b788bd692292a64607ea8160dcc0971c0891b60646",
+      "title": "增加 (9 — 12) %最大生命",
+      "name": "耐久的",
+      "family": "SanctumMaximumLife",
+      "domains": "SanctumRelic (8)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 40,
+      "stats": [
+        {
+          "text": "map player maximum life +% 9 — 12 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (9 — 12) %最大生命 耐久的 SanctumMaximumLife 前綴 (1) SanctumRelic (8) 需求等級 40 map player maximum life +% 9 — 12 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "a1ebd06b4f0a08b157766d55a0ece24e7b46632e8f4fdc69fbb2017e1a9036a0",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a1ebd06b4f0a08b157766d55a0ece24e7b46632e8f4fdc69fbb2017e1a9036a0",
       "title": "增加 (21 — 24) %最大 榮譽",
@@ -121085,6 +121847,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (36 — 45) %最大 榮譽 德高望重的 SanctumMaximumHonour 前綴 (1) SanctumRelic (8) 需求等級 76 sanctum max honour +% 36 — 45 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "748bdbd0f79a0a44411d48e2a00c823c16b03cc65ac0711cde3df485dfa6d08a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/748bdbd0f79a0a44411d48e2a00c823c16b03cc65ac0711cde3df485dfa6d08a",
+      "title": "增加 (16 — 20) %恢復的 榮譽",
+      "name": "復甦的",
+      "family": "SanctumResolveRecovery",
+      "domains": "SanctumRelic (8)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "sanctum honour restored +% 16 — 20 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (16 — 20) %恢復的 榮譽 復甦的 SanctumResolveRecovery 前綴 (1) SanctumRelic (8) 需求等級 1 sanctum honour restored +% 16 — 20 Global"
     },
     {
       "type": "modifier",
@@ -121529,6 +122312,48 @@
     },
     {
       "type": "modifier",
+      "hash": "158b67124ea6a4b8e3327c1dfd33960d669e2dc7e60cf7b6df7feaf32c3b08e2",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/158b67124ea6a4b8e3327c1dfd33960d669e2dc7e60cf7b6df7feaf32c3b08e2",
+      "title": "拾起一把 鑰匙 時，恢復 (60 — 75) 榮譽",
+      "name": "贈遺之",
+      "family": "SanctumHonourOnGainKey",
+      "domains": "SanctumRelic (8)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 78,
+      "stats": [
+        {
+          "text": "sanctum restore honour on gain key 60 — 75 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "拾起一把 鑰匙 時，恢復 (60 — 75) 榮譽 贈遺之 SanctumHonourOnGainKey 後綴 (2) SanctumRelic (8) 需求等級 78 sanctum restore honour on gain key 60 — 75 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "4885b51332e8b989ab0f8f686a1a606f4eb21e476576f2940669de7892d62b7b",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/4885b51332e8b989ab0f8f686a1a606f4eb21e476576f2940669de7892d62b7b",
+      "title": "+(11 — 13) %至 榮譽抗性",
+      "name": "應得之",
+      "family": "SanctumHonourResistance",
+      "domains": "SanctumRelic (8)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 40,
+      "stats": [
+        {
+          "text": "sanctum honour resistance % 11 — 13 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(11 — 13) %至 榮譽抗性 應得之 SanctumHonourResistance 後綴 (2) SanctumRelic (8) 需求等級 40 sanctum honour resistance % 11 — 13 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "504473b1d6a3405cb21e79c0467b1dee5f3fd566a7562e14d00ed07439c402e3",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/504473b1d6a3405cb21e79c0467b1dee5f3fd566a7562e14d00ed07439c402e3",
       "title": "+(20 — 22) %至 榮譽抗性",
@@ -121589,6 +122414,27 @@
       ],
       "itemClasses": [],
       "searchText": "有 (5 — 8) %機率讓你在失去所有 榮譽 時，改為保有1 榮譽 作弊的 SanctumChanceToPreventHonourDeath 前綴 (1) SanctumRelic (8) 需求等級 1 sanctum chance to prevent zero honour % 5 — 8 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "58b98cd24b83a74c47c1e136de0e92e5af88e3a9709f4352bb90d29878bb58ea",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/58b98cd24b83a74c47c1e136de0e92e5af88e3a9709f4352bb90d29878bb58ea",
+      "title": "有 (9 — 12) %機率讓你在失去所有 榮譽 時，改為保有1 榮譽",
+      "name": "詐欺的",
+      "family": "SanctumChanceToPreventHonourDeath",
+      "domains": "SanctumRelic (8)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 75,
+      "stats": [
+        {
+          "text": "sanctum chance to prevent zero honour % 9 — 12 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "有 (9 — 12) %機率讓你在失去所有 榮譽 時，改為保有1 榮譽 詐欺的 SanctumChanceToPreventHonourDeath 前綴 (1) SanctumRelic (8) 需求等級 75 sanctum chance to prevent zero honour % 9 — 12 Global"
     },
     {
       "type": "modifier",
@@ -125453,8 +126299,8 @@
     },
     {
       "type": "modifier",
-      "hash": "d725a3bc2f3d7d76f399ef71dd07b0422497b287cc945b1f2a1f4b5d2ca3d514",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/d725a3bc2f3d7d76f399ef71dd07b0422497b287cc945b1f2a1f4b5d2ca3d514",
+      "hash": "4ee67c777e52d20798583e291639320d6ab2429fd1581b69dad226ed6edca244",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/4ee67c777e52d20798583e291639320d6ab2429fd1581b69dad226ed6edca244",
       "title": "增加 (35 — 44) %處於你 存在範圍 中的 友方 所造成的傷害",
       "name": "躁動",
       "family": "AllDamage",
@@ -125537,8 +126383,8 @@
     },
     {
       "type": "modifier",
-      "hash": "5e8c80b2c6f7b4986d76b6e6db966cd36c52e299c9318d0c44eb27c3ec853249",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/5e8c80b2c6f7b4986d76b6e6db966cd36c52e299c9318d0c44eb27c3ec853249",
+      "hash": "0c1035a3180c97f89a706720d6ec49549ebfdd60f50a69a553846bd5c83980d0",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/0c1035a3180c97f89a706720d6ec49549ebfdd60f50a69a553846bd5c83980d0",
       "title": "增加 (75 — 89) %處於你 存在範圍 中的 友方 所造成的傷害",
       "name": "激勵人的",
       "family": "AllDamage",
@@ -126818,6 +127664,27 @@
     },
     {
       "type": "modifier",
+      "hash": "be280e16cbf959947608c7307878445cfaff34dc40cc7bb68be5a71e123fdd09",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/be280e16cbf959947608c7307878445cfaff34dc40cc7bb68be5a71e123fdd09",
+      "title": "處於你 存在範圍 中的 友方 增加 (10 — 15) % 暴擊傷害加成",
+      "name": "",
+      "family": "CriticalStrikeMultiplier",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "allies in presence critical strike multiplier + 10 — 15 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "處於你 存在範圍 中的 友方 增加 (10 — 15) % 暴擊傷害加成 CriticalStrikeMultiplier 已汙染 (5) 物品 (1) 需求等級 1 allies in presence critical strike multiplier + 10 — 15 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "c66a30ec2cd920e103ade40b618b58782342a2b1e6efcdfa9002077d04755aa7",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c66a30ec2cd920e103ade40b618b58782342a2b1e6efcdfa9002077d04755aa7",
       "title": "增加 (50 — 75) %處於你 存在範圍 中的 友方 所造成的傷害",
@@ -126923,6 +127790,27 @@
     },
     {
       "type": "modifier",
+      "hash": "ac82e2cb594fdff4529595a9198316e801de9661b2016156c2546882d16771a7",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/ac82e2cb594fdff4529595a9198316e801de9661b2016156c2546882d16771a7",
+      "title": "+(49 — 68) 最大魔力",
+      "name": "湛藍的",
+      "family": "IncreasedMana",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 16,
+      "stats": [
+        {
+          "text": "base maximum mana 49 — 68 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(49 — 68) 最大魔力 湛藍的 IncreasedMana 前綴 (1) 物品 (1) 需求等級 16 base maximum mana 49 — 68 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "401d89ae8a591944116adb1dffb25b7ca8787d332eec3f7e18110eb3c93a8788",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/401d89ae8a591944116adb1dffb25b7ca8787d332eec3f7e18110eb3c93a8788",
       "title": "+(179 — 208) 最大魔力",
@@ -127007,8 +127895,8 @@
     },
     {
       "type": "modifier",
-      "hash": "5623755ca9b4c9e29d6aefa751cf211c75150c995e0cca425acc92fd83e18c87",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/5623755ca9b4c9e29d6aefa751cf211c75150c995e0cca425acc92fd83e18c87",
+      "hash": "dc126bcccc12a4b979f7ff0202f9bc36c339d482a18572a723413b7bca5100f2",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/dc126bcccc12a4b979f7ff0202f9bc36c339d482a18572a723413b7bca5100f2",
       "title": "增加 (69 — 88) % 法術 傷害",
       "name": "嫻熟的",
       "family": "WeaponCasterDamagePrefix",
@@ -127025,6 +127913,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (69 — 88) % 法術 傷害 嫻熟的 WeaponCasterDamagePrefix 前綴 (1) 物品 (1) 需求等級 8 spell damage +% 69 — 88 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "976b648ef8aadd328c0c321741fffd1bf053d867af6650a3ffbc32c41b8ac203",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/976b648ef8aadd328c0c321741fffd1bf053d867af6650a3ffbc32c41b8ac203",
+      "title": "增加 (89 — 108) % 法術 傷害",
+      "name": "學者的",
+      "family": "WeaponCasterDamagePrefix",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 16,
+      "stats": [
+        {
+          "text": "spell damage +% 89 — 108 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (89 — 108) % 法術 傷害 學者的 WeaponCasterDamagePrefix 前綴 (1) 物品 (1) 需求等級 16 spell damage +% 89 — 108 Global"
     },
     {
       "type": "modifier",
@@ -127070,8 +127979,8 @@
     },
     {
       "type": "modifier",
-      "hash": "8fb122d676ce6ec2d550a91ff11ea4365ba884050ddc4f80a3c01f8d81b9c380",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/8fb122d676ce6ec2d550a91ff11ea4365ba884050ddc4f80a3c01f8d81b9c380",
+      "hash": "29afe739032298cce93e0bb06065d919009d5f3c6b7c6258da93a42f15b21c13",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/29afe739032298cce93e0bb06065d919009d5f3c6b7c6258da93a42f15b21c13",
       "title": "增加 (149 — 188) % 法術 傷害",
       "name": "魔咒師的",
       "family": "WeaponCasterDamagePrefix",
@@ -127157,6 +128066,33 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (30 — 38) % 法術 傷害 +(34 — 40) 最大魔力 施放者的 SpellDamageAndMana 前綴 (1) 物品 (1) 需求等級 2 spell damage +% 30 — 38 Global base maximum mana 34 — 40 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "4172ef2f4aff7569db850e028a4fc064ff16d716951b658a38cb2258f9af23a5",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/4172ef2f4aff7569db850e028a4fc064ff16d716951b658a38cb2258f9af23a5",
+      "title": "增加 (39 — 48) % 法術 傷害 +(41 — 48) 最大魔力",
+      "name": "咒術師的",
+      "family": "SpellDamageAndMana",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 11,
+      "stats": [
+        {
+          "text": "spell damage +% 39 — 48 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "base maximum mana 41 — 48 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (39 — 48) % 法術 傷害 +(41 — 48) 最大魔力 咒術師的 SpellDamageAndMana 前綴 (1) 物品 (1) 需求等級 11 spell damage +% 39 — 48 Global base maximum mana 41 — 48 Global"
     },
     {
       "type": "modifier",
@@ -127259,6 +128195,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (69 — 88) % 火焰 傷害 極熱的 WeaponDamageTypePrefix 前綴 (1) 物品 (1) 需求等級 8 fire damage +% 69 — 88 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "c03f5ef6aad898268cb4de99c75bb5646d12151c9cc2f1f1741ced610586bd72",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c03f5ef6aad898268cb4de99c75bb5646d12151c9cc2f1f1741ced610586bd72",
+      "title": "增加 (109 — 128) % 火焰 傷害",
+      "name": "灼燒的",
+      "family": "WeaponDamageTypePrefix",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 33,
+      "stats": [
+        {
+          "text": "fire damage +% 109 — 128 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (109 — 128) % 火焰 傷害 灼燒的 WeaponDamageTypePrefix 前綴 (1) 物品 (1) 需求等級 33 fire damage +% 109 — 128 Global"
     },
     {
       "type": "modifier",
@@ -127409,6 +128366,27 @@
     },
     {
       "type": "modifier",
+      "hash": "5df25d3a7c22338275d5adde19f3e8fe92d52710acb20cb78f50479ec3da95dc",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/5df25d3a7c22338275d5adde19f3e8fe92d52710acb20cb78f50479ec3da95dc",
+      "title": "增加 (50 — 68) % 閃電 傷害",
+      "name": "充電的",
+      "family": "WeaponDamageTypePrefix",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 2,
+      "stats": [
+        {
+          "text": "lightning damage +% 50 — 68 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (50 — 68) % 閃電 傷害 充電的 WeaponDamageTypePrefix 前綴 (1) 物品 (1) 需求等級 2 lightning damage +% 50 — 68 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "6bc567c155047433c95505c55279480999ded79e98c86cc0831cb3fd4c6beefa",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/6bc567c155047433c95505c55279480999ded79e98c86cc0831cb3fd4c6beefa",
       "title": "增加 (69 — 88) % 閃電 傷害",
@@ -127448,6 +128426,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (149 — 188) % 閃電 傷害 猛打的 WeaponDamageTypePrefix 前綴 (1) 物品 (1) 需求等級 60 lightning damage +% 149 — 188 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "1587e399103f9dd581aca9d1279dde315e0af532e0b51dc23033e9bc32976cea",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/1587e399103f9dd581aca9d1279dde315e0af532e0b51dc23033e9bc32976cea",
+      "title": "增加 (189 — 208) % 閃電 傷害",
+      "name": "電離的",
+      "family": "WeaponDamageTypePrefix",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 70,
+      "stats": [
+        {
+          "text": "lightning damage +% 189 — 208 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (189 — 208) % 閃電 傷害 電離的 WeaponDamageTypePrefix 前綴 (1) 物品 (1) 需求等級 70 lightning damage +% 189 — 208 Global"
     },
     {
       "type": "modifier",
@@ -128186,6 +129185,27 @@
     },
     {
       "type": "modifier",
+      "hash": "000bc8c47aa20402828cd45250baa2d1d00fb32ef2f0c0fc899ab6519d6a53bd",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/000bc8c47aa20402828cd45250baa2d1d00fb32ef2f0c0fc899ab6519d6a53bd",
+      "title": "全部 物理 法術 技能等級 +2",
+      "name": "受苦難之",
+      "family": "IncreaseSocketedGemLevel",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 18,
+      "stats": [
+        {
+          "text": "physical spell skill gem level + 2 — 2 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "全部 物理 法術 技能等級 +2 受苦難之 IncreaseSocketedGemLevel 後綴 (2) 物品 (1) 需求等級 18 physical spell skill gem level + 2 — 2 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "36158ab963c8a15a010d5a210edb46cf5e6c4d7ff2014f853c5ab0644b49ed04",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/36158ab963c8a15a010d5a210edb46cf5e6c4d7ff2014f853c5ab0644b49ed04",
       "title": "全部 物理 法術 技能等級 +(3 — 4)",
@@ -128309,6 +129329,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (26 — 31) %施放速度 有經驗之 IncreasedCastSpeed 後綴 (2) 物品 (1) 需求等級 30 base cast speed +% 26 — 31 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "049802c0bec9eec67e312147513d6ab250230e5b14bf58be7209dc4927006b91",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/049802c0bec9eec67e312147513d6ab250230e5b14bf58be7209dc4927006b91",
+      "title": "增加 (32 — 37) %施放速度",
+      "name": "籤卜之",
+      "family": "IncreasedCastSpeed",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 45,
+      "stats": [
+        {
+          "text": "base cast speed +% 32 — 37 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (32 — 37) %施放速度 籤卜之 IncreasedCastSpeed 後綴 (2) 物品 (1) 需求等級 45 base cast speed +% 32 — 37 Global"
     },
     {
       "type": "modifier",
@@ -128540,6 +129581,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (30 — 36) % 法術暴擊傷害加成 狂怒之 CriticalStrikeMultiplier 後綴 (2) 物品 (1) 需求等級 30 base spell critical strike multiplier + 30 — 36 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "95ae43ef0251f797094c0c10cbc6c335a8cbac87342fb6ebbafda1d8c3a67d44",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/95ae43ef0251f797094c0c10cbc6c335a8cbac87342fb6ebbafda1d8c3a67d44",
+      "title": "增加 (45 — 51) % 法術暴擊傷害加成",
+      "name": "狂暴之",
+      "family": "CriticalStrikeMultiplier",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 59,
+      "stats": [
+        {
+          "text": "base spell critical strike multiplier + 45 — 51 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (45 — 51) % 法術暴擊傷害加成 狂暴之 CriticalStrikeMultiplier 後綴 (2) 物品 (1) 需求等級 59 base spell critical strike multiplier + 45 — 51 Global"
     },
     {
       "type": "modifier",
@@ -129320,6 +130382,27 @@
     },
     {
       "type": "modifier",
+      "hash": "7759f5ce82227d38bc03d35ac89f93eadabff4c9c09131a07b309301a4e9c2c9",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/7759f5ce82227d38bc03d35ac89f93eadabff4c9c09131a07b309301a4e9c2c9",
+      "title": "全部 冰冷 法術 技能等級 +2",
+      "name": "",
+      "family": "IncreaseSocketedGemLevel",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "cold spell skill gem level + 2 — 2 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "全部 冰冷 法術 技能等級 +2 IncreaseSocketedGemLevel 傳奇 (3) 物品 (1) 需求等級 1 cold spell skill gem level + 2 — 2 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "edef6d0c99bdd6057c0ca2bf0e60006d4277ea6a9d9f7efec64b6ee722df5027",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/edef6d0c99bdd6057c0ca2bf0e60006d4277ea6a9d9f7efec64b6ee722df5027",
       "title": "全部 物理 法術 技能等級 +2",
@@ -129422,27 +130505,6 @@
       ],
       "itemClasses": [],
       "searchText": "當你有一個 圖騰 ，增加 (86 — 99) %傷害 烏拉曼的 TotemDamage 前綴 (1) 深淵 (28) 需求等級 65 damage +% while totem active 86 — 99 Global"
-    },
-    {
-      "type": "modifier",
-      "hash": "13c2f3e07b2390826b1616c552136ac9dbe4e9e3e9d71fc9ceddf27c08ed2a2d",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/13c2f3e07b2390826b1616c552136ac9dbe4e9e3e9d71fc9ceddf27c08ed2a2d",
-      "title": "+(25 — 27) 點 智慧",
-      "name": "聖人之",
-      "family": "Intelligence",
-      "domains": "物品 (1)",
-      "generationType": "後綴 (2)",
-      "reqLevel": 55,
-      "stats": [
-        {
-          "text": "additional intelligence 25 — 27 Global",
-          "min": null,
-          "max": null,
-          "scope": ""
-        }
-      ],
-      "itemClasses": [],
-      "searchText": "+(25 — 27) 點 智慧 聖人之 Intelligence 後綴 (2) 物品 (1) 需求等級 55 additional intelligence 25 — 27 Global"
     },
     {
       "type": "modifier",
@@ -129677,6 +130739,27 @@
     },
     {
       "type": "modifier",
+      "hash": "1b366bbb7cd5dabe9c86e46e2abcd402ca750e694eb519ecc7228c2e053d546b",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/1b366bbb7cd5dabe9c86e46e2abcd402ca750e694eb519ecc7228c2e053d546b",
+      "title": "你自身使用的 錘 重擊 技能有 (16 — 23) %機率造成額外一次 餘震",
+      "name": "阿姆那姆之",
+      "family": "AftershockChance",
+      "domains": "深淵 (28)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "your mace slam aftershock chance % 16 — 23 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "你自身使用的 錘 重擊 技能有 (16 — 23) %機率造成額外一次 餘震 阿姆那姆之 AftershockChance 後綴 (2) 深淵 (28) 需求等級 65 your mace slam aftershock chance % 16 — 23 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "d707eae112c662f99bf4e6d092650eac10c600ffc701662bd6b44212a84004dd",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/d707eae112c662f99bf4e6d092650eac10c600ffc701662bd6b44212a84004dd",
       "title": "增加 (90 — 104) % 法術 傷害",
@@ -129770,6 +130853,60 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (20 — 24) % 法術 傷害 +(21 — 24) 最大魔力 咒術師的 SpellDamageAndMana 前綴 (1) 物品 (1) 需求等級 11 spell damage +% 20 — 24 Global base maximum mana 21 — 24 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "2f8c73d423cca9266fee2142a915a70ce4f512d9e00786075b732c54dc1b0680",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2f8c73d423cca9266fee2142a915a70ce4f512d9e00786075b732c54dc1b0680",
+      "title": "增加 (25 — 29) % 法術 傷害 +(25 — 28) 最大魔力",
+      "name": "巫師的",
+      "family": "SpellDamageAndMana",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 23,
+      "stats": [
+        {
+          "text": "spell damage +% 25 — 29 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "base maximum mana 25 — 28 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (25 — 29) % 法術 傷害 +(25 — 28) 最大魔力 巫師的 SpellDamageAndMana 前綴 (1) 物品 (1) 需求等級 23 spell damage +% 25 — 29 Global base maximum mana 25 — 28 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "a4321adaa94cc038b206819d22450af6286284fb417115e7f5063927cacc8a9c",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a4321adaa94cc038b206819d22450af6286284fb417115e7f5063927cacc8a9c",
+      "title": "增加 (40 — 44) % 法術 傷害 +(38 — 41) 最大魔力",
+      "name": "大法師的",
+      "family": "SpellDamageAndMana",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 60,
+      "stats": [
+        {
+          "text": "spell damage +% 40 — 44 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "base maximum mana 38 — 41 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (40 — 44) % 法術 傷害 +(38 — 41) 最大魔力 大法師的 SpellDamageAndMana 前綴 (1) 物品 (1) 需求等級 60 spell damage +% 40 — 44 Global base maximum mana 38 — 41 Global"
     },
     {
       "type": "modifier",
@@ -130598,6 +131735,27 @@
     },
     {
       "type": "modifier",
+      "hash": "1a2d372be04bf4a29c210dc4fb127007372af5bded38685cd9825174ba9ef5cf",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/1a2d372be04bf4a29c210dc4fb127007372af5bded38685cd9825174ba9ef5cf",
+      "title": "獲得 等同於傷害 (13 — 15) %的額外 冰冷 傷害",
+      "name": "惡性的",
+      "family": "ColdDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 5,
+      "stats": [
+        {
+          "text": "non skill base all damage % to gain as cold 13 — 15 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "獲得 等同於傷害 (13 — 15) %的額外 冰冷 傷害 惡性的 ColdDamage 前綴 (1) 物品 (1) 需求等級 5 non skill base all damage % to gain as cold 13 — 15 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "766f7557334d970e7602c23407e7575dc212d2cd7a5d8812ed1f1622ccf0cba5",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/766f7557334d970e7602c23407e7575dc212d2cd7a5d8812ed1f1622ccf0cba5",
       "title": "獲得 等同於傷害 (16 — 18) %的額外 冰冷 傷害",
@@ -130916,6 +132074,27 @@
       ],
       "itemClasses": [],
       "searchText": "祈願 法術 增加 (75 — 89) %造成的傷害 柯戈的 WeaponCasterDamagePrefix 前綴 (1) 深淵 (28) 需求等級 65 invocation spell damage +% 75 — 89 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "6a014779344c4f479f006e6d077b61bf946c502b1c457816f5c060834a746b72",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/6a014779344c4f479f006e6d077b61bf946c502b1c457816f5c060834a746b72",
+      "title": "法術 技能增加 (8 — 16) %範圍效果",
+      "name": "阿姆那姆之",
+      "family": "SpellAreaOfEffect",
+      "domains": "深淵 (28)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "spell area of effect +% 8 — 16 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "法術 技能增加 (8 — 16) %範圍效果 阿姆那姆之 SpellAreaOfEffect 後綴 (2) 深淵 (28) 需求等級 65 spell area of effect +% 8 — 16 Global"
     },
     {
       "type": "modifier",
