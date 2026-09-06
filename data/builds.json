@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T20:27:38.688Z",
+  "updatedAt": "2026-09-06T04:47:44.932Z",
   "source": "poe.ninja",
   "leagueName": "Runes of Aldur",
   "builds": [
@@ -8,13 +8,13 @@
       "className": "Martial Artist",
       "leagueName": "Runes of Aldur",
       "summary": "武圣 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 20.3,
-      "trend": -1,
+      "popularity": 21.2,
+      "trend": 1,
       "rank": 1,
       "image": "./assets/images/builds/martial-artist.webp",
       "tags": [
         "主联赛头部",
-        "热度回落"
+        "热度上升"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Martial%20Artist",
       "localized": {
@@ -24,7 +24,7 @@
           "summary": "武圣 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "主联赛头部",
-            "热度回落"
+            "热度上升"
           ]
         },
         "en": {
@@ -33,7 +33,7 @@
           "summary": "A high-share ascendancy in Runes of Aldur, worth watching as the league meta keeps shifting.",
           "tags": [
             "Main league leader",
-            "Falling"
+            "Rising"
           ]
         }
       },
@@ -44,13 +44,13 @@
       "className": "Gemling Legionnaire",
       "leagueName": "Runes of Aldur",
       "summary": "古灵使徒斗士 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 15.5,
-      "trend": -1,
+      "popularity": 15.7,
+      "trend": 1,
       "rank": 2,
       "image": "./assets/images/builds/gemling-legionnaire.webp",
       "tags": [
         "主联赛头部",
-        "热度回落"
+        "热度上升"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Gemling%20Legionnaire",
       "localized": {
@@ -60,7 +60,7 @@
           "summary": "古灵使徒斗士 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "主联赛头部",
-            "热度回落"
+            "热度上升"
           ]
         },
         "en": {
@@ -69,7 +69,7 @@
           "summary": "A high-share ascendancy in Runes of Aldur, worth watching as the league meta keeps shifting.",
           "tags": [
             "Main league leader",
-            "Falling"
+            "Rising"
           ]
         }
       },
@@ -80,7 +80,7 @@
       "className": "Spirit Walker",
       "leagueName": "Runes of Aldur",
       "summary": "灵魂行者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 12.6,
+      "popularity": 14.8,
       "trend": 1,
       "rank": 3,
       "image": "./assets/images/builds/spirit-walker.webp",
@@ -152,7 +152,7 @@
       "className": "Oracle",
       "leagueName": "Runes of Aldur",
       "summary": "神谕者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 5.6,
+      "popularity": 5.1,
       "trend": -1,
       "rank": 5,
       "image": "./assets/images/builds/oracle.webp",
@@ -184,49 +184,13 @@
       "displayOrder": 5
     },
     {
-      "id": "runesofaldur-infernalist",
-      "className": "Infernalist",
-      "leagueName": "Runes of Aldur",
-      "summary": "驱炎使 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 4.5,
-      "trend": -1,
-      "rank": 6,
-      "image": "./assets/images/builds/infernalist.webp",
-      "tags": [
-        "热门职业",
-        "热度回落"
-      ],
-      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Infernalist",
-      "localized": {
-        "zh": {
-          "className": "驱炎使",
-          "leagueName": "Runes of Aldur",
-          "summary": "驱炎使 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-          "tags": [
-            "热门职业",
-            "热度回落"
-          ]
-        },
-        "en": {
-          "className": "Infernalist",
-          "leagueName": "Runes of Aldur",
-          "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
-          "tags": [
-            "Popular class",
-            "Falling"
-          ]
-        }
-      },
-      "displayOrder": 6
-    },
-    {
       "id": "runesofaldur-stormweaver",
       "className": "Stormweaver",
       "leagueName": "Runes of Aldur",
       "summary": "风暴编织者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 4.4,
+      "popularity": 4.2,
       "trend": -1,
-      "rank": 7,
+      "rank": 6,
       "image": "./assets/images/builds/stormweaver.webp",
       "tags": [
         "热门职业",
@@ -253,6 +217,42 @@
           ]
         }
       },
+      "displayOrder": 6
+    },
+    {
+      "id": "runesofaldur-infernalist",
+      "className": "Infernalist",
+      "leagueName": "Runes of Aldur",
+      "summary": "驱炎使 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "popularity": 3.9,
+      "trend": -1,
+      "rank": 7,
+      "image": "./assets/images/builds/infernalist.webp",
+      "tags": [
+        "热门职业",
+        "热度回落"
+      ],
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Infernalist",
+      "localized": {
+        "zh": {
+          "className": "驱炎使",
+          "leagueName": "Runes of Aldur",
+          "summary": "驱炎使 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "tags": [
+            "热门职业",
+            "热度回落"
+          ]
+        },
+        "en": {
+          "className": "Infernalist",
+          "leagueName": "Runes of Aldur",
+          "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
+          "tags": [
+            "Popular class",
+            "Falling"
+          ]
+        }
+      },
       "displayOrder": 7
     },
     {
@@ -260,7 +260,7 @@
       "className": "Disciple of Varashta",
       "leagueName": "Runes of Aldur",
       "summary": "瓦拉煞的门徒 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 3.5,
+      "popularity": 3.6,
       "trend": 1,
       "rank": 8,
       "image": "./assets/images/builds/disciple-of-varashta.webp",
@@ -296,7 +296,7 @@
       "className": "Blood Mage",
       "leagueName": "Runes of Aldur",
       "summary": "命源法师 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 3.4,
+      "popularity": 3.2,
       "trend": -1,
       "rank": 9,
       "image": "./assets/images/builds/blood-mage.webp",
@@ -332,7 +332,7 @@
       "className": "Titan",
       "leagueName": "Runes of Aldur",
       "summary": "泰坦 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 3.4,
+      "popularity": 2.7,
       "trend": -1,
       "rank": 10,
       "image": "./assets/images/builds/titan.webp",
