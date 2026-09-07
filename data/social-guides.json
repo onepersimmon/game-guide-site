@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T12:48:28.071Z",
+  "updatedAt": "2026-09-07T21:38:15.053Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,6 +10,71 @@
   },
   "items": [
     {
+      "id": "bilibili-BV12bbT6qEwP",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 S0.55】小泉泉 古灵榴弹地炼 新手 开荒 - 在线文档",
+      "summary": "在线文档三连关注，系统自动发，老粉取关再关。 BD优点造价便宜，伤害非常高 BD缺点，手感有点奇怪。 性价比很高的开荒速刷BD。",
+      "author": "爱玩游戏的小泉泉",
+      "publishedAt": "2026-09-07T16:55:42.000Z",
+      "href": "https://www.bilibili.com/video/av117230780027351",
+      "cover": "https://i2.hdslb.com/bfs/archive/1048e82fde9e0655fccdc9f5bd3165e94956ced2.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1WgbM6zEo1",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 0.5】dslily - 武圣黏油弹幕 开荒 高光：一梭子清屏",
+      "summary": "https://www.youtube.com/watch?v=TuUFlxoZUMQ 武圣黏油弹幕 0.5.5 开荒高光合集：一梭子黏油弹幕下去满屏爆炸，配上一路清图、打首领的实机片段与随性闲聊，想体验这套开荒手感的朋友可以直接看效果。 角色链接：https://mobalytics.gg/poe-2/profile/ds_lily/characters/lily_invade_poe_for_oil",
+      "author": "Sen妖桉",
+      "publishedAt": "2026-09-07T14:40:15.000Z",
+      "href": "https://www.bilibili.com/video/av117230259931701",
+      "cover": "https://i0.hdslb.com/bfs/archive/b70fb0e285daec9ddda7c7e059ea2083a254e883.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1WLbM6KENe",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 】0.55闪回血法临界缠绕法杖 开荒",
+      "summary": "0.55随便玩玩，转轮盘转了一个没玩过的职业，挑了一个省手的一键流派 刚需暗金法杖临界缠绕，国服叫阈限螺旋 整体还行吧，拿到法杖就能转，其它位置补精魂抗性就行 以流放2的难度 这个法杖继续提升应该能玩到毕业 这次0.55闪回的异界剧情任务改动，从无限升华4到代开门跳任务点，我整体感觉省时间了还行，就是不知道这算不算bug。",
+      "author": "白饭w",
+      "publishedAt": "2026-09-07T14:27:24.000Z",
+      "href": "https://www.bilibili.com/video/av117230209604356",
+      "cover": "https://i2.hdslb.com/bfs/archive/d462116a2366154e44bdf1085a5e248011a8c4c2.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV18obT6EEdT",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 0.55闪回赛季 开荒 回顾 深空车和K7(混沌)打螺丝都有光明的未来~",
+      "summary": "还没回本~",
+      "author": "坐牢小炫",
+      "publishedAt": "2026-09-07T14:15:20.000Z",
+      "href": "https://www.bilibili.com/video/av117230142491820",
+      "cover": "https://i2.hdslb.com/bfs/archive/1ec348b476304e0a58569717117d93c63e96b06f.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1SLbN6BEPP",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 闪回古灵旋风 开荒 报告，附构筑与替代方案，贵是真的贵，爽是真的爽",
+      "summary": "有任何问题或者修造车需求可加qq：2448982882",
+      "author": "FanS-2331",
+      "publishedAt": "2026-09-07T12:52:23.000Z",
+      "href": "https://www.bilibili.com/video/av117229823723231",
+      "cover": "https://i0.hdslb.com/bfs/archive/9e178ab06a0009e33d7c88f3e9f412d765e08bbf.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
       "id": "bilibili-BV1ChbN6tEEj",
       "platform": "bilibili",
       "platformLabel": "B 站",
@@ -19,71 +84,6 @@
       "publishedAt": "2026-09-07T11:47:10.000Z",
       "href": "https://www.bilibili.com/video/av117229588844575",
       "cover": "https://i1.hdslb.com/bfs/archive/b398d077c2977685805a93ec841f6e6cb8080e3c.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1LsbP6CEVX",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放2 闪回搬砖收益小结 国服备战建议",
-      "summary": "流放2闪回搬砖收益小结 国服备战建议 主页有交流群 不定期分享搬砖思路",
-      "author": "伟舍",
-      "publishedAt": "2026-09-07T06:03:06.000Z",
-      "href": "https://www.bilibili.com/video/av117228229890442",
-      "cover": "https://i1.hdslb.com/bfs/archive/e4f0c1eb5eebb63c4df4af1623f1bbcfc9e9492e.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1KCbP6hEPk",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 武圣龙喷0.55闪回赛季国际服 开荒 进展",
-      "summary": "",
-      "author": "莫得利亚",
-      "publishedAt": "2026-09-07T05:15:09.000Z",
-      "href": "https://www.bilibili.com/video/av117228028566242",
-      "cover": "https://i2.hdslb.com/bfs/archive/970b3fd5c7823c348cd2491146ebd1195f7f6e5b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1NJbx64Ekh",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 0.55异界 开荒 神圣仲裁官天赋全流程（下）",
-      "summary": "流放之路2 0.55异界开荒神圣仲裁官天赋全流程（下） 迫击炮成型 第二天一拖四T15点金视频在下午1点发出 感谢神圣仲裁官给我的全服第一把茅感谢您 40D到手，收工 出剧情后用时20小时打完仲裁官 你们说是快还是慢呢？",
-      "author": "酒话小雨",
-      "publishedAt": "2026-09-07T03:20:00.000Z",
-      "href": "https://www.bilibili.com/video/av117225444871847",
-      "cover": "https://i1.hdslb.com/bfs/archive/d56b7b831db6bae0fbf7f5af755ff2c22756bd41.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1XWbw6iE58",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放2 /0.55闪回赛季古灵 开荒 /第三章剧情全流程/萌新攻略",
-      "summary": "点点关注一键三连！感谢支持！",
-      "author": "主播街客",
-      "publishedAt": "2026-09-07T02:36:44.000Z",
-      "href": "https://www.bilibili.com/video/av117227407936454",
-      "cover": "https://i1.hdslb.com/bfs/archive/73cf09eedc18c1aad6944ae238a87a67a510e7ea.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1FSbw6UE7Z",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 闪回】冰沙形态门徒 戴上猎首一键爽刷撕图中",
-      "summary": "",
-      "author": "叻就是生活",
-      "publishedAt": "2026-09-07T02:19:19.000Z",
-      "href": "https://www.bilibili.com/video/av117227323918065",
-      "cover": "https://i0.hdslb.com/bfs/archive/5305884a5707d7b2007ae44125b1efbfd6c2fb88.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
