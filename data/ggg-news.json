@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-09-06T20:33:28.908Z",
+  "updatedAt": "2026-09-07T04:54:50.284Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "thank-you-gamescom-cologne-2026-recap",
+      "title": "Thank You! Gamescom Cologne 2026 Recap",
+      "date": "2026-09-06T22:01:32+00:00",
+      "summary": "We’re so thankful for your support at gamescom Cologne 2026! Check out some of the highlights in this news post.",
+      "href": "https://www.pathofexile.com/forum/view-thread/4002197",
+      "thumb": "https://web.poecdn.com/public/news/2026-09-07/Gamescom2026RecapTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Thank You! Gamescom Cologne 2026 Recap",
+          "summary": "We’re so thankful for your support at gamescom Cologne 2026! Check out some of the highlights in this news post.",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Thank You! Gamescom Cologne 2026 Recap",
+          "summary": "We’re so thankful for your support at gamescom Cologne 2026! Check out some of the highlights in this news post.",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "introducing-phantasmal-elemental-ancestral-elemental-and-delirium-archer-bundles",
       "title": "Introducing Phantasmal Elemental, Ancestral Elemental and Delirium Archer bundles",
@@ -44,27 +65,6 @@
         "en": {
           "title": "Forbidden Rites Starts Soon - New Twitch Drop",
           "summary": "Path of Exile 2: Forbidden Rites Event starts soon alongside the release of patch 0.5.5. In this news post, we’ve gathered all the information you need to know about what’s happening tomorrow and how to start downloading the update early.",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "path-of-exile-2-full-release-registration",
-      "title": "Path of Exile 2 Full Release Registration",
-      "date": "2026-09-03T01:00:00+00:00",
-      "summary": "Sign up at https://pathofexile2.com/register to receive updates on the Path of Exile 2 Full Release and get exclusive rewards! You have until December 10th to register, so there is still plenty of time to reach the milestones.",
-      "href": "https://www.pathofexile.com/forum/view-thread/4000887",
-      "thumb": "https://web.poecdn.com/public/news/2026-09-03/RegisterReminderTwitter.png",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Path of Exile 2 Full Release Registration",
-          "summary": "Sign up at https://pathofexile2.com/register to receive updates on the Path of Exile 2 Full Release and get exclusive rewards! You have until December 10th to register, so there is still plenty of time to reach the milestones.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Path of Exile 2 Full Release Registration",
-          "summary": "Sign up at https://pathofexile2.com/register to receive updates on the Path of Exile 2 Full Release and get exclusive rewards! You have until December 10th to register, so there is still plenty of time to reach the milestones.",
           "category": "Blue Post"
         }
       }

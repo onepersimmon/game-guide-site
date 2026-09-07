@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T20:29:17.451Z",
+  "updatedAt": "2026-09-07T04:51:36.587Z",
   "source": "poe.ninja",
   "leagueName": "Runes of Aldur",
   "builds": [
@@ -8,7 +8,7 @@
       "className": "Martial Artist",
       "leagueName": "Runes of Aldur",
       "summary": "武圣 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 21.2,
+      "popularity": 21.3,
       "trend": 1,
       "rank": 1,
       "image": "./assets/images/builds/martial-artist.webp",
@@ -45,12 +45,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "古灵使徒斗士 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 15.7,
-      "trend": 1,
+      "trend": -1,
       "rank": 2,
       "image": "./assets/images/builds/gemling-legionnaire.webp",
       "tags": [
         "主联赛头部",
-        "热度上升"
+        "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Gemling%20Legionnaire",
       "localized": {
@@ -60,7 +60,7 @@
           "summary": "古灵使徒斗士 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "主联赛头部",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
@@ -69,7 +69,7 @@
           "summary": "A high-share ascendancy in Runes of Aldur, worth watching as the league meta keeps shifting.",
           "tags": [
             "Main league leader",
-            "Rising"
+            "Falling"
           ]
         }
       },
@@ -81,12 +81,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "灵魂行者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 14.8,
-      "trend": 1,
+      "trend": 0,
       "rank": 3,
       "image": "./assets/images/builds/spirit-walker.webp",
       "tags": [
         "主联赛头部",
-        "热度上升"
+        "热度持平"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Spirit%20Walker",
       "localized": {
@@ -96,7 +96,7 @@
           "summary": "灵魂行者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "主联赛头部",
-            "热度上升"
+            "热度持平"
           ]
         },
         "en": {
@@ -105,7 +105,7 @@
           "summary": "A high-share ascendancy in Runes of Aldur, worth watching as the league meta keeps shifting.",
           "tags": [
             "Main league leader",
-            "Rising"
+            "Stable"
           ]
         }
       },
@@ -117,12 +117,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 8.2,
-      "trend": 1,
+      "trend": 0,
       "rank": 4,
       "image": "./assets/images/builds/deadeye.webp",
       "tags": [
         "热门职业",
-        "热度上升"
+        "热度持平"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Deadeye",
       "localized": {
@@ -132,7 +132,7 @@
           "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度上升"
+            "热度持平"
           ]
         },
         "en": {
@@ -141,7 +141,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Rising"
+            "Stable"
           ]
         }
       },
@@ -225,12 +225,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "驱炎使 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 3.9,
-      "trend": -1,
+      "trend": 1,
       "rank": 7,
       "image": "./assets/images/builds/infernalist.webp",
       "tags": [
         "热门职业",
-        "热度回落"
+        "热度上升"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Infernalist",
       "localized": {
@@ -240,7 +240,7 @@
           "summary": "驱炎使 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度回落"
+            "热度上升"
           ]
         },
         "en": {
@@ -249,7 +249,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Falling"
+            "Rising"
           ]
         }
       },
