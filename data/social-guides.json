@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T04:54:51.768Z",
+  "updatedAt": "2026-09-07T12:48:28.071Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,45 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1ChbN6tEEj",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 】0.55闪回赛季 两万甲闪，一千八秒回迫击炮古灵一键bd，站撸神圣仲裁者（植物人是超级大坑）",
+      "summary": "bd链接 https://poe.ninja/poe2/profile/ljljljljlj3-0975/forbiddenrites/character/古靈人 有什么问题也可以在评论区问出来，Up也会尽量做解答或者讨论的，第2天研究古灵植物人，直接昏头了，纯亏了30多d，开服第二天天不能乱搞科研，要引以为戒。",
+      "author": "Luking-",
+      "publishedAt": "2026-09-07T11:47:10.000Z",
+      "href": "https://www.bilibili.com/video/av117229588844575",
+      "cover": "https://i1.hdslb.com/bfs/archive/b398d077c2977685805a93ec841f6e6cb8080e3c.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1LsbP6CEVX",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放2 闪回搬砖收益小结 国服备战建议",
+      "summary": "流放2闪回搬砖收益小结 国服备战建议 主页有交流群 不定期分享搬砖思路",
+      "author": "伟舍",
+      "publishedAt": "2026-09-07T06:03:06.000Z",
+      "href": "https://www.bilibili.com/video/av117228229890442",
+      "cover": "https://i1.hdslb.com/bfs/archive/e4f0c1eb5eebb63c4df4af1623f1bbcfc9e9492e.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1KCbP6hEPk",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 武圣龙喷0.55闪回赛季国际服 开荒 进展",
+      "summary": "",
+      "author": "莫得利亚",
+      "publishedAt": "2026-09-07T05:15:09.000Z",
+      "href": "https://www.bilibili.com/video/av117228028566242",
+      "cover": "https://i2.hdslb.com/bfs/archive/970b3fd5c7823c348cd2491146ebd1195f7f6e5b.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1NJbx64Ekh",
       "platform": "bilibili",
@@ -45,45 +84,6 @@
       "publishedAt": "2026-09-07T02:19:19.000Z",
       "href": "https://www.bilibili.com/video/av117227323918065",
       "cover": "https://i0.hdslb.com/bfs/archive/5305884a5707d7b2007ae44125b1efbfd6c2fb88.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1KJbx6tEbf",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 0.55异界 开荒 神圣仲裁官天赋全流程（中）",
-      "summary": "流放之路2 0.55异界开荒神圣仲裁官天赋全流程（中）",
-      "author": "酒话小雨",
-      "publishedAt": "2026-09-07T01:20:00.000Z",
-      "href": "https://www.bilibili.com/video/av117225445067306",
-      "cover": "https://i2.hdslb.com/bfs/archive/883d1e7d8caafe97e4d437145bf7a8a5c5d3082a.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1e4b466EBe",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "熟肉Fubgun： 流放2 闪回首日 开荒 搬砖策略分享！深渊等异界天赋注意事项解析！无脑深渊刷乌拉曼流亡者真的很赚，优先主图鉴！",
-      "summary": "🧩这期的视频地址——https://www.youtube.com/watch?v=pst2CkxfJ50 🎯Fubgun深渊搬砖策略文档和天赋图点法—— https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats 🧩Fubgun最新角色BD构筑快照——https://poe2db.tw/tw/pob/kpFMzoIXPO 📌他的所有文档指南是不需要翻墙就能打开，别忘记找个好点的网页翻译去阅读就行， 🧩Fungun全套古灵使徒黏油烈焰爆",
-      "author": "苏丹你好",
-      "publishedAt": "2026-09-06T23:03:45.000Z",
-      "href": "https://www.bilibili.com/video/av117226585725508",
-      "cover": "https://i0.hdslb.com/bfs/archive/e018c2f9f2c1094766a5ac681cff1444432e93ec.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1Nnbx6dEqu",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 0.55异界 开荒 神圣仲裁官天赋全流程（上）",
-      "summary": "流放之路2 0.55异界开荒神圣仲裁官天赋全流程（上） 迫击炮还是太超模了",
-      "author": "酒话小雨",
-      "publishedAt": "2026-09-06T21:20:00.000Z",
-      "href": "https://www.bilibili.com/video/av117225428092526",
-      "cover": "https://i2.hdslb.com/bfs/archive/b365afb9114392ab6ad4e9123631f1758a9222e6.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
