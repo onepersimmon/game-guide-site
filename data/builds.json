@@ -1,72 +1,72 @@
 {
-  "updatedAt": "2026-09-08T11:27:00.454Z",
+  "updatedAt": "2026-09-08T16:42:52.818Z",
   "source": "poe.ninja",
-  "leagueName": "Forbidden Rites",
+  "leagueName": "Runes of Aldur",
   "builds": [
     {
-      "id": "forbiddenrites-gemling-legionnaire",
-      "className": "Gemling Legionnaire",
-      "leagueName": "Forbidden Rites",
-      "summary": "古灵使徒斗士 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 37.5,
-      "trend": 1,
-      "rank": 1,
-      "image": "./assets/images/builds/gemling-legionnaire.webp",
-      "tags": [
-        "主联赛头部",
-        "热度上升"
-      ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Gemling%20Legionnaire",
-      "localized": {
-        "zh": {
-          "className": "古灵使徒斗士",
-          "leagueName": "Forbidden Rites",
-          "summary": "古灵使徒斗士 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-          "tags": [
-            "主联赛头部",
-            "热度上升"
-          ]
-        },
-        "en": {
-          "className": "Gemling Legionnaire",
-          "leagueName": "Forbidden Rites",
-          "summary": "A high-share ascendancy in Forbidden Rites, worth watching as the league meta keeps shifting.",
-          "tags": [
-            "Main league leader",
-            "Rising"
-          ]
-        }
-      },
-      "displayOrder": 1
-    },
-    {
-      "id": "forbiddenrites-disciple-of-varashta",
-      "className": "Disciple of Varashta",
-      "leagueName": "Forbidden Rites",
-      "summary": "瓦拉煞的门徒 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 9.6,
+      "id": "runesofaldur-martial-artist",
+      "className": "Martial Artist",
+      "leagueName": "Runes of Aldur",
+      "summary": "武圣 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "popularity": 20,
       "trend": -1,
-      "rank": 2,
-      "image": "./assets/images/builds/disciple-of-varashta.webp",
+      "rank": 1,
+      "image": "./assets/images/builds/martial-artist.webp",
       "tags": [
         "主联赛头部",
         "热度回落"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Disciple%20of%20Varashta",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Martial%20Artist",
       "localized": {
         "zh": {
-          "className": "瓦拉煞的门徒",
-          "leagueName": "Forbidden Rites",
-          "summary": "瓦拉煞的门徒 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "className": "武圣",
+          "leagueName": "Runes of Aldur",
+          "summary": "武圣 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "主联赛头部",
             "热度回落"
           ]
         },
         "en": {
-          "className": "Disciple of Varashta",
-          "leagueName": "Forbidden Rites",
-          "summary": "A high-share ascendancy in Forbidden Rites, worth watching as the league meta keeps shifting.",
+          "className": "Martial Artist",
+          "leagueName": "Runes of Aldur",
+          "summary": "A high-share ascendancy in Runes of Aldur, worth watching as the league meta keeps shifting.",
+          "tags": [
+            "Main league leader",
+            "Falling"
+          ]
+        }
+      },
+      "displayOrder": 1
+    },
+    {
+      "id": "runesofaldur-spirit-walker",
+      "className": "Spirit Walker",
+      "leagueName": "Runes of Aldur",
+      "summary": "灵魂行者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "popularity": 13.9,
+      "trend": -1,
+      "rank": 2,
+      "image": "./assets/images/builds/spirit-walker.webp",
+      "tags": [
+        "主联赛头部",
+        "热度回落"
+      ],
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Spirit%20Walker",
+      "localized": {
+        "zh": {
+          "className": "灵魂行者",
+          "leagueName": "Runes of Aldur",
+          "summary": "灵魂行者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "tags": [
+            "主联赛头部",
+            "热度回落"
+          ]
+        },
+        "en": {
+          "className": "Spirit Walker",
+          "leagueName": "Runes of Aldur",
+          "summary": "A high-share ascendancy in Runes of Aldur, worth watching as the league meta keeps shifting.",
           "tags": [
             "Main league leader",
             "Falling"
@@ -76,69 +76,69 @@
       "displayOrder": 2
     },
     {
-      "id": "forbiddenrites-spirit-walker",
-      "className": "Spirit Walker",
-      "leagueName": "Forbidden Rites",
-      "summary": "灵魂行者 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 8.8,
-      "trend": 1,
+      "id": "runesofaldur-gemling-legionnaire",
+      "className": "Gemling Legionnaire",
+      "leagueName": "Runes of Aldur",
+      "summary": "古灵使徒斗士 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "popularity": 13.8,
+      "trend": -1,
       "rank": 3,
-      "image": "./assets/images/builds/spirit-walker.webp",
+      "image": "./assets/images/builds/gemling-legionnaire.webp",
       "tags": [
         "主联赛头部",
-        "热度上升"
+        "热度回落"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Spirit%20Walker",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Gemling%20Legionnaire",
       "localized": {
         "zh": {
-          "className": "灵魂行者",
-          "leagueName": "Forbidden Rites",
-          "summary": "灵魂行者 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "className": "古灵使徒斗士",
+          "leagueName": "Runes of Aldur",
+          "summary": "古灵使徒斗士 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "主联赛头部",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
-          "className": "Spirit Walker",
-          "leagueName": "Forbidden Rites",
-          "summary": "A high-share ascendancy in Forbidden Rites, worth watching as the league meta keeps shifting.",
+          "className": "Gemling Legionnaire",
+          "leagueName": "Runes of Aldur",
+          "summary": "A high-share ascendancy in Runes of Aldur, worth watching as the league meta keeps shifting.",
           "tags": [
             "Main league leader",
-            "Rising"
+            "Falling"
           ]
         }
       },
       "displayOrder": 3
     },
     {
-      "id": "forbiddenrites-martial-artist",
-      "className": "Martial Artist",
-      "leagueName": "Forbidden Rites",
-      "summary": "武圣 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 8.5,
+      "id": "runesofaldur-deadeye",
+      "className": "Deadeye",
+      "leagueName": "Runes of Aldur",
+      "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "popularity": 8.6,
       "trend": 1,
       "rank": 4,
-      "image": "./assets/images/builds/martial-artist.webp",
+      "image": "./assets/images/builds/deadeye.webp",
       "tags": [
         "热门职业",
         "热度上升"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Martial%20Artist",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Deadeye",
       "localized": {
         "zh": {
-          "className": "武圣",
-          "leagueName": "Forbidden Rites",
-          "summary": "武圣 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "className": "锐眼",
+          "leagueName": "Runes of Aldur",
+          "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
             "热度上升"
           ]
         },
         "en": {
-          "className": "Martial Artist",
-          "leagueName": "Forbidden Rites",
-          "summary": "A popular ascendancy in Forbidden Rites, kept locally for quick trend scanning.",
+          "className": "Deadeye",
+          "leagueName": "Runes of Aldur",
+          "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
             "Rising"
@@ -148,33 +148,33 @@
       "displayOrder": 4
     },
     {
-      "id": "forbiddenrites-deadeye",
-      "className": "Deadeye",
-      "leagueName": "Forbidden Rites",
-      "summary": "锐眼 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 7.8,
+      "id": "runesofaldur-oracle",
+      "className": "Oracle",
+      "leagueName": "Runes of Aldur",
+      "summary": "神谕者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "popularity": 5.7,
       "trend": 1,
       "rank": 5,
-      "image": "./assets/images/builds/deadeye.webp",
+      "image": "./assets/images/builds/oracle.webp",
       "tags": [
         "热门职业",
         "热度上升"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Deadeye",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Oracle",
       "localized": {
         "zh": {
-          "className": "锐眼",
-          "leagueName": "Forbidden Rites",
-          "summary": "锐眼 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "className": "神谕者",
+          "leagueName": "Runes of Aldur",
+          "summary": "神谕者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
             "热度上升"
           ]
         },
         "en": {
-          "className": "Deadeye",
-          "leagueName": "Forbidden Rites",
-          "summary": "A popular ascendancy in Forbidden Rites, kept locally for quick trend scanning.",
+          "className": "Oracle",
+          "leagueName": "Runes of Aldur",
+          "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
             "Rising"
@@ -184,33 +184,33 @@
       "displayOrder": 5
     },
     {
-      "id": "forbiddenrites-oracle",
-      "className": "Oracle",
-      "leagueName": "Forbidden Rites",
-      "summary": "神谕者 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 7.3,
+      "id": "runesofaldur-stormweaver",
+      "className": "Stormweaver",
+      "leagueName": "Runes of Aldur",
+      "summary": "风暴编织者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "popularity": 4.2,
       "trend": 1,
       "rank": 6,
-      "image": "./assets/images/builds/oracle.webp",
+      "image": "./assets/images/builds/stormweaver.webp",
       "tags": [
         "热门职业",
         "热度上升"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Oracle",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Stormweaver",
       "localized": {
         "zh": {
-          "className": "神谕者",
-          "leagueName": "Forbidden Rites",
-          "summary": "神谕者 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "className": "风暴编织者",
+          "leagueName": "Runes of Aldur",
+          "summary": "风暴编织者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
             "热度上升"
           ]
         },
         "en": {
-          "className": "Oracle",
-          "leagueName": "Forbidden Rites",
-          "summary": "A popular ascendancy in Forbidden Rites, kept locally for quick trend scanning.",
+          "className": "Stormweaver",
+          "leagueName": "Runes of Aldur",
+          "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
             "Rising"
@@ -220,11 +220,11 @@
       "displayOrder": 6
     },
     {
-      "id": "forbiddenrites-infernalist",
+      "id": "runesofaldur-infernalist",
       "className": "Infernalist",
-      "leagueName": "Forbidden Rites",
-      "summary": "驱炎使 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 2.9,
+      "leagueName": "Runes of Aldur",
+      "summary": "驱炎使 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "popularity": 3.7,
       "trend": -1,
       "rank": 7,
       "image": "./assets/images/builds/infernalist.webp",
@@ -232,12 +232,12 @@
         "热门职业",
         "热度回落"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Infernalist",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Infernalist",
       "localized": {
         "zh": {
           "className": "驱炎使",
-          "leagueName": "Forbidden Rites",
-          "summary": "驱炎使 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "leagueName": "Runes of Aldur",
+          "summary": "驱炎使 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
             "热度回落"
@@ -245,8 +245,8 @@
         },
         "en": {
           "className": "Infernalist",
-          "leagueName": "Forbidden Rites",
-          "summary": "A popular ascendancy in Forbidden Rites, kept locally for quick trend scanning.",
+          "leagueName": "Runes of Aldur",
+          "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
             "Falling"
@@ -256,33 +256,33 @@
       "displayOrder": 7
     },
     {
-      "id": "forbiddenrites-tactician",
-      "className": "Tactician",
-      "leagueName": "Forbidden Rites",
-      "summary": "战术家 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 2.5,
+      "id": "runesofaldur-disciple-of-varashta",
+      "className": "Disciple of Varashta",
+      "leagueName": "Runes of Aldur",
+      "summary": "瓦拉煞的门徒 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "popularity": 3.6,
       "trend": -1,
       "rank": 8,
-      "image": "./assets/images/builds/tactician.webp",
+      "image": "./assets/images/builds/disciple-of-varashta.webp",
       "tags": [
         "热门职业",
         "热度回落"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Tactician",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Disciple%20of%20Varashta",
       "localized": {
         "zh": {
-          "className": "战术家",
-          "leagueName": "Forbidden Rites",
-          "summary": "战术家 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "className": "瓦拉煞的门徒",
+          "leagueName": "Runes of Aldur",
+          "summary": "瓦拉煞的门徒 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
             "热度回落"
           ]
         },
         "en": {
-          "className": "Tactician",
-          "leagueName": "Forbidden Rites",
-          "summary": "A popular ascendancy in Forbidden Rites, kept locally for quick trend scanning.",
+          "className": "Disciple of Varashta",
+          "leagueName": "Runes of Aldur",
+          "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
             "Falling"
@@ -292,69 +292,69 @@
       "displayOrder": 8
     },
     {
-      "id": "forbiddenrites-lich",
-      "className": "Lich",
-      "leagueName": "Forbidden Rites",
-      "summary": "巫妖 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 2.1,
-      "trend": -1,
+      "id": "runesofaldur-titan",
+      "className": "Titan",
+      "leagueName": "Runes of Aldur",
+      "summary": "泰坦 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "popularity": 3.5,
+      "trend": 1,
       "rank": 9,
-      "image": "./assets/images/builds/lich.webp",
+      "image": "./assets/images/builds/titan.webp",
       "tags": [
         "热门职业",
-        "热度回落"
+        "热度上升"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Lich",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Titan",
       "localized": {
         "zh": {
-          "className": "巫妖",
-          "leagueName": "Forbidden Rites",
-          "summary": "巫妖 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "className": "泰坦",
+          "leagueName": "Runes of Aldur",
+          "summary": "泰坦 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度回落"
+            "热度上升"
           ]
         },
         "en": {
-          "className": "Lich",
-          "leagueName": "Forbidden Rites",
-          "summary": "A popular ascendancy in Forbidden Rites, kept locally for quick trend scanning.",
+          "className": "Titan",
+          "leagueName": "Runes of Aldur",
+          "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Falling"
+            "Rising"
           ]
         }
       },
       "displayOrder": 9
     },
     {
-      "id": "forbiddenrites-witchhunter",
-      "className": "Witchhunter",
-      "leagueName": "Forbidden Rites",
-      "summary": "猎巫人 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 1.9,
+      "id": "runesofaldur-blood-mage",
+      "className": "Blood Mage",
+      "leagueName": "Runes of Aldur",
+      "summary": "命源法师 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "popularity": 3.2,
       "trend": -1,
       "rank": 10,
-      "image": "./assets/images/builds/witchhunter.webp",
+      "image": "./assets/images/builds/blood-mage.webp",
       "tags": [
         "热门职业",
         "热度回落"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Witchhunter",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Blood%20Mage",
       "localized": {
         "zh": {
-          "className": "猎巫人",
-          "leagueName": "Forbidden Rites",
-          "summary": "猎巫人 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "className": "命源法师",
+          "leagueName": "Runes of Aldur",
+          "summary": "命源法师 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
             "热度回落"
           ]
         },
         "en": {
-          "className": "Witchhunter",
-          "leagueName": "Forbidden Rites",
-          "summary": "A popular ascendancy in Forbidden Rites, kept locally for quick trend scanning.",
+          "className": "Blood Mage",
+          "leagueName": "Runes of Aldur",
+          "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
             "Falling"
@@ -364,10 +364,10 @@
       "displayOrder": 10
     },
     {
-      "id": "forbiddenrites-abyssal-lich",
+      "id": "runesofaldur-abyssal-lich",
       "className": "Abyssal Lich",
-      "leagueName": "Forbidden Rites",
-      "summary": "深渊巫妖 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "leagueName": "Runes of Aldur",
+      "summary": "深渊巫妖 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
@@ -376,12 +376,12 @@
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Abyssal%20Lich",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Abyssal%20Lich",
       "localized": {
         "zh": {
           "className": "深渊巫妖",
-          "leagueName": "Forbidden Rites",
-          "summary": "深渊巫妖 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "leagueName": "Runes of Aldur",
+          "summary": "深渊巫妖 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
@@ -389,8 +389,8 @@
         },
         "en": {
           "className": "Abyssal Lich",
-          "leagueName": "Forbidden Rites",
-          "summary": "深渊巫妖 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "leagueName": "Runes of Aldur",
+          "summary": "深渊巫妖 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -400,10 +400,10 @@
       "displayOrder": 11
     },
     {
-      "id": "forbiddenrites-acolyte-of-chayula",
+      "id": "runesofaldur-acolyte-of-chayula",
       "className": "Acolyte of Chayula",
-      "leagueName": "Forbidden Rites",
-      "summary": "夏乌拉追随者 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "leagueName": "Runes of Aldur",
+      "summary": "夏乌拉追随者 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
@@ -412,12 +412,12 @@
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Acolyte%20of%20Chayula",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Acolyte%20of%20Chayula",
       "localized": {
         "zh": {
           "className": "夏乌拉追随者",
-          "leagueName": "Forbidden Rites",
-          "summary": "夏乌拉追随者 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "leagueName": "Runes of Aldur",
+          "summary": "夏乌拉追随者 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
@@ -425,8 +425,8 @@
         },
         "en": {
           "className": "Acolyte of Chayula",
-          "leagueName": "Forbidden Rites",
-          "summary": "夏乌拉追随者 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "leagueName": "Runes of Aldur",
+          "summary": "夏乌拉追随者 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -436,10 +436,10 @@
       "displayOrder": 12
     },
     {
-      "id": "forbiddenrites-amazon",
+      "id": "runesofaldur-amazon",
       "className": "Amazon",
-      "leagueName": "Forbidden Rites",
-      "summary": "亚马逊 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "leagueName": "Runes of Aldur",
+      "summary": "亚马逊 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
@@ -448,12 +448,12 @@
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Amazon",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Amazon",
       "localized": {
         "zh": {
           "className": "亚马逊",
-          "leagueName": "Forbidden Rites",
-          "summary": "亚马逊 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "leagueName": "Runes of Aldur",
+          "summary": "亚马逊 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
@@ -461,8 +461,8 @@
         },
         "en": {
           "className": "Amazon",
-          "leagueName": "Forbidden Rites",
-          "summary": "亚马逊 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "leagueName": "Runes of Aldur",
+          "summary": "亚马逊 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -472,33 +472,33 @@
       "displayOrder": 13
     },
     {
-      "id": "forbiddenrites-blood-mage",
-      "className": "Blood Mage",
-      "leagueName": "Forbidden Rites",
-      "summary": "命源法师 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "id": "runesofaldur-chronomancer",
+      "className": "Chronomancer",
+      "leagueName": "Runes of Aldur",
+      "summary": "塑时术师 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
-      "image": "./assets/images/builds/blood-mage.webp",
+      "image": "./assets/images/builds/chronomancer.webp",
       "tags": [
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Blood%20Mage",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Chronomancer",
       "localized": {
         "zh": {
-          "className": "命源法师",
-          "leagueName": "Forbidden Rites",
-          "summary": "命源法师 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "className": "塑时术师",
+          "leagueName": "Runes of Aldur",
+          "summary": "塑时术师 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
           ]
         },
         "en": {
-          "className": "Blood Mage",
-          "leagueName": "Forbidden Rites",
-          "summary": "命源法师 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "className": "Chronomancer",
+          "leagueName": "Runes of Aldur",
+          "summary": "塑时术师 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -508,33 +508,33 @@
       "displayOrder": 14
     },
     {
-      "id": "forbiddenrites-chronomancer",
-      "className": "Chronomancer",
-      "leagueName": "Forbidden Rites",
-      "summary": "塑时术师 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "id": "runesofaldur-invoker",
+      "className": "Invoker",
+      "leagueName": "Runes of Aldur",
+      "summary": "祈求者 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
-      "image": "./assets/images/builds/chronomancer.webp",
+      "image": "./assets/images/builds/invoker.webp",
       "tags": [
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Chronomancer",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Invoker",
       "localized": {
         "zh": {
-          "className": "塑时术师",
-          "leagueName": "Forbidden Rites",
-          "summary": "塑时术师 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "className": "祈求者",
+          "leagueName": "Runes of Aldur",
+          "summary": "祈求者 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
           ]
         },
         "en": {
-          "className": "Chronomancer",
-          "leagueName": "Forbidden Rites",
-          "summary": "塑时术师 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "className": "Invoker",
+          "leagueName": "Runes of Aldur",
+          "summary": "祈求者 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -544,33 +544,33 @@
       "displayOrder": 15
     },
     {
-      "id": "forbiddenrites-invoker",
-      "className": "Invoker",
-      "leagueName": "Forbidden Rites",
-      "summary": "祈求者 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "id": "runesofaldur-lich",
+      "className": "Lich",
+      "leagueName": "Runes of Aldur",
+      "summary": "巫妖 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
-      "image": "./assets/images/builds/invoker.webp",
+      "image": "./assets/images/builds/lich.webp",
       "tags": [
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Invoker",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Lich",
       "localized": {
         "zh": {
-          "className": "祈求者",
-          "leagueName": "Forbidden Rites",
-          "summary": "祈求者 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "className": "巫妖",
+          "leagueName": "Runes of Aldur",
+          "summary": "巫妖 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
           ]
         },
         "en": {
-          "className": "Invoker",
-          "leagueName": "Forbidden Rites",
-          "summary": "祈求者 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "className": "Lich",
+          "leagueName": "Runes of Aldur",
+          "summary": "巫妖 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -580,10 +580,10 @@
       "displayOrder": 16
     },
     {
-      "id": "forbiddenrites-pathfinder",
+      "id": "runesofaldur-pathfinder",
       "className": "Pathfinder",
-      "leagueName": "Forbidden Rites",
-      "summary": "追猎者 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "leagueName": "Runes of Aldur",
+      "summary": "追猎者 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
@@ -592,12 +592,12 @@
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Pathfinder",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Pathfinder",
       "localized": {
         "zh": {
           "className": "追猎者",
-          "leagueName": "Forbidden Rites",
-          "summary": "追猎者 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "leagueName": "Runes of Aldur",
+          "summary": "追猎者 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
@@ -605,8 +605,8 @@
         },
         "en": {
           "className": "Pathfinder",
-          "leagueName": "Forbidden Rites",
-          "summary": "追猎者 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "leagueName": "Runes of Aldur",
+          "summary": "追猎者 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -616,10 +616,10 @@
       "displayOrder": 17
     },
     {
-      "id": "forbiddenrites-ritualist",
+      "id": "runesofaldur-ritualist",
       "className": "Ritualist",
-      "leagueName": "Forbidden Rites",
-      "summary": "仪祭师 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "leagueName": "Runes of Aldur",
+      "summary": "仪祭师 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
@@ -628,12 +628,12 @@
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Ritualist",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Ritualist",
       "localized": {
         "zh": {
           "className": "仪祭师",
-          "leagueName": "Forbidden Rites",
-          "summary": "仪祭师 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "leagueName": "Runes of Aldur",
+          "summary": "仪祭师 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
@@ -641,8 +641,8 @@
         },
         "en": {
           "className": "Ritualist",
-          "leagueName": "Forbidden Rites",
-          "summary": "仪祭师 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "leagueName": "Runes of Aldur",
+          "summary": "仪祭师 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -652,10 +652,10 @@
       "displayOrder": 18
     },
     {
-      "id": "forbiddenrites-shaman",
+      "id": "runesofaldur-shaman",
       "className": "Shaman",
-      "leagueName": "Forbidden Rites",
-      "summary": "萨满 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "leagueName": "Runes of Aldur",
+      "summary": "萨满 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
@@ -664,12 +664,12 @@
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Shaman",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Shaman",
       "localized": {
         "zh": {
           "className": "萨满",
-          "leagueName": "Forbidden Rites",
-          "summary": "萨满 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "leagueName": "Runes of Aldur",
+          "summary": "萨满 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
@@ -677,8 +677,8 @@
         },
         "en": {
           "className": "Shaman",
-          "leagueName": "Forbidden Rites",
-          "summary": "萨满 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "leagueName": "Runes of Aldur",
+          "summary": "萨满 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -688,10 +688,10 @@
       "displayOrder": 19
     },
     {
-      "id": "forbiddenrites-smith-of-kitava",
+      "id": "runesofaldur-smith-of-kitava",
       "className": "Smith of Kitava",
-      "leagueName": "Forbidden Rites",
-      "summary": "奇塔弗匠师 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "leagueName": "Runes of Aldur",
+      "summary": "奇塔弗匠师 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
@@ -700,12 +700,12 @@
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Smith%20of%20Kitava",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Smith%20of%20Kitava",
       "localized": {
         "zh": {
           "className": "奇塔弗匠师",
-          "leagueName": "Forbidden Rites",
-          "summary": "奇塔弗匠师 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "leagueName": "Runes of Aldur",
+          "summary": "奇塔弗匠师 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
@@ -713,8 +713,8 @@
         },
         "en": {
           "className": "Smith of Kitava",
-          "leagueName": "Forbidden Rites",
-          "summary": "奇塔弗匠师 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "leagueName": "Runes of Aldur",
+          "summary": "奇塔弗匠师 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -724,33 +724,33 @@
       "displayOrder": 20
     },
     {
-      "id": "forbiddenrites-stormweaver",
-      "className": "Stormweaver",
-      "leagueName": "Forbidden Rites",
-      "summary": "风暴编织者 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "id": "runesofaldur-tactician",
+      "className": "Tactician",
+      "leagueName": "Runes of Aldur",
+      "summary": "战术家 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
-      "image": "./assets/images/builds/stormweaver.webp",
+      "image": "./assets/images/builds/tactician.webp",
       "tags": [
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Stormweaver",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Tactician",
       "localized": {
         "zh": {
-          "className": "风暴编织者",
-          "leagueName": "Forbidden Rites",
-          "summary": "风暴编织者 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "className": "战术家",
+          "leagueName": "Runes of Aldur",
+          "summary": "战术家 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
           ]
         },
         "en": {
-          "className": "Stormweaver",
-          "leagueName": "Forbidden Rites",
-          "summary": "风暴编织者 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "className": "Tactician",
+          "leagueName": "Runes of Aldur",
+          "summary": "战术家 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -760,33 +760,33 @@
       "displayOrder": 21
     },
     {
-      "id": "forbiddenrites-titan",
-      "className": "Titan",
-      "leagueName": "Forbidden Rites",
-      "summary": "泰坦 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "id": "runesofaldur-warbringer",
+      "className": "Warbringer",
+      "leagueName": "Runes of Aldur",
+      "summary": "战争使者 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
-      "image": "./assets/images/builds/titan.webp",
+      "image": "./assets/images/builds/warbringer.webp",
       "tags": [
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Titan",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Warbringer",
       "localized": {
         "zh": {
-          "className": "泰坦",
-          "leagueName": "Forbidden Rites",
-          "summary": "泰坦 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "className": "战争使者",
+          "leagueName": "Runes of Aldur",
+          "summary": "战争使者 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
           ]
         },
         "en": {
-          "className": "Titan",
-          "leagueName": "Forbidden Rites",
-          "summary": "泰坦 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "className": "Warbringer",
+          "leagueName": "Runes of Aldur",
+          "summary": "战争使者 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -796,33 +796,33 @@
       "displayOrder": 22
     },
     {
-      "id": "forbiddenrites-warbringer",
-      "className": "Warbringer",
-      "leagueName": "Forbidden Rites",
-      "summary": "战争使者 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "id": "runesofaldur-witchhunter",
+      "className": "Witchhunter",
+      "leagueName": "Runes of Aldur",
+      "summary": "猎巫人 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
-      "image": "./assets/images/builds/warbringer.webp",
+      "image": "./assets/images/builds/witchhunter.webp",
       "tags": [
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Warbringer",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Witchhunter",
       "localized": {
         "zh": {
-          "className": "战争使者",
-          "leagueName": "Forbidden Rites",
-          "summary": "战争使者 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "className": "猎巫人",
+          "leagueName": "Runes of Aldur",
+          "summary": "猎巫人 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
           ]
         },
         "en": {
-          "className": "Warbringer",
-          "leagueName": "Forbidden Rites",
-          "summary": "战争使者 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "className": "Witchhunter",
+          "leagueName": "Runes of Aldur",
+          "summary": "猎巫人 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -832,10 +832,10 @@
       "displayOrder": 23
     },
     {
-      "id": "forbiddenrites-druid",
+      "id": "runesofaldur-druid",
       "className": "Druid",
-      "leagueName": "Forbidden Rites",
-      "summary": "德鲁伊 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "leagueName": "Runes of Aldur",
+      "summary": "德鲁伊 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
@@ -844,12 +844,12 @@
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Druid",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Druid",
       "localized": {
         "zh": {
           "className": "德鲁伊",
-          "leagueName": "Forbidden Rites",
-          "summary": "德鲁伊 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "leagueName": "Runes of Aldur",
+          "summary": "德鲁伊 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
@@ -857,8 +857,8 @@
         },
         "en": {
           "className": "Druid",
-          "leagueName": "Forbidden Rites",
-          "summary": "德鲁伊 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "leagueName": "Runes of Aldur",
+          "summary": "德鲁伊 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -868,10 +868,10 @@
       "displayOrder": 24
     },
     {
-      "id": "forbiddenrites-huntress",
+      "id": "runesofaldur-huntress",
       "className": "Huntress",
-      "leagueName": "Forbidden Rites",
-      "summary": "女猎手 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "leagueName": "Runes of Aldur",
+      "summary": "女猎手 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
@@ -880,12 +880,12 @@
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Huntress",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Huntress",
       "localized": {
         "zh": {
           "className": "女猎手",
-          "leagueName": "Forbidden Rites",
-          "summary": "女猎手 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "leagueName": "Runes of Aldur",
+          "summary": "女猎手 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
@@ -893,8 +893,8 @@
         },
         "en": {
           "className": "Huntress",
-          "leagueName": "Forbidden Rites",
-          "summary": "女猎手 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "leagueName": "Runes of Aldur",
+          "summary": "女猎手 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -904,10 +904,10 @@
       "displayOrder": 25
     },
     {
-      "id": "forbiddenrites-mercenary",
+      "id": "runesofaldur-mercenary",
       "className": "Mercenary",
-      "leagueName": "Forbidden Rites",
-      "summary": "佣兵 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "leagueName": "Runes of Aldur",
+      "summary": "佣兵 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
@@ -916,12 +916,12 @@
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Mercenary",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Mercenary",
       "localized": {
         "zh": {
           "className": "佣兵",
-          "leagueName": "Forbidden Rites",
-          "summary": "佣兵 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "leagueName": "Runes of Aldur",
+          "summary": "佣兵 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
@@ -929,8 +929,8 @@
         },
         "en": {
           "className": "Mercenary",
-          "leagueName": "Forbidden Rites",
-          "summary": "佣兵 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "leagueName": "Runes of Aldur",
+          "summary": "佣兵 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -940,10 +940,10 @@
       "displayOrder": 26
     },
     {
-      "id": "forbiddenrites-monk",
+      "id": "runesofaldur-monk",
       "className": "Monk",
-      "leagueName": "Forbidden Rites",
-      "summary": "行者 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "leagueName": "Runes of Aldur",
+      "summary": "行者 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
@@ -952,12 +952,12 @@
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Monk",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Monk",
       "localized": {
         "zh": {
           "className": "行者",
-          "leagueName": "Forbidden Rites",
-          "summary": "行者 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "leagueName": "Runes of Aldur",
+          "summary": "行者 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
@@ -965,8 +965,8 @@
         },
         "en": {
           "className": "Monk",
-          "leagueName": "Forbidden Rites",
-          "summary": "行者 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "leagueName": "Runes of Aldur",
+          "summary": "行者 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -976,10 +976,10 @@
       "displayOrder": 27
     },
     {
-      "id": "forbiddenrites-ranger",
+      "id": "runesofaldur-ranger",
       "className": "Ranger",
-      "leagueName": "Forbidden Rites",
-      "summary": "游侠 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "leagueName": "Runes of Aldur",
+      "summary": "游侠 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
@@ -988,12 +988,12 @@
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Ranger",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Ranger",
       "localized": {
         "zh": {
           "className": "游侠",
-          "leagueName": "Forbidden Rites",
-          "summary": "游侠 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "leagueName": "Runes of Aldur",
+          "summary": "游侠 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
@@ -1001,8 +1001,8 @@
         },
         "en": {
           "className": "Ranger",
-          "leagueName": "Forbidden Rites",
-          "summary": "游侠 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "leagueName": "Runes of Aldur",
+          "summary": "游侠 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -1012,10 +1012,10 @@
       "displayOrder": 28
     },
     {
-      "id": "forbiddenrites-sorceress",
+      "id": "runesofaldur-sorceress",
       "className": "Sorceress",
-      "leagueName": "Forbidden Rites",
-      "summary": "魔巫 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "leagueName": "Runes of Aldur",
+      "summary": "魔巫 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
@@ -1024,12 +1024,12 @@
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Sorceress",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Sorceress",
       "localized": {
         "zh": {
           "className": "魔巫",
-          "leagueName": "Forbidden Rites",
-          "summary": "魔巫 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "leagueName": "Runes of Aldur",
+          "summary": "魔巫 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
@@ -1037,8 +1037,8 @@
         },
         "en": {
           "className": "Sorceress",
-          "leagueName": "Forbidden Rites",
-          "summary": "魔巫 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "leagueName": "Runes of Aldur",
+          "summary": "魔巫 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -1048,10 +1048,10 @@
       "displayOrder": 29
     },
     {
-      "id": "forbiddenrites-warrior",
+      "id": "runesofaldur-warrior",
       "className": "Warrior",
-      "leagueName": "Forbidden Rites",
-      "summary": "战士 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "leagueName": "Runes of Aldur",
+      "summary": "战士 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
@@ -1060,12 +1060,12 @@
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Warrior",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Warrior",
       "localized": {
         "zh": {
           "className": "战士",
-          "leagueName": "Forbidden Rites",
-          "summary": "战士 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "leagueName": "Runes of Aldur",
+          "summary": "战士 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
@@ -1073,8 +1073,8 @@
         },
         "en": {
           "className": "Warrior",
-          "leagueName": "Forbidden Rites",
-          "summary": "战士 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "leagueName": "Runes of Aldur",
+          "summary": "战士 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
@@ -1084,10 +1084,10 @@
       "displayOrder": 30
     },
     {
-      "id": "forbiddenrites-witch",
+      "id": "runesofaldur-witch",
       "className": "Witch",
-      "leagueName": "Forbidden Rites",
-      "summary": "女巫 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "leagueName": "Runes of Aldur",
+      "summary": "女巫 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
       "popularity": null,
       "trend": 0,
       "rank": null,
@@ -1096,12 +1096,12 @@
         "忍者网筛选项",
         "热度持平"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Witch",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Witch",
       "localized": {
         "zh": {
           "className": "女巫",
-          "leagueName": "Forbidden Rites",
-          "summary": "女巫 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "leagueName": "Runes of Aldur",
+          "summary": "女巫 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
           "tags": [
             "忍者网筛选项",
             "热度持平"
@@ -1109,8 +1109,8 @@
         },
         "en": {
           "className": "Witch",
-          "leagueName": "Forbidden Rites",
-          "summary": "女巫 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "leagueName": "Runes of Aldur",
+          "summary": "女巫 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
