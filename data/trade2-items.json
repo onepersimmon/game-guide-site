@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T16:42:53.213Z",
+  "updatedAt": "2026-09-08T21:14:25.651Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14564,16 +14564,16 @@
           }
         },
         {
-          "type": "Broadsword",
-          "text": "INCOMPLETE Broadsword",
+          "type": "Executioner Greataxe",
+          "text": "INCOMPLETE Executioner Greataxe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Executioner Greataxe",
-          "text": "INCOMPLETE Executioner Greataxe",
+          "type": "Broadsword",
+          "text": "INCOMPLETE Broadsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
