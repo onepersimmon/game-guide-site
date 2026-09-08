@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T21:38:15.053Z",
+  "updatedAt": "2026-09-08T04:51:35.008Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1E3bV65Eun",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 /0.55闪回赛季古灵 开荒 /第四章+间歇到终局流程讲解！注意事项！",
+      "summary": "哪里不懂的可以评论区交流！一键三连！感谢支持！",
+      "author": "主播街客",
+      "publishedAt": "2026-09-08T04:04:13.000Z",
+      "href": "https://www.bilibili.com/video/av117233414114557",
+      "cover": "https://i2.hdslb.com/bfs/archive/ee6880c69fb187dd6c6dceddcdeb8b406f02fe57.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV18BbK6kEU6",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "0.5.5新赛季 女巫召唤速通剧情/挂机混沌30层/萌新轮椅 开荒 BD/万字文档/技能链接/天赋加点【 流放之路2 】",
+      "summary": "0.5.5新赛季 女巫召唤速通剧情/挂机混沌30层/萌新轮椅开荒BD 文档点点关注即可私信即可自动回复（之前关注的重新点点也可以收到喔~） 点个关注支持一下啦~ 求关注~求关注~求关注~求关注~求关注~求关注~求关注~求关注~",
+      "author": "酷懒之音",
+      "publishedAt": "2026-09-08T04:00:00.000Z",
+      "href": "https://www.bilibili.com/video/av117229119150850",
+      "cover": "https://i0.hdslb.com/bfs/archive/179e3ef19a5878e66ab50e12465eb35bb76c0415.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV12bbT6qEwP",
       "platform": "bilibili",
@@ -58,32 +84,6 @@
       "publishedAt": "2026-09-07T14:15:20.000Z",
       "href": "https://www.bilibili.com/video/av117230142491820",
       "cover": "https://i2.hdslb.com/bfs/archive/1ec348b476304e0a58569717117d93c63e96b06f.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1SLbN6BEPP",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 闪回古灵旋风 开荒 报告，附构筑与替代方案，贵是真的贵，爽是真的爽",
-      "summary": "有任何问题或者修造车需求可加qq：2448982882",
-      "author": "FanS-2331",
-      "publishedAt": "2026-09-07T12:52:23.000Z",
-      "href": "https://www.bilibili.com/video/av117229823723231",
-      "cover": "https://i0.hdslb.com/bfs/archive/9e178ab06a0009e33d7c88f3e9f412d765e08bbf.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1ChbN6tEEj",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 】0.55闪回赛季 两万甲闪，一千八秒回迫击炮古灵一键bd，站撸神圣仲裁者（植物人是超级大坑）",
-      "summary": "bd链接 https://poe.ninja/poe2/profile/ljljljljlj3-0975/forbiddenrites/character/古靈人 有什么问题也可以在评论区问出来，Up也会尽量做解答或者讨论的，第2天研究古灵植物人，直接昏头了，纯亏了30多d，开服第二天天不能乱搞科研，要引以为戒。",
-      "author": "Luking-",
-      "publishedAt": "2026-09-07T11:47:10.000Z",
-      "href": "https://www.bilibili.com/video/av117229588844575",
-      "cover": "https://i1.hdslb.com/bfs/archive/b398d077c2977685805a93ec841f6e6cb8080e3c.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
