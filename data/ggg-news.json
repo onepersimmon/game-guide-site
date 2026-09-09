@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-09-08T21:17:21.004Z",
+  "updatedAt": "2026-09-09T04:55:14.335Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "fan-art-competition-winners",
+      "title": "Fan Art Competition Winners",
+      "date": "2026-09-08T21:44:21+00:00",
+      "summary": "Our recent Fan Art Competition has come to a close! Check out some of the fantastic submissions themed around Path of Exile 1 and Path of Exile 2 new expansions, as well as the winners, in this news post!",
+      "href": "https://www.pathofexile.com/forum/view-thread/4003191",
+      "thumb": "https://web.poecdn.com/public/news/2026-09-09/FanArtCompetition2026WinnersTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Fan Art Competition Winners",
+          "summary": "Our recent Fan Art Competition has come to a close! Check out some of the fantastic submissions themed around Path of Exile 1 and Path of Exile 2 new expansions, as well as the winners, in this news post!",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Fan Art Competition Winners",
+          "summary": "Our recent Fan Art Competition has come to a close! Check out some of the fantastic submissions themed around Path of Exile 1 and Path of Exile 2 new expansions, as well as the winners, in this news post!",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "thank-you-gamescom-cologne-2026-recap",
       "title": "Thank You! Gamescom Cologne 2026 Recap",
@@ -44,27 +65,6 @@
         "en": {
           "title": "Introducing Phantasmal Elemental, Ancestral Elemental and Delirium Archer bundles",
           "summary": "The Forbidden Rites Event League brings with it a haul of new cosmetic effects to help you stand out on your journey through Wraeclast, alongside the new Relic Stash Tab!",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "forbidden-rites-starts-soon-new-twitch-drop",
-      "title": "Forbidden Rites Starts Soon - New Twitch Drop",
-      "date": "2026-09-03T22:30:00+00:00",
-      "summary": "Path of Exile 2: Forbidden Rites Event starts soon alongside the release of patch 0.5.5. In this news post, we’ve gathered all the information you need to know about what’s happening tomorrow and how to start downloading the update early.",
-      "href": "https://www.pathofexile.com/forum/view-thread/4001078",
-      "thumb": "https://web.poecdn.com/public/news/2026-09-04/TorrentNowTwitter.png",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Forbidden Rites Starts Soon - New Twitch Drop",
-          "summary": "Path of Exile 2: Forbidden Rites Event starts soon alongside the release of patch 0.5.5. In this news post, we’ve gathered all the information you need to know about what’s happening tomorrow and how to start downloading the update early.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Forbidden Rites Starts Soon - New Twitch Drop",
-          "summary": "Path of Exile 2: Forbidden Rites Event starts soon alongside the release of patch 0.5.5. In this news post, we’ve gathered all the information you need to know about what’s happening tomorrow and how to start downloading the update early.",
           "category": "Blue Post"
         }
       }
