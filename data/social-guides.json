@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T11:33:14.447Z",
+  "updatedAt": "2026-09-10T16:34:18.793Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,15 +10,54 @@
   },
   "items": [
     {
-      "id": "bilibili-BV1HVYM6GEHr",
+      "id": "bilibili-BV1s4Yu6HERK",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "【 流放之路2 】版本之子:武僧 开荒 攻略！",
-      "summary": "【流放之路2】版本之子:武僧开荒攻略！",
-      "author": "二指导玩游戏",
-      "publishedAt": "2026-09-10T07:24:50.000Z",
-      "href": "https://www.bilibili.com/video/av117245527265749",
-      "cover": "https://i2.hdslb.com/bfs/archive/6ea64a1de7808ab64352d393a26d793520102c65.jpg",
+      "title": "流放之路2 国服 开荒 第一桶金，搬砖打宝策略攻坚刷图都可以",
+      "summary": "流放之路2闪回赛季都有那些改动？0.55什么策略上手快？怎样快速拿到启动BD的第一桶金？不注意这些小细节开荒就要慢几步，0.55闪回赛季你们都有什么好的打宝策略可以评论区留言，觉得洲墨说的没问题的记得点赞关注收藏，感谢大家的一键三连，我们下期再见。",
+      "author": "洲墨游戏分享",
+      "publishedAt": "2026-09-10T16:05:00.000Z",
+      "href": "https://www.bilibili.com/video/av117246869379755",
+      "cover": "https://i1.hdslb.com/bfs/archive/8da0d96282e1bafd9bc43565a3a239b82b0995d8.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1J6Y36nEe4",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 降临。锐眼榴弹 开荒 天赋。",
+      "summary": "",
+      "author": "瘾大旺小旺",
+      "publishedAt": "2026-09-10T14:51:56.000Z",
+      "href": "https://www.bilibili.com/video/av117247288805355",
+      "cover": "https://i0.hdslb.com/bfs/archive/65ac5e519b1fabe9dc88b5a92b4139c640915b58.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1EdYM6CEDV",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 降临】航海彻底封神！国服首日 开荒 5小时血赚50D+ 无大师0天赋",
+      "summary": "",
+      "author": "里奥poe",
+      "publishedAt": "2026-09-10T14:33:11.000Z",
+      "href": "https://www.bilibili.com/video/av117247205050564",
+      "cover": "https://i1.hdslb.com/bfs/archive/8838f7f35870e0dbd852fa2791ec0c9ad0f4092a.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV14nYT6UEJL",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放2开荒 如何了？有没有被狼王虐",
+      "summary": "-",
+      "author": "别问问就是超级帅",
+      "publishedAt": "2026-09-10T09:33:55.000Z",
+      "href": "https://www.bilibili.com/video/av117246030715814",
+      "cover": "https://i0.hdslb.com/bfs/archive/84b9ae14a2076702207a5d0b20d815e77df204f7.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
@@ -45,45 +84,6 @@
       "publishedAt": "2026-09-10T03:40:01.000Z",
       "href": "https://www.bilibili.com/video/av117244654851962",
       "cover": "https://i2.hdslb.com/bfs/archive/07429a9ac2857edbde15628a7f8ba3bbd685f99e.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1ZGYK6PEfy",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 闪回赛季佣兵榴弹 开荒 到异界古灵地火龙卷风BD攻略",
-      "summary": "流放之路2佣兵榴弹开荒到异界转型古灵地火BD攻略",
-      "author": "暗黑心尘",
-      "publishedAt": "2026-09-10T02:26:41.000Z",
-      "href": "https://www.bilibili.com/video/av117244369570638",
-      "cover": "https://i1.hdslb.com/bfs/archive/5960e400559f6ac11f6d9cbfa6a792863f9dcb5b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1HDYK6uE83",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路 降临国服 开荒 思路以及猿神三补偿预告",
-      "summary": "流放之路降临国服开荒思路以及猿神三补偿预告，文档可自取！ 可私信自取文档--流放之路2教程总文档",
-      "author": "游戏分享老正",
-      "publishedAt": "2026-09-10T01:49:20.000Z",
-      "href": "https://www.bilibili.com/video/av117244218709906",
-      "cover": "https://i0.hdslb.com/bfs/archive/d0c29bb0bc555a3146f7e0cd0bb29bc9f1fae6d9.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV11rYK65ERt",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 国服国际服全技能名称对照表！",
-      "summary": "关注自动回复！友好沟通即可，喷子恶语直接拉黑不废话！",
-      "author": "客不见",
-      "publishedAt": "2026-09-10T01:25:10.000Z",
-      "href": "https://www.bilibili.com/video/av117244117913830",
-      "cover": "https://i2.hdslb.com/bfs/archive/3ae3fe7eab869a0706d729612ebd2f215b24d6f8.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
