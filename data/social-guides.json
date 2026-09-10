@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T04:55:14.216Z",
+  "updatedAt": "2026-09-10T11:33:14.447Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1HVYM6GEHr",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 】版本之子:武僧 开荒 攻略！",
+      "summary": "【流放之路2】版本之子:武僧开荒攻略！",
+      "author": "二指导玩游戏",
+      "publishedAt": "2026-09-10T07:24:50.000Z",
+      "href": "https://www.bilibili.com/video/av117245527265749",
+      "cover": "https://i2.hdslb.com/bfs/archive/6ea64a1de7808ab64352d393a26d793520102c65.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1z5YM6zEUq",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 闪回】各BOSS掉落统计和价格整理（9.10日国际服版），最值钱的竟然是？",
+      "summary": "文档地址： https://docs.qq.com/sheet/DRnNidnZ5cXp3R2F0?tab=mrwz2n 下载版地址: https://pan.quark.cn/s/6150bcc796f5",
+      "author": "炖了一锅鱼",
+      "publishedAt": "2026-09-10T05:57:17.000Z",
+      "href": "https://www.bilibili.com/video/av117245175143337",
+      "cover": "https://i1.hdslb.com/bfs/archive/0bb701cbc87d3055af2a20522c189ed00a56b80e.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV18QYN6UEJ6",
       "platform": "bilibili",
@@ -58,32 +84,6 @@
       "publishedAt": "2026-09-10T01:25:10.000Z",
       "href": "https://www.bilibili.com/video/av117244117913830",
       "cover": "https://i2.hdslb.com/bfs/archive/3ae3fe7eab869a0706d729612ebd2f215b24d6f8.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV17EYh6TEzN",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "《 流放之路2 》闪回赛季0.5.5-古灵使徒斗士·战矛旋龙 开荒 篇",
-      "summary": "BD地址：https://docs.qq.com/doc/DVWNRRnRwRGVQZnJC 从今天开始，紫熏把这套流派整理成了三期保姆级喂饭视频。本期是第一期开荒篇，教你从零起步平推到异界；第二期深挖异界刷图与元素之章的质变；第三期则是毕业攻坚与极限优化。 这套BD到了终极阶段，配合法师之血、天选之人战矛与反转抗性的顶级血脉辅助拉其塔之流，凭借古灵使徒斗士独有的双重品质机制，回旋挥斩的攻击速度能堆到极致。我们直接拿挥斩当超高速位移全图滑步，弹幕一按，满屏冰霜旋龙呼啸而出，高抗性首领也是瞬间融化！",
-      "author": "紫熏老师",
-      "publishedAt": "2026-09-10T00:32:55.000Z",
-      "href": "https://www.bilibili.com/video/av117243916585638",
-      "cover": "https://i2.hdslb.com/bfs/archive/f05839ad7fd5aa74d1988dd3c57cc853c2db32f4.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1oKYa6PENY",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放2 0.5.5闪回赛季古灵军团回旋击+旋风 开荒 ，体验非常好",
-      "summary": "POB___https://maxroll.gg/poe2/pob/gc3k100q___https://pobb.in/u_Vw--ZaCz6K 前面展示43级开荒效果，后面几分钟展示物品、面板、天赋。后期堆狂怒球、技能品质、百分比概率不消耗充能球，从而使得每次放旋风都超多。现在唯一贵的就是绑定暗金元素之章花了16D，其他1e到1d。",
-      "author": "香馨似梦",
-      "publishedAt": "2026-09-09T22:17:54.000Z",
-      "href": "https://www.bilibili.com/video/av117243396493317",
-      "cover": "https://i1.hdslb.com/bfs/archive/08aba1223d7294e87a5764adddbea4e5da90f636.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
