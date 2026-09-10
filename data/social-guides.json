@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T16:34:18.793Z",
+  "updatedAt": "2026-09-10T20:57:12.957Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1vsYg6kER8",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】如何快速拿满异界天赋点，前期异界任务剧情小技巧！ 流放之路2 异界天赋任务攻略！",
+      "summary": "",
+      "author": "小天QoQ",
+      "publishedAt": "2026-09-10T18:01:06.000Z",
+      "href": "https://www.bilibili.com/video/av117248043912276",
+      "cover": "https://i1.hdslb.com/bfs/archive/1cd7ef501f895bfffb97d08a3d9a56cc9dda1d6f.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV11SYg6sE6b",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【POE2】牢内！第一天剧情都没打完！初尝荆棘真是吃了个爽啊！但是我已经好起来了，明天要进异界猛刷！",
+      "summary": "-",
+      "author": "BBLC凉茶",
+      "publishedAt": "2026-09-10T16:53:56.000Z",
+      "href": "https://www.bilibili.com/video/av117247775347065",
+      "cover": "https://i2.hdslb.com/bfs/archive/ee4e69ab3e88a91a076f53e89cb357c5a739b1ed.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1s4Yu6HERK",
       "platform": "bilibili",
@@ -58,32 +84,6 @@
       "publishedAt": "2026-09-10T09:33:55.000Z",
       "href": "https://www.bilibili.com/video/av117246030715814",
       "cover": "https://i0.hdslb.com/bfs/archive/84b9ae14a2076702207a5d0b20d815e77df204f7.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1z5YM6zEUq",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 闪回】各BOSS掉落统计和价格整理（9.10日国际服版），最值钱的竟然是？",
-      "summary": "文档地址： https://docs.qq.com/sheet/DRnNidnZ5cXp3R2F0?tab=mrwz2n 下载版地址: https://pan.quark.cn/s/6150bcc796f5",
-      "author": "炖了一锅鱼",
-      "publishedAt": "2026-09-10T05:57:17.000Z",
-      "href": "https://www.bilibili.com/video/av117245175143337",
-      "cover": "https://i1.hdslb.com/bfs/archive/0bb701cbc87d3055af2a20522c189ed00a56b80e.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV18QYN6UEJ6",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "[ 流放之路2 ]国服 开荒 玩什么？国际服强势职业BD速览！锁定版本答案！",
-      "summary": "",
-      "author": "流放小龟",
-      "publishedAt": "2026-09-10T03:40:01.000Z",
-      "href": "https://www.bilibili.com/video/av117244654851962",
-      "cover": "https://i2.hdslb.com/bfs/archive/07429a9ac2857edbde15628a7f8ba3bbd685f99e.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
