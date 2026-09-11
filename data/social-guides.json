@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T11:34:47.715Z",
+  "updatedAt": "2026-09-11T16:38:05.234Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,89 +10,83 @@
   },
   "items": [
     {
-      "id": "bilibili-BV1vsYg6kER8",
+      "id": "bilibili-BV1JxY26mE31",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "【 流放2 】如何快速拿满异界天赋点，前期异界任务剧情小技巧！ 流放之路2 异界天赋任务攻略！",
-      "summary": "",
-      "author": "小天QoQ",
-      "publishedAt": "2026-09-10T18:01:06.000Z",
-      "href": "https://www.bilibili.com/video/av117248043912276",
-      "cover": "https://i1.hdslb.com/bfs/archive/1cd7ef501f895bfffb97d08a3d9a56cc9dda1d6f.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV11SYg6sE6b",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【POE2】牢内！第一天剧情都没打完！初尝荆棘真是吃了个爽啊！但是我已经好起来了，明天要进异界猛刷！",
+      "title": "【POE2】瓦尔克拉斯上铁锤来，今日方知我是我；牢战回归，看哭十亿 流放 者",
       "summary": "-",
       "author": "BBLC凉茶",
-      "publishedAt": "2026-09-10T16:53:56.000Z",
-      "href": "https://www.bilibili.com/video/av117247775347065",
-      "cover": "https://i2.hdslb.com/bfs/archive/ee4e69ab3e88a91a076f53e89cb357c5a739b1ed.jpg",
+      "publishedAt": "2026-09-11T16:21:21.000Z",
+      "href": "https://www.bilibili.com/video/av117253311896173",
+      "cover": "https://i2.hdslb.com/bfs/archive/63d63b4c4a506aaa1431856678e205181d88609b.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1s4Yu6HERK",
+      "id": "bilibili-BV1HPYm6QEAE",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "流放之路2 国服 开荒 第一桶金，搬砖打宝策略攻坚刷图都可以",
-      "summary": "流放之路2闪回赛季都有那些改动？0.55什么策略上手快？怎样快速拿到启动BD的第一桶金？不注意这些小细节开荒就要慢几步，0.55闪回赛季你们都有什么好的打宝策略可以评论区留言，觉得洲墨说的没问题的记得点赞关注收藏，感谢大家的一键三连，我们下期再见。",
-      "author": "洲墨游戏分享",
-      "publishedAt": "2026-09-10T16:05:00.000Z",
-      "href": "https://www.bilibili.com/video/av117246869379755",
-      "cover": "https://i1.hdslb.com/bfs/archive/8da0d96282e1bafd9bc43565a3a239b82b0995d8.jpg",
+      "title": "【 流放2 】 猿神 开荒 +冰猿启动版+猿神毕业版+ 开荒 超详细文档。",
+      "summary": "文档获取：新粉三连+关注即可！ 感谢大家的三连和关注！下期见",
+      "author": "喵神Meow",
+      "publishedAt": "2026-09-11T14:22:55.000Z",
+      "href": "https://www.bilibili.com/video/av117252825421791",
+      "cover": "https://i2.hdslb.com/bfs/archive/df3b2f654e8f19190efc4df4070221c35936294b.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1J6Y36nEe4",
+      "id": "bilibili-BV1uXYj6mE6n",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "流放之路2 降临。锐眼榴弹 开荒 天赋。",
+      "title": "流放之路2 降临闪回赛季 开荒 打宝策略保姆式解析攻略",
+      "summary": "祭坛太慢，裂隙上限有限，航海玩法人山人海，真正的焚诀，其实是···",
+      "author": "Ray鸽鸽鸽鸽",
+      "publishedAt": "2026-09-11T12:45:28.000Z",
+      "href": "https://www.bilibili.com/video/av117252456257237",
+      "cover": "https://i1.hdslb.com/bfs/archive/886461cbfb237eb81200730a7d136cade2b327cd.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1biY767EEg",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "0.55闪回赛季 流放之路2 零成本 开荒 一天到异界 0投入 全是回报 （全职业可玩龙喷）",
       "summary": "",
-      "author": "瘾大旺小旺",
-      "publishedAt": "2026-09-10T14:51:56.000Z",
-      "href": "https://www.bilibili.com/video/av117247288805355",
-      "cover": "https://i0.hdslb.com/bfs/archive/65ac5e519b1fabe9dc88b5a92b4139c640915b58.jpg",
+      "author": "辅助娜美她泡我",
+      "publishedAt": "2026-09-11T11:56:26.000Z",
+      "href": "https://www.bilibili.com/video/av117252254863837",
+      "cover": "https://i2.hdslb.com/bfs/archive/371278e3c73ae16d2c106091b2fd81d2e26d6450.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1EdYM6CEDV",
+      "id": "bilibili-BV1JDYL6FEzd",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "【 流放之路2 降临】航海彻底封神！国服首日 开荒 5小时血赚50D+ 无大师0天赋",
-      "summary": "",
-      "author": "里奥poe",
-      "publishedAt": "2026-09-10T14:33:11.000Z",
-      "href": "https://www.bilibili.com/video/av117247205050564",
-      "cover": "https://i1.hdslb.com/bfs/archive/8838f7f35870e0dbd852fa2791ec0c9ad0f4092a.jpg",
+      "title": "小垃圾御姐版全新上线，完美适配，一键替换，快来下载吧，剑心过滤， 流放之路2 ， 流放 降临，闪回赛季，周年庆巅峰赛季",
+      "summary": "剑心官网 www.jxpoe.cn",
+      "author": "剑影流心",
+      "publishedAt": "2026-09-11T11:00:00.000Z",
+      "href": "https://www.bilibili.com/video/av117251197900469",
+      "cover": "https://i1.hdslb.com/bfs/archive/d52565f027b4bf7742dcdf6061a09b354353e779.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV14nYT6UEJL",
+      "id": "bilibili-BV1qfY76aEKE",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "流放2开荒 如何了？有没有被狼王虐",
-      "summary": "-",
-      "author": "别问问就是超级帅",
-      "publishedAt": "2026-09-10T09:33:55.000Z",
-      "href": "https://www.bilibili.com/video/av117246030715814",
-      "cover": "https://i0.hdslb.com/bfs/archive/84b9ae14a2076702207a5d0b20d815e77df204f7.jpg",
+      "title": "【 流放之路2 】0.55闪回国服，战术家安魂曲bd，2d造价无脑 开荒 ，刷图攻坚防御非常舒服",
+      "summary": "想看详细BD的话，可以私信Up主 闪回赛季战术家安魂曲开荒BD 就会有自动回复Wegame链接，如果发送不了的话，可以取消关注，再关注就可以再次发送了。有什么问题也可以在评论区提出来，UP也会尽力解答",
+      "author": "Luking-",
+      "publishedAt": "2026-09-11T10:34:33.000Z",
+      "href": "https://www.bilibili.com/video/av117251936165341",
+      "cover": "https://i1.hdslb.com/bfs/archive/9682eb6741d87661b8b7ad74278cf977be546637.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-09-11T11:34:47.715Z"
-    }
-  ]
+  "errors": []
 }

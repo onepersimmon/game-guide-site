@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T11:30:44.738Z",
+  "updatedAt": "2026-09-11T16:34:52.242Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14572,6 +14572,14 @@
           }
         },
         {
+          "type": "Skinning Knife",
+          "text": "INCOMPLETE Skinning Knife",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
           "type": "Broadsword",
           "text": "INCOMPLETE Broadsword",
           "name": "INCOMPLETE",
@@ -14614,14 +14622,6 @@
         {
           "type": "Rippled Greatsword",
           "text": "INCOMPLETE Rippled Greatsword",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
-          "type": "Skinning Knife",
-          "text": "INCOMPLETE Skinning Knife",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
