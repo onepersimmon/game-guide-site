@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T20:57:03.779Z",
+  "updatedAt": "2026-09-11T04:48:36.292Z",
   "source": "poe.ninja",
   "leagueName": "Forbidden Rites",
   "builds": [
@@ -8,13 +8,13 @@
       "className": "Gemling Legionnaire",
       "leagueName": "Forbidden Rites",
       "summary": "古灵使徒斗士 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 36.8,
-      "trend": 1,
+      "popularity": 38.4,
+      "trend": -1,
       "rank": 1,
       "image": "./assets/images/builds/gemling-legionnaire.webp",
       "tags": [
         "主联赛头部",
-        "热度上升"
+        "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Gemling%20Legionnaire",
       "localized": {
@@ -24,7 +24,7 @@
           "summary": "古灵使徒斗士 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "主联赛头部",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
@@ -33,7 +33,7 @@
           "summary": "A high-share ascendancy in Forbidden Rites, worth watching as the league meta keeps shifting.",
           "tags": [
             "Main league leader",
-            "Rising"
+            "Falling"
           ]
         }
       },
@@ -44,13 +44,13 @@
       "className": "Disciple of Varashta",
       "leagueName": "Forbidden Rites",
       "summary": "瓦拉煞的门徒 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 9.4,
-      "trend": 1,
+      "popularity": 9.3,
+      "trend": -1,
       "rank": 2,
       "image": "./assets/images/builds/disciple-of-varashta.webp",
       "tags": [
         "主联赛头部",
-        "热度上升"
+        "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Disciple%20of%20Varashta",
       "localized": {
@@ -60,7 +60,7 @@
           "summary": "瓦拉煞的门徒 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "主联赛头部",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
@@ -69,7 +69,7 @@
           "summary": "A high-share ascendancy in Forbidden Rites, worth watching as the league meta keeps shifting.",
           "tags": [
             "Main league leader",
-            "Rising"
+            "Falling"
           ]
         }
       },
@@ -80,13 +80,13 @@
       "className": "Martial Artist",
       "leagueName": "Forbidden Rites",
       "summary": "武圣 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 8.7,
-      "trend": 1,
+      "popularity": 8.9,
+      "trend": -1,
       "rank": 3,
       "image": "./assets/images/builds/martial-artist.webp",
       "tags": [
         "主联赛头部",
-        "热度上升"
+        "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Martial%20Artist",
       "localized": {
@@ -96,7 +96,7 @@
           "summary": "武圣 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "主联赛头部",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
@@ -105,7 +105,7 @@
           "summary": "A high-share ascendancy in Forbidden Rites, worth watching as the league meta keeps shifting.",
           "tags": [
             "Main league leader",
-            "Rising"
+            "Falling"
           ]
         }
       },
@@ -117,12 +117,12 @@
       "leagueName": "Forbidden Rites",
       "summary": "灵魂行者 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 8.6,
-      "trend": 1,
+      "trend": -1,
       "rank": 4,
       "image": "./assets/images/builds/spirit-walker.webp",
       "tags": [
         "热门职业",
-        "热度上升"
+        "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Spirit%20Walker",
       "localized": {
@@ -132,7 +132,7 @@
           "summary": "灵魂行者 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
@@ -141,7 +141,7 @@
           "summary": "A popular ascendancy in Forbidden Rites, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Rising"
+            "Falling"
           ]
         }
       },
@@ -152,13 +152,13 @@
       "className": "Deadeye",
       "leagueName": "Forbidden Rites",
       "summary": "锐眼 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 7.6,
-      "trend": 1,
+      "popularity": 7.2,
+      "trend": -1,
       "rank": 5,
       "image": "./assets/images/builds/deadeye.webp",
       "tags": [
         "热门职业",
-        "热度上升"
+        "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Deadeye",
       "localized": {
@@ -168,7 +168,7 @@
           "summary": "锐眼 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
@@ -177,7 +177,7 @@
           "summary": "A popular ascendancy in Forbidden Rites, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Rising"
+            "Falling"
           ]
         }
       },
@@ -188,13 +188,13 @@
       "className": "Oracle",
       "leagueName": "Forbidden Rites",
       "summary": "神谕者 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 7.4,
-      "trend": 1,
+      "popularity": 7.2,
+      "trend": -1,
       "rank": 6,
       "image": "./assets/images/builds/oracle.webp",
       "tags": [
         "热门职业",
-        "热度上升"
+        "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Oracle",
       "localized": {
@@ -204,7 +204,7 @@
           "summary": "神谕者 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
@@ -213,7 +213,7 @@
           "summary": "A popular ascendancy in Forbidden Rites, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Rising"
+            "Falling"
           ]
         }
       },
@@ -224,13 +224,13 @@
       "className": "Infernalist",
       "leagueName": "Forbidden Rites",
       "summary": "驱炎使 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 2.9,
-      "trend": 1,
+      "popularity": 2.8,
+      "trend": -1,
       "rank": 7,
       "image": "./assets/images/builds/infernalist.webp",
       "tags": [
         "热门职业",
-        "热度上升"
+        "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Infernalist",
       "localized": {
@@ -240,7 +240,7 @@
           "summary": "驱炎使 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
@@ -249,47 +249,11 @@
           "summary": "A popular ascendancy in Forbidden Rites, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Rising"
+            "Falling"
           ]
         }
       },
       "displayOrder": 7
-    },
-    {
-      "id": "forbiddenrites-tactician",
-      "className": "Tactician",
-      "leagueName": "Forbidden Rites",
-      "summary": "战术家 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 2.2,
-      "trend": 1,
-      "rank": 8,
-      "image": "./assets/images/builds/tactician.webp",
-      "tags": [
-        "热门职业",
-        "热度上升"
-      ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Tactician",
-      "localized": {
-        "zh": {
-          "className": "战术家",
-          "leagueName": "Forbidden Rites",
-          "summary": "战术家 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-          "tags": [
-            "热门职业",
-            "热度上升"
-          ]
-        },
-        "en": {
-          "className": "Tactician",
-          "leagueName": "Forbidden Rites",
-          "summary": "A popular ascendancy in Forbidden Rites, kept locally for quick trend scanning.",
-          "tags": [
-            "Popular class",
-            "Rising"
-          ]
-        }
-      },
-      "displayOrder": 8
     },
     {
       "id": "forbiddenrites-stormweaver",
@@ -297,12 +261,12 @@
       "leagueName": "Forbidden Rites",
       "summary": "风暴编织者 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 2.1,
-      "trend": 1,
-      "rank": 9,
+      "trend": -1,
+      "rank": 8,
       "image": "./assets/images/builds/stormweaver.webp",
       "tags": [
         "热门职业",
-        "热度上升"
+        "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Stormweaver",
       "localized": {
@@ -312,7 +276,7 @@
           "summary": "风暴编织者 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
@@ -321,43 +285,79 @@
           "summary": "A popular ascendancy in Forbidden Rites, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Rising"
+            "Falling"
+          ]
+        }
+      },
+      "displayOrder": 8
+    },
+    {
+      "id": "forbiddenrites-tactician",
+      "className": "Tactician",
+      "leagueName": "Forbidden Rites",
+      "summary": "战术家 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "popularity": 2.1,
+      "trend": -1,
+      "rank": 9,
+      "image": "./assets/images/builds/tactician.webp",
+      "tags": [
+        "热门职业",
+        "热度回落"
+      ],
+      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Tactician",
+      "localized": {
+        "zh": {
+          "className": "战术家",
+          "leagueName": "Forbidden Rites",
+          "summary": "战术家 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "tags": [
+            "热门职业",
+            "热度回落"
+          ]
+        },
+        "en": {
+          "className": "Tactician",
+          "leagueName": "Forbidden Rites",
+          "summary": "A popular ascendancy in Forbidden Rites, kept locally for quick trend scanning.",
+          "tags": [
+            "Popular class",
+            "Falling"
           ]
         }
       },
       "displayOrder": 9
     },
     {
-      "id": "forbiddenrites-lich",
-      "className": "Lich",
+      "id": "forbiddenrites-titan",
+      "className": "Titan",
       "leagueName": "Forbidden Rites",
-      "summary": "巫妖 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 2,
-      "trend": 1,
+      "summary": "泰坦 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "popularity": 1.8,
+      "trend": -1,
       "rank": 10,
-      "image": "./assets/images/builds/lich.webp",
+      "image": "./assets/images/builds/titan.webp",
       "tags": [
         "热门职业",
-        "热度上升"
+        "热度回落"
       ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Lich",
+      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Titan",
       "localized": {
         "zh": {
-          "className": "巫妖",
+          "className": "泰坦",
           "leagueName": "Forbidden Rites",
-          "summary": "巫妖 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "summary": "泰坦 在 Forbidden Rites 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
-          "className": "Lich",
+          "className": "Titan",
           "leagueName": "Forbidden Rites",
           "summary": "A popular ascendancy in Forbidden Rites, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Rising"
+            "Falling"
           ]
         }
       },
@@ -580,6 +580,42 @@
       "displayOrder": 16
     },
     {
+      "id": "forbiddenrites-lich",
+      "className": "Lich",
+      "leagueName": "Forbidden Rites",
+      "summary": "巫妖 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/lich.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Lich",
+      "localized": {
+        "zh": {
+          "className": "巫妖",
+          "leagueName": "Forbidden Rites",
+          "summary": "巫妖 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Lich",
+          "leagueName": "Forbidden Rites",
+          "summary": "巫妖 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 17
+    },
+    {
       "id": "forbiddenrites-pathfinder",
       "className": "Pathfinder",
       "leagueName": "Forbidden Rites",
@@ -613,7 +649,7 @@
           ]
         }
       },
-      "displayOrder": 17
+      "displayOrder": 18
     },
     {
       "id": "forbiddenrites-ritualist",
@@ -649,7 +685,7 @@
           ]
         }
       },
-      "displayOrder": 18
+      "displayOrder": 19
     },
     {
       "id": "forbiddenrites-shaman",
@@ -685,7 +721,7 @@
           ]
         }
       },
-      "displayOrder": 19
+      "displayOrder": 20
     },
     {
       "id": "forbiddenrites-smith-of-kitava",
@@ -715,42 +751,6 @@
           "className": "Smith of Kitava",
           "leagueName": "Forbidden Rites",
           "summary": "奇塔弗匠师 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
-          "tags": [
-            "poe.ninja filter",
-            "Stable"
-          ]
-        }
-      },
-      "displayOrder": 20
-    },
-    {
-      "id": "forbiddenrites-titan",
-      "className": "Titan",
-      "leagueName": "Forbidden Rites",
-      "summary": "泰坦 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
-      "popularity": null,
-      "trend": 0,
-      "rank": null,
-      "image": "./assets/images/builds/titan.webp",
-      "tags": [
-        "忍者网筛选项",
-        "热度持平"
-      ],
-      "href": "https://poe.ninja/poe2/builds/forbiddenrites?class=Titan",
-      "localized": {
-        "zh": {
-          "className": "泰坦",
-          "leagueName": "Forbidden Rites",
-          "summary": "泰坦 是 poe.ninja 可筛选职业，目前未进入 Forbidden Rites 占比前 10，适合点进忍者网继续看具体角色。",
-          "tags": [
-            "忍者网筛选项",
-            "热度持平"
-          ]
-        },
-        "en": {
-          "className": "Titan",
-          "leagueName": "Forbidden Rites",
-          "summary": "泰坦 is available in poe.ninja filters but is outside the top 10 share snapshot for Forbidden Rites.",
           "tags": [
             "poe.ninja filter",
             "Stable"

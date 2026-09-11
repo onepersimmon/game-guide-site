@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T20:57:04.272Z",
+  "updatedAt": "2026-09-11T04:48:36.703Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14516,16 +14516,16 @@
           }
         },
         {
-          "type": "Splintered Flail",
-          "text": "INCOMPLETE Splintered Flail",
+          "type": "Splitting Greataxe",
+          "text": "INCOMPLETE Splitting Greataxe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Splitting Greataxe",
-          "text": "INCOMPLETE Splitting Greataxe",
+          "type": "Splintered Flail",
+          "text": "INCOMPLETE Splintered Flail",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
