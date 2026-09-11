@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T16:38:05.234Z",
+  "updatedAt": "2026-09-11T21:05:40.565Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1NLYU6AEvJ",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 】最无脑的 开荒 流派！白板武器都能玩！",
+      "summary": "https://www.youtube.com/watch?v=UvJIuhwb5_k 从开荒到毕业一条龙！全流派打造！皮肤！随时安排！效率直接拉满！",
+      "author": "超新星暗黑四",
+      "publishedAt": "2026-09-11T19:16:23.000Z",
+      "href": "https://www.bilibili.com/video/av117253999692568",
+      "cover": "https://i2.hdslb.com/bfs/archive/f884aa539422b9d731579bbd1c29a67922a3a74d.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1JxY26mE31",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-09-11T11:00:00.000Z",
       "href": "https://www.bilibili.com/video/av117251197900469",
       "cover": "https://i1.hdslb.com/bfs/archive/d52565f027b4bf7742dcdf6061a09b354353e779.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1qfY76aEKE",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 】0.55闪回国服，战术家安魂曲bd，2d造价无脑 开荒 ，刷图攻坚防御非常舒服",
-      "summary": "想看详细BD的话，可以私信Up主 闪回赛季战术家安魂曲开荒BD 就会有自动回复Wegame链接，如果发送不了的话，可以取消关注，再关注就可以再次发送了。有什么问题也可以在评论区提出来，UP也会尽力解答",
-      "author": "Luking-",
-      "publishedAt": "2026-09-11T10:34:33.000Z",
-      "href": "https://www.bilibili.com/video/av117251936165341",
-      "cover": "https://i1.hdslb.com/bfs/archive/9682eb6741d87661b8b7ad74278cf977be546637.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
