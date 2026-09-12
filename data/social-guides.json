@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T10:59:31.849Z",
+  "updatedAt": "2026-09-12T15:40:46.358Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1GLYR64E4H",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【POE2】肉！女猎荆棘牢战也能肉的！大血甲，命运抗争，你们便给我出来吧！！！",
+      "summary": "-",
+      "author": "BBLC凉茶",
+      "publishedAt": "2026-09-12T14:42:22.000Z",
+      "href": "https://www.bilibili.com/video/av117258579874194",
+      "cover": "https://i2.hdslb.com/bfs/archive/a7b43bc7ef6add573da006a1f87300ef9e2395d0.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1kLYd6LEN2",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 】超细节新手向-0.5最火BD之古灵地炼剧情 开荒 及转型演示全流程",
+      "summary": "感谢棱镜poe2lens大佬分享的攻略，地址见评论区，里面有详尽的天赋技能装备及注意事项。",
+      "author": "飞花满天",
+      "publishedAt": "2026-09-12T13:19:15.000Z",
+      "href": "https://www.bilibili.com/video/av117258193995584",
+      "cover": "https://i1.hdslb.com/bfs/archive/517311dd6757b25956d1b1e6256087d4e5b18754.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV19mYX6dEXU",
       "platform": "bilibili",
@@ -58,32 +84,6 @@
       "publishedAt": "2026-09-12T06:20:54.000Z",
       "href": "https://www.bilibili.com/video/av117256600162021",
       "cover": "https://i2.hdslb.com/bfs/archive/81158378b39fe049a40b1075943bbef7fa6a09d9.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV111YQ6uE5x",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【POE2】如何不用狼形态飞快跑图？答案是“取消”！牢战の里技公開放送……嘻嘻，我是正義的 流放 者口牙……",
-      "summary": "-",
-      "author": "BBLC凉茶",
-      "publishedAt": "2026-09-12T04:52:36.000Z",
-      "href": "https://www.bilibili.com/video/av117256264683654",
-      "cover": "https://i2.hdslb.com/bfs/archive/efefa8f0e9ca090e0cc14d1b859a24616b4da411.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1taYS6gEY6",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "0.55闪回赛季/ 流放2 国服/魔巫门徒/萌新 开荒 攻略！",
-      "summary": "哪里不懂欢迎评论区交流！ 希望大家点点关注一键三连！感谢支持！ 后续发异界天赋加点装备技能选择！ 前期靠这些就可以升级到80级了",
-      "author": "主播街客",
-      "publishedAt": "2026-09-12T01:43:26.000Z",
-      "href": "https://www.bilibili.com/video/av117255509641960",
-      "cover": "https://i1.hdslb.com/bfs/archive/9634544883a9d1a4a410059d6377a57ff11777af.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
