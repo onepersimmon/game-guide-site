@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T21:05:40.565Z",
+  "updatedAt": "2026-09-12T04:46:31.673Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1taYS6gEY6",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "0.55闪回赛季/ 流放2 国服/魔巫门徒/萌新 开荒 攻略！",
+      "summary": "哪里不懂欢迎评论区交流！ 希望大家点点关注一键三连！感谢支持！ 后续发异界天赋加点装备技能选择！ 前期靠这些就可以升级到80级了",
+      "author": "主播街客",
+      "publishedAt": "2026-09-12T01:43:26.000Z",
+      "href": "https://www.bilibili.com/video/av117255509641960",
+      "cover": "https://i1.hdslb.com/bfs/archive/9634544883a9d1a4a410059d6377a57ff11777af.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1NLYU6AEvJ",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-09-11T11:56:26.000Z",
       "href": "https://www.bilibili.com/video/av117252254863837",
       "cover": "https://i2.hdslb.com/bfs/archive/371278e3c73ae16d2c106091b2fd81d2e26d6450.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1JDYL6FEzd",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "小垃圾御姐版全新上线，完美适配，一键替换，快来下载吧，剑心过滤， 流放之路2 ， 流放 降临，闪回赛季，周年庆巅峰赛季",
-      "summary": "剑心官网 www.jxpoe.cn",
-      "author": "剑影流心",
-      "publishedAt": "2026-09-11T11:00:00.000Z",
-      "href": "https://www.bilibili.com/video/av117251197900469",
-      "cover": "https://i1.hdslb.com/bfs/archive/d52565f027b4bf7742dcdf6061a09b354353e779.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
