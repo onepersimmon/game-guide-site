@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T04:46:31.673Z",
+  "updatedAt": "2026-09-12T10:59:31.849Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,6 +10,71 @@
   },
   "items": [
     {
+      "id": "bilibili-BV19mYX6dEXU",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 ：超高性价比！命源法师-血法 开荒 用雷弹BD",
+      "summary": "",
+      "author": "闪闪Aur",
+      "publishedAt": "2026-09-12T10:49:10.000Z",
+      "href": "https://www.bilibili.com/video/av117257657129574",
+      "cover": "https://i0.hdslb.com/bfs/archive/a5a4ada969405649244a26c5e9fe4a72b3829e78.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1trY96SEmy",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "刮师傅，不要和他拼拳，尝试切他中路！（ 流放2 0.55赛季）",
+      "summary": "",
+      "author": "大叔认真玩游戏",
+      "publishedAt": "2026-09-12T08:35:21.000Z",
+      "href": "https://www.bilibili.com/video/av117257137036216",
+      "cover": "https://i1.hdslb.com/bfs/archive/030f76a41ffedf88ebc904ca9e4db4275c41b83f.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1UdYD6kEjW",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "0.55 流放2 国服 古灵人能飞，学习某雷的冰川弩箭BD 开荒 蠕动中",
+      "summary": "",
+      "author": "中江老超哥",
+      "publishedAt": "2026-09-12T07:11:13.000Z",
+      "href": "https://www.bilibili.com/video/av117256801491680",
+      "cover": "https://i2.hdslb.com/bfs/archive/8d0808249f81dcca76862bd26fe107d5420d55d8.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1B5YQ68EME",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 不刷图不攻坚 开荒 期日入百D",
+      "summary": "",
+      "author": "梦绕的搬砖日记",
+      "publishedAt": "2026-09-12T06:20:54.000Z",
+      "href": "https://www.bilibili.com/video/av117256600162021",
+      "cover": "https://i2.hdslb.com/bfs/archive/81158378b39fe049a40b1075943bbef7fa6a09d9.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV111YQ6uE5x",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【POE2】如何不用狼形态飞快跑图？答案是“取消”！牢战の里技公開放送……嘻嘻，我是正義的 流放 者口牙……",
+      "summary": "-",
+      "author": "BBLC凉茶",
+      "publishedAt": "2026-09-12T04:52:36.000Z",
+      "href": "https://www.bilibili.com/video/av117256264683654",
+      "cover": "https://i2.hdslb.com/bfs/archive/efefa8f0e9ca090e0cc14d1b859a24616b4da411.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
       "id": "bilibili-BV1taYS6gEY6",
       "platform": "bilibili",
       "platformLabel": "B 站",
@@ -19,71 +84,6 @@
       "publishedAt": "2026-09-12T01:43:26.000Z",
       "href": "https://www.bilibili.com/video/av117255509641960",
       "cover": "https://i1.hdslb.com/bfs/archive/9634544883a9d1a4a410059d6377a57ff11777af.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1NLYU6AEvJ",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 】最无脑的 开荒 流派！白板武器都能玩！",
-      "summary": "https://www.youtube.com/watch?v=UvJIuhwb5_k 从开荒到毕业一条龙！全流派打造！皮肤！随时安排！效率直接拉满！",
-      "author": "超新星暗黑四",
-      "publishedAt": "2026-09-11T19:16:23.000Z",
-      "href": "https://www.bilibili.com/video/av117253999692568",
-      "cover": "https://i2.hdslb.com/bfs/archive/f884aa539422b9d731579bbd1c29a67922a3a74d.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1JxY26mE31",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【POE2】瓦尔克拉斯上铁锤来，今日方知我是我；牢战回归，看哭十亿 流放 者",
-      "summary": "-",
-      "author": "BBLC凉茶",
-      "publishedAt": "2026-09-11T16:21:21.000Z",
-      "href": "https://www.bilibili.com/video/av117253311896173",
-      "cover": "https://i2.hdslb.com/bfs/archive/63d63b4c4a506aaa1431856678e205181d88609b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1HPYm6QEAE",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】 猿神 开荒 +冰猿启动版+猿神毕业版+ 开荒 超详细文档。",
-      "summary": "文档获取：新粉三连+关注即可！ 感谢大家的三连和关注！下期见",
-      "author": "喵神Meow",
-      "publishedAt": "2026-09-11T14:22:55.000Z",
-      "href": "https://www.bilibili.com/video/av117252825421791",
-      "cover": "https://i2.hdslb.com/bfs/archive/df3b2f654e8f19190efc4df4070221c35936294b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1uXYj6mE6n",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 降临闪回赛季 开荒 打宝策略保姆式解析攻略",
-      "summary": "祭坛太慢，裂隙上限有限，航海玩法人山人海，真正的焚诀，其实是···",
-      "author": "Ray鸽鸽鸽鸽",
-      "publishedAt": "2026-09-11T12:45:28.000Z",
-      "href": "https://www.bilibili.com/video/av117252456257237",
-      "cover": "https://i1.hdslb.com/bfs/archive/886461cbfb237eb81200730a7d136cade2b327cd.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1biY767EEg",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "0.55闪回赛季 流放之路2 零成本 开荒 一天到异界 0投入 全是回报 （全职业可玩龙喷）",
-      "summary": "",
-      "author": "辅助娜美她泡我",
-      "publishedAt": "2026-09-11T11:56:26.000Z",
-      "href": "https://www.bilibili.com/video/av117252254863837",
-      "cover": "https://i2.hdslb.com/bfs/archive/371278e3c73ae16d2c106091b2fd81d2e26d6450.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
