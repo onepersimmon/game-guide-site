@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T16:25:42.714Z",
+  "updatedAt": "2026-09-13T20:55:19.445Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14564,14 +14564,6 @@
           }
         },
         {
-          "type": "Executioner Greataxe",
-          "text": "INCOMPLETE Executioner Greataxe",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
           "type": "Skinning Knife",
           "text": "INCOMPLETE Skinning Knife",
           "name": "INCOMPLETE",
@@ -14582,6 +14574,14 @@
         {
           "type": "Broadsword",
           "text": "INCOMPLETE Broadsword",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Executioner Greataxe",
+          "text": "INCOMPLETE Executioner Greataxe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
