@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T12:04:35.482Z",
+  "updatedAt": "2026-09-13T16:28:55.840Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,71 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1X7Ye6eEp1",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "小结巴语音包全新上线，专属适配，一键替换，刷图再也不枯燥，剑心过滤， 流放之路2 ， 流放 降临，闪回赛季，周年庆巅峰赛季",
+      "summary": "剑心官网 www.jxpoe.cn",
+      "author": "剑影流心",
+      "publishedAt": "2026-09-13T11:00:00.000Z",
+      "href": "https://www.bilibili.com/video/av117263092945271",
+      "cover": "https://i0.hdslb.com/bfs/archive/c2dc2e579690dd7021964c2683c5a6b15198a317.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1U3Yq6KE8z",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "0.5.5新赛季 异界全解析： 开荒 顺序/玩法解锁/大师任务/天赋加点，一条视频讲完/ 天赋加点/万字文档【 流放之路 2 】",
+      "summary": "0.5.5新赛季 异界全解析：开荒顺序/玩法解锁/大师/加点，一条视频讲完/ 天赋加点/万字文档【流放之路 2】 文档点点关注即可私信即可自动回复（之前关注的重新点点也可以收到喔~） 点个关注支持一下啦~ 求关注~求关注~求关注~求关注~求关注~求关注~求关注~求关注~",
+      "author": "酷懒之音",
+      "publishedAt": "2026-09-13T10:51:51.000Z",
+      "href": "https://www.bilibili.com/video/av117263344670255",
+      "cover": "https://i1.hdslb.com/bfs/archive/3f223bd34075c6ae6236ae96ab2cf67e136c7c69.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV153Ye6zE55",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "44444444词缀猿神！探险玩法开抓~就这？这次猿神真的玩累了！ 流放之路2 降临 国服0.55 猿神动物园 开荒 第4天 额外暴击伤害猿神，探险玩法新抓取方法",
+      "summary": "真的累了兄弟们，都说猿神玩起来省事省力，可是前期太糟心了呀！把困难阶段性转移了兄弟们！ 30多小时抓猿神，我说的是游戏时间.... 什么BD能让你玩30多小时，投入几百D，还一直爽不起来？？ 是赛季调整了，还是我纯黑啊！ 几百D，一整套爽刷BD也整出来了吧！ 我只能边骂边玩了~！",
+      "author": "天明MT",
+      "publishedAt": "2026-09-13T10:04:49.000Z",
+      "href": "https://www.bilibili.com/video/av117263160116521",
+      "cover": "https://i2.hdslb.com/bfs/archive/62f7928b263ba4cdef06d278e9cf06528b2c831c.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1CEYv6XEKt",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【POE2】（BD分享）血量荆棘人是对的，又肉又有输出，现在是很初期的版本，还有很多进步空间！",
+      "summary": "-",
+      "author": "BBLC凉茶",
+      "publishedAt": "2026-09-13T08:09:33.000Z",
+      "href": "https://www.bilibili.com/video/av117262690357740",
+      "cover": "https://i2.hdslb.com/bfs/archive/ef8a4d1a2759efe38f97fb51805064f276c88f34.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1CYYa61EcF",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】 猿神 开荒 +冰猿启动版+猿神毕业版+ 开荒 超详细文档。(85级启动版讲解)",
+      "summary": "文档获取：新粉三连+关注即可！ 感谢大家的三连和关注！下期见",
+      "author": "喵神Meow",
+      "publishedAt": "2026-09-13T05:36:40.000Z",
+      "href": "https://www.bilibili.com/video/av117262086313529",
+      "cover": "https://i1.hdslb.com/bfs/archive/17c9b68279ebacf5338bbbad2e0d78c5ff431a8f.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1yMYY6QE1i",
       "platform": "bilibili",
@@ -21,78 +86,7 @@
       "cover": "https://i0.hdslb.com/bfs/archive/dc478cb5003ef40c7fd24b4a09dfe10d5b312fb7.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV14NYY69Evg",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 降临】萌新猿神如何才能无敌？剧情宝宝助你成神！关注获取 开荒 文档！萌新的考研之路（13）",
-      "summary": "国服相比国际服好玩多了！节奏也慢，大家可以放心慢慢体验！ 万三的流放火炬暗黑交流群 1群：755504686 2群：43843429 万字文档，助你登神！主打一个为人民服务！",
-      "author": "萌新玩家万三说",
-      "publishedAt": "2026-09-13T04:03:38.000Z",
-      "href": "https://www.bilibili.com/video/av117261733993101",
-      "cover": "https://i1.hdslb.com/bfs/archive/9d33e7e2035b3f0e1751020d25ea0a6882e00c1a.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV16WYZ6mEoD",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放2 猿神 开荒 暴打火焰巅峰和灰烬仲裁者",
-      "summary": "-",
-      "author": "grj630",
-      "publishedAt": "2026-09-13T01:17:26.000Z",
-      "href": "https://www.bilibili.com/video/av117261079680920",
-      "cover": "https://i2.hdslb.com/bfs/archive/2f8055bdbdc0ee1c4b2283667fc96749f7e5133a.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1nZYd62ExV",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 】古灵旋风轻松全通！新手 开荒 攻略！",
-      "summary": "https://www.youtube.com/watch?v=D-RDkr3KOyU 从开荒到毕业一条龙！全流派打造！皮肤！随时安排！效率直接拉满！",
-      "author": "超新星暗黑四",
-      "publishedAt": "2026-09-12T19:03:06.000Z",
-      "href": "https://www.bilibili.com/video/av117259603282068",
-      "cover": "https://i1.hdslb.com/bfs/archive/11817706bf77ad0637a579ab0e22cfe9dda8bb87.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1NaYo6WE3t",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 】从0到T15的古灵旋风！保姆 开荒 攻略！",
-      "summary": "https://www.youtube.com/watch?v=z8xcrxvD2V0 从开荒到毕业一条龙！全流派打造！皮肤！随时安排！效率直接拉满！",
-      "author": "超新星暗黑四",
-      "publishedAt": "2026-09-12T18:53:44.000Z",
-      "href": "https://www.bilibili.com/video/av117259569727342",
-      "cover": "https://i1.hdslb.com/bfs/archive/cfde7201e704eac29edcf63d4eb177c2450cc680.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1T8Yo6REMf",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 0.5】Steelmage - 硬核模式真的很难！和Zizaran组队独狼 开荒 实录",
-      "summary": "https://www.youtube.com/watch?v=6gNxaUduOAc PoE2 0.5.5 开季：和 Zizaran 一起玩硬核兄弟独狼（HCBROSF） 本期是 PoE2 0.5.5 新赛季开季实况，Steelmage 与 Zizaran 组队挑战硬核兄弟独狼模式，全程硬核开荒，死了就得重来。 直播时间 2026-09-04 支持直播 - https://www.twitch.tv/steelmage 推特 - https://twitter.com/Steelmage",
-      "author": "Sen妖桉",
-      "publishedAt": "2026-09-12T18:42:25.000Z",
-      "href": "https://www.bilibili.com/video/av117259519399718",
-      "cover": "https://i0.hdslb.com/bfs/archive/235ac6cff8546bcbc5794b1668264a9e9510b412.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-09-13T12:04:35.482Z"
-    }
-  ]
+  "errors": []
 }
