@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T13:03:29.313Z",
+  "updatedAt": "2026-09-14T21:56:38.543Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1uoeV6GEst",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 0.5】Zizaran - 和Steelmage双人 开荒 ：练新号练到精神状态堪忧",
+      "summary": "https://www.youtube.com/watch?v=FpHBS7VfK9A Zizaran 和 @Steelmage 一起练新角色，结果画风逐渐失控 看看 Starforge Systems —— 全宇宙最好的整机：https://starforgepc.com/ZizaranSF 看看 Displate：https://displate.com/@Zizaran 直播 https://www.twitch.tv/zizaran 社交媒体 https://twitter.com/Z",
+      "author": "Sen妖桉",
+      "publishedAt": "2026-09-14T16:01:26.000Z",
+      "href": "https://www.bilibili.com/video/av117270206683684",
+      "cover": "https://i0.hdslb.com/bfs/archive/8249bfc185d9611e9a262a57b7e6ea91b285ea3c.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1vreV6HEwi",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】战士最舒服的 开荒 姿势，攻速范围直接拉满，攻略明天",
+      "summary": "明天出讲解",
+      "author": "普通话很biu准的树懒",
+      "publishedAt": "2026-09-14T15:51:14.000Z",
+      "href": "https://www.bilibili.com/video/av117270172995292",
+      "cover": "https://i0.hdslb.com/bfs/archive/034c8d7c2464159343d0d90be837e779bb995cc2.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV16wY165EaM",
       "platform": "bilibili",
@@ -58,32 +84,6 @@
       "publishedAt": "2026-09-13T11:00:00.000Z",
       "href": "https://www.bilibili.com/video/av117263092945271",
       "cover": "https://i0.hdslb.com/bfs/archive/c2dc2e579690dd7021964c2683c5a6b15198a317.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1U3Yq6KE8z",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "0.5.5新赛季 异界全解析： 开荒 顺序/玩法解锁/大师任务/天赋加点，一条视频讲完/ 天赋加点/万字文档【 流放之路 2 】",
-      "summary": "0.5.5新赛季 异界全解析：开荒顺序/玩法解锁/大师/加点，一条视频讲完/ 天赋加点/万字文档【流放之路 2】 文档点点关注即可私信即可自动回复（之前关注的重新点点也可以收到喔~） 点个关注支持一下啦~ 求关注~求关注~求关注~求关注~求关注~求关注~求关注~求关注~",
-      "author": "酷懒之音",
-      "publishedAt": "2026-09-13T10:51:51.000Z",
-      "href": "https://www.bilibili.com/video/av117263344670255",
-      "cover": "https://i1.hdslb.com/bfs/archive/3f223bd34075c6ae6236ae96ab2cf67e136c7c69.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV153Ye6zE55",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "44444444词缀猿神！探险玩法开抓~就这？这次猿神真的玩累了！ 流放之路2 降临 国服0.55 猿神动物园 开荒 第4天 额外暴击伤害猿神，探险玩法新抓取方法",
-      "summary": "真的累了兄弟们，都说猿神玩起来省事省力，可是前期太糟心了呀！把困难阶段性转移了兄弟们！ 30多小时抓猿神，我说的是游戏时间.... 什么BD能让你玩30多小时，投入几百D，还一直爽不起来？？ 是赛季调整了，还是我纯黑啊！ 几百D，一整套爽刷BD也整出来了吧！ 我只能边骂边玩了~！",
-      "author": "天明MT",
-      "publishedAt": "2026-09-13T10:04:49.000Z",
-      "href": "https://www.bilibili.com/video/av117263160116521",
-      "cover": "https://i2.hdslb.com/bfs/archive/62f7928b263ba4cdef06d278e9cf06528b2c831c.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
