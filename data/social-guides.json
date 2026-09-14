@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T05:07:35.664Z",
+  "updatedAt": "2026-09-14T13:03:29.313Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,45 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV16wY165EaM",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 新手剧情、异界从0到1思路讲解",
+      "summary": "更多的是思路和鼓励，只要按着这个思路走，剧情和异界都能美美推进，最终成为流放大佬！！！",
+      "author": "多元天国的问候",
+      "publishedAt": "2026-09-14T11:43:05.000Z",
+      "href": "https://www.bilibili.com/video/av117269199853057",
+      "cover": "https://i2.hdslb.com/bfs/archive/a198e598448fd6d78db4a1c9f2da79c9d5e41c34.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1rYYr6qEUq",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 ：拒绝猴戏2.0，血法异界一键 开荒 之余烬齐射",
+      "summary": "0.55-血法电球、余烬齐射一键BD https://docs.qq.com/doc/DY1BWWE9LT1Z4QUFV",
+      "author": "闪闪Aur",
+      "publishedAt": "2026-09-14T02:02:30.000Z",
+      "href": "https://www.bilibili.com/video/av117266918215761",
+      "cover": "https://i0.hdslb.com/bfs/archive/1e1429715a963ee7c87812e04dc3e4709ac3e780.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1MXYq6METE",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 】0.55闪回竞猜全中，门徒冰沙 开荒 ，不需要维金供能，又肉又便宜！",
+      "summary": "门徒文档：https://docs.qq.com/doc/DU0dLd2tKUXduVE1T 准备弄个黑武僧召唤玩玩！顺便做一个行者开荒攻略！",
+      "author": "POE牙医召唤",
+      "publishedAt": "2026-09-13T18:05:38.000Z",
+      "href": "https://www.bilibili.com/video/av117265039104227",
+      "cover": "https://i1.hdslb.com/bfs/archive/50f1bfce71ea670a3f789803a753b946438dcad3.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1X7Ye6eEp1",
       "platform": "bilibili",
@@ -47,52 +86,7 @@
       "cover": "https://i2.hdslb.com/bfs/archive/62f7928b263ba4cdef06d278e9cf06528b2c831c.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1CEYv6XEKt",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【POE2】（BD分享）血量荆棘人是对的，又肉又有输出，现在是很初期的版本，还有很多进步空间！",
-      "summary": "-",
-      "author": "BBLC凉茶",
-      "publishedAt": "2026-09-13T08:09:33.000Z",
-      "href": "https://www.bilibili.com/video/av117262690357740",
-      "cover": "https://i2.hdslb.com/bfs/archive/ef8a4d1a2759efe38f97fb51805064f276c88f34.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1CYYa61EcF",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】 猿神 开荒 +冰猿启动版+猿神毕业版+ 开荒 超详细文档。(85级启动版讲解)",
-      "summary": "文档获取：新粉三连+关注即可！ 感谢大家的三连和关注！下期见",
-      "author": "喵神Meow",
-      "publishedAt": "2026-09-13T05:36:40.000Z",
-      "href": "https://www.bilibili.com/video/av117262086313529",
-      "cover": "https://i1.hdslb.com/bfs/archive/17c9b68279ebacf5338bbbad2e0d78c5ff431a8f.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1yMYY6QE1i",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放2 /0.55闪回赛季/魔巫门徒异界60-90级BD详解/ 开荒 技巧萌新必看！",
-      "summary": "大家还有哪里不懂都可以评论区互相交流！ 如果视频对你有帮助！帮忙点点关注一键三连！感谢支持！",
-      "author": "主播街客",
-      "publishedAt": "2026-09-13T04:13:13.000Z",
-      "href": "https://www.bilibili.com/video/av117261767607852",
-      "cover": "https://i0.hdslb.com/bfs/archive/dc478cb5003ef40c7fd24b4a09dfe10d5b312fb7.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-09-14T05:07:35.664Z"
-    }
-  ]
+  "errors": []
 }
