@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-09-13T20:59:20.465Z",
+  "updatedAt": "2026-09-14T05:07:33.384Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "fan-art-competition-runners-up",
+      "title": "Fan Art Competition Runners-Up",
+      "date": "2026-09-14T00:18:27+00:00",
+      "summary": "Last week, we announced the winners of our Fan Art Competition. Today, we'd like to announce and highlight the runners-up. Check them out in this news post!",
+      "href": "https://www.pathofexile.com/forum/view-thread/4005269",
+      "thumb": "https://web.poecdn.com/public/news/2026-09-14/FanArtCompetition2026RunnersUpTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Fan Art Competition Runners-Up",
+          "summary": "Last week, we announced the winners of our Fan Art Competition. Today, we'd like to announce and highlight the runners-up. Check them out in this news post!",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Fan Art Competition Runners-Up",
+          "summary": "Last week, we announced the winners of our Fan Art Competition. Today, we'd like to announce and highlight the runners-up. Check them out in this news post!",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "introducing-the-spirit-warden-seer-of-the-maji-microtransactions",
       "title": "Introducing the Spirit Warden & Seer of the Maji Microtransactions",
@@ -44,27 +65,6 @@
         "en": {
           "title": "Fan Art Competition Winners",
           "summary": "Our recent Fan Art Competition has come to a close! Check out some of the fantastic submissions themed around Path of Exile 1 and Path of Exile 2 new expansions, as well as the winners, in this news post!",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "thank-you-gamescom-cologne-2026-recap",
-      "title": "Thank You! Gamescom Cologne 2026 Recap",
-      "date": "2026-09-06T22:01:32+00:00",
-      "summary": "We’re so thankful for your support at gamescom Cologne 2026! Check out some of the highlights in this news post.",
-      "href": "https://www.pathofexile.com/forum/view-thread/4002197",
-      "thumb": "https://web.poecdn.com/public/news/2026-09-07/Gamescom2026RecapTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Thank You! Gamescom Cologne 2026 Recap",
-          "summary": "We’re so thankful for your support at gamescom Cologne 2026! Check out some of the highlights in this news post.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Thank You! Gamescom Cologne 2026 Recap",
-          "summary": "We’re so thankful for your support at gamescom Cologne 2026! Check out some of the highlights in this news post.",
           "category": "Blue Post"
         }
       }
