@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T05:04:11.583Z",
+  "updatedAt": "2026-09-15T11:55:08.920Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1nneE63Eab",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "我在 流放 玩只狼之泰坦魂系BD详解，给我玩到真 流放之路2 了， 流放之路 降临0.55战士 开荒 到终局",
+      "summary": "女猎手亚马逊版：BV1M6bL6AEvA 0.5版女猎开荒：BV1UCVa6gE2i 欢迎加入游戏交流群①群910937429 ，②群951295788，③群新开320949072 入群暗号：流放2 --------------- BGM:来自 Gabocarina96的Luxurious Overture - Bloodstained: Ritual of the Night (Rock/Metal) Guitar Cover Youtube:(35) Luxurious Overture - Blo",
+      "author": "James_晓锋",
+      "publishedAt": "2026-09-15T07:01:20.000Z",
+      "href": "https://www.bilibili.com/video/av117273763323185",
+      "cover": "https://i1.hdslb.com/bfs/archive/3a7bc6db9356a9d1a636e4b291d89eb2d6a04c2b.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1uoeV6GEst",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-09-13T18:05:38.000Z",
       "href": "https://www.bilibili.com/video/av117265039104227",
       "cover": "https://i1.hdslb.com/bfs/archive/50f1bfce71ea670a3f789803a753b946438dcad3.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1X7Ye6eEp1",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "小结巴语音包全新上线，专属适配，一键替换，刷图再也不枯燥，剑心过滤， 流放之路2 ， 流放 降临，闪回赛季，周年庆巅峰赛季",
-      "summary": "剑心官网 www.jxpoe.cn",
-      "author": "剑影流心",
-      "publishedAt": "2026-09-13T11:00:00.000Z",
-      "href": "https://www.bilibili.com/video/av117263092945271",
-      "cover": "https://i0.hdslb.com/bfs/archive/c2dc2e579690dd7021964c2683c5a6b15198a317.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
