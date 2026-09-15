@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T21:53:25.796Z",
+  "updatedAt": "2026-09-15T05:00:59.215Z",
   "source": "poe.ninja",
   "leagueName": "Runes of Aldur",
   "builds": [
@@ -8,7 +8,7 @@
       "className": "Spirit Walker",
       "leagueName": "Runes of Aldur",
       "summary": "灵魂行者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 29.5,
+      "popularity": 29.8,
       "trend": 1,
       "rank": 1,
       "image": "./assets/images/builds/spirit-walker.webp",
@@ -44,7 +44,7 @@
       "className": "Martial Artist",
       "leagueName": "Runes of Aldur",
       "summary": "武圣 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 19.5,
+      "popularity": 19.4,
       "trend": -1,
       "rank": 2,
       "image": "./assets/images/builds/martial-artist.webp",
@@ -188,7 +188,7 @@
       "className": "Disciple of Varashta",
       "leagueName": "Runes of Aldur",
       "summary": "瓦拉煞的门徒 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 4.8,
+      "popularity": 4.9,
       "trend": 1,
       "rank": 6,
       "image": "./assets/images/builds/disciple-of-varashta.webp",
@@ -225,12 +225,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "神谕者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 4.2,
-      "trend": 1,
+      "trend": -1,
       "rank": 7,
       "image": "./assets/images/builds/oracle.webp",
       "tags": [
         "热门职业",
-        "热度上升"
+        "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Oracle",
       "localized": {
@@ -240,7 +240,7 @@
           "summary": "神谕者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
@@ -249,7 +249,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Rising"
+            "Falling"
           ]
         }
       },
@@ -261,12 +261,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "泰坦 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 2.6,
-      "trend": 1,
+      "trend": -1,
       "rank": 8,
       "image": "./assets/images/builds/titan.webp",
       "tags": [
         "热门职业",
-        "热度上升"
+        "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Titan",
       "localized": {
@@ -276,7 +276,7 @@
           "summary": "泰坦 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
@@ -285,7 +285,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Rising"
+            "Falling"
           ]
         }
       },
@@ -328,36 +328,36 @@
       "displayOrder": 9
     },
     {
-      "id": "runesofaldur-blood-mage",
-      "className": "Blood Mage",
+      "id": "runesofaldur-lich",
+      "className": "Lich",
       "leagueName": "Runes of Aldur",
-      "summary": "命源法师 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+      "summary": "巫妖 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 2.1,
-      "trend": -1,
+      "trend": 1,
       "rank": 10,
-      "image": "./assets/images/builds/blood-mage.webp",
+      "image": "./assets/images/builds/lich.webp",
       "tags": [
         "热门职业",
-        "热度回落"
+        "热度上升"
       ],
-      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Blood%20Mage",
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Lich",
       "localized": {
         "zh": {
-          "className": "命源法师",
+          "className": "巫妖",
           "leagueName": "Runes of Aldur",
-          "summary": "命源法师 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
+          "summary": "巫妖 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度回落"
+            "热度上升"
           ]
         },
         "en": {
-          "className": "Blood Mage",
+          "className": "Lich",
           "leagueName": "Runes of Aldur",
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Falling"
+            "Rising"
           ]
         }
       },
@@ -472,6 +472,42 @@
       "displayOrder": 13
     },
     {
+      "id": "runesofaldur-blood-mage",
+      "className": "Blood Mage",
+      "leagueName": "Runes of Aldur",
+      "summary": "命源法师 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
+      "popularity": null,
+      "trend": 0,
+      "rank": null,
+      "image": "./assets/images/builds/blood-mage.webp",
+      "tags": [
+        "忍者网筛选项",
+        "热度持平"
+      ],
+      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Blood%20Mage",
+      "localized": {
+        "zh": {
+          "className": "命源法师",
+          "leagueName": "Runes of Aldur",
+          "summary": "命源法师 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
+          "tags": [
+            "忍者网筛选项",
+            "热度持平"
+          ]
+        },
+        "en": {
+          "className": "Blood Mage",
+          "leagueName": "Runes of Aldur",
+          "summary": "命源法师 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
+          "tags": [
+            "poe.ninja filter",
+            "Stable"
+          ]
+        }
+      },
+      "displayOrder": 14
+    },
+    {
       "id": "runesofaldur-chronomancer",
       "className": "Chronomancer",
       "leagueName": "Runes of Aldur",
@@ -505,7 +541,7 @@
           ]
         }
       },
-      "displayOrder": 14
+      "displayOrder": 15
     },
     {
       "id": "runesofaldur-invoker",
@@ -535,42 +571,6 @@
           "className": "Invoker",
           "leagueName": "Runes of Aldur",
           "summary": "祈求者 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
-          "tags": [
-            "poe.ninja filter",
-            "Stable"
-          ]
-        }
-      },
-      "displayOrder": 15
-    },
-    {
-      "id": "runesofaldur-lich",
-      "className": "Lich",
-      "leagueName": "Runes of Aldur",
-      "summary": "巫妖 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
-      "popularity": null,
-      "trend": 0,
-      "rank": null,
-      "image": "./assets/images/builds/lich.webp",
-      "tags": [
-        "忍者网筛选项",
-        "热度持平"
-      ],
-      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Lich",
-      "localized": {
-        "zh": {
-          "className": "巫妖",
-          "leagueName": "Runes of Aldur",
-          "summary": "巫妖 是 poe.ninja 可筛选职业，目前未进入 Runes of Aldur 占比前 10，适合点进忍者网继续看具体角色。",
-          "tags": [
-            "忍者网筛选项",
-            "热度持平"
-          ]
-        },
-        "en": {
-          "className": "Lich",
-          "leagueName": "Runes of Aldur",
-          "summary": "巫妖 is available in poe.ninja filters but is outside the top 10 share snapshot for Runes of Aldur.",
           "tags": [
             "poe.ninja filter",
             "Stable"
