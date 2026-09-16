@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T11:49:03.685Z",
+  "updatedAt": "2026-09-16T17:10:45.342Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1ueec6BEPP",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 】泰坦不想玩盾墙 开荒 ？来试试撒播血祸吧",
+      "summary": "这bd我看了@哎哎IUV 的，但是体验下来只适合作为前期bd使用。往后提升只能低血coc的话，其实玩这个bd的意义不大了。 然后我还研究了多发增伤的体系，感觉有点猴戏的同时影响手感。",
+      "author": "蜉蝣洛",
+      "publishedAt": "2026-09-16T11:31:41.000Z",
+      "href": "https://www.bilibili.com/video/av117280474141107",
+      "cover": "https://i1.hdslb.com/bfs/archive/e2b95149dfcc4b3a575ff2613e590dbb1af2b98e.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV188ec63E9P",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "耳膜沦陷，魔性语音根本停不下来，哈基米曼波语音循环，剑心过滤， 流放之路2 ， 流放 降临，闪回赛季，周年庆巅峰赛季",
+      "summary": "剑心官网 www.jxpoe.cn",
+      "author": "剑影流心",
+      "publishedAt": "2026-09-16T11:00:00.000Z",
+      "href": "https://www.bilibili.com/video/av117280256106003",
+      "cover": "https://i1.hdslb.com/bfs/archive/0b9136f64624c39a4852915c098cef968810620c.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1mQen6oEeq",
       "platform": "bilibili",
@@ -60,39 +86,7 @@
       "cover": "https://i0.hdslb.com/bfs/archive/034c8d7c2464159343d0d90be837e779bb995cc2.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1cge56aEvL",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "01- POE2 烈焰爆破｜1~52 级剧情 开荒 ，转型前必看",
-      "summary": "",
-      "author": "搬得道",
-      "publishedAt": "2026-09-14T14:09:22.000Z",
-      "href": "https://www.bilibili.com/video/av117269787051524",
-      "cover": "https://i1.hdslb.com/bfs/archive/54de0c2e101835c003dd0981b2eee2de83e3e7ee.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV16wY165EaM",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 新手剧情、异界从0到1思路讲解",
-      "summary": "更多的是思路和鼓励，只要按着这个思路走，剧情和异界都能美美推进，最终成为流放大佬！！！",
-      "author": "多元天国的问候",
-      "publishedAt": "2026-09-14T11:43:05.000Z",
-      "href": "https://www.bilibili.com/video/av117269199853057",
-      "cover": "https://i2.hdslb.com/bfs/archive/a198e598448fd6d78db4a1c9f2da79c9d5e41c34.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-09-16T11:49:03.684Z"
-    }
-  ]
+  "errors": []
 }
