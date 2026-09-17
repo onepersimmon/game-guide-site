@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T21:27:02.449Z",
+  "updatedAt": "2026-09-17T05:03:31.391Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1vXeM6BE4i",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】MAGEFIST 闪打哥从零 开荒 仪式行者能力堆叠 P1",
+      "summary": "MAGEFIST 本期回归《流放之路2》0.5.5赛季，尝试仪式行者能力堆叠BD，从零开荒到异界终局。利用多戒指槽和额外加成，配合智行之手、囚神杵等核心传奇，实现巨额攻速与伤害。实测证明即使预算有限，该BD仍具后期潜力，并分享装备选择与地图天赋心得。",
+      "author": "棱镜poe2lens",
+      "publishedAt": "2026-09-17T02:41:54.000Z",
+      "href": "https://www.bilibili.com/video/av117284064461148",
+      "cover": "https://i0.hdslb.com/bfs/archive/416b86cb4c0b0d9b0a76ac689ffa67e929536421.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1ueec6BEPP",
       "platform": "bilibili",
@@ -73,26 +86,7 @@
       "cover": "https://i0.hdslb.com/bfs/archive/8249bfc185d9611e9a262a57b7e6ea91b285ea3c.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1vreV6HEwi",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】战士最舒服的 开荒 姿势，攻速范围直接拉满，攻略明天",
-      "summary": "明天出讲解",
-      "author": "普通话很biu准的树懒",
-      "publishedAt": "2026-09-14T15:51:14.000Z",
-      "href": "https://www.bilibili.com/video/av117270172995292",
-      "cover": "https://i0.hdslb.com/bfs/archive/034c8d7c2464159343d0d90be837e779bb995cc2.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-09-16T21:27:02.449Z"
-    }
-  ]
+  "errors": []
 }
