@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T17:13:13.211Z",
+  "updatedAt": "2026-09-17T21:32:57.387Z",
   "locale": "tw",
   "source": [
     "https://poe2db.tw/tw/Skill_Gems",
@@ -116849,27 +116849,6 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (68 — 79) % 能量護盾 無畏的 DefencesPercent 前綴 (1) 物品 (1) 需求等級 54 local energy shield +% 68 — 79 區域"
-    },
-    {
-      "type": "modifier",
-      "hash": "745badd195b8dc13e89414a5ad5db5ba4a54a856e4853b0dacbee312879ed001",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/745badd195b8dc13e89414a5ad5db5ba4a54a856e4853b0dacbee312879ed001",
-      "title": "增加 (80 — 91) % 能量護盾",
-      "name": "無法征服的",
-      "family": "DefencesPercent",
-      "domains": "物品 (1)",
-      "generationType": "前綴 (1)",
-      "reqLevel": 60,
-      "stats": [
-        {
-          "text": "local energy shield +% 80 — 91 區域",
-          "min": null,
-          "max": null,
-          "scope": ""
-        }
-      ],
-      "itemClasses": [],
-      "searchText": "增加 (80 — 91) % 能量護盾 無法征服的 DefencesPercent 前綴 (1) 物品 (1) 需求等級 60 local energy shield +% 80 — 91 區域"
     },
     {
       "type": "modifier",
