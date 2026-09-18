@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-09-17T21:33:05.092Z",
+  "updatedAt": "2026-09-18T04:56:28.499Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "introducing-the-way-of-the-stonefist-bundle-and-other-new-effects",
+      "title": "Introducing The Way of the Stonefist Bundle and Other New Effects",
+      "date": "2026-09-17T23:50:46+00:00",
+      "summary": "More cosmetic options have arrived in Path of Exile 2! If you’re interested in shapeshifting or showcasing cool effects, these releases might just be up your alley! Check them out in this news post!",
+      "href": "https://www.pathofexile.com/forum/view-thread/4006380",
+      "thumb": "https://web.poecdn.com/public/news/2026-09-18/StonefistBannersTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Introducing The Way of the Stonefist Bundle and Other New Effects",
+          "summary": "More cosmetic options have arrived in Path of Exile 2! If you’re interested in shapeshifting or showcasing cool effects, these releases might just be up your alley! Check them out in this news post!",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Introducing The Way of the Stonefist Bundle and Other New Effects",
+          "summary": "More cosmetic options have arrived in Path of Exile 2! If you’re interested in shapeshifting or showcasing cool effects, these releases might just be up your alley! Check them out in this news post!",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "fan-art-competition-runners-up",
       "title": "Fan Art Competition Runners-Up",
@@ -44,27 +65,6 @@
         "en": {
           "title": "Introducing the Spirit Warden & Seer of the Maji Microtransactions",
           "summary": "Become one with the Spirit or channel ancient rites with new cosmetic bundles that are available in-store now! Check them out in this news post.",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "fan-art-competition-winners",
-      "title": "Fan Art Competition Winners",
-      "date": "2026-09-08T21:44:21+00:00",
-      "summary": "Our recent Fan Art Competition has come to a close! Check out some of the fantastic submissions themed around Path of Exile 1 and Path of Exile 2 new expansions, as well as the winners, in this news post!",
-      "href": "https://www.pathofexile.com/forum/view-thread/4003191",
-      "thumb": "https://web.poecdn.com/public/news/2026-09-09/FanArtCompetition2026WinnersTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Fan Art Competition Winners",
-          "summary": "Our recent Fan Art Competition has come to a close! Check out some of the fantastic submissions themed around Path of Exile 1 and Path of Exile 2 new expansions, as well as the winners, in this news post!",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Fan Art Competition Winners",
-          "summary": "Our recent Fan Art Competition has come to a close! Check out some of the fantastic submissions themed around Path of Exile 1 and Path of Exile 2 new expansions, as well as the winners, in this news post!",
           "category": "Blue Post"
         }
       }

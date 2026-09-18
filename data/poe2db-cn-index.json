@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T21:32:57.387Z",
+  "updatedAt": "2026-09-18T04:56:25.177Z",
   "locale": "tw",
   "source": [
     "https://poe2db.tw/tw/Skill_Gems",
@@ -94868,219 +94868,12 @@
     },
     {
       "type": "item_base",
-      "slug": "Fragment_of_the_Hydra",
-      "page": "Map_Fragments",
-      "english": "Fragment of the Hydra",
-      "chinese": "九頭蛇斷片",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Maps/AtlasMaps/FragmentHydra.webp",
-      "poe2db": "https://poe2db.tw/tw/Fragment_of_the_Hydra"
-    },
-    {
-      "type": "item_base",
-      "slug": "Offering_to_the_Goddess",
-      "page": "Map_Fragments",
-      "english": "Offering to the Goddess",
-      "chinese": "女神祭品",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Maps/Labyrinth.webp",
-      "poe2db": "https://poe2db.tw/tw/Offering_to_the_Goddess"
-    },
-    {
-      "type": "item_base",
-      "slug": "Tribute_to_the_Goddess",
-      "page": "Map_Fragments",
-      "english": "Tribute to the Goddess",
-      "chinese": "女神獻禮",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Maps/LabyrinthHarvest.webp",
-      "poe2db": "https://poe2db.tw/tw/Tribute_to_the_Goddess"
-    },
-    {
-      "type": "item_base",
-      "slug": "Gift_to_the_Goddess",
-      "page": "Map_Fragments",
-      "english": "Gift to the Goddess",
-      "chinese": "女神之贈",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Maps/LabyrinthHarvestInfused1.webp",
-      "poe2db": "https://poe2db.tw/tw/Gift_to_the_Goddess"
-    },
-    {
-      "type": "item_base",
-      "slug": "Dedication_to_the_Goddess",
-      "page": "Map_Fragments",
-      "english": "Dedication to the Goddess",
-      "chinese": "女神奉獻",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Maps/LabyrinthHarvestInfused2.webp",
-      "poe2db": "https://poe2db.tw/tw/Dedication_to_the_Goddess"
-    },
-    {
-      "type": "item_base",
       "slug": "An_Audience_with_the_King",
       "page": "Map_Fragments",
       "english": "An Audience with the King",
       "chinese": "覲見國王",
       "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Ritual/VoodooKingEffigy.webp",
       "poe2db": "https://poe2db.tw/tw/An_Audience_with_the_King"
-    },
-    {
-      "type": "item_base",
-      "slug": "Gilded_Expedition_Scarab",
-      "page": "Map_Fragments",
-      "english": "Gilded Expedition Scarab",
-      "chinese": "聖甲蟲：鍍金探險",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/GreaterScarabExpedition.webp",
-      "poe2db": "https://poe2db.tw/tw/Gilded_Expedition_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Winged_Expedition_Scarab",
-      "page": "Map_Fragments",
-      "english": "Winged Expedition Scarab",
-      "chinese": "聖甲蟲：展翅探險",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/Tier4ScarabExpedition.webp",
-      "poe2db": "https://poe2db.tw/tw/Winged_Expedition_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Rusted_Legion_Scarab",
-      "page": "Map_Fragments",
-      "english": "Rusted Legion Scarab",
-      "chinese": "聖甲蟲：鏽蝕戰亂",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/LesserScarabLegion.webp",
-      "poe2db": "https://poe2db.tw/tw/Rusted_Legion_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Polished_Legion_Scarab",
-      "page": "Map_Fragments",
-      "english": "Polished Legion Scarab",
-      "chinese": "聖甲蟲：圓滑戰亂",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/NormalScarabLegion.webp",
-      "poe2db": "https://poe2db.tw/tw/Polished_Legion_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Gilded_Legion_Scarab",
-      "page": "Map_Fragments",
-      "english": "Gilded Legion Scarab",
-      "chinese": "聖甲蟲：鍍金戰亂",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/GreaterScarabLegion.webp",
-      "poe2db": "https://poe2db.tw/tw/Gilded_Legion_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Winged_Legion_Scarab",
-      "page": "Map_Fragments",
-      "english": "Winged Legion Scarab",
-      "chinese": "聖甲蟲：展翅戰亂",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/Tier4ScarabLegion.webp",
-      "poe2db": "https://poe2db.tw/tw/Winged_Legion_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Rusted_Metamorph_Scarab",
-      "page": "Map_Fragments",
-      "english": "Rusted Metamorph Scarab",
-      "chinese": "聖甲蟲：鏽蝕鍊魔",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/LesserScarabMetamorph.webp",
-      "poe2db": "https://poe2db.tw/tw/Rusted_Metamorph_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Polished_Metamorph_Scarab",
-      "page": "Map_Fragments",
-      "english": "Polished Metamorph Scarab",
-      "chinese": "聖甲蟲：圓滑鍊魔",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/NormalScarabMetamorph.webp",
-      "poe2db": "https://poe2db.tw/tw/Polished_Metamorph_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Gilded_Metamorph_Scarab",
-      "page": "Map_Fragments",
-      "english": "Gilded Metamorph Scarab",
-      "chinese": "聖甲蟲：鍍金鍊魔",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/GreaterScarabMetamorph.webp",
-      "poe2db": "https://poe2db.tw/tw/Gilded_Metamorph_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Winged_Metamorph_Scarab",
-      "page": "Map_Fragments",
-      "english": "Winged Metamorph Scarab",
-      "chinese": "聖甲蟲：展翅鍊魔",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/Tier4ScarabMetamorph.webp",
-      "poe2db": "https://poe2db.tw/tw/Winged_Metamorph_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Rusted_Blight_Scarab",
-      "page": "Map_Fragments",
-      "english": "Rusted Blight Scarab",
-      "chinese": "聖甲蟲：鏽蝕凋落",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/LesserScarabBlight.webp",
-      "poe2db": "https://poe2db.tw/tw/Rusted_Blight_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Polished_Blight_Scarab",
-      "page": "Map_Fragments",
-      "english": "Polished Blight Scarab",
-      "chinese": "聖甲蟲：圓滑凋落",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/NormalScarabBlight.webp",
-      "poe2db": "https://poe2db.tw/tw/Polished_Blight_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Gilded_Blight_Scarab",
-      "page": "Map_Fragments",
-      "english": "Gilded Blight Scarab",
-      "chinese": "聖甲蟲：鍍金凋落",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/GreaterScarabBlight.webp",
-      "poe2db": "https://poe2db.tw/tw/Gilded_Blight_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Winged_Blight_Scarab",
-      "page": "Map_Fragments",
-      "english": "Winged Blight Scarab",
-      "chinese": "聖甲蟲：展翅凋落",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/Tier4ScarabBlight.webp",
-      "poe2db": "https://poe2db.tw/tw/Winged_Blight_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Rusted_Abyss_Scarab",
-      "page": "Map_Fragments",
-      "english": "Rusted Abyss Scarab",
-      "chinese": "聖甲蟲：鏽蝕深淵",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/LesserScarabAbyss.webp",
-      "poe2db": "https://poe2db.tw/tw/Rusted_Abyss_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Polished_Abyss_Scarab",
-      "page": "Map_Fragments",
-      "english": "Polished Abyss Scarab",
-      "chinese": "聖甲蟲：圓滑深淵",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/NormalScarabAbyss.webp",
-      "poe2db": "https://poe2db.tw/tw/Polished_Abyss_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Gilded_Abyss_Scarab",
-      "page": "Map_Fragments",
-      "english": "Gilded Abyss Scarab",
-      "chinese": "聖甲蟲：鍍金深淵",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/GreaterScarabAbyss.webp",
-      "poe2db": "https://poe2db.tw/tw/Gilded_Abyss_Scarab"
-    },
-    {
-      "type": "item_base",
-      "slug": "Winged_Abyss_Scarab",
-      "page": "Map_Fragments",
-      "english": "Winged Abyss Scarab",
-      "chinese": "聖甲蟲：展翅深淵",
-      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Scarabs/Tier4ScarabAbyss.webp",
-      "poe2db": "https://poe2db.tw/tw/Winged_Abyss_Scarab"
     },
     {
       "type": "item_base",
@@ -116849,6 +116642,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (68 — 79) % 能量護盾 無畏的 DefencesPercent 前綴 (1) 物品 (1) 需求等級 54 local energy shield +% 68 — 79 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "745badd195b8dc13e89414a5ad5db5ba4a54a856e4853b0dacbee312879ed001",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/745badd195b8dc13e89414a5ad5db5ba4a54a856e4853b0dacbee312879ed001",
+      "title": "增加 (80 — 91) % 能量護盾",
+      "name": "無法征服的",
+      "family": "DefencesPercent",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 60,
+      "stats": [
+        {
+          "text": "local energy shield +% 80 — 91 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (80 — 91) % 能量護盾 無法征服的 DefencesPercent 前綴 (1) 物品 (1) 需求等級 60 local energy shield +% 80 — 91 區域"
     },
     {
       "type": "modifier",
