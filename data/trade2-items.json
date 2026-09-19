@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T11:08:53.769Z",
+  "updatedAt": "2026-09-19T15:56:28.191Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14540,14 +14540,6 @@
           }
         },
         {
-          "type": "Bearded Axe",
-          "text": "INCOMPLETE Bearded Axe",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
           "type": "Simple Dagger",
           "text": "INCOMPLETE Simple Dagger",
           "name": "INCOMPLETE",
@@ -14558,6 +14550,14 @@
         {
           "type": "Splintered Flail",
           "text": "INCOMPLETE Splintered Flail",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Bearded Axe",
+          "text": "INCOMPLETE Bearded Axe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
