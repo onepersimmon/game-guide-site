@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T11:33:35.943Z",
+  "updatedAt": "2026-09-20T16:13:52.783Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14580,6 +14580,14 @@
           }
         },
         {
+          "type": "Arched Greataxe",
+          "text": "INCOMPLETE Arched Greataxe",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
           "type": "Chain Flail",
           "text": "INCOMPLETE Chain Flail",
           "name": "INCOMPLETE",
@@ -14606,14 +14614,6 @@
         {
           "type": "Broad Greatsword",
           "text": "INCOMPLETE Broad Greatsword",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
-          "type": "Arched Greataxe",
-          "text": "INCOMPLETE Arched Greataxe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true

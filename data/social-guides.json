@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T11:38:05.696Z",
+  "updatedAt": "2026-09-20T16:17:08.259Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,6 +10,19 @@
   },
   "items": [
     {
+      "id": "bilibili-BV1mpeB66EbP",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放2 【泰坦冰枪BD更新】魂系动作流，打击手感爆棚， 流放之路2 降临闪回战士冰川之枪、刺骨寒冰、招架",
+      "summary": "流放之路2闪回赛季BD攻略 泰坦冰枪①：BV1nneE63Eab 女猎手亚马逊版：BV1M6bL6AEvA 0.5版开荒：BV1UCVa6gE2i 欢迎加入游戏交流群①群910937429 ，②群951295788，③群新开320949072 入群暗号：流放2 ------------ 以下为音乐版权信息： BGM：Castlevania - Heart of Fire [COVER] by Nestalgica https://youtu.be/3aIAAOnWagw?si=RbB40y4STffn0",
+      "author": "James_晓锋",
+      "publishedAt": "2026-09-20T15:01:28.000Z",
+      "href": "https://www.bilibili.com/video/av117303945467127",
+      "cover": "https://i2.hdslb.com/bfs/archive/59a6e2ea00250187274fd52cb29afde21cb621c9.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
       "id": "bilibili-BV1WKeq6YE37",
       "platform": "bilibili",
       "platformLabel": "B 站",
@@ -19,19 +32,6 @@
       "publishedAt": "2026-09-20T10:51:43.000Z",
       "href": "https://www.bilibili.com/video/av117302972384432",
       "cover": "https://i1.hdslb.com/bfs/archive/3f1ff58fc65a55a3a33cb6bd8a86e7daa01669aa.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1SJeB6kEK9",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】 猿神 开荒 -猿神毕业版(动物园毕业版低造价讲解)",
-      "summary": "文档获取：按住点赞三连+关注即可！ 感谢大家的三连和关注！下期见",
-      "author": "喵神Meow",
-      "publishedAt": "2026-09-20T07:25:42.000Z",
-      "href": "https://www.bilibili.com/video/av117302167082515",
-      "cover": "https://i0.hdslb.com/bfs/archive/2e66602c9346062d8dcf98578fc5c7c6fd4ef822.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
