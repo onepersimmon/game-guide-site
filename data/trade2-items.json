@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T04:59:43.119Z",
+  "updatedAt": "2026-09-20T11:33:35.943Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14532,14 +14532,6 @@
           }
         },
         {
-          "type": "Chain Flail",
-          "text": "INCOMPLETE Chain Flail",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
           "type": "Simple Dagger",
           "text": "INCOMPLETE Simple Dagger",
           "name": "INCOMPLETE",
@@ -14582,6 +14574,14 @@
         {
           "type": "Broadsword",
           "text": "INCOMPLETE Broadsword",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Chain Flail",
+          "text": "INCOMPLETE Chain Flail",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true

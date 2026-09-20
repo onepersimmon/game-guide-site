@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T05:04:29.997Z",
+  "updatedAt": "2026-09-20T11:38:05.696Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1WKeq6YE37",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】技能时间显示插件分享，纯绿色无作弊v1.1",
+      "summary": "下载链接：https://pan.quark.cn/s/da5e37d57495 任何BUG或者改进方案、希望增加的功能都可以给我留言，我会偶尔更新这个插件",
+      "author": "烩炒稻草人",
+      "publishedAt": "2026-09-20T10:51:43.000Z",
+      "href": "https://www.bilibili.com/video/av117302972384432",
+      "cover": "https://i1.hdslb.com/bfs/archive/3f1ff58fc65a55a3a33cb6bd8a86e7daa01669aa.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1SJeB6kEK9",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】 猿神 开荒 -猿神毕业版(动物园毕业版低造价讲解)",
+      "summary": "文档获取：按住点赞三连+关注即可！ 感谢大家的三连和关注！下期见",
+      "author": "喵神Meow",
+      "publishedAt": "2026-09-20T07:25:42.000Z",
+      "href": "https://www.bilibili.com/video/av117302167082515",
+      "cover": "https://i0.hdslb.com/bfs/archive/2e66602c9346062d8dcf98578fc5c7c6fd4ef822.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1Yaet69EhM",
       "platform": "bilibili",
@@ -58,32 +84,6 @@
       "publishedAt": "2026-09-17T02:41:54.000Z",
       "href": "https://www.bilibili.com/video/av117284064461148",
       "cover": "https://i0.hdslb.com/bfs/archive/416b86cb4c0b0d9b0a76ac689ffa67e929536421.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1ueec6BEPP",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 】泰坦不想玩盾墙 开荒 ？来试试撒播血祸吧",
-      "summary": "这bd我看了@哎哎IUV 的，但是体验下来只适合作为前期bd使用。往后提升只能低血coc的话，其实玩这个bd的意义不大了。 然后我还研究了多发增伤的体系，感觉有点猴戏的同时影响手感。",
-      "author": "蜉蝣洛",
-      "publishedAt": "2026-09-16T11:31:41.000Z",
-      "href": "https://www.bilibili.com/video/av117280474141107",
-      "cover": "https://i1.hdslb.com/bfs/archive/e2b95149dfcc4b3a575ff2613e590dbb1af2b98e.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV188ec63E9P",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "耳膜沦陷，魔性语音根本停不下来，哈基米曼波语音循环，剑心过滤， 流放之路2 ， 流放 降临，闪回赛季，周年庆巅峰赛季",
-      "summary": "剑心官网 www.jxpoe.cn",
-      "author": "剑影流心",
-      "publishedAt": "2026-09-16T11:00:00.000Z",
-      "href": "https://www.bilibili.com/video/av117280256106003",
-      "cover": "https://i1.hdslb.com/bfs/archive/0b9136f64624c39a4852915c098cef968810620c.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
