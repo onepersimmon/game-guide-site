@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T12:58:24.133Z",
+  "updatedAt": "2026-09-21T22:02:07.062Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14548,14 +14548,6 @@
           }
         },
         {
-          "type": "Bearded Axe",
-          "text": "INCOMPLETE Bearded Axe",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
           "type": "Iron Greatsword",
           "text": "INCOMPLETE Iron Greatsword",
           "name": "INCOMPLETE",
@@ -14566,6 +14558,14 @@
         {
           "type": "Skinning Knife",
           "text": "INCOMPLETE Skinning Knife",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Bearded Axe",
+          "text": "INCOMPLETE Bearded Axe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true

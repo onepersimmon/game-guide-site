@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T12:58:23.791Z",
+  "updatedAt": "2026-09-21T22:02:06.475Z",
   "source": "poe.ninja",
   "leagueName": "Runes of Aldur",
   "builds": [
@@ -8,7 +8,7 @@
       "className": "Spirit Walker",
       "leagueName": "Runes of Aldur",
       "summary": "灵魂行者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 30.7,
+      "popularity": 30.8,
       "trend": 1,
       "rank": 1,
       "image": "./assets/images/builds/spirit-walker.webp",
@@ -81,12 +81,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "古灵使徒斗士 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 8.9,
-      "trend": 1,
+      "trend": -1,
       "rank": 3,
       "image": "./assets/images/builds/gemling-legionnaire.webp",
       "tags": [
         "主联赛头部",
-        "热度上升"
+        "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Gemling%20Legionnaire",
       "localized": {
@@ -96,7 +96,7 @@
           "summary": "古灵使徒斗士 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "主联赛头部",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
@@ -105,7 +105,7 @@
           "summary": "A high-share ascendancy in Runes of Aldur, worth watching as the league meta keeps shifting.",
           "tags": [
             "Main league leader",
-            "Rising"
+            "Falling"
           ]
         }
       },
@@ -116,7 +116,7 @@
       "className": "Deadeye",
       "leagueName": "Runes of Aldur",
       "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 5.3,
+      "popularity": 5.2,
       "trend": -1,
       "rank": 4,
       "image": "./assets/images/builds/deadeye.webp",
@@ -333,12 +333,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "巫妖 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 2,
-      "trend": -1,
+      "trend": 1,
       "rank": 10,
       "image": "./assets/images/builds/lich.webp",
       "tags": [
         "热门职业",
-        "热度回落"
+        "热度上升"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Lich",
       "localized": {
@@ -348,7 +348,7 @@
           "summary": "巫妖 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度回落"
+            "热度上升"
           ]
         },
         "en": {
@@ -357,7 +357,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Falling"
+            "Rising"
           ]
         }
       },
