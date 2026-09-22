@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T11:52:54.958Z",
+  "updatedAt": "2026-09-22T17:11:22.726Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1KahH6SEFz",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 降临|神谕图腾|第三期生存改进|更上一层楼",
+      "summary": "PPT文档和个人WEGAME链接关注自动回复！ 友好沟通即可，喷子恶语直接拉黑不废话！",
+      "author": "客不见",
+      "publishedAt": "2026-09-22T14:07:44.000Z",
+      "href": "https://www.bilibili.com/video/av117315068826709",
+      "cover": "https://i2.hdslb.com/bfs/archive/12a61371ed700daecfcdea1471ef58704fafbbfd.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1Qgh767EHR",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 异界 开荒 过渡的抗性戒指制作",
+      "summary": "",
+      "author": "芹菜香干炒肉",
+      "publishedAt": "2026-09-22T06:59:30.000Z",
+      "href": "https://www.bilibili.com/video/av117313374259004",
+      "cover": "https://i0.hdslb.com/bfs/archive/97bd3037b2165d676a76bf3688be268ac4f6b54f.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1mpeB66EbP",
       "platform": "bilibili",
@@ -60,39 +86,7 @@
       "cover": "https://i0.hdslb.com/bfs/archive/1153a43d42c674079b8d0a99b5df2e4cb430e11d.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1pTeU6aEUN",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】【0.5.5】德鲁伊熊德轮椅 开荒 · 苦涩死亡神谕者（上）",
-      "summary": "0.5.5 赛季，p4wnyhof 这套「苦涩死亡神谕者」从 1 级单人自给自足开到终局。这期是第一部分，只到第二章结束。前面全程是另一套打法：熊德。 如果大家觉得有用的话 麻烦点赞、关注一下，反响不错的话我就接着做第二部分，谢谢大家。 文档还在制作中，有需要的，请在评论区留言，等文档制作完后我会一一回复的。",
-      "author": "刷图的默者",
-      "publishedAt": "2026-09-18T10:01:43.000Z",
-      "href": "https://www.bilibili.com/video/av117291446503664",
-      "cover": "https://i1.hdslb.com/bfs/archive/1eddf3d800110781f0b1fd5853121d4a94ab8b1d.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1vXeM6BE4i",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】MAGEFIST 闪打哥从零 开荒 仪式行者能力堆叠 P1",
-      "summary": "MAGEFIST 本期回归《流放之路2》0.5.5赛季，尝试仪式行者能力堆叠BD，从零开荒到异界终局。利用多戒指槽和额外加成，配合智行之手、囚神杵等核心传奇，实现巨额攻速与伤害。实测证明即使预算有限，该BD仍具后期潜力，并分享装备选择与地图天赋心得。",
-      "author": "棱镜poe2lens",
-      "publishedAt": "2026-09-17T02:41:54.000Z",
-      "href": "https://www.bilibili.com/video/av117284064461148",
-      "cover": "https://i0.hdslb.com/bfs/archive/416b86cb4c0b0d9b0a76ac689ffa67e929536421.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-09-22T11:52:54.957Z"
-    }
-  ]
+  "errors": []
 }
