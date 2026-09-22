@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T17:10:57.822Z",
+  "updatedAt": "2026-09-22T21:31:50.598Z",
   "locale": "tw",
   "source": [
     "https://poe2db.tw/tw/Skill_Gems",
@@ -104048,6 +104048,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (11 — 14) %找到的 物品稀有度 掃蕩之 ItemFoundRarityIncrease 後綴 (2) 物品 (1) 需求等級 24 base item found rarity +% 11 — 14 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "e3ce4fe98c7a757f08fb017e5be84285e89ffab539faca35ae0f3aec2ba107d6",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e3ce4fe98c7a757f08fb017e5be84285e89ffab539faca35ae0f3aec2ba107d6",
+      "title": "增加 (15 — 18) %找到的 物品稀有度",
+      "name": "考古之",
+      "family": "ItemFoundRarityIncrease",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 40,
+      "stats": [
+        {
+          "text": "base item found rarity +% 15 — 18 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (15 — 18) %找到的 物品稀有度 考古之 ItemFoundRarityIncrease 後綴 (2) 物品 (1) 需求等級 40 base item found rarity +% 15 — 18 Global"
     },
     {
       "type": "modifier",
