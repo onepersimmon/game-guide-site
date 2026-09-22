@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-09-21T22:06:29.900Z",
+  "updatedAt": "2026-09-22T05:11:18.444Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "path-of-exile-2-full-release-registration-new-reward-unlocked",
+      "title": "Path of Exile 2 Full Release Registration - New Reward Unlocked",
+      "date": "2026-09-21T23:37:22+00:00",
+      "summary": "Sign up for the Path of Exile 2 Full Release registration rewards now! The first milestone has been unlocked, and there are more rewards awaiting you. Check them out in this news post!",
+      "href": "https://www.pathofexile.com/forum/view-thread/4007322",
+      "thumb": "https://web.poecdn.com/public/news/2026-09-22/PoE2RegisterReminderTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Path of Exile 2 Full Release Registration - New Reward Unlocked",
+          "summary": "Sign up for the Path of Exile 2 Full Release registration rewards now! The first milestone has been unlocked, and there are more rewards awaiting you. Check them out in this news post!",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Path of Exile 2 Full Release Registration - New Reward Unlocked",
+          "summary": "Sign up for the Path of Exile 2 Full Release registration rewards now! The first milestone has been unlocked, and there are more rewards awaiting you. Check them out in this news post!",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "introducing-the-way-of-the-stonefist-bundle-and-other-new-effects",
       "title": "Introducing The Way of the Stonefist Bundle and Other New Effects",
@@ -44,27 +65,6 @@
         "en": {
           "title": "Fan Art Competition Runners-Up",
           "summary": "Last week, we announced the winners of our Fan Art Competition. Today, we'd like to announce and highlight the runners-up. Check them out in this news post!",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "introducing-the-spirit-warden-seer-of-the-maji-microtransactions",
-      "title": "Introducing the Spirit Warden & Seer of the Maji Microtransactions",
-      "date": "2026-09-11T03:00:00+00:00",
-      "summary": "Become one with the Spirit or channel ancient rites with new cosmetic bundles that are available in-store now! Check them out in this news post.",
-      "href": "https://www.pathofexile.com/forum/view-thread/4004113",
-      "thumb": "https://web.poecdn.com/public/news/2026-09-11/SpiritWardenTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Introducing the Spirit Warden & Seer of the Maji Microtransactions",
-          "summary": "Become one with the Spirit or channel ancient rites with new cosmetic bundles that are available in-store now! Check them out in this news post.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Introducing the Spirit Warden & Seer of the Maji Microtransactions",
-          "summary": "Become one with the Spirit or channel ancient rites with new cosmetic bundles that are available in-store now! Check them out in this news post.",
           "category": "Blue Post"
         }
       }
