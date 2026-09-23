@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T04:56:39.329Z",
+  "updatedAt": "2026-09-23T11:51:41.641Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -20,6 +20,19 @@
       "href": "https://www.bilibili.com/video/av117315068826709",
       "cover": "https://i2.hdslb.com/bfs/archive/12a61371ed700daecfcdea1471ef58704fafbbfd.jpg",
       "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1fRhj6tEFX",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "三造價企劃！從0開始體驗昇華 武聖空無型態迴旋擊 是CP值之王 還是其實是Bait？ POE2 Path of Exile2 流亡黯道2",
+      "summary": "從0開始體驗昇華 武聖篇 https://docs.google.com/spreadsheets/d/1XmAg8X4aDxX6jXeM1LP2xBV6WIZnJX3XX7g7cMgo4nI/edit?gid=0#gid=0 00:00 開場前言 01:23 正片開始 02:25 空無迴旋擊 03:45 10D造價 11:10 200D造價 12:13 1000D CI版本 13:12 為何換粉碎掌 15:20 CI後的細節調整 17:30 我對武聖整體看法？ 直接搜尋到最佳裝備購買/POB和商人分",
+      "author": "惡魔貓與幾吉點點",
+      "publishedAt": "2026-09-22T08:30:53.000Z",
+      "href": "https://www.bilibili.com/video/av117313743358052",
+      "cover": "https://i0.hdslb.com/bfs/archive/4498f3dabf25a6656d4ceab4d131bda3dccbb6a8.jpg",
+      "query": "POE2 开荒",
       "source": "B 站公开搜索"
     },
     {
@@ -73,26 +86,7 @@
       "cover": "https://i1.hdslb.com/bfs/archive/709338f5f9c62421d9facc5b3c8156da6d28dcc0.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1nYem6REzS",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 闪回|法杖+5等级类武器制作方法|小白都能学会！",
-      "summary": "PPT文档关注自动回复！ 友好沟通即可，喷子恶语直接拉黑不废话！",
-      "author": "客不见",
-      "publishedAt": "2026-09-18T11:17:48.000Z",
-      "href": "https://www.bilibili.com/video/av117291748431039",
-      "cover": "https://i0.hdslb.com/bfs/archive/1153a43d42c674079b8d0a99b5df2e4cb430e11d.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-09-23T04:56:39.328Z"
-    }
-  ]
+  "errors": []
 }
