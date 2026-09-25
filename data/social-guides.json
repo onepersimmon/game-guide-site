@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T12:01:17.340Z",
+  "updatedAt": "2026-09-25T17:22:20.513Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1eshU6uEem",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 降临|泰坦法术自走BD之撒播血祸|自走清图|城寨严父！",
+      "summary": "PPT文档和个人WEGAME链接关注自动回复！ 友好沟通即可，喷子恶语直接拉黑不废话！",
+      "author": "客不见",
+      "publishedAt": "2026-09-25T14:38:26.000Z",
+      "href": "https://www.bilibili.com/video/av117332181586255",
+      "cover": "https://i2.hdslb.com/bfs/archive/ce87b809d709b2f3e8bf37941bca69e950509dfa.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1jeh16iEGu",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】0.55圣手杯88级死于深渊怪复数混沌伤",
+      "summary": "呵呵",
+      "author": "赵振豪plus",
+      "publishedAt": "2026-09-25T13:28:05.000Z",
+      "href": "https://www.bilibili.com/video/av117331896441554",
+      "cover": "https://i1.hdslb.com/bfs/archive/0310dde52100a1cfa5fc672b9334c03d84e983b9.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1xQhp6REEH",
       "platform": "bilibili",
@@ -60,39 +86,7 @@
       "cover": "https://i2.hdslb.com/bfs/archive/59a6e2ea00250187274fd52cb29afde21cb621c9.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1WKeq6YE37",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】技能时间显示插件分享，纯绿色无作弊v1.1",
-      "summary": "下载链接：https://pan.quark.cn/s/da5e37d57495 任何BUG或者改进方案、希望增加的功能都可以给我留言，我会偶尔更新这个插件",
-      "author": "烩炒稻草人",
-      "publishedAt": "2026-09-20T10:51:43.000Z",
-      "href": "https://www.bilibili.com/video/av117302972384432",
-      "cover": "https://i1.hdslb.com/bfs/archive/3f1ff58fc65a55a3a33cb6bd8a86e7daa01669aa.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1Yaet69EhM",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【闪闪课堂】 流放之路2 新手向 开荒 BD介绍——浴火图腾流",
-      "summary": "浴火图腾-国际服版文档 https://docs.qq.com/doc/DY2JDU2xGbnVRdHp6",
-      "author": "闪闪Aur",
-      "publishedAt": "2026-09-19T11:47:46.000Z",
-      "href": "https://www.bilibili.com/video/av117297519795935",
-      "cover": "https://i1.hdslb.com/bfs/archive/709338f5f9c62421d9facc5b3c8156da6d28dcc0.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-09-25T12:01:17.340Z"
-    }
-  ]
+  "errors": []
 }
