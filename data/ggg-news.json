@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-09-24T21:38:41.728Z",
+  "updatedAt": "2026-09-25T05:09:17.234Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "the-last-of-the-druids-weekend-sale-get-one-free-mystery-box-when-you-spend-points",
+      "title": "The Last of the Druids Weekend Sale - Get One Free Mystery Box When You Spend Points",
+      "date": "2026-09-25T00:10:46+00:00",
+      "summary": "This weekend, we’re running a sale on microtransactions from past Mystery Boxes, including the Last of the Druids cosmetic effects. In addition, we’re offering one free Curse of the Allflame Mystery Box when you spend points in the store. Find out more in this news post.",
+      "href": "https://www.pathofexile.com/forum/view-thread/4007904",
+      "thumb": "https://web.poecdn.com/public/news/2026-09-25/SaleFreeBoxTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "The Last of the Druids Weekend Sale - Get One Free Mystery Box When You Spend Points",
+          "summary": "This weekend, we’re running a sale on microtransactions from past Mystery Boxes, including the Last of the Druids cosmetic effects. In addition, we’re offering one free Curse of the Allflame Mystery Box when you spend points in the store. Find out more in this news post.",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "The Last of the Druids Weekend Sale - Get One Free Mystery Box When You Spend Points",
+          "summary": "This weekend, we’re running a sale on microtransactions from past Mystery Boxes, including the Last of the Druids cosmetic effects. In addition, we’re offering one free Curse of the Allflame Mystery Box when you spend points in the store. Find out more in this news post.",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "path-of-exile-2-is-now-steam-deck-verified",
       "title": "Path of Exile 2 is now Steam Deck Verified!",
@@ -44,27 +65,6 @@
         "en": {
           "title": "Path of Exile 2 Full Release Registration - New Reward Unlocked",
           "summary": "Sign up for the Path of Exile 2 Full Release registration rewards now! The first milestone has been unlocked, and there are more rewards awaiting you. Check them out in this news post!",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "introducing-the-way-of-the-stonefist-bundle-and-other-new-effects",
-      "title": "Introducing The Way of the Stonefist Bundle and Other New Effects",
-      "date": "2026-09-17T23:50:46+00:00",
-      "summary": "More cosmetic options have arrived in Path of Exile 2! If you’re interested in shapeshifting or showcasing cool effects, these releases might just be up your alley! Check them out in this news post!",
-      "href": "https://www.pathofexile.com/forum/view-thread/4006380",
-      "thumb": "https://web.poecdn.com/public/news/2026-09-18/StonefistBannersTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Introducing The Way of the Stonefist Bundle and Other New Effects",
-          "summary": "More cosmetic options have arrived in Path of Exile 2! If you’re interested in shapeshifting or showcasing cool effects, these releases might just be up your alley! Check them out in this news post!",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Introducing The Way of the Stonefist Bundle and Other New Effects",
-          "summary": "More cosmetic options have arrived in Path of Exile 2! If you’re interested in shapeshifting or showcasing cool effects, these releases might just be up your alley! Check them out in this news post!",
           "category": "Blue Post"
         }
       }

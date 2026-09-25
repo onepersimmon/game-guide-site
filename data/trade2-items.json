@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T21:35:27.422Z",
+  "updatedAt": "2026-09-25T05:04:32.177Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14564,6 +14564,14 @@
           }
         },
         {
+          "type": "Chain Flail",
+          "text": "INCOMPLETE Chain Flail",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
           "type": "Broadsword",
           "text": "INCOMPLETE Broadsword",
           "name": "INCOMPLETE",
@@ -14582,14 +14590,6 @@
         {
           "type": "Skinning Knife",
           "text": "INCOMPLETE Skinning Knife",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
-          "type": "Chain Flail",
-          "text": "INCOMPLETE Chain Flail",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true

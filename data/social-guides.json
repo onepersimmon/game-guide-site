@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T21:38:43.940Z",
+  "updatedAt": "2026-09-25T05:09:18.336Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,89 +10,83 @@
   },
   "items": [
     {
-      "id": "bilibili-BV1mvhx6AEki",
+      "id": "bilibili-BV1xQhp6REEH",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "闪回六边形 古灵 旋风六边形构筑 中配T2也能每秒15转 200W旋风 6400盾 75闪避偏转 BD详解带build 流放之路2",
+      "title": "竞速加点法， 开荒 快人一步， 流放之路2",
+      "summary": "学院群-赫奇帕奇：981091020 学院群-斯莱特林：326715482 学院群-拉文克劳：892414325 学院群-格兰芬多：305385389 这里是流放魔法学院，我们下期节目见",
+      "author": "POE魔法学院",
+      "publishedAt": "2026-09-23T11:00:00.000Z",
+      "href": "https://www.bilibili.com/video/av117316075457038",
+      "cover": "https://i2.hdslb.com/bfs/archive/ed5c9f81b34a5c5570353e9f4545b5bca2c19290.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1KahH6SEFz",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 降临|神谕图腾|第三期生存改进|更上一层楼",
+      "summary": "PPT文档和个人WEGAME链接关注自动回复！ 友好沟通即可，喷子恶语直接拉黑不废话！",
+      "author": "客不见",
+      "publishedAt": "2026-09-22T14:07:44.000Z",
+      "href": "https://www.bilibili.com/video/av117315068826709",
+      "cover": "https://i2.hdslb.com/bfs/archive/12a61371ed700daecfcdea1471ef58704fafbbfd.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1Qgh767EHR",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 异界 开荒 过渡的抗性戒指制作",
       "summary": "",
-      "author": "蝴蝶killer",
-      "publishedAt": "2026-09-23T05:56:22.000Z",
-      "href": "https://www.bilibili.com/video/av117318793304262",
-      "cover": "https://i0.hdslb.com/bfs/archive/abeb0bd2e7842585731095f57b6c9e73d32d43f9.jpg",
+      "author": "芹菜香干炒肉",
+      "publishedAt": "2026-09-22T06:59:30.000Z",
+      "href": "https://www.bilibili.com/video/av117313374259004",
+      "cover": "https://i0.hdslb.com/bfs/archive/97bd3037b2165d676a76bf3688be268ac4f6b54f.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1aBhn6dEFX",
+      "id": "bilibili-BV1mpeB66EbP",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "【 流放之路2 S0.55】小泉泉 古灵 无限崩雷鸣在线文档",
-      "summary": "● BD造价 2000D以内 ● DPS 图内1000W+ (9-10暴击球，三位一体 ) ● 有效承伤 10W+ （3w闪避，4w偏转，偏转几率95） ● 稀有度100 ● 爽刷所有终局内容，防御做到炸坟可以站撸",
-      "author": "爱玩游戏的小泉泉",
-      "publishedAt": "2026-09-22T16:35:09.000Z",
-      "href": "https://www.bilibili.com/video/av117315656030740",
-      "cover": "https://i1.hdslb.com/bfs/archive/5bb8e087bcc5c08c258821603783cba00860e8c9.jpg",
+      "title": "流放2 【泰坦冰枪BD更新】魂系动作流，打击手感爆棚， 流放之路2 降临闪回战士冰川之枪、刺骨寒冰、招架",
+      "summary": "流放之路2闪回赛季BD攻略 泰坦冰枪①：BV1nneE63Eab 女猎手亚马逊版：BV1M6bL6AEvA 0.5版开荒：BV1UCVa6gE2i 欢迎加入游戏交流群①群910937429 ，②群951295788，③群新开320949072 入群暗号：流放2 ------------ 以下为音乐版权信息： BGM：Castlevania - Heart of Fire [COVER] by Nestalgica https://youtu.be/3aIAAOnWagw?si=RbB40y4STffn0",
+      "author": "James_晓锋",
+      "publishedAt": "2026-09-20T15:01:28.000Z",
+      "href": "https://www.bilibili.com/video/av117303945467127",
+      "cover": "https://i2.hdslb.com/bfs/archive/59a6e2ea00250187274fd52cb29afde21cb621c9.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1Xgh767Eqc",
+      "id": "bilibili-BV1WKeq6YE37",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "[ 流放之路2 ]万蓝究极体！百万爆炸！挂机炸坟！ 古灵 大法师图腾最终版",
-      "summary": "",
-      "author": "流放小龟",
-      "publishedAt": "2026-09-22T06:58:06.000Z",
-      "href": "https://www.bilibili.com/video/av117313374261478",
-      "cover": "https://i1.hdslb.com/bfs/archive/98bcbc6d99a58ee735dd21aa1d8ecf6729ffcc25.jpg",
+      "title": "【 流放2 】技能时间显示插件分享，纯绿色无作弊v1.1",
+      "summary": "下载链接：https://pan.quark.cn/s/da5e37d57495 任何BUG或者改进方案、希望增加的功能都可以给我留言，我会偶尔更新这个插件",
+      "author": "烩炒稻草人",
+      "publishedAt": "2026-09-20T10:51:43.000Z",
+      "href": "https://www.bilibili.com/video/av117302972384432",
+      "cover": "https://i1.hdslb.com/bfs/archive/3f1ff58fc65a55a3a33cb6bd8a86e7daa01669aa.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1SShi6YEBg",
+      "id": "bilibili-BV1Yaet69EhM",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "流放之路2 闪回0.55【 古灵 自走电球】全自动全屏技能 无视词缀碾压一切 超高坦度 超低的造价（含文档）",
-      "summary": "关注并三连 即可获取文档 老粉丝可以先取消关注再关注获取文档 有问题可以充电后提问 每次回答堪比小作文 有一百次的提问机会 接修车 接配装 v:poeyyds",
-      "author": "黑虎阿福-小八",
-      "publishedAt": "2026-09-21T07:13:18.000Z",
-      "href": "https://www.bilibili.com/video/av117307770675159",
-      "cover": "https://i1.hdslb.com/bfs/archive/f59099ec7ff314933e7f5ce5ab62b255ca2bab32.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV18dei6gEc2",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 】可观测宇宙内最爽的BD 古灵 崩雷鸣附装备演示",
-      "summary": "角色链接：https://www.wegame.com.cn/helper/poe2/#/share/3jEILyGalm54lezGaQ6cA2A2DjuIsyBCAACseYzgR2guLhNjHWuVndiZy398fP6J 结合了很多up的思路，法血500D+人格分裂150D，其余没有值钱的，总共1000D可以拿下 ①头盔戴了+2暴击球的，可以买+1暴击球的ES头然后用宝珠瓦出+2 ②用的艾丽丝钟琴得球+COA不敬之礼维持9球 ③武器做的火电伤，方便三相配平 武器制作： ①准备一把锁好T1暴击的",
-      "author": "王小_A",
-      "publishedAt": "2026-09-20T11:05:03.000Z",
-      "href": "https://www.bilibili.com/video/av117303022723024",
-      "cover": "https://i1.hdslb.com/bfs/archive/2b873117033e670c1ccf6da49b02c44cba5edef9.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV15Wev6VEaZ",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放2 手把手教你，吸纳流 古灵 ，地炼。 造价超低，秒回7000+，伤害超强！",
-      "summary": "关注我，后台自动领取文本BD。",
-      "author": "清晰流派",
-      "publishedAt": "2026-09-20T06:15:55.000Z",
-      "href": "https://www.bilibili.com/video/av117301881869429",
-      "cover": "https://i0.hdslb.com/bfs/archive/db1541f40bb8416325a7b0d22da1a95aeb996175.jpg",
+      "title": "【闪闪课堂】 流放之路2 新手向 开荒 BD介绍——浴火图腾流",
+      "summary": "浴火图腾-国际服版文档 https://docs.qq.com/doc/DY2JDU2xGbnVRdHp6",
+      "author": "闪闪Aur",
+      "publishedAt": "2026-09-19T11:47:46.000Z",
+      "href": "https://www.bilibili.com/video/av117297519795935",
+      "cover": "https://i1.hdslb.com/bfs/archive/709338f5f9c62421d9facc5b3c8156da6d28dcc0.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-09-24T21:38:43.940Z"
-    }
-  ]
+  "errors": []
 }
