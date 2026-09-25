@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T17:17:56.956Z",
+  "updatedAt": "2026-09-25T21:39:29.056Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14500,16 +14500,16 @@
           }
         },
         {
-          "type": "Hook Axe",
-          "text": "INCOMPLETE Hook Axe",
+          "type": "Charred Shortsword",
+          "text": "INCOMPLETE Charred Shortsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Charred Shortsword",
-          "text": "INCOMPLETE Charred Shortsword",
+          "type": "Hook Axe",
+          "text": "INCOMPLETE Hook Axe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
@@ -14564,32 +14564,16 @@
           }
         },
         {
-          "type": "Broadsword",
-          "text": "INCOMPLETE Broadsword",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
-          "type": "Arched Greataxe",
-          "text": "INCOMPLETE Arched Greataxe",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
-          "type": "Skinning Knife",
-          "text": "INCOMPLETE Skinning Knife",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
           "type": "Chain Flail",
           "text": "INCOMPLETE Chain Flail",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Broadsword",
+          "text": "INCOMPLETE Broadsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
@@ -14606,6 +14590,22 @@
         {
           "type": "Executioner Greataxe",
           "text": "INCOMPLETE Executioner Greataxe",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Arched Greataxe",
+          "text": "INCOMPLETE Arched Greataxe",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Skinning Knife",
+          "text": "INCOMPLETE Skinning Knife",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
