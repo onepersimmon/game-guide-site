@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T05:32:59.510Z",
+  "updatedAt": "2026-09-27T12:15:21.359Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -75,24 +75,18 @@
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1mpeB66EbP",
+      "id": "bilibili-BV1pTeU6aEUN",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "流放2 【泰坦冰枪BD更新】魂系动作流，打击手感爆棚， 流放之路2 降临闪回战士冰川之枪、刺骨寒冰、招架",
-      "summary": "流放之路2闪回赛季BD攻略 泰坦冰枪①：BV1nneE63Eab 女猎手亚马逊版：BV1M6bL6AEvA 0.5版开荒：BV1UCVa6gE2i 欢迎加入游戏交流群①群910937429 ，②群951295788，③群新开320949072 入群暗号：流放2 ------------ 以下为音乐版权信息： BGM：Castlevania - Heart of Fire [COVER] by Nestalgica https://youtu.be/3aIAAOnWagw?si=RbB40y4STffn0",
-      "author": "James_晓锋",
-      "publishedAt": "2026-09-20T15:01:28.000Z",
-      "href": "https://www.bilibili.com/video/av117303945467127",
-      "cover": "https://i2.hdslb.com/bfs/archive/59a6e2ea00250187274fd52cb29afde21cb621c9.jpg",
-      "query": "流放之路2 开荒",
+      "title": "【流放2】【0.5.5】德鲁伊熊德轮椅 开荒 · 苦涩死亡神谕者（上）",
+      "summary": "0.5.5 赛季，p4wnyhof 这套「苦涩死亡神谕者」从 1 级单人自给自足开到终局。这期是第一部分，只到第二章结束。前面全程是另一套打法：熊德。 如果大家觉得有用的话 麻烦点赞、关注一下，反响不错的话我就接着做第二部分，谢谢大家。 文档还在制作中，有需要的，请在评论区留言，等文档制作完后我会一一回复的。",
+      "author": "刷图的八王爷",
+      "publishedAt": "2026-09-18T10:01:43.000Z",
+      "href": "https://www.bilibili.com/video/av117291446503664",
+      "cover": "https://i1.hdslb.com/bfs/archive/1eddf3d800110781f0b1fd5853121d4a94ab8b1d.jpg",
+      "query": "POE2 开荒",
       "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-09-27T05:32:59.510Z"
-    }
-  ]
+  "errors": []
 }
