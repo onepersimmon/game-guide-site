@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T05:37:55.151Z",
+  "updatedAt": "2026-09-28T14:12:27.811Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -62,19 +62,6 @@
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1Qgh767EHR",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 异界 开荒 过渡的抗性戒指制作",
-      "summary": "",
-      "author": "芹菜香干炒肉",
-      "publishedAt": "2026-09-22T06:59:30.000Z",
-      "href": "https://www.bilibili.com/video/av117313374259004",
-      "cover": "https://i0.hdslb.com/bfs/archive/97bd3037b2165d676a76bf3688be268ac4f6b54f.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
       "id": "bilibili-BV1pTeU6aEUN",
       "platform": "bilibili",
       "platformLabel": "B 站",
@@ -84,6 +71,19 @@
       "publishedAt": "2026-09-18T10:01:43.000Z",
       "href": "https://www.bilibili.com/video/av117291446503664",
       "cover": "https://i1.hdslb.com/bfs/archive/1eddf3d800110781f0b1fd5853121d4a94ab8b1d.jpg",
+      "query": "POE2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1mQen6oEeq",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路 POE2 -国服0.55闪回版本-战术家-灰烬仲裁官 开荒 实录-火力支援-超低造价-我在等药效你在等啥-新翅膀抽奖-天顶御剑战氅-黑色高达",
+      "summary": "来了来了，新赛季玩的是万剑（箭）归宗，战术家 火力支援 20级前我用的是榴弹，升华1以后就是用这个，今天刚打到90级，给大家看看我从B站学到以后自己弄的低配版本吧 另外今天小氪充了一个翅膀，太帅了兄弟们，叫做《天顶御剑战氅》搭配天赋亡灵执政官，直接变身黑色强袭高达哈哈哈哈，帅的一批啊兄弟们 最后这个BD非常简单，但是需要全程猴戏（等药效上来，不然会很卡手） 1、核心技能——火力支援，力量越高，伤害越高，但是CD太长，所以要全程触发亡灵执政官，我来异界第一件事就是涂油主宰，让亡灵执政官没有CD，如何",
+      "author": "今天工作也很累",
+      "publishedAt": "2026-09-15T09:25:22.000Z",
+      "href": "https://www.bilibili.com/video/av117274316904149",
+      "cover": "https://i2.hdslb.com/bfs/archive/c8495611f9f189770eeaf499d9695c3a33eded4e.jpg",
       "query": "POE2 开荒",
       "source": "B 站公开搜索"
     }
