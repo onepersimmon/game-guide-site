@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T14:07:54.697Z",
+  "updatedAt": "2026-09-28T23:21:22.105Z",
   "source": "poe.ninja",
   "leagueName": "Runes of Aldur",
   "builds": [
@@ -8,7 +8,7 @@
       "className": "Spirit Walker",
       "leagueName": "Runes of Aldur",
       "summary": "灵魂行者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 31.1,
+      "popularity": 30.9,
       "trend": -1,
       "rank": 1,
       "image": "./assets/images/builds/spirit-walker.webp",
@@ -116,13 +116,13 @@
       "className": "Deadeye",
       "leagueName": "Runes of Aldur",
       "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 5.1,
-      "trend": -1,
+      "popularity": 5.2,
+      "trend": 1,
       "rank": 4,
       "image": "./assets/images/builds/deadeye.webp",
       "tags": [
         "热门职业",
-        "热度回落"
+        "热度上升"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Deadeye",
       "localized": {
@@ -132,7 +132,7 @@
           "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度回落"
+            "热度上升"
           ]
         },
         "en": {
@@ -141,7 +141,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Falling"
+            "Rising"
           ]
         }
       },
@@ -153,12 +153,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "驱炎使 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 5.1,
-      "trend": 1,
+      "trend": -1,
       "rank": 5,
       "image": "./assets/images/builds/infernalist.webp",
       "tags": [
         "热门职业",
-        "热度上升"
+        "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Infernalist",
       "localized": {
@@ -168,7 +168,7 @@
           "summary": "驱炎使 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
@@ -177,7 +177,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Rising"
+            "Falling"
           ]
         }
       },
@@ -297,12 +297,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "风暴编织者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 2.5,
-      "trend": 0,
+      "trend": 1,
       "rank": 9,
       "image": "./assets/images/builds/stormweaver.webp",
       "tags": [
         "热门职业",
-        "热度持平"
+        "热度上升"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Stormweaver",
       "localized": {
@@ -312,7 +312,7 @@
           "summary": "风暴编织者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度持平"
+            "热度上升"
           ]
         },
         "en": {
@@ -321,7 +321,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Stable"
+            "Rising"
           ]
         }
       },
