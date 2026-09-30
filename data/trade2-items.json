@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T12:44:40.687Z",
+  "updatedAt": "2026-09-30T22:21:45.760Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14484,16 +14484,16 @@
           }
         },
         {
-          "type": "Dull Hatchet",
-          "text": "INCOMPLETE Dull Hatchet",
+          "type": "Crone Knife",
+          "text": "INCOMPLETE Crone Knife",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Crone Knife",
-          "text": "INCOMPLETE Crone Knife",
+          "type": "Dull Hatchet",
+          "text": "INCOMPLETE Dull Hatchet",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
