@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T13:32:10.638Z",
+  "updatedAt": "2026-10-01T22:47:58.565Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1PwaC6CEWk",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】直播回放|云台28将联赛hcssf|9.5小时火巅|14小时90级",
+      "summary": "参加26年10月1日的云台28将联赛，弥补了圣手杯的遗憾，哈哈 云台28将~6 0.5.5 联赛 活动说明 https://docs.qq.com/doc/DR09MREtrWWVhQW52 联赛进入链接 https://pathofexile2.com/private-leagues/join/YUNWARRIORSVI/sah4jSCMPQGvehqypuqT https://ngabbs.com/read.php?tid=47636116 https://my.feishu.cn/wiki/ANL",
+      "author": "赵振豪plus",
+      "publishedAt": "2026-10-01T16:26:02.000Z",
+      "href": "https://www.bilibili.com/video/av117366558102724",
+      "cover": "https://i0.hdslb.com/bfs/archive/7264a5c5e0e2ee28d657188813e1b633386c16e1.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1wAYP6YERb",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-09-18T10:01:43.000Z",
       "href": "https://www.bilibili.com/video/av117291446503664",
       "cover": "https://i1.hdslb.com/bfs/archive/1eddf3d800110781f0b1fd5853121d4a94ab8b1d.jpg",
-      "query": "POE2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1mQen6oEeq",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路 POE2 -国服0.55闪回版本-战术家-灰烬仲裁官 开荒 实录-火力支援-超低造价-我在等药效你在等啥-新翅膀抽奖-天顶御剑战氅-黑色高达",
-      "summary": "来了来了，新赛季玩的是万剑（箭）归宗，战术家 火力支援 20级前我用的是榴弹，升华1以后就是用这个，今天刚打到90级，给大家看看我从B站学到以后自己弄的低配版本吧 另外今天小氪充了一个翅膀，太帅了兄弟们，叫做《天顶御剑战氅》搭配天赋亡灵执政官，直接变身黑色强袭高达哈哈哈哈，帅的一批啊兄弟们 最后这个BD非常简单，但是需要全程猴戏（等药效上来，不然会很卡手） 1、核心技能——火力支援，力量越高，伤害越高，但是CD太长，所以要全程触发亡灵执政官，我来异界第一件事就是涂油主宰，让亡灵执政官没有CD，如何",
-      "author": "今天工作也很累",
-      "publishedAt": "2026-09-15T09:25:22.000Z",
-      "href": "https://www.bilibili.com/video/av117274316904149",
-      "cover": "https://i2.hdslb.com/bfs/archive/c8495611f9f189770eeaf499d9695c3a33eded4e.jpg",
       "query": "POE2 开荒",
       "source": "B 站公开搜索"
     }

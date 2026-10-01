@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-10-01T13:32:09.364Z",
+  "updatedAt": "2026-10-01T22:47:57.535Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "exilecon-2026-race-qualifier-vods",
+      "title": "ExileCon 2026 Race Qualifier VODs",
+      "date": "2026-10-01T19:39:04+00:00",
+      "summary": "With the Path of Exile 1 and Path of Exile 2 ExileCon Qualifier Races now done and dusted, take a look back at the memorable moments from the competition! Check out the VODs from both sets of Qualifier Races in this news post.",
+      "href": "https://www.pathofexile.com/forum/view-thread/4009200",
+      "thumb": "https://web.poecdn.com/public/news/2026-10-02/RaceVodsTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "ExileCon 2026 Race Qualifier VODs",
+          "summary": "With the Path of Exile 1 and Path of Exile 2 ExileCon Qualifier Races now done and dusted, take a look back at the memorable moments from the competition! Check out the VODs from both sets of Qualifier Races in this news post.",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "ExileCon 2026 Race Qualifier VODs",
+          "summary": "With the Path of Exile 1 and Path of Exile 2 ExileCon Qualifier Races now done and dusted, take a look back at the memorable moments from the competition! Check out the VODs from both sets of Qualifier Races in this news post.",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "the-last-of-the-druids-weekend-sale-get-one-free-mystery-box-when-you-spend-points",
       "title": "The Last of the Druids Weekend Sale - Get One Free Mystery Box When You Spend Points",
@@ -44,27 +65,6 @@
         "en": {
           "title": "Path of Exile 2 is now Steam Deck Verified!",
           "summary": "Path of Exile 2 is now Steam Deck Verified! Take Wraeclast with you wherever you go! Check out this news post for more details.",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "path-of-exile-2-full-release-registration-new-reward-unlocked",
-      "title": "Path of Exile 2 Full Release Registration - New Reward Unlocked",
-      "date": "2026-09-21T23:37:22+00:00",
-      "summary": "Sign up for the Path of Exile 2 Full Release registration rewards now! The first milestone has been unlocked, and there are more rewards awaiting you. Check them out in this news post!",
-      "href": "https://www.pathofexile.com/forum/view-thread/4007322",
-      "thumb": "https://web.poecdn.com/public/news/2026-09-22/PoE2RegisterReminderTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Path of Exile 2 Full Release Registration - New Reward Unlocked",
-          "summary": "Sign up for the Path of Exile 2 Full Release registration rewards now! The first milestone has been unlocked, and there are more rewards awaiting you. Check them out in this news post!",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Path of Exile 2 Full Release Registration - New Reward Unlocked",
-          "summary": "Sign up for the Path of Exile 2 Full Release registration rewards now! The first milestone has been unlocked, and there are more rewards awaiting you. Check them out in this news post!",
           "category": "Blue Post"
         }
       }
