@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T06:09:53.917Z",
+  "updatedAt": "2026-10-01T13:32:10.638Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1wAYP6YERb",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 第一章 开荒 最优路线",
+      "summary": "流放之路2开荒",
+      "author": "没钱没烦恼6",
+      "publishedAt": "2026-10-01T06:10:35.000Z",
+      "href": "https://www.bilibili.com/video/av117364158894157",
+      "cover": "https://i2.hdslb.com/bfs/archive/0d78e7f9aceb231cd335a5641e04a1f8708d9f4b.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1kAaR6rEXM",
       "platform": "bilibili",
@@ -49,19 +62,6 @@
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1xQhp6REEH",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "竞速加点法， 开荒 快人一步， 流放之路2",
-      "summary": "学院群-赫奇帕奇：981091020 学院群-斯莱特林：326715482 学院群-拉文克劳：892414325 学院群-格兰芬多：305385389 这里是流放魔法学院，我们下期节目见",
-      "author": "POE魔法学院",
-      "publishedAt": "2026-09-23T11:00:00.000Z",
-      "href": "https://www.bilibili.com/video/av117316075457038",
-      "cover": "https://i2.hdslb.com/bfs/archive/ed5c9f81b34a5c5570353e9f4545b5bca2c19290.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
       "id": "bilibili-BV1pTeU6aEUN",
       "platform": "bilibili",
       "platformLabel": "B 站",
@@ -88,11 +88,5 @@
       "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-10-01T06:09:53.917Z"
-    }
-  ]
+  "errors": []
 }
