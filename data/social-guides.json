@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T22:47:58.565Z",
+  "updatedAt": "2026-10-02T05:51:52.952Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,11 +10,24 @@
   },
   "items": [
     {
+      "id": "bilibili-BV1XUay6FEG1",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 第二章 开荒 最优路线",
+      "summary": "流放之路2第二章开荒最优路线",
+      "author": "没钱没烦恼6",
+      "publishedAt": "2026-10-02T04:50:40.000Z",
+      "href": "https://www.bilibili.com/video/av117369494051579",
+      "cover": "https://i2.hdslb.com/bfs/archive/2300cd0728d09b1b3823098f918079faa665cb37.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
       "id": "bilibili-BV1PwaC6CEWk",
       "platform": "bilibili",
       "platformLabel": "B 站",
       "title": "【 流放2 】直播回放|云台28将联赛hcssf|9.5小时火巅|14小时90级",
-      "summary": "参加26年10月1日的云台28将联赛，弥补了圣手杯的遗憾，哈哈 云台28将~6 0.5.5 联赛 活动说明 https://docs.qq.com/doc/DR09MREtrWWVhQW52 联赛进入链接 https://pathofexile2.com/private-leagues/join/YUNWARRIORSVI/sah4jSCMPQGvehqypuqT https://ngabbs.com/read.php?tid=47636116 https://my.feishu.cn/wiki/ANL",
+      "summary": "参加26年10月1日的云台28将联赛，弥补了圣手杯的遗憾，哈哈 云台28将~6 0.5.5 联赛 活动说明 https://docs.qq.com/doc/DR09MREtrWWVhQW52 联赛进入链接 https://pathofexile2.com/private-leagues/join/YunWarriorsVI/J0L8jnXkax_igfO-tr7c NGA帖子链接 https://ngabbs.com/read.php?tid=47636116 https://my.feishu.cn",
       "author": "赵振豪plus",
       "publishedAt": "2026-10-01T16:26:02.000Z",
       "href": "https://www.bilibili.com/video/av117366558102724",
@@ -58,19 +71,6 @@
       "publishedAt": "2026-09-25T14:38:26.000Z",
       "href": "https://www.bilibili.com/video/av117332181586255",
       "cover": "https://i2.hdslb.com/bfs/archive/ce87b809d709b2f3e8bf37941bca69e950509dfa.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1jeh16iEGu",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】0.55圣手杯88级死于深渊怪复数混沌伤",
-      "summary": "呵呵",
-      "author": "赵振豪plus",
-      "publishedAt": "2026-09-25T13:28:05.000Z",
-      "href": "https://www.bilibili.com/video/av117331896441554",
-      "cover": "https://i1.hdslb.com/bfs/archive/0310dde52100a1cfa5fc672b9334c03d84e983b9.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
