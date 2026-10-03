@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T05:29:27.138Z",
+  "updatedAt": "2026-10-03T11:50:37.051Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1psHY6QEV7",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 第三章 开荒 最优路线",
+      "summary": "流放之路2第三章开荒最优路线",
+      "author": "没钱没烦恼6",
+      "publishedAt": "2026-10-03T05:52:23.000Z",
+      "href": "https://www.bilibili.com/video/av117375399825648",
+      "cover": "https://i2.hdslb.com/bfs/archive/cb3bf0d44b3bce9dba2584c11995285b041ce2e6.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1XUay6FEG1",
       "platform": "bilibili",
@@ -72,19 +85,6 @@
       "href": "https://www.bilibili.com/video/av117331778869292",
       "cover": "https://i1.hdslb.com/bfs/archive/06ca1c87a02594f563a29a8f06bc23f702c50ab4.jpg",
       "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1pTeU6aEUN",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【流放2】【0.5.5】德鲁伊熊德轮椅 开荒 · 苦涩死亡神谕者（上）",
-      "summary": "0.5.5 赛季，p4wnyhof 这套「苦涩死亡神谕者」从 1 级单人自给自足开到终局。这期是第一部分，只到第二章结束。前面全程是另一套打法：熊德。 如果大家觉得有用的话 麻烦点赞、关注一下，反响不错的话我就接着做第二部分，谢谢大家。 文档还在制作中，有需要的，请在评论区留言，等文档制作完后我会一一回复的。",
-      "author": "刷图的八王爷",
-      "publishedAt": "2026-09-18T10:01:43.000Z",
-      "href": "https://www.bilibili.com/video/av117291446503664",
-      "cover": "https://i1.hdslb.com/bfs/archive/1eddf3d800110781f0b1fd5853121d4a94ab8b1d.jpg",
-      "query": "POE2 开荒",
       "source": "B 站公开搜索"
     }
   ],
