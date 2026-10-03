@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T22:22:49.224Z",
+  "updatedAt": "2026-10-03T05:29:27.138Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -62,15 +62,15 @@
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1eshU6uEem",
+      "id": "bilibili-BV1Euh26rEB8",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "流放之路2 降临|泰坦法术自走BD之撒播血祸|自走清图|城寨严父！",
-      "summary": "PPT文档和个人WEGAME链接关注自动回复！ 友好沟通即可，喷子恶语直接拉黑不废话！",
-      "author": "客不见",
-      "publishedAt": "2026-09-25T14:38:26.000Z",
-      "href": "https://www.bilibili.com/video/av117332181586255",
-      "cover": "https://i2.hdslb.com/bfs/archive/ce87b809d709b2f3e8bf37941bca69e950509dfa.jpg",
+      "title": "流放之路2 ，普通人从第一章到间章全流程-第一章",
+      "summary": "",
+      "author": "haha2hao_live",
+      "publishedAt": "2026-09-26T11:00:00.000Z",
+      "href": "https://www.bilibili.com/video/av117331778869292",
+      "cover": "https://i1.hdslb.com/bfs/archive/06ca1c87a02594f563a29a8f06bc23f702c50ab4.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
@@ -88,11 +88,5 @@
       "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-10-02T22:22:49.224Z"
-    }
-  ]
+  "errors": []
 }
