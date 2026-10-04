@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T21:27:10.911Z",
+  "updatedAt": "2026-10-04T06:03:53.708Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1hHHr6RE5E",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 第四章 开荒 最优路线",
+      "summary": "流放之路2第四章开荒最优路线",
+      "author": "没钱没烦恼6",
+      "publishedAt": "2026-10-04T06:03:17.000Z",
+      "href": "https://www.bilibili.com/video/av117381120660757",
+      "cover": "https://i0.hdslb.com/bfs/archive/94f3e331b17f55d86d0426479984fb5ec536a12d.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1psHY6QEV7",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-09-30T00:44:35.000Z",
       "href": "https://www.bilibili.com/video/av117357179635697",
       "cover": "https://i2.hdslb.com/bfs/archive/59f817839a576b5eeda6708b2fc17f726eee42f0.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1Euh26rEB8",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 ，普通人从第一章到间章全流程-第一章",
-      "summary": "",
-      "author": "haha2hao_live",
-      "publishedAt": "2026-09-26T11:00:00.000Z",
-      "href": "https://www.bilibili.com/video/av117331778869292",
-      "cover": "https://i1.hdslb.com/bfs/archive/06ca1c87a02594f563a29a8f06bc23f702c50ab4.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
