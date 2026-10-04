@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T12:32:35.642Z",
+  "updatedAt": "2026-10-04T21:39:45.242Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1msHE6sEvC",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 】《云台28将》独狼专家私人联赛吃席集锦",
+      "summary": "好朋友开的独狼专家私人联赛，搜集了一些吃席素材给大家做做饭",
+      "author": "胖胖丁爱吃鱼",
+      "publishedAt": "2026-10-04T12:53:04.000Z",
+      "href": "https://www.bilibili.com/video/av117382714624333",
+      "cover": "https://i0.hdslb.com/bfs/archive/2f8527e44a7c92d2f23087a7607275aa480ab493.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1hHHr6RE5E",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-10-01T06:10:35.000Z",
       "href": "https://www.bilibili.com/video/av117364158894157",
       "cover": "https://i2.hdslb.com/bfs/archive/0d78e7f9aceb231cd335a5641e04a1f8708d9f4b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1kAaR6rEXM",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2开荒 过渡武器公式化做装",
-      "summary": "",
-      "author": "芹菜香干炒肉",
-      "publishedAt": "2026-09-30T00:44:35.000Z",
-      "href": "https://www.bilibili.com/video/av117357179635697",
-      "cover": "https://i2.hdslb.com/bfs/archive/59f817839a576b5eeda6708b2fc17f726eee42f0.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
