@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T21:39:45.242Z",
+  "updatedAt": "2026-10-05T05:54:17.861Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1FSHp69Ezo",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 欧甘 开荒 最优路线",
+      "summary": "流放之路2欧甘开荒最优路线",
+      "author": "没钱没烦恼6",
+      "publishedAt": "2026-10-05T03:51:26.000Z",
+      "href": "https://www.bilibili.com/video/av117386254490280",
+      "cover": "https://i0.hdslb.com/bfs/archive/8da7b68c5d0eb17235356eb92062d641d9c2a29c.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1msHE6sEvC",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-10-01T16:26:02.000Z",
       "href": "https://www.bilibili.com/video/av117366558102724",
       "cover": "https://i0.hdslb.com/bfs/archive/7264a5c5e0e2ee28d657188813e1b633386c16e1.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1wAYP6YERb",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 第一章 开荒 最优路线",
-      "summary": "流放之路2开荒",
-      "author": "没钱没烦恼6",
-      "publishedAt": "2026-10-01T06:10:35.000Z",
-      "href": "https://www.bilibili.com/video/av117364158894157",
-      "cover": "https://i2.hdslb.com/bfs/archive/0d78e7f9aceb231cd335a5641e04a1f8708d9f4b.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
