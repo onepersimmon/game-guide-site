@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T06:33:02.579Z",
+  "updatedAt": "2026-10-06T18:30:02.105Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1W3pc6PEV3",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 瓦斯提里 开荒 最优路线",
+      "summary": "流放之路2瓦斯提里开荒最优路线",
+      "author": "没钱没烦恼6",
+      "publishedAt": "2026-10-06T05:54:07.000Z",
+      "href": "https://www.bilibili.com/video/av117392394950898",
+      "cover": "https://i1.hdslb.com/bfs/archive/5a2dc1602902e85ffdc4f0fe3721dc2c6356d333.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1FSHp69Ezo",
       "platform": "bilibili",
@@ -73,26 +86,7 @@
       "cover": "https://i2.hdslb.com/bfs/archive/2300cd0728d09b1b3823098f918079faa665cb37.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1PwaC6CEWk",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】直播回放|云台28将联赛hcssf|9.5小时火巅|14小时90级|1.5小时鏖战火巅",
-      "summary": "参加26年10月1日的云台28将联赛，弥补了圣手杯的遗憾，哈哈 云台28将~6 0.5.5 联赛 活动说明 https://docs.qq.com/doc/DR09MREtrWWVhQW52 联赛进入链接 https://pathofexile2.com/private-leagues/join/YunWarriorsVI/J0L8jnXkax_igfO-tr7c NGA帖子链接 https://ngabbs.com/read.php?tid=47636116 https://my.feishu.cn",
-      "author": "赵振豪plus",
-      "publishedAt": "2026-10-01T16:26:02.000Z",
-      "href": "https://www.bilibili.com/video/av117366558102724",
-      "cover": "https://i0.hdslb.com/bfs/archive/7264a5c5e0e2ee28d657188813e1b633386c16e1.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-10-06T06:33:02.579Z"
-    }
-  ]
+  "errors": []
 }
