@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-10-08T13:46:32.233Z",
+  "updatedAt": "2026-10-08T23:28:11.719Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "exilecon-2026-cosplay-and-costume-weapons-policy",
+      "title": "ExileCon 2026 Cosplay and Costume Weapons Policy",
+      "date": "2026-10-08T20:27:53+00:00",
+      "summary": "If you're attending ExileCon 2026 and are intending to cosplay or bring any props, you'll need to ensure that you follow our ExileCon 2026 Cosplay and Costume Weapons Policy. Check it out in today's news post.",
+      "href": "https://www.pathofexile.com/forum/view-thread/4010174",
+      "thumb": "https://web.poecdn.com/public/news/2026-10-09/ExileCon2026CosplayPolicyTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "ExileCon 2026 Cosplay and Costume Weapons Policy",
+          "summary": "If you're attending ExileCon 2026 and are intending to cosplay or bring any props, you'll need to ensure that you follow our ExileCon 2026 Cosplay and Costume Weapons Policy. Check it out in today's news post.",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "ExileCon 2026 Cosplay and Costume Weapons Policy",
+          "summary": "If you're attending ExileCon 2026 and are intending to cosplay or bring any props, you'll need to ensure that you follow our ExileCon 2026 Cosplay and Costume Weapons Policy. Check it out in today's news post.",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "one-month-until-exilecon-2026",
       "title": "One Month until ExileCon 2026",
@@ -44,27 +65,6 @@
         "en": {
           "title": "ExileCon 2026 Race Qualifier VODs",
           "summary": "With the Path of Exile 1 and Path of Exile 2 ExileCon Qualifier Races now done and dusted, take a look back at the memorable moments from the competition! Check out the VODs from both sets of Qualifier Races in this news post.",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "the-last-of-the-druids-weekend-sale-get-one-free-mystery-box-when-you-spend-points",
-      "title": "The Last of the Druids Weekend Sale - Get One Free Mystery Box When You Spend Points",
-      "date": "2026-09-25T00:10:46+00:00",
-      "summary": "This weekend, we’re running a sale on microtransactions from past Mystery Boxes, including the Last of the Druids cosmetic effects. In addition, we’re offering one free Curse of the Allflame Mystery Box when you spend points in the store. Find out more in this news post.",
-      "href": "https://www.pathofexile.com/forum/view-thread/4007904",
-      "thumb": "https://web.poecdn.com/public/news/2026-09-25/SaleFreeBoxTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "The Last of the Druids Weekend Sale - Get One Free Mystery Box When You Spend Points",
-          "summary": "This weekend, we’re running a sale on microtransactions from past Mystery Boxes, including the Last of the Druids cosmetic effects. In addition, we’re offering one free Curse of the Allflame Mystery Box when you spend points in the store. Find out more in this news post.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "The Last of the Druids Weekend Sale - Get One Free Mystery Box When You Spend Points",
-          "summary": "This weekend, we’re running a sale on microtransactions from past Mystery Boxes, including the Last of the Druids cosmetic effects. In addition, we’re offering one free Curse of the Allflame Mystery Box when you spend points in the store. Find out more in this news post.",
           "category": "Blue Post"
         }
       }
