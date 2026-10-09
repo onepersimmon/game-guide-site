@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T06:18:12.227Z",
+  "updatedAt": "2026-10-09T18:24:21.708Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14524,16 +14524,16 @@
           }
         },
         {
-          "type": "Splintered Flail",
-          "text": "INCOMPLETE Splintered Flail",
+          "type": "Corroded Longsword",
+          "text": "INCOMPLETE Corroded Longsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Corroded Longsword",
-          "text": "INCOMPLETE Corroded Longsword",
+          "type": "Splintered Flail",
+          "text": "INCOMPLETE Splintered Flail",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
