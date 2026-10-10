@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T12:41:37.172Z",
+  "updatedAt": "2026-10-10T21:50:33.562Z",
   "source": "poe.ninja",
   "leagueName": "Runes of Aldur",
   "builds": [
@@ -117,12 +117,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 5.3,
-      "trend": 1,
+      "trend": 0,
       "rank": 4,
       "image": "./assets/images/builds/deadeye.webp",
       "tags": [
         "热门职业",
-        "热度上升"
+        "热度持平"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Deadeye",
       "localized": {
@@ -132,7 +132,7 @@
           "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度上升"
+            "热度持平"
           ]
         },
         "en": {
@@ -141,7 +141,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Rising"
+            "Stable"
           ]
         }
       },
@@ -224,7 +224,7 @@
       "className": "Oracle",
       "leagueName": "Runes of Aldur",
       "summary": "神谕者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 4.1,
+      "popularity": 4.2,
       "trend": 1,
       "rank": 7,
       "image": "./assets/images/builds/oracle.webp",
@@ -332,7 +332,7 @@
       "className": "Blood Mage",
       "leagueName": "Runes of Aldur",
       "summary": "命源法师 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 2.1,
+      "popularity": 2.2,
       "trend": 1,
       "rank": 10,
       "image": "./assets/images/builds/blood-mage.webp",
