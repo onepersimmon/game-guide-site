@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T06:11:42.436Z",
+  "updatedAt": "2026-10-12T15:44:00.935Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1vbpd6gEAA",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 武僧冰川之刺 开荒 第二章",
+      "summary": "",
+      "author": "twenty万",
+      "publishedAt": "2026-10-12T14:23:58.000Z",
+      "href": "https://www.bilibili.com/video/av117428348525394",
+      "cover": "https://i1.hdslb.com/bfs/archive/e7d2963d10014e7f5813ebdc82b955c17dc0aed6.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1mZpX6XErp",
       "platform": "bilibili",
@@ -45,19 +58,6 @@
       "publishedAt": "2026-10-07T06:11:36.000Z",
       "href": "https://www.bilibili.com/video/av117398132758153",
       "cover": "https://i2.hdslb.com/bfs/archive/5aa0f6f3f314c05340c5a169598864a74a84fe09.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1W3pc6PEV3",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 瓦斯提里 开荒 最优路线",
-      "summary": "流放之路2瓦斯提里开荒最优路线",
-      "author": "没钱没烦恼6",
-      "publishedAt": "2026-10-06T05:54:07.000Z",
-      "href": "https://www.bilibili.com/video/av117392394950898",
-      "cover": "https://i1.hdslb.com/bfs/archive/5a2dc1602902e85ffdc4f0fe3721dc2c6356d333.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
