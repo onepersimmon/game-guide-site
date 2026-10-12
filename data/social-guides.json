@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T22:07:54.828Z",
+  "updatedAt": "2026-10-12T06:11:42.436Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1mZpX6XErp",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 武僧冰系 开荒 第一章",
+      "summary": "",
+      "author": "twenty万",
+      "publishedAt": "2026-10-12T02:43:19.000Z",
+      "href": "https://www.bilibili.com/video/av117425630615085",
+      "cover": "https://i0.hdslb.com/bfs/archive/affd815bec3216ba134dea18867190df250177f2.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV112pg6cEno",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "我把常用的 流放之路2 网站，整理到了 Poe2.page",
+      "summary": "把常用的攻略、资料、物价与工具入口放在一页，支持分类筛选、搜索、个人收藏和卡片大小切换。欢迎来试试，也欢迎留言推荐你常用的网站。 外部资源由各自作者独立维护，本站提供导航入口。个人收藏保存在当前浏览器，不自动跨设备同步。",
+      "author": "墨客Mok3",
+      "publishedAt": "2026-10-10T09:31:58.000Z",
+      "href": "https://www.bilibili.com/video/av117415899830012",
+      "cover": "https://i2.hdslb.com/bfs/archive/c137fe3ae480567d0611dd41eeff40a1563ea5a4.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1Q8pM6PE7F",
       "platform": "bilibili",
@@ -36,45 +62,6 @@
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1FSHp69Ezo",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 欧甘 开荒 最优路线",
-      "summary": "流放之路2欧甘开荒最优路线",
-      "author": "没钱没烦恼6",
-      "publishedAt": "2026-10-05T03:51:26.000Z",
-      "href": "https://www.bilibili.com/video/av117386254490280",
-      "cover": "https://i0.hdslb.com/bfs/archive/8da7b68c5d0eb17235356eb92062d641d9c2a29c.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1msHE6sEvC",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 】《云台28将》独狼专家私人联赛吃席集锦",
-      "summary": "好朋友开的独狼专家私人联赛，搜集了一些吃席素材给大家做做饭",
-      "author": "胖胖丁爱吃鱼",
-      "publishedAt": "2026-10-04T12:53:04.000Z",
-      "href": "https://www.bilibili.com/video/av117382714624333",
-      "cover": "https://i0.hdslb.com/bfs/archive/2f8527e44a7c92d2f23087a7607275aa480ab493.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1hHHr6RE5E",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 第四章 开荒 最优路线",
-      "summary": "流放之路2第四章开荒最优路线",
-      "author": "没钱没烦恼6",
-      "publishedAt": "2026-10-04T06:03:17.000Z",
-      "href": "https://www.bilibili.com/video/av117381120660757",
-      "cover": "https://i0.hdslb.com/bfs/archive/94f3e331b17f55d86d0426479984fb5ec536a12d.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
       "id": "bilibili-BV1pTeU6aEUN",
       "platform": "bilibili",
       "platformLabel": "B 站",
@@ -86,13 +73,20 @@
       "cover": "https://i1.hdslb.com/bfs/archive/1eddf3d800110781f0b1fd5853121d4a94ab8b1d.jpg",
       "query": "POE2 开荒",
       "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1mQen6oEeq",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路 POE2 -国服0.55闪回版本-战术家-灰烬仲裁官 开荒 实录-火力支援-超低造价-我在等药效你在等啥-新翅膀抽奖-天顶御剑战氅-黑色高达",
+      "summary": "来了来了，新赛季玩的是万剑（箭）归宗，战术家 火力支援 20级前我用的是榴弹，升华1以后就是用这个，今天刚打到90级，给大家看看我从B站学到以后自己弄的低配版本吧 另外今天小氪充了一个翅膀，太帅了兄弟们，叫做《天顶御剑战氅》搭配天赋亡灵执政官，直接变身黑色强袭高达哈哈哈哈，帅的一批啊兄弟们 最后这个BD非常简单，但是需要全程猴戏（等药效上来，不然会很卡手） 1、核心技能——火力支援，力量越高，伤害越高，但是CD太长，所以要全程触发亡灵执政官，我来异界第一件事就是涂油主宰，让亡灵执政官没有CD，如何",
+      "author": "今天工作也很累",
+      "publishedAt": "2026-09-15T09:25:22.000Z",
+      "href": "https://www.bilibili.com/video/av117274316904149",
+      "cover": "https://i2.hdslb.com/bfs/archive/c8495611f9f189770eeaf499d9695c3a33eded4e.jpg",
+      "query": "POE2 开荒",
+      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-10-11T22:07:54.828Z"
-    }
-  ]
+  "errors": []
 }
