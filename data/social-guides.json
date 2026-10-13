@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T14:25:10.191Z",
+  "updatedAt": "2026-10-13T22:58:01.394Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,6 +10,19 @@
   },
   "items": [
     {
+      "id": "bilibili-BV1X8pd6zEsE",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 风暴法电球 开荒 第三章",
+      "summary": "",
+      "author": "赛丽亚的旅馆k",
+      "publishedAt": "2026-10-12T14:31:53.000Z",
+      "href": "https://www.bilibili.com/video/av117428331809269",
+      "cover": "https://i2.hdslb.com/bfs/archive/76108c575b82be8993f492683fbb30ea3b121361.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
       "id": "bilibili-BV1vbpd6gEAA",
       "platform": "bilibili",
       "platformLabel": "B 站",
@@ -19,6 +32,19 @@
       "publishedAt": "2026-10-12T14:23:58.000Z",
       "href": "https://www.bilibili.com/video/av117428348525394",
       "cover": "https://i1.hdslb.com/bfs/archive/e7d2963d10014e7f5813ebdc82b955c17dc0aed6.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1r3pd6QEBF",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 风暴法电球 开荒 第二章",
+      "summary": "25拿到遗书之后就可以转电球了，过了升华1点出风暴记忆刷boss不缺灌注，个人习惯点出法球+1，这样配合寒霜爆可以获得2个灌注",
+      "author": "赛丽亚的旅馆k",
+      "publishedAt": "2026-10-12T14:20:17.000Z",
+      "href": "https://www.bilibili.com/video/av117428264635033",
+      "cover": "https://i2.hdslb.com/bfs/archive/ac6c10431fa181caf88ddb84f89f8c6a71089a41.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
@@ -52,38 +78,12 @@
       "id": "bilibili-BV112pg6cEno",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "我把常用的 流放之路2 网站，整理到了 Poe2.page",
+      "title": "我把常用的流放之路2网站，整理到了 Poe2 .page",
       "summary": "把常用的攻略、资料、物价与工具入口放在一页，支持分类筛选、搜索、个人收藏和卡片大小切换。欢迎来试试，也欢迎留言推荐你常用的网站。 外部资源由各自作者独立维护，本站提供导航入口。个人收藏保存在当前浏览器，不自动跨设备同步。",
       "author": "墨客Mok3",
       "publishedAt": "2026-10-10T09:31:58.000Z",
       "href": "https://www.bilibili.com/video/av117415899830012",
       "cover": "https://i2.hdslb.com/bfs/archive/c137fe3ae480567d0611dd41eeff40a1563ea5a4.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1pTeU6aEUN",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【流放2】【0.5.5】德鲁伊熊德轮椅 开荒 · 苦涩死亡神谕者（上）",
-      "summary": "0.5.5 赛季，p4wnyhof 这套「苦涩死亡神谕者」从 1 级单人自给自足开到终局。这期是第一部分，只到第二章结束。前面全程是另一套打法：熊德。 如果大家觉得有用的话 麻烦点赞、关注一下，反响不错的话我就接着做第二部分，谢谢大家。 文档还在制作中，有需要的，请在评论区留言，等文档制作完后我会一一回复的。",
-      "author": "刷图的八王爷",
-      "publishedAt": "2026-09-18T10:01:43.000Z",
-      "href": "https://www.bilibili.com/video/av117291446503664",
-      "cover": "https://i1.hdslb.com/bfs/archive/1eddf3d800110781f0b1fd5853121d4a94ab8b1d.jpg",
-      "query": "POE2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1mQen6oEeq",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路 POE2 -国服0.55闪回版本-战术家-灰烬仲裁官 开荒 实录-火力支援-超低造价-我在等药效你在等啥-新翅膀抽奖-天顶御剑战氅-黑色高达",
-      "summary": "来了来了，新赛季玩的是万剑（箭）归宗，战术家 火力支援 20级前我用的是榴弹，升华1以后就是用这个，今天刚打到90级，给大家看看我从B站学到以后自己弄的低配版本吧 另外今天小氪充了一个翅膀，太帅了兄弟们，叫做《天顶御剑战氅》搭配天赋亡灵执政官，直接变身黑色强袭高达哈哈哈哈，帅的一批啊兄弟们 最后这个BD非常简单，但是需要全程猴戏（等药效上来，不然会很卡手） 1、核心技能——火力支援，力量越高，伤害越高，但是CD太长，所以要全程触发亡灵执政官，我来异界第一件事就是涂油主宰，让亡灵执政官没有CD，如何",
-      "author": "今天工作也很累",
-      "publishedAt": "2026-09-15T09:25:22.000Z",
-      "href": "https://www.bilibili.com/video/av117274316904149",
-      "cover": "https://i2.hdslb.com/bfs/archive/c8495611f9f189770eeaf499d9695c3a33eded4e.jpg",
       "query": "POE2 开荒",
       "source": "B 站公开搜索"
     }
