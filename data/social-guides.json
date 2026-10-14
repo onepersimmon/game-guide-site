@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T12:03:47.257Z",
+  "updatedAt": "2026-10-14T17:25:07.672Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -75,16 +75,16 @@
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1mZpX6XErp",
+      "id": "bilibili-BV112pg6cEno",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "流放之路2 武僧冰系 开荒 第一章",
-      "summary": "",
-      "author": "twenty万",
-      "publishedAt": "2026-10-12T02:43:19.000Z",
-      "href": "https://www.bilibili.com/video/av117425630615085",
-      "cover": "https://i0.hdslb.com/bfs/archive/affd815bec3216ba134dea18867190df250177f2.jpg",
-      "query": "流放之路2 开荒",
+      "title": "我把常用的流放之路2网站，整理到了 Poe2 .page",
+      "summary": "把常用的攻略、资料、物价与工具入口放在一页，支持分类筛选、搜索、个人收藏和卡片大小切换。欢迎来试试，也欢迎留言推荐你常用的网站。 外部资源由各自作者独立维护，本站提供导航入口。个人收藏保存在当前浏览器，不自动跨设备同步。",
+      "author": "墨客Mok3",
+      "publishedAt": "2026-10-10T09:31:58.000Z",
+      "href": "https://www.bilibili.com/video/av117415899830012",
+      "cover": "https://i2.hdslb.com/bfs/archive/c137fe3ae480567d0611dd41eeff40a1563ea5a4.jpg",
+      "query": "POE2 开荒",
       "source": "B 站公开搜索"
     }
   ],
