@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T05:04:19.046Z",
+  "updatedAt": "2026-10-14T12:03:47.257Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1wKpk6UExP",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 电球 开荒 第二章！25级转职电球一路刮进异界",
+      "summary": "能点到法球+1天赋让寒霜爆获得2个灌注就可以转了，我一般是25拿到遗书后直接过升华转一下，这个看个人习惯，不过前期不建议投入过多天赋走三维属性点，毕竟前期还是比较缺伤害的，属性够装备和技能需求就行了",
+      "author": "流放2真好玩",
+      "publishedAt": "2026-10-14T02:24:50.000Z",
+      "href": "https://www.bilibili.com/video/av117436854569877",
+      "cover": "https://i1.hdslb.com/bfs/archive/96e598ed0052806c38db8586dcbe8f7aad970bf6.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1X8pd6zEsE",
       "platform": "bilibili",
@@ -72,19 +85,6 @@
       "href": "https://www.bilibili.com/video/av117425630615085",
       "cover": "https://i0.hdslb.com/bfs/archive/affd815bec3216ba134dea18867190df250177f2.jpg",
       "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV112pg6cEno",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "我把常用的流放之路2网站，整理到了 Poe2 .page",
-      "summary": "把常用的攻略、资料、物价与工具入口放在一页，支持分类筛选、搜索、个人收藏和卡片大小切换。欢迎来试试，也欢迎留言推荐你常用的网站。 外部资源由各自作者独立维护，本站提供导航入口。个人收藏保存在当前浏览器，不自动跨设备同步。",
-      "author": "墨客Mok3",
-      "publishedAt": "2026-10-10T09:31:58.000Z",
-      "href": "https://www.bilibili.com/video/av117415899830012",
-      "cover": "https://i2.hdslb.com/bfs/archive/c137fe3ae480567d0611dd41eeff40a1563ea5a4.jpg",
-      "query": "POE2 开荒",
       "source": "B 站公开搜索"
     }
   ],
