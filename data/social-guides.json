@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T11:43:26.675Z",
+  "updatedAt": "2026-10-15T17:14:31.785Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,15 +10,15 @@
   },
   "items": [
     {
-      "id": "bilibili-BV1wKpk6UExP",
+      "id": "bilibili-BV14YJk6JEEH",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "流放之路2 电球 开荒 第二章！25级转职电球一路刮进异界",
-      "summary": "能点到法球+1天赋让寒霜爆获得2个灌注就可以转了，我一般是25拿到遗书后直接过升华转一下，这个看个人习惯，不过前期不建议投入过多天赋走三维属性点，毕竟前期还是比较缺伤害的，属性够装备和技能需求就行了",
-      "author": "流放2真好玩",
-      "publishedAt": "2026-10-14T02:24:50.000Z",
-      "href": "https://www.bilibili.com/video/av117436854569877",
-      "cover": "https://i1.hdslb.com/bfs/archive/96e598ed0052806c38db8586dcbe8f7aad970bf6.jpg",
+      "title": "【 流放2 】LilBotQ 冷门暗金三杰，低成本高回报， 开荒 到毕业",
+      "summary": "LilBotQ深度解析《流放2》远古回响中三件被低估的暗金装备：幽暗残余、绮梦和布鲁特斯的刑具。它们并非版本主流，但都能通关所有内容，并带来独特构筑可能。从物理转冰缓防御、药剂持续回复到力量堆叠触发熔火喷溅，为你打开新玩法的大门。",
+      "author": "棱镜poe2lens",
+      "publishedAt": "2026-10-15T06:54:59.000Z",
+      "href": "https://www.bilibili.com/video/av117443599075698",
+      "cover": "https://i2.hdslb.com/bfs/archive/f9b478afcaeb70018af316a53f93f4a82262bdb7.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
@@ -88,11 +88,5 @@
       "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-10-15T11:43:26.675Z"
-    }
-  ]
+  "errors": []
 }
