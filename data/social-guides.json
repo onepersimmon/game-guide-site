@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T16:49:24.320Z",
+  "updatedAt": "2026-10-16T21:19:58.250Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,6 +10,45 @@
   },
   "items": [
     {
+      "id": "bilibili-BV1cHJ86uE4U",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】专家牢战の全流程攻略实况",
+      "summary": "阿巴阿巴 有关于专家服的问题都可以问我 我的粉丝群：453115741 专家模式交流群：1025951977",
+      "author": "烩炒稻草人",
+      "publishedAt": "2026-10-16T15:48:42.000Z",
+      "href": "https://www.bilibili.com/video/av117451333307028",
+      "cover": "https://i1.hdslb.com/bfs/archive/8d52de8e3b04915cb888aa9b10f9a414e9aafd6b.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1kfJt6NEbs",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 穷哥们平民 开荒 怎么选择？",
+      "summary": "",
+      "author": "鹿晓萱呀",
+      "publishedAt": "2026-10-16T11:50:32.000Z",
+      "href": "https://www.bilibili.com/video/av117450427341431",
+      "cover": "https://i2.hdslb.com/bfs/archive/df666545f713d3cbc06245eac5e84da07dd46154.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1TSJt6GEJP",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "时空三 开荒 第一天六小时到万界，纵享丝滑！ #火炬之光无限 #火炬之光 #火炬之光无限SS14赛季 # 流放之路2",
+      "summary": "",
+      "author": "我才是老失",
+      "publishedAt": "2026-10-16T10:51:21.000Z",
+      "href": "https://www.bilibili.com/video/av117450192526229",
+      "cover": "https://i2.hdslb.com/bfs/archive/819ed54cfe58d3681f1b00f430b7c4d8f88498fe.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
       "id": "bilibili-BV14YJk6JEEH",
       "platform": "bilibili",
       "platformLabel": "B 站",
@@ -19,19 +58,6 @@
       "publishedAt": "2026-10-15T06:54:59.000Z",
       "href": "https://www.bilibili.com/video/av117443599075698",
       "cover": "https://i2.hdslb.com/bfs/archive/f9b478afcaeb70018af316a53f93f4a82262bdb7.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV14pp16eEnf",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放2 0.55赛季旋风 开荒 第一章38分28秒击杀狼王",
-      "summary": "还有很多细节不到位，主播手残，体谅一下。。",
-      "author": "ESCANOR_艾斯卡诺",
-      "publishedAt": "2026-10-14T11:26:08.000Z",
-      "href": "https://www.bilibili.com/video/av117439002053034",
-      "cover": "https://i2.hdslb.com/bfs/archive/1cfdd19e91583c0f93acd106b8f90544f6684f47.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
@@ -60,39 +86,7 @@
       "cover": "https://i2.hdslb.com/bfs/archive/ac6c10431fa181caf88ddb84f89f8c6a71089a41.jpg",
       "query": "POE2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1rVpd6nEAe",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2电球 开荒 第一章",
-      "summary": "第一章灵吸+瘟疫还是太权威了",
-      "author": "赛丽亚的旅馆k",
-      "publishedAt": "2026-10-12T13:51:24.000Z",
-      "href": "https://www.bilibili.com/video/av117428180747460",
-      "cover": "https://i0.hdslb.com/bfs/archive/da59ba23f97c91a3b13a5a2cf28fe769c3f94ae9.jpg",
-      "query": "POE2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV112pg6cEno",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "我把常用的流放之路2网站，整理到了 Poe2 .page",
-      "summary": "把常用的攻略、资料、物价与工具入口放在一页，支持分类筛选、搜索、个人收藏和卡片大小切换。欢迎来试试，也欢迎留言推荐你常用的网站。 外部资源由各自作者独立维护，本站提供导航入口。个人收藏保存在当前浏览器，不自动跨设备同步。",
-      "author": "墨客Mok3",
-      "publishedAt": "2026-10-10T09:31:58.000Z",
-      "href": "https://www.bilibili.com/video/av117415899830012",
-      "cover": "https://i2.hdslb.com/bfs/archive/c137fe3ae480567d0611dd41eeff40a1563ea5a4.jpg",
-      "query": "POE2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-10-16T16:49:24.320Z"
-    }
-  ]
+  "errors": []
 }
