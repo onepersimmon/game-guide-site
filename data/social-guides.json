@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T21:34:29.057Z",
+  "updatedAt": "2026-10-16T04:43:28.853Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -19,6 +19,19 @@
       "publishedAt": "2026-10-15T06:54:59.000Z",
       "href": "https://www.bilibili.com/video/av117443599075698",
       "cover": "https://i2.hdslb.com/bfs/archive/f9b478afcaeb70018af316a53f93f4a82262bdb7.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV14pp16eEnf",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放2 0.55赛季旋风 开荒 第一章38分28秒击杀狼王",
+      "summary": "还有很多细节不到位，主播手残，体谅一下。。",
+      "author": "ESCANOR_艾斯卡诺",
+      "publishedAt": "2026-10-14T11:26:08.000Z",
+      "href": "https://www.bilibili.com/video/av117439002053034",
+      "cover": "https://i2.hdslb.com/bfs/archive/1cfdd19e91583c0f93acd106b8f90544f6684f47.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
@@ -71,19 +84,6 @@
       "publishedAt": "2026-10-10T09:31:58.000Z",
       "href": "https://www.bilibili.com/video/av117415899830012",
       "cover": "https://i2.hdslb.com/bfs/archive/c137fe3ae480567d0611dd41eeff40a1563ea5a4.jpg",
-      "query": "POE2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1pTeU6aEUN",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【流放2】【0.5.5】德鲁伊熊德轮椅 开荒 · 苦涩死亡神谕者（上）",
-      "summary": "0.5.5 赛季，p4wnyhof 这套「苦涩死亡神谕者」从 1 级单人自给自足开到终局。这期是第一部分，只到第二章结束。前面全程是另一套打法：熊德。 如果大家觉得有用的话 麻烦点赞、关注一下，反响不错的话我就接着做第二部分，谢谢大家。 文档还在制作中，有需要的，请在评论区留言，等文档制作完后我会一一回复的。",
-      "author": "刷图的八王爷",
-      "publishedAt": "2026-09-18T10:01:43.000Z",
-      "href": "https://www.bilibili.com/video/av117291446503664",
-      "cover": "https://i1.hdslb.com/bfs/archive/1eddf3d800110781f0b1fd5853121d4a94ab8b1d.jpg",
       "query": "POE2 开荒",
       "source": "B 站公开搜索"
     }
