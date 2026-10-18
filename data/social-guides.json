@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T20:45:14.343Z",
+  "updatedAt": "2026-10-18T04:45:44.430Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,45 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1VVJB62E2Q",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "分享一把新赛季小号 开荒 神器，告别剧情坐牢！（ 流放2 0.55/0.5赛季）",
+      "summary": "",
+      "author": "大叔认真玩游戏",
+      "publishedAt": "2026-10-18T03:45:00.000Z",
+      "href": "https://www.bilibili.com/video/av117456903345835",
+      "cover": "https://i1.hdslb.com/bfs/archive/38f58ed22d9305dd6c56fa19cb4aeec9f846f9bf.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1ygJz6qE2C",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "我最强的 开荒 构筑！灵魂行者召唤师指南",
+      "summary": "YouTube Zizaran 了他的 Spirit Walker 召唤师构筑，该构筑在《流放之路 2》0.5 版本“Return of the Ancients”中表现极为强势。视频包含构筑规划器，并介绍了 Maxroll 游戏内构筑规划器的使用方法。视频按时间轴涵盖以下内容：介绍与构筑展示、早期升级技能与装备、如何切换到伙伴、最佳召唤物、宝石与天赋树协同、战役任务选择与奖励、当前防御、装备与天赋树概览，以及后续构筑计划与总结。",
+      "author": "老王快乐游戏生活",
+      "publishedAt": "2026-10-17T22:55:22.000Z",
+      "href": "https://www.bilibili.com/video/av117458698505075",
+      "cover": "https://i1.hdslb.com/bfs/archive/e65e172575be644fc60bb9fd748301e6476419ec.png",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1DZJB61EsJ",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "在削弱前试试这个构筑！！——灵行者猴兽驯服者",
+      "summary": "YouTube Zizaran 他在《流放之路2》0.5.5 禁忌仪式赛季的灵行者开荒构筑指南。书面指南和构筑文件可在上方链接中找到。",
+      "author": "老王快乐游戏生活",
+      "publishedAt": "2026-10-17T22:23:22.000Z",
+      "href": "https://www.bilibili.com/video/av117458564287228",
+      "cover": "https://i2.hdslb.com/bfs/archive/ac0a8c85588bdbd4f470a2724e50bdf89a7a3d0f.png",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1cHJ86uE4U",
       "platform": "bilibili",
@@ -46,45 +85,6 @@
       "href": "https://www.bilibili.com/video/av117450192526229",
       "cover": "https://i2.hdslb.com/bfs/archive/819ed54cfe58d3681f1b00f430b7c4d8f88498fe.jpg",
       "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV14YJk6JEEH",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】LilBotQ 冷门暗金三杰，低成本高回报， 开荒 到毕业",
-      "summary": "LilBotQ深度解析《流放2》远古回响中三件被低估的暗金装备：幽暗残余、绮梦和布鲁特斯的刑具。它们并非版本主流，但都能通关所有内容，并带来独特构筑可能。从物理转冰缓防御、药剂持续回复到力量堆叠触发熔火喷溅，为你打开新玩法的大门。",
-      "author": "棱镜poe2lens",
-      "publishedAt": "2026-10-15T06:54:59.000Z",
-      "href": "https://www.bilibili.com/video/av117443599075698",
-      "cover": "https://i2.hdslb.com/bfs/archive/f9b478afcaeb70018af316a53f93f4a82262bdb7.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1X8pd6zEsE",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2风暴法电球 开荒 第三章",
-      "summary": "",
-      "author": "赛丽亚的旅馆k",
-      "publishedAt": "2026-10-12T14:31:53.000Z",
-      "href": "https://www.bilibili.com/video/av117428331809269",
-      "cover": "https://i2.hdslb.com/bfs/archive/76108c575b82be8993f492683fbb30ea3b121361.jpg",
-      "query": "POE2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1r3pd6QEBF",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2风暴法电球 开荒 第二章",
-      "summary": "25拿到遗书之后就可以转电球了，过了升华1点出风暴记忆刷boss不缺灌注，个人习惯点出法球+1，这样配合寒霜爆可以获得2个灌注",
-      "author": "赛丽亚的旅馆k",
-      "publishedAt": "2026-10-12T14:20:17.000Z",
-      "href": "https://www.bilibili.com/video/av117428264635033",
-      "cover": "https://i2.hdslb.com/bfs/archive/ac6c10431fa181caf88ddb84f89f8c6a71089a41.jpg",
-      "query": "POE2 开荒",
       "source": "B 站公开搜索"
     }
   ],
