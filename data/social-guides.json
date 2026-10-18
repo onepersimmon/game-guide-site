@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T04:45:44.430Z",
+  "updatedAt": "2026-10-18T11:22:37.437Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -75,16 +75,16 @@
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1TSJt6GEJP",
+      "id": "bilibili-BV1X8pd6zEsE",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "时空三 开荒 第一天六小时到万界，纵享丝滑！ #火炬之光无限 #火炬之光 #火炬之光无限SS14赛季 # 流放之路2",
+      "title": "流放之路2风暴法电球 开荒 第三章",
       "summary": "",
-      "author": "我才是老失",
-      "publishedAt": "2026-10-16T10:51:21.000Z",
-      "href": "https://www.bilibili.com/video/av117450192526229",
-      "cover": "https://i2.hdslb.com/bfs/archive/819ed54cfe58d3681f1b00f430b7c4d8f88498fe.jpg",
-      "query": "流放之路2 开荒",
+      "author": "赛丽亚的旅馆k",
+      "publishedAt": "2026-10-12T14:31:53.000Z",
+      "href": "https://www.bilibili.com/video/av117428331809269",
+      "cover": "https://i2.hdslb.com/bfs/archive/76108c575b82be8993f492683fbb30ea3b121361.jpg",
+      "query": "POE2 开荒",
       "source": "B 站公开搜索"
     }
   ],
