@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T13:32:38.791Z",
+  "updatedAt": "2026-10-19T22:26:52.921Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14492,16 +14492,16 @@
           }
         },
         {
-          "type": "Dull Hatchet",
-          "text": "INCOMPLETE Dull Hatchet",
+          "type": "Charred Shortsword",
+          "text": "INCOMPLETE Charred Shortsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Charred Shortsword",
-          "text": "INCOMPLETE Charred Shortsword",
+          "type": "Dull Hatchet",
+          "text": "INCOMPLETE Dull Hatchet",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
@@ -14548,14 +14548,6 @@
           }
         },
         {
-          "type": "Chain Flail",
-          "text": "INCOMPLETE Chain Flail",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
           "type": "Bearded Axe",
           "text": "INCOMPLETE Bearded Axe",
           "name": "INCOMPLETE",
@@ -14566,6 +14558,22 @@
         {
           "type": "Iron Greatsword",
           "text": "INCOMPLETE Iron Greatsword",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Chain Flail",
+          "text": "INCOMPLETE Chain Flail",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Holy Flail",
+          "text": "INCOMPLETE Holy Flail",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
@@ -14630,14 +14638,6 @@
         {
           "type": "Moon Dagger",
           "text": "INCOMPLETE Moon Dagger",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
-          "type": "Holy Flail",
-          "text": "INCOMPLETE Holy Flail",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true

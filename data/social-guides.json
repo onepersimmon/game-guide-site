@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T13:37:18.707Z",
+  "updatedAt": "2026-10-19T22:28:58.939Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1EeJR6TEvz",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "关于法系 开荒 武器，对比测试（ 流放2 0.55/0.5赛季）",
+      "summary": "",
+      "author": "大叔认真玩游戏",
+      "publishedAt": "2026-10-19T13:09:05.000Z",
+      "href": "https://www.bilibili.com/video/av117467724651057",
+      "cover": "https://i2.hdslb.com/bfs/archive/09dabab70ae1a7798501c115afec5fb71f3959c2.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1VVJB62E2Q",
       "platform": "bilibili",
@@ -62,19 +75,6 @@
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1kfJt6NEbs",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 穷哥们平民 开荒 怎么选择？",
-      "summary": "",
-      "author": "鹿晓萱呀",
-      "publishedAt": "2026-10-16T11:50:32.000Z",
-      "href": "https://www.bilibili.com/video/av117450427341431",
-      "cover": "https://i2.hdslb.com/bfs/archive/df666545f713d3cbc06245eac5e84da07dd46154.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
       "id": "bilibili-BV1X8pd6zEsE",
       "platform": "bilibili",
       "platformLabel": "B 站",
@@ -88,11 +88,5 @@
       "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-10-19T13:37:18.707Z"
-    }
-  ]
+  "errors": []
 }
