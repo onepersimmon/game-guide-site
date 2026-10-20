@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T05:03:22.340Z",
+  "updatedAt": "2026-10-20T11:50:39.893Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1XhnF6CEaZ",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】Talkative Tri 0.1版本回顾：从魂系 开荒 到装备大爆的全过程",
+      "summary": "Talkative Tri回顾《流放之路2》0.1抢先体验版本：上线三天Steam峰值57.8万，开发成本迅速收回。剧情开荒因Boss强度、掉落稀少被玩家贴上魂系标签，GGG四天内紧急上调爆率、削弱怪物词缀，却又因翻滚体积归零等改动引发争议。终局与剧情的体验割裂，成为这一版本最核心的遗留问题。",
+      "author": "棱镜poe2lens",
+      "publishedAt": "2026-10-20T02:23:44.000Z",
+      "href": "https://www.bilibili.com/video/av117470845209729",
+      "cover": "https://i1.hdslb.com/bfs/archive/0b0b9b21f82c5a889d94f943d47204c278f0b679.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1eyJR68EJc",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 POE2 0.55 国际服 FGKorbyn21 武僧 武圣 异界 开荒 实录",
+      "summary": "简介：FGKorbyn21 _ Giga Bonk Martial Artist",
+      "author": "无名孽火",
+      "publishedAt": "2026-10-19T13:59:15.000Z",
+      "href": "https://www.bilibili.com/video/av117467875710544",
+      "cover": "https://i1.hdslb.com/bfs/archive/5afe6d2c62bc54e7a4fce784c849db0858823889.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1EeJR6TEvz",
       "platform": "bilibili",
@@ -60,39 +86,7 @@
       "cover": "https://i2.hdslb.com/bfs/archive/ac0a8c85588bdbd4f470a2724e50bdf89a7a3d0f.png",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1cHJ86uE4U",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】专家牢战の全流程攻略实况",
-      "summary": "阿巴阿巴 有关于专家服的问题都可以问我 我的粉丝群：453115741 专家模式交流群：1025951977",
-      "author": "烩炒稻草人",
-      "publishedAt": "2026-10-16T15:48:42.000Z",
-      "href": "https://www.bilibili.com/video/av117451333307028",
-      "cover": "https://i1.hdslb.com/bfs/archive/8d52de8e3b04915cb888aa9b10f9a414e9aafd6b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1X8pd6zEsE",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2风暴法电球 开荒 第三章",
-      "summary": "",
-      "author": "赛丽亚的旅馆k",
-      "publishedAt": "2026-10-12T14:31:53.000Z",
-      "href": "https://www.bilibili.com/video/av117428331809269",
-      "cover": "https://i2.hdslb.com/bfs/archive/76108c575b82be8993f492683fbb30ea3b121361.jpg",
-      "query": "POE2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-10-20T05:03:22.340Z"
-    }
-  ]
+  "errors": []
 }
