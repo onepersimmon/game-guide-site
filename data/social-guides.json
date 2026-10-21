@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T05:01:47.853Z",
+  "updatedAt": "2026-10-21T12:02:57.023Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1WvnA6BEXP",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "粤语解说， 流放之路2 闪回0.55赛季行者 开荒 ，第一章",
+      "summary": "",
+      "author": "乃西哥",
+      "publishedAt": "2026-10-20T13:21:00.000Z",
+      "href": "https://www.bilibili.com/video/av117473395346381",
+      "cover": "https://i1.hdslb.com/bfs/archive/0bd8b74247fc5e5e7f4078363620b1c46de80aaa.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1XhnF6CEaZ",
       "platform": "bilibili",
@@ -73,26 +86,7 @@
       "cover": "https://i1.hdslb.com/bfs/archive/e65e172575be644fc60bb9fd748301e6476419ec.png",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1DZJB61EsJ",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "在削弱前试试这个构筑！！——灵行者猴兽驯服者",
-      "summary": "YouTube Zizaran 他在《流放之路2》0.5.5 禁忌仪式赛季的灵行者开荒构筑指南。书面指南和构筑文件可在上方链接中找到。",
-      "author": "老王快乐游戏生活",
-      "publishedAt": "2026-10-17T22:23:22.000Z",
-      "href": "https://www.bilibili.com/video/av117458564287228",
-      "cover": "https://i2.hdslb.com/bfs/archive/ac0a8c85588bdbd4f470a2724e50bdf89a7a3d0f.png",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-10-21T05:01:47.853Z"
-    }
-  ]
+  "errors": []
 }
