@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-10-21T17:23:00.352Z",
+  "updatedAt": "2026-10-21T21:50:22.225Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "exilecon-2026-merchandise",
+      "title": "ExileCon 2026 Merchandise",
+      "date": "2026-10-21T20:15:57+00:00",
+      "summary": "Attendees at ExileCon 2026 will have exclusive first access to a variety of new merchandise. This year, we’ve prepared more than 60 new goodies, including T-shirts, pins, keycaps, posters, plushies, and more. Take a sneak peek in this news post!",
+      "href": "https://www.pathofexile.com/forum/view-thread/4011440",
+      "thumb": "https://web.poecdn.com/public/news/2026-10-22/ExileConMerch1Twitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "ExileCon 2026 Merchandise",
+          "summary": "Attendees at ExileCon 2026 will have exclusive first access to a variety of new merchandise. This year, we’ve prepared more than 60 new goodies, including T-shirts, pins, keycaps, posters, plushies, and more. Take a sneak peek in this news post!",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "ExileCon 2026 Merchandise",
+          "summary": "Attendees at ExileCon 2026 will have exclusive first access to a variety of new merchandise. This year, we’ve prepared more than 60 new goodies, including T-shirts, pins, keycaps, posters, plushies, and more. Take a sneak peek in this news post!",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "path-of-exile-2-full-release-registration-sign-up-and-unlock-exclusive-rewards",
       "title": "Path of Exile 2 Full Release Registration - Sign Up and Unlock Exclusive Rewards",
@@ -44,27 +65,6 @@
         "en": {
           "title": "ExileCon 2026 Cosplay and Costume Weapons Policy",
           "summary": "If you're attending ExileCon 2026 and are intending to cosplay or bring any props, you'll need to ensure that you follow our ExileCon 2026 Cosplay and Costume Weapons Policy. Check it out in today's news post.",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "one-month-until-exilecon-2026",
-      "title": "One Month until ExileCon 2026",
-      "date": "2026-10-06T21:00:53+00:00",
-      "summary": "In just a month, on November 7 and 8 NZT, we’ll be hosting ExileCon 2026, where we’ll reveal our latest announcements, host developer talks, feature race finales for both games, and much more! Find out more in this news post.",
-      "href": "https://www.pathofexile.com/forum/view-thread/4009902",
-      "thumb": "https://web.poecdn.com/public/news/2026-10-07/OneMonthExileconTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "One Month until ExileCon 2026",
-          "summary": "In just a month, on November 7 and 8 NZT, we’ll be hosting ExileCon 2026, where we’ll reveal our latest announcements, host developer talks, feature race finales for both games, and much more! Find out more in this news post.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "One Month until ExileCon 2026",
-          "summary": "In just a month, on November 7 and 8 NZT, we’ll be hosting ExileCon 2026, where we’ll reveal our latest announcements, host developer talks, feature race finales for both games, and much more! Find out more in this news post.",
           "category": "Blue Post"
         }
       }

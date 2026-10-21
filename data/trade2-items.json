@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T17:20:20.529Z",
+  "updatedAt": "2026-10-21T21:48:30.963Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14484,16 +14484,16 @@
           }
         },
         {
-          "type": "Crone Knife",
-          "text": "INCOMPLETE Crone Knife",
+          "type": "Charred Shortsword",
+          "text": "INCOMPLETE Charred Shortsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Charred Shortsword",
-          "text": "INCOMPLETE Charred Shortsword",
+          "type": "Crone Knife",
+          "text": "INCOMPLETE Crone Knife",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true

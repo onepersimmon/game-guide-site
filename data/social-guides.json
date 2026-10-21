@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T17:23:03.154Z",
+  "updatedAt": "2026-10-21T21:50:23.691Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1jrn66FEau",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "战士 开荒 用加特林和蛇女激情对射（ 流放2 0.55/0.5赛季）",
+      "summary": "",
+      "author": "大叔认真玩游戏",
+      "publishedAt": "2026-10-21T15:05:00.000Z",
+      "href": "https://www.bilibili.com/video/av117479502322548",
+      "cover": "https://i1.hdslb.com/bfs/archive/cb0e9066257038e9a339e0cbe842bca216141adb.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1WvnA6BEXP",
       "platform": "bilibili",
@@ -73,26 +86,7 @@
       "cover": "https://i1.hdslb.com/bfs/archive/38f58ed22d9305dd6c56fa19cb4aeec9f846f9bf.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1ygJz6qE2C",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "我最强的 开荒 构筑！灵魂行者召唤师指南",
-      "summary": "YouTube Zizaran 了他的 Spirit Walker 召唤师构筑，该构筑在《流放之路 2》0.5 版本“Return of the Ancients”中表现极为强势。视频包含构筑规划器，并介绍了 Maxroll 游戏内构筑规划器的使用方法。视频按时间轴涵盖以下内容：介绍与构筑展示、早期升级技能与装备、如何切换到伙伴、最佳召唤物、宝石与天赋树协同、战役任务选择与奖励、当前防御、装备与天赋树概览，以及后续构筑计划与总结。",
-      "author": "老王快乐游戏生活",
-      "publishedAt": "2026-10-17T22:55:22.000Z",
-      "href": "https://www.bilibili.com/video/av117458698505075",
-      "cover": "https://i1.hdslb.com/bfs/archive/e65e172575be644fc60bb9fd748301e6476419ec.png",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-10-21T17:23:03.154Z"
-    }
-  ]
+  "errors": []
 }
