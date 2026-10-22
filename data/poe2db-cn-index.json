@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T12:04:28.109Z",
+  "updatedAt": "2026-10-22T17:22:57.664Z",
   "locale": "tw",
   "source": [
     "https://poe2db.tw/tw/Skill_Gems",
@@ -104639,27 +104639,6 @@
     },
     {
       "type": "modifier",
-      "hash": "70c4d9ee980764a52758316b1a8b278f041be9516fa0164ffa626e7e395eb40d",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/70c4d9ee980764a52758316b1a8b278f041be9516fa0164ffa626e7e395eb40d",
-      "title": "增加 (19 — 21) %施法速度",
-      "name": "巫術之",
-      "family": "IncreasedCastSpeed",
-      "domains": "物品 (1)",
-      "generationType": "後綴 (2)",
-      "reqLevel": 51,
-      "stats": [
-        {
-          "text": "base cast speed +% 19 — 21 Global",
-          "min": null,
-          "max": null,
-          "scope": ""
-        }
-      ],
-      "itemClasses": [],
-      "searchText": "增加 (19 — 21) %施法速度 巫術之 IncreasedCastSpeed 後綴 (2) 物品 (1) 需求等級 51 base cast speed +% 19 — 21 Global"
-    },
-    {
-      "type": "modifier",
       "hash": "a83547ade61bbf6bad8a73aa74ede81a1b74d1c3e78bc571173c647c61fd5b7c",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a83547ade61bbf6bad8a73aa74ede81a1b74d1c3e78bc571173c647c61fd5b7c",
       "title": "增加 (22 — 24) %施法速度",
@@ -127700,27 +127679,6 @@
     },
     {
       "type": "modifier",
-      "hash": "e0a4d5645228b5308fcb7579721a5b8d5eba58306a6fc89bdc31ec1bbba1a705",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e0a4d5645228b5308fcb7579721a5b8d5eba58306a6fc89bdc31ec1bbba1a705",
-      "title": "+(8 — 10) %至 榮譽抗性",
-      "name": "價值之",
-      "family": "SanctumHonourResistance",
-      "domains": "SanctumRelic (8)",
-      "generationType": "後綴 (2)",
-      "reqLevel": 1,
-      "stats": [
-        {
-          "text": "sanctum honour resistance % 8 — 10 Global",
-          "min": null,
-          "max": null,
-          "scope": ""
-        }
-      ],
-      "itemClasses": [],
-      "searchText": "+(8 — 10) %至 榮譽抗性 價值之 SanctumHonourResistance 後綴 (2) SanctumRelic (8) 需求等級 1 sanctum honour resistance % 8 — 10 Global"
-    },
-    {
-      "type": "modifier",
       "hash": "4885b51332e8b989ab0f8f686a1a606f4eb21e476576f2940669de7892d62b7b",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/4885b51332e8b989ab0f8f686a1a606f4eb21e476576f2940669de7892d62b7b",
       "title": "+(11 — 13) %至 榮譽抗性",
@@ -128915,27 +128873,6 @@
     },
     {
       "type": "modifier",
-      "hash": "19c9202dc0585e583c68d5421e3c324007d6cd9ba379574818e8660763e1dfbb",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/19c9202dc0585e583c68d5421e3c324007d6cd9ba379574818e8660763e1dfbb",
-      "title": "增加 (8 — 12) % 混沌 傷害",
-      "name": "被污染的",
-      "family": "IncreasedChaosDamage",
-      "domains": "物品 (1)",
-      "generationType": "前綴 (1)",
-      "reqLevel": 16,
-      "stats": [
-        {
-          "text": "chaos damage +% 8 — 12 Global",
-          "min": null,
-          "max": null,
-          "scope": ""
-        }
-      ],
-      "itemClasses": [],
-      "searchText": "增加 (8 — 12) % 混沌 傷害 被污染的 IncreasedChaosDamage 前綴 (1) 物品 (1) 需求等級 16 chaos damage +% 8 — 12 Global"
-    },
-    {
-      "type": "modifier",
       "hash": "b24fc156a120785567f011a17f113cb85690c887f7b6924dc5beae34eda61bc4",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/b24fc156a120785567f011a17f113cb85690c887f7b6924dc5beae34eda61bc4",
       "title": "增加 (13 — 17) % 混沌 傷害",
@@ -129332,27 +129269,6 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (21 — 29) %召喚物的冷卻時間恢復率 振奮之 MinionCooldown 後綴 (2) 深淵 (28) 需求等級 1 minion cooldown recovery +% 21 — 29 Global"
-    },
-    {
-      "type": "modifier",
-      "hash": "61f2c1e5b97d575ff3aef85a91b51acf74f8768fb02b699fc2f2a7a15ede5d55",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/61f2c1e5b97d575ff3aef85a91b51acf74f8768fb02b699fc2f2a7a15ede5d55",
-      "title": "每當你使用 號令 技能時，有 (40 — 50) % 滿溢機率 獲得一層 傀儡大師",
-      "name": "秘社之",
-      "family": "MinionGainPuppetMasterOnCommand",
-      "domains": "深淵 (28)",
-      "generationType": "後綴 (2)",
-      "reqLevel": 1,
-      "stats": [
-        {
-          "text": "surpassing chance % to gain 1 puppeteer stack on using command skill 40 — 50 Global",
-          "min": null,
-          "max": null,
-          "scope": ""
-        }
-      ],
-      "itemClasses": [],
-      "searchText": "每當你使用 號令 技能時，有 (40 — 50) % 滿溢機率 獲得一層 傀儡大師 秘社之 MinionGainPuppetMasterOnCommand 後綴 (2) 深淵 (28) 需求等級 1 surpassing chance % to gain 1 puppeteer stack on using command skill 40 — 50 Global"
     },
     {
       "type": "modifier",
@@ -134861,27 +134777,6 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (69 — 88) % 閃電 傷害 嘶聲的 WeaponDamageTypePrefix 前綴 (1) 物品 (1) 需求等級 8 lightning damage +% 69 — 88 Global"
-    },
-    {
-      "type": "modifier",
-      "hash": "c74ff4028feeb6a67d46b750661e34dafe5433207215554b6c46924e003fef5d",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c74ff4028feeb6a67d46b750661e34dafe5433207215554b6c46924e003fef5d",
-      "title": "增加 (89 — 108) % 閃電 傷害",
-      "name": "電光的",
-      "family": "WeaponDamageTypePrefix",
-      "domains": "物品 (1)",
-      "generationType": "前綴 (1)",
-      "reqLevel": 16,
-      "stats": [
-        {
-          "text": "lightning damage +% 89 — 108 Global",
-          "min": null,
-          "max": null,
-          "scope": ""
-        }
-      ],
-      "itemClasses": [],
-      "searchText": "增加 (89 — 108) % 閃電 傷害 電光的 WeaponDamageTypePrefix 前綴 (1) 物品 (1) 需求等級 16 lightning damage +% 89 — 108 Global"
     },
     {
       "type": "modifier",

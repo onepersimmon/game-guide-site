@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T12:04:45.338Z",
+  "updatedAt": "2026-10-22T17:23:12.346Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -49,6 +49,19 @@
       "source": "B 站公开搜索"
     },
     {
+      "id": "bilibili-BV1VBnw6mEYq",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 POE2 0.55 国际服 Sargetwo 旋风 古灵 HCSSF 开荒 实录",
+      "summary": "流放之路2 POE2 0.55 国际服 Sargetwo 古灵使徒旋风 HCSSF 首日开荒实录 主要学习HCSSF模式的一些小技巧。",
+      "author": "无名孽火",
+      "publishedAt": "2026-10-20T06:50:56.000Z",
+      "href": "https://www.bilibili.com/video/av117471868686499",
+      "cover": "https://i2.hdslb.com/bfs/archive/273c208cd42535792a609f45d74f3cfc63126217.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
       "id": "bilibili-BV1XhnF6CEaZ",
       "platform": "bilibili",
       "platformLabel": "B 站",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-10-19T13:59:15.000Z",
       "href": "https://www.bilibili.com/video/av117467875710544",
       "cover": "https://i1.hdslb.com/bfs/archive/5afe6d2c62bc54e7a4fce784c849db0858823889.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1EeJR6TEvz",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "关于法系 开荒 武器，对比测试（ 流放2 0.55/0.5赛季）",
-      "summary": "",
-      "author": "大叔认真玩游戏",
-      "publishedAt": "2026-10-19T13:09:05.000Z",
-      "href": "https://www.bilibili.com/video/av117467724651057",
-      "cover": "https://i2.hdslb.com/bfs/archive/09dabab70ae1a7798501c115afec5fb71f3959c2.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
