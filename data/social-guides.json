@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T21:50:23.691Z",
+  "updatedAt": "2026-10-22T05:15:07.264Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -19,6 +19,19 @@
       "publishedAt": "2026-10-21T15:05:00.000Z",
       "href": "https://www.bilibili.com/video/av117479502322548",
       "cover": "https://i1.hdslb.com/bfs/archive/cb0e9066257038e9a339e0cbe842bca216141adb.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1YLnv6rE7f",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "粤语解说， 流放2 闪回0.55赛季行者 开荒 ，第四章",
+      "summary": "",
+      "author": "乃西哥",
+      "publishedAt": "2026-10-21T04:05:32.000Z",
+      "href": "https://www.bilibili.com/video/av117476885005912",
+      "cover": "https://i1.hdslb.com/bfs/archive/5875f4450bc0229fa366936af44434ad41c154f5.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
@@ -71,19 +84,6 @@
       "publishedAt": "2026-10-19T13:09:05.000Z",
       "href": "https://www.bilibili.com/video/av117467724651057",
       "cover": "https://i2.hdslb.com/bfs/archive/09dabab70ae1a7798501c115afec5fb71f3959c2.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1VVJB62E2Q",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "分享一把新赛季小号 开荒 神器，告别剧情坐牢！（ 流放2 0.55/0.5赛季）",
-      "summary": "",
-      "author": "大叔认真玩游戏",
-      "publishedAt": "2026-10-18T03:45:00.000Z",
-      "href": "https://www.bilibili.com/video/av117456903345835",
-      "cover": "https://i1.hdslb.com/bfs/archive/38f58ed22d9305dd6c56fa19cb4aeec9f846f9bf.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
