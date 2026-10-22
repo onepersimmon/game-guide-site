@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T05:09:26.248Z",
+  "updatedAt": "2026-10-22T12:04:28.109Z",
   "locale": "tw",
   "source": [
     "https://poe2db.tw/tw/Skill_Gems",
@@ -100313,6 +100313,174 @@
     },
     {
       "type": "modifier",
+      "hash": "e5a497957d18f7af0b354d0f7e2df2e93b96b3c6694c1420228a010d8b3985f7",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e5a497957d18f7af0b354d0f7e2df2e93b96b3c6694c1420228a010d8b3985f7",
+      "title": "+(5 — 8) 點 力量",
+      "name": "野蠻之",
+      "family": "Strength",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "additional strength 5 — 8 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(5 — 8) 點 力量 野蠻之 Strength 後綴 (2) 物品 (1) 需求等級 1 additional strength 5 — 8 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "93b5599fb6dddc30b1538e6cbff49d12965e33af5c24e4bbce1cdb9a0276e280",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/93b5599fb6dddc30b1538e6cbff49d12965e33af5c24e4bbce1cdb9a0276e280",
+      "title": "+(9 — 12) 點 力量",
+      "name": "摔角手之",
+      "family": "Strength",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 11,
+      "stats": [
+        {
+          "text": "additional strength 9 — 12 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(9 — 12) 點 力量 摔角手之 Strength 後綴 (2) 物品 (1) 需求等級 11 additional strength 9 — 12 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "a42a7ee41416ed40475f0a25a5beb6305750927c691df7b319674660ae6b3353",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a42a7ee41416ed40475f0a25a5beb6305750927c691df7b319674660ae6b3353",
+      "title": "+(13 — 16) 點 力量",
+      "name": "熊之",
+      "family": "Strength",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 22,
+      "stats": [
+        {
+          "text": "additional strength 13 — 16 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(13 — 16) 點 力量 熊之 Strength 後綴 (2) 物品 (1) 需求等級 22 additional strength 13 — 16 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "237f6cbfa62de0e38275647a4451e7802a1ffb2716eb74eb44aca0b252a32c5d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/237f6cbfa62de0e38275647a4451e7802a1ffb2716eb74eb44aca0b252a32c5d",
+      "title": "+(17 — 20) 點 力量",
+      "name": "獅子之",
+      "family": "Strength",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 33,
+      "stats": [
+        {
+          "text": "additional strength 17 — 20 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(17 — 20) 點 力量 獅子之 Strength 後綴 (2) 物品 (1) 需求等級 33 additional strength 17 — 20 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "b423ea9b908a46e39bb3e7abee72dc2b666cb6353107090622a90e53071ae8ab",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/b423ea9b908a46e39bb3e7abee72dc2b666cb6353107090622a90e53071ae8ab",
+      "title": "+(21 — 24) 點 力量",
+      "name": "大猩猩之",
+      "family": "Strength",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 44,
+      "stats": [
+        {
+          "text": "additional strength 21 — 24 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(21 — 24) 點 力量 大猩猩之 Strength 後綴 (2) 物品 (1) 需求等級 44 additional strength 21 — 24 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "efb93415603e5ddb91b5c644b6060b29e9b5f8215b701e36edff537a0a59763f",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/efb93415603e5ddb91b5c644b6060b29e9b5f8215b701e36edff537a0a59763f",
+      "title": "+(25 — 27) 點 力量",
+      "name": "巨人之",
+      "family": "Strength",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 55,
+      "stats": [
+        {
+          "text": "additional strength 25 — 27 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(25 — 27) 點 力量 巨人之 Strength 後綴 (2) 物品 (1) 需求等級 55 additional strength 25 — 27 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "f9e86e9d33e147a8e93cc17aa5ec6e2b7fe07d84952caf214d7df827c5e67086",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f9e86e9d33e147a8e93cc17aa5ec6e2b7fe07d84952caf214d7df827c5e67086",
+      "title": "+(28 — 30) 點 力量",
+      "name": "海獸之",
+      "family": "Strength",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 66,
+      "stats": [
+        {
+          "text": "additional strength 28 — 30 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(28 — 30) 點 力量 海獸之 Strength 後綴 (2) 物品 (1) 需求等級 66 additional strength 28 — 30 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "1be0f0b55526b492d8a957edd7020675421edab52340b0041ab155d4bfdc1527",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/1be0f0b55526b492d8a957edd7020675421edab52340b0041ab155d4bfdc1527",
+      "title": "+(31 — 33) 點 力量",
+      "name": "泰坦之",
+      "family": "Strength",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 74,
+      "stats": [
+        {
+          "text": "additional strength 31 — 33 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(31 — 33) 點 力量 泰坦之 Strength 後綴 (2) 物品 (1) 需求等級 74 additional strength 31 — 33 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "d4d0d3b9b09f3588a2c79896d9c6ef14c807b88532583871e7dc8e51a4f173a5",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/d4d0d3b9b09f3588a2c79896d9c6ef14c807b88532583871e7dc8e51a4f173a5",
       "title": "+(5 — 8) 點 敏捷",
@@ -110927,6 +111095,390 @@
     },
     {
       "type": "modifier",
+      "hash": "a6be1c93d72725ec319b44dd9bd24a81bbfea3af3f17142abc13fa63366bb4da",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a6be1c93d72725ec319b44dd9bd24a81bbfea3af3f17142abc13fa63366bb4da",
+      "title": "增加 (40 — 49) % 物理 傷害",
+      "name": "重量的",
+      "family": "LocalPhysicalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local physical damage +% 40 — 49 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (40 — 49) % 物理 傷害 重量的 LocalPhysicalDamagePercent 前綴 (1) 物品 (1) 需求等級 1 local physical damage +% 40 — 49 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "6426dfe036c679667bb1c6391b10492ca2e673b31380940c402ac3a6ceebaeda",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/6426dfe036c679667bb1c6391b10492ca2e673b31380940c402ac3a6ceebaeda",
+      "title": "增加 (50 — 64) % 物理 傷害",
+      "name": "鋸齒的",
+      "family": "LocalPhysicalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 8,
+      "stats": [
+        {
+          "text": "local physical damage +% 50 — 64 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (50 — 64) % 物理 傷害 鋸齒的 LocalPhysicalDamagePercent 前綴 (1) 物品 (1) 需求等級 8 local physical damage +% 50 — 64 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "1b197de781bd292963154df379e76038a576482e3c0216967abcc49353daede6",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/1b197de781bd292963154df379e76038a576482e3c0216967abcc49353daede6",
+      "title": "增加 (65 — 84) % 物理 傷害",
+      "name": "邪惡的",
+      "family": "LocalPhysicalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 16,
+      "stats": [
+        {
+          "text": "local physical damage +% 65 — 84 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (65 — 84) % 物理 傷害 邪惡的 LocalPhysicalDamagePercent 前綴 (1) 物品 (1) 需求等級 16 local physical damage +% 65 — 84 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "8e7a8def73ebf1189a48b6b5cec034022bb64da00026bff854e5e8aab83cc65c",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/8e7a8def73ebf1189a48b6b5cec034022bb64da00026bff854e5e8aab83cc65c",
+      "title": "增加 (85 — 109) % 物理 傷害",
+      "name": "狠毒的",
+      "family": "LocalPhysicalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 33,
+      "stats": [
+        {
+          "text": "local physical damage +% 85 — 109 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (85 — 109) % 物理 傷害 狠毒的 LocalPhysicalDamagePercent 前綴 (1) 物品 (1) 需求等級 33 local physical damage +% 85 — 109 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "80063e8f83973b06f3b69bcea5abad1977e7444c3746b61709dc71455fd8e731",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/80063e8f83973b06f3b69bcea5abad1977e7444c3746b61709dc71455fd8e731",
+      "title": "增加 (110 — 134) % 物理 傷害",
+      "name": "嗜血的",
+      "family": "LocalPhysicalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 46,
+      "stats": [
+        {
+          "text": "local physical damage +% 110 — 134 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (110 — 134) % 物理 傷害 嗜血的 LocalPhysicalDamagePercent 前綴 (1) 物品 (1) 需求等級 46 local physical damage +% 110 — 134 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "290fb10e4ca1c113b1f291bb42a7446ce8d5161041a45c3a700069f90f790420",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/290fb10e4ca1c113b1f291bb42a7446ce8d5161041a45c3a700069f90f790420",
+      "title": "增加 (135 — 154) % 物理 傷害",
+      "name": "殘酷的",
+      "family": "LocalPhysicalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 60,
+      "stats": [
+        {
+          "text": "local physical damage +% 135 — 154 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (135 — 154) % 物理 傷害 殘酷的 LocalPhysicalDamagePercent 前綴 (1) 物品 (1) 需求等級 60 local physical damage +% 135 — 154 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "cae77ea5588d83995259d59e962af8da33724ba47e59248d88f5f6ed4bc14098",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/cae77ea5588d83995259d59e962af8da33724ba47e59248d88f5f6ed4bc14098",
+      "title": "增加 (155 — 169) % 物理 傷害",
+      "name": "強橫的",
+      "family": "LocalPhysicalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 75,
+      "stats": [
+        {
+          "text": "local physical damage +% 155 — 169 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (155 — 169) % 物理 傷害 強橫的 LocalPhysicalDamagePercent 前綴 (1) 物品 (1) 需求等級 75 local physical damage +% 155 — 169 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "ba9e12e073adba5895aef26ce4df7939329101d88bf12f5ce6ce04c4bf94078a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/ba9e12e073adba5895aef26ce4df7939329101d88bf12f5ce6ce04c4bf94078a",
+      "title": "增加 (170 — 179) % 物理 傷害",
+      "name": "無情的",
+      "family": "LocalPhysicalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 82,
+      "stats": [
+        {
+          "text": "local physical damage +% 170 — 179 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (170 — 179) % 物理 傷害 無情的 LocalPhysicalDamagePercent 前綴 (1) 物品 (1) 需求等級 82 local physical damage +% 170 — 179 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "53f9ad6d4f068b3d3e2a043b2186309b693c7f98cf391f52b14e6416b7c01209",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/53f9ad6d4f068b3d3e2a043b2186309b693c7f98cf391f52b14e6416b7c01209",
+      "title": "增加 (15 — 19) % 物理 傷害 +(16 — 20) 命中 值",
+      "name": "侍從的",
+      "family": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 8,
+      "stats": [
+        {
+          "text": "local accuracy rating 16 — 20 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local physical damage +% 15 — 19 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (15 — 19) % 物理 傷害 +(16 — 20) 命中 值 侍從的 LocalIncreasedPhysicalDamagePercentAndAccuracyRating 前綴 (1) 物品 (1) 需求等級 8 local accuracy rating 16 — 20 區域 local physical damage +% 15 — 19 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "b0b39119a20a1b72758f79fa00df0675b12bf811529169309c797cea3df9fab5",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/b0b39119a20a1b72758f79fa00df0675b12bf811529169309c797cea3df9fab5",
+      "title": "增加 (20 — 24) % 物理 傷害 +(21 — 46) 命中 值",
+      "name": "旅人的",
+      "family": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 14,
+      "stats": [
+        {
+          "text": "local accuracy rating 21 — 46 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local physical damage +% 20 — 24 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (20 — 24) % 物理 傷害 +(21 — 46) 命中 值 旅人的 LocalIncreasedPhysicalDamagePercentAndAccuracyRating 前綴 (1) 物品 (1) 需求等級 14 local accuracy rating 21 — 46 區域 local physical damage +% 20 — 24 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "9515bf90fad6c0ab9d0665f2974f978e065310a6b65a1f590f4777aae3ebbe30",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/9515bf90fad6c0ab9d0665f2974f978e065310a6b65a1f590f4777aae3ebbe30",
+      "title": "增加 (25 — 34) % 物理 傷害 +(47 — 72) 命中 值",
+      "name": "掠奪者的",
+      "family": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 23,
+      "stats": [
+        {
+          "text": "local accuracy rating 47 — 72 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local physical damage +% 25 — 34 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (25 — 34) % 物理 傷害 +(47 — 72) 命中 值 掠奪者的 LocalIncreasedPhysicalDamagePercentAndAccuracyRating 前綴 (1) 物品 (1) 需求等級 23 local accuracy rating 47 — 72 區域 local physical damage +% 25 — 34 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "8fadb3e845f8b98dadf0c8dd86e25c9d2abcdcc8988f7e4a3da6685c0a489af2",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/8fadb3e845f8b98dadf0c8dd86e25c9d2abcdcc8988f7e4a3da6685c0a489af2",
+      "title": "增加 (35 — 44) % 物理 傷害 +(73 — 97) 命中 值",
+      "name": "傭兵的",
+      "family": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 38,
+      "stats": [
+        {
+          "text": "local accuracy rating 73 — 97 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local physical damage +% 35 — 44 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (35 — 44) % 物理 傷害 +(73 — 97) 命中 值 傭兵的 LocalIncreasedPhysicalDamagePercentAndAccuracyRating 前綴 (1) 物品 (1) 需求等級 38 local accuracy rating 73 — 97 區域 local physical damage +% 35 — 44 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "fd666e35a867f01b2daaee4a013ca29a8d483dda089ef68d105f22342a0867fa",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/fd666e35a867f01b2daaee4a013ca29a8d483dda089ef68d105f22342a0867fa",
+      "title": "增加 (45 — 54) % 物理 傷害 +(98 — 123) 命中 值",
+      "name": "冠軍的",
+      "family": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 54,
+      "stats": [
+        {
+          "text": "local accuracy rating 98 — 123 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local physical damage +% 45 — 54 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (45 — 54) % 物理 傷害 +(98 — 123) 命中 值 冠軍的 LocalIncreasedPhysicalDamagePercentAndAccuracyRating 前綴 (1) 物品 (1) 需求等級 54 local accuracy rating 98 — 123 區域 local physical damage +% 45 — 54 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "1cc78f5b11625881e37536c3073876b3a5b7704b5c6019b2f00c4030d1683932",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/1cc78f5b11625881e37536c3073876b3a5b7704b5c6019b2f00c4030d1683932",
+      "title": "增加 (55 — 64) % 物理 傷害 +(124 — 149) 命中 值",
+      "name": "征服者的",
+      "family": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "local accuracy rating 124 — 149 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local physical damage +% 55 — 64 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (55 — 64) % 物理 傷害 +(124 — 149) 命中 值 征服者的 LocalIncreasedPhysicalDamagePercentAndAccuracyRating 前綴 (1) 物品 (1) 需求等級 65 local accuracy rating 124 — 149 區域 local physical damage +% 55 — 64 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "28a2c4f98e794f553f0f190a3f3c59d9e8d01fed6b3789b7ae502251bdfec9c6",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/28a2c4f98e794f553f0f190a3f3c59d9e8d01fed6b3789b7ae502251bdfec9c6",
+      "title": "增加 (65 — 74) % 物理 傷害 +(150 — 174) 命中 值",
+      "name": "帝王的",
+      "family": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 70,
+      "stats": [
+        {
+          "text": "local accuracy rating 150 — 174 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local physical damage +% 65 — 74 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (65 — 74) % 物理 傷害 +(150 — 174) 命中 值 帝王的 LocalIncreasedPhysicalDamagePercentAndAccuracyRating 前綴 (1) 物品 (1) 需求等級 70 local accuracy rating 150 — 174 區域 local physical damage +% 65 — 74 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "dd544185e1396cd9d58e01a71610a3c763def7852dd7b9f9b1b68230d8c3aeda",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/dd544185e1396cd9d58e01a71610a3c763def7852dd7b9f9b1b68230d8c3aeda",
+      "title": "增加 (75 — 79) % 物理 傷害 +(175 — 200) 命中 值",
+      "name": "獨裁者的",
+      "family": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 81,
+      "stats": [
+        {
+          "text": "local accuracy rating 175 — 200 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local physical damage +% 75 — 79 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (75 — 79) % 物理 傷害 +(175 — 200) 命中 值 獨裁者的 LocalIncreasedPhysicalDamagePercentAndAccuracyRating 前綴 (1) 物品 (1) 需求等級 81 local accuracy rating 175 — 200 區域 local physical damage +% 75 — 79 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "2f402bcf82ce055b335e5c1b4e282ddc619ec79f40941d9ae76ec2cba826e590",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2f402bcf82ce055b335e5c1b4e282ddc619ec79f40941d9ae76ec2cba826e590",
       "title": "全部 投射物 技能等級 +1",
@@ -111011,6 +111563,888 @@
     },
     {
       "type": "modifier",
+      "hash": "42f1fbd717e676ae32af2335bf2462e045f53384bc3b7c0e73938cad40aa1dfc",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/42f1fbd717e676ae32af2335bf2462e045f53384bc3b7c0e73938cad40aa1dfc",
+      "title": "以 (6 — 6.9) % 物理 傷害 偷取 生命",
+      "name": "蝗蟲之",
+      "family": "LifeLeech",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 21,
+      "stats": [
+        {
+          "text": "local life leech from physical damage permyriad 600 — 690 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "以 (6 — 6.9) % 物理 傷害 偷取 生命 蝗蟲之 LifeLeech 後綴 (2) 物品 (1) 需求等級 21 local life leech from physical damage permyriad 600 — 690 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "05a78e9c3e9338346bc2d4cc8428f51ae6aac67403485f8ca284ea60ef047429",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/05a78e9c3e9338346bc2d4cc8428f51ae6aac67403485f8ca284ea60ef047429",
+      "title": "以 (7 — 7.9) % 物理 傷害 偷取 生命",
+      "name": "鯽魚之",
+      "family": "LifeLeech",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 38,
+      "stats": [
+        {
+          "text": "local life leech from physical damage permyriad 700 — 790 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "以 (7 — 7.9) % 物理 傷害 偷取 生命 鯽魚之 LifeLeech 後綴 (2) 物品 (1) 需求等級 38 local life leech from physical damage permyriad 700 — 790 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "127acd4521c451fe44db44a362b8794245797f41ce379b52e743260167c8ab60",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/127acd4521c451fe44db44a362b8794245797f41ce379b52e743260167c8ab60",
+      "title": "以 (8 — 8.9) % 物理 傷害 偷取 生命",
+      "name": "七鰓鰻之",
+      "family": "LifeLeech",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 54,
+      "stats": [
+        {
+          "text": "local life leech from physical damage permyriad 800 — 890 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "以 (8 — 8.9) % 物理 傷害 偷取 生命 七鰓鰻之 LifeLeech 後綴 (2) 物品 (1) 需求等級 54 local life leech from physical damage permyriad 800 — 890 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "20ca67faa012a1178d48d568c71a998283c8b8d0369fc3d7e2c74a62d3d2db79",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/20ca67faa012a1178d48d568c71a998283c8b8d0369fc3d7e2c74a62d3d2db79",
+      "title": "以 (9 — 9.9) % 物理 傷害 偷取 生命",
+      "name": "吸血鬼之",
+      "family": "LifeLeech",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "local life leech from physical damage permyriad 900 — 990 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "以 (9 — 9.9) % 物理 傷害 偷取 生命 吸血鬼之 LifeLeech 後綴 (2) 物品 (1) 需求等級 65 local life leech from physical damage permyriad 900 — 990 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "2de7b9924895502f352b06779cea377c58b11ee9011a2445eb3c2e646d751275",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2de7b9924895502f352b06779cea377c58b11ee9011a2445eb3c2e646d751275",
+      "title": "以 (5 — 5.9) % 物理 傷害 偷取 魔力",
+      "name": "乾渴之",
+      "family": "ManaLeech",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 21,
+      "stats": [
+        {
+          "text": "local mana leech from physical damage permyriad 500 — 590 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "以 (5 — 5.9) % 物理 傷害 偷取 魔力 乾渴之 ManaLeech 後綴 (2) 物品 (1) 需求等級 21 local mana leech from physical damage permyriad 500 — 590 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "278f95c6a1041581466778793dadc02c35b291158355e827bc07fc765bfb0176",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/278f95c6a1041581466778793dadc02c35b291158355e827bc07fc765bfb0176",
+      "title": "以 (6 — 6.9) % 物理 傷害 偷取 魔力",
+      "name": "乾燥之",
+      "family": "ManaLeech",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 38,
+      "stats": [
+        {
+          "text": "local mana leech from physical damage permyriad 600 — 690 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "以 (6 — 6.9) % 物理 傷害 偷取 魔力 乾燥之 ManaLeech 後綴 (2) 物品 (1) 需求等級 38 local mana leech from physical damage permyriad 600 — 690 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "cae36b1f1c09d6133c4dc2601c3acb3d90f78e13d6e903f88354f69495dd906e",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/cae36b1f1c09d6133c4dc2601c3acb3d90f78e13d6e903f88354f69495dd906e",
+      "title": "以 (7 — 7.9) % 物理 傷害 偷取 魔力",
+      "name": "乾旱之",
+      "family": "ManaLeech",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 54,
+      "stats": [
+        {
+          "text": "local mana leech from physical damage permyriad 700 — 790 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "以 (7 — 7.9) % 物理 傷害 偷取 魔力 乾旱之 ManaLeech 後綴 (2) 物品 (1) 需求等級 54 local mana leech from physical damage permyriad 700 — 790 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "0b3b6c0df9fb8fbe16382bf0a082592a7f9c1350f4c9b5f65181cd7e13cc49d1",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/0b3b6c0df9fb8fbe16382bf0a082592a7f9c1350f4c9b5f65181cd7e13cc49d1",
+      "title": "以 (8 — 8.9) % 物理 傷害 偷取 魔力",
+      "name": "絕望之",
+      "family": "ManaLeech",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "local mana leech from physical damage permyriad 800 — 890 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "以 (8 — 8.9) % 物理 傷害 偷取 魔力 絕望之 ManaLeech 後綴 (2) 物品 (1) 需求等級 65 local mana leech from physical damage permyriad 800 — 890 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "dbd415592ddef27a6c2a2f5f9123a7220b7781e41545f16d8d31f9f2032ce677",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/dbd415592ddef27a6c2a2f5f9123a7220b7781e41545f16d8d31f9f2032ce677",
+      "title": "每個被擊殺的敵人，獲得 (4 — 6) 生命",
+      "name": "成功之",
+      "family": "LifeGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "base life gained on enemy death 4 — 6 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (4 — 6) 生命 成功之 LifeGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 1 base life gained on enemy death 4 — 6 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "76906deac4d43a02b3329c400ddd9f03486da73e424451d880fb77e79054af31",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/76906deac4d43a02b3329c400ddd9f03486da73e424451d880fb77e79054af31",
+      "title": "每個被擊殺的敵人，獲得 (7 — 9) 生命",
+      "name": "勝利之",
+      "family": "LifeGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 11,
+      "stats": [
+        {
+          "text": "base life gained on enemy death 7 — 9 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (7 — 9) 生命 勝利之 LifeGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 11 base life gained on enemy death 7 — 9 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "de90cb5a0d2d4bb2302dfdb4b8d6a4a1a432de6f3eb0030a4c138bbb62863fd0",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/de90cb5a0d2d4bb2302dfdb4b8d6a4a1a432de6f3eb0030a4c138bbb62863fd0",
+      "title": "每個被擊殺的敵人，獲得 (10 — 18) 生命",
+      "name": "凱旋之",
+      "family": "LifeGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 22,
+      "stats": [
+        {
+          "text": "base life gained on enemy death 10 — 18 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (10 — 18) 生命 凱旋之 LifeGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 22 base life gained on enemy death 10 — 18 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "b3f80c59995f05bfbf3cb1ddd90ac1ffc2683124f6db5efaec00eb5fd9d8aa77",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/b3f80c59995f05bfbf3cb1ddd90ac1ffc2683124f6db5efaec00eb5fd9d8aa77",
+      "title": "每個被擊殺的敵人，獲得 (19 — 28) 生命",
+      "name": "征服之",
+      "family": "LifeGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 33,
+      "stats": [
+        {
+          "text": "base life gained on enemy death 19 — 28 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (19 — 28) 生命 征服之 LifeGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 33 base life gained on enemy death 19 — 28 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "9310cdf24ef1b4cffb1fcddee80877aec1dfa29cf4f0cd7987787b5e8c22a10a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/9310cdf24ef1b4cffb1fcddee80877aec1dfa29cf4f0cd7987787b5e8c22a10a",
+      "title": "每個被擊殺的敵人，獲得 (29 — 40) 生命",
+      "name": "征服之",
+      "family": "LifeGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 44,
+      "stats": [
+        {
+          "text": "base life gained on enemy death 29 — 40 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (29 — 40) 生命 征服之 LifeGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 44 base life gained on enemy death 29 — 40 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "359c0310a8f90c171c7410c50e32a03d22e8e9ee25b35cfe6cd5f280ce13a537",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/359c0310a8f90c171c7410c50e32a03d22e8e9ee25b35cfe6cd5f280ce13a537",
+      "title": "每個被擊殺的敵人，獲得 (41 — 53) 生命",
+      "name": "勇氣之",
+      "family": "LifeGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 55,
+      "stats": [
+        {
+          "text": "base life gained on enemy death 41 — 53 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (41 — 53) 生命 勇氣之 LifeGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 55 base life gained on enemy death 41 — 53 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "923edcee6aabec25594b66887a2e3350b92fc43fc5929abba8ef4a368c995b05",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/923edcee6aabec25594b66887a2e3350b92fc43fc5929abba8ef4a368c995b05",
+      "title": "每個被擊殺的敵人，獲得 (54 — 68) 生命",
+      "name": "榮耀之",
+      "family": "LifeGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 66,
+      "stats": [
+        {
+          "text": "base life gained on enemy death 54 — 68 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (54 — 68) 生命 榮耀之 LifeGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 66 base life gained on enemy death 54 — 68 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "1192661e2e817e7290256e8b352421eb0c078a0a95da51a29c898a42851ed119",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/1192661e2e817e7290256e8b352421eb0c078a0a95da51a29c898a42851ed119",
+      "title": "每個被擊殺的敵人，獲得 (69 — 84) 生命",
+      "name": "傳說之",
+      "family": "LifeGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 77,
+      "stats": [
+        {
+          "text": "base life gained on enemy death 69 — 84 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (69 — 84) 生命 傳說之 LifeGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 77 base life gained on enemy death 69 — 84 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "b94859398bc7f8800f311c729da5fbcfafa07e35c305ba3df3ca0d2272770bc8",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/b94859398bc7f8800f311c729da5fbcfafa07e35c305ba3df3ca0d2272770bc8",
+      "title": "每個被擊殺的敵人，獲得 (2 — 3) 魔力",
+      "name": "吸收之",
+      "family": "ManaGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "base mana gained on enemy death 2 — 3 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (2 — 3) 魔力 吸收之 ManaGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 1 base mana gained on enemy death 2 — 3 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "9a6045540cff69ad1521c9cca1d528612ab77ba0d08bb162b0139e4d3a591f5b",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/9a6045540cff69ad1521c9cca1d528612ab77ba0d08bb162b0139e4d3a591f5b",
+      "title": "每個被擊殺的敵人，獲得 (4 — 5) 魔力",
+      "name": "逆滲透之",
+      "family": "ManaGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 12,
+      "stats": [
+        {
+          "text": "base mana gained on enemy death 4 — 5 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (4 — 5) 魔力 逆滲透之 ManaGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 12 base mana gained on enemy death 4 — 5 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "92e69a5bb336d1cecc4cfd418ba041fa9add50e8098f8feb8419069aee109859",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/92e69a5bb336d1cecc4cfd418ba041fa9add50e8098f8feb8419069aee109859",
+      "title": "每個被擊殺的敵人，獲得 (6 — 9) 魔力",
+      "name": "注入之",
+      "family": "ManaGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 23,
+      "stats": [
+        {
+          "text": "base mana gained on enemy death 6 — 9 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (6 — 9) 魔力 注入之 ManaGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 23 base mana gained on enemy death 6 — 9 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "e218ca4ba48bf378e62afa9e67a3218d7cee11ea7ecc08f7ac4e64fd02e68ef9",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e218ca4ba48bf378e62afa9e67a3218d7cee11ea7ecc08f7ac4e64fd02e68ef9",
+      "title": "每個被擊殺的敵人，獲得 (10 — 14) 魔力",
+      "name": "包覆之",
+      "family": "ManaGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 34,
+      "stats": [
+        {
+          "text": "base mana gained on enemy death 10 — 14 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (10 — 14) 魔力 包覆之 ManaGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 34 base mana gained on enemy death 10 — 14 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "b79608ee1d1863354a5b7f02b32f3d93f191da61f6dccc65abac9cc151e51127",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/b79608ee1d1863354a5b7f02b32f3d93f191da61f6dccc65abac9cc151e51127",
+      "title": "每個被擊殺的敵人，獲得 (15 — 20) 魔力",
+      "name": "消耗之",
+      "family": "ManaGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 45,
+      "stats": [
+        {
+          "text": "base mana gained on enemy death 15 — 20 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (15 — 20) 魔力 消耗之 ManaGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 45 base mana gained on enemy death 15 — 20 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "961453776e492e3bf6b8ff72ed8495b5dd7646ff0975da57069f45976b4805b7",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/961453776e492e3bf6b8ff72ed8495b5dd7646ff0975da57069f45976b4805b7",
+      "title": "每個被擊殺的敵人，獲得 (21 — 27) 魔力",
+      "name": "虹吸之",
+      "family": "ManaGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 56,
+      "stats": [
+        {
+          "text": "base mana gained on enemy death 21 — 27 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (21 — 27) 魔力 虹吸之 ManaGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 56 base mana gained on enemy death 21 — 27 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "687ff5b2500d442924cc2bdb8b683a9960695b5917417bbcd6fc6c94a1942dd0",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/687ff5b2500d442924cc2bdb8b683a9960695b5917417bbcd6fc6c94a1942dd0",
+      "title": "每個被擊殺的敵人，獲得 (28 — 35) 魔力",
+      "name": "吞噬之",
+      "family": "ManaGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 67,
+      "stats": [
+        {
+          "text": "base mana gained on enemy death 28 — 35 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (28 — 35) 魔力 吞噬之 ManaGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 67 base mana gained on enemy death 28 — 35 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "82b9ba9751611eb97fa20c65d1a75dd1eb9ab0427f68a4b924adb1b3788119af",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/82b9ba9751611eb97fa20c65d1a75dd1eb9ab0427f68a4b924adb1b3788119af",
+      "title": "每個被擊殺的敵人，獲得 (36 — 45) 魔力",
+      "name": "同化之",
+      "family": "ManaGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 78,
+      "stats": [
+        {
+          "text": "base mana gained on enemy death 36 — 45 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (36 — 45) 魔力 同化之 ManaGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 78 base mana gained on enemy death 36 — 45 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "51de7634461195abff16f0a4645af4abc37f0afb899d865a4125bf4f7156e5a8",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/51de7634461195abff16f0a4645af4abc37f0afb899d865a4125bf4f7156e5a8",
+      "title": "每 擊中 一名敵人，獲得 2 生命",
+      "name": "回春之",
+      "family": "LifeGainPerTarget",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 8,
+      "stats": [
+        {
+          "text": "local life gain per target 2 — 2 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每 擊中 一名敵人，獲得 2 生命 回春之 LifeGainPerTarget 後綴 (2) 物品 (1) 需求等級 8 local life gain per target 2 — 2 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "c0ae69038d1f2fe0abf4133ffdc25febb759c8c461657eaa7633401de750b2ec",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c0ae69038d1f2fe0abf4133ffdc25febb759c8c461657eaa7633401de750b2ec",
+      "title": "每 擊中 一名敵人，獲得 3 生命",
+      "name": "恢復之",
+      "family": "LifeGainPerTarget",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 20,
+      "stats": [
+        {
+          "text": "local life gain per target 3 — 3 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每 擊中 一名敵人，獲得 3 生命 恢復之 LifeGainPerTarget 後綴 (2) 物品 (1) 需求等級 20 local life gain per target 3 — 3 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "bc810b18b6a5137f3c4994258eaa5b66de67cec2b6ac1d93b56a21c593f61adf",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/bc810b18b6a5137f3c4994258eaa5b66de67cec2b6ac1d93b56a21c593f61adf",
+      "title": "每 擊中 一名敵人，獲得 4 生命",
+      "name": "再生之",
+      "family": "LifeGainPerTarget",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 30,
+      "stats": [
+        {
+          "text": "local life gain per target 4 — 4 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每 擊中 一名敵人，獲得 4 生命 再生之 LifeGainPerTarget 後綴 (2) 物品 (1) 需求等級 30 local life gain per target 4 — 4 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "c8643214c4287535462344356484223adf20d3fc1d8429e5fe37940138634595",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c8643214c4287535462344356484223adf20d3fc1d8429e5fe37940138634595",
+      "title": "每 擊中 一名敵人，獲得 5 生命",
+      "name": "營養之",
+      "family": "LifeGainPerTarget",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 40,
+      "stats": [
+        {
+          "text": "local life gain per target 5 — 5 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每 擊中 一名敵人，獲得 5 生命 營養之 LifeGainPerTarget 後綴 (2) 物品 (1) 需求等級 40 local life gain per target 5 — 5 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "5a1379c76568c80f7b6513f12ae8a1ae5922033f73236c3f3f4db6ed9fac76b3",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/5a1379c76568c80f7b6513f12ae8a1ae5922033f73236c3f3f4db6ed9fac76b3",
+      "title": "增加 (5 — 7) % 攻擊 速度",
+      "name": "技巧之",
+      "family": "IncreasedAttackSpeed",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local attack speed +% 5 — 7 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (5 — 7) % 攻擊 速度 技巧之 IncreasedAttackSpeed 後綴 (2) 物品 (1) 需求等級 1 local attack speed +% 5 — 7 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "622c3ece7393468efbc86274b5a95a7ab41b990c57df752a49691539d3dffeb9",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/622c3ece7393468efbc86274b5a95a7ab41b990c57df752a49691539d3dffeb9",
+      "title": "增加 (8 — 10) % 攻擊 速度",
+      "name": "輕鬆之",
+      "family": "IncreasedAttackSpeed",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 11,
+      "stats": [
+        {
+          "text": "local attack speed +% 8 — 10 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (8 — 10) % 攻擊 速度 輕鬆之 IncreasedAttackSpeed 後綴 (2) 物品 (1) 需求等級 11 local attack speed +% 8 — 10 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "9a96145899079cf2c579b632650c5d06ee2e98c813f386758a9e6536a98c7d4a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/9a96145899079cf2c579b632650c5d06ee2e98c813f386758a9e6536a98c7d4a",
+      "title": "增加 (11 — 13) % 攻擊 速度",
+      "name": "成熟之",
+      "family": "IncreasedAttackSpeed",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 22,
+      "stats": [
+        {
+          "text": "local attack speed +% 11 — 13 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (11 — 13) % 攻擊 速度 成熟之 IncreasedAttackSpeed 後綴 (2) 物品 (1) 需求等級 22 local attack speed +% 11 — 13 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "02e32b8f380de8b28e8d09bff32d731323d293b72cc0ce5d0152a648bf4c030b",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/02e32b8f380de8b28e8d09bff32d731323d293b72cc0ce5d0152a648bf4c030b",
+      "title": "增加 (14 — 16) % 攻擊 速度",
+      "name": "聲望之",
+      "family": "IncreasedAttackSpeed",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 30,
+      "stats": [
+        {
+          "text": "local attack speed +% 14 — 16 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (14 — 16) % 攻擊 速度 聲望之 IncreasedAttackSpeed 後綴 (2) 物品 (1) 需求等級 30 local attack speed +% 14 — 16 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "2a49e0084e7d025dc95ea80f5c2d2ed34af82c84a2b31e7049d5573ca727bf26",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2a49e0084e7d025dc95ea80f5c2d2ed34af82c84a2b31e7049d5573ca727bf26",
+      "title": "增加 (17 — 19) % 攻擊 速度",
+      "name": "讚賞之",
+      "family": "IncreasedAttackSpeed",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 37,
+      "stats": [
+        {
+          "text": "local attack speed +% 17 — 19 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (17 — 19) % 攻擊 速度 讚賞之 IncreasedAttackSpeed 後綴 (2) 物品 (1) 需求等級 37 local attack speed +% 17 — 19 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "19bbda1252e20e6c40a5dd57977d619bd44ee8729f1b46e04f8d96dd2d68c9a8",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/19bbda1252e20e6c40a5dd57977d619bd44ee8729f1b46e04f8d96dd2d68c9a8",
+      "title": "+(11 — 32) 命中 值",
+      "name": "精確的",
+      "family": "IncreasedAccuracy",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 8,
+      "stats": [
+        {
+          "text": "local accuracy rating 11 — 32 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(11 — 32) 命中 值 精確的 IncreasedAccuracy 前綴 (1) 物品 (1) 需求等級 8 local accuracy rating 11 — 32 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "f3faa35067cf659a7f117eeff33af1af07d6412605b5f692442d531bae9d0be6",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f3faa35067cf659a7f117eeff33af1af07d6412605b5f692442d531bae9d0be6",
+      "title": "+(33 — 60) 命中 值",
+      "name": "可靠的",
+      "family": "IncreasedAccuracy",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 13,
+      "stats": [
+        {
+          "text": "local accuracy rating 33 — 60 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(33 — 60) 命中 值 可靠的 IncreasedAccuracy 前綴 (1) 物品 (1) 需求等級 13 local accuracy rating 33 — 60 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "548a67716821822b1bb7877f59c6cb42e595f95da1a65c1175a89db8a6e259c9",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/548a67716821822b1bb7877f59c6cb42e595f95da1a65c1175a89db8a6e259c9",
+      "title": "+(61 — 84) 命中 值",
+      "name": "專注的",
+      "family": "IncreasedAccuracy",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 18,
+      "stats": [
+        {
+          "text": "local accuracy rating 61 — 84 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(61 — 84) 命中 值 專注的 IncreasedAccuracy 前綴 (1) 物品 (1) 需求等級 18 local accuracy rating 61 — 84 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "9a95850648291354246800eeaff12c7a76ef5f699c53e569f6594577d617f216",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/9a95850648291354246800eeaff12c7a76ef5f699c53e569f6594577d617f216",
+      "title": "+(85 — 123) 命中 值",
+      "name": "慎重之",
+      "family": "IncreasedAccuracy",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 26,
+      "stats": [
+        {
+          "text": "local accuracy rating 85 — 123 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(85 — 123) 命中 值 慎重之 IncreasedAccuracy 前綴 (1) 物品 (1) 需求等級 26 local accuracy rating 85 — 123 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "cd231d2104c96be749070efc31cf2e9bb4e18d175bb47458a8a7329ce989de1a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/cd231d2104c96be749070efc31cf2e9bb4e18d175bb47458a8a7329ce989de1a",
+      "title": "+(124 — 167) 命中 值",
+      "name": "穩定之",
+      "family": "IncreasedAccuracy",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 36,
+      "stats": [
+        {
+          "text": "local accuracy rating 124 — 167 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(124 — 167) 命中 值 穩定之 IncreasedAccuracy 前綴 (1) 物品 (1) 需求等級 36 local accuracy rating 124 — 167 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "f43977671d9b70c62c7a60082981cf2e33bffbc92037854d4f140eb43aefa237",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f43977671d9b70c62c7a60082981cf2e33bffbc92037854d4f140eb43aefa237",
+      "title": "+(168 — 236) 命中 值",
+      "name": "安穩的",
+      "family": "IncreasedAccuracy",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 48,
+      "stats": [
+        {
+          "text": "local accuracy rating 168 — 236 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(168 — 236) 命中 值 安穩的 IncreasedAccuracy 前綴 (1) 物品 (1) 需求等級 48 local accuracy rating 168 — 236 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "f8eabae2283129cc838e2d0b9dd9f140119b67f90f2b6f2973c696c6b92a59f3",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f8eabae2283129cc838e2d0b9dd9f140119b67f90f2b6f2973c696c6b92a59f3",
+      "title": "+(237 — 346) 命中 值",
+      "name": "狩獵者的",
+      "family": "IncreasedAccuracy",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 58,
+      "stats": [
+        {
+          "text": "local accuracy rating 237 — 346 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(237 — 346) 命中 值 狩獵者的 IncreasedAccuracy 前綴 (1) 物品 (1) 需求等級 58 local accuracy rating 237 — 346 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "148f36e4dc33d23d20c375ba514b2f75475b5191559ea8a49fa172b8c04189a2",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/148f36e4dc33d23d20c375ba514b2f75475b5191559ea8a49fa172b8c04189a2",
+      "title": "+(347 — 450) 命中 值",
+      "name": "遊俠的",
+      "family": "IncreasedAccuracy",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 67,
+      "stats": [
+        {
+          "text": "local accuracy rating 347 — 450 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(347 — 450) 命中 值 遊俠的 IncreasedAccuracy 前綴 (1) 物品 (1) 需求等級 67 local accuracy rating 347 — 450 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "e09a008939a040b8ada96d6e6e1c1077cbd2f9d610dcea37f1ee79769952f8f4",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e09a008939a040b8ada96d6e6e1c1077cbd2f9d610dcea37f1ee79769952f8f4",
+      "title": "+(451 — 550) 命中 值",
+      "name": "亞馬遜的",
+      "family": "IncreasedAccuracy",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 76,
+      "stats": [
+        {
+          "text": "local accuracy rating 451 — 550 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(451 — 550) 命中 值 亞馬遜的 IncreasedAccuracy 前綴 (1) 物品 (1) 需求等級 76 local accuracy rating 451 — 550 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "0153a5d5c18b77217fe85182c3a85feaaa86285eafd61ba1bc364d77b5e3ff74",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/0153a5d5c18b77217fe85182c3a85feaaa86285eafd61ba1bc364d77b5e3ff74",
       "title": "+(551 — 650) 命中 值",
@@ -111029,6 +112463,339 @@
       ],
       "itemClasses": [],
       "searchText": "+(551 — 650) 命中 值 女武神的 IncreasedAccuracy 前綴 (1) 物品 (1) 需求等級 82 local accuracy rating 551 — 650 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "30b3a2ec8e56ff658b52f9397b73db1149856b79cd35789b26ce60e80e18795f",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/30b3a2ec8e56ff658b52f9397b73db1149856b79cd35789b26ce60e80e18795f",
+      "title": "+(1.01 — 1.5) % 暴擊 率",
+      "name": "威脅之",
+      "family": "CriticalStrikeChanceIncrease",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local critical strike chance 101 — 150 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(1.01 — 1.5) % 暴擊 率 威脅之 CriticalStrikeChanceIncrease 後綴 (2) 物品 (1) 需求等級 1 local critical strike chance 101 — 150 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "3d7a57fd431e4f4f3376156bc266ec8ed728a9c0bdfdaa8d9281dfd72ba6eb14",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/3d7a57fd431e4f4f3376156bc266ec8ed728a9c0bdfdaa8d9281dfd72ba6eb14",
+      "title": "+(1.51 — 2.1) % 暴擊 率",
+      "name": "浩劫之",
+      "family": "CriticalStrikeChanceIncrease",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 20,
+      "stats": [
+        {
+          "text": "local critical strike chance 151 — 210 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(1.51 — 2.1) % 暴擊 率 浩劫之 CriticalStrikeChanceIncrease 後綴 (2) 物品 (1) 需求等級 20 local critical strike chance 151 — 210 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "adc7f60c75084724dab226ed947af0033ea26f076afbd887d00addba6464a332",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/adc7f60c75084724dab226ed947af0033ea26f076afbd887d00addba6464a332",
+      "title": "+(2.11 — 2.7) % 暴擊 率",
+      "name": "災害之",
+      "family": "CriticalStrikeChanceIncrease",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 30,
+      "stats": [
+        {
+          "text": "local critical strike chance 211 — 270 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(2.11 — 2.7) % 暴擊 率 災害之 CriticalStrikeChanceIncrease 後綴 (2) 物品 (1) 需求等級 30 local critical strike chance 211 — 270 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "7ac4a8d8e369d8f31c400624686aacbcbe1ba69a2fda5499753ea1b09cdde332",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/7ac4a8d8e369d8f31c400624686aacbcbe1ba69a2fda5499753ea1b09cdde332",
+      "title": "+(3.11 — 3.8) % 暴擊 率",
+      "name": "血禍之",
+      "family": "CriticalStrikeChanceIncrease",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 44,
+      "stats": [
+        {
+          "text": "local critical strike chance 311 — 380 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(3.11 — 3.8) % 暴擊 率 血禍之 CriticalStrikeChanceIncrease 後綴 (2) 物品 (1) 需求等級 44 local critical strike chance 311 — 380 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "baf22386d0155bd73976e340a972e738f987f7edc550148d499ec8b0079de853",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/baf22386d0155bd73976e340a972e738f987f7edc550148d499ec8b0079de853",
+      "title": "+(3.81 — 4.4) % 暴擊 率",
+      "name": "滅絕之",
+      "family": "CriticalStrikeChanceIncrease",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 59,
+      "stats": [
+        {
+          "text": "local critical strike chance 381 — 440 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(3.81 — 4.4) % 暴擊 率 滅絕之 CriticalStrikeChanceIncrease 後綴 (2) 物品 (1) 需求等級 59 local critical strike chance 381 — 440 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "b9b77c3567e688b4d42e532563de3b71796a767e627b61c2758520b796258d9b",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/b9b77c3567e688b4d42e532563de3b71796a767e627b61c2758520b796258d9b",
+      "title": "+(4.41 — 5) % 暴擊 率",
+      "name": "奪位之",
+      "family": "CriticalStrikeChanceIncrease",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 73,
+      "stats": [
+        {
+          "text": "local critical strike chance 441 — 500 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(4.41 — 5) % 暴擊 率 奪位之 CriticalStrikeChanceIncrease 後綴 (2) 物品 (1) 需求等級 73 local critical strike chance 441 — 500 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "a0e85f8475f10d0a02d8bcc21b73b63c11ce9aeb7a86656e0033a7d1e33cfd2e",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a0e85f8475f10d0a02d8bcc21b73b63c11ce9aeb7a86656e0033a7d1e33cfd2e",
+      "title": "+(10 — 11) %的 暴擊傷害加成",
+      "name": "怒火之",
+      "family": "CriticalStrikeMultiplier",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 8,
+      "stats": [
+        {
+          "text": "local critical strike multiplier + 10 — 11 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(10 — 11) %的 暴擊傷害加成 怒火之 CriticalStrikeMultiplier 後綴 (2) 物品 (1) 需求等級 8 local critical strike multiplier + 10 — 11 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "e2c51b1e96928fdc600fde52da8547e40f26e818e78054ccd62b4481b7a5f68e",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e2c51b1e96928fdc600fde52da8547e40f26e818e78054ccd62b4481b7a5f68e",
+      "title": "+(12 — 13) %的 暴擊傷害加成",
+      "name": "憤怒之",
+      "family": "CriticalStrikeMultiplier",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 21,
+      "stats": [
+        {
+          "text": "local critical strike multiplier + 12 — 13 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(12 — 13) %的 暴擊傷害加成 憤怒之 CriticalStrikeMultiplier 後綴 (2) 物品 (1) 需求等級 21 local critical strike multiplier + 12 — 13 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "af2608104bf5947974004ac349a8defa32d40fb620be7ec02a9ea7acdcb76125",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/af2608104bf5947974004ac349a8defa32d40fb620be7ec02a9ea7acdcb76125",
+      "title": "+(14 — 16) %的 暴擊傷害加成",
+      "name": "狂怒之",
+      "family": "CriticalStrikeMultiplier",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 30,
+      "stats": [
+        {
+          "text": "local critical strike multiplier + 14 — 16 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(14 — 16) %的 暴擊傷害加成 狂怒之 CriticalStrikeMultiplier 後綴 (2) 物品 (1) 需求等級 30 local critical strike multiplier + 14 — 16 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "bcf3df7447b2667c1a13a37f497263c6a1b227b2e324628a99609dda4a680014",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/bcf3df7447b2667c1a13a37f497263c6a1b227b2e324628a99609dda4a680014",
+      "title": "+(17 — 19) %的 暴擊傷害加成",
+      "name": "憤恨之",
+      "family": "CriticalStrikeMultiplier",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 44,
+      "stats": [
+        {
+          "text": "local critical strike multiplier + 17 — 19 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(17 — 19) %的 暴擊傷害加成 憤恨之 CriticalStrikeMultiplier 後綴 (2) 物品 (1) 需求等級 44 local critical strike multiplier + 17 — 19 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "f3174e949ce76db3194ab925faf75db80d531d7d1b1fc93ae872e17dbc11341e",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f3174e949ce76db3194ab925faf75db80d531d7d1b1fc93ae872e17dbc11341e",
+      "title": "+(20 — 22) %的 暴擊傷害加成",
+      "name": "狂暴之",
+      "family": "CriticalStrikeMultiplier",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 59,
+      "stats": [
+        {
+          "text": "local critical strike multiplier + 20 — 22 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(20 — 22) %的 暴擊傷害加成 狂暴之 CriticalStrikeMultiplier 後綴 (2) 物品 (1) 需求等級 59 local critical strike multiplier + 20 — 22 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "cdbfc344fc5e9ab684d4b28d19cc48bba5e704f4f90cc8a3c5922912bc351f4d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/cdbfc344fc5e9ab684d4b28d19cc48bba5e704f4f90cc8a3c5922912bc351f4d",
+      "title": "+(23 — 25) %的 暴擊傷害加成",
+      "name": "毀滅之",
+      "family": "CriticalStrikeMultiplier",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 73,
+      "stats": [
+        {
+          "text": "local critical strike multiplier + 23 — 25 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(23 — 25) %的 暴擊傷害加成 毀滅之 CriticalStrikeMultiplier 後綴 (2) 物品 (1) 需求等級 73 local critical strike multiplier + 23 — 25 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "a4c0bffca73718146881b1a2c6c06793d4281582cd977e4426e8dc189cd940d5",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a4c0bffca73718146881b1a2c6c06793d4281582cd977e4426e8dc189cd940d5",
+      "title": "+(10 — 20) 命中 值 增加 5 % 照亮範圍",
+      "name": "閃亮之",
+      "family": "LightRadiusAndAccuracy",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 8,
+      "stats": [
+        {
+          "text": "light radius +% 5 — 5 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local accuracy rating 10 — 20 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(10 — 20) 命中 值 增加 5 % 照亮範圍 閃亮之 LightRadiusAndAccuracy 後綴 (2) 物品 (1) 需求等級 8 light radius +% 5 — 5 Global local accuracy rating 10 — 20 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "a59af0690c10aaee30bb2fa71c93bac0ed1cc037a0aa0e27914c97103fd3e711",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a59af0690c10aaee30bb2fa71c93bac0ed1cc037a0aa0e27914c97103fd3e711",
+      "title": "+(21 — 40) 命中 值 增加 10 % 照亮範圍",
+      "name": "光明之",
+      "family": "LightRadiusAndAccuracy",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 15,
+      "stats": [
+        {
+          "text": "light radius +% 10 — 10 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local accuracy rating 21 — 40 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(21 — 40) 命中 值 增加 10 % 照亮範圍 光明之 LightRadiusAndAccuracy 後綴 (2) 物品 (1) 需求等級 15 light radius +% 10 — 10 Global local accuracy rating 21 — 40 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "0e296b9eb1d5e06657defdd8d39a7f1ddff9b67017201c53cb40f90d8debe33a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/0e296b9eb1d5e06657defdd8d39a7f1ddff9b67017201c53cb40f90d8debe33a",
+      "title": "+(41 — 60) 命中 值 增加 15 % 照亮範圍",
+      "name": "光輝之",
+      "family": "LightRadiusAndAccuracy",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 30,
+      "stats": [
+        {
+          "text": "light radius +% 15 — 15 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local accuracy rating 41 — 60 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(41 — 60) 命中 值 增加 15 % 照亮範圍 光輝之 LightRadiusAndAccuracy 後綴 (2) 物品 (1) 需求等級 30 light radius +% 15 — 15 Global local accuracy rating 41 — 60 區域"
     },
     {
       "type": "modifier",
@@ -111263,6 +113030,27 @@
     },
     {
       "type": "modifier",
+      "hash": "8739c137676c1f0f46481a2836408d8382d5a487b059bc07a00810d806964274",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/8739c137676c1f0f46481a2836408d8382d5a487b059bc07a00810d806964274",
+      "title": "增加 (15 — 25) % 物理 傷害",
+      "name": "",
+      "family": "LocalPhysicalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local physical damage +% 15 — 25 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (15 — 25) % 物理 傷害 LocalPhysicalDamagePercent 已汙染 (5) 物品 (1) 需求等級 1 local physical damage +% 15 — 25 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "bc865b97d0dca86b76a835b87d7db8432d3e1fead0037a8154156143796bba69",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/bc865b97d0dca86b76a835b87d7db8432d3e1fead0037a8154156143796bba69",
       "title": "附加 (9 — 14) 至 (15 — 22) 火焰 傷害",
@@ -111368,6 +113156,48 @@
       ],
       "itemClasses": [],
       "searchText": "附加 (7 — 11) 至 (12 — 18) 混沌 傷害 LocalChaosDamage 已汙染 (5) 物品 (1) 需求等級 1 local maximum added chaos damage 12 — 18 區域 local minimum added chaos damage 7 — 11 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "9dd1f438ca3d7571bd7876db42dc158af9dde520436bbeaf727a890ea25da97f",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/9dd1f438ca3d7571bd7876db42dc158af9dde520436bbeaf727a890ea25da97f",
+      "title": "增加 (6 — 8) % 攻擊 速度",
+      "name": "",
+      "family": "IncreasedAttackSpeed",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local attack speed +% 6 — 8 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (6 — 8) % 攻擊 速度 IncreasedAttackSpeed 已汙染 (5) 物品 (1) 需求等級 1 local attack speed +% 6 — 8 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "55b90fd86bf0548733b13912376bc199b752a811f52848397cd4630fc2285dd7",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/55b90fd86bf0548733b13912376bc199b752a811f52848397cd4630fc2285dd7",
+      "title": "+(5 — 10) %的 暴擊傷害加成",
+      "name": "",
+      "family": "CriticalStrikeMultiplier",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local critical strike multiplier + 5 — 10 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(5 — 10) %的 暴擊傷害加成 CriticalStrikeMultiplier 已汙染 (5) 物品 (1) 需求等級 1 local critical strike multiplier + 5 — 10 區域"
     },
     {
       "type": "modifier",
@@ -111503,6 +113333,27 @@
     },
     {
       "type": "modifier",
+      "hash": "1bfb87be752b4fc99523a345d2f202645ce0d982674fe41869aa6739f8863f12",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/1bfb87be752b4fc99523a345d2f202645ce0d982674fe41869aa6739f8863f12",
+      "title": "此武器的 攻擊 穿透 (15 — 25) %的火焰抗性",
+      "name": "阿姆那姆的",
+      "family": "FireResistancePenetration",
+      "domains": "深淵 (28)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "local fire penetration % 15 — 25 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "此武器的 攻擊 穿透 (15 — 25) %的火焰抗性 阿姆那姆的 FireResistancePenetration 前綴 (1) 深淵 (28) 需求等級 65 local fire penetration % 15 — 25 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "691cb5388ee59abd4c0a950fe6656a065a53f3b808d27584bdf1ec9b2aa03f54",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/691cb5388ee59abd4c0a950fe6656a065a53f3b808d27584bdf1ec9b2aa03f54",
       "title": "投射物 有 (25 — 35) %機率從地形額外 連鎖 一次",
@@ -111524,6 +113375,27 @@
     },
     {
       "type": "modifier",
+      "hash": "d6f510102fb5dcce89dc3b75b7ef2af72c0d3ea722d1e2192a74fe7aeac32d34",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/d6f510102fb5dcce89dc3b75b7ef2af72c0d3ea722d1e2192a74fe7aeac32d34",
+      "title": "此武器的 攻擊 穿透 (15 — 25) %的冰冷抗性",
+      "name": "柯戈的",
+      "family": "ColdResistancePenetration",
+      "domains": "深淵 (28)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "local cold penetration % 15 — 25 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "此武器的 攻擊 穿透 (15 — 25) %的冰冷抗性 柯戈的 ColdResistancePenetration 前綴 (1) 深淵 (28) 需求等級 65 local cold penetration % 15 — 25 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "c3f4184f2b0e21742b10d8384deb1178966bdae79b3a57fab832ed1c579a0fa9",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c3f4184f2b0e21742b10d8384deb1178966bdae79b3a57fab832ed1c579a0fa9",
       "title": "增加 (30 — 40) %從已裝備 箭袋 獲得的加成",
@@ -111542,6 +113414,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (30 — 40) %從已裝備 箭袋 獲得的加成 柯戈的 EquipmentModifierEffect 前綴 (1) 深淵 (28) 需求等級 65 quiver mod effect +% 30 — 40 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "95ce16e06eb75f9d01ef139ea58fbcce662c54a2ade9990cfcce6513ec75530f",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/95ce16e06eb75f9d01ef139ea58fbcce662c54a2ade9990cfcce6513ec75530f",
+      "title": "技能增加 (5 — 10) % 精魂 保留 效用",
+      "name": "阿姆那姆之",
+      "family": "SpiritReservationEfficiency",
+      "domains": "深淵 (28)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "base spirit reservation efficiency +% 5 — 10 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "技能增加 (5 — 10) % 精魂 保留 效用 阿姆那姆之 SpiritReservationEfficiency 後綴 (2) 深淵 (28) 需求等級 65 base spirit reservation efficiency +% 5 — 10 Global"
     },
     {
       "type": "modifier",
@@ -111635,6 +113528,27 @@
     },
     {
       "type": "modifier",
+      "hash": "7e77d5e04fd6e3925e78f72930d900722824261a4921d24bc7015bba051c7c6f",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/7e77d5e04fd6e3925e78f72930d900722824261a4921d24bc7015bba051c7c6f",
+      "title": "增加 (8 — 15) % 攻擊 消耗 效用",
+      "name": "柯戈之",
+      "family": "ManaCostEfficiency",
+      "domains": "深淵 (28)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "base attack skill cost efficiency +% 8 — 15 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (8 — 15) % 攻擊 消耗 效用 柯戈之 ManaCostEfficiency 後綴 (2) 深淵 (28) 需求等級 65 base attack skill cost efficiency +% 8 — 15 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "424722190b3e775cc6fa8ad098dea9ca13c7517610e30507f4e01350d4df13ef",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/424722190b3e775cc6fa8ad098dea9ca13c7517610e30507f4e01350d4df13ef",
       "title": "增加 (8 — 13) % 攻擊 速度 當你的 盟友 位於你的 存在範圍 內時，增加 (8 — 13) % 攻擊 速度",
@@ -111680,6 +113594,48 @@
       ],
       "itemClasses": [],
       "searchText": "移動時， 投射物 攻擊 有 (10 — 18) %機率發射2個額外 投射物 烏拉曼之 AdditionalProjectiles 後綴 (2) 深淵 (28) 需求等級 65 projectile attacks % chance to fire 2 additional projectiles while moving 10 — 18 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "dca59ce2041a0a0cc4874fcaeafbc83969f0b31cf5e274e2fc965db0807391d3",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/dca59ce2041a0a0cc4874fcaeafbc83969f0b31cf5e274e2fc965db0807391d3",
+      "title": "(15 — 20) %技能魔力消耗 轉換 為生命消耗",
+      "name": "烏拉曼之",
+      "family": "LifeCost",
+      "domains": "深淵 (28)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "base skill cost life instead of mana % 15 — 20 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "(15 — 20) %技能魔力消耗 轉換 為生命消耗 烏拉曼之 LifeCost 後綴 (2) 深淵 (28) 需求等級 65 base skill cost life instead of mana % 15 — 20 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "55827bc86733bfcf4c89efe645805630526bc55ebc4a07329b056b7887218228",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/55827bc86733bfcf4c89efe645805630526bc55ebc4a07329b056b7887218228",
+      "title": "此武器的 攻擊 穿透 (15 — 25) %的閃電抗性",
+      "name": "烏拉曼的",
+      "family": "LightningResistancePenetration",
+      "domains": "深淵 (28)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "local lightning penetration % 15 — 25 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "此武器的 攻擊 穿透 (15 — 25) %的閃電抗性 烏拉曼的 LightningResistancePenetration 前綴 (1) 深淵 (28) 需求等級 65 local lightning penetration % 15 — 25 區域"
     },
     {
       "type": "modifier",
@@ -111872,6 +113828,69 @@
       ],
       "itemClasses": [],
       "searchText": "擊中 時有 (25 — 50) %機率造成 癱瘓 LocalMaimOnHit 傳奇 (3) 物品 (1) 需求等級 1 local maim on hit % 25 — 50 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "e8a47a3ebecf87e173124adca73ccb496f638d7fc04f81e5c92e43f274c9e79c",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e8a47a3ebecf87e173124adca73ccb496f638d7fc04f81e5c92e43f274c9e79c",
+      "title": "+(15 — 25) %的 暴擊傷害加成",
+      "name": "",
+      "family": "CriticalStrikeMultiplier",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local critical strike multiplier + 15 — 25 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(15 — 25) %的 暴擊傷害加成 CriticalStrikeMultiplier 傳奇 (3) 物品 (1) 需求等級 1 local critical strike multiplier + 15 — 25 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "55e85062c73887f1b7246be535b9ea80caf27c4ff863eddca0e826ee865b9b8c",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/55e85062c73887f1b7246be535b9ea80caf27c4ff863eddca0e826ee865b9b8c",
+      "title": "增加 (12 — 16) % 攻擊 速度",
+      "name": "",
+      "family": "IncreasedAttackSpeed",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local attack speed +% 12 — 16 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (12 — 16) % 攻擊 速度 IncreasedAttackSpeed 傳奇 (3) 物品 (1) 需求等級 1 local attack speed +% 12 — 16 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "ebafe23f7450bf3cc1c710d68dff234d66131ea89ea6763f700a0b604376b6cd",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/ebafe23f7450bf3cc1c710d68dff234d66131ea89ea6763f700a0b604376b6cd",
+      "title": "增加 (40 — 60) % 物理 傷害",
+      "name": "",
+      "family": "LocalPhysicalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local physical damage +% 40 — 60 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (40 — 60) % 物理 傷害 LocalPhysicalDamagePercent 傳奇 (3) 物品 (1) 需求等級 1 local physical damage +% 40 — 60 區域"
     },
     {
       "type": "modifier",
@@ -114536,6 +116555,1374 @@
     },
     {
       "type": "modifier",
+      "hash": "e43fab169a4fc6c5aca84e50e6fb5d238829272270c6eccc589cd15b4cd1992a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e43fab169a4fc6c5aca84e50e6fb5d238829272270c6eccc589cd15b4cd1992a",
+      "title": "增加 (20 — 22) % 攻擊 速度",
+      "name": "名聲之",
+      "family": "IncreasedAttackSpeed",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 45,
+      "stats": [
+        {
+          "text": "local attack speed +% 20 — 22 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (20 — 22) % 攻擊 速度 名聲之 IncreasedAttackSpeed 後綴 (2) 物品 (1) 需求等級 45 local attack speed +% 20 — 22 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "a184055d4e50a52e302a2b6eb31853b0f53ae4083ee3fee28c6131b9c24dc3fd",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a184055d4e50a52e302a2b6eb31853b0f53ae4083ee3fee28c6131b9c24dc3fd",
+      "title": "增加 (23 — 25) % 攻擊 速度",
+      "name": "惡名之",
+      "family": "IncreasedAttackSpeed",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 60,
+      "stats": [
+        {
+          "text": "local attack speed +% 23 — 25 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (23 — 25) % 攻擊 速度 惡名之 IncreasedAttackSpeed 後綴 (2) 物品 (1) 需求等級 60 local attack speed +% 23 — 25 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "6ad5f54c34ecc00d796b5cb1611b7a2b2b88e34a21cb6b1dfe5e6e441ac33676",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/6ad5f54c34ecc00d796b5cb1611b7a2b2b88e34a21cb6b1dfe5e6e441ac33676",
+      "title": "增加 (26 — 28) % 攻擊 速度",
+      "name": "慶典之",
+      "family": "IncreasedAttackSpeed",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 77,
+      "stats": [
+        {
+          "text": "local attack speed +% 26 — 28 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (26 — 28) % 攻擊 速度 慶典之 IncreasedAttackSpeed 後綴 (2) 物品 (1) 需求等級 77 local attack speed +% 26 — 28 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "36c80811d0f5b8d3460e6ba5080f4d9505615cc37bcb41fba6cdff7ab23f842a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/36c80811d0f5b8d3460e6ba5080f4d9505615cc37bcb41fba6cdff7ab23f842a",
+      "title": "增加 (11 — 13) % 暈眩 持續時間",
+      "name": "衝擊之",
+      "family": "StunDurationIncreasePercent",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 5,
+      "stats": [
+        {
+          "text": "local base stun duration +% 11 — 13 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (11 — 13) % 暈眩 持續時間 衝擊之 StunDurationIncreasePercent 後綴 (2) 物品 (1) 需求等級 5 local base stun duration +% 11 — 13 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "7692db2b34bc8897419783a0b29ac2780189085b1e49e5163be91a8184037f55",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/7692db2b34bc8897419783a0b29ac2780189085b1e49e5163be91a8184037f55",
+      "title": "增加 (14 — 16) % 暈眩 持續時間",
+      "name": "暈眩之",
+      "family": "StunDurationIncreasePercent",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 18,
+      "stats": [
+        {
+          "text": "local base stun duration +% 14 — 16 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (14 — 16) % 暈眩 持續時間 暈眩之 StunDurationIncreasePercent 後綴 (2) 物品 (1) 需求等級 18 local base stun duration +% 14 — 16 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "018df999bd00ca2c46f4b86d10393ccf0b4a7d487b866d0c82458e5bd7c1017d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/018df999bd00ca2c46f4b86d10393ccf0b4a7d487b866d0c82458e5bd7c1017d",
+      "title": "增加 (17 — 19) % 暈眩 持續時間",
+      "name": "擊暈之",
+      "family": "StunDurationIncreasePercent",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 30,
+      "stats": [
+        {
+          "text": "local base stun duration +% 17 — 19 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (17 — 19) % 暈眩 持續時間 擊暈之 StunDurationIncreasePercent 後綴 (2) 物品 (1) 需求等級 30 local base stun duration +% 17 — 19 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "745cd7202f42dff16320d930ada2f783fa965b6476dccdd9a58ea0a03512d895",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/745cd7202f42dff16320d930ada2f783fa965b6476dccdd9a58ea0a03512d895",
+      "title": "增加 (20 — 22) % 暈眩 持續時間",
+      "name": "轟擊之",
+      "family": "StunDurationIncreasePercent",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 44,
+      "stats": [
+        {
+          "text": "local base stun duration +% 20 — 22 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (20 — 22) % 暈眩 持續時間 轟擊之 StunDurationIncreasePercent 後綴 (2) 物品 (1) 需求等級 44 local base stun duration +% 20 — 22 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "d206c22bc18bad59b9dbe53c71765f6e10d46e06da102026308945a1a0520107",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/d206c22bc18bad59b9dbe53c71765f6e10d46e06da102026308945a1a0520107",
+      "title": "增加 (23 — 26) % 暈眩 持續時間",
+      "name": "蹣跚之",
+      "family": "StunDurationIncreasePercent",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 58,
+      "stats": [
+        {
+          "text": "local base stun duration +% 23 — 26 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (23 — 26) % 暈眩 持續時間 蹣跚之 StunDurationIncreasePercent 後綴 (2) 物品 (1) 需求等級 58 local base stun duration +% 23 — 26 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "edc7d24aec85343700181749bdc0a63ec708c8c2017f4b11e9818f216e3d3079",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/edc7d24aec85343700181749bdc0a63ec708c8c2017f4b11e9818f216e3d3079",
+      "title": "增加 (27 — 30) % 暈眩 持續時間",
+      "name": "頭昏腦脹之",
+      "family": "StunDurationIncreasePercent",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 71,
+      "stats": [
+        {
+          "text": "local base stun duration +% 27 — 30 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (27 — 30) % 暈眩 持續時間 頭昏腦脹之 StunDurationIncreasePercent 後綴 (2) 物品 (1) 需求等級 71 local base stun duration +% 27 — 30 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "0fb50d35c94b60ea62bac66b39b776cdff909f0ee50c6e1d3572587ef61154bc",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/0fb50d35c94b60ea62bac66b39b776cdff909f0ee50c6e1d3572587ef61154bc",
+      "title": "增加 (21 — 30) % 暈眩 累積",
+      "name": "拳擊之",
+      "family": "StunDamageIncrease",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 5,
+      "stats": [
+        {
+          "text": "local hit damage stun multiplier +% 21 — 30 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (21 — 30) % 暈眩 累積 拳擊之 StunDamageIncrease 後綴 (2) 物品 (1) 需求等級 5 local hit damage stun multiplier +% 21 — 30 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "edfc4e2162fafdd65f95eed2d014bbf9df0bf2519d932d8accb81459a32db297",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/edfc4e2162fafdd65f95eed2d014bbf9df0bf2519d932d8accb81459a32db297",
+      "title": "增加 (31 — 40) % 暈眩 累積",
+      "name": "打鬥之",
+      "family": "StunDamageIncrease",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 20,
+      "stats": [
+        {
+          "text": "local hit damage stun multiplier +% 31 — 40 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (31 — 40) % 暈眩 累積 打鬥之 StunDamageIncrease 後綴 (2) 物品 (1) 需求等級 20 local hit damage stun multiplier +% 31 — 40 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "95ead19acc8d0703a2b8ad8d9dead0554c3515eaffd7be40105813c56b53d69a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/95ead19acc8d0703a2b8ad8d9dead0554c3515eaffd7be40105813c56b53d69a",
+      "title": "增加 (41 — 50) % 暈眩 累積",
+      "name": "格鬥家之",
+      "family": "StunDamageIncrease",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 30,
+      "stats": [
+        {
+          "text": "local hit damage stun multiplier +% 41 — 50 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (41 — 50) % 暈眩 累積 格鬥家之 StunDamageIncrease 後綴 (2) 物品 (1) 需求等級 30 local hit damage stun multiplier +% 41 — 50 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "da7c24a4776dffc8f3fd232083954ac89f85cc70cb0b2968aebdb528ffede9a6",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/da7c24a4776dffc8f3fd232083954ac89f85cc70cb0b2968aebdb528ffede9a6",
+      "title": "增加 (51 — 60) % 暈眩 累積",
+      "name": "戰鬥之",
+      "family": "StunDamageIncrease",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 44,
+      "stats": [
+        {
+          "text": "local hit damage stun multiplier +% 51 — 60 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (51 — 60) % 暈眩 累積 戰鬥之 StunDamageIncrease 後綴 (2) 物品 (1) 需求等級 44 local hit damage stun multiplier +% 51 — 60 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "b7e2e3c8a7b012cf3e2bfd9beaf82c176c4ce28b1b169eac69ec4e370bcf5338",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/b7e2e3c8a7b012cf3e2bfd9beaf82c176c4ce28b1b169eac69ec4e370bcf5338",
+      "title": "增加 (61 — 70) % 暈眩 累積",
+      "name": "角鬥士之",
+      "family": "StunDamageIncrease",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 58,
+      "stats": [
+        {
+          "text": "local hit damage stun multiplier +% 61 — 70 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (61 — 70) % 暈眩 累積 角鬥士之 StunDamageIncrease 後綴 (2) 物品 (1) 需求等級 58 local hit damage stun multiplier +% 61 — 70 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "9f55a053a27e0f4f3ad06d31f68066967d7d10c775b39ba043563ee43ec695c0",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/9f55a053a27e0f4f3ad06d31f68066967d7d10c775b39ba043563ee43ec695c0",
+      "title": "增加 (71 — 80) % 暈眩 累積",
+      "name": "冠軍之",
+      "family": "StunDamageIncrease",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 74,
+      "stats": [
+        {
+          "text": "local hit damage stun multiplier +% 71 — 80 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (71 — 80) % 暈眩 累積 冠軍之 StunDamageIncrease 後綴 (2) 物品 (1) 需求等級 74 local hit damage stun multiplier +% 71 — 80 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "6cf0f40327c2fd1823f7b54f84ee30ecdeca8656c9b4338d0b3ceacf9859a8d4",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/6cf0f40327c2fd1823f7b54f84ee30ecdeca8656c9b4338d0b3ceacf9859a8d4",
+      "title": "附加 (2 — 3) 至 (5 — 7) 物理 傷害",
+      "name": "反光的",
+      "family": "PhysicalDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local maximum added physical damage 5 — 7 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added physical damage 2 — 3 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (2 — 3) 至 (5 — 7) 物理 傷害 反光的 PhysicalDamage 前綴 (1) 物品 (1) 需求等級 1 local maximum added physical damage 5 — 7 區域 local minimum added physical damage 2 — 3 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "a31b5223b0ffdc8b03ea2d50bc9e000ac64dca80c8ef80b99225972d1dbe4a8e",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a31b5223b0ffdc8b03ea2d50bc9e000ac64dca80c8ef80b99225972d1dbe4a8e",
+      "title": "附加 (5 — 8) 至 (10 — 15) 物理 傷害",
+      "name": "磨光的",
+      "family": "PhysicalDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 8,
+      "stats": [
+        {
+          "text": "local maximum added physical damage 10 — 15 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added physical damage 5 — 8 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (5 — 8) 至 (10 — 15) 物理 傷害 磨光的 PhysicalDamage 前綴 (1) 物品 (1) 需求等級 8 local maximum added physical damage 10 — 15 區域 local minimum added physical damage 5 — 8 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "d573dd183e536baa22c694213d476194f9d9215adf69bc72ef5e9a6b948a29ca",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/d573dd183e536baa22c694213d476194f9d9215adf69bc72ef5e9a6b948a29ca",
+      "title": "附加 (8 — 12) 至 (15 — 22) 物理 傷害",
+      "name": "拋光的",
+      "family": "PhysicalDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 16,
+      "stats": [
+        {
+          "text": "local maximum added physical damage 15 — 22 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added physical damage 8 — 12 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (8 — 12) 至 (15 — 22) 物理 傷害 拋光的 PhysicalDamage 前綴 (1) 物品 (1) 需求等級 16 local maximum added physical damage 15 — 22 區域 local minimum added physical damage 8 — 12 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "dad6abeb7f27af9e011f1fe9607961ccb93991e21ca94f0a35ae9d6a05f06670",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/dad6abeb7f27af9e011f1fe9607961ccb93991e21ca94f0a35ae9d6a05f06670",
+      "title": "附加 (11 — 17) 至 (20 — 30) 物理 傷害",
+      "name": "砥礪的",
+      "family": "PhysicalDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 33,
+      "stats": [
+        {
+          "text": "local maximum added physical damage 20 — 30 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added physical damage 11 — 17 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (11 — 17) 至 (20 — 30) 物理 傷害 砥礪的 PhysicalDamage 前綴 (1) 物品 (1) 需求等級 33 local maximum added physical damage 20 — 30 區域 local minimum added physical damage 11 — 17 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "8e3032ef62fcd87064d976ee07c8f8154c1ffc5cf957c704a227f141a38f6d38",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/8e3032ef62fcd87064d976ee07c8f8154c1ffc5cf957c704a227f141a38f6d38",
+      "title": "附加 (14 — 21) 至 (25 — 37) 物理 傷害",
+      "name": "熠熠的",
+      "family": "PhysicalDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 46,
+      "stats": [
+        {
+          "text": "local maximum added physical damage 25 — 37 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added physical damage 14 — 21 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (14 — 21) 至 (25 — 37) 物理 傷害 熠熠的 PhysicalDamage 前綴 (1) 物品 (1) 需求等級 46 local maximum added physical damage 25 — 37 區域 local minimum added physical damage 14 — 21 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "15af1eb6f7a311972aa342b330bdb14afaca02145af3a86770f72c7997486b00",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/15af1eb6f7a311972aa342b330bdb14afaca02145af3a86770f72c7997486b00",
+      "title": "附加 (19 — 29) 至 (33 — 49) 物理 傷害",
+      "name": "韌煉的",
+      "family": "PhysicalDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 54,
+      "stats": [
+        {
+          "text": "local maximum added physical damage 33 — 49 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added physical damage 19 — 29 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (19 — 29) 至 (33 — 49) 物理 傷害 韌煉的 PhysicalDamage 前綴 (1) 物品 (1) 需求等級 54 local maximum added physical damage 33 — 49 區域 local minimum added physical damage 19 — 29 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "728307bdea56d4c81073d8f32156e5d15d21ef5e31fae3d76db7f4f3aca74798",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/728307bdea56d4c81073d8f32156e5d15d21ef5e31fae3d76db7f4f3aca74798",
+      "title": "附加 (23 — 35) 至 (39 — 59) 物理 傷害",
+      "name": "鋒利的",
+      "family": "PhysicalDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 60,
+      "stats": [
+        {
+          "text": "local maximum added physical damage 39 — 59 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added physical damage 23 — 35 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (23 — 35) 至 (39 — 59) 物理 傷害 鋒利的 PhysicalDamage 前綴 (1) 物品 (1) 需求等級 60 local maximum added physical damage 39 — 59 區域 local minimum added physical damage 23 — 35 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "e02c4a1cbde525fc3aede7ce1812cf3dd69fff6003e70b305bad1fd0b97c5e9a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e02c4a1cbde525fc3aede7ce1812cf3dd69fff6003e70b305bad1fd0b97c5e9a",
+      "title": "附加 (29 — 44) 至 (50 — 75) 物理 傷害",
+      "name": "鍛煉的",
+      "family": "PhysicalDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "local maximum added physical damage 50 — 75 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added physical damage 29 — 44 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (29 — 44) 至 (50 — 75) 物理 傷害 鍛煉的 PhysicalDamage 前綴 (1) 物品 (1) 需求等級 65 local maximum added physical damage 50 — 75 區域 local minimum added physical damage 29 — 44 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "98e83592e746f79d3ec04f1bd2cf65a3fc5c438f33dd09ae242aae1a17515567",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/98e83592e746f79d3ec04f1bd2cf65a3fc5c438f33dd09ae242aae1a17515567",
+      "title": "附加 (37 — 55) 至 (63 — 94) 物理 傷害",
+      "name": "迸出的",
+      "family": "PhysicalDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 75,
+      "stats": [
+        {
+          "text": "local maximum added physical damage 63 — 94 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added physical damage 37 — 55 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (37 — 55) 至 (63 — 94) 物理 傷害 迸出的 PhysicalDamage 前綴 (1) 物品 (1) 需求等級 75 local maximum added physical damage 63 — 94 區域 local minimum added physical damage 37 — 55 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "6e56a6ee7b26dc53918cc9bab7d849032c3778d1353b4f7bebb48178e749e92e",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/6e56a6ee7b26dc53918cc9bab7d849032c3778d1353b4f7bebb48178e749e92e",
+      "title": "附加 (2 — 4) 至 (5 — 7) 火焰 傷害",
+      "name": "加熱的",
+      "family": "FireDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local maximum added fire damage 5 — 7 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added fire damage 2 — 4 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (2 — 4) 至 (5 — 7) 火焰 傷害 加熱的 FireDamage 前綴 (1) 物品 (1) 需求等級 1 local maximum added fire damage 5 — 7 區域 local minimum added fire damage 2 — 4 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "879e593fee656a6a96bc1645916b6d88986de661ecff7864dc5e4196e81282e5",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/879e593fee656a6a96bc1645916b6d88986de661ecff7864dc5e4196e81282e5",
+      "title": "附加 (6 — 9) 至 (10 — 16) 火焰 傷害",
+      "name": "悶燒的",
+      "family": "FireDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 8,
+      "stats": [
+        {
+          "text": "local maximum added fire damage 10 — 16 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added fire damage 6 — 9 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (6 — 9) 至 (10 — 16) 火焰 傷害 悶燒的 FireDamage 前綴 (1) 物品 (1) 需求等級 8 local maximum added fire damage 10 — 16 區域 local minimum added fire damage 6 — 9 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "2db67710d72427f0e0b2b38327cca363c326b5b1dfdd6e9a0388600eee6bb823",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2db67710d72427f0e0b2b38327cca363c326b5b1dfdd6e9a0388600eee6bb823",
+      "title": "附加 (11 — 17) 至 (19 — 28) 火焰 傷害",
+      "name": "冒煙的",
+      "family": "FireDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 16,
+      "stats": [
+        {
+          "text": "local maximum added fire damage 19 — 28 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added fire damage 11 — 17 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (11 — 17) 至 (19 — 28) 火焰 傷害 冒煙的 FireDamage 前綴 (1) 物品 (1) 需求等級 16 local maximum added fire damage 19 — 28 區域 local minimum added fire damage 11 — 17 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "8cd49760d02ccdd34e781efc6a1faa77ee6a5e22d4bd0058416dcc664bdb2568",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/8cd49760d02ccdd34e781efc6a1faa77ee6a5e22d4bd0058416dcc664bdb2568",
+      "title": "附加 (19 — 27) 至 (30 — 42) 火焰 傷害",
+      "name": "燃燒的",
+      "family": "FireDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 33,
+      "stats": [
+        {
+          "text": "local maximum added fire damage 30 — 42 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added fire damage 19 — 27 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (19 — 27) 至 (30 — 42) 火焰 傷害 燃燒的 FireDamage 前綴 (1) 物品 (1) 需求等級 33 local maximum added fire damage 30 — 42 區域 local minimum added fire damage 19 — 27 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "ebcae0f233403abbbb380539f683fd436a80b1f0c14a10b504d888e049a651ab",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/ebcae0f233403abbbb380539f683fd436a80b1f0c14a10b504d888e049a651ab",
+      "title": "附加 (30 — 37) 至 (45 — 56) 火焰 傷害",
+      "name": "火焰的",
+      "family": "FireDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 46,
+      "stats": [
+        {
+          "text": "local maximum added fire damage 45 — 56 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added fire damage 30 — 37 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (30 — 37) 至 (45 — 56) 火焰 傷害 火焰的 FireDamage 前綴 (1) 物品 (1) 需求等級 46 local maximum added fire damage 45 — 56 區域 local minimum added fire damage 30 — 37 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "6b07899887a24836ae543fd97a974335395382393c33649017ccb6064b4602fd",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/6b07899887a24836ae543fd97a974335395382393c33649017ccb6064b4602fd",
+      "title": "附加 (39 — 53) 至 (59 — 80) 火焰 傷害",
+      "name": "酷熱的",
+      "family": "FireDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 54,
+      "stats": [
+        {
+          "text": "local maximum added fire damage 59 — 80 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added fire damage 39 — 53 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (39 — 53) 至 (59 — 80) 火焰 傷害 酷熱的 FireDamage 前綴 (1) 物品 (1) 需求等級 54 local maximum added fire damage 59 — 80 區域 local minimum added fire damage 39 — 53 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "4f15127814b4178e0d628ae750e471d8b43de6383d17893781361fd3a3c1bcce",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/4f15127814b4178e0d628ae750e471d8b43de6383d17893781361fd3a3c1bcce",
+      "title": "附加 (56 — 70) 至 (84 — 107) 火焰 傷害",
+      "name": "焚燒的",
+      "family": "FireDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 60,
+      "stats": [
+        {
+          "text": "local maximum added fire damage 84 — 107 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added fire damage 56 — 70 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (56 — 70) 至 (84 — 107) 火焰 傷害 焚燒的 FireDamage 前綴 (1) 物品 (1) 需求等級 60 local maximum added fire damage 84 — 107 區域 local minimum added fire damage 56 — 70 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "bcc479f6179be3da64b60e233c02417a295819c81169b9aa556a1b7ffd6eea1d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/bcc479f6179be3da64b60e233c02417a295819c81169b9aa556a1b7ffd6eea1d",
+      "title": "附加 (73 — 97) 至 (112 — 149) 火焰 傷害",
+      "name": "爆破的",
+      "family": "FireDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "local maximum added fire damage 112 — 149 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added fire damage 73 — 97 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (73 — 97) 至 (112 — 149) 火焰 傷害 爆破的 FireDamage 前綴 (1) 物品 (1) 需求等級 65 local maximum added fire damage 112 — 149 區域 local minimum added fire damage 73 — 97 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "e3dd7068672008e1f9d25a143bd6547617391f3e3078a6eff808f88a6494600b",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e3dd7068672008e1f9d25a143bd6547617391f3e3078a6eff808f88a6494600b",
+      "title": "附加 (102 — 130) 至 (155 — 198) 火焰 傷害",
+      "name": "火化的",
+      "family": "FireDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 75,
+      "stats": [
+        {
+          "text": "local maximum added fire damage 155 — 198 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added fire damage 102 — 130 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (102 — 130) 至 (155 — 198) 火焰 傷害 火化的 FireDamage 前綴 (1) 物品 (1) 需求等級 75 local maximum added fire damage 155 — 198 區域 local minimum added fire damage 102 — 130 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "5cde5c0abb0d732600fad3e26f999872a94882ce364d6a4b28ffabd0e58ba7ae",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/5cde5c0abb0d732600fad3e26f999872a94882ce364d6a4b28ffabd0e58ba7ae",
+      "title": "附加 (135 — 156) 至 (205 — 236) 火焰 傷害",
+      "name": "碳化的",
+      "family": "FireDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 81,
+      "stats": [
+        {
+          "text": "local maximum added fire damage 205 — 236 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added fire damage 135 — 156 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (135 — 156) 至 (205 — 236) 火焰 傷害 碳化的 FireDamage 前綴 (1) 物品 (1) 需求等級 81 local maximum added fire damage 205 — 236 區域 local minimum added fire damage 135 — 156 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "abb5749047dc065770c97d7cd6c1b252443d9f47ebe1cde67e93adb8bbd23073",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/abb5749047dc065770c97d7cd6c1b252443d9f47ebe1cde67e93adb8bbd23073",
+      "title": "附加 (2 — 3) 至 (4 — 6) 冰冷 傷害",
+      "name": "結霜的",
+      "family": "ColdDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local maximum added cold damage 4 — 6 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added cold damage 2 — 3 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (2 — 3) 至 (4 — 6) 冰冷 傷害 結霜的 ColdDamage 前綴 (1) 物品 (1) 需求等級 1 local maximum added cold damage 4 — 6 區域 local minimum added cold damage 2 — 3 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "5d00ae50a2c1bfe8f5b5cc97d8c586ee72996f6b80271ba996612080794715e7",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/5d00ae50a2c1bfe8f5b5cc97d8c586ee72996f6b80271ba996612080794715e7",
+      "title": "附加 (5 — 8) 至 (9 — 14) 冰冷 傷害",
+      "name": "冷凍的",
+      "family": "ColdDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 8,
+      "stats": [
+        {
+          "text": "local maximum added cold damage 9 — 14 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added cold damage 5 — 8 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (5 — 8) 至 (9 — 14) 冰冷 傷害 冷凍的 ColdDamage 前綴 (1) 物品 (1) 需求等級 8 local maximum added cold damage 9 — 14 區域 local minimum added cold damage 5 — 8 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "514589f4dac40c1668d33bef77e29c175872e1a7e5877c7b5f2e0b48ac9af341",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/514589f4dac40c1668d33bef77e29c175872e1a7e5877c7b5f2e0b48ac9af341",
+      "title": "附加 (10 — 14) 至 (15 — 23) 冰冷 傷害",
+      "name": "結冰的",
+      "family": "ColdDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 16,
+      "stats": [
+        {
+          "text": "local maximum added cold damage 15 — 23 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added cold damage 10 — 14 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (10 — 14) 至 (15 — 23) 冰冷 傷害 結冰的 ColdDamage 前綴 (1) 物品 (1) 需求等級 16 local maximum added cold damage 15 — 23 區域 local minimum added cold damage 10 — 14 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "c3e19df09a7f93ec544c84710a85dca45addd4fb8a3d705d192123f47467d52a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c3e19df09a7f93ec544c84710a85dca45addd4fb8a3d705d192123f47467d52a",
+      "title": "附加 (16 — 23) 至 (25 — 35) 冰冷 傷害",
+      "name": "寒風的",
+      "family": "ColdDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 33,
+      "stats": [
+        {
+          "text": "local maximum added cold damage 25 — 35 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added cold damage 16 — 23 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (16 — 23) 至 (25 — 35) 冰冷 傷害 寒風的 ColdDamage 前綴 (1) 物品 (1) 需求等級 33 local maximum added cold damage 25 — 35 區域 local minimum added cold damage 16 — 23 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "2c7cbeb3bed382563db31dfea03ad1db9882cbb1ff99502182ae66910b884dda",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2c7cbeb3bed382563db31dfea03ad1db9882cbb1ff99502182ae66910b884dda",
+      "title": "附加 (25 — 30) 至 (38 — 46) 冰冷 傷害",
+      "name": "急凍的",
+      "family": "ColdDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 46,
+      "stats": [
+        {
+          "text": "local maximum added cold damage 38 — 46 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added cold damage 25 — 30 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (25 — 30) 至 (38 — 46) 冰冷 傷害 急凍的 ColdDamage 前綴 (1) 物品 (1) 需求等級 46 local maximum added cold damage 38 — 46 區域 local minimum added cold damage 25 — 30 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "5811d64b985cde3be5c6b626ff201ef6f882db742a75ca73046b3d1194819545",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/5811d64b985cde3be5c6b626ff201ef6f882db742a75ca73046b3d1194819545",
+      "title": "附加 (32 — 43) 至 (49 — 66) 冰冷 傷害",
+      "name": "冰凍",
+      "family": "ColdDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 54,
+      "stats": [
+        {
+          "text": "local maximum added cold damage 49 — 66 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added cold damage 32 — 43 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (32 — 43) 至 (49 — 66) 冰冷 傷害 冰凍 ColdDamage 前綴 (1) 物品 (1) 需求等級 54 local maximum added cold damage 49 — 66 區域 local minimum added cold damage 32 — 43 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "b95a40505c11942481bd25a926b18e4e09b535f68d369a3f868fc1083d3d540d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/b95a40505c11942481bd25a926b18e4e09b535f68d369a3f868fc1083d3d540d",
+      "title": "附加 (46 — 57) 至 (70 — 88) 冰冷 傷害",
+      "name": "冰河的",
+      "family": "ColdDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 60,
+      "stats": [
+        {
+          "text": "local maximum added cold damage 70 — 88 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added cold damage 46 — 57 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (46 — 57) 至 (70 — 88) 冰冷 傷害 冰河的 ColdDamage 前綴 (1) 物品 (1) 需求等級 60 local maximum added cold damage 70 — 88 區域 local minimum added cold damage 46 — 57 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "eb35ab136ae92e3d9539b0d6b8c469942ed19b02f97ab9ec1e303f5d3afda05f",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/eb35ab136ae92e3d9539b0d6b8c469942ed19b02f97ab9ec1e303f5d3afda05f",
+      "title": "附加 (60 — 80) 至 (92 — 121) 冰冷 傷害",
+      "name": "極地的",
+      "family": "ColdDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "local maximum added cold damage 92 — 121 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added cold damage 60 — 80 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (60 — 80) 至 (92 — 121) 冰冷 傷害 極地的 ColdDamage 前綴 (1) 物品 (1) 需求等級 65 local maximum added cold damage 92 — 121 區域 local minimum added cold damage 60 — 80 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "91717b46484547e3e810f8f2798dbc40ca34f84232797244fc4e9031ca4cf4ec",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/91717b46484547e3e810f8f2798dbc40ca34f84232797244fc4e9031ca4cf4ec",
+      "title": "附加 (84 — 107) 至 (126 — 161) 冰冷 傷害",
+      "name": "埋葬的",
+      "family": "ColdDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 75,
+      "stats": [
+        {
+          "text": "local maximum added cold damage 126 — 161 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added cold damage 84 — 107 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (84 — 107) 至 (126 — 161) 冰冷 傷害 埋葬的 ColdDamage 前綴 (1) 物品 (1) 需求等級 75 local maximum added cold damage 126 — 161 區域 local minimum added cold damage 84 — 107 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "cbb669b88c6d3fab390ad175afe394717c4f53abe5d59b156576f794511d82fb",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/cbb669b88c6d3fab390ad175afe394717c4f53abe5d59b156576f794511d82fb",
+      "title": "附加 (112 — 124) 至 (168 — 189) 冰冷 傷害",
+      "name": "晶化的",
+      "family": "ColdDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 81,
+      "stats": [
+        {
+          "text": "local maximum added cold damage 168 — 189 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added cold damage 112 — 124 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (112 — 124) 至 (168 — 189) 冰冷 傷害 晶化的 ColdDamage 前綴 (1) 物品 (1) 需求等級 81 local maximum added cold damage 168 — 189 區域 local minimum added cold damage 112 — 124 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "9b15229ef29d17965fed2bd6f4a6f58fd65f71d8395fbc41df91d608856617aa",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/9b15229ef29d17965fed2bd6f4a6f58fd65f71d8395fbc41df91d608856617aa",
+      "title": "附加 1 至 (7 — 10) 閃電 傷害",
+      "name": "低鳴的",
+      "family": "LightningDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local maximum added lightning damage 7 — 10 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added lightning damage 1 — 1 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 1 至 (7 — 10) 閃電 傷害 低鳴的 LightningDamage 前綴 (1) 物品 (1) 需求等級 1 local maximum added lightning damage 7 — 10 區域 local minimum added lightning damage 1 — 1 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "75da66ebe065349de8980ab18c2d9e0ac8caa6ffa7fe34cc7fb02fa7fffc5e1a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/75da66ebe065349de8980ab18c2d9e0ac8caa6ffa7fe34cc7fb02fa7fffc5e1a",
+      "title": "附加 (1 — 2) 至 (19 — 27) 閃電 傷害",
+      "name": "嗡嗡的",
+      "family": "LightningDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 8,
+      "stats": [
+        {
+          "text": "local maximum added lightning damage 19 — 27 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added lightning damage 1 — 2 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (1 — 2) 至 (19 — 27) 閃電 傷害 嗡嗡的 LightningDamage 前綴 (1) 物品 (1) 需求等級 8 local maximum added lightning damage 19 — 27 區域 local minimum added lightning damage 1 — 2 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "c35e562876f8d1cfdeb181598da7224b0fc765f88b73c500a251707b58178996",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c35e562876f8d1cfdeb181598da7224b0fc765f88b73c500a251707b58178996",
+      "title": "附加 (1 — 3) 至 (31 — 43) 閃電 傷害",
+      "name": "捕捉的",
+      "family": "LightningDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 16,
+      "stats": [
+        {
+          "text": "local maximum added lightning damage 31 — 43 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added lightning damage 1 — 3 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (1 — 3) 至 (31 — 43) 閃電 傷害 捕捉的 LightningDamage 前綴 (1) 物品 (1) 需求等級 16 local maximum added lightning damage 31 — 43 區域 local minimum added lightning damage 1 — 3 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "2162ab7fafdcc3093e331cf65ae9253ce60beff7b6ef70056074a5bc39d15c46",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2162ab7fafdcc3093e331cf65ae9253ce60beff7b6ef70056074a5bc39d15c46",
+      "title": "附加 (1 — 4) 至 (53 — 76) 閃電 傷害",
+      "name": "劈哩啪啦的",
+      "family": "LightningDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 33,
+      "stats": [
+        {
+          "text": "local maximum added lightning damage 53 — 76 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added lightning damage 1 — 4 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (1 — 4) 至 (53 — 76) 閃電 傷害 劈哩啪啦的 LightningDamage 前綴 (1) 物品 (1) 需求等級 33 local maximum added lightning damage 53 — 76 區域 local minimum added lightning damage 1 — 4 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "ab0ae19ded9894965e6b2391831e45b5563b45a1880b2044f0a653f93fec022c",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/ab0ae19ded9894965e6b2391831e45b5563b45a1880b2044f0a653f93fec022c",
+      "title": "附加 (1 — 4) 至 (80 — 88) 閃電 傷害",
+      "name": "火花的",
+      "family": "LightningDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 46,
+      "stats": [
+        {
+          "text": "local maximum added lightning damage 80 — 88 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added lightning damage 1 — 4 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (1 — 4) 至 (80 — 88) 閃電 傷害 火花的 LightningDamage 前綴 (1) 物品 (1) 需求等級 46 local maximum added lightning damage 80 — 88 區域 local minimum added lightning damage 1 — 4 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "3b1393c0e8c123776698b63ad881dbb466390ffd37f8dc1eba551182963627d7",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/3b1393c0e8c123776698b63ad881dbb466390ffd37f8dc1eba551182963627d7",
+      "title": "附加 (1 — 6) 至 (93 — 122) 閃電 傷害",
+      "name": "電弧的",
+      "family": "LightningDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 54,
+      "stats": [
+        {
+          "text": "local maximum added lightning damage 93 — 122 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added lightning damage 1 — 6 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (1 — 6) 至 (93 — 122) 閃電 傷害 電弧的 LightningDamage 前綴 (1) 物品 (1) 需求等級 54 local maximum added lightning damage 93 — 122 區域 local minimum added lightning damage 1 — 6 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "0214cf72f071ba9c0ca6d8d8f9f8bd107bfaea7629d10db6e0d85e1d2236b23a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/0214cf72f071ba9c0ca6d8d8f9f8bd107bfaea7629d10db6e0d85e1d2236b23a",
+      "title": "附加 (1 — 8) 至 (128 — 162) 閃電 傷害",
+      "name": "電震的",
+      "family": "LightningDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 60,
+      "stats": [
+        {
+          "text": "local maximum added lightning damage 128 — 162 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added lightning damage 1 — 8 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (1 — 8) 至 (128 — 162) 閃電 傷害 電震的 LightningDamage 前綴 (1) 物品 (1) 需求等級 60 local maximum added lightning damage 128 — 162 區域 local minimum added lightning damage 1 — 8 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "c4f2a0af4c7812bfcd3024951a7d213b1d1913509cc560f795938c9d34f7ded2",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c4f2a0af4c7812bfcd3024951a7d213b1d1913509cc560f795938c9d34f7ded2",
+      "title": "附加 (1 — 13) 至 (168 — 231) 閃電 傷害",
+      "name": "放電的",
+      "family": "LightningDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "local maximum added lightning damage 168 — 231 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added lightning damage 1 — 13 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (1 — 13) 至 (168 — 231) 閃電 傷害 放電的 LightningDamage 前綴 (1) 物品 (1) 需求等級 65 local maximum added lightning damage 168 — 231 區域 local minimum added lightning damage 1 — 13 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "d189720973f834e95f2068af1ce578d30fd2ce449b9e874a10e2a91decc35d4c",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/d189720973f834e95f2068af1ce578d30fd2ce449b9e874a10e2a91decc35d4c",
+      "title": "附加 (1 — 16) 至 (239 — 300) 閃電 傷害",
+      "name": "電極的",
+      "family": "LightningDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 75,
+      "stats": [
+        {
+          "text": "local maximum added lightning damage 239 — 300 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added lightning damage 1 — 16 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (1 — 16) 至 (239 — 300) 閃電 傷害 電極的 LightningDamage 前綴 (1) 物品 (1) 需求等級 75 local maximum added lightning damage 239 — 300 區域 local minimum added lightning damage 1 — 16 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "7e4c96ecf87391257cd6e64bd16b438a2028e91e7954058b6637abe943901e1b",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/7e4c96ecf87391257cd6e64bd16b438a2028e91e7954058b6637abe943901e1b",
+      "title": "附加 (1 — 19) 至 (310 — 358) 閃電 傷害",
+      "name": "心臟不跳的",
+      "family": "LightningDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 81,
+      "stats": [
+        {
+          "text": "local maximum added lightning damage 310 — 358 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added lightning damage 1 — 19 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (1 — 19) 至 (310 — 358) 閃電 傷害 心臟不跳的 LightningDamage 前綴 (1) 物品 (1) 需求等級 81 local maximum added lightning damage 310 — 358 區域 local minimum added lightning damage 1 — 19 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "941c5f6f672f4b97c126ced1286d7d5beb7a54a10b0e89b715b46a6b20da3bf4",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/941c5f6f672f4b97c126ced1286d7d5beb7a54a10b0e89b715b46a6b20da3bf4",
       "title": "全部 投射物 技能等級 +2",
@@ -114659,6 +118046,261 @@
       ],
       "itemClasses": [],
       "searchText": "裝填額外 2 發弩箭 爆發之 AdditionalAmmo 後綴 (2) 物品 (1) 需求等級 82 base number of crossbow bolts 2 — 2 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "4d70ec81b876b75561c15db9ddd8a76f4a30e493d83989d339fe61001c5925b9",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/4d70ec81b876b75561c15db9ddd8a76f4a30e493d83989d339fe61001c5925b9",
+      "title": "增加 (34 — 47) % 攻擊 元素 傷害",
+      "name": "催化的",
+      "family": "IncreasedWeaponElementalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 4,
+      "stats": [
+        {
+          "text": "elemental damage with attack skills +% 34 — 47 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (34 — 47) % 攻擊 元素 傷害 催化的 IncreasedWeaponElementalDamagePercent 前綴 (1) 物品 (1) 需求等級 4 elemental damage with attack skills +% 34 — 47 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "de6b04754e03e4341f9e81aba8f6ed53c57900d3a25a6766d0ec1dcaa693ed6a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/de6b04754e03e4341f9e81aba8f6ed53c57900d3a25a6766d0ec1dcaa693ed6a",
+      "title": "增加 (48 — 71) % 攻擊 元素 傷害",
+      "name": "注入的",
+      "family": "IncreasedWeaponElementalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 16,
+      "stats": [
+        {
+          "text": "elemental damage with attack skills +% 48 — 71 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (48 — 71) % 攻擊 元素 傷害 注入的 IncreasedWeaponElementalDamagePercent 前綴 (1) 物品 (1) 需求等級 16 elemental damage with attack skills +% 48 — 71 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "3df4d1733018324d67d7fcdc0eeceb382318cca52eac80fc6d8ca99c7f6e8452",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/3df4d1733018324d67d7fcdc0eeceb382318cca52eac80fc6d8ca99c7f6e8452",
+      "title": "增加 (72 — 85) % 攻擊 元素 傷害",
+      "name": "賦予的",
+      "family": "IncreasedWeaponElementalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 33,
+      "stats": [
+        {
+          "text": "elemental damage with attack skills +% 72 — 85 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (72 — 85) % 攻擊 元素 傷害 賦予的 IncreasedWeaponElementalDamagePercent 前綴 (1) 物品 (1) 需求等級 33 elemental damage with attack skills +% 72 — 85 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "189d78418ff48cb8a21b218973e6320c972149b59dede51f6c011baa3a0f684a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/189d78418ff48cb8a21b218973e6320c972149b59dede51f6c011baa3a0f684a",
+      "title": "增加 (86 — 99) % 攻擊 元素 傷害",
+      "name": "釋放的",
+      "family": "IncreasedWeaponElementalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 46,
+      "stats": [
+        {
+          "text": "elemental damage with attack skills +% 86 — 99 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (86 — 99) % 攻擊 元素 傷害 釋放的 IncreasedWeaponElementalDamagePercent 前綴 (1) 物品 (1) 需求等級 46 elemental damage with attack skills +% 86 — 99 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "8b097ef2f6727ce4dd6c11643a6e573acace85ab06996809235af57ea97cb16d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/8b097ef2f6727ce4dd6c11643a6e573acace85ab06996809235af57ea97cb16d",
+      "title": "增加 (100 — 119) % 攻擊 元素 傷害",
+      "name": "壓倒的",
+      "family": "IncreasedWeaponElementalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 60,
+      "stats": [
+        {
+          "text": "elemental damage with attack skills +% 100 — 119 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (100 — 119) % 攻擊 元素 傷害 壓倒的 IncreasedWeaponElementalDamagePercent 前綴 (1) 物品 (1) 需求等級 60 elemental damage with attack skills +% 100 — 119 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "e944756265b9738d7d0407ba7df066868f3beaaa79482aade8dc499c70b0fd18",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e944756265b9738d7d0407ba7df066868f3beaaa79482aade8dc499c70b0fd18",
+      "title": "增加 (120 — 139) % 攻擊 元素 傷害",
+      "name": "破壞的",
+      "family": "IncreasedWeaponElementalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 81,
+      "stats": [
+        {
+          "text": "elemental damage with attack skills +% 120 — 139 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (120 — 139) % 攻擊 元素 傷害 破壞的 IncreasedWeaponElementalDamagePercent 前綴 (1) 物品 (1) 需求等級 81 elemental damage with attack skills +% 120 — 139 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "5e12ccf55b6a0fb636403e8b1bf7c25ebb8828b7ea15d8c12aff3a80a592babf",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/5e12ccf55b6a0fb636403e8b1bf7c25ebb8828b7ea15d8c12aff3a80a592babf",
+      "title": "附加 (13 — 20) 至 (21 — 31) 火焰 傷害",
+      "name": "",
+      "family": "FireDamage",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local maximum added fire damage 21 — 31 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added fire damage 13 — 20 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (13 — 20) 至 (21 — 31) 火焰 傷害 FireDamage 已汙染 (5) 物品 (1) 需求等級 1 local maximum added fire damage 21 — 31 區域 local minimum added fire damage 13 — 20 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "2d0648c352000e7ac5efef42adb66e3e2cf9886af72e1a61cdb6f2c51279a188",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2d0648c352000e7ac5efef42adb66e3e2cf9886af72e1a61cdb6f2c51279a188",
+      "title": "附加 (11 — 17) 至 (18 — 26) 冰冷 傷害",
+      "name": "",
+      "family": "ColdDamage",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local maximum added cold damage 18 — 26 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added cold damage 11 — 17 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (11 — 17) 至 (18 — 26) 冰冷 傷害 ColdDamage 已汙染 (5) 物品 (1) 需求等級 1 local maximum added cold damage 18 — 26 區域 local minimum added cold damage 11 — 17 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "b3cbc794469178498379eca6c12758bfa1ebe04280fde6900fece6a2fee7125b",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/b3cbc794469178498379eca6c12758bfa1ebe04280fde6900fece6a2fee7125b",
+      "title": "附加 (1 — 3) 至 (41 — 61) 閃電 傷害",
+      "name": "",
+      "family": "LightningDamage",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local maximum added lightning damage 41 — 61 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added lightning damage 1 — 3 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (1 — 3) 至 (41 — 61) 閃電 傷害 LightningDamage 已汙染 (5) 物品 (1) 需求等級 1 local maximum added lightning damage 41 — 61 區域 local minimum added lightning damage 1 — 3 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "a17ee9a9afa4452b4b8fc7c2550c6cbecd7d924b0858e6d1b39d70f54ce10409",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a17ee9a9afa4452b4b8fc7c2550c6cbecd7d924b0858e6d1b39d70f54ce10409",
+      "title": "附加 (10 — 16) 至 (17 — 25) 混沌 傷害",
+      "name": "",
+      "family": "LocalChaosDamage",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local maximum added chaos damage 17 — 25 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added chaos damage 10 — 16 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (10 — 16) 至 (17 — 25) 混沌 傷害 LocalChaosDamage 已汙染 (5) 物品 (1) 需求等級 1 local maximum added chaos damage 17 — 25 區域 local minimum added chaos damage 10 — 16 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "26506cedd229a1f70ae65f1635a10b8cd87994bfce205430170480b86f44ba33",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/26506cedd229a1f70ae65f1635a10b8cd87994bfce205430170480b86f44ba33",
+      "title": "增加 (40 — 50) % 攻擊 元素 傷害",
+      "name": "",
+      "family": "IncreasedWeaponElementalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "elemental damage with attack skills +% 40 — 50 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (40 — 50) % 攻擊 元素 傷害 IncreasedWeaponElementalDamagePercent 已汙染 (5) 物品 (1) 需求等級 1 elemental damage with attack skills +% 40 — 50 Global"
     },
     {
       "type": "modifier",
@@ -114899,6 +118541,177 @@
     },
     {
       "type": "modifier",
+      "hash": "ed7ed7c37f7980021d7c223d90432e1f0af676b193c861a793ab7357496ba171",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/ed7ed7c37f7980021d7c223d90432e1f0af676b193c861a793ab7357496ba171",
+      "title": "附加 (40 — 46) 至 (67 — 75) 混沌 傷害",
+      "name": "",
+      "family": "LocalChaosDamage",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local maximum added chaos damage 67 — 75 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added chaos damage 40 — 46 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (40 — 46) 至 (67 — 75) 混沌 傷害 LocalChaosDamage 傳奇 (3) 物品 (1) 需求等級 1 local maximum added chaos damage 67 — 75 區域 local minimum added chaos damage 40 — 46 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "760fca0643098f7853af33ef40c10949c063ab83c927e5a9b503906bbca12932",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/760fca0643098f7853af33ef40c10949c063ab83c927e5a9b503906bbca12932",
+      "title": "附加 (51 — 57) 至 (88 — 96) 冰冷 傷害",
+      "name": "",
+      "family": "ColdDamage",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local maximum added cold damage 88 — 96 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added cold damage 51 — 57 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (51 — 57) 至 (88 — 96) 冰冷 傷害 ColdDamage 傳奇 (3) 物品 (1) 需求等級 1 local maximum added cold damage 88 — 96 區域 local minimum added cold damage 51 — 57 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "6af1a5b69812707602cfd5ac482731083b83fcc6aeb2065c5ae7a0e49db38071",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/6af1a5b69812707602cfd5ac482731083b83fcc6aeb2065c5ae7a0e49db38071",
+      "title": "附加 (73 — 80) 至 (91 — 101) 火焰 傷害",
+      "name": "",
+      "family": "FireDamage",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local maximum added fire damage 91 — 101 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added fire damage 73 — 80 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (73 — 80) 至 (91 — 101) 火焰 傷害 FireDamage 傳奇 (3) 物品 (1) 需求等級 1 local maximum added fire damage 91 — 101 區域 local minimum added fire damage 73 — 80 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "834961f6c297d5165e26bae48804669586a9aba71f809370abf33f7bf1d235a2",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/834961f6c297d5165e26bae48804669586a9aba71f809370abf33f7bf1d235a2",
+      "title": "附加 (1 — 3) 至 (131 — 141) 閃電 傷害",
+      "name": "",
+      "family": "LightningDamage",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local maximum added lightning damage 131 — 141 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added lightning damage 1 — 3 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (1 — 3) 至 (131 — 141) 閃電 傷害 LightningDamage 傳奇 (3) 物品 (1) 需求等級 1 local maximum added lightning damage 131 — 141 區域 local minimum added lightning damage 1 — 3 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "bcc1367abcd3478184bf9b268d9d636793dd3d9df71e55d7e364210f2ce56723",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/bcc1367abcd3478184bf9b268d9d636793dd3d9df71e55d7e364210f2ce56723",
+      "title": "增加 (120 — 150) % 攻擊 元素 傷害",
+      "name": "",
+      "family": "IncreasedWeaponElementalDamagePercent",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "elemental damage with attack skills +% 120 — 150 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (120 — 150) % 攻擊 元素 傷害 IncreasedWeaponElementalDamagePercent 傳奇 (3) 物品 (1) 需求等級 1 elemental damage with attack skills +% 120 — 150 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "480ab5d25a42eb4643ee2ceed570c4c2f881ae6d4f8a1031d47dbf7cb70d5009",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/480ab5d25a42eb4643ee2ceed570c4c2f881ae6d4f8a1031d47dbf7cb70d5009",
+      "title": "增加 (20 — 30) % 暈眩 累積",
+      "name": "",
+      "family": "StunDamageIncrease",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local hit damage stun multiplier +% 20 — 30 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (20 — 30) % 暈眩 累積 StunDamageIncrease 已汙染 (5) 物品 (1) 需求等級 1 local hit damage stun multiplier +% 20 — 30 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "16d63e414efa6c08f2243f8e67a204feebd36c72b79062f83e83c8ab7684325d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/16d63e414efa6c08f2243f8e67a204feebd36c72b79062f83e83c8ab7684325d",
+      "title": "此武器增加 (10 — 20) % 近戰 打擊 範圍",
+      "name": "",
+      "family": "MeleeWeaponAndUnarmedRange",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local +% weapon range 10 — 20 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "此武器增加 (10 — 20) % 近戰 打擊 範圍 MeleeWeaponAndUnarmedRange 已汙染 (5) 物品 (1) 需求等級 1 local +% weapon range 10 — 20 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "e0a8dfd9a2e7417936d357a6b13fd2ac55dae2a209581455ebc026bfc8bb7d73",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e0a8dfd9a2e7417936d357a6b13fd2ac55dae2a209581455ebc026bfc8bb7d73",
       "title": "用此武器 擊中 時有 (10 — 15) %機率造成 中毒",
@@ -114920,6 +118733,27 @@
     },
     {
       "type": "modifier",
+      "hash": "3e2a2c752a123b9157348d8c2555e4f8d9fc0d4c1f384938e9bf25b85fe9ce95",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/3e2a2c752a123b9157348d8c2555e4f8d9fc0d4c1f384938e9bf25b85fe9ce95",
+      "title": "擊中 時獲得 1 層 盛怒",
+      "name": "",
+      "family": "RageOnHit",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local gain X rage on hit 1 — 1 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "擊中 時獲得 1 層 盛怒 RageOnHit 已汙染 (5) 物品 (1) 需求等級 1 local gain X rage on hit 1 — 1 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "7e970064f877f055bf0eafa425dca0c13be336cae0bc2e189a7a4f6f9f1c7993",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/7e970064f877f055bf0eafa425dca0c13be336cae0bc2e189a7a4f6f9f1c7993",
       "title": "用此武器 擊中 時有 (25 — 50) %機率造成 中毒",
@@ -114938,6 +118772,111 @@
       ],
       "itemClasses": [],
       "searchText": "用此武器 擊中 時有 (25 — 50) %機率造成 中毒 LocalChanceToPoisonOnHit 傳奇 (3) 物品 (1) 需求等級 1 local poison on hit % 25 — 50 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "8719bfb9ce681a55338807ea5bf0d79a18bbecf39be430ccce34e1aa178ce103",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/8719bfb9ce681a55338807ea5bf0d79a18bbecf39be430ccce34e1aa178ce103",
+      "title": "擊中 時獲得 (4 — 6) 層 盛怒",
+      "name": "",
+      "family": "RageOnHit",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local gain X rage on hit 4 — 6 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "擊中 時獲得 (4 — 6) 層 盛怒 RageOnHit 傳奇 (3) 物品 (1) 需求等級 1 local gain X rage on hit 4 — 6 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "cae6f2907daaa9eb9f23002180b8211ca876d874ba4fba9d878313b5df62f4ef",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/cae6f2907daaa9eb9f23002180b8211ca876d874ba4fba9d878313b5df62f4ef",
+      "title": "增加 (50 — 75) % 暈眩 累積",
+      "name": "",
+      "family": "StunDamageIncrease",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local hit damage stun multiplier +% 50 — 75 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (50 — 75) % 暈眩 累積 StunDamageIncrease 傳奇 (3) 物品 (1) 需求等級 1 local hit damage stun multiplier +% 50 — 75 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "26afbc48473797afa47df9cf5bbcb9e53416b109c60a22cb19725152a9002028",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/26afbc48473797afa47df9cf5bbcb9e53416b109c60a22cb19725152a9002028",
+      "title": "此武器增加 (20 — 40) % 近戰 打擊 範圍",
+      "name": "",
+      "family": "MeleeWeaponAndUnarmedRange",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local +% weapon range 20 — 40 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "此武器增加 (20 — 40) % 近戰 打擊 範圍 MeleeWeaponAndUnarmedRange 傳奇 (3) 物品 (1) 需求等級 1 local +% weapon range 20 — 40 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "0887ba19375aa9cdee6960c347f1dad780f7a6560ea048cdb1e9d9d80bdd8b43",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/0887ba19375aa9cdee6960c347f1dad780f7a6560ea048cdb1e9d9d80bdd8b43",
+      "title": "擊中 時有 (10 — 15) %機率造成 流血",
+      "name": "",
+      "family": "LocalChanceToBleed",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local chance to bleed on hit % 10 — 15 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "擊中 時有 (10 — 15) %機率造成 流血 LocalChanceToBleed 已汙染 (5) 物品 (1) 需求等級 1 local chance to bleed on hit % 10 — 15 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "d2c6efc90e78747fc44cc25a3f229cfa665f69cf489765b2c3c3f455a02a3f4b",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/d2c6efc90e78747fc44cc25a3f229cfa665f69cf489765b2c3c3f455a02a3f4b",
+      "title": "擊中 時有 (25 — 50) %機率造成 流血",
+      "name": "",
+      "family": "LocalChanceToBleed",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local chance to bleed on hit % 25 — 50 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "擊中 時有 (25 — 50) %機率造成 流血 LocalChanceToBleed 傳奇 (3) 物品 (1) 需求等級 1 local chance to bleed on hit % 25 — 50 區域"
     },
     {
       "type": "modifier",
@@ -118670,6 +122609,33 @@
     },
     {
       "type": "modifier",
+      "hash": "155a127038ed5c319130ee6088f30a3410dd46861f89ef7321f28a9b2d9bc228",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/155a127038ed5c319130ee6088f30a3410dd46861f89ef7321f28a9b2d9bc228",
+      "title": "增加 (110 — 154) % 物理 傷害 減少 15 % 攻擊 速度",
+      "name": "柯戈的",
+      "family": "LocalPhysicalDamagePercent",
+      "domains": "深淵 (28)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "local attack speed +% -15 — -15 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local physical damage +% 110 — 154 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (110 — 154) % 物理 傷害 減少 15 % 攻擊 速度 柯戈的 LocalPhysicalDamagePercent 前綴 (1) 深淵 (28) 需求等級 65 local attack speed +% -15 — -15 區域 local physical damage +% 110 — 154 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "eeb982737be1c7210f33ef5903b0344dabaead123c73f39bae55a0d9cbe32bbf",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/eeb982737be1c7210f33ef5903b0344dabaead123c73f39bae55a0d9cbe32bbf",
       "title": "增加 (41 — 59) % 強化攻擊 造成的傷害",
@@ -118754,6 +122720,27 @@
     },
     {
       "type": "modifier",
+      "hash": "eeb21315bf8a9ad4cb33e74baf86fcfb6c3c1ab7531591333acbe21976998d8a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/eeb21315bf8a9ad4cb33e74baf86fcfb6c3c1ab7531591333acbe21976998d8a",
+      "title": "增加 (8 — 15) % 攻擊 消耗 效用",
+      "name": "柯戈之",
+      "family": "ManaCostEfficiency",
+      "domains": "深淵 (28)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "base attack skill cost efficiency +% 8 — 15 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (8 — 15) % 攻擊 消耗 效用 柯戈之 ManaCostEfficiency 後綴 (2) 深淵 (28) 需求等級 65 base attack skill cost efficiency +% 8 — 15 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "fa5a5fd1271ccb794120e610470788390a8ca606f75e71190ab9d48c73cca40d",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/fa5a5fd1271ccb794120e610470788390a8ca606f75e71190ab9d48c73cca40d",
       "title": "增加 (17 — 25) % 戰吼 冷卻時間恢復率",
@@ -118796,6 +122783,27 @@
     },
     {
       "type": "modifier",
+      "hash": "7e718bdf6004fb86ea2b84d770d3b1f18969b5ddd33da47b2b68223b952302a1",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/7e718bdf6004fb86ea2b84d770d3b1f18969b5ddd33da47b2b68223b952302a1",
+      "title": "近戰 攻擊 技能 +1 召喚 圖騰 的最大數量",
+      "name": "烏拉曼的",
+      "family": "AdditionalTotems",
+      "domains": "深淵 (28)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "melee attack skills additional totems allowed 1 — 1 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "近戰 攻擊 技能 +1 召喚 圖騰 的最大數量 烏拉曼的 AdditionalTotems 前綴 (1) 深淵 (28) 需求等級 65 melee attack skills additional totems allowed 1 — 1 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "6da045d4e8930f2deade82fda899ea70a36decbcbec4476b28bea9a88d1ec1d9",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/6da045d4e8930f2deade82fda899ea70a36decbcbec4476b28bea9a88d1ec1d9",
       "title": "當你有一個 圖騰 ，增加 (41 — 59) %傷害",
@@ -118814,6 +122822,90 @@
       ],
       "itemClasses": [],
       "searchText": "當你有一個 圖騰 ，增加 (41 — 59) %傷害 烏拉曼的 TotemDamage 前綴 (1) 深淵 (28) 需求等級 65 damage +% while totem active 41 — 59 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "0232e466e16f369f2fc6473bfb484464adb3384743aa3c93af055802e60d986f",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/0232e466e16f369f2fc6473bfb484464adb3384743aa3c93af055802e60d986f",
+      "title": "全部 近戰 技能的等級 +2",
+      "name": "決鬥之",
+      "family": "IncreaseSocketedGemLevel",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 18,
+      "stats": [
+        {
+          "text": "melee skill gem level + 2 — 2 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "全部 近戰 技能的等級 +2 決鬥之 IncreaseSocketedGemLevel 後綴 (2) 物品 (1) 需求等級 18 melee skill gem level + 2 — 2 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "39bb319ed3fd1b1c02ff0dcbcb18013fb5608b6c922cbee0eabb9337cc5469f3",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/39bb319ed3fd1b1c02ff0dcbcb18013fb5608b6c922cbee0eabb9337cc5469f3",
+      "title": "全部 近戰 技能的等級 +3",
+      "name": "衝突之",
+      "family": "IncreaseSocketedGemLevel",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 36,
+      "stats": [
+        {
+          "text": "melee skill gem level + 3 — 3 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "全部 近戰 技能的等級 +3 衝突之 IncreaseSocketedGemLevel 後綴 (2) 物品 (1) 需求等級 36 melee skill gem level + 3 — 3 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "bbbce3417df858c85dcfb96bfb972a3c50cdf6b939c9350346c74bc50034adba",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/bbbce3417df858c85dcfb96bfb972a3c50cdf6b939c9350346c74bc50034adba",
+      "title": "全部 近戰 技能的等級 +4",
+      "name": "戰鬥之",
+      "family": "IncreaseSocketedGemLevel",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 55,
+      "stats": [
+        {
+          "text": "melee skill gem level + 4 — 4 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "全部 近戰 技能的等級 +4 戰鬥之 IncreaseSocketedGemLevel 後綴 (2) 物品 (1) 需求等級 55 melee skill gem level + 4 — 4 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "224533810d0526844aede8c338e17e2b861f82df9115b6ad401f40b5aa72a56a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/224533810d0526844aede8c338e17e2b861f82df9115b6ad401f40b5aa72a56a",
+      "title": "全部 近戰 技能的等級 +5",
+      "name": "戰爭之",
+      "family": "IncreaseSocketedGemLevel",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 81,
+      "stats": [
+        {
+          "text": "melee skill gem level + 5 — 5 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "全部 近戰 技能的等級 +5 戰爭之 IncreaseSocketedGemLevel 後綴 (2) 物品 (1) 需求等級 81 melee skill gem level + 5 — 5 Global"
     },
     {
       "type": "modifier",
@@ -129596,6 +133688,27 @@
     },
     {
       "type": "modifier",
+      "hash": "3eefc3c547b1e8d9f0b5319a6f5838d4648d0031d0d23e2e6bcd89b2804ebf79",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/3eefc3c547b1e8d9f0b5319a6f5838d4648d0031d0d23e2e6bcd89b2804ebf79",
+      "title": "增加 (20 — 30) %處於你 存在範圍 中的 友方 所造成的傷害",
+      "name": "",
+      "family": "AllDamage",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "allies in presence damage +% 20 — 30 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (20 — 30) %處於你 存在範圍 中的 友方 所造成的傷害 AllDamage 已汙染 (5) 物品 (1) 需求等級 1 allies in presence damage +% 20 — 30 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "e05d910593db8a73350eb903ff8cd18ef88f5465ed013e63043a23a06ba02cb0",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e05d910593db8a73350eb903ff8cd18ef88f5465ed013e63043a23a06ba02cb0",
       "title": "處於你 存在範圍 中的 友方 增加 (5 — 10) % 攻擊 速度",
@@ -133817,6 +137930,27 @@
     },
     {
       "type": "modifier",
+      "hash": "2420987abc6440253c4816276718e682da1d1f1c87f0ad161b7ee009733b9ab5",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2420987abc6440253c4816276718e682da1d1f1c87f0ad161b7ee009733b9ab5",
+      "title": "增加 (86 — 99) % 強化攻擊 造成的傷害",
+      "name": "柯戈的",
+      "family": "ExertedAttackDamage",
+      "domains": "深淵 (28)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "empowered attack damage +% 86 — 99 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (86 — 99) % 強化攻擊 造成的傷害 柯戈的 ExertedAttackDamage 前綴 (1) 深淵 (28) 需求等級 65 empowered attack damage +% 86 — 99 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "6572c82d7792b004f1b584c7d69057344d378283269be2ce8aed5f5300672d03",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/6572c82d7792b004f1b584c7d69057344d378283269be2ce8aed5f5300672d03",
       "title": "戰吼 強化 額外 (1 — 2) 次 攻擊",
@@ -133835,6 +137969,48 @@
       ],
       "itemClasses": [],
       "searchText": "戰吼 強化 額外 (1 — 2) 次 攻擊 柯戈的 WarcriesExertAnAdditionalAttack 前綴 (1) 深淵 (28) 需求等級 65 warcry empowers next x melee attacks 1 — 2 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "6dcc410032383150617fb2f661da76ab2a145cce9c1d6ff55b1d5371ea974712",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/6dcc410032383150617fb2f661da76ab2a145cce9c1d6ff55b1d5371ea974712",
+      "title": "創造裂縫的技能有 (25 — 31) %機率創造額外一道裂縫",
+      "name": "阿姆那姆之",
+      "family": "FissureChance",
+      "domains": "深淵 (28)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "skill additional fissure chance % 25 — 31 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "創造裂縫的技能有 (25 — 31) %機率創造額外一道裂縫 阿姆那姆之 FissureChance 後綴 (2) 深淵 (28) 需求等級 65 skill additional fissure chance % 25 — 31 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "7a6084d06015ffcdf3b9a1f91e1f318c16db376990652bbe1155f0ad48b6c358",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/7a6084d06015ffcdf3b9a1f91e1f318c16db376990652bbe1155f0ad48b6c358",
+      "title": "增加 (25 — 31) % 戰吼 冷卻時間恢復率",
+      "name": "柯戈之",
+      "family": "WarcryCooldownSpeed",
+      "domains": "深淵 (28)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "warcry cooldown speed +% 25 — 31 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (25 — 31) % 戰吼 冷卻時間恢復率 柯戈之 WarcryCooldownSpeed 後綴 (2) 深淵 (28) 需求等級 65 warcry cooldown speed +% 25 — 31 Global"
     },
     {
       "type": "modifier",
@@ -133877,6 +138053,48 @@
       ],
       "itemClasses": [],
       "searchText": "近戰 擊中 時，獲得 (3 — 6) 層 盛怒 烏拉曼之 RageOnHit 後綴 (2) 深淵 (28) 需求等級 65 gain x rage on melee hit 3 — 6 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "5e2a3073dfe51ee0a8a8b7078d093555c11b740a07f58e89e00673750e3b4138",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/5e2a3073dfe51ee0a8a8b7078d093555c11b740a07f58e89e00673750e3b4138",
+      "title": "增加 (25 — 31) % 圖騰 設置速度",
+      "name": "烏拉曼之",
+      "family": "SummonTotemCastSpeed",
+      "domains": "深淵 (28)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "summon totem cast speed +% 25 — 31 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (25 — 31) % 圖騰 設置速度 烏拉曼之 SummonTotemCastSpeed 後綴 (2) 深淵 (28) 需求等級 65 summon totem cast speed +% 25 — 31 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "56bfd8c2601fc906db789ac9db4ffc787e9d9a1178ea6a464f11530b6da51316",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/56bfd8c2601fc906db789ac9db4ffc787e9d9a1178ea6a464f11530b6da51316",
+      "title": "當你有一個 圖騰 ，增加 (86 — 99) %傷害",
+      "name": "烏拉曼的",
+      "family": "TotemDamage",
+      "domains": "深淵 (28)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "damage +% while totem active 86 — 99 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "當你有一個 圖騰 ，增加 (86 — 99) %傷害 烏拉曼的 TotemDamage 前綴 (1) 深淵 (28) 需求等級 65 damage +% while totem active 86 — 99 Global"
     },
     {
       "type": "modifier",
@@ -134951,6 +139169,69 @@
     },
     {
       "type": "modifier",
+      "hash": "15a8bdff9c771a07afb35a611fc09b928175d159903d98643c26262893bdd933",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/15a8bdff9c771a07afb35a611fc09b928175d159903d98643c26262893bdd933",
+      "title": "增加 (86 — 99) %對 完全破甲 敵人造成的傷害",
+      "name": "阿姆那姆的",
+      "family": "DamagevsArmourBrokenEnemies",
+      "domains": "深淵 (28)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "damage +% against enemies with fully broken armour 86 — 99 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (86 — 99) %對 完全破甲 敵人造成的傷害 阿姆那姆的 DamagevsArmourBrokenEnemies 前綴 (1) 深淵 (28) 需求等級 65 damage +% against enemies with fully broken armour 86 — 99 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "c83cfa786dc2e28a2013af0f0e77d298f67aabad213715704fa5945e3f98a852",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c83cfa786dc2e28a2013af0f0e77d298f67aabad213715704fa5945e3f98a852",
+      "title": "你自身使用的 錘 重擊 技能有 (16 — 23) %機率造成額外一次 餘震",
+      "name": "阿姆那姆之",
+      "family": "AftershockChance",
+      "domains": "深淵 (28)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "your mace slam aftershock chance % 16 — 23 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "你自身使用的 錘 重擊 技能有 (16 — 23) %機率造成額外一次 餘震 阿姆那姆之 AftershockChance 後綴 (2) 深淵 (28) 需求等級 65 your mace slam aftershock chance % 16 — 23 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "80e5d0d37ac683a5795be152b43b1abe7bec24fb53699a4101d356f6bc2713f7",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/80e5d0d37ac683a5795be152b43b1abe7bec24fb53699a4101d356f6bc2713f7",
+      "title": "破壞的護甲值 等同於造成的 (4 — 7) % 物理傷害",
+      "name": "阿姆那姆之",
+      "family": "ArmourPenetration",
+      "domains": "深淵 (28)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "armour break physical damage % dealt as armour break 4 — 7 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "破壞的護甲值 等同於造成的 (4 — 7) % 物理傷害 阿姆那姆之 ArmourPenetration 後綴 (2) 深淵 (28) 需求等級 65 armour break physical damage % dealt as armour break 4 — 7 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "4b8fe744721b514d55ed7697bc008602ae2093cbeef7345fa9c7f46506fc3fc5",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/4b8fe744721b514d55ed7697bc008602ae2093cbeef7345fa9c7f46506fc3fc5",
       "title": "增加 (90 — 104) % 法術 傷害",
@@ -135071,6 +139352,33 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (25 — 29) % 法術 傷害 +(25 — 28) 最大魔力 巫師的 SpellDamageAndMana 前綴 (1) 物品 (1) 需求等級 23 spell damage +% 25 — 29 Global base maximum mana 25 — 28 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "4e9646a7af690d92447d5f3ac008260ef28e72e682b8bbd0ec3884cc0d4c0496",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/4e9646a7af690d92447d5f3ac008260ef28e72e682b8bbd0ec3884cc0d4c0496",
+      "title": "增加 (30 — 34) % 法術 傷害 +(29 — 33) 最大魔力",
+      "name": "術士的",
+      "family": "SpellDamageAndMana",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 38,
+      "stats": [
+        {
+          "text": "spell damage +% 30 — 34 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "base maximum mana 29 — 33 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (30 — 34) % 法術 傷害 +(29 — 33) 最大魔力 術士的 SpellDamageAndMana 前綴 (1) 物品 (1) 需求等級 38 spell damage +% 30 — 34 Global base maximum mana 29 — 33 Global"
     },
     {
       "type": "modifier",
