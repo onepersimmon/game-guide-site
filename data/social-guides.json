@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T11:50:41.916Z",
+  "updatedAt": "2026-10-23T17:17:45.823Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1PKn86VEKQ",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "我感觉我的 开荒 BD大成了，太牛了（ 流放2 0.55/0.5赛季",
+      "summary": "也不用绑定任何装备",
+      "author": "大叔认真玩游戏",
+      "publishedAt": "2026-10-23T15:03:06.000Z",
+      "href": "https://www.bilibili.com/video/av117490810099965",
+      "cover": "https://i0.hdslb.com/bfs/archive/e651582acf81a8f6785e5349a2fa6af8ffc8a688.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1mEnb6LEnE",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-10-20T13:21:00.000Z",
       "href": "https://www.bilibili.com/video/av117473395346381",
       "cover": "https://i1.hdslb.com/bfs/archive/0bd8b74247fc5e5e7f4078363620b1c46de80aaa.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1VBnw6mEYq",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 POE2 0.55 国际服 Sargetwo 旋风 古灵 HCSSF 开荒 实录",
-      "summary": "流放之路2 POE2 0.55 国际服 Sargetwo 古灵使徒旋风 HCSSF 首日开荒实录 主要学习HCSSF模式的一些小技巧。",
-      "author": "无名孽火",
-      "publishedAt": "2026-10-20T06:50:56.000Z",
-      "href": "https://www.bilibili.com/video/av117471868686499",
-      "cover": "https://i2.hdslb.com/bfs/archive/273c208cd42535792a609f45d74f3cfc63126217.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
