@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T21:43:45.039Z",
+  "updatedAt": "2026-10-23T05:05:06.833Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1t5n463EsX",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 燃烧大象奇美拉配一套 400D的装备，全身丐版，碰瓷一下6词缀城市花粉炸坟，讲解一下异界 开荒 思路，可能是这个赛季最后一个动物园视频",
+      "summary": "",
+      "author": "暮雪赴月",
+      "publishedAt": "2026-10-23T04:48:24.000Z",
+      "href": "https://www.bilibili.com/video/av117488394376476",
+      "cover": "https://i0.hdslb.com/bfs/archive/719f19a22dd5e95cfca56ebfb1582fbaa4d16811.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1jrn66FEau",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-10-20T02:23:44.000Z",
       "href": "https://www.bilibili.com/video/av117470845209729",
       "cover": "https://i1.hdslb.com/bfs/archive/0b0b9b21f82c5a889d94f943d47204c278f0b679.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1eyJR68EJc",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 POE2 0.55 国际服 FGKorbyn21 武僧 武圣 异界 开荒 实录",
-      "summary": "简介：FGKorbyn21 _ Giga Bonk Martial Artist",
-      "author": "无名孽火",
-      "publishedAt": "2026-10-19T13:59:15.000Z",
-      "href": "https://www.bilibili.com/video/av117467875710544",
-      "cover": "https://i1.hdslb.com/bfs/archive/5afe6d2c62bc54e7a4fce784c849db0858823889.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }

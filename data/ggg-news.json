@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-10-22T21:43:43.599Z",
+  "updatedAt": "2026-10-23T05:05:05.013Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "early-access-supporter-packs-leaving-soon",
+      "title": "Early Access Supporter Packs Leaving Soon",
+      "date": "2026-10-22T23:15:25+00:00",
+      "summary": "It’s been almost two years since we released the Early Access Supporter Packs, and it’s time to say goodbye to them. In just a few weeks, they’ll be leaving the store permanently and will be replaced by five new Supporter Packs. So, if you’ve been thinking about purchasing or upgrading one of the current packs, now’s your last chance!",
+      "href": "https://www.pathofexile.com/forum/view-thread/4011562",
+      "thumb": "https://web.poecdn.com/public/news/2026-10-23/EAPacksLeavingSoonTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Early Access Supporter Packs Leaving Soon",
+          "summary": "It’s been almost two years since we released the Early Access Supporter Packs, and it’s time to say goodbye to them. In just a few weeks, they’ll be leaving the store permanently and will be replaced by five new Supporter Packs. So, if you’ve been thinking about purchasing or upgrading one of the current packs, now’s your last chance!",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Early Access Supporter Packs Leaving Soon",
+          "summary": "It’s been almost two years since we released the Early Access Supporter Packs, and it’s time to say goodbye to them. In just a few weeks, they’ll be leaving the store permanently and will be replaced by five new Supporter Packs. So, if you’ve been thinking about purchasing or upgrading one of the current packs, now’s your last chance!",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "exilecon-2026-merchandise",
       "title": "ExileCon 2026 Merchandise",
@@ -44,27 +65,6 @@
         "en": {
           "title": "Path of Exile 2 Full Release Registration - Sign Up and Unlock Exclusive Rewards",
           "summary": "Unlock exclusive rewards and get updates about Path of Exile 2's Full Release by signing up at https://pathofexile2.com/register! Find out more in this news post.",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "exilecon-2026-cosplay-and-costume-weapons-policy",
-      "title": "ExileCon 2026 Cosplay and Costume Weapons Policy",
-      "date": "2026-10-08T20:27:53+00:00",
-      "summary": "If you're attending ExileCon 2026 and are intending to cosplay or bring any props, you'll need to ensure that you follow our ExileCon 2026 Cosplay and Costume Weapons Policy. Check it out in today's news post.",
-      "href": "https://www.pathofexile.com/forum/view-thread/4010174",
-      "thumb": "https://web.poecdn.com/public/news/2026-10-09/ExileCon2026CosplayPolicyTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "ExileCon 2026 Cosplay and Costume Weapons Policy",
-          "summary": "If you're attending ExileCon 2026 and are intending to cosplay or bring any props, you'll need to ensure that you follow our ExileCon 2026 Cosplay and Costume Weapons Policy. Check it out in today's news post.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "ExileCon 2026 Cosplay and Costume Weapons Policy",
-          "summary": "If you're attending ExileCon 2026 and are intending to cosplay or bring any props, you'll need to ensure that you follow our ExileCon 2026 Cosplay and Costume Weapons Policy. Check it out in today's news post.",
           "category": "Blue Post"
         }
       }
