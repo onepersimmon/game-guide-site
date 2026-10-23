@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T17:17:45.823Z",
+  "updatedAt": "2026-10-23T21:30:29.551Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1yQna6JEVj",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 降临，备战公测，大号用时二十分钟带大家跑一遍第一章，对地形进行一些分析，可以借鉴第一章 开荒 思路，文档在评论区置顶。",
+      "summary": "-",
+      "author": "暮雪赴月",
+      "publishedAt": "2026-10-23T17:38:10.000Z",
+      "href": "https://www.bilibili.com/video/av117491414077917",
+      "cover": "https://i0.hdslb.com/bfs/archive/6f6876fce11fbcb8de1aca896d5e29d6612131a7.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1PKn86VEKQ",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-10-21T04:05:32.000Z",
       "href": "https://www.bilibili.com/video/av117476885005912",
       "cover": "https://i1.hdslb.com/bfs/archive/5875f4450bc0229fa366936af44434ad41c154f5.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1WvnA6BEXP",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "粤语解说， 流放之路2 闪回0.55赛季行者 开荒 ，第一章",
-      "summary": "",
-      "author": "乃西哥",
-      "publishedAt": "2026-10-20T13:21:00.000Z",
-      "href": "https://www.bilibili.com/video/av117473395346381",
-      "cover": "https://i1.hdslb.com/bfs/archive/0bd8b74247fc5e5e7f4078363620b1c46de80aaa.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }

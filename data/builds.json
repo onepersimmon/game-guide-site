@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T17:15:13.811Z",
+  "updatedAt": "2026-10-23T21:29:35.358Z",
   "source": "poe.ninja",
   "leagueName": "Runes of Aldur",
   "builds": [
@@ -45,12 +45,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "武圣 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 19.5,
-      "trend": 0,
+      "trend": 1,
       "rank": 2,
       "image": "./assets/images/builds/martial-artist.webp",
       "tags": [
         "主联赛头部",
-        "热度持平"
+        "热度上升"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Martial%20Artist",
       "localized": {
@@ -60,7 +60,7 @@
           "summary": "武圣 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "主联赛头部",
-            "热度持平"
+            "热度上升"
           ]
         },
         "en": {
@@ -69,7 +69,7 @@
           "summary": "A high-share ascendancy in Runes of Aldur, worth watching as the league meta keeps shifting.",
           "tags": [
             "Main league leader",
-            "Stable"
+            "Rising"
           ]
         }
       },
@@ -189,12 +189,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "瓦拉煞的门徒 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 4.7,
-      "trend": -1,
+      "trend": 1,
       "rank": 6,
       "image": "./assets/images/builds/disciple-of-varashta.webp",
       "tags": [
         "热门职业",
-        "热度回落"
+        "热度上升"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Disciple%20of%20Varashta",
       "localized": {
@@ -204,7 +204,7 @@
           "summary": "瓦拉煞的门徒 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度回落"
+            "热度上升"
           ]
         },
         "en": {
@@ -213,7 +213,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Falling"
+            "Rising"
           ]
         }
       },
