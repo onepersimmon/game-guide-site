@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T05:05:06.833Z",
+  "updatedAt": "2026-10-23T11:50:41.916Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,11 +10,24 @@
   },
   "items": [
     {
+      "id": "bilibili-BV1mEnb6LEnE",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "聊聊这几天对于 开荒 BD的各种尝试（ 流放2 0.55/0.5赛季）",
+      "summary": "",
+      "author": "大叔认真玩游戏",
+      "publishedAt": "2026-10-23T07:50:14.000Z",
+      "href": "https://www.bilibili.com/video/av117489115666001",
+      "cover": "https://i1.hdslb.com/bfs/archive/b53d41befa8c30b09a641c066a66b979a80786ff.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
       "id": "bilibili-BV1t5n463EsX",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "流放之路2 燃烧大象奇美拉配一套 400D的装备，全身丐版，碰瓷一下6词缀城市花粉炸坟，讲解一下异界 开荒 思路，可能是这个赛季最后一个动物园视频",
-      "summary": "",
+      "title": "流放之路2 吸纳燃烧大象奇美拉配一套 400D的装备，全身丐版，碰瓷一下6词缀城市花粉炸坟，讲解一下异界 开荒 思路，可能是这个赛季最后一个动物园视频",
+      "summary": "-",
       "author": "暮雪赴月",
       "publishedAt": "2026-10-23T04:48:24.000Z",
       "href": "https://www.bilibili.com/video/av117488394376476",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-10-20T06:50:56.000Z",
       "href": "https://www.bilibili.com/video/av117471868686499",
       "cover": "https://i2.hdslb.com/bfs/archive/273c208cd42535792a609f45d74f3cfc63126217.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1XhnF6CEaZ",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】Talkative Tri 0.1版本回顾：从魂系 开荒 到装备大爆的全过程",
-      "summary": "Talkative Tri回顾《流放之路2》0.1抢先体验版本：上线三天Steam峰值57.8万，开发成本迅速收回。剧情开荒因Boss强度、掉落稀少被玩家贴上魂系标签，GGG四天内紧急上调爆率、削弱怪物词缀，却又因翻滚体积归零等改动引发争议。终局与剧情的体验割裂，成为这一版本最核心的遗留问题。",
-      "author": "棱镜poe2lens",
-      "publishedAt": "2026-10-20T02:23:44.000Z",
-      "href": "https://www.bilibili.com/video/av117470845209729",
-      "cover": "https://i1.hdslb.com/bfs/archive/0b0b9b21f82c5a889d94f943d47204c278f0b679.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
