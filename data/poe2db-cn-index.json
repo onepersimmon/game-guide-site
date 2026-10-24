@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T21:30:22.563Z",
+  "updatedAt": "2026-10-24T04:48:18.580Z",
   "locale": "tw",
   "source": [
     "https://poe2db.tw/tw/Skill_Gems",
@@ -100481,6 +100481,27 @@
     },
     {
       "type": "modifier",
+      "hash": "d4d0d3b9b09f3588a2c79896d9c6ef14c807b88532583871e7dc8e51a4f173a5",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/d4d0d3b9b09f3588a2c79896d9c6ef14c807b88532583871e7dc8e51a4f173a5",
+      "title": "+(5 — 8) 點 敏捷",
+      "name": "貓鼬之",
+      "family": "Dexterity",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "additional dexterity 5 — 8 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(5 — 8) 點 敏捷 貓鼬之 Dexterity 後綴 (2) 物品 (1) 需求等級 1 additional dexterity 5 — 8 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "0d2c1ae3b76b8fb68c9e612ce287b8b9a40c1e7332688085a406d0c3a33a2e6a",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/0d2c1ae3b76b8fb68c9e612ce287b8b9a40c1e7332688085a406d0c3a33a2e6a",
       "title": "+(9 — 12) 點 敏捷",
@@ -104618,6 +104639,27 @@
     },
     {
       "type": "modifier",
+      "hash": "70c4d9ee980764a52758316b1a8b278f041be9516fa0164ffa626e7e395eb40d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/70c4d9ee980764a52758316b1a8b278f041be9516fa0164ffa626e7e395eb40d",
+      "title": "增加 (19 — 21) %施法速度",
+      "name": "巫術之",
+      "family": "IncreasedCastSpeed",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 51,
+      "stats": [
+        {
+          "text": "base cast speed +% 19 — 21 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (19 — 21) %施法速度 巫術之 IncreasedCastSpeed 後綴 (2) 物品 (1) 需求等級 51 base cast speed +% 19 — 21 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "a83547ade61bbf6bad8a73aa74ede81a1b74d1c3e78bc571173c647c61fd5b7c",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a83547ade61bbf6bad8a73aa74ede81a1b74d1c3e78bc571173c647c61fd5b7c",
       "title": "增加 (22 — 24) %施法速度",
@@ -105287,6 +105329,27 @@
       ],
       "itemClasses": [],
       "searchText": "+(13 — 17) %冰冷和混沌抗性 柯戈之 ColdAndChaosDamageResistance 後綴 (2) 深淵 (28) 需求等級 65 cold and chaos damage resistance % 13 — 17 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "07af75047595ef98661f952eeebca5e1f30327c6eaac0f6184e82f8916584f02",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/07af75047595ef98661f952eeebca5e1f30327c6eaac0f6184e82f8916584f02",
+      "title": "+(9 — 15) 點 敏捷 與 智慧",
+      "name": "柯戈之",
+      "family": "Dexterity, Intelligence",
+      "domains": "深淵 (28)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "additional dexterity and intelligence 9 — 15 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(9 — 15) 點 敏捷 與 智慧 柯戈之 Dexterity, Intelligence 後綴 (2) 深淵 (28) 需求等級 65 additional dexterity and intelligence 9 — 15 Global"
     },
     {
       "type": "modifier",
@@ -108464,6 +108527,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (14 — 16) % 召喚物 移動速度 強迫之 MinionMovementSpeed 後綴 (2) 物品 (1) 需求等級 77 minion movement speed +% 14 — 16 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "a442e1a59b19cf16455efc8d3baa8c4f87affa405b7d07f787cbc7456ecf9ff5",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a442e1a59b19cf16455efc8d3baa8c4f87affa405b7d07f787cbc7456ecf9ff5",
+      "title": "召喚物 增加 (7 — 10) %最大生命",
+      "name": "負重的",
+      "family": "MinionLife",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 18,
+      "stats": [
+        {
+          "text": "minion maximum life +% 7 — 10 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "召喚物 增加 (7 — 10) %最大生命 負重的 MinionLife 前綴 (1) 物品 (1) 需求等級 18 minion maximum life +% 7 — 10 Global"
     },
     {
       "type": "modifier",
@@ -111665,6 +111749,27 @@
       ],
       "itemClasses": [],
       "searchText": "每個被擊殺的敵人，獲得 (4 — 6) 生命 成功之 LifeGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 1 base life gained on enemy death 4 — 6 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "76906deac4d43a02b3329c400ddd9f03486da73e424451d880fb77e79054af31",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/76906deac4d43a02b3329c400ddd9f03486da73e424451d880fb77e79054af31",
+      "title": "每個被擊殺的敵人，獲得 (7 — 9) 生命",
+      "name": "勝利之",
+      "family": "LifeGainedFromEnemyDeath",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 11,
+      "stats": [
+        {
+          "text": "base life gained on enemy death 7 — 9 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每個被擊殺的敵人，獲得 (7 — 9) 生命 勝利之 LifeGainedFromEnemyDeath 後綴 (2) 物品 (1) 需求等級 11 base life gained on enemy death 7 — 9 Global"
     },
     {
       "type": "modifier",
@@ -117839,6 +117944,27 @@
     },
     {
       "type": "modifier",
+      "hash": "1e0b2b0286a095dd12170619eaaef2950c0bff7c57ea6881815648da9296f892",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/1e0b2b0286a095dd12170619eaaef2950c0bff7c57ea6881815648da9296f892",
+      "title": "全部 投射物 技能等級 +3",
+      "name": "神射手之",
+      "family": "IncreaseSocketedGemLevel",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 36,
+      "stats": [
+        {
+          "text": "projectile skill gem level + 3 — 3 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "全部 投射物 技能等級 +3 神射手之 IncreaseSocketedGemLevel 後綴 (2) 物品 (1) 需求等級 36 projectile skill gem level + 3 — 3 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "f1d4705303a5cd80af5fa0dbe6092a1c672114a5efd87c4691173a74a0d5cf14",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f1d4705303a5cd80af5fa0dbe6092a1c672114a5efd87c4691173a74a0d5cf14",
       "title": "全部 投射物 技能等級 +4",
@@ -119819,6 +119945,27 @@
     },
     {
       "type": "modifier",
+      "hash": "406ef2bc53da032b4c4329bf1de2714e7628d01e6eb352631637e465d871f070",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/406ef2bc53da032b4c4329bf1de2714e7628d01e6eb352631637e465d871f070",
+      "title": "增加 (45 — 54) % 混沌 傷害",
+      "name": "多雲的",
+      "family": "WeaponDamageTypePrefix",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 16,
+      "stats": [
+        {
+          "text": "chaos damage +% 45 — 54 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (45 — 54) % 混沌 傷害 多雲的 WeaponDamageTypePrefix 前綴 (1) 物品 (1) 需求等級 16 chaos damage +% 45 — 54 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "2dc9928db803311b1e68fd616ed1810405d81aaa23ad9671f5d77a9e7d66c748",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2dc9928db803311b1e68fd616ed1810405d81aaa23ad9671f5d77a9e7d66c748",
       "title": "增加 (55 — 64) % 混沌 傷害",
@@ -120404,6 +120551,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (24 — 27) % 能量護盾充能率 遍布之 EnergyShieldRegeneration 後綴 (2) 物品 (1) 需求等級 81 energy shield recharge rate +% 24 — 27 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "1a534bcfac409e4ac9640cb602ded2629d7e95a4b5bb0936baa760031da24ab9",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/1a534bcfac409e4ac9640cb602ded2629d7e95a4b5bb0936baa760031da24ab9",
+      "title": "增加 (15 — 25) % 能量護盾",
+      "name": "",
+      "family": "DefencesPercent",
+      "domains": "物品 (1)",
+      "generationType": "已汙染 (5)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "local energy shield +% 15 — 25 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (15 — 25) % 能量護盾 DefencesPercent 已汙染 (5) 物品 (1) 需求等級 1 local energy shield +% 15 — 25 區域"
     },
     {
       "type": "modifier",
@@ -125600,6 +125768,27 @@
     },
     {
       "type": "modifier",
+      "hash": "673cb41d4e2d79375b6f24ace3b13bf9fe0be92673ec4003f86accc6ec3b6a32",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/673cb41d4e2d79375b6f24ace3b13bf9fe0be92673ec4003f86accc6ec3b6a32",
+      "title": "怪物有 (5 — 6) %機率掉落兩倍 聖水",
+      "name": "浸濕之",
+      "family": "SanctumMonstersDoubleGoldChance",
+      "domains": "SanctumRelic (8)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "sanctum monster double gold % 5 — 6 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "怪物有 (5 — 6) %機率掉落兩倍 聖水 浸濕之 SanctumMonstersDoubleGoldChance 後綴 (2) SanctumRelic (8) 需求等級 1 sanctum monster double gold % 5 — 6 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "f544f5557d2600250cc340a9027789ac0f00841f5a7736fe0ea9b588cf9c1e94",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f544f5557d2600250cc340a9027789ac0f00841f5a7736fe0ea9b588cf9c1e94",
       "title": "怪物有 (7 — 8) %機率掉落兩倍 聖水",
@@ -126923,6 +127112,27 @@
     },
     {
       "type": "modifier",
+      "hash": "f319858b0201e427858b39d51982809fbd3a7afee0de9a35cae5d6db08dc699c",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f319858b0201e427858b39d51982809fbd3a7afee0de9a35cae5d6db08dc699c",
+      "title": "增加 (30 — 39) % 護甲 、 閃避 、和 能量護盾",
+      "name": "分層的",
+      "family": "SanctumDefences",
+      "domains": "SanctumRelic (8)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 50,
+      "stats": [
+        {
+          "text": "map player armour evasion energy shield +% 30 — 39 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (30 — 39) % 護甲 、 閃避 、和 能量護盾 分層的 SanctumDefences 前綴 (1) SanctumRelic (8) 需求等級 50 map player armour evasion energy shield +% 30 — 39 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "2eacfe52025ab82653e4905afc9a6ff6e3c4d660ab8bb5e212663e53798f14fb",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2eacfe52025ab82653e4905afc9a6ff6e3c4d660ab8bb5e212663e53798f14fb",
       "title": "增加 (40 — 49) % 護甲 、 閃避 、和 能量護盾",
@@ -127487,6 +127697,27 @@
       ],
       "itemClasses": [],
       "searchText": "怪物減少 (6 — 7) % 攻擊 、施放、移動速度 短暫的 SanctumMonsterSpeed 前綴 (1) SanctumRelic (8) 需求等級 78 map monster attack cast and movement speed +% -7 — -6 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "e0a4d5645228b5308fcb7579721a5b8d5eba58306a6fc89bdc31ec1bbba1a705",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e0a4d5645228b5308fcb7579721a5b8d5eba58306a6fc89bdc31ec1bbba1a705",
+      "title": "+(8 — 10) %至 榮譽抗性",
+      "name": "價值之",
+      "family": "SanctumHonourResistance",
+      "domains": "SanctumRelic (8)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "sanctum honour resistance % 8 — 10 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(8 — 10) %至 榮譽抗性 價值之 SanctumHonourResistance 後綴 (2) SanctumRelic (8) 需求等級 1 sanctum honour resistance % 8 — 10 Global"
     },
     {
       "type": "modifier",
@@ -128432,6 +128663,27 @@
     },
     {
       "type": "modifier",
+      "hash": "c382dbf7b74693403370b3021a646e5bfec7061d4054b267f717e6f2c69be6f4",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c382dbf7b74693403370b3021a646e5bfec7061d4054b267f717e6f2c69be6f4",
+      "title": "增加 (8 — 12) % 冰冷 傷害",
+      "name": "刺人的",
+      "family": "ColdDamagePercentage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 16,
+      "stats": [
+        {
+          "text": "cold damage +% 8 — 12 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (8 — 12) % 冰冷 傷害 刺人的 ColdDamagePercentage 前綴 (1) 物品 (1) 需求等級 16 cold damage +% 8 — 12 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "e07c87be7e5697d5a6dc515608d07ca91a4b990c39ea06ead7bed89e33498588",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/e07c87be7e5697d5a6dc515608d07ca91a4b990c39ea06ead7bed89e33498588",
       "title": "增加 (13 — 17) % 冰冷 傷害",
@@ -128660,6 +128912,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (3 — 7) % 混沌 傷害 不潔的 IncreasedChaosDamage 前綴 (1) 物品 (1) 需求等級 8 chaos damage +% 3 — 7 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "19c9202dc0585e583c68d5421e3c324007d6cd9ba379574818e8660763e1dfbb",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/19c9202dc0585e583c68d5421e3c324007d6cd9ba379574818e8660763e1dfbb",
+      "title": "增加 (8 — 12) % 混沌 傷害",
+      "name": "被污染的",
+      "family": "IncreasedChaosDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 16,
+      "stats": [
+        {
+          "text": "chaos damage +% 8 — 12 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (8 — 12) % 混沌 傷害 被污染的 IncreasedChaosDamage 前綴 (1) 物品 (1) 需求等級 16 chaos damage +% 8 — 12 Global"
     },
     {
       "type": "modifier",
@@ -129062,6 +129335,27 @@
     },
     {
       "type": "modifier",
+      "hash": "61f2c1e5b97d575ff3aef85a91b51acf74f8768fb02b699fc2f2a7a15ede5d55",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/61f2c1e5b97d575ff3aef85a91b51acf74f8768fb02b699fc2f2a7a15ede5d55",
+      "title": "每當你使用 號令 技能時，有 (40 — 50) % 滿溢機率 獲得一層 傀儡大師",
+      "name": "秘社之",
+      "family": "MinionGainPuppetMasterOnCommand",
+      "domains": "深淵 (28)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "surpassing chance % to gain 1 puppeteer stack on using command skill 40 — 50 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "每當你使用 號令 技能時，有 (40 — 50) % 滿溢機率 獲得一層 傀儡大師 秘社之 MinionGainPuppetMasterOnCommand 後綴 (2) 深淵 (28) 需求等級 1 surpassing chance % to gain 1 puppeteer stack on using command skill 40 — 50 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "c1392c8ad8b2cc20955dfd121c660127157721106141651b618c06e66c1b2f20",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c1392c8ad8b2cc20955dfd121c660127157721106141651b618c06e66c1b2f20",
       "title": "法術 獲得 等同於傷害 (8 — 12) %的額外 閃電 傷害",
@@ -129374,6 +129668,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (25 — 27) % 召喚物 造成的傷害 擺佈者的 MinionDamage 前綴 (1) 物品 (1) 需求等級 70 minion damage +% 25 — 27 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "837dc4e7a4d4ac0e90fda67eb6ba51dd5e560dd1aaced64716d6b5bf6a7cddf9",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/837dc4e7a4d4ac0e90fda67eb6ba51dd5e560dd1aaced64716d6b5bf6a7cddf9",
+      "title": "增加 (28 — 31) % 召喚物 造成的傷害",
+      "name": "魁儡師的",
+      "family": "MinionDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 82,
+      "stats": [
+        {
+          "text": "minion damage +% 28 — 31 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (28 — 31) % 召喚物 造成的傷害 魁儡師的 MinionDamage 前綴 (1) 物品 (1) 需求等級 82 minion damage +% 28 — 31 Global"
     },
     {
       "type": "modifier",
@@ -129839,6 +130154,27 @@
     },
     {
       "type": "modifier",
+      "hash": "0019ee711ac03a5ecc4ee4ff84d4ae6ed1ee9a4412e1a90e42d72a99a8b9ddae",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/0019ee711ac03a5ecc4ee4ff84d4ae6ed1ee9a4412e1a90e42d72a99a8b9ddae",
+      "title": "增加 (6 — 9) % 法術 傷害",
+      "name": "學徒的",
+      "family": "SpellDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 9,
+      "stats": [
+        {
+          "text": "spell damage +% 6 — 9 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (6 — 9) % 法術 傷害 學徒的 SpellDamage 前綴 (1) 物品 (1) 需求等級 9 spell damage +% 6 — 9 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "65e206c5ba13ed57e8a451fef1ec931eecffe9f7098b1b04c1703334c86865cf",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/65e206c5ba13ed57e8a451fef1ec931eecffe9f7098b1b04c1703334c86865cf",
       "title": "增加 (10 — 13) % 法術 傷害",
@@ -130214,6 +130550,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (7 — 9) % 法術 暴擊率 威脅之 SpellCriticalStrikeChanceIncrease 後綴 (2) 物品 (1) 需求等級 18 spell critical strike chance +% 7 — 9 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "60a9eabadfae2307148b9455c5f29ca89aaea84ade1bf8760ce78f742d1d5693",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/60a9eabadfae2307148b9455c5f29ca89aaea84ade1bf8760ce78f742d1d5693",
+      "title": "增加 (10 — 12) % 法術 暴擊率",
+      "name": "浩劫之",
+      "family": "SpellCriticalStrikeChanceIncrease",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 32,
+      "stats": [
+        {
+          "text": "spell critical strike chance +% 10 — 12 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (10 — 12) % 法術 暴擊率 浩劫之 SpellCriticalStrikeChanceIncrease 後綴 (2) 物品 (1) 需求等級 32 spell critical strike chance +% 10 — 12 Global"
     },
     {
       "type": "modifier",
@@ -131453,6 +131810,33 @@
       ],
       "itemClasses": [],
       "searchText": "處於你 存在範圍 中的 友方 造成 (5 — 6) 至 (9 — 11) 額外 攻擊 冰冷 傷害 結冰的 ColdDamage 前綴 (1) 物品 (1) 需求等級 16 allies in presence attack maximum added cold damage 9 — 11 Global allies in presence attack minimum added cold damage 5 — 6 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "25dd65d3c9fc998a44a706e1eaf83a3773473c75a3cacf03c153fd2711605212",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/25dd65d3c9fc998a44a706e1eaf83a3773473c75a3cacf03c153fd2711605212",
+      "title": "處於你 存在範圍 中的 友方 造成 (7 — 8) 至 (12 — 14) 額外 攻擊 冰冷 傷害",
+      "name": "寒風的",
+      "family": "ColdDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 33,
+      "stats": [
+        {
+          "text": "allies in presence attack maximum added cold damage 12 — 14 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "allies in presence attack minimum added cold damage 7 — 8 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "處於你 存在範圍 中的 友方 造成 (7 — 8) 至 (12 — 14) 額外 攻擊 冰冷 傷害 寒風的 ColdDamage 前綴 (1) 物品 (1) 需求等級 33 allies in presence attack maximum added cold damage 12 — 14 Global allies in presence attack minimum added cold damage 7 — 8 Global"
     },
     {
       "type": "modifier",
@@ -134075,6 +134459,33 @@
     },
     {
       "type": "modifier",
+      "hash": "7f864e752b7642cff0e371e6c4cf6212b640617ee9b215e103808a6d9bc1d5fa",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/7f864e752b7642cff0e371e6c4cf6212b640617ee9b215e103808a6d9bc1d5fa",
+      "title": "增加 (89 — 98) % 法術 傷害 +(83 — 90) 最大魔力",
+      "name": "巫妖的",
+      "family": "SpellDamageAndMana",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 79,
+      "stats": [
+        {
+          "text": "spell damage +% 89 — 98 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "base maximum mana 83 — 90 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (89 — 98) % 法術 傷害 +(83 — 90) 最大魔力 巫妖的 SpellDamageAndMana 前綴 (1) 物品 (1) 需求等級 79 spell damage +% 89 — 98 Global base maximum mana 83 — 90 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "882623b3c19edf39722f40ca3f305445ffd46f85ade5bc0a27fd223f34e202de",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/882623b3c19edf39722f40ca3f305445ffd46f85ade5bc0a27fd223f34e202de",
       "title": "增加 (50 — 68) % 火焰 傷害",
@@ -134369,6 +134780,27 @@
     },
     {
       "type": "modifier",
+      "hash": "81189caa9f36fc18b62f0f046f0889230dbd9063f01800ca4000955b12e38704",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/81189caa9f36fc18b62f0f046f0889230dbd9063f01800ca4000955b12e38704",
+      "title": "增加 (189 — 208) % 冰冷 傷害",
+      "name": "結晶的",
+      "family": "WeaponDamageTypePrefix",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 70,
+      "stats": [
+        {
+          "text": "cold damage +% 189 — 208 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (189 — 208) % 冰冷 傷害 結晶的 WeaponDamageTypePrefix 前綴 (1) 物品 (1) 需求等級 70 cold damage +% 189 — 208 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "5cc936ef257b9990a39ee645ba27db668d0e0143186cee91b3378f0e17111502",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/5cc936ef257b9990a39ee645ba27db668d0e0143186cee91b3378f0e17111502",
       "title": "增加 (209 — 238) % 冰冷 傷害",
@@ -134429,6 +134861,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (69 — 88) % 閃電 傷害 嘶聲的 WeaponDamageTypePrefix 前綴 (1) 物品 (1) 需求等級 8 lightning damage +% 69 — 88 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "c74ff4028feeb6a67d46b750661e34dafe5433207215554b6c46924e003fef5d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c74ff4028feeb6a67d46b750661e34dafe5433207215554b6c46924e003fef5d",
+      "title": "增加 (89 — 108) % 閃電 傷害",
+      "name": "電光的",
+      "family": "WeaponDamageTypePrefix",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 16,
+      "stats": [
+        {
+          "text": "lightning damage +% 89 — 108 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (89 — 108) % 閃電 傷害 電光的 WeaponDamageTypePrefix 前綴 (1) 物品 (1) 需求等級 16 lightning damage +% 89 — 108 Global"
     },
     {
       "type": "modifier",
@@ -134555,6 +135008,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (50 — 68) % 混沌 傷害 不潔的 WeaponDamageTypePrefix 前綴 (1) 物品 (1) 需求等級 2 chaos damage +% 50 — 68 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "0af4ae24af894ef0db2ee271165d0f5e9a91e0062f6aa2300949d3ee17929080",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/0af4ae24af894ef0db2ee271165d0f5e9a91e0062f6aa2300949d3ee17929080",
+      "title": "增加 (69 — 88) % 混沌 傷害",
+      "name": "被污染的",
+      "family": "WeaponDamageTypePrefix",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 8,
+      "stats": [
+        {
+          "text": "chaos damage +% 69 — 88 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (69 — 88) % 混沌 傷害 被污染的 WeaponDamageTypePrefix 前綴 (1) 物品 (1) 需求等級 8 chaos damage +% 69 — 88 Global"
     },
     {
       "type": "modifier",
@@ -134744,6 +135218,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (89 — 108) % 法術 物理 傷害 復仇的 WeaponDamageTypePrefix 前綴 (1) 物品 (1) 需求等級 16 spell physical damage +% 89 — 108 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "88cbc9ab14ff854d52e22d3aa84ebf355ccf040d710d8edc3ba018f4cc8f7115",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/88cbc9ab14ff854d52e22d3aa84ebf355ccf040d710d8edc3ba018f4cc8f7115",
+      "title": "增加 (109 — 128) % 法術 物理 傷害",
+      "name": "施暴",
+      "family": "WeaponDamageTypePrefix",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 33,
+      "stats": [
+        {
+          "text": "spell physical damage +% 109 — 128 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (109 — 128) % 法術 物理 傷害 施暴 WeaponDamageTypePrefix 前綴 (1) 物品 (1) 需求等級 33 spell physical damage +% 109 — 128 Global"
     },
     {
       "type": "modifier",
@@ -134957,6 +135452,48 @@
     },
     {
       "type": "modifier",
+      "hash": "8fdc7f2da7b18c16a8685e2d5c4ebbaccfe250cd9663380379213e21fa6bc55d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/8fdc7f2da7b18c16a8685e2d5c4ebbaccfe250cd9663380379213e21fa6bc55d",
+      "title": "全部 火焰 法術 技能等級 +(3 — 4)",
+      "name": "烈焰之",
+      "family": "IncreaseSocketedGemLevel",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 36,
+      "stats": [
+        {
+          "text": "fire spell skill gem level + 3 — 4 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "全部 火焰 法術 技能等級 +(3 — 4) 烈焰之 IncreaseSocketedGemLevel 後綴 (2) 物品 (1) 需求等級 36 fire spell skill gem level + 3 — 4 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "95eff632b434a658b3582d01acb69e248a09e53755b2cb52a871cc1c65c66ebf",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/95eff632b434a658b3582d01acb69e248a09e53755b2cb52a871cc1c65c66ebf",
+      "title": "全部 火焰 法術 技能等級 +(5 — 6)",
+      "name": "獻祭之",
+      "family": "IncreaseSocketedGemLevel",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 55,
+      "stats": [
+        {
+          "text": "fire spell skill gem level + 5 — 6 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "全部 火焰 法術 技能等級 +(5 — 6) 獻祭之 IncreaseSocketedGemLevel 後綴 (2) 物品 (1) 需求等級 55 fire spell skill gem level + 5 — 6 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "c8b7d535960f390f3e6057e25602b0912fa23e247b6e84d7d25c08bfdcdf423c",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c8b7d535960f390f3e6057e25602b0912fa23e247b6e84d7d25c08bfdcdf423c",
       "title": "全部 火焰 法術 技能等級 +7",
@@ -135083,6 +135620,27 @@
     },
     {
       "type": "modifier",
+      "hash": "8a25eb8ca64fc03b9b3011e270e32dbdab2a2654be410dcda3158c55f8cbf86d",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/8a25eb8ca64fc03b9b3011e270e32dbdab2a2654be410dcda3158c55f8cbf86d",
+      "title": "全部 閃電 法術 技能等級 +1",
+      "name": "火花之",
+      "family": "IncreaseSocketedGemLevel",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 2,
+      "stats": [
+        {
+          "text": "lightning spell skill gem level + 1 — 1 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "全部 閃電 法術 技能等級 +1 火花之 IncreaseSocketedGemLevel 後綴 (2) 物品 (1) 需求等級 2 lightning spell skill gem level + 1 — 1 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "0d2134a858f12e167571601aa91563690adc03f085f6419bc2c087796cbaa872",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/0d2134a858f12e167571601aa91563690adc03f085f6419bc2c087796cbaa872",
       "title": "全部 閃電 法術 技能等級 +2",
@@ -135122,6 +135680,27 @@
       ],
       "itemClasses": [],
       "searchText": "全部 閃電 法術 技能等級 +(3 — 4) 電能之 IncreaseSocketedGemLevel 後綴 (2) 物品 (1) 需求等級 36 lightning spell skill gem level + 3 — 4 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "794422b66692355e0716c6552ff5deb85b2e8e2e92100ff4de18de292d9036e2",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/794422b66692355e0716c6552ff5deb85b2e8e2e92100ff4de18de292d9036e2",
+      "title": "全部 閃電 法術 技能等級 +(5 — 6)",
+      "name": "伏特之",
+      "family": "IncreaseSocketedGemLevel",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 55,
+      "stats": [
+        {
+          "text": "lightning spell skill gem level + 5 — 6 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "全部 閃電 法術 技能等級 +(5 — 6) 伏特之 IncreaseSocketedGemLevel 後綴 (2) 物品 (1) 需求等級 55 lightning spell skill gem level + 5 — 6 Global"
     },
     {
       "type": "modifier",
@@ -135710,6 +136289,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (70 — 79) % 法術 暴擊率 血禍之 SpellCriticalStrikeChanceIncrease 後綴 (2) 物品 (1) 需求等級 41 spell critical strike chance +% 70 — 79 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "2202ed47e33b7adf67a6f13d735470fa03c1bd8fc6c2a8c50442fc53a5f6aeef",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/2202ed47e33b7adf67a6f13d735470fa03c1bd8fc6c2a8c50442fc53a5f6aeef",
+      "title": "增加 (80 — 89) % 法術 暴擊率",
+      "name": "滅絕之",
+      "family": "SpellCriticalStrikeChanceIncrease",
+      "domains": "物品 (1)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 59,
+      "stats": [
+        {
+          "text": "spell critical strike chance +% 80 — 89 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (80 — 89) % 法術 暴擊率 滅絕之 SpellCriticalStrikeChanceIncrease 後綴 (2) 物品 (1) 需求等級 59 spell critical strike chance +% 80 — 89 Global"
     },
     {
       "type": "modifier",
@@ -137015,6 +137615,27 @@
     },
     {
       "type": "modifier",
+      "hash": "944a7a07ceb9382d6d929767a6575b119ebadbe038eba49389c8301b24e10959",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/944a7a07ceb9382d6d929767a6575b119ebadbe038eba49389c8301b24e10959",
+      "title": "貧血狀態 時增加 (30 — 40) %施法速度",
+      "name": "烏拉曼之",
+      "family": "CastSpeedOnLowLife",
+      "domains": "深淵 (28)",
+      "generationType": "後綴 (2)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "cast speed +% when on low life 30 — 40 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "貧血狀態 時增加 (30 — 40) %施法速度 烏拉曼之 CastSpeedOnLowLife 後綴 (2) 深淵 (28) 需求等級 65 cast speed +% when on low life 30 — 40 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "783ab0813633dd3f2262e84b9b4897aba8967e5697b2646e43d23c880f641ccb",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/783ab0813633dd3f2262e84b9b4897aba8967e5697b2646e43d23c880f641ccb",
       "title": "每100最大生命增加 (4 — 5) % 法術 傷害",
@@ -137201,6 +137822,27 @@
       ],
       "itemClasses": [],
       "searchText": "增加 (45 — 65) % 點燃 幅度 IgniteEffect 傳奇 (3) 物品 (1) 需求等級 1 base ignite effect +% 45 — 65 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "6141b0cc5ca7b91157a47c9208b9d4b5929422d0e332fe236bfa06c36050999a",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/6141b0cc5ca7b91157a47c9208b9d4b5929422d0e332fe236bfa06c36050999a",
+      "title": "增加 (20 — 35) %施法速度",
+      "name": "",
+      "family": "IncreasedCastSpeed",
+      "domains": "物品 (1)",
+      "generationType": "傳奇 (3)",
+      "reqLevel": 1,
+      "stats": [
+        {
+          "text": "base cast speed +% 20 — 35 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (20 — 35) %施法速度 IncreasedCastSpeed 傳奇 (3) 物品 (1) 需求等級 1 base cast speed +% 20 — 35 Global"
     },
     {
       "type": "modifier",
@@ -139511,6 +140153,27 @@
       ],
       "itemClasses": [],
       "searchText": "獲得 等同於傷害 (13 — 15) %的額外 火焰 傷害 熱切的 FireDamage 前綴 (1) 物品 (1) 需求等級 5 non skill base all damage % to gain as fire 13 — 15 Global"
+    },
+    {
+      "type": "modifier",
+      "hash": "829e4f3edeb319cfb8cb9ee14bd15504cc530a03273694892a01253052b4b14b",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/829e4f3edeb319cfb8cb9ee14bd15504cc530a03273694892a01253052b4b14b",
+      "title": "獲得 等同於傷害 (16 — 18) %的額外 火焰 傷害",
+      "name": "熱烈的",
+      "family": "FireDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 16,
+      "stats": [
+        {
+          "text": "non skill base all damage % to gain as fire 16 — 18 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "獲得 等同於傷害 (16 — 18) %的額外 火焰 傷害 熱烈的 FireDamage 前綴 (1) 物品 (1) 需求等級 16 non skill base all damage % to gain as fire 16 — 18 Global"
     },
     {
       "type": "modifier",
