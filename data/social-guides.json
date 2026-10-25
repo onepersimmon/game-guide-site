@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T04:53:47.293Z",
+  "updatedAt": "2026-10-25T11:46:58.226Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,58 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1vPH56pEXB",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "S0.55 流放之路2 武圣霹雳闪从零 开荒 独狼P2",
+      "summary": "",
+      "author": "_0079_",
+      "publishedAt": "2026-10-25T11:19:25.000Z",
+      "href": "https://www.bilibili.com/video/av117501195261808",
+      "cover": "https://i2.hdslb.com/bfs/archive/934fd94043a961dedf712ddf3ce3f7a4c9a2b0c7.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV15cHG62EZr",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "S0.55 流放之路2 武圣霹雳闪从零 开荒 独狼P1",
+      "summary": "",
+      "author": "_0079_",
+      "publishedAt": "2026-10-25T08:03:06.000Z",
+      "href": "https://www.bilibili.com/video/av117500389888499",
+      "cover": "https://i2.hdslb.com/bfs/archive/934fd94043a961dedf712ddf3ce3f7a4c9a2b0c7.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1epHV6nEM5",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】LilBotQ 迷雾机制全解析：从 开荒 到T15的完整指南",
+      "summary": "LilBotQ完整拆解流放之路2迷雾机制，从开启任务线到终局刷图策略一网打尽。涵盖迷雾层数、幻像异界、大魔镜、液化情感与天赋树核心点法，并给出与其他终局玩法叠加的赚钱思路。最后提醒开荒期难度较高，建议先提升BD再深入。",
+      "author": "棱镜poe2lens",
+      "publishedAt": "2026-10-25T04:58:11.000Z",
+      "href": "https://www.bilibili.com/video/av117499769129273",
+      "cover": "https://i1.hdslb.com/bfs/archive/9321079d8829170679b27c1bfdeaf1a62dcae987.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1vEH36LE1R",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放2 -0.55战士震波图腾 开荒",
+      "summary": "",
+      "author": "再玩就真的来不及了",
+      "publishedAt": "2026-10-25T01:41:38.000Z",
+      "href": "https://www.bilibili.com/video/av117498980603350",
+      "cover": "https://i1.hdslb.com/bfs/archive/e6beb2102a42f66de7fa87967ef7227115b5964e.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1yQna6JEVj",
       "platform": "bilibili",
@@ -32,58 +84,6 @@
       "publishedAt": "2026-10-23T15:03:06.000Z",
       "href": "https://www.bilibili.com/video/av117490810099965",
       "cover": "https://i0.hdslb.com/bfs/archive/e651582acf81a8f6785e5349a2fa6af8ffc8a688.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1mEnb6LEnE",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "聊聊这几天对于 开荒 BD的各种尝试（ 流放2 0.55/0.5赛季）",
-      "summary": "",
-      "author": "大叔认真玩游戏",
-      "publishedAt": "2026-10-23T07:50:14.000Z",
-      "href": "https://www.bilibili.com/video/av117489115666001",
-      "cover": "https://i1.hdslb.com/bfs/archive/b53d41befa8c30b09a641c066a66b979a80786ff.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1t5n463EsX",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 吸纳燃烧大象奇美拉配一套 400D的装备，全身丐版，碰瓷一下6词缀城市花粉炸坟，讲解一下异界 开荒 思路，可能是这个赛季最后一个动物园视频",
-      "summary": "-",
-      "author": "暮雪赴月",
-      "publishedAt": "2026-10-23T04:48:24.000Z",
-      "href": "https://www.bilibili.com/video/av117488394376476",
-      "cover": "https://i0.hdslb.com/bfs/archive/719f19a22dd5e95cfca56ebfb1582fbaa4d16811.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1jrn66FEau",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "战士 开荒 用加特林和蛇女激情对射（ 流放2 0.55/0.5赛季）",
-      "summary": "",
-      "author": "大叔认真玩游戏",
-      "publishedAt": "2026-10-21T15:05:00.000Z",
-      "href": "https://www.bilibili.com/video/av117479502322548",
-      "cover": "https://i1.hdslb.com/bfs/archive/cb0e9066257038e9a339e0cbe842bca216141adb.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1YLnv6rE7f",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "粤语解说， 流放2 闪回0.55赛季行者 开荒 ，第四章",
-      "summary": "",
-      "author": "乃西哥",
-      "publishedAt": "2026-10-21T04:05:32.000Z",
-      "href": "https://www.bilibili.com/video/av117476885005912",
-      "cover": "https://i1.hdslb.com/bfs/archive/5875f4450bc0229fa366936af44434ad41c154f5.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
