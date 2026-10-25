@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-10-25T16:34:38.424Z",
+  "updatedAt": "2026-10-25T20:57:40.174Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "two-weeks-until-exilecon-2026",
+      "title": "Two Weeks Until ExileCon 2026!",
+      "date": "2026-10-25T19:40:24+00:00",
+      "summary": "ExileCon 2026 is happening in just two weeks! Tune in to twitch.tv/pathofexile at 12:30PM PST on November 6 to watch it live! In the meantime, check out this news post for all the livestream details.",
+      "href": "https://www.pathofexile.com/forum/view-thread/4011825",
+      "thumb": "https://web.poecdn.com/public/news/2026-10-26/ExileCon2026TwoWeeksTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Two Weeks Until ExileCon 2026!",
+          "summary": "ExileCon 2026 is happening in just two weeks! Tune in to twitch.tv/pathofexile at 12:30PM PST on November 6 to watch it live! In the meantime, check out this news post for all the livestream details.",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Two Weeks Until ExileCon 2026!",
+          "summary": "ExileCon 2026 is happening in just two weeks! Tune in to twitch.tv/pathofexile at 12:30PM PST on November 6 to watch it live! In the meantime, check out this news post for all the livestream details.",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "early-access-supporter-packs-leaving-soon",
       "title": "Early Access Supporter Packs Leaving Soon",
@@ -44,27 +65,6 @@
         "en": {
           "title": "ExileCon 2026 Merchandise",
           "summary": "Attendees at ExileCon 2026 will have exclusive first access to a variety of new merchandise. This year, we’ve prepared more than 60 new goodies, including T-shirts, pins, keycaps, posters, plushies, and more. Take a sneak peek in this news post!",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "path-of-exile-2-full-release-registration-sign-up-and-unlock-exclusive-rewards",
-      "title": "Path of Exile 2 Full Release Registration - Sign Up and Unlock Exclusive Rewards",
-      "date": "2026-10-19T21:30:40+00:00",
-      "summary": "Unlock exclusive rewards and get updates about Path of Exile 2's Full Release by signing up at https://pathofexile2.com/register! Find out more in this news post.",
-      "href": "https://www.pathofexile.com/forum/view-thread/4011278",
-      "thumb": "https://web.poecdn.com/public/news/2026-10-20/FullReleaseRegReminderTwitterNoText.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Path of Exile 2 Full Release Registration - Sign Up and Unlock Exclusive Rewards",
-          "summary": "Unlock exclusive rewards and get updates about Path of Exile 2's Full Release by signing up at https://pathofexile2.com/register! Find out more in this news post.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Path of Exile 2 Full Release Registration - Sign Up and Unlock Exclusive Rewards",
-          "summary": "Unlock exclusive rewards and get updates about Path of Exile 2's Full Release by signing up at https://pathofexile2.com/register! Find out more in this news post.",
           "category": "Blue Post"
         }
       }

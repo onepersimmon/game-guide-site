@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T16:31:58.393Z",
+  "updatedAt": "2026-10-25T20:57:05.922Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14580,14 +14580,6 @@
           }
         },
         {
-          "type": "Executioner Greataxe",
-          "text": "INCOMPLETE Executioner Greataxe",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
           "type": "Skinning Knife",
           "text": "INCOMPLETE Skinning Knife",
           "name": "INCOMPLETE",
@@ -14606,6 +14598,14 @@
         {
           "type": "Light Halberd",
           "text": "INCOMPLETE Light Halberd",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Executioner Greataxe",
+          "text": "INCOMPLETE Executioner Greataxe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
