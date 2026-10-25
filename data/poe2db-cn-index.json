@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T11:46:41.618Z",
+  "updatedAt": "2026-10-25T16:34:25.528Z",
   "locale": "tw",
   "source": [
     "https://poe2db.tw/tw/Skill_Gems",
@@ -111041,6 +111041,33 @@
     },
     {
       "type": "modifier",
+      "hash": "7b80042c6c63ca4c1259ccb9ac7777216e61324c42e952403ce7fcaea22eb3a6",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/7b80042c6c63ca4c1259ccb9ac7777216e61324c42e952403ce7fcaea22eb3a6",
+      "title": "附加 (1 — 10) 至 (157 — 196) 閃電 傷害",
+      "name": "電極的",
+      "family": "LightningDamage",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 75,
+      "stats": [
+        {
+          "text": "local maximum added lightning damage 157 — 196 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        },
+        {
+          "text": "local minimum added lightning damage 1 — 10 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "附加 (1 — 10) 至 (157 — 196) 閃電 傷害 電極的 LightningDamage 前綴 (1) 物品 (1) 需求等級 75 local maximum added lightning damage 157 — 196 區域 local minimum added lightning damage 1 — 10 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "9ca872636455c31c0ce570e8d1ca3164e1998b48875eadb8e8f44cbb7925c4c3",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/9ca872636455c31c0ce570e8d1ca3164e1998b48875eadb8e8f44cbb7925c4c3",
       "title": "附加 (1 — 12) 至 (202 — 234) 閃電 傷害",
@@ -112418,6 +112445,27 @@
     },
     {
       "type": "modifier",
+      "hash": "0153a5d5c18b77217fe85182c3a85feaaa86285eafd61ba1bc364d77b5e3ff74",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/0153a5d5c18b77217fe85182c3a85feaaa86285eafd61ba1bc364d77b5e3ff74",
+      "title": "+(551 — 650) 命中 值",
+      "name": "女武神的",
+      "family": "IncreasedAccuracy",
+      "domains": "物品 (1)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 82,
+      "stats": [
+        {
+          "text": "local accuracy rating 551 — 650 區域",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "+(551 — 650) 命中 值 女武神的 IncreasedAccuracy 前綴 (1) 物品 (1) 需求等級 82 local accuracy rating 551 — 650 區域"
+    },
+    {
+      "type": "modifier",
       "hash": "30b3a2ec8e56ff658b52f9397b73db1149856b79cd35789b26ce60e80e18795f",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/30b3a2ec8e56ff658b52f9397b73db1149856b79cd35789b26ce60e80e18795f",
       "title": "+(1.01 — 1.5) % 暴擊 率",
@@ -113348,6 +113396,27 @@
     },
     {
       "type": "modifier",
+      "hash": "c3f4184f2b0e21742b10d8384deb1178966bdae79b3a57fab832ed1c579a0fa9",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c3f4184f2b0e21742b10d8384deb1178966bdae79b3a57fab832ed1c579a0fa9",
+      "title": "增加 (30 — 40) %從已裝備 箭袋 獲得的加成",
+      "name": "柯戈的",
+      "family": "EquipmentModifierEffect",
+      "domains": "深淵 (28)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "quiver mod effect +% 30 — 40 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (30 — 40) %從已裝備 箭袋 獲得的加成 柯戈的 EquipmentModifierEffect 前綴 (1) 深淵 (28) 需求等級 65 quiver mod effect +% 30 — 40 Global"
+    },
+    {
+      "type": "modifier",
       "hash": "95ce16e06eb75f9d01ef139ea58fbcce662c54a2ade9990cfcce6513ec75530f",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/95ce16e06eb75f9d01ef139ea58fbcce662c54a2ade9990cfcce6513ec75530f",
       "title": "技能增加 (5 — 10) % 精魂 保留 效用",
@@ -113567,6 +113636,27 @@
       ],
       "itemClasses": [],
       "searchText": "此武器的 攻擊 穿透 (15 — 25) %的閃電抗性 烏拉曼的 LightningResistancePenetration 前綴 (1) 深淵 (28) 需求等級 65 local lightning penetration % 15 — 25 區域"
+    },
+    {
+      "type": "modifier",
+      "hash": "a4f57e0eae0c8560cf5331a787f58ba7dd16360671c62a0fb2f75e689b53dcb3",
+      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/a4f57e0eae0c8560cf5331a787f58ba7dd16360671c62a0fb2f75e689b53dcb3",
+      "title": "增加 (60 — 79) % 投射物 對距離超過6公尺的敵人造成的擊中傷害",
+      "name": "烏拉曼的",
+      "family": "ProjectileDamage",
+      "domains": "深淵 (28)",
+      "generationType": "前綴 (1)",
+      "reqLevel": 65,
+      "stats": [
+        {
+          "text": "projectile damage +% vs enemies further than 6m distance 60 — 79 Global",
+          "min": null,
+          "max": null,
+          "scope": ""
+        }
+      ],
+      "itemClasses": [],
+      "searchText": "增加 (60 — 79) % 投射物 對距離超過6公尺的敵人造成的擊中傷害 烏拉曼的 ProjectileDamage 前綴 (1) 深淵 (28) 需求等級 65 projectile damage +% vs enemies further than 6m distance 60 — 79 Global"
     },
     {
       "type": "modifier",
