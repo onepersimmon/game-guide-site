@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T13:15:46.416Z",
+  "updatedAt": "2026-10-26T22:44:49.556Z",
   "source": "poe.ninja",
   "leagueName": "Runes of Aldur",
   "builds": [
@@ -117,12 +117,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 5.4,
-      "trend": -1,
+      "trend": 1,
       "rank": 4,
       "image": "./assets/images/builds/deadeye.webp",
       "tags": [
         "热门职业",
-        "热度回落"
+        "热度上升"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Deadeye",
       "localized": {
@@ -132,7 +132,7 @@
           "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度回落"
+            "热度上升"
           ]
         },
         "en": {
@@ -141,7 +141,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Falling"
+            "Rising"
           ]
         }
       },
@@ -297,12 +297,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "泰坦 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 2.6,
-      "trend": 0,
+      "trend": 1,
       "rank": 9,
       "image": "./assets/images/builds/titan.webp",
       "tags": [
         "热门职业",
-        "热度持平"
+        "热度上升"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Titan",
       "localized": {
@@ -312,7 +312,7 @@
           "summary": "泰坦 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度持平"
+            "热度上升"
           ]
         },
         "en": {
@@ -321,7 +321,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Stable"
+            "Rising"
           ]
         }
       },
