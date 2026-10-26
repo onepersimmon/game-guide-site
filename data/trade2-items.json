@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T20:57:05.922Z",
+  "updatedAt": "2026-10-26T04:56:54.912Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14500,16 +14500,16 @@
           }
         },
         {
-          "type": "Dull Hatchet",
-          "text": "INCOMPLETE Dull Hatchet",
+          "type": "Hook Axe",
+          "text": "INCOMPLETE Hook Axe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Hook Axe",
-          "text": "INCOMPLETE Hook Axe",
+          "type": "Dull Hatchet",
+          "text": "INCOMPLETE Dull Hatchet",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
@@ -14556,14 +14556,6 @@
           }
         },
         {
-          "type": "Iron Greatsword",
-          "text": "INCOMPLETE Iron Greatsword",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
           "type": "Chain Flail",
           "text": "INCOMPLETE Chain Flail",
           "name": "INCOMPLETE",
@@ -14572,16 +14564,16 @@
           }
         },
         {
-          "type": "Holy Flail",
-          "text": "INCOMPLETE Holy Flail",
+          "type": "Skinning Knife",
+          "text": "INCOMPLETE Skinning Knife",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Skinning Knife",
-          "text": "INCOMPLETE Skinning Knife",
+          "type": "Holy Flail",
+          "text": "INCOMPLETE Holy Flail",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
@@ -14614,6 +14606,14 @@
         {
           "type": "Arched Greataxe",
           "text": "INCOMPLETE Arched Greataxe",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Iron Greatsword",
+          "text": "INCOMPLETE Iron Greatsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
