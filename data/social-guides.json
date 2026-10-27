@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T22:45:11.767Z",
+  "updatedAt": "2026-10-27T05:15:10.781Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1Afno6QEVG",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "S0.55 流放之路2 武圣霹雳闪从零 开荒 独狼P3",
+      "summary": "",
+      "author": "_0079_",
+      "publishedAt": "2026-10-26T15:23:34.000Z",
+      "href": "https://www.bilibili.com/video/av117507788640369",
+      "cover": "https://i2.hdslb.com/bfs/archive/934fd94043a961dedf712ddf3ce3f7a4c9a2b0c7.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1VhnR6AEkt",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "粤语解说， 流放之路2 闪回0.55赛季佣兵榴弹 开荒 ，第一章",
+      "summary": "",
+      "author": "乃西哥",
+      "publishedAt": "2026-10-26T03:52:26.000Z",
+      "href": "https://www.bilibili.com/video/av117505121059306",
+      "cover": "https://i1.hdslb.com/bfs/archive/339d30be2db977a4cc44573680520382419eac62.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1vPH56pEXB",
       "platform": "bilibili",
@@ -40,7 +66,7 @@
       "platform": "bilibili",
       "platformLabel": "B 站",
       "title": "【 流放2 】LilBotQ 迷雾机制全解析：从 开荒 到T15的完整指南",
-      "summary": "LilBotQ完整拆解流放之路2迷雾机制，从开启任务线到终局刷图策略一网打尽。涵盖迷雾层数、幻像异界、大魔镜、液化情感与天赋树核心点法，并给出与其他终局玩法叠加的赚钱思路。最后提醒开荒期难度较高，建议先提升BD再深入。",
+      "summary": "LilBotQ完整拆解流放之路2迷雾机制，从开启任务线到终局刷图策略一网打尽。涵盖迷雾层数、幻像异界、大魔镜、液化情感与天赋树核心点法，并给出与其他终局玩法叠加的赚钱思路。最后提醒开荒期难度较高，建议先提升BD再深入。 🎙️ 本视频使用 LensDub 同源 AI 配音技术制作。 视频翻译、原声音色复刻、多语言配音与字幕自动生成。 🔗 LensDub：https://lensdub.com/?utm_source=bilibili&amp;utm_medium=video_description&amp;utm_c",
       "author": "棱镜poe2lens",
       "publishedAt": "2026-10-25T04:58:11.000Z",
       "href": "https://www.bilibili.com/video/av117499769129273",
@@ -60,39 +86,7 @@
       "cover": "https://i1.hdslb.com/bfs/archive/e6beb2102a42f66de7fa87967ef7227115b5964e.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1yQna6JEVj",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 降临，备战公测，大号用时二十分钟带大家跑一遍第一章，对地形进行一些分析，可以借鉴第一章 开荒 思路，文档在评论区置顶。",
-      "summary": "-",
-      "author": "暮雪赴月",
-      "publishedAt": "2026-10-23T17:38:10.000Z",
-      "href": "https://www.bilibili.com/video/av117491414077917",
-      "cover": "https://i0.hdslb.com/bfs/archive/6f6876fce11fbcb8de1aca896d5e29d6612131a7.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1PKn86VEKQ",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "我感觉我的 开荒 BD大成了，太牛了（ 流放2 0.55/0.5赛季",
-      "summary": "也不用绑定任何装备",
-      "author": "大叔认真玩游戏",
-      "publishedAt": "2026-10-23T15:03:06.000Z",
-      "href": "https://www.bilibili.com/video/av117490810099965",
-      "cover": "https://i0.hdslb.com/bfs/archive/e651582acf81a8f6785e5349a2fa6af8ffc8a688.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-10-26T22:45:11.767Z"
-    }
-  ]
+  "errors": []
 }
