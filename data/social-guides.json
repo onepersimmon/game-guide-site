@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T12:24:31.489Z",
+  "updatedAt": "2026-10-27T22:23:09.308Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV11gxg6iExM",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 - 开荒 17级 一个技能到异界 （终于好起来了）玩了80个小时我推荐的第一个组合技能",
+      "summary": "一个技能到异界",
+      "author": "南无若谷",
+      "publishedAt": "2026-10-27T11:04:29.000Z",
+      "href": "https://www.bilibili.com/video/av117512536592673",
+      "cover": "https://i0.hdslb.com/bfs/archive/f8afa6a33aef504bbf52524924f1c3c040c4678b.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1xCxK6bETL",
       "platform": "bilibili",
@@ -70,19 +83,6 @@
       "author": "_0079_",
       "publishedAt": "2026-10-25T11:19:25.000Z",
       "href": "https://www.bilibili.com/video/av117501195261808",
-      "cover": "https://i2.hdslb.com/bfs/archive/934fd94043a961dedf712ddf3ce3f7a4c9a2b0c7.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV15cHG62EZr",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "S0.55 流放之路2 武圣霹雳闪从零 开荒 独狼P1",
-      "summary": "",
-      "author": "_0079_",
-      "publishedAt": "2026-10-25T08:03:06.000Z",
-      "href": "https://www.bilibili.com/video/av117500389888499",
       "cover": "https://i2.hdslb.com/bfs/archive/934fd94043a961dedf712ddf3ce3f7a4c9a2b0c7.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"

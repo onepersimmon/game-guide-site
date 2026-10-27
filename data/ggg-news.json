@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-10-27T12:24:29.813Z",
+  "updatedAt": "2026-10-27T22:23:08.468Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "more-exilecon-2026-merchandise",
+      "title": "More ExileCon 2026 Merchandise",
+      "date": "2026-10-27T21:01:00+00:00",
+      "summary": "More ExileCon 2026 Merchandise\n\nLast week, we showcased some of the apparel designs available this year at ExileCon. But that’s not all! Check out more merchandise items awaiting our attendees!",
+      "href": "https://www.pathofexile.com/forum/view-thread/4012002",
+      "thumb": "https://web.poecdn.com/public/news/2026-10-28/MoreMerchExileCon2026Twitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "More ExileCon 2026 Merchandise",
+          "summary": "More ExileCon 2026 Merchandise\n\nLast week, we showcased some of the apparel designs available this year at ExileCon. But that’s not all! Check out more merchandise items awaiting our attendees!",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "More ExileCon 2026 Merchandise",
+          "summary": "More ExileCon 2026 Merchandise\n\nLast week, we showcased some of the apparel designs available this year at ExileCon. But that’s not all! Check out more merchandise items awaiting our attendees!",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "two-weeks-until-exilecon-2026",
       "title": "Two Weeks Until ExileCon 2026!",
@@ -44,27 +65,6 @@
         "en": {
           "title": "Early Access Supporter Packs Leaving Soon",
           "summary": "It’s been almost two years since we released the Early Access Supporter Packs, and it’s time to say goodbye to them. In just a few weeks, they’ll be leaving the store permanently and will be replaced by five new Supporter Packs. So, if you’ve been thinking about purchasing or upgrading one of the current packs, now’s your last chance!",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "exilecon-2026-merchandise",
-      "title": "ExileCon 2026 Merchandise",
-      "date": "2026-10-21T20:15:57+00:00",
-      "summary": "Attendees at ExileCon 2026 will have exclusive first access to a variety of new merchandise. This year, we’ve prepared more than 60 new goodies, including T-shirts, pins, keycaps, posters, plushies, and more. Take a sneak peek in this news post!",
-      "href": "https://www.pathofexile.com/forum/view-thread/4011440",
-      "thumb": "https://web.poecdn.com/public/news/2026-10-22/ExileConMerch1Twitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "ExileCon 2026 Merchandise",
-          "summary": "Attendees at ExileCon 2026 will have exclusive first access to a variety of new merchandise. This year, we’ve prepared more than 60 new goodies, including T-shirts, pins, keycaps, posters, plushies, and more. Take a sneak peek in this news post!",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "ExileCon 2026 Merchandise",
-          "summary": "Attendees at ExileCon 2026 will have exclusive first access to a variety of new merchandise. This year, we’ve prepared more than 60 new goodies, including T-shirts, pins, keycaps, posters, plushies, and more. Take a sneak peek in this news post!",
           "category": "Blue Post"
         }
       }
