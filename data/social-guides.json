@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T05:15:10.781Z",
+  "updatedAt": "2026-10-27T12:24:31.489Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,6 +10,19 @@
   },
   "items": [
     {
+      "id": "bilibili-BV1xCxK6bETL",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 -武僧 开荒 中咋就这么难啊！",
+      "summary": "坐在这里 都不知道干啥 看着屏幕发呆，流放之路2 让我快戒掉网瘾了。",
+      "author": "南无若谷",
+      "publishedAt": "2026-10-27T03:37:38.000Z",
+      "href": "https://www.bilibili.com/video/av117510775183474",
+      "cover": "https://i0.hdslb.com/bfs/archive/e024d08767c9b9cb875374aab26dd9b208c2111d.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
       "id": "bilibili-BV1Afno6QEVG",
       "platform": "bilibili",
       "platformLabel": "B 站",
@@ -19,6 +32,19 @@
       "publishedAt": "2026-10-26T15:23:34.000Z",
       "href": "https://www.bilibili.com/video/av117507788640369",
       "cover": "https://i2.hdslb.com/bfs/archive/934fd94043a961dedf712ddf3ce3f7a4c9a2b0c7.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1mbnZ6cEpc",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "粤语解说， 流放之路2 闪回0.55赛季佣兵榴弹 开荒 ，第四章",
+      "summary": "",
+      "author": "乃西哥",
+      "publishedAt": "2026-10-26T12:43:42.000Z",
+      "href": "https://www.bilibili.com/video/av117507201433606",
+      "cover": "https://i2.hdslb.com/bfs/archive/36d1cbd1fc4f3f2646145b6c09a8b2d576e908ee.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
@@ -58,32 +84,6 @@
       "publishedAt": "2026-10-25T08:03:06.000Z",
       "href": "https://www.bilibili.com/video/av117500389888499",
       "cover": "https://i2.hdslb.com/bfs/archive/934fd94043a961dedf712ddf3ce3f7a4c9a2b0c7.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1epHV6nEM5",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】LilBotQ 迷雾机制全解析：从 开荒 到T15的完整指南",
-      "summary": "LilBotQ完整拆解流放之路2迷雾机制，从开启任务线到终局刷图策略一网打尽。涵盖迷雾层数、幻像异界、大魔镜、液化情感与天赋树核心点法，并给出与其他终局玩法叠加的赚钱思路。最后提醒开荒期难度较高，建议先提升BD再深入。 🎙️ 本视频使用 LensDub 同源 AI 配音技术制作。 视频翻译、原声音色复刻、多语言配音与字幕自动生成。 🔗 LensDub：https://lensdub.com/?utm_source=bilibili&amp;utm_medium=video_description&amp;utm_c",
-      "author": "棱镜poe2lens",
-      "publishedAt": "2026-10-25T04:58:11.000Z",
-      "href": "https://www.bilibili.com/video/av117499769129273",
-      "cover": "https://i1.hdslb.com/bfs/archive/9321079d8829170679b27c1bfdeaf1a62dcae987.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1vEH36LE1R",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放2 -0.55战士震波图腾 开荒",
-      "summary": "",
-      "author": "再玩就真的来不及了",
-      "publishedAt": "2026-10-25T01:41:38.000Z",
-      "href": "https://www.bilibili.com/video/av117498980603350",
-      "cover": "https://i1.hdslb.com/bfs/archive/e6beb2102a42f66de7fa87967ef7227115b5964e.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
