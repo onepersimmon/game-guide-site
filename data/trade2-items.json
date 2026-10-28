@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T22:22:25.501Z",
+  "updatedAt": "2026-10-28T05:53:25.426Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14492,16 +14492,16 @@
           }
         },
         {
-          "type": "Charred Shortsword",
-          "text": "INCOMPLETE Charred Shortsword",
+          "type": "Hook Axe",
+          "text": "INCOMPLETE Hook Axe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Hook Axe",
-          "text": "INCOMPLETE Hook Axe",
+          "type": "Charred Shortsword",
+          "text": "INCOMPLETE Charred Shortsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true

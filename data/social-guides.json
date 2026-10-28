@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T22:23:09.308Z",
+  "updatedAt": "2026-10-28T05:55:52.201Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -32,6 +32,19 @@
       "publishedAt": "2026-10-27T03:37:38.000Z",
       "href": "https://www.bilibili.com/video/av117510775183474",
       "cover": "https://i0.hdslb.com/bfs/archive/e024d08767c9b9cb875374aab26dd9b208c2111d.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1g3xT6uEr7",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "粤语解说， 流放之路2 闪回0.55赛季佣兵榴弹 开荒 ，间隔",
+      "summary": "",
+      "author": "乃西哥",
+      "publishedAt": "2026-10-27T02:42:41.000Z",
+      "href": "https://www.bilibili.com/video/av117510540102170",
+      "cover": "https://i2.hdslb.com/bfs/archive/27f528aca33b9aac088862270aca88942ea6e129.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
@@ -71,19 +84,6 @@
       "publishedAt": "2026-10-26T03:52:26.000Z",
       "href": "https://www.bilibili.com/video/av117505121059306",
       "cover": "https://i1.hdslb.com/bfs/archive/339d30be2db977a4cc44573680520382419eac62.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1vPH56pEXB",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "S0.55 流放之路2 武圣霹雳闪从零 开荒 独狼P2",
-      "summary": "",
-      "author": "_0079_",
-      "publishedAt": "2026-10-25T11:19:25.000Z",
-      "href": "https://www.bilibili.com/video/av117501195261808",
-      "cover": "https://i2.hdslb.com/bfs/archive/934fd94043a961dedf712ddf3ce3f7a4c9a2b0c7.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
