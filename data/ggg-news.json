@@ -1,11 +1,53 @@
 {
-  "updatedAt": "2026-10-29T13:18:38.171Z",
+  "updatedAt": "2026-10-29T22:50:22.268Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "exilecon-2026-schedule-and-information-for-attendees",
+      "title": "ExileCon 2026 Schedule and Information for Attendees",
+      "date": "2026-10-29T22:26:31+00:00",
+      "summary": "The schedule for ExileCon 2026, starting in just a week, is now available! Check out the convention website to find out more about the full programme for next weekend. In this news post, we’ve also included some useful information that our attendees might need.",
+      "href": "https://www.pathofexile.com/forum/view-thread/4012171",
+      "thumb": "https://web.poecdn.com/public/news/2026-10-30/ExileCon2026ScheduleTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "ExileCon 2026 Schedule and Information for Attendees",
+          "summary": "The schedule for ExileCon 2026, starting in just a week, is now available! Check out the convention website to find out more about the full programme for next weekend. In this news post, we’ve also included some useful information that our attendees might need.",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "ExileCon 2026 Schedule and Information for Attendees",
+          "summary": "The schedule for ExileCon 2026, starting in just a week, is now available! Check out the convention website to find out more about the full programme for next weekend. In this news post, we’ve also included some useful information that our attendees might need.",
+          "category": "Blue Post"
+        }
+      }
+    },
+    {
+      "id": "path-of-exile-2-1-0-full-reveal-watch-exilecon-2026-on-november-6-pst",
+      "title": "Path of Exile 2 1.0 Full Reveal - Watch ExileCon 2026 on November 6 PST",
+      "date": "2026-10-29T20:13:21+00:00",
+      "summary": "In just a week, we’ll be announcing our newest content for Path of Exile 2 on the road to Full Release, live at ExileCon 2026! Don’t miss our big announcements on November 6 PST! Check out this news post for more!",
+      "href": "https://www.pathofexile.com/forum/view-thread/4012155",
+      "thumb": "https://web.poecdn.com/public/news/2026-10-30/ExileConPoE2FulLRevealTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Path of Exile 2 1.0 Full Reveal - Watch ExileCon 2026 on November 6 PST",
+          "summary": "In just a week, we’ll be announcing our newest content for Path of Exile 2 on the road to Full Release, live at ExileCon 2026! Don’t miss our big announcements on November 6 PST! Check out this news post for more!",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Path of Exile 2 1.0 Full Reveal - Watch ExileCon 2026 on November 6 PST",
+          "summary": "In just a week, we’ll be announcing our newest content for Path of Exile 2 on the road to Full Release, live at ExileCon 2026! Don’t miss our big announcements on November 6 PST! Check out this news post for more!",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "more-exilecon-2026-merchandise",
       "title": "More ExileCon 2026 Merchandise",
@@ -23,48 +65,6 @@
         "en": {
           "title": "More ExileCon 2026 Merchandise",
           "summary": "More ExileCon 2026 Merchandise\n\nLast week, we showcased some of the apparel designs available this year at ExileCon. But that’s not all! Check out more merchandise items awaiting our attendees!",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "two-weeks-until-exilecon-2026",
-      "title": "Two Weeks Until ExileCon 2026!",
-      "date": "2026-10-25T19:40:24+00:00",
-      "summary": "ExileCon 2026 is happening in just two weeks! Tune in to twitch.tv/pathofexile at 12:30PM PST on November 6 to watch it live! In the meantime, check out this news post for all the livestream details.",
-      "href": "https://www.pathofexile.com/forum/view-thread/4011825",
-      "thumb": "https://web.poecdn.com/public/news/2026-10-26/ExileCon2026TwoWeeksTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Two Weeks Until ExileCon 2026!",
-          "summary": "ExileCon 2026 is happening in just two weeks! Tune in to twitch.tv/pathofexile at 12:30PM PST on November 6 to watch it live! In the meantime, check out this news post for all the livestream details.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Two Weeks Until ExileCon 2026!",
-          "summary": "ExileCon 2026 is happening in just two weeks! Tune in to twitch.tv/pathofexile at 12:30PM PST on November 6 to watch it live! In the meantime, check out this news post for all the livestream details.",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "early-access-supporter-packs-leaving-soon",
-      "title": "Early Access Supporter Packs Leaving Soon",
-      "date": "2026-10-22T23:15:25+00:00",
-      "summary": "It’s been almost two years since we released the Early Access Supporter Packs, and it’s time to say goodbye to them. In just a few weeks, they’ll be leaving the store permanently and will be replaced by five new Supporter Packs. So, if you’ve been thinking about purchasing or upgrading one of the current packs, now’s your last chance!",
-      "href": "https://www.pathofexile.com/forum/view-thread/4011562",
-      "thumb": "https://web.poecdn.com/public/news/2026-10-23/EAPacksLeavingSoonTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Early Access Supporter Packs Leaving Soon",
-          "summary": "It’s been almost two years since we released the Early Access Supporter Packs, and it’s time to say goodbye to them. In just a few weeks, they’ll be leaving the store permanently and will be replaced by five new Supporter Packs. So, if you’ve been thinking about purchasing or upgrading one of the current packs, now’s your last chance!",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Early Access Supporter Packs Leaving Soon",
-          "summary": "It’s been almost two years since we released the Early Access Supporter Packs, and it’s time to say goodbye to them. In just a few weeks, they’ll be leaving the store permanently and will be replaced by five new Supporter Packs. So, if you’ve been thinking about purchasing or upgrading one of the current packs, now’s your last chance!",
           "category": "Blue Post"
         }
       }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T13:16:02.405Z",
+  "updatedAt": "2026-10-29T22:50:12.168Z",
   "source": "poe.ninja",
   "leagueName": "Runes of Aldur",
   "builds": [
@@ -8,7 +8,7 @@
       "className": "Spirit Walker",
       "leagueName": "Runes of Aldur",
       "summary": "灵魂行者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 28.5,
+      "popularity": 28.4,
       "trend": -1,
       "rank": 1,
       "image": "./assets/images/builds/spirit-walker.webp",
@@ -225,12 +225,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "神谕者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 4.2,
-      "trend": 1,
+      "trend": -1,
       "rank": 7,
       "image": "./assets/images/builds/oracle.webp",
       "tags": [
         "热门职业",
-        "热度上升"
+        "热度回落"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Oracle",
       "localized": {
@@ -240,7 +240,7 @@
           "summary": "神谕者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度上升"
+            "热度回落"
           ]
         },
         "en": {
@@ -249,7 +249,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Rising"
+            "Falling"
           ]
         }
       },
@@ -333,12 +333,12 @@
       "leagueName": "Runes of Aldur",
       "summary": "命源法师 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
       "popularity": 2.2,
-      "trend": -1,
+      "trend": 1,
       "rank": 10,
       "image": "./assets/images/builds/blood-mage.webp",
       "tags": [
         "热门职业",
-        "热度回落"
+        "热度上升"
       ],
       "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Blood%20Mage",
       "localized": {
@@ -348,7 +348,7 @@
           "summary": "命源法师 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
           "tags": [
             "热门职业",
-            "热度回落"
+            "热度上升"
           ]
         },
         "en": {
@@ -357,7 +357,7 @@
           "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
           "tags": [
             "Popular class",
-            "Falling"
+            "Rising"
           ]
         }
       },
