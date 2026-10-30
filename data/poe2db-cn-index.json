@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T05:58:59.135Z",
+  "updatedAt": "2026-10-30T13:11:16.597Z",
   "locale": "tw",
   "source": [
     "https://poe2db.tw/tw/Skill_Gems",
@@ -105689,27 +105689,6 @@
     },
     {
       "type": "modifier",
-      "hash": "f8231a0416b508956172195766da4ad8f8ac983d00e405770fb2ccb773142d29",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/f8231a0416b508956172195766da4ad8f8ac983d00e405770fb2ccb773142d29",
-      "title": "+(15 — 35) %全 元素 抗性",
-      "name": "",
-      "family": "AllResistances",
-      "domains": "物品 (1)",
-      "generationType": "傳奇 (3)",
-      "reqLevel": 1,
-      "stats": [
-        {
-          "text": "base resist all elements % 15 — 35 Global",
-          "min": null,
-          "max": null,
-          "scope": ""
-        }
-      ],
-      "itemClasses": [],
-      "searchText": "+(15 — 35) %全 元素 抗性 AllResistances 傳奇 (3) 物品 (1) 需求等級 1 base resist all elements % 15 — 35 Global"
-    },
-    {
-      "type": "modifier",
       "hash": "c538ae641caad006fb8903744071ef21726477db785cf818bbc4c437aad4347e",
       "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/c538ae641caad006fb8903744071ef21726477db785cf818bbc4c437aad4347e",
       "title": "護符 每秒獲得 (0.33 — 0.58) 充能",
@@ -123077,33 +123056,6 @@
       ],
       "itemClasses": [],
       "searchText": "攻擊 附加 (1 — 2) 至 3 物理 傷害 反光的 PhysicalDamage 前綴 (1) 物品 (1) 需求等級 1 attack maximum added physical damage 3 — 3 Global attack minimum added physical damage 1 — 2 Global"
-    },
-    {
-      "type": "modifier",
-      "hash": "bb28219404b6399e0bc4739adf31369ead51fa287f011afb844e1c17fbf7527c",
-      "sourceUrl": "https://cdn.poe2db.tw/cache2/tw/Poe_Data_Mods_hover/bb28219404b6399e0bc4739adf31369ead51fa287f011afb844e1c17fbf7527c",
-      "title": "攻擊 附加 (2 — 3) 至 (4 — 6) 物理 傷害",
-      "name": "磨光的",
-      "family": "PhysicalDamage",
-      "domains": "物品 (1)",
-      "generationType": "前綴 (1)",
-      "reqLevel": 8,
-      "stats": [
-        {
-          "text": "attack maximum added physical damage 4 — 6 Global",
-          "min": null,
-          "max": null,
-          "scope": ""
-        },
-        {
-          "text": "attack minimum added physical damage 2 — 3 Global",
-          "min": null,
-          "max": null,
-          "scope": ""
-        }
-      ],
-      "itemClasses": [],
-      "searchText": "攻擊 附加 (2 — 3) 至 (4 — 6) 物理 傷害 磨光的 PhysicalDamage 前綴 (1) 物品 (1) 需求等級 8 attack maximum added physical damage 4 — 6 Global attack minimum added physical damage 2 — 3 Global"
     },
     {
       "type": "modifier",
