@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-11-02T06:22:32.360Z",
+  "updatedAt": "2026-11-02T21:49:27.134Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "exilecon-2026-house-rules-and-event-streaming-code-of-conduct",
+      "title": "ExileCon 2026 - House Rules and Event Streaming Code of Conduct",
+      "date": "2026-11-02T20:48:34+00:00",
+      "summary": "For attendees and streamers who would like to share the ExileCon experience with viewers unable to attend in person, we've put together a Code of Conduct outlining guidelines for livestreaming and appropriate behaviour during the event. If you plan to livestream from ExileCon, please follow the guidelines outlined in today's news post to help ensure the event remains fun and safe for everyone.",
+      "href": "https://www.pathofexile.com/forum/view-thread/4012492",
+      "thumb": "https://web.poecdn.com/public/news/2026-11-03/StreamingRulesExileconTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "ExileCon 2026 - House Rules and Event Streaming Code of Conduct",
+          "summary": "For attendees and streamers who would like to share the ExileCon experience with viewers unable to attend in person, we've put together a Code of Conduct outlining guidelines for livestreaming and appropriate behaviour during the event. If you plan to livestream from ExileCon, please follow the guidelines outlined in today's news post to help ensure the event remains fun and safe for everyone.",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "ExileCon 2026 - House Rules and Event Streaming Code of Conduct",
+          "summary": "For attendees and streamers who would like to share the ExileCon experience with viewers unable to attend in person, we've put together a Code of Conduct outlining guidelines for livestreaming and appropriate behaviour during the event. If you plan to livestream from ExileCon, please follow the guidelines outlined in today's news post to help ensure the event remains fun and safe for everyone.",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "exilecon-2026-schedule-and-information-for-attendees",
       "title": "ExileCon 2026 Schedule and Information for Attendees",
@@ -44,27 +65,6 @@
         "en": {
           "title": "Path of Exile 2 1.0 Full Reveal - Watch ExileCon 2026 on November 6 PST",
           "summary": "In just a week, we’ll be announcing our newest content for Path of Exile 2 on the road to Full Release, live at ExileCon 2026! Don’t miss our big announcements on November 6 PST! Check out this news post for more!",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "more-exilecon-2026-merchandise",
-      "title": "More ExileCon 2026 Merchandise",
-      "date": "2026-10-27T21:01:00+00:00",
-      "summary": "More ExileCon 2026 Merchandise\n\nLast week, we showcased some of the apparel designs available this year at ExileCon. But that’s not all! Check out more merchandise items awaiting our attendees!",
-      "href": "https://www.pathofexile.com/forum/view-thread/4012002",
-      "thumb": "https://web.poecdn.com/public/news/2026-10-28/MoreMerchExileCon2026Twitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "More ExileCon 2026 Merchandise",
-          "summary": "More ExileCon 2026 Merchandise\n\nLast week, we showcased some of the apparel designs available this year at ExileCon. But that’s not all! Check out more merchandise items awaiting our attendees!",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "More ExileCon 2026 Merchandise",
-          "summary": "More ExileCon 2026 Merchandise\n\nLast week, we showcased some of the apparel designs available this year at ExileCon. But that’s not all! Check out more merchandise items awaiting our attendees!",
           "category": "Blue Post"
         }
       }
