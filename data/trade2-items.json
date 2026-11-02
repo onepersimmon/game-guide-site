@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T22:09:20.801Z",
+  "updatedAt": "2026-11-02T06:21:59.277Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14492,16 +14492,16 @@
           }
         },
         {
-          "type": "Hook Axe",
-          "text": "INCOMPLETE Hook Axe",
+          "type": "Dull Hatchet",
+          "text": "INCOMPLETE Dull Hatchet",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Dull Hatchet",
-          "text": "INCOMPLETE Dull Hatchet",
+          "type": "Hook Axe",
+          "text": "INCOMPLETE Hook Axe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
@@ -14572,14 +14572,6 @@
           }
         },
         {
-          "type": "Holy Flail",
-          "text": "INCOMPLETE Holy Flail",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
           "type": "Broadsword",
           "text": "INCOMPLETE Broadsword",
           "name": "INCOMPLETE",
@@ -14614,6 +14606,14 @@
         {
           "type": "Chain Flail",
           "text": "INCOMPLETE Chain Flail",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Holy Flail",
+          "text": "INCOMPLETE Holy Flail",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
