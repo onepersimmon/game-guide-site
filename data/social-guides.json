@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T21:49:29.516Z",
+  "updatedAt": "2026-11-03T06:59:16.870Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV16oso6oEk3",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放2 选啥职业 开荒 ？",
+      "summary": "",
+      "author": "爱闯祸的井盖",
+      "publishedAt": "2026-10-29T06:28:16.000Z",
+      "href": "https://www.bilibili.com/video/av117522770694498",
+      "cover": "https://i0.hdslb.com/bfs/archive/b8cbf6e68ccd0a694ae283f1368f47603404bb8e.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV11gxg6iExM",
       "platform": "bilibili",
@@ -73,26 +86,7 @@
       "cover": "https://i2.hdslb.com/bfs/archive/36d1cbd1fc4f3f2646145b6c09a8b2d576e908ee.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1VhnR6AEkt",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "粤语解说， 流放之路2 闪回0.55赛季佣兵榴弹 开荒 ，第一章",
-      "summary": "",
-      "author": "乃西哥",
-      "publishedAt": "2026-10-26T03:52:26.000Z",
-      "href": "https://www.bilibili.com/video/av117505121059306",
-      "cover": "https://i1.hdslb.com/bfs/archive/339d30be2db977a4cc44573680520382419eac62.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-11-02T21:49:29.515Z"
-    }
-  ]
+  "errors": []
 }
