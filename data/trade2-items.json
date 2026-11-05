@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T06:58:13.541Z",
+  "updatedAt": "2026-11-05T20:03:53.957Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14572,14 +14572,6 @@
           }
         },
         {
-          "type": "Broadsword",
-          "text": "INCOMPLETE Broadsword",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
           "type": "Light Halberd",
           "text": "INCOMPLETE Light Halberd",
           "name": "INCOMPLETE",
@@ -14614,6 +14606,14 @@
         {
           "type": "Holy Flail",
           "text": "INCOMPLETE Holy Flail",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Broadsword",
+          "text": "INCOMPLETE Broadsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true

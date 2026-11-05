@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T07:00:32.573Z",
+  "updatedAt": "2026-11-05T20:06:35.074Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1dmxX63EYx",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放2 新手小白的锐眼冰射 开荒 现状",
+      "summary": "非暴、纯闪，前期过渡装，生存靠猴戏",
+      "author": "匀殊",
+      "publishedAt": "2026-11-04T14:02:55.000Z",
+      "href": "https://www.bilibili.com/video/av117558506230002",
+      "cover": "https://i2.hdslb.com/bfs/archive/28b0949352d26019f4c6cf62aee3b199e673dc5f.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV16oso6oEk3",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-10-26T15:23:34.000Z",
       "href": "https://www.bilibili.com/video/av117507788640369",
       "cover": "https://i2.hdslb.com/bfs/archive/934fd94043a961dedf712ddf3ce3f7a4c9a2b0c7.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1mbnZ6cEpc",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "粤语解说， 流放之路2 闪回0.55赛季佣兵榴弹 开荒 ，第四章",
-      "summary": "",
-      "author": "乃西哥",
-      "publishedAt": "2026-10-26T12:43:42.000Z",
-      "href": "https://www.bilibili.com/video/av117507201433606",
-      "cover": "https://i2.hdslb.com/bfs/archive/36d1cbd1fc4f3f2646145b6c09a8b2d576e908ee.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
