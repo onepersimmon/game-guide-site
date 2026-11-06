@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-11-05T20:06:33.413Z",
+  "updatedAt": "2026-11-06T06:58:14.953Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "one-day-until-exilecon-2026",
+      "title": "One Day Until ExileCon 2026!",
+      "date": "2026-11-05T21:57:27+00:00",
+      "summary": "ExileCon 2026 begins tomorrow! Catch it live on twitch.tv/pathofexile at 12:30PM November 6 PST!",
+      "href": "https://www.pathofexile.com/forum/view-thread/4012701",
+      "thumb": "https://web.poecdn.com/public/news/2026-11-06/OneDayLeftTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "One Day Until ExileCon 2026!",
+          "summary": "ExileCon 2026 begins tomorrow! Catch it live on twitch.tv/pathofexile at 12:30PM November 6 PST!",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "One Day Until ExileCon 2026!",
+          "summary": "ExileCon 2026 begins tomorrow! Catch it live on twitch.tv/pathofexile at 12:30PM November 6 PST!",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "exilecon-2026-twitch-drops",
       "title": "ExileCon 2026 Twitch Drops",
@@ -44,27 +65,6 @@
         "en": {
           "title": "ExileCon 2026 - House Rules and Event Streaming Code of Conduct",
           "summary": "For attendees and streamers who would like to share the ExileCon experience with viewers unable to attend in person, we've put together a Code of Conduct outlining guidelines for livestreaming and appropriate behaviour during the event. If you plan to livestream from ExileCon, please follow the guidelines outlined in today's news post to help ensure the event remains fun and safe for everyone.",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "exilecon-2026-schedule-and-information-for-attendees",
-      "title": "ExileCon 2026 Schedule and Information for Attendees",
-      "date": "2026-10-29T22:26:31+00:00",
-      "summary": "The schedule for ExileCon 2026, starting in just a week, is now available! Check out the convention website to find out more about the full programme for next weekend. In this news post, we’ve also included some useful information that our attendees might need.",
-      "href": "https://www.pathofexile.com/forum/view-thread/4012171",
-      "thumb": "https://web.poecdn.com/public/news/2026-10-30/ExileCon2026ScheduleTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "ExileCon 2026 Schedule and Information for Attendees",
-          "summary": "The schedule for ExileCon 2026, starting in just a week, is now available! Check out the convention website to find out more about the full programme for next weekend. In this news post, we’ve also included some useful information that our attendees might need.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "ExileCon 2026 Schedule and Information for Attendees",
-          "summary": "The schedule for ExileCon 2026, starting in just a week, is now available! Check out the convention website to find out more about the full programme for next weekend. In this news post, we’ve also included some useful information that our attendees might need.",
           "category": "Blue Post"
         }
       }
