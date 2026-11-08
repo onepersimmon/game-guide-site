@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T06:16:28.135Z",
+  "updatedAt": "2026-11-08T13:44:54.814Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1JrWJ6JEPP",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】嘉年华内容小结：新赛季 开荒 前瞻攻略",
+      "summary": "KOOK：75248633 拼车组队上语音 直播送福利 想参加到我们每个赛季的BD创作的朋友可以加入我们的社群 企鹅#1: 66963790 企鹅#2: 941159958 企鹅#3: 671378770 企鹅#4: 171217043 企鹅#5: 66217110 企鹅#6: 365733599 企鹅#7: 1083862943 企鹅#8: 1087491797 企鹅#9: 622318103 企鹅#10:809251656 企鹅#11:550765709（新开群） 答案：蛮王",
+      "author": "你的星落啊",
+      "publishedAt": "2026-11-08T12:02:29.000Z",
+      "href": "https://www.bilibili.com/video/av117580618531051",
+      "cover": "https://i1.hdslb.com/bfs/archive/a9949c64bcdee119ce1456e1a75606a8610ab51c.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1HLWE6EESc",
       "platform": "bilibili",
@@ -58,19 +71,6 @@
       "publishedAt": "2026-10-29T06:28:16.000Z",
       "href": "https://www.bilibili.com/video/av117522770694498",
       "cover": "https://i0.hdslb.com/bfs/archive/b8cbf6e68ccd0a694ae283f1368f47603404bb8e.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV11gxg6iExM",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 - 开荒 17级 一个技能到异界 （终于好起来了）玩了80个小时我推荐的第一个组合技能",
-      "summary": "一个技能到异界",
-      "author": "南无若谷",
-      "publishedAt": "2026-10-27T11:04:29.000Z",
-      "href": "https://www.bilibili.com/video/av117512536592673",
-      "cover": "https://i0.hdslb.com/bfs/archive/f8afa6a33aef504bbf52524924f1c3c040c4678b.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
