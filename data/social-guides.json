@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T21:59:03.470Z",
+  "updatedAt": "2026-11-08T06:16:28.135Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1HLWE6EESc",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】花意惜败！ExileCon竞速赛狗运老外|冠军GuyThatDies|1小时51分世界记录全程|直播回放",
+      "summary": "老外狗运真没的说 第一章开局多2个辅助宝石和多1个技能宝石 第二章多个物理大伤矛 第三章核心刷脸上",
+      "author": "赵振豪plus",
+      "publishedAt": "2026-11-08T05:33:42.000Z",
+      "href": "https://www.bilibili.com/video/av117579142207182",
+      "cover": "https://i0.hdslb.com/bfs/archive/d683b83749a09e44d516beee757336095a4514e8.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1S94s64EW7",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】新职业暗影机制、技能、BD深度讲解！强度如何？适合 开荒 吗？",
+      "summary": "暗影究竟有哪些特殊机制？有哪些BD？潜行在刷子游戏中会不会猴戏？这期视频带你抢先了解暗影。 具体有匕首、潜行、双面、陷阱、分身、黑暗、刀阵旋风等机制",
+      "author": "爱游戏的倔强",
+      "publishedAt": "2026-11-08T04:20:45.000Z",
+      "href": "https://www.bilibili.com/video/av117578890546316",
+      "cover": "https://i2.hdslb.com/bfs/archive/588dd82160566d74232d1c6c4baf4dbb10e58b1e.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1dmxX63EYx",
       "platform": "bilibili",
@@ -49,42 +75,16 @@
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1xCxK6bETL",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 -武僧 开荒 中咋就这么难啊！",
-      "summary": "坐在这里 都不知道干啥 看着屏幕发呆，流放之路2 让我快戒掉网瘾了。",
-      "author": "南无若谷",
-      "publishedAt": "2026-10-27T03:37:38.000Z",
-      "href": "https://www.bilibili.com/video/av117510775183474",
-      "cover": "https://i0.hdslb.com/bfs/archive/e024d08767c9b9cb875374aab26dd9b208c2111d.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1g3xT6uEr7",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "粤语解说， 流放之路2 闪回0.55赛季佣兵榴弹 开荒 ，间隔",
-      "summary": "",
-      "author": "乃西哥",
-      "publishedAt": "2026-10-27T02:42:41.000Z",
-      "href": "https://www.bilibili.com/video/av117510540102170",
-      "cover": "https://i2.hdslb.com/bfs/archive/27f528aca33b9aac088862270aca88942ea6e129.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
       "id": "bilibili-BV1Afno6QEVG",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "S0.55 流放之路2 武圣霹雳闪从零 开荒 独狼P3",
+      "title": "S0.55流放之路2武圣霹雳闪从零 开荒 独狼P3",
       "summary": "",
       "author": "_0079_",
       "publishedAt": "2026-10-26T15:23:34.000Z",
       "href": "https://www.bilibili.com/video/av117507788640369",
       "cover": "https://i2.hdslb.com/bfs/archive/934fd94043a961dedf712ddf3ce3f7a4c9a2b0c7.jpg",
-      "query": "流放之路2 开荒",
+      "query": "POE2 开荒",
       "source": "B 站公开搜索"
     }
   ],
