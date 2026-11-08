@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T13:39:18.139Z",
+  "updatedAt": "2026-11-08T22:14:30.584Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14492,14 +14492,6 @@
           }
         },
         {
-          "type": "Charred Shortsword",
-          "text": "INCOMPLETE Charred Shortsword",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
           "type": "Dull Hatchet",
           "text": "INCOMPLETE Dull Hatchet",
           "name": "INCOMPLETE",
@@ -14510,6 +14502,14 @@
         {
           "type": "Hook Axe",
           "text": "INCOMPLETE Hook Axe",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Charred Shortsword",
+          "text": "INCOMPLETE Charred Shortsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
@@ -14572,6 +14572,14 @@
           }
         },
         {
+          "type": "Broadsword",
+          "text": "INCOMPLETE Broadsword",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
           "type": "Light Halberd",
           "text": "INCOMPLETE Light Halberd",
           "name": "INCOMPLETE",
@@ -14606,14 +14614,6 @@
         {
           "type": "Holy Flail",
           "text": "INCOMPLETE Holy Flail",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
-          "type": "Broadsword",
-          "text": "INCOMPLETE Broadsword",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
