@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T06:49:02.628Z",
+  "updatedAt": "2026-11-09T22:31:16.302Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1EoWt63Ekj",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】Schwingy 随机物品及升华，炸弹跳跳流从零 开荒 ！",
+      "summary": "Schwingy 本期从零开始随机到藏锋靴+神谕者，用爆炸手雷配合闪现跳跃一路碾压。核心是堆冷却缩减，让5秒充能的手雷变成割草机器，同时用闪现狼提升机动性。最终目标不仅是通关终局，还要挑战从未尝试的远征Boss，看第一次会不会被秒杀。 🎙️ 本视频使用 LensDub 同源 AI 配音技术制作。 视频翻译、原声音色复刻、多语言配音与字幕自动生成。 🔗 LensDub：https://lensdub.com",
+      "author": "棱镜poe2lens",
+      "publishedAt": "2026-11-09T10:00:25.000Z",
+      "href": "https://www.bilibili.com/video/av117585869802481",
+      "cover": "https://i1.hdslb.com/bfs/archive/0ec033c2cfe0ff667c39d2459905e89a9d40cb15.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1q5Wx6wE1d",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 1.0 开荒 BD推荐：神域熊图腾",
+      "summary": "【腾讯文档】开荒BD神域熊图腾 https://docs.qq.com/doc/DY1RsSUtNRnZSQ2VM",
+      "author": "8712_",
+      "publishedAt": "2026-11-09T07:30:47.000Z",
+      "href": "https://www.bilibili.com/video/av117585299376789",
+      "cover": "https://i2.hdslb.com/bfs/archive/a3e86ab610a605a6f648e3e8f5790828715d7dda.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1JrWJ6JEPP",
       "platform": "bilibili",
@@ -59,32 +85,6 @@
       "href": "https://www.bilibili.com/video/av117558506230002",
       "cover": "https://i2.hdslb.com/bfs/archive/28b0949352d26019f4c6cf62aee3b199e673dc5f.jpg",
       "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV16oso6oEk3",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放2 选啥职业 开荒 ？",
-      "summary": "",
-      "author": "爱闯祸的井盖",
-      "publishedAt": "2026-10-29T06:28:16.000Z",
-      "href": "https://www.bilibili.com/video/av117522770694498",
-      "cover": "https://i0.hdslb.com/bfs/archive/b8cbf6e68ccd0a694ae283f1368f47603404bb8e.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1Afno6QEVG",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "S0.55流放之路2武圣霹雳闪从零 开荒 独狼P3",
-      "summary": "",
-      "author": "_0079_",
-      "publishedAt": "2026-10-26T15:23:34.000Z",
-      "href": "https://www.bilibili.com/video/av117507788640369",
-      "cover": "https://i2.hdslb.com/bfs/archive/934fd94043a961dedf712ddf3ce3f7a4c9a2b0c7.jpg",
-      "query": "POE2 开荒",
       "source": "B 站公开搜索"
     }
   ],
