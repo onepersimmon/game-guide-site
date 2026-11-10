@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T07:30:20.109Z",
+  "updatedAt": "2026-11-10T19:53:05.089Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1XXWM6GEbH",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "1.0 开荒 最强职业？？天赋盘改动后珠宝孔最大受益者？？",
+      "summary": "视频为新手向，高手自动跳过 所提到的内容均仅为个人观点，仅供参考 流放2国服时装口令码 兑换码1：EXILEK7QMZ4D 武器特效 兑换码2：EXILER9BGHW5 升级特效 兑换码3：EXILEM6JQ2ZY 闪避特效 兑换码4： EXILET3XVPN8 背饰翅膀",
+      "author": "小家小豪",
+      "publishedAt": "2026-11-10T10:47:56.000Z",
+      "href": "https://www.bilibili.com/video/av117591741893682",
+      "cover": "https://i2.hdslb.com/bfs/archive/e17580155b9d7b61c0cd06dd37a58e6f47ed8f60.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1EoWt63Ekj",
       "platform": "bilibili",
@@ -73,26 +86,7 @@
       "cover": "https://i2.hdslb.com/bfs/archive/588dd82160566d74232d1c6c4baf4dbb10e58b1e.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1dmxX63EYx",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放2 国服锐眼冰射新手 开荒 现状",
-      "summary": "非暴、纯闪，前期过渡装，生存靠猴戏",
-      "author": "匀殊",
-      "publishedAt": "2026-11-04T14:02:55.000Z",
-      "href": "https://www.bilibili.com/video/av117558506230002",
-      "cover": "https://i2.hdslb.com/bfs/archive/28b0949352d26019f4c6cf62aee3b199e673dc5f.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-11-10T07:30:20.108Z"
-    }
-  ]
+  "errors": []
 }
