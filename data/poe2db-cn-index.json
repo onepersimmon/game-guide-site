@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T06:44:31.050Z",
+  "updatedAt": "2026-11-11T19:44:10.230Z",
   "locale": "tw",
   "source": [
     "https://poe2db.tw/tw/Skill_Gems",
@@ -1537,62 +1537,6 @@
       "chinese": "雷彈",
       "image": "https://cdn.poe2db.tw/image/art/2dart/skillicons/4k/lightningboltskillstaff.webp",
       "poe2db": "https://poe2db.tw/tw/Lightning_Bolt"
-    },
-    {
-      "type": "skill",
-      "slug": "Companion%3A_%7B0%7D",
-      "english": "Companion: {0}",
-      "chinese": "盟友：{0}",
-      "image": "https://cdn.poe2db.tw/image/art/2dart/skillicons/4k/huntresssummoncompanion.webp",
-      "poe2db": "https://poe2db.tw/tw/Companion%3A_%7B0%7D"
-    },
-    {
-      "type": "skill",
-      "slug": "Flammability",
-      "english": "Flammability",
-      "chinese": "易燃",
-      "image": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/4K/Flammability.webp",
-      "poe2db": "https://poe2db.tw/tw/Flammability"
-    },
-    {
-      "type": "skill",
-      "slug": "Hypothermia",
-      "english": "Hypothermia",
-      "chinese": "急凍",
-      "image": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/4K/Frostbite.webp",
-      "poe2db": "https://poe2db.tw/tw/Hypothermia"
-    },
-    {
-      "type": "skill",
-      "slug": "Conductivity",
-      "english": "Conductivity",
-      "chinese": "導電",
-      "image": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/4K/Conductivity.webp",
-      "poe2db": "https://poe2db.tw/tw/Conductivity"
-    },
-    {
-      "type": "skill",
-      "slug": "Cast_on_Shock",
-      "english": "Cast on Shock",
-      "chinese": "感電時施放",
-      "image": "https://cdn.poe2db.tw/image/art/2dart/skillicons/4k/castonshockskill.webp",
-      "poe2db": "https://poe2db.tw/tw/Cast_on_Shock"
-    },
-    {
-      "type": "skill",
-      "slug": "Cast_on_Freeze",
-      "english": "Cast on Freeze",
-      "chinese": "冰凍時施放",
-      "image": "https://cdn.poe2db.tw/image/art/2dart/skillicons/4k/castonfreezeskill.webp",
-      "poe2db": "https://poe2db.tw/tw/Cast_on_Freeze"
-    },
-    {
-      "type": "skill",
-      "slug": "Cast_on_Ignite",
-      "english": "Cast on Ignite",
-      "chinese": "點燃時施放",
-      "image": "https://cdn.poe2db.tw/image/art/2dart/skillicons/4k/castonigniteskill.webp",
-      "poe2db": "https://poe2db.tw/tw/Cast_on_Ignite"
     },
     {
       "type": "support",
