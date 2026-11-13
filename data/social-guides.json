@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T20:08:15.603Z",
+  "updatedAt": "2026-11-13T06:57:32.542Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,6 +10,32 @@
   },
   "items": [
     {
+      "id": "bilibili-BV14eWv6gEHA",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】Master T - PoE2 1.0 全蚀暗影 开荒 构想：潜行与幽影",
+      "summary": "https://www.youtube.com/watch?v=oYmlxMXEJqc 免责声明：这是一份尚未完成的早期攻略，用来帮助你理解这种非常新的玩法背后的机制；等临近上线、我们掌握更多信息后，会再发布完整攻略。 流放之路2里的暗影与匕首，是我在 ARPG 中见过设计得最酷的玩法，我非常期待游戏上线后能亲自上手体验。 完整详细的书面攻略（在开发团队公布其余数据前为占位版） https://mobalytics.gg/poe-2/profile/mastert/builds/1-0-maste",
+      "author": "Sen妖桉",
+      "publishedAt": "2026-11-13T03:37:58.000Z",
+      "href": "https://www.bilibili.com/video/av117607025935702",
+      "cover": "https://i2.hdslb.com/bfs/archive/e6743dc7fa3de115fb5a7c53914e8a906d21d65f.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1aHWY66EPY",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路 S31最新资讯！章鱼系列挑战奖励登场，仓库页8折开售！POE1/POE2通用",
+      "summary": "赛季最新资讯来了！这次有两个值得关注的消息： 🐙 S31赛季挑战奖励：章鱼系列 本次带大家看看S31赛季的章鱼主题挑战奖励，独特的章鱼造型与触手设计，喜欢收集外观和赛季奖励的玩家不要错过！流放之路S31 💰 仓库页8折特惠开售！ 仓库页迎来打折活动，多种仓库页参与优惠，包括地图、药剂、精华、裂痕、谵妄等仓库页，以及高级四倍仓库页等。 重点提醒：流放之路1代、2代通用，想补充仓库空间的玩家可以关注这次优惠！ 本期视频带你快速了解S31赛季奖励与仓库页优惠信息，准备迎接新赛季的玩家记得收藏！ 👇 你最喜欢这次",
+      "author": "顽家萝卜毛",
+      "publishedAt": "2026-11-13T02:03:17.000Z",
+      "href": "https://www.bilibili.com/video/av117606656842455",
+      "cover": "https://i1.hdslb.com/bfs/archive/edc5756ab54e7520936650de330f9db937d7c61c.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
       "id": "bilibili-BV1XXWM6GEbH",
       "platform": "bilibili",
       "platformLabel": "B 站",
@@ -19,19 +45,6 @@
       "publishedAt": "2026-11-10T10:47:56.000Z",
       "href": "https://www.bilibili.com/video/av117591741893682",
       "cover": "https://i2.hdslb.com/bfs/archive/e17580155b9d7b61c0cd06dd37a58e6f47ed8f60.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1EoWt63Ekj",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】Schwingy 随机物品及升华，炸弹跳跳流从零 开荒 ！",
-      "summary": "Schwingy 本期从零开始随机到藏锋靴+神谕者，用爆炸手雷配合闪现跳跃一路碾压。核心是堆冷却缩减，让5秒充能的手雷变成割草机器，同时用闪现狼提升机动性。最终目标不仅是通关终局，还要挑战从未尝试的远征Boss，看第一次会不会被秒杀。 🎙️ 本视频使用 LensDub 同源 AI 配音技术制作。 视频翻译、原声音色复刻、多语言配音与字幕自动生成。 🔗 LensDub：https://lensdub.com",
-      "author": "棱镜poe2lens",
-      "publishedAt": "2026-11-09T10:00:25.000Z",
-      "href": "https://www.bilibili.com/video/av117585869802481",
-      "cover": "https://i1.hdslb.com/bfs/archive/0ec033c2cfe0ff667c39d2459905e89a9d40cb15.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
@@ -70,19 +83,6 @@
       "author": "_0079_",
       "publishedAt": "2026-10-26T15:23:34.000Z",
       "href": "https://www.bilibili.com/video/av117507788640369",
-      "cover": "https://i2.hdslb.com/bfs/archive/934fd94043a961dedf712ddf3ce3f7a4c9a2b0c7.jpg",
-      "query": "POE2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1vPH56pEXB",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "S0.55流放之路2武圣霹雳闪从零 开荒 独狼P2",
-      "summary": "",
-      "author": "_0079_",
-      "publishedAt": "2026-10-25T11:19:25.000Z",
-      "href": "https://www.bilibili.com/video/av117501195261808",
       "cover": "https://i2.hdslb.com/bfs/archive/934fd94043a961dedf712ddf3ce3f7a4c9a2b0c7.jpg",
       "query": "POE2 开荒",
       "source": "B 站公开搜索"
