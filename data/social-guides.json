@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T06:57:32.542Z",
+  "updatedAt": "2026-11-13T19:51:24.185Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,45 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1aSWB6dECy",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路 1/2】国际服汉化实机演示：按当前游戏版本现场合并，更新后点一下又是中文；简体国服叫法、装备词缀标注、简繁字体随你换，市集打中文直接搜",
+      "summary": "玩国际服的兄弟，游戏一更新汉化就没了？这期流放1、流放2 国际服实机演示一套汉化补丁的全部效果👇 【1 更新不用等】普通汉化包照着老版本做，游戏一更新就对不上、只能干等新包；这套点应用的时候按你游戏现在的版本现场合好，更新完点一下就是中文（流放1 实测 499 个文件 10.5 秒）。 【2 简体 国服叫法】国际服自带繁体，叫法和国服对不上；打上以后满屏简体：换界石叫引路石、怪群大小叫怪物群规模，商人名字后面直接标好能鉴定、能洗点；流放1 一样全简体。 【3 标注 词缀 贴图】身上装备的生命、抗性、护甲",
+      "author": "流放小鲨",
+      "publishedAt": "2026-11-13T12:39:45.000Z",
+      "href": "https://www.bilibili.com/video/av117609173360384",
+      "cover": "https://i0.hdslb.com/bfs/archive/0d414b4fb4cdff753cfa30d3dd0c44c55e958cae.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV14cWz6EEdq",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 】0.55武圣盾墙 剧情 开荒 简单流程 附文档",
+      "summary": "文档链接在这儿，这一套应该是一路都会比较的丝滑，另外不要忘记商店用正则公式找加最大生命值的装备哦，如果还有什么问题的话，优先看文档，找不到在哪把文档丢给AI问AI，然后再有问题的话可以在评论区提出来，up看到了尽量回复。 https://docs.qq.com/doc/DWXZ0ZVdSempNU3pm",
+      "author": "Luking-",
+      "publishedAt": "2026-11-13T12:31:22.000Z",
+      "href": "https://www.bilibili.com/video/av117609123027507",
+      "cover": "https://i2.hdslb.com/bfs/archive/0e8cce755ef00a10a34f695ee2b50c7bc055e3bc.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1dZWv6XEWt",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】一件白色武器速通火巅 | 1.0攻坚焚决",
+      "summary": "0.4的翻新，糅了更多的猴戏、更多的花活 思路学习自 @胤可安 【时空攻坚bd的一些超低配思路】 https://www.bilibili.com/video/BV1Dt97BvE4M/?share_source=copy_web&amp;vd_source=23dad2ea8ec68e2fbfa581872ce72444。 争取周更。。。",
+      "author": "赵振豪plus",
+      "publishedAt": "2026-11-13T11:35:38.000Z",
+      "href": "https://www.bilibili.com/video/av117608904923706",
+      "cover": "https://i2.hdslb.com/bfs/archive/d2e25f268542c826d64dfed46526d15a1bffe367.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV14eWv6gEHA",
       "platform": "bilibili",
@@ -36,19 +75,6 @@
       "source": "B 站公开搜索"
     },
     {
-      "id": "bilibili-BV1XXWM6GEbH",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "1.0 开荒 最强职业？？天赋盘改动后珠宝孔最大受益者？？",
-      "summary": "视频为新手向，高手自动跳过 所提到的内容均仅为个人观点，仅供参考 流放2国服时装口令码 兑换码1：EXILEK7QMZ4D 武器特效 兑换码2：EXILER9BGHW5 升级特效 兑换码3：EXILEM6JQ2ZY 闪避特效 兑换码4： EXILET3XVPN8 背饰翅膀",
-      "author": "小家小豪",
-      "publishedAt": "2026-11-10T10:47:56.000Z",
-      "href": "https://www.bilibili.com/video/av117591741893682",
-      "cover": "https://i2.hdslb.com/bfs/archive/e17580155b9d7b61c0cd06dd37a58e6f47ed8f60.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
       "id": "bilibili-BV1q5Wx6wE1d",
       "platform": "bilibili",
       "platformLabel": "B 站",
@@ -58,32 +84,6 @@
       "publishedAt": "2026-11-09T07:30:47.000Z",
       "href": "https://www.bilibili.com/video/av117585299376789",
       "cover": "https://i2.hdslb.com/bfs/archive/a3e86ab610a605a6f648e3e8f5790828715d7dda.jpg",
-      "query": "POE2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1JrWJ6JEPP",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【流放2】嘉年华内容小结：新赛季 开荒 前瞻攻略",
-      "summary": "KOOK：75248633 拼车组队上语音 直播送福利 想参加到我们每个赛季的BD创作的朋友可以加入我们的社群 企鹅#1: 66963790 企鹅#2: 941159958 企鹅#3: 671378770 企鹅#4: 171217043 企鹅#5: 66217110 企鹅#6: 365733599 企鹅#7: 1083862943 企鹅#8: 1087491797 企鹅#9: 622318103 企鹅#10:809251656 企鹅#11:550765709（新开群） 答案：蛮王",
-      "author": "你的星落啊",
-      "publishedAt": "2026-11-08T12:02:29.000Z",
-      "href": "https://www.bilibili.com/video/av117580618531051",
-      "cover": "https://i1.hdslb.com/bfs/archive/a9949c64bcdee119ce1456e1a75606a8610ab51c.jpg",
-      "query": "POE2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1Afno6QEVG",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "S0.55流放之路2武圣霹雳闪从零 开荒 独狼P3",
-      "summary": "",
-      "author": "_0079_",
-      "publishedAt": "2026-10-26T15:23:34.000Z",
-      "href": "https://www.bilibili.com/video/av117507788640369",
-      "cover": "https://i2.hdslb.com/bfs/archive/934fd94043a961dedf712ddf3ce3f7a4c9a2b0c7.jpg",
       "query": "POE2 开荒",
       "source": "B 站公开搜索"
     }

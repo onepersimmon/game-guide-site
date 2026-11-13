@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T06:55:02.102Z",
+  "updatedAt": "2026-11-13T19:50:29.912Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -9611,6 +9611,9 @@
         },
         {
           "type": "Soul Core of Atmohua"
+        },
+        {
+          "type": "Soul Core of Vizoma"
         },
         {
           "type": "Bear Idol"
