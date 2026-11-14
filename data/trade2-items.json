@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T06:40:11.901Z",
+  "updatedAt": "2026-11-14T18:14:49.581Z",
   "source": "https://www.pathofexile.com/api/trade2/data/items",
   "result": [
     {
@@ -14503,16 +14503,16 @@
           }
         },
         {
-          "type": "Dull Hatchet",
-          "text": "INCOMPLETE Dull Hatchet",
+          "type": "Hook Axe",
+          "text": "INCOMPLETE Hook Axe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
           }
         },
         {
-          "type": "Hook Axe",
-          "text": "INCOMPLETE Hook Axe",
+          "type": "Dull Hatchet",
+          "text": "INCOMPLETE Dull Hatchet",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
@@ -14543,24 +14543,16 @@
           }
         },
         {
-          "type": "Splintered Flail",
-          "text": "INCOMPLETE Splintered Flail",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
-          "type": "Bearded Axe",
-          "text": "INCOMPLETE Bearded Axe",
-          "name": "INCOMPLETE",
-          "flags": {
-            "unique": true
-          }
-        },
-        {
           "type": "Iron Greatsword",
           "text": "INCOMPLETE Iron Greatsword",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Splintered Flail",
+          "text": "INCOMPLETE Splintered Flail",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
@@ -14617,6 +14609,14 @@
         {
           "type": "Holy Flail",
           "text": "INCOMPLETE Holy Flail",
+          "name": "INCOMPLETE",
+          "flags": {
+            "unique": true
+          }
+        },
+        {
+          "type": "Bearded Axe",
+          "text": "INCOMPLETE Bearded Axe",
           "name": "INCOMPLETE",
           "flags": {
             "unique": true
