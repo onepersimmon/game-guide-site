@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T18:17:40.809Z",
+  "updatedAt": "2026-11-14T22:35:51.815Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1yGsL62EhH",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "S0.55 流放之路2 武圣旋风击从零 开荒 P4-中老年人版",
+      "summary": "https://docs.qq.com/sheet/DRUJSZVphREhkUWpx?tab=3ogetk",
+      "author": "_0079_",
+      "publishedAt": "2026-11-14T19:01:01.000Z",
+      "href": "https://www.bilibili.com/video/av117616286964558",
+      "cover": "https://i2.hdslb.com/bfs/archive/934fd94043a961dedf712ddf3ce3f7a4c9a2b0c7.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1aSWB6dECy",
       "platform": "bilibili",
@@ -73,26 +86,7 @@
       "cover": "https://i1.hdslb.com/bfs/archive/edc5756ab54e7520936650de330f9db937d7c61c.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1q5Wx6wE1d",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 1.0 开荒 BD推荐：神域熊图腾",
-      "summary": "【腾讯文档】开荒BD神域熊图腾 https://docs.qq.com/doc/DY1RsSUtNRnZSQ2VM",
-      "author": "8712_",
-      "publishedAt": "2026-11-09T07:30:47.000Z",
-      "href": "https://www.bilibili.com/video/av117585299376789",
-      "cover": "https://i2.hdslb.com/bfs/archive/a3e86ab610a605a6f648e3e8f5790828715d7dda.jpg",
-      "query": "POE2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-11-14T18:17:40.809Z"
-    }
-  ]
+  "errors": []
 }
