@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T06:47:47.510Z",
+  "updatedAt": "2026-11-15T18:59:53.087Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -19,6 +19,19 @@
       "publishedAt": "2026-11-14T19:01:01.000Z",
       "href": "https://www.bilibili.com/video/av117616286964558",
       "cover": "https://i2.hdslb.com/bfs/archive/934fd94043a961dedf712ddf3ce3f7a4c9a2b0c7.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV19us56fEXb",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 萌新向】武僧独狼 开荒 -简章（下）",
+      "summary": "异界就不打了，这个bd到异界也是平推，到简章基本上就成型了。我考虑再打一遍，因为前面几章太卡了观看体验不好",
+      "author": "速冻鱼Kiel",
+      "publishedAt": "2026-11-14T13:03:46.000Z",
+      "href": "https://www.bilibili.com/video/av117614894383977",
+      "cover": "https://i0.hdslb.com/bfs/archive/7d29d465d858fb36f40522280ad933e9178a33c5.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
@@ -65,25 +78,12 @@
       "id": "bilibili-BV14eWv6gEHA",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "【 流放2 】Master T - PoE2 1.0 全蚀暗影 开荒 构想：潜行与幽影",
+      "title": "【流放2】Master T - PoE2 1.0 全蚀暗影 开荒 构想：潜行与幽影",
       "summary": "https://www.youtube.com/watch?v=oYmlxMXEJqc 免责声明：这是一份尚未完成的早期攻略，用来帮助你理解这种非常新的玩法背后的机制；等临近上线、我们掌握更多信息后，会再发布完整攻略。 流放之路2里的暗影与匕首，是我在 ARPG 中见过设计得最酷的玩法，我非常期待游戏上线后能亲自上手体验。 完整详细的书面攻略（在开发团队公布其余数据前为占位版） https://mobalytics.gg/poe-2/profile/mastert/builds/1-0-maste",
       "author": "Sen妖桉",
       "publishedAt": "2026-11-13T03:37:58.000Z",
       "href": "https://www.bilibili.com/video/av117607025935702",
       "cover": "https://i2.hdslb.com/bfs/archive/e6743dc7fa3de115fb5a7c53914e8a906d21d65f.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1aHWY66EPY",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路S31最新资讯！章鱼系列挑战奖励登场，仓库页8折开售！ POE 1/ POE2 通用",
-      "summary": "赛季最新资讯来了！这次有两个值得关注的消息： 🐙 S31赛季挑战奖励：章鱼系列 本次带大家看看S31赛季的章鱼主题挑战奖励，独特的章鱼造型与触手设计，喜欢收集外观和赛季奖励的玩家不要错过！流放之路S31 💰 仓库页8折特惠开售！ 仓库页迎来打折活动，多种仓库页参与优惠，包括地图、药剂、精华、裂痕、谵妄等仓库页，以及高级四倍仓库页等。 重点提醒：流放之路1代、2代通用，想补充仓库空间的玩家可以关注这次优惠！ 本期视频带你快速了解S31赛季奖励与仓库页优惠信息，准备迎接新赛季的玩家记得收藏！ 👇 你最喜欢这次",
-      "author": "顽家萝卜毛",
-      "publishedAt": "2026-11-13T02:03:17.000Z",
-      "href": "https://www.bilibili.com/video/av117606656842455",
-      "cover": "https://i1.hdslb.com/bfs/archive/edc5756ab54e7520936650de330f9db937d7c61c.jpg",
       "query": "POE2 开荒",
       "source": "B 站公开搜索"
     }
