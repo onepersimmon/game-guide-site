@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T22:35:32.470Z",
+  "updatedAt": "2026-11-15T06:47:39.676Z",
   "locale": "tw",
   "source": [
     "https://poe2db.tw/tw/Skill_Gems",
@@ -6209,6 +6209,22 @@
       "chinese": "火炎之柱",
       "image": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/Support/PillarofFireSupport.webp",
       "poe2db": "https://poe2db.tw/tw/Flame_Pillar"
+    },
+    {
+      "type": "support",
+      "slug": "Nadir",
+      "english": "Nadir",
+      "chinese": "消沉",
+      "image": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/Support/NadirSupport.webp",
+      "poe2db": "https://poe2db.tw/tw/Nadir"
+    },
+    {
+      "type": "support",
+      "slug": "Greatwood_II",
+      "english": "Greatwood II",
+      "chinese": "大森林 II",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/Greatwood.webp",
+      "poe2db": "https://poe2db.tw/tw/Greatwood_II"
     },
     {
       "type": "passive",
