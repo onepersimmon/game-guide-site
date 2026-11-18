@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T07:43:03.105Z",
+  "updatedAt": "2026-11-18T20:42:25.221Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV15YsS6cEaX",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "国服有牌面啊，PDD女流66都来线下试玩会，还打算 开荒 1.0【 流放之路2 】",
+      "summary": "",
+      "author": "从零开始流放2",
+      "publishedAt": "2026-11-18T10:59:47.000Z",
+      "href": "https://www.bilibili.com/video/av117637090641410",
+      "cover": "https://i1.hdslb.com/bfs/archive/2bdf32ecf9fb3fedef02771e8c20917f99e99c53.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1Zks264EBH",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "吉恩诺伯爵_机制详解【 流放之路2 】",
+      "summary": "Inspired by Huizui",
+      "author": "比利耶yeye",
+      "publishedAt": "2026-11-18T09:48:39.000Z",
+      "href": "https://www.bilibili.com/video/av117636805499468",
+      "cover": "https://i1.hdslb.com/bfs/archive/0c169d8d9801cd9d2d86f91f198afa81a0c502eb.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1t9sk6YEoC",
       "platform": "bilibili",
@@ -58,32 +84,6 @@
       "publishedAt": "2026-11-17T09:28:41.000Z",
       "href": "https://www.bilibili.com/video/av117631067692343",
       "cover": "https://i1.hdslb.com/bfs/archive/9b997e87cb9beae6779df1bfd7e0f1068a419e61.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV14Rsg6kERC",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 专家剧情，帮大家把所有坑都踩了一遍",
-      "summary": "重活二十世换来的经验，分享给大家",
-      "author": "Maroon的流放之路",
-      "publishedAt": "2026-11-17T03:10:36.000Z",
-      "href": "https://www.bilibili.com/video/av117629574450327",
-      "cover": "https://i0.hdslb.com/bfs/archive/602bd12d2325ca4d3557914d64f20a4ec73c5756.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1zssK62ErM",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 】 1.0预热武圣盾墙 开荒 练习 第二三天200亢模拟",
-      "summary": "这一套BD的话，在前期应该升级非常的快啊，那么，我是保守的说是第二三天啊，实际上第1天的晚上就可以做一套防御面比这个差一点的，因为0.55赛季的神性项链比0.5赛季的神性项链要便宜很多啊，所以实际上几乎没有多少硬门槛，主手换成长矛也可以走震波图腾打炸坟特化，1.0这一套bd能改动的地方也不多，只有两个可能性比较大，一个是意识之源的削弱，另外一个就是盾墙的削弱了。那么想看up这套详细的BD内容的话，可以私信up 0.55武圣开荒盾墙练习 会有we game链接的自动回复。",
-      "author": "Luking-",
-      "publishedAt": "2026-11-17T00:30:00.000Z",
-      "href": "https://www.bilibili.com/video/av117628232277731",
-      "cover": "https://i0.hdslb.com/bfs/archive/3b2c25b2e5c5ca533a7d56b784fc4a49670df05d.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
