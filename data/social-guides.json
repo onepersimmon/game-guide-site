@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T20:42:25.221Z",
+  "updatedAt": "2026-11-19T07:38:28.844Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,45 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1x5sb6XEV9",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 国际服物品过滤器下载",
+      "summary": "https://docs.qq.com/sheet/DRUJSZVphREhkUWpx?tab=3ogetk",
+      "author": "_0079_",
+      "publishedAt": "2026-11-19T07:28:56.000Z",
+      "href": "https://www.bilibili.com/video/av117641888996185",
+      "cover": "https://i2.hdslb.com/bfs/archive/ad2b9c9df2ff1f2e893bf6161fe386b20c70c95b.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1bUsb68EyL",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 国际服游戏设置",
+      "summary": "https://docs.qq.com/sheet/DRUJSZVphREhkUWpx?tab=3ogetk",
+      "author": "_0079_",
+      "publishedAt": "2026-11-19T06:41:05.000Z",
+      "href": "https://www.bilibili.com/video/av117641721289198",
+      "cover": "https://i2.hdslb.com/bfs/archive/ad2b9c9df2ff1f2e893bf6161fe386b20c70c95b.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1ijs86gE7e",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "塔瓦凯酋长_机制详解【 流放之路2 】",
+      "summary": "Inspired by Huizui",
+      "author": "比利耶yeye",
+      "publishedAt": "2026-11-19T05:41:02.000Z",
+      "href": "https://www.bilibili.com/video/av117641486276556",
+      "cover": "https://i0.hdslb.com/bfs/archive/d96110361fc6164a3997d71c885ea7fcc14bd6be.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV15YsS6cEaX",
       "platform": "bilibili",
@@ -31,7 +70,7 @@
       "author": "比利耶yeye",
       "publishedAt": "2026-11-18T09:48:39.000Z",
       "href": "https://www.bilibili.com/video/av117636805499468",
-      "cover": "https://i1.hdslb.com/bfs/archive/0c169d8d9801cd9d2d86f91f198afa81a0c502eb.jpg",
+      "cover": "https://i2.hdslb.com/bfs/archive/78828ffa0d75092c61d53acbd1a076240dff43f7.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
@@ -45,45 +84,6 @@
       "publishedAt": "2026-11-17T18:12:52.000Z",
       "href": "https://www.bilibili.com/video/av117633131224855",
       "cover": "https://i1.hdslb.com/bfs/archive/0012071013ae9bbbe61be729426c7711dbebaa05.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1dasB6wEZR",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 国际服免费加速器",
-      "summary": "https://docs.qq.com/sheet/DRUJSZVphREhkUWpx?tab=3ogetk",
-      "author": "_0079_",
-      "publishedAt": "2026-11-17T11:04:02.000Z",
-      "href": "https://www.bilibili.com/video/av117631436788102",
-      "cover": "https://i2.hdslb.com/bfs/archive/ad2b9c9df2ff1f2e893bf6161fe386b20c70c95b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1eisB6bEnR",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 国际服游戏本体下载",
-      "summary": "https://docs.qq.com/sheet/DRUJSZVphREhkUWpx?tab=3ogetk",
-      "author": "_0079_",
-      "publishedAt": "2026-11-17T10:50:09.000Z",
-      "href": "https://www.bilibili.com/video/av117631386390858",
-      "cover": "https://i2.hdslb.com/bfs/archive/ad2b9c9df2ff1f2e893bf6161fe386b20c70c95b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1Wisz6EEd9",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 降临】发布会国服定档12.12同日开服 拾取宠物 海量活动奖励 开荒 抢先看 PDD要来信手斩龙？",
-      "summary": "欢迎下方留言讨论，流放2讨论群： 109413348 1042868547",
-      "author": "旋风劉",
-      "publishedAt": "2026-11-17T09:28:41.000Z",
-      "href": "https://www.bilibili.com/video/av117631067692343",
-      "cover": "https://i1.hdslb.com/bfs/archive/9b997e87cb9beae6779df1bfd7e0f1068a419e61.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
