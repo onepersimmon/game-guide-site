@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T07:38:28.844Z",
+  "updatedAt": "2026-11-19T20:47:02.183Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1Ansb6UEKz",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 国际服物品查价器下载",
+      "summary": "易刷 https://www.caimogu.cc/post/1621584.html PoE Overlay II https://www.overwolf.com/app/kyusung4698-poe_overlay_ii 白菜工坊 https://www.poe2ggg.com",
+      "author": "_0079_",
+      "publishedAt": "2026-11-19T08:17:16.000Z",
+      "href": "https://www.bilibili.com/video/av117642090255965",
+      "cover": "https://i2.hdslb.com/bfs/archive/ad2b9c9df2ff1f2e893bf6161fe386b20c70c95b.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1x5sb6XEV9",
       "platform": "bilibili",
@@ -26,7 +39,7 @@
       "id": "bilibili-BV1bUsb68EyL",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "流放之路2 国际服游戏设置",
+      "title": "流放之路2 国际服游戏画面设置",
       "summary": "https://docs.qq.com/sheet/DRUJSZVphREhkUWpx?tab=3ogetk",
       "author": "_0079_",
       "publishedAt": "2026-11-19T06:41:05.000Z",
@@ -44,7 +57,7 @@
       "author": "比利耶yeye",
       "publishedAt": "2026-11-19T05:41:02.000Z",
       "href": "https://www.bilibili.com/video/av117641486276556",
-      "cover": "https://i0.hdslb.com/bfs/archive/d96110361fc6164a3997d71c885ea7fcc14bd6be.jpg",
+      "cover": "https://i0.hdslb.com/bfs/archive/cd7772f2b439be9ae41558fcd0d2666349baef50.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
@@ -70,20 +83,7 @@
       "author": "比利耶yeye",
       "publishedAt": "2026-11-18T09:48:39.000Z",
       "href": "https://www.bilibili.com/video/av117636805499468",
-      "cover": "https://i2.hdslb.com/bfs/archive/78828ffa0d75092c61d53acbd1a076240dff43f7.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1t9sk6YEoC",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 降临】国服天大喜讯|12月12日全球服同步上线|附送4大热门职业 开荒 BD|3万字文档攻略|新手必看|",
-      "summary": "本系列后期将继续更新4大热门职业开荒BD，攻略文档制作不易3万字很详细解释，多多订阅关注支持一下谢谢",
-      "author": "我叫池豆豆",
-      "publishedAt": "2026-11-17T18:12:52.000Z",
-      "href": "https://www.bilibili.com/video/av117633131224855",
-      "cover": "https://i1.hdslb.com/bfs/archive/0012071013ae9bbbe61be729426c7711dbebaa05.jpg",
+      "cover": "https://i2.hdslb.com/bfs/archive/1f9d79616cec3d47d18eed6a4318b5ca3a4717a4.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
