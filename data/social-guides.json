@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T07:29:22.856Z",
+  "updatedAt": "2026-11-20T20:33:07.523Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1CuyxzME7d",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "多里亚尼 全机制拆解（第三章）【 流放之路2 /POE2】",
+      "summary": "Inspired by Huizui",
+      "author": "比利耶yeye",
+      "publishedAt": "2026-11-20T14:36:52.000Z",
+      "href": "https://www.bilibili.com/video/av117649254191603",
+      "cover": "https://i0.hdslb.com/bfs/archive/bc870730f23545c59c1c5414c50ffcc281767938.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1CEypzeE1s",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 降临】双手剑大剑 开荒 “穿搭”BD推荐",
+      "summary": "本次给大家带来了4.5套大剑开荒的“穿搭”BD搭配！ 流放暖暖最好玩了！ 1.东方剑仙 2.西方圣骑 3.血肉腐化 4,暗裔星神 5.很帅的但是忘了像什么的大剑",
+      "author": "溏浨沅明清",
+      "publishedAt": "2026-11-20T11:55:25.000Z",
+      "href": "https://www.bilibili.com/video/av117648633366811",
+      "cover": "https://i1.hdslb.com/bfs/archive/39f9b733bdf4dea52585cdb58ea01632ed49b48f.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1Ansb6UEKz",
       "platform": "bilibili",
@@ -52,47 +78,15 @@
       "id": "bilibili-BV1ijs86gE7e",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "塔瓦凯酋长_机制详解【 流放之路2 】",
+      "title": "塔瓦凯酋长 全机制拆解（第四章）【 流放之路2 /POE2】",
       "summary": "Inspired by Huizui",
       "author": "比利耶yeye",
       "publishedAt": "2026-11-19T05:41:02.000Z",
       "href": "https://www.bilibili.com/video/av117641486276556",
-      "cover": "https://i0.hdslb.com/bfs/archive/cd7772f2b439be9ae41558fcd0d2666349baef50.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV15YsS6cEaX",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "国服有牌面啊，PDD女流66都来线下试玩会，还打算 开荒 1.0【 流放之路2 】",
-      "summary": "",
-      "author": "从零开始流放2",
-      "publishedAt": "2026-11-18T10:59:47.000Z",
-      "href": "https://www.bilibili.com/video/av117637090641410",
-      "cover": "https://i1.hdslb.com/bfs/archive/2bdf32ecf9fb3fedef02771e8c20917f99e99c53.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1Zks264EBH",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "吉恩诺伯爵_机制详解【 流放之路2 】",
-      "summary": "Inspired by Huizui",
-      "author": "比利耶yeye",
-      "publishedAt": "2026-11-18T09:48:39.000Z",
-      "href": "https://www.bilibili.com/video/av117636805499468",
-      "cover": "https://i2.hdslb.com/bfs/archive/1f9d79616cec3d47d18eed6a4318b5ca3a4717a4.jpg",
+      "cover": "https://i1.hdslb.com/bfs/archive/260393692d1b100f11d7e0c0f7da48e285e36096.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-11-20T07:29:22.855Z"
-    }
-  ]
+  "errors": []
 }
