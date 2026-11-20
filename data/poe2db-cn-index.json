@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-19T20:46:58.461Z",
+  "updatedAt": "2026-11-20T07:29:19.420Z",
   "locale": "tw",
   "source": [
     "https://poe2db.tw/tw/Skill_Gems",
     "https://poe2db.tw/tw/Support_Gems",
     "https://poe2db.tw/tw/passive-skill-tree",
-    "https://poe2db.tw/data/passive-skill-tree/4.5/data_tw.json?1",
+    "https://poe2db.tw/data/passive-skill-tree/0.5/data_tw.json?1",
     "https://poe2db.tw/tw/Items",
     "https://poe2db.tw/tw/Amulets",
     "https://poe2db.tw/tw/Augment",
@@ -56,7 +56,7 @@
     "https://poe2db.tw/tw/Wands",
     "https://poe2db.tw/tw/Waystones"
   ],
-  "passiveTreeVersion": "4.5",
+  "passiveTreeVersion": "0.5",
   "entries": [
     {
       "type": "skill",
