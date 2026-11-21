@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T20:33:07.523Z",
+  "updatedAt": "2026-11-21T07:24:04.187Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,19 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1aZybzwE7x",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路 降临】POE2 1.0 双新职业深挖！暗影无限潜行突刺｜决斗者一键旋风泥头车， 开荒 选谁？",
+      "summary": "",
+      "author": "委屈瓜瓜a",
+      "publishedAt": "2026-11-21T05:52:24.000Z",
+      "href": "https://www.bilibili.com/video/av117652861229700",
+      "cover": "https://i0.hdslb.com/bfs/archive/9bc4ccbd0e64df619324304fd29707038620c4db.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1CuyxzME7d",
       "platform": "bilibili",
@@ -71,19 +84,6 @@
       "publishedAt": "2026-11-19T06:41:05.000Z",
       "href": "https://www.bilibili.com/video/av117641721289198",
       "cover": "https://i2.hdslb.com/bfs/archive/ad2b9c9df2ff1f2e893bf6161fe386b20c70c95b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1ijs86gE7e",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "塔瓦凯酋长 全机制拆解（第四章）【 流放之路2 /POE2】",
-      "summary": "Inspired by Huizui",
-      "author": "比利耶yeye",
-      "publishedAt": "2026-11-19T05:41:02.000Z",
-      "href": "https://www.bilibili.com/video/av117641486276556",
-      "cover": "https://i1.hdslb.com/bfs/archive/260393692d1b100f11d7e0c0f7da48e285e36096.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
