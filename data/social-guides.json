@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T07:05:08.529Z",
+  "updatedAt": "2026-11-22T19:50:41.363Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,6 +10,45 @@
   },
   "items": [
     {
+      "id": "bilibili-BV1uny7zZEBL",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 降临主播们的 开荒 选择",
+      "summary": "新赛季你拿什么开！",
+      "author": "Ray鸽鸽鸽鸽",
+      "publishedAt": "2026-11-22T15:36:01.000Z",
+      "href": "https://www.bilibili.com/video/av117660813629134",
+      "cover": "https://i0.hdslb.com/bfs/archive/90b38c05558a247c259538f48f83256f04a63da5.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1s2y5zVEgm",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "[ 流放之路2 萌新指南07] 开荒 发育焚诀！低成本装备制作思路分享！",
+      "summary": "文档地址：https://www.yuque.com/wudixiaoguigui/gvtzt7 希望指南视频可以帮助更多萌新享受流放2的乐趣！",
+      "author": "流放小龟",
+      "publishedAt": "2026-11-22T13:26:28.000Z",
+      "href": "https://www.bilibili.com/video/av117660293535473",
+      "cover": "https://i2.hdslb.com/bfs/archive/b618d4f2c62331c85a6173330ec7e1a55a78ef7b.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1t6y5z7ENm",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 国际服市集汉化及使用解说",
+      "summary": "游戏内市集汉化 https://www.caimogu.cc/post/2327167.html 网页市集汉化 https://microsoftedge.microsoft.com/addons/detail/poetradecn/bbhpnledaobkededmnccebmaeofjfika",
+      "author": "_0079_",
+      "publishedAt": "2026-11-22T12:36:33.000Z",
+      "href": "https://www.bilibili.com/video/av117660092208751",
+      "cover": "https://i2.hdslb.com/bfs/archive/ad2b9c9df2ff1f2e893bf6161fe386b20c70c95b.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
       "id": "bilibili-BV1qZyvzxEpD",
       "platform": "bilibili",
       "platformLabel": "B 站",
@@ -19,19 +58,6 @@
       "publishedAt": "2026-11-22T00:00:00.000Z",
       "href": "https://www.bilibili.com/video/av117655696578686",
       "cover": "https://i1.hdslb.com/bfs/archive/559f5a2fbc0f1b3760e84046add04b5090815394.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1UUyuziEid",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 战士龙战 开荒 自留",
-      "summary": "",
-      "author": "牢-楠",
-      "publishedAt": "2026-11-21T22:59:59.000Z",
-      "href": "https://www.bilibili.com/video/av117656904537939",
-      "cover": "https://i0.hdslb.com/bfs/archive/93571aa22766dc2aee8245a2035b1b1b24b41124.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     },
@@ -58,32 +84,6 @@
       "publishedAt": "2026-11-21T10:45:08.000Z",
       "href": "https://www.bilibili.com/video/av117654002080508",
       "cover": "https://i2.hdslb.com/bfs/archive/ad2b9c9df2ff1f2e893bf6161fe386b20c70c95b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1aZybzwE7x",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路 降临】POE2 1.0 双新职业深挖！暗影无限潜行突刺｜决斗者一键旋风泥头车， 开荒 选谁？",
-      "summary": "",
-      "author": "委屈瓜瓜a",
-      "publishedAt": "2026-11-21T05:52:24.000Z",
-      "href": "https://www.bilibili.com/video/av117652861229700",
-      "cover": "https://i0.hdslb.com/bfs/archive/9bc4ccbd0e64df619324304fd29707038620c4db.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1CuyxzME7d",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "多里亚尼 全机制拆解（第三章）【 流放之路2 /POE2】",
-      "summary": "流放之路2全Boss机制详解系列 Inspired by Huizui",
-      "author": "比利耶yeye",
-      "publishedAt": "2026-11-20T14:36:52.000Z",
-      "href": "https://www.bilibili.com/video/av117649254191603",
-      "cover": "https://i0.hdslb.com/bfs/archive/bc870730f23545c59c1c5414c50ffcc281767938.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
