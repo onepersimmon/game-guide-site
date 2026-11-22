@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T19:26:58.922Z",
+  "updatedAt": "2026-11-22T07:05:08.529Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,58 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1qZyvzxEpD",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】门徒1.0还能玩吗？线下试玩会体验分享",
+      "summary": "开荒文档持续更新中 https://my.feishu.cn/wiki/ANLxw1dT8iQliKkbXFLcHnAZnyd 严肃学习召唤僵尸@大猫蘸酱 【【流放之路2】瓦拉史塔门徒攻坚方案分享（内附BD文档）】 https://www.bilibili.com/video/BV1a6q3BLESA/?share_source=copy_web&amp;vd_source=23dad2ea8ec68e2fbfa581872ce72444",
+      "author": "赵振豪plus",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "href": "https://www.bilibili.com/video/av117655696578686",
+      "cover": "https://i1.hdslb.com/bfs/archive/559f5a2fbc0f1b3760e84046add04b5090815394.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1UUyuziEid",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 战士龙战 开荒 自留",
+      "summary": "",
+      "author": "牢-楠",
+      "publishedAt": "2026-11-21T22:59:59.000Z",
+      "href": "https://www.bilibili.com/video/av117656904537939",
+      "cover": "https://i0.hdslb.com/bfs/archive/93571aa22766dc2aee8245a2035b1b1b24b41124.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1YPyizHEyD",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 1.0暗影陷阱流 开荒 云模拟",
+      "summary": "感谢流放悄咪咪的翻译，大家可以评论区讨论一下哦",
+      "author": "迷之mian",
+      "publishedAt": "2026-11-21T16:27:21.000Z",
+      "href": "https://www.bilibili.com/video/av117655361029708",
+      "cover": "https://i1.hdslb.com/bfs/archive/85e2211a4adf4bed551788afe96ac9d59d9e4ea7.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1mbyhzfE3u",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 国际服与国服怎么选择-12月12日同步上线",
+      "summary": "https://docs.qq.com/sheet/DRUJSZVphREhkUWpx?tab=3ogetk",
+      "author": "_0079_",
+      "publishedAt": "2026-11-21T10:45:08.000Z",
+      "href": "https://www.bilibili.com/video/av117654002080508",
+      "cover": "https://i2.hdslb.com/bfs/archive/ad2b9c9df2ff1f2e893bf6161fe386b20c70c95b.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1aZybzwE7x",
       "platform": "bilibili",
@@ -27,72 +79,14 @@
       "platform": "bilibili",
       "platformLabel": "B 站",
       "title": "多里亚尼 全机制拆解（第三章）【 流放之路2 /POE2】",
-      "summary": "Inspired by Huizui",
+      "summary": "流放之路2全Boss机制详解系列 Inspired by Huizui",
       "author": "比利耶yeye",
       "publishedAt": "2026-11-20T14:36:52.000Z",
       "href": "https://www.bilibili.com/video/av117649254191603",
       "cover": "https://i0.hdslb.com/bfs/archive/bc870730f23545c59c1c5414c50ffcc281767938.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1CEypzeE1s",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 降临】双手剑大剑 开荒 “穿搭”BD推荐",
-      "summary": "本次给大家带来了4.5套大剑开荒的“穿搭”BD搭配！ 流放暖暖最好玩了！ 1.东方剑仙 2.西方圣骑 3.血肉腐化 4,暗裔星神 5.很帅的但是忘了像什么的大剑",
-      "author": "溏浨沅明清",
-      "publishedAt": "2026-11-20T11:55:25.000Z",
-      "href": "https://www.bilibili.com/video/av117648633366811",
-      "cover": "https://i1.hdslb.com/bfs/archive/39f9b733bdf4dea52585cdb58ea01632ed49b48f.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1Ansb6UEKz",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 国际服物品查价器下载",
-      "summary": "易刷 https://www.caimogu.cc/post/1621584.html PoE Overlay II https://www.overwolf.com/app/kyusung4698-poe_overlay_ii 白菜工坊 https://www.poe2ggg.com",
-      "author": "_0079_",
-      "publishedAt": "2026-11-19T08:17:16.000Z",
-      "href": "https://www.bilibili.com/video/av117642090255965",
-      "cover": "https://i2.hdslb.com/bfs/archive/ad2b9c9df2ff1f2e893bf6161fe386b20c70c95b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1x5sb6XEV9",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 国际服物品过滤器下载",
-      "summary": "https://docs.qq.com/sheet/DRUJSZVphREhkUWpx?tab=3ogetk",
-      "author": "_0079_",
-      "publishedAt": "2026-11-19T07:28:56.000Z",
-      "href": "https://www.bilibili.com/video/av117641888996185",
-      "cover": "https://i2.hdslb.com/bfs/archive/ad2b9c9df2ff1f2e893bf6161fe386b20c70c95b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1bUsb68EyL",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 国际服游戏画面设置",
-      "summary": "https://docs.qq.com/sheet/DRUJSZVphREhkUWpx?tab=3ogetk",
-      "author": "_0079_",
-      "publishedAt": "2026-11-19T06:41:05.000Z",
-      "href": "https://www.bilibili.com/video/av117641721289198",
-      "cover": "https://i2.hdslb.com/bfs/archive/ad2b9c9df2ff1f2e893bf6161fe386b20c70c95b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-11-21T19:26:58.921Z"
-    }
-  ]
+  "errors": []
 }
