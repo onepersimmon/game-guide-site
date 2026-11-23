@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T19:50:41.363Z",
+  "updatedAt": "2026-11-23T07:52:26.605Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1mgynzwEvH",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "亚曼拉（第二章）全机制拆解【 流放之路2 /POE2】",
+      "summary": "流放之路2全Boss机制详解系列 Inspired by Huizui",
+      "author": "比利耶yeye",
+      "publishedAt": "2026-11-23T01:41:11.000Z",
+      "href": "https://www.bilibili.com/video/av117663195993514",
+      "cover": "https://i0.hdslb.com/bfs/archive/15dc2f7aca3020efa5d498fda7c2350b332dc2f5.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV12PyjzSEnM",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【中配】我玩遍了所有 Shadow 技能。这是 流放之路2 1.0 开局该选的那个！--P4wnyhof",
+      "summary": "https://www.youtube.com/watch?v=-0orsiT_rbE 原视频：https://www.youtube.com/watch?v=-0orsiT_rbE 流放之路2 的每一个 Shadow 技能终于都公布了完整描述。ExileCon 上不允许我们录制任何内容，所以我是从一位泰国创作者的试玩视频里翻译了全部内容；而且我已经玩了 3 个小时 Shadow，所以我会告诉你每个技能实际玩起来是什么样，以及它在 1.0 赛季开荒中有多好用。 泰国素材（去给 lumdoungamez",
+      "author": "刷子成精了",
+      "publishedAt": "2026-11-22T18:54:21.000Z",
+      "href": "https://www.bilibili.com/video/av117661585382335",
+      "cover": "https://i2.hdslb.com/bfs/archive/df7958f4eb3ed701be071a4f330745998060fc91.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1uny7zZEBL",
       "platform": "bilibili",
@@ -58,32 +84,6 @@
       "publishedAt": "2026-11-22T00:00:00.000Z",
       "href": "https://www.bilibili.com/video/av117655696578686",
       "cover": "https://i1.hdslb.com/bfs/archive/559f5a2fbc0f1b3760e84046add04b5090815394.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1YPyizHEyD",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 1.0暗影陷阱流 开荒 云模拟",
-      "summary": "感谢流放悄咪咪的翻译，大家可以评论区讨论一下哦",
-      "author": "迷之mian",
-      "publishedAt": "2026-11-21T16:27:21.000Z",
-      "href": "https://www.bilibili.com/video/av117655361029708",
-      "cover": "https://i1.hdslb.com/bfs/archive/85e2211a4adf4bed551788afe96ac9d59d9e4ea7.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1mbyhzfE3u",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 国际服与国服怎么选择-12月12日同步上线",
-      "summary": "https://docs.qq.com/sheet/DRUJSZVphREhkUWpx?tab=3ogetk",
-      "author": "_0079_",
-      "publishedAt": "2026-11-21T10:45:08.000Z",
-      "href": "https://www.bilibili.com/video/av117654002080508",
-      "cover": "https://i2.hdslb.com/bfs/archive/ad2b9c9df2ff1f2e893bf6161fe386b20c70c95b.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
