@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T10:03:17.260Z",
+  "updatedAt": "2026-11-24T22:34:02.299Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,10 +10,49 @@
   },
   "items": [
     {
+      "id": "bilibili-BV1W31wzkEaM",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "黑鸦欺诈者（谵妄）全机制拆解【 流放之路2 /POE2】",
+      "summary": "流放之路2全Boss机制详解系列 Inspired by Huizui",
+      "author": "比利耶yeye",
+      "publishedAt": "2026-11-24T21:20:05.000Z",
+      "href": "https://www.bilibili.com/video/av117673497204857",
+      "cover": "https://i2.hdslb.com/bfs/archive/16f353488445e2785159d908b352b92e6f44a07a.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV11CyZzNEhh",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "伯达克（祭祀）全机制拆解【 流放之路2 /POE2】",
+      "summary": "流放之路2全Boss机制详解系列 Inspired by Huizui",
+      "author": "比利耶yeye",
+      "publishedAt": "2026-11-24T11:40:39.000Z",
+      "href": "https://www.bilibili.com/video/av117671215633817",
+      "cover": "https://i0.hdslb.com/bfs/archive/edb12fd4b3704f0b6b86eb966ab23d95ec07ebd5.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1ASyZzcEF4",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 】BD一键配装实机：国服天梯一键载入，市集在售带涨跌、试穿、估价、这件怎么做、按预算挑、怎么变强、导入游戏、去藏身处",
+      "summary": "流放2 国服天梯的大佬身上穿的什么、值多少钱？这期流放2 实机演示 BD 一键配装的全部功能（流放1 一样能用，国际服、国服市集都能查）👇 【1 天梯大佬一键看】国服天梯是实时的，前几名玩什么流派、技能面板伤害多少，列表里直接看；点一键载入，游戏同款的装备 / 技能 / 角色面板，全中文，技能页每一组伤害都算好。 【2 分享一贴就出来】精选 BD 流放2 67 套（流放1 60 套），开荒、毕业按标签挑；手里有 BD 代码（PoB）贴进来两秒出；玩国服的，WeGame 里的角色分享复制过来一贴就出。 【",
+      "author": "流放小鲨",
+      "publishedAt": "2026-11-24T11:23:47.000Z",
+      "href": "https://www.bilibili.com/video/av117671148392885",
+      "cover": "https://i2.hdslb.com/bfs/archive/7122194304a851aece44808471ec200b09cb5ed0.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
       "id": "bilibili-BV1ikyfz9EWN",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "【 流放之路2 】0.55女巫纯召唤 剧情 开荒 简单流程 附文档",
+      "title": "【 流放之路2 】1.0预 开荒 练习 女巫纯召唤 剧情 开荒 简单流程 附文档",
       "summary": "这一套开荒非常简单，并且相当安全，一路上只需要按一个火墙就行了，召唤物会自动清怪，并且还会吸引仇恨，全程副手拿着盾牌，所以生存也非常好。目测新赛季召唤会比较强力，因为像骑士，黑僧升华都有类似于召唤的玩法，相应的肯定会有辅助宝石天赋点和传奇装备，增加召唤强度，可惜的是索敌貌似来不及修了，但是听说AI会有略微优化。如果有什么问题的话，优先看文档，腾讯文档本身。有AI助手可以辅助使用。希望有帮助的话，大家可以多多点赞。",
       "author": "Luking-",
       "publishedAt": "2026-11-24T09:59:43.000Z",
@@ -45,45 +84,6 @@
       "publishedAt": "2026-11-23T14:44:08.000Z",
       "href": "https://www.bilibili.com/video/av117666283067160",
       "cover": "https://i2.hdslb.com/bfs/archive/512f031a4731735747703320567e869771e53398.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1FvySzBExF",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "POE2 1.0 开荒 推荐 榴弹被砍 十字弩冰喷 开荒 攻击系职业通用",
-      "summary": "文档制作中 私信我 做完就会发",
-      "author": "SISRIR",
-      "publishedAt": "2026-11-23T12:29:59.000Z",
-      "href": "https://www.bilibili.com/video/av117665746127241",
-      "cover": "https://i1.hdslb.com/bfs/archive/4d206146860ce4095b18462b38144e019dab9ed8.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1sdynzhEr2",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 降临】当全世界都变弱了而我保持不变！全法系通用 开荒 ！0升华！第一章武器就毕业！猴戏法师迎来春天！",
-      "summary": "",
-      "author": "流放不死族",
-      "publishedAt": "2026-11-23T08:55:14.000Z",
-      "href": "https://www.bilibili.com/video/av117664907270198",
-      "cover": "https://i1.hdslb.com/bfs/archive/bf589f4ce69f1e93797d9afe7b59f5ab627a3bd0.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1Y6ynzrEH6",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 国际服仓库页购买解说",
-      "summary": "",
-      "author": "_0079_",
-      "publishedAt": "2026-11-23T08:14:12.000Z",
-      "href": "https://www.bilibili.com/video/av117664739497858",
-      "cover": "https://i2.hdslb.com/bfs/archive/ad2b9c9df2ff1f2e893bf6161fe386b20c70c95b.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
