@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-11-23T07:52:23.626Z",
+  "updatedAt": "2026-11-24T00:00:16.844Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "tales-of-oriath-soundtrack-now-on-streaming-platforms",
+      "title": "Tales of Oriath Soundtrack Now on Streaming Platforms!",
+      "date": "2026-11-23T20:50:26+00:00",
+      "summary": "Ahead of our Full Release for Path of Exile 2, the Tales of Oriath Soundtrack is available for streaming on Spotify and other platforms!",
+      "href": "https://www.pathofexile.com/forum/view-thread/4019372",
+      "thumb": "https://web.poecdn.com/public/news/2026-11-24/TalesofOriathTwitter.jpg",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Tales of Oriath Soundtrack Now on Streaming Platforms!",
+          "summary": "Ahead of our Full Release for Path of Exile 2, the Tales of Oriath Soundtrack is available for streaming on Spotify and other platforms!",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Tales of Oriath Soundtrack Now on Streaming Platforms!",
+          "summary": "Ahead of our Full Release for Path of Exile 2, the Tales of Oriath Soundtrack is available for streaming on Spotify and other platforms!",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "one-day-until-exilecon-2026",
       "title": "One Day Until ExileCon 2026!",
@@ -23,27 +44,6 @@
         "en": {
           "title": "One Day Until ExileCon 2026!",
           "summary": "ExileCon 2026 begins tomorrow! Catch it live on twitch.tv/pathofexile at 12:30PM November 6 PST!",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "exilecon-2026-twitch-drops",
-      "title": "ExileCon 2026 Twitch Drops",
-      "date": "2026-11-05T19:52:47+00:00",
-      "summary": "Tune in to the ExileCon livestream this weekend to catch our latest developments for Path of Exile 1 and Path of Exile 2 and claim a new set of Twitch Drops! Read this news post for all the details.",
-      "href": "https://www.pathofexile.com/forum/view-thread/4012689",
-      "thumb": "https://web.poecdn.com/public/news/2026-11-05/TwitchDropsExileconTwitter.png",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "ExileCon 2026 Twitch Drops",
-          "summary": "Tune in to the ExileCon livestream this weekend to catch our latest developments for Path of Exile 1 and Path of Exile 2 and claim a new set of Twitch Drops! Read this news post for all the details.",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "ExileCon 2026 Twitch Drops",
-          "summary": "Tune in to the ExileCon livestream this weekend to catch our latest developments for Path of Exile 1 and Path of Exile 2 and claim a new set of Twitch Drops! Read this news post for all the details.",
           "category": "Blue Post"
         }
       }
