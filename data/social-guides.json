@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T00:00:18.604Z",
+  "updatedAt": "2026-11-24T10:03:17.260Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1ikyfz9EWN",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 】0.55女巫纯召唤 剧情 开荒 简单流程 附文档",
+      "summary": "这一套开荒非常简单，并且相当安全，一路上只需要按一个火墙就行了，召唤物会自动清怪，并且还会吸引仇恨，全程副手拿着盾牌，所以生存也非常好。目测新赛季召唤会比较强力，因为像骑士，黑僧升华都有类似于召唤的玩法，相应的肯定会有辅助宝石天赋点和传奇装备，增加召唤强度，可惜的是索敌貌似来不及修了，但是听说AI会有略微优化。如果有什么问题的话，优先看文档，腾讯文档本身。有AI助手可以辅助使用。希望有帮助的话，大家可以多多点赞。",
+      "author": "Luking-",
+      "publishedAt": "2026-11-24T09:59:43.000Z",
+      "href": "https://www.bilibili.com/video/av117670762519532",
+      "cover": "https://i0.hdslb.com/bfs/archive/0dcbf6e1ca200ade9273c08ed30e377a8afe2ebf.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1rsyoztEoi",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 黑僧召唤开 模拟 开荒 复健中",
+      "summary": "",
+      "author": "魔人海盗D",
+      "publishedAt": "2026-11-24T07:23:54.000Z",
+      "href": "https://www.bilibili.com/video/av117670192088522",
+      "cover": "https://i1.hdslb.com/bfs/archive/d545d559d2d13d167635c5b6a9a4745273cec31c.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1gwyXzZE6N",
       "platform": "bilibili",
@@ -58,32 +84,6 @@
       "publishedAt": "2026-11-23T08:14:12.000Z",
       "href": "https://www.bilibili.com/video/av117664739497858",
       "cover": "https://i2.hdslb.com/bfs/archive/ad2b9c9df2ff1f2e893bf6161fe386b20c70c95b.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1mgynzwEvH",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "亚曼拉（第二章）全机制拆解【 流放之路2 /POE2】",
-      "summary": "流放之路2全Boss机制详解系列 Inspired by Huizui",
-      "author": "比利耶yeye",
-      "publishedAt": "2026-11-23T01:41:11.000Z",
-      "href": "https://www.bilibili.com/video/av117663195993514",
-      "cover": "https://i0.hdslb.com/bfs/archive/3eda329a9312dfb911454fed321946a8f07f0ec4.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV12PyjzSEnM",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【中配】我玩遍了所有 Shadow 技能。这是 流放之路2 1.0 开局该选的那个！--P4wnyhof",
-      "summary": "https://www.youtube.com/watch?v=-0orsiT_rbE 原视频：https://www.youtube.com/watch?v=-0orsiT_rbE 流放之路2 的每一个 Shadow 技能终于都公布了完整描述。ExileCon 上不允许我们录制任何内容，所以我是从一位泰国创作者的试玩视频里翻译了全部内容；而且我已经玩了 3 个小时 Shadow，所以我会告诉你每个技能实际玩起来是什么样，以及它在 1.0 赛季开荒中有多好用。 泰国素材（去给 lumdoungamez",
-      "author": "刷子成精了",
-      "publishedAt": "2026-11-22T18:54:21.000Z",
-      "href": "https://www.bilibili.com/video/av117661585382335",
-      "cover": "https://i2.hdslb.com/bfs/archive/df7958f4eb3ed701be071a4f330745998060fc91.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
