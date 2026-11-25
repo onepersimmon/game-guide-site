@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T08:48:03.827Z",
+  "updatedAt": "2026-11-25T21:48:33.029Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,11 +10,37 @@
   },
   "items": [
     {
+      "id": "bilibili-BV16cykzmEWG",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 1.0图腾没了？试试德鲁伊冰火流 开荒",
+      "summary": "德鲁伊文档：https://docs.qq.com/doc/DRWpLY3VMenJ4ZmFP 已获得授权，感谢流放不死族，流放芙莉莲和ThyMorph 流放不死族：https://www.bilibili.com/video/BV1sdynzhEr2/?spm_id_from=333.1387.list.card_archive.click&amp;vd_source=933624617ac9c723023601b08fe0f122 流放芙莉莲开荒：https://www.bilibili.com/video/",
+      "author": "迷之mian",
+      "publishedAt": "2026-11-25T13:58:55.000Z",
+      "href": "https://www.bilibili.com/video/av117677423068805",
+      "cover": "https://i2.hdslb.com/bfs/archive/fbb53ec08a03f9e56776f2f4533bc2b90834d2c0.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1bHy6zxEUF",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "[ 流放之路2 萌新指南10]剧情 开荒 必看焚诀！助力萌新丝滑到异界！",
+      "summary": "文档地址：https://www.yuque.com/wudixiaoguigui/gvtzt7 希望指南视频可以帮助更多萌新享受流放2的乐趣！",
+      "author": "流放小龟",
+      "publishedAt": "2026-11-25T09:45:48.000Z",
+      "href": "https://www.bilibili.com/video/av117676433219381",
+      "cover": "https://i2.hdslb.com/bfs/archive/d68dcb9850c6713cd7a717bd6c460db01ac56b09.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
       "id": "bilibili-BV1W31wzkEaM",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "黑鸦欺诈者（谵妄）全机制拆解【 流放之路2 /POE2】",
-      "summary": "流放之路2全Boss机制详解系列 Inspired by Huizui",
+      "title": "【 流放之路2 】黑鸦欺诈者 终局 boss全机制详解",
+      "summary": "Boss全机制详解系列 Inspired by Huizui",
       "author": "比利耶yeye",
       "publishedAt": "2026-11-24T21:20:05.000Z",
       "href": "https://www.bilibili.com/video/av117673497204857",
@@ -26,8 +52,8 @@
       "id": "bilibili-BV11CyZzNEhh",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "伯达克（祭祀）全机制拆解【 流放之路2 /POE2】",
-      "summary": "流放之路2全Boss机制详解系列 Inspired by Huizui",
+      "title": "【 流放之路2 】伯达克 终局 boss全机制详解",
+      "summary": "Boss全机制详解系列 Inspired by Huizui",
       "author": "比利耶yeye",
       "publishedAt": "2026-11-24T11:40:39.000Z",
       "href": "https://www.bilibili.com/video/av117671215633817",
@@ -52,7 +78,7 @@
       "id": "bilibili-BV1ikyfz9EWN",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "【 流放之路2 】1.0预 开荒 练习 女巫纯召唤 剧情 开荒 简单流程 附文档",
+      "title": "【 流放之路2 】0.55女巫纯召唤 剧情 开荒 简单流程 附文档",
       "summary": "这一套开荒非常简单，并且相当安全，一路上只需要按一个火墙就行了，召唤物会自动清怪，并且还会吸引仇恨，全程副手拿着盾牌，所以生存也非常好。目测新赛季召唤会比较强力，因为像骑士，黑僧升华都有类似于召唤的玩法，相应的肯定会有辅助宝石天赋点和传奇装备，增加召唤强度，可惜的是索敌貌似来不及修了，但是听说AI会有略微优化。如果有什么问题的话，优先看文档，腾讯文档本身。有AI助手可以辅助使用。希望有帮助的话，大家可以多多点赞。",
       "author": "Luking-",
       "publishedAt": "2026-11-24T09:59:43.000Z",
@@ -60,39 +86,7 @@
       "cover": "https://i0.hdslb.com/bfs/archive/0dcbf6e1ca200ade9273c08ed30e377a8afe2ebf.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1rsyoztEoi",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 黑僧召唤开 模拟 开荒 复健中",
-      "summary": "",
-      "author": "魔人海盗D",
-      "publishedAt": "2026-11-24T07:23:54.000Z",
-      "href": "https://www.bilibili.com/video/av117670192088522",
-      "cover": "https://i1.hdslb.com/bfs/archive/d545d559d2d13d167635c5b6a9a4745273cec31c.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1gwyXzZE6N",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】武圣空手转盾墙轮椅 开荒 3小时59分全收集从零到异界全流程",
-      "summary": "下赛季匕首基础攻速会更高主武器应该可以换成匕首，核心思路来自客佬@客心丶",
-      "author": "骰子77",
-      "publishedAt": "2026-11-23T14:44:08.000Z",
-      "href": "https://www.bilibili.com/video/av117666283067160",
-      "cover": "https://i2.hdslb.com/bfs/archive/512f031a4731735747703320567e869771e53398.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-11-25T08:48:03.826Z"
-    }
-  ]
+  "errors": []
 }
