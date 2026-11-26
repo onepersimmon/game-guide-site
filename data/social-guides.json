@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T08:33:52.283Z",
+  "updatedAt": "2026-11-26T21:41:46.559Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -9,6 +9,32 @@
     "bilibiliSearchUrl": "https://search.bilibili.com/all?keyword=POE2%20%E5%BC%80%E8%8D%92"
   },
   "items": [
+    {
+      "id": "bilibili-BV1ws1JzoEvb",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "等不及蓝贴，我先给POE2 1.0全升华排了从夯到拉【POE2|1.0】",
+      "summary": "1.0 开服前最后一版开荒强度榜，纯个人体感排的。 全升华从夯到拉过一遍，重点看开荒期能不能舒服滚图，后期上限顺带说。你本命被排低了，评论区来说服我。 蓝贴出了我再来复盘。",
+      "author": "流放贝利亚",
+      "publishedAt": "2026-11-26T16:10:01.000Z",
+      "href": "https://www.bilibili.com/video/av117683597084107",
+      "cover": "https://i1.hdslb.com/bfs/archive/482aac1523d5c453cb470a101b95c80c56885394.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1rGyUzeE3x",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放之路2 】万魔一体 裂隙 boss全机制详解",
+      "summary": "Boss全机制详解系列 Inspired by Huizui",
+      "author": "比利耶yeye",
+      "publishedAt": "2026-11-26T09:30:00.000Z",
+      "href": "https://www.bilibili.com/video/av117682020032228",
+      "cover": "https://i2.hdslb.com/bfs/archive/535ed15b1c11dc00db0f61f6e6b5aae6a642f5e2.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
     {
       "id": "bilibili-BV1MHySz7EsV",
       "platform": "bilibili",
@@ -58,32 +84,6 @@
       "publishedAt": "2026-11-26T04:57:00.000Z",
       "href": "https://www.bilibili.com/video/av117680946288019",
       "cover": "https://i0.hdslb.com/bfs/archive/20c1b76c784795f971e055ca7ddfb86a5498d639.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1dzy1zEESZ",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "Fungun:我能在 流放 之路里实现通货自由吗？我有4个镜子！一张命运卡价值1340神圣石，我梭哈了！输了就去 流放之路2 练 开荒 !",
-      "summary": "",
-      "author": "苏丹你好",
-      "publishedAt": "2026-11-26T02:35:00.000Z",
-      "href": "https://www.bilibili.com/video/av117679402783227",
-      "cover": "https://i1.hdslb.com/bfs/archive/38422e2fef6bd62e87bfa901e09b97d98b49d6a7.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV16cykzmEWG",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 1.0图腾没了？试试德鲁伊冰火流 开荒",
-      "summary": "德鲁伊文档：https://docs.qq.com/doc/DRWpLY3VMenJ4ZmFP 已获得授权，感谢流放不死族，流放芙莉莲和ThyMorph 流放不死族：https://www.bilibili.com/video/BV1sdynzhEr2/?spm_id_from=333.1387.list.card_archive.click&amp;vd_source=933624617ac9c723023601b08fe0f122 流放芙莉莲开荒：https://www.bilibili.com/video/",
-      "author": "迷之mian",
-      "publishedAt": "2026-11-25T13:58:55.000Z",
-      "href": "https://www.bilibili.com/video/av117677423068805",
-      "cover": "https://i2.hdslb.com/bfs/archive/fbb53ec08a03f9e56776f2f4533bc2b90834d2c0.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }

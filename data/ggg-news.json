@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-11-26T08:33:49.432Z",
+  "updatedAt": "2026-11-26T21:41:44.792Z",
   "source": {
     "name": "Path of Exile 2 Official News",
     "url": "https://pathofexile2.com/internal-api/content/home",
     "pageUrl": "https://pathofexile2.com/news"
   },
   "items": [
+    {
+      "id": "path-of-exile-2-beginner-guide-video-competition",
+      "title": "Path of Exile 2 Beginner Guide Video Competition",
+      "date": "2026-11-26T20:34:47+00:00",
+      "summary": "With Path of Exile 2’s 1.0 Full Release approaching, a new wave of Exiles will soon be setting foot in Wraeclast! To help them prepare for the journey ahead, we’re launching the Path of Exile 2 Beginner Video Guide Competition!",
+      "href": "https://www.pathofexile.com/forum/view-thread/4020338",
+      "thumb": "https://web.poecdn.com/public/news/2026-11-27/HP_Twitter_EN.png",
+      "category": "Blue Post",
+      "localized": {
+        "zh": {
+          "title": "Path of Exile 2 Beginner Guide Video Competition",
+          "summary": "With Path of Exile 2’s 1.0 Full Release approaching, a new wave of Exiles will soon be setting foot in Wraeclast! To help them prepare for the journey ahead, we’re launching the Path of Exile 2 Beginner Video Guide Competition!",
+          "category": "GGG 蓝贴"
+        },
+        "en": {
+          "title": "Path of Exile 2 Beginner Guide Video Competition",
+          "summary": "With Path of Exile 2’s 1.0 Full Release approaching, a new wave of Exiles will soon be setting foot in Wraeclast! To help them prepare for the journey ahead, we’re launching the Path of Exile 2 Beginner Video Guide Competition!",
+          "category": "Blue Post"
+        }
+      }
+    },
     {
       "id": "exilecon-2026-developer-panels",
       "title": "ExileCon 2026 Developer Panels",
@@ -23,27 +44,6 @@
         "en": {
           "title": "ExileCon 2026 Developer Panels",
           "summary": "During ExileCon 2026, a number of our developers presented panels showcasing their areas of work on Path of Exile. Check them out in today’s news post.",
-          "category": "Blue Post"
-        }
-      }
-    },
-    {
-      "id": "tales-of-oriath-soundtrack-now-on-streaming-platforms",
-      "title": "Tales of Oriath Soundtrack Now on Streaming Platforms!",
-      "date": "2026-11-23T20:50:26+00:00",
-      "summary": "Ahead of our Full Release for Path of Exile 2, the Tales of Oriath Soundtrack is available for streaming on Spotify and other platforms!",
-      "href": "https://www.pathofexile.com/forum/view-thread/4019372",
-      "thumb": "https://web.poecdn.com/public/news/2026-11-24/TalesofOriathTwitter.jpg",
-      "category": "Blue Post",
-      "localized": {
-        "zh": {
-          "title": "Tales of Oriath Soundtrack Now on Streaming Platforms!",
-          "summary": "Ahead of our Full Release for Path of Exile 2, the Tales of Oriath Soundtrack is available for streaming on Spotify and other platforms!",
-          "category": "GGG 蓝贴"
-        },
-        "en": {
-          "title": "Tales of Oriath Soundtrack Now on Streaming Platforms!",
-          "summary": "Ahead of our Full Release for Path of Exile 2, the Tales of Oriath Soundtrack is available for streaming on Spotify and other platforms!",
           "category": "Blue Post"
         }
       }
