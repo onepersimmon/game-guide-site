@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T08:47:55.377Z",
+  "updatedAt": "2026-11-26T08:33:46.582Z",
   "source": "poe.ninja",
   "leagueName": "Runes of Aldur",
   "builds": [
@@ -8,7 +8,7 @@
       "className": "Spirit Walker",
       "leagueName": "Runes of Aldur",
       "summary": "灵魂行者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 25.3,
+      "popularity": 25.1,
       "trend": -1,
       "rank": 1,
       "image": "./assets/images/builds/spirit-walker.webp",
@@ -44,7 +44,7 @@
       "className": "Martial Artist",
       "leagueName": "Runes of Aldur",
       "summary": "武圣 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 20.2,
+      "popularity": 20.3,
       "trend": 1,
       "rank": 2,
       "image": "./assets/images/builds/martial-artist.webp",
@@ -80,7 +80,7 @@
       "className": "Gemling Legionnaire",
       "leagueName": "Runes of Aldur",
       "summary": "古灵使徒斗士 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 10.5,
+      "popularity": 10.6,
       "trend": 1,
       "rank": 3,
       "image": "./assets/images/builds/gemling-legionnaire.webp",
@@ -110,42 +110,6 @@
         }
       },
       "displayOrder": 3
-    },
-    {
-      "id": "runesofaldur-deadeye",
-      "className": "Deadeye",
-      "leagueName": "Runes of Aldur",
-      "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 6.1,
-      "trend": 1,
-      "rank": 4,
-      "image": "./assets/images/builds/deadeye.webp",
-      "tags": [
-        "热门职业",
-        "热度上升"
-      ],
-      "href": "https://poe.ninja/poe2/builds/runesofaldur?class=Deadeye",
-      "localized": {
-        "zh": {
-          "className": "锐眼",
-          "leagueName": "Runes of Aldur",
-          "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-          "tags": [
-            "热门职业",
-            "热度上升"
-          ]
-        },
-        "en": {
-          "className": "Deadeye",
-          "leagueName": "Runes of Aldur",
-          "summary": "A popular ascendancy in Runes of Aldur, kept locally for quick trend scanning.",
-          "tags": [
-            "Popular class",
-            "Rising"
-          ]
-        }
-      },
-      "displayOrder": 4
     },
     {
       "id": "runesofaldur-infernalist",
@@ -181,7 +145,7 @@
           ]
         }
       },
-      "displayOrder": 5
+      "displayOrder": 4
     },
     {
       "id": "runesofaldur-oracle",
@@ -217,7 +181,7 @@
           ]
         }
       },
-      "displayOrder": 6
+      "displayOrder": 5
     },
     {
       "id": "runesofaldur-disciple-of-varashta",
@@ -253,7 +217,7 @@
           ]
         }
       },
-      "displayOrder": 7
+      "displayOrder": 6
     },
     {
       "id": "runesofaldur-stormweaver",
@@ -289,7 +253,7 @@
           ]
         }
       },
-      "displayOrder": 8
+      "displayOrder": 7
     },
     {
       "id": "runesofaldur-titan",
@@ -325,7 +289,7 @@
           ]
         }
       },
-      "displayOrder": 9
+      "displayOrder": 8
     },
     {
       "id": "runesofaldur-blood-mage",
@@ -361,7 +325,7 @@
           ]
         }
       },
-      "displayOrder": 10
+      "displayOrder": 9
     },
     {
       "id": "runesofaldur-abyssal-lich",
@@ -397,7 +361,7 @@
           ]
         }
       },
-      "displayOrder": 11
+      "displayOrder": 10
     },
     {
       "id": "runesofaldur-acolyte-of-chayula",
@@ -433,7 +397,7 @@
           ]
         }
       },
-      "displayOrder": 12
+      "displayOrder": 11
     },
     {
       "id": "runesofaldur-amazon",
@@ -469,7 +433,7 @@
           ]
         }
       },
-      "displayOrder": 13
+      "displayOrder": 12
     },
     {
       "id": "runesofaldur-chronomancer",
@@ -505,7 +469,7 @@
           ]
         }
       },
-      "displayOrder": 14
+      "displayOrder": 13
     },
     {
       "id": "runesofaldur-invoker",
@@ -541,7 +505,7 @@
           ]
         }
       },
-      "displayOrder": 15
+      "displayOrder": 14
     },
     {
       "id": "runesofaldur-lich",
@@ -577,7 +541,7 @@
           ]
         }
       },
-      "displayOrder": 16
+      "displayOrder": 15
     },
     {
       "id": "runesofaldur-pathfinder",
@@ -613,7 +577,7 @@
           ]
         }
       },
-      "displayOrder": 17
+      "displayOrder": 16
     },
     {
       "id": "runesofaldur-ritualist",
@@ -649,7 +613,7 @@
           ]
         }
       },
-      "displayOrder": 18
+      "displayOrder": 17
     },
     {
       "id": "runesofaldur-shaman",
@@ -685,7 +649,7 @@
           ]
         }
       },
-      "displayOrder": 19
+      "displayOrder": 18
     },
     {
       "id": "runesofaldur-smith-of-kitava",
@@ -721,7 +685,7 @@
           ]
         }
       },
-      "displayOrder": 20
+      "displayOrder": 19
     },
     {
       "id": "runesofaldur-tactician",
@@ -757,7 +721,7 @@
           ]
         }
       },
-      "displayOrder": 21
+      "displayOrder": 20
     },
     {
       "id": "runesofaldur-warbringer",
@@ -793,7 +757,7 @@
           ]
         }
       },
-      "displayOrder": 22
+      "displayOrder": 21
     },
     {
       "id": "runesofaldur-witchhunter",
@@ -829,7 +793,7 @@
           ]
         }
       },
-      "displayOrder": 23
+      "displayOrder": 22
     },
     {
       "id": "runesofaldur-druid",
@@ -865,7 +829,7 @@
           ]
         }
       },
-      "displayOrder": 24
+      "displayOrder": 23
     },
     {
       "id": "runesofaldur-huntress",
@@ -901,7 +865,7 @@
           ]
         }
       },
-      "displayOrder": 25
+      "displayOrder": 24
     },
     {
       "id": "runesofaldur-mercenary",
@@ -937,7 +901,7 @@
           ]
         }
       },
-      "displayOrder": 26
+      "displayOrder": 25
     },
     {
       "id": "runesofaldur-monk",
@@ -973,7 +937,7 @@
           ]
         }
       },
-      "displayOrder": 27
+      "displayOrder": 26
     },
     {
       "id": "runesofaldur-ranger",
@@ -1009,7 +973,7 @@
           ]
         }
       },
-      "displayOrder": 28
+      "displayOrder": 27
     },
     {
       "id": "runesofaldur-sorceress",
@@ -1045,7 +1009,7 @@
           ]
         }
       },
-      "displayOrder": 29
+      "displayOrder": 28
     },
     {
       "id": "runesofaldur-warrior",
@@ -1081,7 +1045,7 @@
           ]
         }
       },
-      "displayOrder": 30
+      "displayOrder": 29
     },
     {
       "id": "runesofaldur-witch",
@@ -1117,7 +1081,7 @@
           ]
         }
       },
-      "displayOrder": 31
+      "displayOrder": 30
     }
   ]
 }
