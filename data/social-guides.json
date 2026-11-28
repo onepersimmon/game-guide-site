@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T21:26:37.085Z",
+  "updatedAt": "2026-11-28T08:00:03.115Z",
   "source": {
     "name": "B 站公开搜索",
     "queries": [
@@ -10,89 +10,83 @@
   },
   "items": [
     {
-      "id": "bilibili-BV1it1szFECT",
+      "id": "bilibili-BV1Np1Mz8EHC",
       "platform": "bilibili",
       "platformLabel": "B 站",
-      "title": "【 流放之路2 】灰烬仲裁者 异界 boss全机制详解",
-      "summary": "Boss全机制详解系列 Inspired by Huizui",
-      "author": "比利耶yeye",
-      "publishedAt": "2026-11-27T04:20:32.000Z",
-      "href": "https://www.bilibili.com/video/av117686465994236",
-      "cover": "https://i1.hdslb.com/bfs/archive/e07bc50eb28ddaedee7d5478548e5463b6783467.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1Xv1szsEDt",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 降临新赛季萌新剧情教学视频第一章天赋点和必做任务。",
-      "summary": "流放2新赛季如何快人一步到达异界，云再多BD不如多练几把开荒，第一章剧情4个必拿额外天赋点，30精魂10%冰抗，20点生命你们都知道从哪拿吗？怎样卖装备才能卖出更多金币？新赛季公测还有半个月就要开始了，新版本剧情取消了间歇章节增加了第五章和第六章，1-4章应该不会有太大的改动，从今天开始洲墨就带大家熟悉每个章节每张地图，教大家每张地图应该干什么，需要注意什么，兄弟们可以点个收藏防止用的时候找不到，觉得洲墨这条视频有用，做的还行的兄弟们可以点赞关注收藏，有什么遗漏的也欢迎大家评论区补充，视频制作不易感谢大家",
-      "author": "洲墨游戏分享",
-      "publishedAt": "2026-11-27T04:16:29.000Z",
-      "href": "https://www.bilibili.com/video/av117686449281178",
-      "cover": "https://i1.hdslb.com/bfs/archive/bcd0a578b2422bc77adee5ca2a1c1dc9f3f979ac.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1Xi1sz9E8x",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 】正式版 开荒 必看4件事：0.5老配装别照抄，驱炎使命源法师重做，精魂、升华试炼、三抗75%、武器看技能等级，暗影决斗者 开荒 要点",
-      "summary": "流放2正式版 12 月 11 日上线（国服第一个赛季 12 月 12 日），开荒前这四件事先弄清楚： ① 0.5 的配装别直接照抄：官方写明 1.0 辅石大规模平衡、天赋树新增几百种属性、珠宝插槽全部移进天赋群、70 多件传奇重做，很多老数值都会变。老攻略只学思路——先拿什么技能、什么时候换装。 ② 玩女巫的注意：驱炎使、命源法师都在重做名单里。驱炎使最多三只炽焰猎犬，新的恶魔召唤生物能施放你给它的任意法术，还有新的血誓技能（和恶魔领主订立契约）；命源法师的腐化之血重做，受影响的敌人承受所有来源的双倍伤害",
-      "author": "流放小鲨",
-      "publishedAt": "2026-11-27T04:15:42.000Z",
-      "href": "https://www.bilibili.com/video/av117686432503292",
-      "cover": "https://i2.hdslb.com/bfs/archive/63841e794235bfcd7f9fc12609a770a8b7ecc0e1.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV16j1pzfExU",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放2 】1到100级最快升级攻略（上）| 五赛季100级升级经验总结",
-      "summary": "国服门徒开，开荒文档持续更新中 https://my.feishu.cn/wiki/ANLxw1dT8iQliKkbXFLcHnAZnyd 还有想知道的冲级要点，可以在评论区留言，我后续补充进下半期",
-      "author": "赵振豪plus",
-      "publishedAt": "2026-11-27T02:21:41.000Z",
-      "href": "https://www.bilibili.com/video/av117686013007142",
-      "cover": "https://i0.hdslb.com/bfs/archive/2627a6fb0b60731ffb9a57a25710d9811c0f1af5.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1CK1nzZECc",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "流放之路2 决斗者新升华断罪骁骑全天赋曝光解析！包含剑的新实机演示，原来剑伤害这么离谱啊！召唤随从佣兵来帮你战斗？完整的暗影全技能曝光！新毒蛇打击很适合 开荒 ！",
-      "summary": "决斗者新升华图断罪骁骑——https://poe2db.tw/Knight 暗影刺客曝光技能——https://poe2db.tw/us/Shadow#ShadowMarkdown 最新波兰网友剑的实机演示——https://www.youtube.com/watch?v=-Zcoqb4Li0o ✅本期解析《流放之路 2》前期剧情章节的全新实机素材。本次深度拆解覆盖决斗者的潜在升华节点、各类武器运行机制，并结合近期试玩内容，评估了不同角色构筑的实战可行性。完整的暗影全技能曝光！新技能毒蛇打击很适合开荒！",
-      "author": "苏丹你好",
-      "publishedAt": "2026-11-26T23:05:00.000Z",
-      "href": "https://www.bilibili.com/video/av117685090259414",
-      "cover": "https://i2.hdslb.com/bfs/archive/51d07c4acd3ce103bdf8e378c2cfc1c873df3a63.jpg",
-      "query": "流放之路2 开荒",
-      "source": "B 站公开搜索"
-    },
-    {
-      "id": "bilibili-BV1qE1nzSEHk",
-      "platform": "bilibili",
-      "platformLabel": "B 站",
-      "title": "【 流放之路2 降临】1.0赛季赌一手血法王朝！！女巫开！零升华！4孔转电球直通T15！",
+      "title": "【 流放之路2 】新赛季强势 开荒 BD盾天帝",
       "summary": "",
-      "author": "流放不死族",
-      "publishedAt": "2026-11-26T23:03:43.000Z",
-      "href": "https://www.bilibili.com/video/av117685224479168",
-      "cover": "https://i0.hdslb.com/bfs/archive/d30ca199a5dce249bc7c7b5c5a8e3e057e2c1964.jpg",
+      "author": "崇高计划",
+      "publishedAt": "2026-11-28T07:57:27.000Z",
+      "href": "https://www.bilibili.com/video/av117692992459091",
+      "cover": "https://i0.hdslb.com/bfs/archive/6ff9b0847e3971916120ef5c51931d2d8ce5ef38.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV19E1NzeEck",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 降临公测版本升华职业前景预测分析本期包含古灵、血法、泰坦、武圣、猎魔人、黑武僧、暗影、决斗者",
+      "summary": "这期出场的人物有：古灵、血法、泰坦、武圣、猎魔人、黑武僧、暗影、决斗者，信息来自于编年史更新公告，抛砖引玉啊",
+      "author": "Ray鸽鸽鸽鸽",
+      "publishedAt": "2026-11-28T06:16:50.000Z",
+      "href": "https://www.bilibili.com/video/av117692589677248",
+      "cover": "https://i1.hdslb.com/bfs/archive/0d2603f5a9d75f4a3b1311f812f303d5acffce07.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1tg1KzfETf",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】公测喜提加强超爽冰喷构筑 开荒 攻略",
+      "summary": "",
+      "author": "烧麦Suomy",
+      "publishedAt": "2026-11-28T04:06:31.000Z",
+      "href": "https://www.bilibili.com/video/av117692086354744",
+      "cover": "https://i0.hdslb.com/bfs/archive/43ad55de6760357dd6a427d553c34d85a41daa4a.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1GC1KzTEUq",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "备战 流放2 1.0： 开荒 前三天三大真香poe2brain AI用法（已补国内直连镜像 + 抽奖活动）",
+      "summary": "备战流放之路2（Path of Exile 2）1.0 正式版！开荒前三天真正拉开差距的不是无脑肝，而是算清真账。 这期直接上实机和真实网页演示永久免费开源的 poe2brain 最实用的三套 AI 玩法： 00:00 开场：告别流放 1 老黄历幻觉，底层直连本地无头 PoB2 + 全服实时物价 00:20 用法一：1 秒扫 poe.ninja 天梯挖黑马 BD + 本地 PoB2 一键去水（揪出切武器/精魂/掉宝稀有度坑） 00:49 用法二：实时聚合 1,300+ 全服通货排异界搬砖榜 + 全场景 &lt;",
+      "author": "左手风月",
+      "publishedAt": "2026-11-28T03:46:36.000Z",
+      "href": "https://www.bilibili.com/video/av117692002473257",
+      "cover": "https://i0.hdslb.com/bfs/archive/fd2d9ded85ccbe8e983bf02381779992508ef6a3.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1R91xzcEHq",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "【 流放2 】Palsteron - 暗影陷阱实机：破片穿刺一触即爆 开荒 手感真这么顺？",
+      "summary": "https://www.youtube.com/watch?v=3ZkSOgvr2bs 我在德国慕尼黑的一场聚会上试玩了暗影（Shadow）的陷阱（Trap）构筑。这期视频我会把这几小时游玩里学到的所有东西都讲一遍。 00:00 第一手的暗影体验 01:31 第五章美爆了 02:20 陷阱的独特特性 04:39 如何触发陷阱 06:03 一、火焰与中毒陷阱配置 08:26 二、穿刺构筑 10:39 最强的几个陷阱技能 12:03 一切都还没定论 Maxroll 构筑与天赋规划 ► https://m",
+      "author": "Sen妖桉",
+      "publishedAt": "2026-11-27T10:37:17.000Z",
+      "href": "https://www.bilibili.com/video/av117687942382521",
+      "cover": "https://i0.hdslb.com/bfs/archive/496f4a9f5f3aafe3072134e1be6c39e9e85c5e5f.jpg",
+      "query": "流放之路2 开荒",
+      "source": "B 站公开搜索"
+    },
+    {
+      "id": "bilibili-BV1W714z1EqD",
+      "platform": "bilibili",
+      "platformLabel": "B 站",
+      "title": "流放之路2 降临蓝贴更新前各升华职业现状第二集(门徒、白武)",
+      "summary": "兄弟们还想看什么直接说哈哈哈，过几天估计PN就更新了",
+      "author": "Ray鸽鸽鸽鸽",
+      "publishedAt": "2026-11-27T09:24:05.000Z",
+      "href": "https://www.bilibili.com/video/av117687674082590",
+      "cover": "https://i2.hdslb.com/bfs/archive/0f8c587b27ac6ddd59525cd847ebf0a9620d8a70.jpg",
       "query": "流放之路2 开荒",
       "source": "B 站公开搜索"
     }
   ],
-  "errors": [
-    {
-      "platform": "bilibili",
-      "message": "412 Precondition Failed",
-      "at": "2026-11-27T21:26:37.085Z"
-    }
-  ]
+  "errors": []
 }

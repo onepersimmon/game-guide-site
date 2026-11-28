@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T21:26:28.066Z",
+  "updatedAt": "2026-11-28T07:59:56.607Z",
   "source": "poe.ninja",
   "leagueName": "Runes of Aldur",
   "builds": [
@@ -8,7 +8,7 @@
       "className": "Spirit Walker",
       "leagueName": "Runes of Aldur",
       "summary": "灵魂行者 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 24.9,
+      "popularity": 24.7,
       "trend": -1,
       "rank": 1,
       "image": "./assets/images/builds/spirit-walker.webp",
@@ -80,7 +80,7 @@
       "className": "Gemling Legionnaire",
       "leagueName": "Runes of Aldur",
       "summary": "古灵使徒斗士 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 10.6,
+      "popularity": 10.7,
       "trend": 1,
       "rank": 3,
       "image": "./assets/images/builds/gemling-legionnaire.webp",
@@ -116,7 +116,7 @@
       "className": "Deadeye",
       "leagueName": "Runes of Aldur",
       "summary": "锐眼 在 Runes of Aldur 当前排行靠前，可点进 poe.ninja 查看具体技能、装备和天赋组合。",
-      "popularity": 6.2,
+      "popularity": 6.3,
       "trend": 1,
       "rank": 4,
       "image": "./assets/images/builds/deadeye.webp",
